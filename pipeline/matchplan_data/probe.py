@@ -53,6 +53,13 @@ class ProbeResult:
     sample: str | None = None  # Anfang der Antwort, nur bei Fehlern
 
 
+def decode_body(content: bytes, encoding: str | None) -> str:
+    """UTF-8-BOM gewinnt immer; sonst die angegebene Kodierung, ohne Angabe UTF-8."""
+    if content.startswith(b"\xef\xbb\xbf"):
+        return content[3:].decode("utf-8", errors="replace")
+    return content.decode(encoding or "utf-8", errors="replace")
+
+
 def http_fetch(url: str) -> Response:
     started = time.monotonic()
     r = requests.get(
@@ -61,7 +68,7 @@ def http_fetch(url: str) -> Response:
         headers={"User-Agent": USER_AGENT, "Accept-Language": "de-DE,de;q=0.9"},
     )
     ctype = r.headers.get("Content-Type", "")
-    text = "" if ctype.startswith("image/") else r.text
+    text = "" if ctype.startswith("image/") else decode_body(r.content, r.encoding)
     return Response(r.status_code, text, ctype, int((time.monotonic() - started) * 1000))
 
 
@@ -108,8 +115,6 @@ def _json_list_nonempty(r: Response) -> bool:
 TARGETS: list[ProbeTarget] = [
     ProbeTarget("openligadb", "OpenLigaDB", "https://api.openligadb.de/getmatchdata/bl1/2026",
                 _json_list_nonempty, "Spielplan, Ergebnisse, Tabelle"),
-    ProbeTarget("fotmob_api", "FotMob (API)", "https://www.fotmob.com/api/leagues?id=54",
-                lambda r: '"table"' in r.text, "Spielstatistik, Noten, Kader"),
     ProbeTarget("fotmob_web", "FotMob (Webseite)", "https://www.fotmob.com/leagues/54/overview/bundesliga",
                 lambda r: "__NEXT_DATA__" in r.text, "Spielstatistik, Noten, Kader"),
     ProbeTarget("understat", "Understat", "https://understat.com/league/Bundesliga/2026",
@@ -126,7 +131,7 @@ TARGETS: list[ProbeTarget] = [
     ProbeTarget("clubelo", "ClubElo", "http://api.clubelo.com/Bayern",
                 lambda r: r.text.startswith("Rank,Club"), "Elo-Stärke der Teams"),
     ProbeTarget("footballdata", "football-data.co.uk", "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-                lambda r: r.text.lstrip("\ufeff").startswith("Div,"), "Quoten, historische Ergebnisse"),
+                lambda r: r.text.startswith("Div,"), "Quoten, historische Ergebnisse"),
 ]
 
 

@@ -48,11 +48,11 @@ import json
 from datetime import datetime, timezone
 
 from matchplan_data import probe
-from matchplan_data.probe import TARGETS, ProbeResult, build_report
+from matchplan_data.probe import TARGETS, ProbeResult, build_report, decode_body
 
 
 def test_targets_cover_all_spec_sources():
-    assert [t.key for t in TARGETS] == ["openligadb", "fotmob_api", "fotmob_web", "understat", "bundesliga",
+    assert [t.key for t in TARGETS] == ["openligadb", "fotmob_web", "understat", "bundesliga",
                                         "ligainsider", "ligainsider_img", "transfermarkt", "clubelo", "footballdata"]
 
 
@@ -82,7 +82,7 @@ def test_main_writes_report(tmp_path, monkeypatch):
     monkeypatch.setattr(probe.time, "sleep", lambda s: None)
     out = tmp_path / "sub" / "probe.json"
     assert probe.main(["--out", str(out)]) == 0
-    assert json.loads(out.read_text(encoding="utf-8"))["total"] == 10
+    assert json.loads(out.read_text(encoding="utf-8"))["total"] == 9
 
 
 def test_failed_result_keeps_short_sample_of_response():
@@ -94,3 +94,15 @@ def test_failed_result_keeps_short_sample_of_response():
 def test_ok_result_has_no_sample():
     res = run_probe([ok_target()], lambda u: Response(200, "MARK", "text/html", 1), sleep=lambda s: None)
     assert res[0].sample is None
+
+
+def test_decode_body_strips_utf8_bom_even_if_server_claims_latin1():
+    assert decode_body("\ufeffDiv,Date".encode("utf-8"), "ISO-8859-1") == "Div,Date"
+
+
+def test_decode_body_respects_declared_encoding_without_bom():
+    assert decode_body("Müller".encode("latin-1"), "ISO-8859-1") == "Müller"
+
+
+def test_decode_body_defaults_to_utf8():
+    assert decode_body("Kō Itakura".encode("utf-8"), None) == "Kō Itakura"
