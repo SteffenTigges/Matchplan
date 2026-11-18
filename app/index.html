@@ -11,12 +11,15 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="apple-touch-icon" href="./icon-192.png" />
     <link rel="icon" type="image/png" href="./icon-192.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" />
     <title>Matchplan</title>
   </head>
   <body>
-    <header class="top"><h1>Matchplan</h1><span class="muted">Phase 1 · Machbarkeit</span></header>
-    <main id="app"><p class="muted">Lädt …</p></main>
+    <div class="app">
+      <header class="top"><div class="hrow" id="hdr"><div><div class="sub">Matchplan</div><h1>Lädt …</h1></div></div></header>
+      <main id="app"></main>
+    </div>
+    <nav class="tabs" aria-label="Hauptbereiche"><div class="in" id="tabs"></div></nav>
     <script type="module" src="./src/main.ts"></script>
   </body>
 </html>
