@@ -32,3 +32,14 @@ test("escapes_source_text", () => {
   const evil = { ...base, sources: [{ ...base.sources[1], error: "<img src=x>" }] };
   expect(renderStatus(evil, new Date())).not.toContain("<img src=x>");
 });
+
+test("unreadable_report_time_does_not_throw", () => {
+  const broken = { ...base, checked_at: "kaputt" };
+  expect(() => renderStatus(broken, new Date())).not.toThrow();
+  expect(renderStatus(broken, new Date())).toContain("Abruf-Datei unlesbar.");
+});
+
+test("report_without_sources_does_not_throw", () => {
+  const broken = { checked_at: base.checked_at } as unknown as ProbeReport;
+  expect(renderStatus(broken, new Date())).toContain("Abruf-Datei unlesbar.");
+});

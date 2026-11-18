@@ -11,10 +11,14 @@ async function loadReport(): Promise<ProbeReport | null> {
 }
 
 async function start(): Promise<void> {
-  const root = document.getElementById("app")!;
-  root.innerHTML = renderStatus(await loadReport(), new Date());
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);
+  }
+  const root = document.getElementById("app")!;
+  try {
+    root.innerHTML = renderStatus(await loadReport(), new Date());
+  } catch {
+    root.innerHTML = renderStatus(null, new Date());
   }
 }
 

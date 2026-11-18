@@ -28,11 +28,13 @@ const berlin = (d: Date): string =>
     timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit",
   }).format(d);
 
+const message = (text: string): string =>
+  `<section class="card"><h2>Quellen-Check</h2><p class="muted">${text}</p></section>`;
+
 export function renderStatus(report: ProbeReport | null, now: Date): string {
-  if (!report) {
-    return `<section class="card"><h2>Quellen-Check</h2><p class="muted">Noch kein Abruf gelaufen.</p></section>`;
-  }
+  if (!report) return message("Noch kein Abruf gelaufen.");
   const checked = new Date(report.checked_at);
+  if (Number.isNaN(checked.getTime()) || !Array.isArray(report.sources)) return message("Abruf-Datei unlesbar.");
   const stale = now.getTime() - checked.getTime() > STALE_MS;
   const rows = report.sources
     .map(

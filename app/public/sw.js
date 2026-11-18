@@ -1,5 +1,6 @@
-// Matchplan Service Worker: App-Hülle aus dem Speicher, Daten immer zuerst frisch aus dem Netz.
-const CACHE = "matchplan-v1";
+// Matchplan Service Worker: Seiten und Daten zuerst frisch aus dem Netz (damit neue Versionen ankommen),
+// unveränderliche Dateien (assets/ mit Hash im Namen, Icons) aus dem Speicher. Offline: Speicher.
+const CACHE = "matchplan-v2";
 const SHELL = ["./", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -20,7 +21,7 @@ self.addEventListener("fetch", (e) => {
     if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }
     return res;
   };
-  if (url.pathname.includes("/data/")) {
+  if (e.request.mode === "navigate" || url.pathname.includes("/data/") || url.pathname.endsWith(".webmanifest")) {
     e.respondWith(fetch(e.request).then(put).catch(() => caches.match(e.request)));
   } else {
     e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request).then(put)));

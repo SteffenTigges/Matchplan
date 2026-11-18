@@ -106,3 +106,14 @@ def test_decode_body_respects_declared_encoding_without_bom():
 
 def test_decode_body_defaults_to_utf8():
     assert decode_body("Kō Itakura".encode("utf-8"), None) == "Kō Itakura"
+
+
+def test_report_time_has_whole_seconds_only():
+    now = datetime(2026, 11, 18, 15, 19, 35, 252934, tzinfo=timezone.utc)
+    assert build_report([], now)["checked_at"] == "2026-11-18T15:19:35+00:00"
+
+
+def test_bundesliga_check_rejects_page_that_only_mentions_distance():
+    t = next(t for t in TARGETS if t.key == "bundesliga")
+    assert not t.check(Response(200, "<p>keep your distance</p>", "text/html", 1))
+    assert t.check(Response(200, "<h2>Distance covered (km)</h2>", "text/html", 1))

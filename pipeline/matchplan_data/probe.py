@@ -119,8 +119,8 @@ TARGETS: list[ProbeTarget] = [
                 lambda r: "__NEXT_DATA__" in r.text, "Spielstatistik, Noten, Kader"),
     ProbeTarget("understat", "Understat", "https://understat.com/league/Bundesliga/2026",
                 lambda r: "teamsData" in r.text, "xG pro Schuss, Schusskarten"),
-    ProbeTarget("bundesliga", "bundesliga.com", "https://www.bundesliga.com/en/bundesliga/stats/players",
-                lambda r: "Distance covered" in r.text or "distance" in r.text, "Laufdaten, Match Facts"),
+    ProbeTarget("bundesliga", "bundesliga.com", "https://www.bundesliga.com/en/bundesliga/stats/players/distance",
+                lambda r: "Distance covered" in r.text, "Laufdaten, Match Facts"),
     ProbeTarget("ligainsider", "Ligainsider", "https://www.ligainsider.de/borussia-moenchengladbach/5/",
                 lambda r: r.text.count("player_position_row") >= 4, "Voraussichtliche Aufstellungen, Ausfälle"),
     ProbeTarget("ligainsider_img", "Ligainsider (Bilder)",
@@ -137,7 +137,7 @@ TARGETS: list[ProbeTarget] = [
 
 def build_report(results: list[ProbeResult], now: datetime) -> dict:
     return {
-        "checked_at": now.isoformat(),
+        "checked_at": now.isoformat(timespec="seconds"),
         "ok_count": sum(1 for r in results if r.ok),
         "total": len(results),
         "sources": [asdict(r) for r in results],
