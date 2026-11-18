@@ -98,7 +98,7 @@ def parse_lineup_page(page: str) -> TeamLineup | None:
         return None
 
     head = _clean(re.sub(r"<[^>]+>", " ", seg[:8000]))
-    m = re.search(r"(Heimspiel|Auswärtsspiel)\s+.+?\s+gegen\s+(.+?)\s+\[?\d", head)
+    m = re.search(r"(Heimspiel|Auswärtsspiel)\s+.+?\s+gegen\s+(.+?)\s+(?:\[|\d+,\s*\d|VORSCHAU|$)", head)
     upd = re.search(r"Letzte Aktualisierung:\s*([^<]+)", page[end : end + 300]) if end > 0 else None
     return TeamLineup(
         team=_clean(title.group(1)),

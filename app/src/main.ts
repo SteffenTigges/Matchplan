@@ -59,7 +59,7 @@ async function viewFor(route: Route): Promise<string> {
     header(`${h} – ${a}`, `${day.matchday}. Spieltag`, `#spiele/${day.matchday}`);
     const lineups = !match.finished ? await loadJson<Lineups>("lineups/current.json") : null;
     const fitting = lineups && lineups.matchday === day.matchday ? lineups : null;
-    const history = fitting ? await loadJson<History>(`lineups/history-${day.matchday}.json`) : null;
+    const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
     return renderMatch(match, season, fitting, history);
   }
 

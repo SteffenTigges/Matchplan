@@ -45,3 +45,8 @@ def test_diagnose_names_the_missing_part():
     assert diagnose(broken).startswith("Abschnitt 'VORAUSSICHTLICHE AUFSTELLUNG' fehlt")
     one_missing = page.replace('class="player_position_column', 'class="x', 1)
     assert diagnose(one_missing).startswith("10 Spieler statt 11")
+
+
+def test_opponent_keeps_digits_in_name():
+    page = fixture("ligainsider_bmg.html").replace("Borussia Dortmund", "SV 07 Elversberg")
+    assert parse_lineup_page(page).opponent == "SV 07 Elversberg"

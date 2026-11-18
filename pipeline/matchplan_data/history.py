@@ -40,8 +40,8 @@ def diff_lineups(team_key: str, old: TeamLineup | None, new: TeamLineup, at: str
     return events
 
 
-def append_history(directory: Path, matchday: int, events: list[dict]) -> None:
-    path = Path(directory) / f"history-{matchday}.json"
+def append_history(directory: Path, matchday: int, events: list[dict], season: int | None = None) -> None:
+    path = Path(directory) / (f"history-{season}-{matchday}.json" if season else f"history-{matchday}.json")
     data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"matchday": matchday, "events": []}
     data["events"].extend(events)
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -2,7 +2,11 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timedelta
+
 from .teams import team_by_oldb
+
+RUNNING = timedelta(hours=3)  # so lange gilt ein angepfiffenes Spiel als „läuft gerade“
 
 BASE = "https://api.openligadb.de"
 
@@ -48,10 +52,24 @@ def transform_matches(raw: list[dict]) -> list[dict]:
     return out
 
 
-def current_matchday(matchdays: dict[int, list[dict]]) -> int:
-    for md in sorted(matchdays):
-        if any(not m["finished"] for m in matchdays[md]):
-            return md
+def _kickoff(m: dict) -> datetime | None:
+    return datetime.fromisoformat(m["kickoff"].replace("Z", "+00:00")) if m.get("kickoff") else None
+
+
+def current_matchday(matchdays: dict[int, list[dict]], now: datetime, previous: int | None = None) -> int | None:
+    """Spieltag des nächsten (oder gerade laufenden) Spiels.
+
+    Verschobene Spiele weit in der Zukunft zählen erst, wenn sie die nächsten sind.
+    Ohne bekannte Spiele bleibt der vorige Wert (oder None).
+    """
+    if not any(matchdays.values()):
+        return previous
+    upcoming = [
+        (k, md) for md, ms in matchdays.items() for m in ms
+        if not m["finished"] and (k := _kickoff(m)) is not None and k >= now - RUNNING
+    ]
+    if upcoming:
+        return min(upcoming)[1]
     return 34
 
 

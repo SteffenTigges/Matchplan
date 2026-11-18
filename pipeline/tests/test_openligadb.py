@@ -29,13 +29,37 @@ def test_unfinished_match_has_no_score():
     assert m["finished"] is False and m["score"] is None and m["halftime"] is None
 
 
+from datetime import datetime, timezone
+
+NOW = datetime(2026, 11, 18, 16, 0, tzinfo=timezone.utc)
+
+
 def test_current_matchday_is_first_with_unfinished_match():
     mds = {9: transform_matches(load("openligadb_md9.json")), 10: transform_matches(load("openligadb_md10.json"))}
-    assert current_matchday(mds) == 10
+    assert current_matchday(mds, NOW) == 10
+
+
+def test_postponed_match_does_not_freeze_current_matchday():
+    md8 = [{"id": 1, "kickoff": "2027-02-10T19:30:00Z", "home": "FCU", "away": "SGE", "finished": False}]
+    md9 = transform_matches(load("openligadb_md9.json"))
+    md10 = transform_matches(load("openligadb_md10.json"))
+    assert current_matchday({8: md8, 9: md9, 10: md10}, NOW) == 10
+
+
+def test_running_match_keeps_its_matchday():
+    md10 = transform_matches(load("openligadb_md10.json"))
+    during = datetime(2026, 11, 20, 20, 15, tzinfo=timezone.utc)  # Bayern–Köln läuft seit 45 Minuten
+    md11 = [{"id": 9, "kickoff": "2026-11-27T19:30:00Z", "home": "FCB", "away": "BVB", "finished": False}]
+    assert current_matchday({10: md10, 11: md11}, during) == 10
 
 
 def test_current_matchday_after_season_is_34():
-    assert current_matchday({34: transform_matches(load("openligadb_md9.json"))}) == 34
+    assert current_matchday({34: transform_matches(load("openligadb_md9.json"))}, NOW) == 34
+
+
+def test_no_known_matches_keeps_previous_or_none():
+    assert current_matchday({1: [], 2: []}, NOW, previous=10) == 10
+    assert current_matchday({1: [], 2: []}, NOW) is None
 
 
 def test_table_rows_have_keys_and_form():

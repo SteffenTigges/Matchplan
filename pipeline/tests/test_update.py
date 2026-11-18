@@ -59,9 +59,9 @@ def test_failed_lineup_keeps_previous_file(tmp_path):
 
 def test_second_identical_run_adds_no_history(tmp_path):
     run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
-    first = read(tmp_path / "lineups" / "history-10.json")["events"]
+    first = read(tmp_path / "lineups" / "history-2026-10.json")["events"]
     run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
-    assert read(tmp_path / "lineups" / "history-10.json")["events"] == first
+    assert read(tmp_path / "lineups" / "history-2026-10.json")["events"] == first
     assert [e["kind"] for e in first] == ["first"]
 
 
@@ -70,3 +70,59 @@ def test_failed_openligadb_keeps_previous_matchday(tmp_path):
     status = run_update(tmp_path, fake(broken={"https://api.openligadb.de/getmatchdata/bl1/2026/10"}), NOW, sleep=lambda s: None)
     assert len(read(tmp_path / "matchdays" / "10.json")["matches"]) == 2
     assert status["openligadb"]["ok"] is False
+
+
+def test_first_run_with_openligadb_down_writes_no_season_or_lineups(tmp_path):
+    def down(url):
+        if "openligadb" in url:
+            return Response(503, "", "text/plain", 1)
+        return fake()(url)
+
+    status = run_update(tmp_path, down, NOW, sleep=lambda s: None)
+    assert not (tmp_path / "season.json").exists()
+    assert not (tmp_path / "lineups" / "current.json").exists()
+    assert status["openligadb"]["ok"] is False
+
+
+def test_recently_finished_matchday_is_fetched_again(tmp_path):
+    calls = []
+    base = fake()
+
+    def counting(url):
+        calls.append(url)
+        return base(url)
+
+    run_update(tmp_path, counting, NOW, sleep=lambda s: None)
+    calls.clear()
+    soon = datetime(2026, 11, 8, 20, 0, tzinfo=timezone.utc)  # Spieltag 9 erst seit kurzem beendet
+    run_update(tmp_path, counting, soon, sleep=lambda s: None)
+    assert "https://api.openligadb.de/getmatchdata/bl1/2026/9" in calls
+    calls.clear()
+    run_update(tmp_path, counting, NOW, sleep=lambda s: None)  # 10 Tage später: Spieltag 9 bleibt liegen
+    assert "https://api.openligadb.de/getmatchdata/bl1/2026/9" not in calls
+
+
+def test_lineup_for_another_game_is_not_stored(tmp_path):
+    def wrong_game(url):
+        r = fake()(url)
+        if url == team_by_key("BMG").li_url:
+            return Response(200, r.text.replace("Borussia Dortmund", "1. FC Köln"), "text/html", 1)
+        return r
+
+    status = run_update(tmp_path, wrong_game, NOW, sleep=lambda s: None)
+    assert "BMG" not in read(tmp_path / "lineups" / "current.json")["teams"]
+    assert "anderes Spiel" in status["ligainsider:BMG"]["error"]
+
+
+def test_files_carry_the_season(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    assert read(tmp_path / "matchdays" / "9.json")["season"] == 2026
+    assert (tmp_path / "lineups" / "history-2026-10.json").exists()
+
+
+def test_matchday_files_of_another_season_are_refetched(tmp_path):
+    (tmp_path / "matchdays").mkdir(parents=True)
+    (tmp_path / "matchdays" / "9.json").write_text(json.dumps({"matchday": 9, "season": 2025, "matches": [
+        {"id": 1, "kickoff": "2025-11-01T14:30:00Z", "home": "FCB", "away": "BVB", "finished": True, "score": [1, 0], "halftime": [0, 0], "goals": []}]}), encoding="utf-8")
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    assert read(tmp_path / "matchdays" / "9.json")["matches"][0]["home"] == "BVB"
