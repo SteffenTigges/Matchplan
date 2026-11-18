@@ -50,6 +50,7 @@ class ProbeResult:
     bytes: int | None
     error: str | None
     purpose: str
+    sample: str | None = None  # Anfang der Antwort, nur bei Fehlern
 
 
 def http_fetch(url: str) -> Response:
@@ -93,7 +94,8 @@ def run_probe(
         else:
             ok, error = True, None
         results.append(
-            ProbeResult(t.key, t.name, t.url, ok, resp.status, resp.elapsed_ms, len(resp.text.encode("utf-8")), error, t.purpose)
+            ProbeResult(t.key, t.name, t.url, ok, resp.status, resp.elapsed_ms, len(resp.text.encode("utf-8")), error,
+                        t.purpose, None if ok else " ".join(resp.text.split())[:200])
         )
     return results
 

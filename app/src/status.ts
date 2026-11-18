@@ -8,6 +8,7 @@ export interface ProbeSource {
   bytes: number | null;
   error: string | null;
   purpose: string;
+  sample?: string | null;
 }
 
 export interface ProbeReport {

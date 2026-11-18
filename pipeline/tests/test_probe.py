@@ -83,3 +83,14 @@ def test_main_writes_report(tmp_path, monkeypatch):
     out = tmp_path / "sub" / "probe.json"
     assert probe.main(["--out", str(out)]) == 0
     assert json.loads(out.read_text(encoding="utf-8"))["total"] == 10
+
+
+def test_failed_result_keeps_short_sample_of_response():
+    body = "<html>\n  <body>" + "x" * 500
+    res = run_probe([ok_target()], lambda u: Response(200, body, "text/html", 1), sleep=lambda s: None)
+    assert res[0].sample == "<html> <body>" + "x" * 187 and len(res[0].sample) == 200
+
+
+def test_ok_result_has_no_sample():
+    res = run_probe([ok_target()], lambda u: Response(200, "MARK", "text/html", 1), sleep=lambda s: None)
+    assert res[0].sample is None
