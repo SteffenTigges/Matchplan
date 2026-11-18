@@ -1,0 +1,451 @@
+{
+ "props": {
+  "pageProps": {
+   "data": {
+    "id": 1219540,
+    "name": "Fisnik Asllani",
+    "birthDate": {
+     "utcTime": "2002-08-08T00:00:00.000Z",
+     "timezone": "UTC"
+    },
+    "contractEnd": {
+     "utcTime": "2029-06-30T00:00:00.000Z",
+     "timezone": "UTC"
+    },
+    "primaryTeam": {
+     "teamId": 8226,
+     "teamName": "Hoffenheim",
+     "onLoan": false,
+     "teamColors": {
+      "color": "#005098",
+      "colorAlternate": "#0057a3",
+      "colorAway": "#F87B12",
+      "colorAwayAlternate": "#ffffff"
+     }
+    },
+    "positionDescription": {
+     "positions": [
+      {
+       "strPos": {
+        "label": "Attacking Midfielder",
+        "key": "centerattackingmidfielder"
+       },
+       "strPosShort": {
+        "label": "AM",
+        "key": "centerattackingmidfielder_short"
+       },
+       "isMainPosition": false
+      },
+      {
+       "strPos": {
+        "label": "Striker",
+        "key": "striker"
+       },
+       "strPosShort": {
+        "label": "ST",
+        "key": "striker_short"
+       },
+       "isMainPosition": true
+      }
+     ]
+    },
+    "playerInformation": [
+     {
+      "value": {
+       "numberValue": 191,
+       "key": null,
+       "fallback": "191 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+     },
+     {
+      "value": {
+       "numberValue": 11,
+       "options": {},
+       "key": null,
+       "fallback": 11
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+     },
+     {
+      "value": {
+       "numberValue": 24,
+       "options": {
+        "style": "unit",
+        "unit": "year",
+        "unitDisplay": "long"
+       },
+       "key": null,
+       "fallback": "24"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+     },
+     {
+      "value": {
+       "key": "both",
+       "fallback": "Both"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+     },
+     {
+      "value": {
+       "key": null,
+       "fallback": "Kosovo"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+       "type": "country",
+       "id": "KVX"
+      },
+      "countryCode": "KVX",
+      "nationalTeamId": 430156
+     },
+     {
+      "value": {
+       "numberValue": 33943829,
+       "key": null,
+       "fallback": "€33.9m"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+     },
+     {
+      "value": {
+       "dateValue": "2029-06-30",
+       "key": null,
+       "fallback": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+       }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+     }
+    ],
+    "careerHistory": {
+     "careerItems": {
+      "senior": {
+       "teamEntries": [
+        {
+         "team": "Hoffenheim",
+         "teamId": 8226,
+         "startDate": "2025-07-01T00:00:00Z",
+         "endDate": null,
+         "appearances": "47",
+         "goals": "13",
+         "transferType": {
+          "text": "back from loan",
+          "localizationKey": "transfer_type_back_from_loan"
+         }
+        },
+        {
+         "team": "Elversberg",
+         "teamId": 8232,
+         "startDate": "2024-07-23T00:00:00Z",
+         "endDate": "2025-06-30T00:00:00Z",
+         "appearances": "37",
+         "goals": "19",
+         "transferType": {
+          "text": "on loan",
+          "localizationKey": "on_loan"
+         }
+        },
+        {
+         "team": "Hoffenheim",
+         "teamId": 8226,
+         "startDate": "2024-07-01T00:00:00Z",
+         "endDate": "2024-07-23T00:00:00Z",
+         "appearances": null,
+         "goals": null,
+         "transferType": {
+          "text": "back from loan",
+          "localizationKey": "transfer_type_back_from_loan"
+         }
+        },
+        {
+         "team": "Austria Wien",
+         "teamId": 10011,
+         "startDate": "2023-08-31T00:00:00Z",
+         "endDate": "2024-06-30T00:00:00Z",
+         "appearances": "21",
+         "goals": "5",
+         "transferType": {
+          "text": "on loan",
+          "localizationKey": "on_loan"
+         }
+        },
+        {
+         "team": "Hoffenheim",
+         "teamId": 8226,
+         "startDate": "2023-07-01T00:00:00Z",
+         "endDate": "2023-08-31T00:00:00Z",
+         "appearances": null,
+         "goals": null,
+         "transferType": {
+          "text": "back from loan",
+          "localizationKey": "transfer_type_back_from_loan"
+         }
+        },
+        {
+         "team": "Hoffenheim",
+         "teamId": 8226,
+         "startDate": "2021-11-19T00:00:00Z",
+         "endDate": "2023-08-31T00:00:00Z",
+         "appearances": "10",
+         "goals": "0",
+         "transferType": null
+        },
+        {
+         "team": "Hoffenheim II",
+         "teamId": 94940,
+         "startDate": "2020-07-01T00:00:00Z",
+         "endDate": "2023-08-31T00:00:00Z",
+         "appearances": "53",
+         "goals": "17",
+         "transferType": null
+        }
+       ]
+      },
+      "national team": {
+       "teamEntries": [
+        {
+         "team": "Kosovo",
+         "teamId": 430156,
+         "startDate": "2024-08-30T00:00:00Z",
+         "endDate": null,
+         "appearances": "22",
+         "goals": "5",
+         "transferType": null
+        }
+       ]
+      },
+      "national team youth": {
+       "teamEntries": [
+        {
+         "team": "Germany U20",
+         "teamId": 5878,
+         "startDate": "2023-03-01T00:00:00Z",
+         "endDate": "2023-11-16T00:00:00Z",
+         "appearances": null,
+         "goals": null,
+         "transferType": null
+        },
+        {
+         "team": "Kosovo U17",
+         "teamId": 430157,
+         "startDate": "2019-03-20T00:00:00Z",
+         "endDate": "2019-04-30T00:00:00Z",
+         "appearances": "3",
+         "goals": "0",
+         "transferType": null
+        }
+       ]
+      },
+      "youth": {
+       "teamEntries": [
+        {
+         "team": "1. FC Union Berlin Under 19",
+         "teamId": -1,
+         "startDate": "2019-07-01T00:00:00Z",
+         "endDate": "2020-06-30T00:00:00Z",
+         "appearances": "16",
+         "goals": "15",
+         "transferType": null
+        },
+        {
+         "team": "1. FC Union Berlin Under 17",
+         "teamId": -1,
+         "startDate": "2018-07-01T00:00:00Z",
+         "endDate": "2019-06-30T00:00:00Z",
+         "appearances": "23",
+         "goals": "23",
+         "transferType": null
+        }
+       ]
+      }
+     }
+    },
+    "transfers": [
+     {
+      "fromClub": "Hoffenheim",
+      "toClub": "Elversberg",
+      "transferDate": "2024-07-23",
+      "fee": {
+       "feeText": "on loan",
+       "localizedFeeText": "on_loan"
+      },
+      "onLoan": true
+     },
+     {
+      "fromClub": "Hoffenheim",
+      "toClub": "Austria Wien",
+      "transferDate": "2023-08-31",
+      "fee": {
+       "feeText": "on loan",
+       "localizedFeeText": "on_loan"
+      },
+      "onLoan": true
+     }
+    ],
+    "firstSeasonStats": {
+     "statsSection": {
+      "items": [
+       {
+        "title": "Shooting",
+        "items": [
+         {
+          "title": "Goals",
+          "localizedTitleId": "goals",
+          "statValue": "1",
+          "per90": 0.22556390977443608,
+          "percentileRankPer90": 47.61904761904761,
+          "statFormat": "number"
+         },
+         {
+          "title": "xG",
+          "localizedTitleId": "expected_goals",
+          "statValue": "2.42",
+          "per90": 0.5463834586466165,
+          "percentileRankPer90": 87.3015873015873,
+          "statFormat": "fraction"
+         },
+         {
+          "title": "xGOT",
+          "localizedTitleId": "expected_goals_on_target",
+          "statValue": "1.54",
+          "per90": 0.3468045112781955,
+          "percentileRankPer90": 65.07936507936508,
+          "statFormat": "fraction"
+         },
+         {
+          "title": "xG excl. penalty",
+          "localizedTitleId": "non_penalty_xg",
+          "statValue": "2.42",
+          "per90": 0.5463834586466165,
+          "percentileRankPer90": 87.3015873015873,
+          "statFormat": "fraction"
+         }
+        ]
+       },
+       {
+        "title": "Passing",
+        "items": [
+         {
+          "title": "Assists",
+          "localizedTitleId": "assists",
+          "statValue": "2",
+          "per90": 0.45112781954887216,
+          "percentileRankPer90": 79.36507936507937,
+          "statFormat": "number"
+         },
+         {
+          "title": "xA",
+          "localizedTitleId": "expected_assists",
+          "statValue": "0.82",
+          "per90": 0.18571763909774436,
+          "percentileRankPer90": 47.61904761904761,
+          "statFormat": "fraction"
+         },
+         {
+          "title": "Accurate passes",
+          "localizedTitleId": "successful_passes",
+          "statValue": "108",
+          "per90": 24.360902255639097,
+          "percentileRankPer90": 58.730158730158735,
+          "statFormat": "number"
+         },
+         {
+          "title": "Pass accuracy",
+          "localizedTitleId": "successful_passes_accuracy",
+          "statValue": "75.5",
+          "per90": 75.52447552447552,
+          "percentileRankPer90": 30.158730158730158,
+          "statFormat": "percent"
+         }
+        ]
+       },
+       {
+        "title": "Possession",
+        "items": [
+         {
+          "title": "Dribbles",
+          "localizedTitleId": "dribbles_succeeded",
+          "statValue": "7",
+          "per90": 1.5789473684210527,
+          "percentileRankPer90": 63.49206349206349,
+          "statFormat": "number"
+         },
+         {
+          "title": "Dribbles success rate",
+          "localizedTitleId": "won_contest_subtitle",
+          "statValue": "46.7",
+          "per90": 46.666666666666664,
+          "percentileRankPer90": 44.44444444444444,
+          "statFormat": "percent"
+         },
+         {
+          "title": "Duels won",
+          "localizedTitleId": "duel_won",
+          "statValue": "24",
+          "per90": 5.413533834586466,
+          "percentileRankPer90": 66.66666666666666,
+          "statFormat": "number"
+         },
+         {
+          "title": "Duels won %",
+          "localizedTitleId": "duel_won_percent",
+          "statValue": "38.7",
+          "per90": 38.70967741935484,
+          "percentileRankPer90": 30.158730158730158,
+          "statFormat": "percent"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    "traits": {
+     "key": "stats_comparison_att_mid_wingers",
+     "title": "Stats compared to other attacking midfielders/wingers",
+     "items": [
+      {
+       "key": "chances_created",
+       "title": "Chances created",
+       "value": 0.29
+      },
+      {
+       "key": "aerials_won",
+       "title": "Aerial duels",
+       "value": 0.63
+      },
+      {
+       "key": "defensive_actions",
+       "title": "Defensive actions",
+       "value": 0.18
+      },
+      {
+       "key": "goals",
+       "title": "Goals",
+       "value": 0.57
+      },
+      {
+       "key": "shot_attempts",
+       "title": "Shot attempts",
+       "value": 0.81
+      },
+      {
+       "key": "touches",
+       "title": "Touches",
+       "value": 0.14
+      }
+     ]
+    }
+   }
+  }
+ }
+}

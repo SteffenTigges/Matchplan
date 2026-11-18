@@ -160,3 +160,98 @@ def parse_match(data: dict) -> dict:
 
     return {"v": FORMAT_VERSION, "fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,
             "momentum": momentum, "zones": zones, "lineups": lineups, "players": players}
+
+
+# ---------------- Spielerseiten ----------------
+
+def player_url(player_id: int) -> str:
+    return f"{BASE}/players/{player_id}/x"
+
+
+GROUP_DE = {"Shooting": "Abschluss", "Passing": "Passspiel", "Possession": "Ballbesitz & Dribbling",
+            "Defending": "Defensive", "Discipline": "Disziplin", "Goalkeeping": "Torwartspiel"}
+POS_DE = {"Goalkeeper": "Torwart", "Center Back": "Innenverteidiger", "Left Back": "Linksverteidiger",
+          "Right Back": "Rechtsverteidiger", "Left Wing-Back": "Linker Schienenspieler", "Right Wing-Back": "Rechter Schienenspieler",
+          "Defensive Midfielder": "Defensives Mittelfeld", "Central Midfielder": "Zentrales Mittelfeld",
+          "Attacking Midfielder": "Offensives Mittelfeld", "Left Midfielder": "Linkes Mittelfeld", "Right Midfielder": "Rechtes Mittelfeld",
+          "Left Winger": "Linksaußen", "Right Winger": "Rechtsaußen", "Striker": "Stürmer"}
+FOOT_DE = {"both": "beidfüßig", "right": "rechts", "left": "links"}
+STAT_DE = {
+    "goals": "Tore", "expected_goals": "xG", "expected_goals_on_target": "xGOT", "non_penalty_xg": "xG ohne Elfmeter",
+    "shots": "Schüsse", "ShotsOnTarget": "Schüsse aufs Tor", "assists": "Vorlagen", "expected_assists": "xA",
+    "successful_passes": "Angekommene Pässe", "successful_passes_accuracy": "Passquote", "long_balls_accurate": "Lange Bälle angekommen",
+    "long_ball_succeeeded_accuracy": "Quote lange Bälle", "chances_created": "Torchancen vorbereitet", "crosses_succeeeded": "Flanken angekommen",
+    "crosses_succeeeded_accuracy": "Flankenquote", "dribbles_succeeded": "Erfolgreiche Dribblings", "won_contest_subtitle": "Dribbling-Quote",
+    "touches": "Ballkontakte", "touches_opp_box": "Ballaktionen im gegn. Strafraum", "dispossessed": "Ballverluste im Zweikampf",
+    "duel_won": "Zweikämpfe gewonnen", "duel_won_percent": "Zweikampfquote", "aerials_won": "Luftzweikämpfe gewonnen",
+    "aerials_won_percent": "Luftzweikampfquote", "fouls_won": "Gefoult worden", "matchstats.headers.tackles": "Tacklings",
+    "tackles_succeeded": "Tacklings", "interceptions": "Abgefangene Bälle", "shot_blocked": "Geblockte Schüsse", "clearances": "Klärungen",
+    "recoveries": "Ballgewinne", "poss_won_att_3rd_team_title": "Ballgewinne im Angriffsdrittel", "dribbled_past": "Ausgedribbelt worden",
+    "fouls": "Fouls", "yellow_cards": "Gelbe Karten", "red_cards": "Rote Karten", "saves": "Paraden", "save_percentage": "Paradenquote",
+    "goals_conceded": "Gegentore", "clean_sheet_team_title": "Spiele ohne Gegentor", "goals_prevented": "Verhinderte Tore",
+    "headed_shots": "Kopfballschüsse", "line_breaking_passes": "Linien brechende Pässe", "big_chance_created_team_title": "Großchancen vorbereitet",
+    "penalty_won_title": "Elfmeter herausgeholt", "defensive_actions": "Defensivaktionen", "blocked_shots": "Geblockte Abschlüsse",
+    "goals_conceded_while_on_pitch": "Gegentore während auf dem Platz", "expected_goals_against_while_on_pitch": "Zugelassene xG während auf dem Platz",
+}
+
+
+def _date(v) -> str | None:
+    if isinstance(v, dict):
+        v = v.get("utcTime") or v.get("dateValue")
+    return str(v)[:10] if v else None
+
+
+def _info(data: dict, title: str):
+    for i in data.get("playerInformation") or []:
+        if i.get("title") == title:
+            return i.get("value") or {}
+    return {}
+
+
+def _career(entries: list[dict]) -> list[dict]:
+    out = []
+    for e in entries or []:
+        tt = (e.get("transferType") or {}).get("localizationKey") or ""
+        kind = "Leihe" if tt == "on_loan" else "Leihende" if "back_from_loan" in tt else None
+        out.append({"team": e.get("team"), "start": _date(e.get("startDate")), "end": _date(e.get("endDate")),
+                    "apps": _num(e.get("appearances")), "goals": _num(e.get("goals")), "kind": kind})
+    return out
+
+
+def parse_player(data: dict) -> dict:
+    d = data["props"]["pageProps"]["data"]
+    pt = d.get("primaryTeam") or {}
+    team = _key(pt.get("teamId"))
+    foot = _info(d, "Preferred foot").get("key")
+    positions = sorted(
+        ({"label": POS_DE.get((p.get("strPos") or {}).get("label"), (p.get("strPos") or {}).get("label")),
+          "short": (p.get("strPosShort") or {}).get("label"), "main": bool(p.get("isMainPosition"))}
+         for p in (d.get("positionDescription") or {}).get("positions") or []),
+        key=lambda p: not p["main"],
+    )
+    stats = []
+    for g in ((d.get("firstSeasonStats") or {}).get("statsSection") or {}).get("items") or []:
+        for s in g.get("items") or []:
+            key = s.get("localizedTitleId")
+            stats.append({"group": GROUP_DE.get(g.get("title"), g.get("title")), "key": key,
+                          "title": STAT_DE.get(key, s.get("title")), "value": _num(s.get("statValue")),
+                          "per90": _num(s.get("per90")), "pct": _num(s.get("percentileRankPer90"))})
+    tr = d.get("traits")
+    traits = {"title": tr.get("title"), "items": [{"key": i.get("key"), "title": i.get("title"), "value": _num(i.get("value"))} for i in tr.get("items") or []]} if tr else None
+    ci = (d.get("careerHistory") or {}).get("careerItems") or {}
+    fee_de = {"on loan": "Leihe", "free transfer": "ablösefrei", "back from loan": "Leihende"}
+    return {
+        "id": _num(d.get("id")), "name": d.get("name"), "team": team, "team_name": pt.get("teamName"),
+        "birth_date": _date(d.get("birthDate")), "age": _num(_info(d, "Age").get("numberValue")),
+        "height_cm": _num(_info(d, "Height").get("numberValue")), "foot": FOOT_DE.get(foot, foot),
+        "country": _info(d, "Country").get("fallback"), "shirt": _num(_info(d, "Shirt").get("numberValue")),
+        "market_value": _num(_info(d, "Market value").get("numberValue")), "contract_end": _date(d.get("contractEnd")),
+        "positions": positions, "stats": stats, "traits": traits,
+        "career": {"senior": _career((ci.get("senior") or {}).get("teamEntries")),
+                   "youth": _career((ci.get("youth") or {}).get("teamEntries")),
+                   "national": _career((ci.get("national team") or {}).get("teamEntries")),
+                   "national_youth": _career((ci.get("national team youth") or {}).get("teamEntries"))},
+        "transfers": [{"from": t.get("fromClub"), "to": t.get("toClub"), "date": _date(t.get("transferDate")),
+                       "fee": fee_de.get(((t.get("fee") or {}).get("feeText") or "").lower(), (t.get("fee") or {}).get("feeText")),
+                       "loan": bool(t.get("onLoan"))} for t in d.get("transfers") or []],
+    }
