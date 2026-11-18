@@ -109,3 +109,23 @@ def parse_lineup_page(page: str) -> TeamLineup | None:
         opponent=_clean(m.group(2)) if m else None,
         home=(m.group(1) == "Heimspiel") if m else None,
     )
+
+
+def diagnose(page: str) -> str:
+    """Kurze Begründung, warum parse_lineup_page() nichts findet ('ok', wenn alles passt)."""
+    title = re.search(r"<title>(.*?)</title>", page, re.S | re.I)
+    title_text = _clean(title.group(1))[:80] if title else "(kein Titel)"
+    if not _TITLE.search(page):
+        return f"Titel ohne 'Voraussichtliche Aufstellung': {title_text} · {len(page)} Zeichen"
+    start = page.find("VORAUSSICHTLICHE AUFSTELLUNG")
+    if start < 0:
+        return f"Abschnitt 'VORAUSSICHTLICHE AUFSTELLUNG' fehlt · {len(page)} Zeichen"
+    end = page.find("Letzte Aktualisierung", start)
+    seg = page[start : end if end > 0 else len(page)]
+    rows = [r for r in seg.split('class="player_position_row')[1:]]
+    cols = [c for r in rows for c in r.split('class="player_position_column')[1:]]
+    starters = sum(1 for c in cols if _players(c))
+    if starters != 11:
+        return (f"{starters} Spieler statt 11 · {len(rows)} Reihen · {len(cols)} Spalten · "
+                f"{seg.count('sub_child')} sub_child · {seg.count('player_name')} Namen")
+    return "ok"

@@ -33,3 +33,15 @@ def test_parses_missing_players():
 
 def test_page_without_lineup_returns_none():
     assert parse_lineup_page("<html><title>Adblocker erkannt</title></html>") is None
+
+
+def test_diagnose_names_the_missing_part():
+    from matchplan_data.ligainsider import diagnose
+
+    assert diagnose("<html><title>Adblocker erkannt</title></html>").startswith("Titel ohne 'Voraussichtliche Aufstellung'")
+    page = fixture("ligainsider_bmg.html")
+    assert diagnose(page) == "ok"
+    broken = page.replace("VORAUSSICHTLICHE AUFSTELLUNG", "XXX")
+    assert diagnose(broken).startswith("Abschnitt 'VORAUSSICHTLICHE AUFSTELLUNG' fehlt")
+    one_missing = page.replace('class="player_position_column', 'class="x', 1)
+    assert diagnose(one_missing).startswith("10 Spieler statt 11")

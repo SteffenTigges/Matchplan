@@ -12,7 +12,7 @@ from typing import Callable
 
 from . import probe
 from .history import append_history, diff_lineups
-from .ligainsider import Player, Slot, TeamLineup, parse_lineup_page
+from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
 from .openligadb import current_matchday, matchday_url, table_url, transform_matches, transform_table
 from .probe import Fetcher
 from .teams import TEAMS
@@ -93,9 +93,10 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
     for t in TEAMS:
         key = f"ligainsider:{t.key}"
         try:
-            lu = parse_lineup_page(get(t.li_url))
+            page = get(t.li_url)
+            lu = parse_lineup_page(page)
             if lu is None:
-                raise RuntimeError("Keine Aufstellung auf der Seite")
+                raise RuntimeError(f"Keine Aufstellung auf der Seite: {diagnose(page)}")
         except Exception as e:
             status[key] = {"ok": False, "at": at, "error": str(e)}
             if t.key in prev_teams:
