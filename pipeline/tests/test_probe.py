@@ -41,3 +41,45 @@ def test_raising_check_counts_as_unexpected_content():
 
     res = run_probe([ok_target(bad_check)], lambda u: Response(200, "x", "text/html", 1), sleep=lambda s: None)
     assert res[0].ok is False and res[0].error == "Inhalt unerwartet"
+
+
+# ---------- Task 2: Ziele, Bericht, Kommandozeile ----------
+import json
+from datetime import datetime, timezone
+
+from matchplan_data import probe
+from matchplan_data.probe import TARGETS, ProbeResult, build_report
+
+
+def test_targets_cover_all_spec_sources():
+    assert [t.key for t in TARGETS] == ["openligadb", "fotmob_api", "fotmob_web", "understat", "bundesliga",
+                                        "ligainsider", "ligainsider_img", "transfermarkt", "clubelo", "footballdata"]
+
+
+def test_ligainsider_check_needs_lineup_rows():
+    t = next(t for t in TARGETS if t.key == "ligainsider")
+    assert t.check(Response(200, 'class="player_position_row"' * 4, "text/html", 1))
+    assert not t.check(Response(200, "<html>Adblocker erkannt</html>", "text/html", 1))
+
+
+def test_openligadb_check_needs_nonempty_json_list():
+    t = next(t for t in TARGETS if t.key == "openligadb")
+    assert t.check(Response(200, '[{"matchID": 1}]', "application/json", 1))
+    assert not t.check(Response(200, "[]", "application/json", 1))
+
+
+def test_build_report_counts_and_serializes():
+    now = datetime(2026, 11, 18, 17, 0, tzinfo=timezone.utc)
+    r = [ProbeResult("a", "A", "u", True, 200, 5, 10, None, "p"),
+         ProbeResult("b", "B", "u", False, None, None, None, "HTTP 403", "p")]
+    rep = build_report(r, now)
+    assert rep["checked_at"] == "2026-11-18T17:00:00+00:00" and rep["ok_count"] == 1 and rep["total"] == 2
+    assert rep["sources"][1]["error"] == "HTTP 403"
+
+
+def test_main_writes_report(tmp_path, monkeypatch):
+    monkeypatch.setattr(probe, "http_fetch", lambda u: Response(500, "", "text/html", 1))
+    monkeypatch.setattr(probe.time, "sleep", lambda s: None)
+    out = tmp_path / "sub" / "probe.json"
+    assert probe.main(["--out", str(out)]) == 0
+    assert json.loads(out.read_text(encoding="utf-8"))["total"] == 10

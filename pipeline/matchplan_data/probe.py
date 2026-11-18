@@ -2,8 +2,12 @@
 
 from __future__ import annotations
 
+import argparse
+import json
 import time
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Callable
 
 import requests
@@ -92,3 +96,60 @@ def run_probe(
             ProbeResult(t.key, t.name, t.url, ok, resp.status, resp.elapsed_ms, len(resp.text.encode("utf-8")), error, t.purpose)
         )
     return results
+
+
+def _json_list_nonempty(r: Response) -> bool:
+    data = json.loads(r.text)
+    return isinstance(data, list) and len(data) >= 1
+
+
+TARGETS: list[ProbeTarget] = [
+    ProbeTarget("openligadb", "OpenLigaDB", "https://api.openligadb.de/getmatchdata/bl1/2026",
+                _json_list_nonempty, "Spielplan, Ergebnisse, Tabelle"),
+    ProbeTarget("fotmob_api", "FotMob (API)", "https://www.fotmob.com/api/leagues?id=54",
+                lambda r: '"table"' in r.text, "Spielstatistik, Noten, Kader"),
+    ProbeTarget("fotmob_web", "FotMob (Webseite)", "https://www.fotmob.com/leagues/54/overview/bundesliga",
+                lambda r: "__NEXT_DATA__" in r.text, "Spielstatistik, Noten, Kader"),
+    ProbeTarget("understat", "Understat", "https://understat.com/league/Bundesliga/2026",
+                lambda r: "teamsData" in r.text, "xG pro Schuss, Schusskarten"),
+    ProbeTarget("bundesliga", "bundesliga.com", "https://www.bundesliga.com/en/bundesliga/stats/players",
+                lambda r: "Distance covered" in r.text or "distance" in r.text, "Laufdaten, Match Facts"),
+    ProbeTarget("ligainsider", "Ligainsider", "https://www.ligainsider.de/borussia-moenchengladbach/5/",
+                lambda r: r.text.count("player_position_row") >= 4, "Voraussichtliche Aufstellungen, Ausfälle"),
+    ProbeTarget("ligainsider_img", "Ligainsider (Bilder)",
+                "https://cdn.ligainsider.de/images/teams/small/fc-bayern-muenchen-wappen.png",
+                lambda r: r.content_type.startswith("image/"), "Spielerfotos, Wappen"),
+    ProbeTarget("transfermarkt", "Transfermarkt", "https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1",
+                lambda r: "Bundesliga" in r.text and "captcha" not in r.text.lower(), "Karrieren, Marktwerte"),
+    ProbeTarget("clubelo", "ClubElo", "http://api.clubelo.com/Bayern",
+                lambda r: r.text.startswith("Rank,Club"), "Elo-Stärke der Teams"),
+    ProbeTarget("footballdata", "football-data.co.uk", "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+                lambda r: r.text.lstrip("\ufeff").startswith("Div,"), "Quoten, historische Ergebnisse"),
+]
+
+
+def build_report(results: list[ProbeResult], now: datetime) -> dict:
+    return {
+        "checked_at": now.isoformat(),
+        "ok_count": sum(1 for r in results if r.ok),
+        "total": len(results),
+        "sources": [asdict(r) for r in results],
+    }
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Prüft alle Datenquellen und schreibt einen Bericht.")
+    parser.add_argument("--out", required=True, type=Path)
+    args = parser.parse_args(argv)
+    results = run_probe(TARGETS, lambda u: http_fetch(u), sleep=lambda s: time.sleep(s))
+    report = build_report(results, datetime.now(timezone.utc))
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    for r in results:
+        print(f"{'OK  ' if r.ok else 'FAIL'} {r.name:24} {r.status or '-':>4} {r.error or ''}")
+    print(f"{report['ok_count']} von {report['total']} Quellen erreichbar")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
