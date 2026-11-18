@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18T15:16:08.519912+00:00",
+  "checked_at": "2026-11-18T15:18:06.520190+00:00",
   "ok_count": 5,
   "total": 10,
   "sources": [
@@ -9,10 +9,11 @@
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
       "ok": true,
       "status": 200,
-      "elapsed_ms": 601,
+      "elapsed_ms": 640,
       "bytes": 356380,
       "error": null,
-      "purpose": "Spielplan, Ergebnisse, Tabelle"
+      "purpose": "Spielplan, Ergebnisse, Tabelle",
+      "sample": null
     },
     {
       "key": "fotmob_api",
@@ -20,10 +21,11 @@
       "url": "https://www.fotmob.com/api/leagues?id=54",
       "ok": false,
       "status": 404,
-      "elapsed_ms": 97,
+      "elapsed_ms": 91,
       "bytes": 0,
       "error": "HTTP 404",
-      "purpose": "Spielstatistik, Noten, Kader"
+      "purpose": "Spielstatistik, Noten, Kader",
+      "sample": ""
     },
     {
       "key": "fotmob_web",
@@ -31,10 +33,11 @@
       "url": "https://www.fotmob.com/leagues/54/overview/bundesliga",
       "ok": true,
       "status": 200,
-      "elapsed_ms": 536,
+      "elapsed_ms": 91,
       "bytes": 1019768,
       "error": null,
-      "purpose": "Spielstatistik, Noten, Kader"
+      "purpose": "Spielstatistik, Noten, Kader",
+      "sample": null
     },
     {
       "key": "understat",
@@ -42,10 +45,11 @@
       "url": "https://understat.com/league/Bundesliga/2026",
       "ok": false,
       "status": 200,
-      "elapsed_ms": 512,
+      "elapsed_ms": 585,
       "bytes": 26719,
       "error": "Inhalt unerwartet",
-      "purpose": "xG pro Schuss, Schusskarten"
+      "purpose": "xG pro Schuss, Schusskarten",
+      "sample": "<!DOCTYPE html> <html> <head> <title>Understat.com</title> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width,maximum-scale=1.0,initial-scale=1.0\"> <link href=\"/css/errors.css\""
     },
     {
       "key": "bundesliga",
@@ -53,10 +57,11 @@
       "url": "https://www.bundesliga.com/en/bundesliga/stats/players",
       "ok": true,
       "status": 200,
-      "elapsed_ms": 153,
-      "bytes": 666043,
+      "elapsed_ms": 115,
+      "bytes": 928305,
       "error": null,
-      "purpose": "Laufdaten, Match Facts"
+      "purpose": "Laufdaten, Match Facts",
+      "sample": null
     },
     {
       "key": "ligainsider",
@@ -64,10 +69,11 @@
       "url": "https://www.ligainsider.de/borussia-moenchengladbach/5/",
       "ok": true,
       "status": 200,
-      "elapsed_ms": 479,
+      "elapsed_ms": 699,
       "bytes": 269413,
       "error": null,
-      "purpose": "Voraussichtliche Aufstellungen, Ausfälle"
+      "purpose": "Voraussichtliche Aufstellungen, Ausfälle",
+      "sample": null
     },
     {
       "key": "ligainsider_img",
@@ -75,10 +81,11 @@
       "url": "https://cdn.ligainsider.de/images/teams/small/fc-bayern-muenchen-wappen.png",
       "ok": true,
       "status": 200,
-      "elapsed_ms": 506,
+      "elapsed_ms": 655,
       "bytes": 0,
       "error": null,
-      "purpose": "Spielerfotos, Wappen"
+      "purpose": "Spielerfotos, Wappen",
+      "sample": null
     },
     {
       "key": "transfermarkt",
@@ -86,10 +93,11 @@
       "url": "https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1",
       "ok": false,
       "status": 202,
-      "elapsed_ms": 200,
+      "elapsed_ms": 156,
       "bytes": 0,
       "error": "HTTP 202",
-      "purpose": "Karrieren, Marktwerte"
+      "purpose": "Karrieren, Marktwerte",
+      "sample": ""
     },
     {
       "key": "clubelo",
@@ -97,10 +105,11 @@
       "url": "http://api.clubelo.com/Bayern",
       "ok": false,
       "status": 502,
-      "elapsed_ms": 793,
+      "elapsed_ms": 814,
       "bytes": 0,
       "error": "HTTP 502",
-      "purpose": "Elo-Stärke der Teams"
+      "purpose": "Elo-Stärke der Teams",
+      "sample": ""
     },
     {
       "key": "footballdata",
@@ -108,10 +117,11 @@
       "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
       "ok": false,
       "status": 200,
-      "elapsed_ms": 851,
+      "elapsed_ms": 1064,
       "bytes": 39033,
       "error": "Inhalt unerwartet",
-      "purpose": "Quoten, historische Ergebnisse"
+      "purpose": "Quoten, historische Ergebnisse",
+      "sample": "ï»¿Div,Date,Time,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,HxG,AxG,HS,AS,HST,AST,HF,AF,HC,AC,HY,AY,HR,AR,B365H,B365D,B365A,BFDH,BFDD,BFDA,BVH,BVD,BVA,BWH,BWD,BWA,PPH,PPD,PPA,SKBH,SKBD,SKBA,MaxH,Ma"
     }
   ]
 }
