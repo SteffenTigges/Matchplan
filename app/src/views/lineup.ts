@@ -1,0 +1,67 @@
+import type { HistoryEvent, TeamInfo, TeamLineup } from "../data";
+import { berlin, crest, esc } from "../ui";
+
+const W = 200;
+const H = 380;
+
+const initials = (name: string): string =>
+  name.split(/\s+/).filter(Boolean).map((w) => w[0]!.toUpperCase()).slice(0, 2).join("");
+
+/** Spielfeld mit beiden voraussichtlichen Aufstellungen: Heim unten, Gast oben. */
+export function renderPitch(home: TeamLineup, away: TeamLineup, homeTeam: TeamInfo, awayTeam: TeamInfo): string {
+  let uid = 0;
+  const place = (lu: TeamLineup, info: TeamInfo, isHome: boolean): string => {
+    const R = lu.rows.length;
+    let out = "";
+    lu.rows.forEach((row, r) => {
+      const y0 = r === 0 ? 286 : 255 - (r - 1) * (83 / Math.max(1, R - 2));
+      const yy = H - (300 - y0) * 1.35;
+      const y = isHome ? yy : H - yy;
+      const n = row.length;
+      const w = n >= 5 ? 164 : Math.min(156, 52 * (n - 1));
+      row.forEach((slot, j) => {
+        let x = n === 1 ? 100 : 100 - w / 2 + (w * j) / (n - 1);
+        if (isHome) x = W - x; // Ligainsider listet aus Sicht der Gegenseite
+        const id = `p${++uid}`;
+        const p = slot.player;
+        out += `<g><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="10" fill="${esc(info.color)}" stroke="#fff" stroke-width="1.6"/>`;
+        out += `<text x="${x.toFixed(1)}" y="${(y + 3).toFixed(1)}" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">${esc(initials(p.name))}</text>`;
+        if (p.photo) {
+          out += `<clipPath id="${id}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="9.2"/></clipPath>`;
+          out += `<image href="${esc(p.photo)}" x="${(x - 9.2).toFixed(1)}" y="${(y - 9.2).toFixed(1)}" width="18.4" height="18.4" clip-path="url(#${id})" preserveAspectRatio="xMidYMin slice" onerror="this.remove()"/>`;
+        }
+        out += `</g>`;
+        const alt = slot.alternatives.map((a) => a.name).join(" / ");
+        const below = (isHome ? 1 : 0) ^ (n >= 5 && j % 2 === 1 ? 1 : 0);
+        const ly = below ? y + 19 : y - (alt ? 22 : 13);
+        const edge = n >= 5 && (x < 40 || x > 160);
+        const anchor = edge ? (x < 100 ? "start" : "end") : "middle";
+        const tx = edge ? (x < 100 ? x - 10 : x + 10) : x;
+        const fs = n >= 5 ? 7.2 : 7.8;
+        out += `<text x="${tx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" font-size="${fs}" font-weight="700" fill="#fff">${esc(p.name)}</text>`;
+        if (alt) out += `<text x="${tx.toFixed(1)}" y="${(ly + 8.5).toFixed(1)}" text-anchor="${anchor}" font-size="6.6" fill="#ffd27a">oder ${esc(alt)}</text>`;
+      });
+    });
+    return out;
+  };
+  const lines = `<g fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.2"><rect x="4" y="4" width="192" height="${H - 8}"/><line x1="4" y1="${H / 2}" x2="196" y2="${H / 2}"/><circle cx="100" cy="${H / 2}" r="24"/><rect x="50" y="4" width="100" height="44"/><rect x="50" y="${H - 48}" width="100" height="44"/></g>`;
+  return `<div class="pitchwrap"><svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Voraussichtliche Aufstellungen">${lines}${place(away, awayTeam, false)}${place(home, homeTeam, true)}</svg></div>`;
+}
+
+export function renderMissing(info: TeamInfo, lu: TeamLineup): string {
+  const rows = lu.missing.length
+    ? lu.missing.map((m) => `<div class="item"><span class="grow"><b>${esc(m.name)}</b><br><span class="muted">${esc(m.note || "–")}</span></span><span class="chip${/Sperre|Karte/.test(m.kind) ? "" : " bad"}">${esc(m.kind)}</span></div>`).join("")
+    : `<div class="item"><span class="muted">Keine Ausfälle gemeldet</span></div>`;
+  return `<div class="row">${crest(info, 20)}<b>${esc(info.short)}</b><span class="muted">${lu.missing.length} fehlen</span></div><div class="list">${rows}</div>`;
+}
+
+export function renderHistory(events: HistoryEvent[], teams: Record<string, TeamInfo>): string {
+  if (!events.length) return `<p class="muted">Noch keine Änderungen seit dem ersten Abruf.</p>`;
+  const colour: Record<string, string> = { first: "#64748b", formation: "#2f6fe4", in: "#13a150", out: "#e5484d", alt: "#f08a00", missing: "#e5484d", back: "#13a150" };
+  return `<div class="tline">${events
+    .map((e) => {
+      const t = teams[e.team];
+      return `<div class="tev"><span class="when">${esc(berlin(e.at)).replace(", ", "<br>")}</span><span class="rail"><i style="background:${colour[e.kind] ?? "#64748b"}"></i></span><div class="what"><div class="row" style="gap:6px">${t ? crest(t, 16) : ""}<b>${esc(t?.short ?? e.team)}</b></div><span class="muted">${esc(e.text)}</span></div></div>`;
+    })
+    .join("")}</div>`;
+}
