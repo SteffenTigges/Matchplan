@@ -53,7 +53,7 @@ const money = (v: number): string => (v >= 1e6 ? `${de(v / 1e6, 1)} Mio. €` : 
 export function renderPlayer(p: PlayerProfile | null, row: PlayerRow | null, season: Season): string {
   const id = p?.id ?? row?.id ?? 0;
   const name = p?.name ?? row?.name ?? "";
-  const t = info(season, p?.team ?? row?.team ?? null);
+  const t = info(season, p ? p.team : row?.team ?? null); // mit Profil zählt dessen aktueller Verein
   const color = t?.color ?? "#334155";
   const main = p?.positions.find((x) => x.main);
   const chips = [
@@ -74,7 +74,9 @@ export function renderPlayer(p: PlayerProfile | null, row: PlayerRow | null, sea
           .filter((s) => s.group === g)
           .map((s) => {
             const q = Math.round(s.pct ?? 0);
-            return `<div class="prow"><span>${esc(s.title)}</span><span><span class="pv">${s.value != null ? esc(String(s.value).replace(".", ",")) : "–"}</span>${s.per90 != null ? `<span class="pp">${de(s.per90, 2)} /90</span>` : ""}</span>${s.pct != null ? `<div class="pb"><i style="width:${q}%;background:${pctColor(q)}"></i></div><span class="pq">${q}</span>` : ""}</div>`;
+            const pct = s.fmt === "percent";
+            const val = s.value != null ? esc(String(s.value).replace(".", ",")) + (pct ? " %" : "") : "–";
+            return `<div class="prow"><span>${esc(s.title)}</span><span><span class="pv">${val}</span>${s.per90 != null && !pct ? `<span class="pp">${de(s.per90, 2)} /90</span>` : ""}</span>${s.pct != null ? `<div class="pb"><i style="width:${q}%;background:${pctColor(q)}"></i></div><span class="pq">${q}</span>` : ""}</div>`;
           })
           .join("")}</div></details>`)
         .join("")}<p class="muted">Quelle: FotMob</p></section>`

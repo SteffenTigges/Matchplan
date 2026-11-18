@@ -258,3 +258,15 @@ def test_fresh_player_is_not_refetched(tmp_path):
     base = fake()
     run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], NOW, sleep=lambda s: None)
     assert PLAYER not in calls
+
+
+def test_index_team_follows_profile_outside_bundesliga(tmp_path):
+    def moved(url):
+        r = fake()(url)
+        if url == PLAYER:
+            return Response(200, r.text.replace('"teamId": 8226,\n     "teamName": "Hoffenheim"', '"teamId": 10011,\n     "teamName": "Austria Wien"'), "text/html", 1)
+        return r
+
+    run_update(tmp_path, moved, NOW, sleep=lambda s: None)
+    idx = {p["id"]: p for p in read(tmp_path / "players.json")["players"]}
+    assert idx[173461]["team"] is None and idx[173461]["team_name"] == "Austria Wien"

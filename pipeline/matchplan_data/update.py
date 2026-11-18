@@ -164,7 +164,8 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
         if prof.get("fetched_at") and now - datetime.fromisoformat(prof["fetched_at"]) <= PLAYER_FRESH:
             fresh += 1
         main = next((p for p in prof.get("positions") or [] if p.get("main")), None)
-        index.append({"id": pid, "name": e["name"], "team": e["team"], "pos": main["short"] if main else None,
+        team = prof["team"] if prof else e["team"]  # Profil kennt den aktuellen Verein (auch außerhalb der Liga)
+        index.append({"id": pid, "name": e["name"], "team": team, "team_name": prof.get("team_name"), "pos": main["short"] if main else None,
                       "age": prof.get("age"), "minutes": e["minutes"], "apps": e["apps"],
                       "rating": round(sum(e["ratings"]) / len(e["ratings"]), 2) if e["ratings"] else None})
     if index:

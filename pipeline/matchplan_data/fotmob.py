@@ -235,7 +235,8 @@ def parse_player(data: dict) -> dict:
             key = s.get("localizedTitleId")
             stats.append({"group": GROUP_DE.get(g.get("title"), g.get("title")), "key": key,
                           "title": STAT_DE.get(key, s.get("title")), "value": _num(s.get("statValue")),
-                          "per90": _num(s.get("per90")), "pct": _num(s.get("percentileRankPer90"))})
+                          "per90": _num(s.get("per90")), "pct": _num(s.get("percentileRankPer90")),
+                          "fmt": s.get("statFormat") or "number"})
     tr = d.get("traits")
     traits = {"title": tr.get("title"), "items": [{"key": i.get("key"), "title": i.get("title"), "value": _num(i.get("value"))} for i in tr.get("items") or []]} if tr else None
     ci = (d.get("careerHistory") or {}).get("careerItems") or {}

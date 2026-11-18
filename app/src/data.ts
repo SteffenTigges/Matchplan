@@ -65,9 +65,9 @@ export interface TeamStats {
 }
 
 // --- Spieler (data/players.json, data/players/<id>.json) ---
-export interface PlayerRow { id: number; name: string; team: string | null; pos: string | null; age: number | null; minutes: number; apps: number; rating: number | null }
+export interface PlayerRow { id: number; name: string; team: string | null; team_name?: string | null; pos: string | null; age: number | null; minutes: number; apps: number; rating: number | null }
 export interface PlayerIndex { updated_at: string; players: PlayerRow[] }
-export interface PlayerStat { group: string; key: string; title: string; value: number | null; per90: number | null; pct: number | null }
+export interface PlayerStat { group: string; key: string; title: string; value: number | null; per90: number | null; pct: number | null; fmt?: string }
 export interface CareerEntry { team: string; start: string | null; end: string | null; apps: number | null; goals: number | null; kind: string | null }
 export interface PlayerProfile {
   id: number; name: string; team: string | null; team_name: string | null; birth_date: string | null; age: number | null;

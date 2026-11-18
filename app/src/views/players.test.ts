@@ -66,3 +66,18 @@ test("hides_empty_sections", () => {
 test("missing_profile_shows_basic_row", () => {
   expect(renderPlayer(null, rows[0], season)).toContain("Profil wird beim nächsten Abruf geladen");
 });
+
+test("percent_stats_show_percent_without_per90", () => {
+  const p = { ...prof, stats: [{ group: "Passspiel", key: "successful_passes_accuracy", title: "Passquote", value: 75.5, per90: 75.52, pct: 30.2, fmt: "percent" }] };
+  const html = renderPlayer(p, rows[0], season);
+  expect(html).toContain("75,5 %");
+  expect(html).not.toContain("75,52 /90");
+});
+
+test("player_outside_bundesliga_shows_new_club", () => {
+  const p = { ...prof, team: null, team_name: "Austria Wien" };
+  const html = renderPlayer(p, rows[0], season);
+  expect(html).toContain("Austria Wien");
+  expect(html).not.toContain("TSG Hoffenheim");
+  expect(html).not.toContain("#1961b5");
+});

@@ -57,3 +57,12 @@ def test_primary_team_outside_bundesliga():
     d["props"]["pageProps"]["data"]["primaryTeam"] = {"teamId": 10011, "teamName": "Austria Wien"}
     p = parse_player(d)
     assert p["team"] is None and p["team_name"] == "Austria Wien"
+
+
+def test_percent_stats_keep_their_format():
+    d = load()
+    items = d["props"]["pageProps"]["data"]["firstSeasonStats"]["statsSection"]["items"]
+    items[1]["items"].append({"title": "Pass accuracy", "localizedTitleId": "successful_passes_accuracy", "statValue": "75.5", "per90": 75.52, "percentileRankPer90": 30.2, "statFormat": "percent"})
+    st = parse_player(d)["stats"]
+    pa = next(s for s in st if s["key"] == "successful_passes_accuracy")
+    assert pa["fmt"] == "percent" and pa["value"] == 75.5
