@@ -103,7 +103,7 @@ function lineups(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
   const lu = fm.lineups!;
   const list = (t: TeamInfo, l: typeof lu.home) =>
     `<div class="col"><b>${esc(t.short)}</b><div class="row" style="gap:6px"><span class="chip">${esc(l.formation ?? "")}</span>${ratingChip(l.rating)}</div>
-      ${l.players.map((p) => `<div class="row pl">${ratingChip(p.rating)}<span>${esc(p.name)}${p.captain ? " (C)" : ""}</span></div>`).join("")}</div>`;
+      ${l.players.map((p) => `<div class="row pl">${ratingChip(p.rating)}${p.id ? `<a href="#spieler/${p.id}">${esc(p.name)}${p.captain ? " (C)" : ""}</a>` : `<span>${esc(p.name)}${p.captain ? " (C)" : ""}</span>`}</div>`).join("")}</div>`;
   const all = [...lu.home.players.map((p) => ({ ...p, t: h })), ...lu.away.players.map((p) => ({ ...p, t: a }))]
     .filter((p) => p.rating != null)
     .sort((x, y) => y.rating! - x.rating!)
