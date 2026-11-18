@@ -100,7 +100,10 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
             nd = next_data(get(fm["url"]))
             if nd is None:
                 raise RuntimeError("Keine eingebetteten Daten")
-            _write(path, {**parse_match(nd), "oldb_id": om["id"], "matchday": fm["round"], "season": SEASON})
+            parsed = parse_match(nd)
+            if parsed["fm_id"] != fm["fm_id"]:
+                raise RuntimeError(f"Seite zeigt ein anderes Spiel ({parsed['fm_id']})")
+            _write(path, {**parsed, "oldb_id": om["id"], "matchday": fm["round"], "season": SEASON})
         except Exception as e:  # alte Datei bleibt stehen
             errors.append(f"{fm['home']}–{fm['away']}: {e}")
 

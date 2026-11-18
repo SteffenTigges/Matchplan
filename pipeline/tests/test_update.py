@@ -21,7 +21,7 @@ def fake(broken=()):
         "https://api.openligadb.de/getbltable/bl1/2026": (FIX / "openligadb_table.json").read_text(encoding="utf-8"),
         team_by_key("BMG").li_url: (FIX / "ligainsider_bmg.html").read_text(encoding="utf-8"),
         "https://www.fotmob.com/leagues/54/fixtures/bundesliga": wrap("fotmob_league.json"),
-        "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa": wrap("fotmob_match.json"),
+        "https://www.fotmob.com/match/5881219": wrap("fotmob_match.json"),
         "https://www.fotmob.com/players/173461/x": wrap("fotmob_player.json"),
     }
 
@@ -149,7 +149,7 @@ def test_slow_page_is_retried_once(tmp_path):
     assert status["ligainsider:BMG"]["ok"] is True
 
 
-FM_MATCH = "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa"
+FM_MATCH = "https://www.fotmob.com/match/5881219"
 FM_LEAGUE = "https://www.fotmob.com/leagues/54/fixtures/bundesliga"
 
 
@@ -225,7 +225,7 @@ def test_old_format_match_is_refetched(tmp_path):
     base = fake()
     later = datetime(2027, 1, 30, tzinfo=timezone.utc)  # weit nach dem Spiel
     run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], later, sleep=lambda s: None)
-    assert FM_MATCH in calls and read(path)["v"] == 2
+    assert FM_MATCH in calls and read(path)["v"] == 3
 
 
 PLAYER = "https://www.fotmob.com/players/173461/x"
@@ -270,3 +270,15 @@ def test_index_team_follows_profile_outside_bundesliga(tmp_path):
     run_update(tmp_path, moved, NOW, sleep=lambda s: None)
     idx = {p["id"]: p for p in read(tmp_path / "players.json")["players"]}
     assert idx[173461]["team"] is None and idx[173461]["team_name"] == "Austria Wien"
+
+
+def test_page_of_another_match_is_rejected(tmp_path):
+    def other(url):
+        r = fake()(url)
+        if url == FM_MATCH:
+            return Response(200, r.text.replace('"matchId": "5881219"', '"matchId": "5881300"'), "text/html", 1)
+        return r
+
+    status = run_update(tmp_path, other, NOW, sleep=lambda s: None)
+    assert not (tmp_path / "fotmob" / "83231.json").exists()
+    assert "anderes Spiel" in status["fotmob"]["error"]

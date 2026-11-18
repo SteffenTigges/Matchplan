@@ -9,7 +9,7 @@ from .teams import team_by_fotmob
 
 BASE = "https://www.fotmob.com"
 LEAGUE_URL = f"{BASE}/leagues/54/fixtures/bundesliga"
-FORMAT_VERSION = 2  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
+FORMAT_VERSION = 3  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
 
 _NEXT = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 _COUNT_PCT = re.compile(r"^\s*(-?\d+(?:\.\d+)?)\s*\((\d+(?:\.\d+)?)%\)\s*$")
@@ -72,7 +72,9 @@ def parse_league(data: dict) -> list[dict]:
         st = m.get("status") or {}
         out.append({
             "fm_id": int(m["id"]),
-            "url": BASE + m["pageUrl"].split("#")[0],
+            # Die Seitenadresse ist für Hin- und Rückspiel gleich (das Spiel steckt nur hinter '#');
+            # /match/<id> liefert genau dieses Spiel.
+            "url": f"{BASE}/match/{int(m['id'])}",
             "round": int(m["round"]),
             "home": team_by_fotmob(m["home"]["id"]).key,
             "away": team_by_fotmob(m["away"]["id"]).key,
