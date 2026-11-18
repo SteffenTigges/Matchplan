@@ -75,3 +75,15 @@ test("lower_is_better_rows_highlight_the_smaller_value", () => {
   const row = html.slice(html.indexOf("Fouls"));
   expect(row.indexOf('class="w"')).toBeGreaterThan(-1);
 });
+
+test("away_shots_are_outlined_so_teams_differ", () => {
+  const html = renderAnalysis(m, fm, season);
+  const away = html.match(/<circle class="shot[^"]*"[^>]*>[^<]*<title>Kenan Karaman/)![0];
+  expect(away).toContain('fill="#fff"');
+  expect(away).toContain('stroke="#004d9d"');
+});
+
+test("momentum_axis_shows_whole_minutes", () => {
+  const html = renderAnalysis(m, { ...fm, momentum: [[0, 0], [90.75, 10]] }, season);
+  expect(html).toContain(">91'<");
+});

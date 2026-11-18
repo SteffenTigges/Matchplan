@@ -48,7 +48,7 @@ function statRows(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
 
 function momentum(fm: FotmobMatch, m: Match, h: TeamInfo, a: TeamInfo): string {
   const data = fm.momentum!;
-  const last = Math.max(90, ...data.map((p) => p[0]));
+  const last = Math.ceil(Math.max(90, ...data.map((p) => p[0])));
   const X = (min: number) => 8 + (min / last) * 284;
   const Y = (v: number) => 60 - (v / 100) * 50;
   const d = data.map(([mi, v], i) => `${i ? "L" : "M"}${X(mi).toFixed(1)} ${Y(v).toFixed(1)}`).join(" ");
@@ -78,14 +78,16 @@ function shotmap(fm: FotmobMatch, m: Match, h: TeamInfo, a: TeamInfo): string {
       const r = 1 + (s.xg ?? 0) * 6;
       const goal = s.result === "goal";
       const col = home ? h.color : a.color;
-      return `<circle class="shot${goal ? " goal" : ""}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" fill="${goal ? "#ffc14d" : esc(col)}" fill-opacity="${goal ? 1 : 0.55}" stroke="#fff" stroke-width=".35"><title>${esc(s.player ?? "")} ${s.min ?? ""}' · xG ${de(s.xg ?? 0, 2)}</title></circle>`;
+      const fill = goal ? "#ffc14d" : home ? esc(col) : "#fff";
+      const stroke = home ? "#fff" : esc(col);
+      return `<circle class="shot${goal ? " goal" : ""}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" fill="${fill}" fill-opacity="${goal ? 1 : home ? 0.6 : 0.85}" stroke="${stroke}" stroke-width="${home ? 0.35 : 0.6}"><title>${esc(s.player ?? "")} ${s.min ?? ""}' · xG ${de(s.xg ?? 0, 2)}</title></circle>`;
     })
     .join("");
   const lines = `<g fill="none" stroke="#fff" stroke-opacity=".5" stroke-width=".4"><rect x="0.5" y="0.5" width="104" height="67"/><line x1="52.5" y1="0.5" x2="52.5" y2="67.5"/><circle cx="52.5" cy="34" r="9.15"/><rect x="0.5" y="13.85" width="16.5" height="40.3"/><rect x="88" y="13.85" width="16.5" height="40.3"/></g>`;
   const sum = (k: string) => de(fm.shots.filter((s) => s.team === k && !s.own_goal).reduce((t, s) => t + (s.xg ?? 0), 0), 2);
   return `<section class="card"><h3>Schusskarte</h3>
     <div class="pitchwrap"><svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Schusskarte">${lines}${dots}</svg></div>
-    <p class="muted">${esc(a.short)} greift nach links an, ${esc(h.short)} nach rechts. Kreisgröße = xG, gelb = Tor. xG aus allen Schüssen: ${esc(h.short)} ${sum(m.home)}, ${esc(a.short)} ${sum(m.away)}.</p></section>`;
+    <p class="muted">${esc(h.short)} (ausgefüllt) greift nach rechts an, ${esc(a.short)} (weiß) nach links. Kreisgröße = xG, gelb = Tor. xG aus allen Schüssen: ${esc(h.short)} ${sum(m.home)}, ${esc(a.short)} ${sum(m.away)}.</p></section>`;
 }
 
 function zones(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
@@ -100,7 +102,7 @@ function zones(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
 function lineups(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
   const lu = fm.lineups!;
   const list = (t: TeamInfo, l: typeof lu.home) =>
-    `<div class="col"><div class="row"><b>${esc(t.short)}</b><span class="chip">${esc(l.formation ?? "")}</span>${ratingChip(l.rating)}</div>
+    `<div class="col"><b>${esc(t.short)}</b><div class="row" style="gap:6px"><span class="chip">${esc(l.formation ?? "")}</span>${ratingChip(l.rating)}</div>
       ${l.players.map((p) => `<div class="row pl">${ratingChip(p.rating)}<span>${esc(p.name)}${p.captain ? " (C)" : ""}</span></div>`).join("")}</div>`;
   const all = [...lu.home.players.map((p) => ({ ...p, t: h })), ...lu.away.players.map((p) => ({ ...p, t: a }))]
     .filter((p) => p.rating != null)
