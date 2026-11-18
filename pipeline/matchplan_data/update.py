@@ -11,8 +11,10 @@ from pathlib import Path
 from typing import Callable
 
 from . import probe
+from .fotmob import LEAGUE_URL, next_data, parse_league, parse_match
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
+from .teamstats import aggregate, build_teamstats
 from .openligadb import current_matchday, matchday_url, table_url, transform_matches, transform_table
 from .probe import Fetcher
 from .teams import TEAMS, team_by_key
@@ -39,7 +41,9 @@ def _lineup_from_dict(d: dict) -> TeamLineup:
     return TeamLineup(d["team"], d["formation"], rows, d["missing"], d.get("updated_label"), d.get("opponent"), d.get("home"))
 
 
-SETTLE = timedelta(hours=48)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
+SETTLE = timedelta(hours=48)
+RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange erneut versuchen
+CORE_STATS = {"expected_goals", "passes", "total_shots"}  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
 
 def _settled(matches: list[dict], now: datetime) -> bool:
@@ -59,6 +63,58 @@ def _fits(lu: TeamLineup, key: str, match: dict | None) -> bool:
         other = team_by_key(match["away"] if match["home"] == key else match["home"])
         return other.name.startswith(lu.opponent) or lu.opponent.startswith(other.name)
     return True
+
+
+def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, list[dict]], now: datetime, at: str, status: dict) -> None:
+    """FotMob-Spielstatistik für beendete Spiele holen (nur fehlende oder frisch beendete) und Saisonwerte rechnen."""
+    by_teams = {(md, m["home"], m["away"]): m for md, ms in matchdays.items() for m in ms}
+    by_id = {m["id"]: m for ms in matchdays.values() for m in ms}
+    errors: list[str] = []
+    unmatched = 0
+    try:
+        data = next_data(get(LEAGUE_URL))
+        if data is None:
+            raise RuntimeError("Keine eingebetteten Daten auf der Ligaseite")
+        fixtures = parse_league(data)
+    except Exception as e:
+        errors.append(f"Ligaseite: {e}")
+        fixtures = []
+    for fm in fixtures:
+        if not fm["finished"]:
+            continue
+        om = by_teams.get((fm["round"], fm["home"], fm["away"]))
+        if om is None:
+            unmatched += 1
+            continue
+        path = out / "fotmob" / f"{om['id']}.json"
+        kickoff = datetime.fromisoformat((fm["kickoff"] or "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
+        if path.exists() and now - kickoff > SETTLE:
+            old = _read(path) or {}
+            complete = bool(old.get("stats")) and bool(old.get("shots"))
+            if complete or now - kickoff > RETRY_INCOMPLETE:
+                continue
+        try:
+            nd = next_data(get(fm["url"]))
+            if nd is None:
+                raise RuntimeError("Keine eingebetteten Daten")
+            _write(path, {**parse_match(nd), "oldb_id": om["id"], "matchday": fm["round"], "season": SEASON})
+        except Exception as e:  # alte Datei bleibt stehen
+            errors.append(f"{fm['home']}–{fm['away']}: {e}")
+
+    pairs = []
+    lacking = 0
+    for f in sorted((out / "fotmob").glob("*.json")) if (out / "fotmob").exists() else []:
+        fmd = _read(f)
+        if fmd and fmd.get("season") == SEASON and fmd.get("oldb_id") in by_id:
+            pairs.append((by_id[fmd["oldb_id"]], fmd))
+            if not CORE_STATS <= set(fmd.get("stats") or {}):
+                lacking += 1
+    if pairs:
+        _write(out / "teamstats.json", {"updated_at": at, **build_teamstats(aggregate(pairs))})
+    note = f"{len(pairs)} Spiele ausgewertet" + (f", {unmatched} Spiel ohne Zuordnung" if unmatched == 1 else f", {unmatched} Spiele ohne Zuordnung" if unmatched else "")
+    if lacking:
+        note += f", {lacking} ohne Kernwerte (xG, Pässe oder Schüsse fehlen – Format geändert?)"
+    status["fotmob"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None, "note": note}
 
 
 def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float], None] = time.sleep) -> dict:
@@ -109,6 +165,8 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
         errors.append(f"Tabelle: {e}")
     status["openligadb"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None}
 
+    _update_fotmob(out, get, matchdays, now, at, status)
+
     if current is None:  # noch nie Spiele gesehen: nichts Falsches schreiben
         _write(out / "status" / "sources.json", status)
         return status
@@ -157,7 +215,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     status = run_update(args.out, lambda u: probe.http_fetch(u), datetime.now(timezone.utc), sleep=lambda s: time.sleep(s))
     for k, v in status.items():
-        print(f"{'OK  ' if v['ok'] else 'FAIL'} {k:22} {v['error'] or ''}")
+        print(f"{'OK  ' if v['ok'] else 'FAIL'} {k:22} {v.get('note') or ''} {v['error'] or ''}")
     return 0
 
 

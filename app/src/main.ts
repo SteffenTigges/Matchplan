@@ -1,11 +1,12 @@
 import "./style.css";
-import { loadJson, type History, type Lineups, type Matchday, type Season, type Table } from "./data";
+import { loadJson, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
 import { renderMatch, renderMatchday } from "./views/spiele";
 import { renderStatus, type ProbeReport } from "./views/status";
 import { renderTable, renderTeam } from "./views/teams";
+import { renderTeamStats } from "./views/teamstats";
 
 const TABS = [
   { view: "spiele", href: "#spiele", label: "Spiele", icon: '<rect x="3" y="5" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2" fill="none"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2"/>' },
@@ -60,7 +61,8 @@ async function viewFor(route: Route): Promise<string> {
     const lineups = !match.finished ? await loadJson<Lineups>("lineups/current.json") : null;
     const fitting = lineups && lineups.matchday === day.matchday ? lineups : null;
     const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
-    return renderMatch(match, season, fitting, history);
+    const fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
+    return renderMatch(match, season, fitting, history, fm);
   }
 
   const table = await loadJson<Table>("table.json");
@@ -72,8 +74,8 @@ async function viewFor(route: Route): Promise<string> {
   const t = season.teams[route.key];
   header(t?.short ?? route.key, "Teamprofil", "#teams");
   if (!t) return NO_DATA;
-  const [mds, lineups] = await Promise.all([allMatchdays(), loadJson<Lineups>("lineups/current.json")]);
-  return renderTeam(route.key, season, table?.rows ?? [], mds.flatMap((d) => d.matches), lineups);
+  const [mds, lineups, ts] = await Promise.all([allMatchdays(), loadJson<Lineups>("lineups/current.json"), loadJson<TeamStats>("teamstats.json")]);
+  return renderTeam(route.key, season, table?.rows ?? [], mds.flatMap((d) => d.matches), lineups, ts ? renderTeamStats(route.key, ts) : "");
 }
 
 async function render(): Promise<void> {

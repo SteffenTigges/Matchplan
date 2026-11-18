@@ -10,12 +10,18 @@ FIX = Path(__file__).parent / "fixtures"
 NOW = datetime(2026, 11, 18, 16, 0, tzinfo=timezone.utc)
 
 
+def wrap(name):
+    return f'<html><script id="__NEXT_DATA__" type="application/json">{(FIX / name).read_text(encoding="utf-8")}</script></html>'
+
+
 def fake(broken=()):
     pages = {
         "https://api.openligadb.de/getmatchdata/bl1/2026/9": (FIX / "openligadb_md9.json").read_text(encoding="utf-8"),
         "https://api.openligadb.de/getmatchdata/bl1/2026/10": (FIX / "openligadb_md10.json").read_text(encoding="utf-8"),
         "https://api.openligadb.de/getbltable/bl1/2026": (FIX / "openligadb_table.json").read_text(encoding="utf-8"),
         team_by_key("BMG").li_url: (FIX / "ligainsider_bmg.html").read_text(encoding="utf-8"),
+        "https://www.fotmob.com/leagues/54/fixtures/bundesliga": wrap("fotmob_league.json"),
+        "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa": wrap("fotmob_match.json"),
     }
 
     def fetch(url):
@@ -140,3 +146,69 @@ def test_slow_page_is_retried_once(tmp_path):
 
     status = run_update(tmp_path, flaky, NOW, sleep=lambda s: None)
     assert status["ligainsider:BMG"]["ok"] is True
+
+
+FM_MATCH = "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa"
+FM_LEAGUE = "https://www.fotmob.com/leagues/54/fixtures/bundesliga"
+
+
+def test_writes_fotmob_match_and_teamstats(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    fm = read(tmp_path / "fotmob" / "83231.json")
+    assert fm["oldb_id"] == 83231 and fm["matchday"] == 9 and fm["season"] == 2026
+    assert fm["stats"]["expected_goals"] == [2.23, 2.6] and len(fm["shots"]) == 6
+    ts = read(tmp_path / "teamstats.json")
+    assert ts["teams"]["TSG"]["xg_pg"]["value"] == 2.23 and ts["teams"]["TSG"]["matches"] == 1
+    assert ts["teams"]["TSG"]["points"] == {"value": 3, "rank": 1}
+    assert status["fotmob"]["ok"] is True
+
+
+def test_stored_old_match_is_not_refetched(tmp_path):
+    calls = []
+    base = fake()
+
+    def counting(url):
+        calls.append(url)
+        return base(url)
+
+    run_update(tmp_path, counting, NOW, sleep=lambda s: None)
+    assert FM_MATCH in calls
+    calls.clear()
+    run_update(tmp_path, counting, NOW, sleep=lambda s: None)
+    assert FM_MATCH not in calls and FM_LEAGUE in calls
+
+
+def test_unmatched_fotmob_match_is_skipped(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    assert sorted(p.name for p in (tmp_path / "fotmob").iterdir()) == ["83231.json"]
+    assert "1 Spiel ohne Zuordnung" in status["fotmob"]["note"]
+
+
+def test_fotmob_down_keeps_previous_files(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    status = run_update(tmp_path, fake(broken={FM_LEAGUE}), NOW, sleep=lambda s: None)
+    assert (tmp_path / "fotmob" / "83231.json").exists() and (tmp_path / "teamstats.json").exists()
+    assert status["fotmob"]["ok"] is False
+
+
+def test_incomplete_match_file_is_refetched_within_14_days(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    path = tmp_path / "fotmob" / "83231.json"
+    d = read(path)
+    d["stats"] = {}
+    path.write_text(json.dumps(d), encoding="utf-8")
+    calls = []
+    base = fake()
+    run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], NOW, sleep=lambda s: None)
+    assert FM_MATCH in calls and read(path)["stats"]["expected_goals"] == [2.23, 2.6]
+
+
+def test_warns_when_core_stats_are_missing(tmp_path):
+    def renamed(url):
+        r = fake()(url)
+        if url == FM_MATCH:
+            return Response(200, r.text.replace('"expected_goals"', '"xg_renamed"'), "text/html", 1)
+        return r
+
+    status = run_update(tmp_path, renamed, NOW, sleep=lambda s: None)
+    assert "ohne Kernwerte" in status["fotmob"]["note"]

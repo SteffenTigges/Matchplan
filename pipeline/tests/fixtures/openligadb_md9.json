@@ -163,5 +163,58 @@
     "isOwnGoal": false
    }
   ]
+ },
+ {
+  "matchID": 83231,
+  "matchDateTimeUTC": "2026-11-08T18:30:00Z",
+  "group": {
+   "groupOrderID": 9
+  },
+  "team1": {
+   "teamId": 175,
+   "teamName": "TSG Hoffenheim",
+   "shortName": "Hoffenheim"
+  },
+  "team2": {
+   "teamId": 9,
+   "teamName": "FC Schalke 04",
+   "shortName": "S04"
+  },
+  "matchIsFinished": true,
+  "matchResults": [
+   {
+    "resultTypeID": 1,
+    "pointsTeam1": 2,
+    "pointsTeam2": 0
+   },
+   {
+    "resultTypeID": 2,
+    "pointsTeam1": 2,
+    "pointsTeam2": 1
+   }
+  ],
+  "goals": [
+   {
+    "matchMinute": 10,
+    "scoringTeamId": 175,
+    "goalGetterName": "F. Asllani",
+    "isPenalty": false,
+    "isOwnGoal": false
+   },
+   {
+    "matchMinute": 26,
+    "scoringTeamId": 175,
+    "goalGetterName": "T. Lemperle",
+    "isPenalty": false,
+    "isOwnGoal": false
+   },
+   {
+    "matchMinute": 81,
+    "scoringTeamId": 9,
+    "goalGetterName": "J. Adamu",
+    "isPenalty": false,
+    "isOwnGoal": false
+   }
+  ]
  }
 ]

@@ -26,7 +26,7 @@ const result = (m: Match, key: string): string => {
   return `<span class="form"><i class="${mine > 0 ? "S" : mine === 0 ? "U" : "N"}">${mine > 0 ? "S" : mine === 0 ? "U" : "N"}</i></span>`;
 };
 
-export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null): string {
+export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null, statsHtml = ""): string {
   const t = info(season, key);
   const row = rows.find((r) => r.team === key);
   const mine = matches.filter((m) => m.home === key || m.away === key).sort((a, b) => (a.kickoff ?? "9").localeCompare(b.kickoff ?? "9"));
@@ -64,5 +64,5 @@ export function renderTeam(key: string, season: Season, rows: TableRow[], matche
         .join("")}</div></section>`
     : "";
 
-  return hero + nextCard + lineupCard + results;
+  return hero + nextCard + statsHtml + lineupCard + results;
 }

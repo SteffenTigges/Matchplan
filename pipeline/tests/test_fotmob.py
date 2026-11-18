@@ -1,0 +1,89 @@
+import copy
+import json
+from pathlib import Path
+
+from matchplan_data.fotmob import next_data, parse_league, parse_match, to_number
+
+FIX = Path(__file__).parent / "fixtures"
+
+
+def load(name):
+    return json.loads((FIX / name).read_text(encoding="utf-8"))
+
+
+def test_next_data_extracts_json():
+    html = '<html><script id="__NEXT_DATA__" type="application/json">{"props": {"a": 1}}</script></html>'
+    assert next_data(html) == {"props": {"a": 1}}
+    assert next_data("<html>nichts</html>") is None
+
+
+def test_parse_league_maps_teams_and_rounds():
+    ms = parse_league(load("fotmob_league.json"))
+    assert ms[0] == {"fm_id": 5881219, "url": "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa",
+                     "round": 9, "home": "TSG", "away": "S04", "finished": True, "kickoff": "2026-11-08T18:30:00Z"}
+    assert ms[2]["home"] == "FCB" and ms[2]["finished"] is False
+
+
+def test_parses_count_and_percent():
+    assert to_number("366 (80%)") == {"n": 366, "pct": 80}
+    assert to_number("2.23") == 2.23
+    assert to_number(49) == 49
+    assert to_number(None) is None
+
+
+def test_parses_team_stats():
+    st = parse_match(load("fotmob_match.json"))["stats"]
+    assert st["expected_goals"] == [2.23, 2.6]
+    assert st["BallPossesion"] == [49, 51]
+    assert st["accurate_passes"] == [{"n": 366, "pct": 80}, {"n": 346, "pct": 74}]
+    assert st["tackles"] == [15, 14]
+
+
+def test_parses_shots_with_xg_and_result():
+    shots = parse_match(load("fotmob_match.json"))["shots"]
+    assert len(shots) == 6
+    goal = shots[0]
+    assert goal["team"] == "TSG" and goal["player"] == "Fisnik Asllani" and goal["result"] == "goal"
+    assert round(goal["xg"], 3) == 0.362 and 0 <= goal["x"] <= 106 and 0 <= goal["y"] <= 69
+    assert {s["result"] for s in shots} <= {"goal", "saved", "miss", "blocked", "post"}
+    assert shots[4]["team"] == "S04"
+
+
+def test_parses_lineups_with_formation_and_ratings():
+    lu = parse_match(load("fotmob_match.json"))["lineups"]
+    assert lu["home"]["formation"] == "4-2-3-1" and lu["home"]["rating"] == 7.4
+    keeper = lu["home"]["players"][0]
+    assert keeper["name"] == "Oliver Baumann" and keeper["rating"] == 7.5 and keeper["pos_id"] == 11
+
+
+def test_parses_momentum_zones_and_players():
+    m = parse_match(load("fotmob_match.json"))
+    assert m["momentum"][:2] == [[0, 0], [1, -11]]
+    assert m["zones"]["home"] == {"left": 28, "center": 24, "right": 48}
+    p = m["players"][0]
+    assert p["minutes"] == 14 and p["rating"] == 5.97 and p["xg"] == 0.05 and p["team"] in ("TSG", "S04")
+
+
+def test_missing_sections_are_none():
+    data = load("fotmob_match.json")
+    c = data["props"]["pageProps"]["content"]
+    for k in ("shotmap", "momentum", "attackingZones", "lineup", "playerStats"):
+        c.pop(k)
+    m = parse_match(data)
+    assert m["shots"] == [] and m["momentum"] is None and m["zones"] is None and m["lineups"] is None and m["players"] == []
+    assert m["stats"]["expected_goals"] == [2.23, 2.6]
+
+
+def test_numbers_from_fotmob_are_coerced():
+    data = load("fotmob_match.json")
+    c = data["props"]["pageProps"]["content"]
+    c["lineup"]["homeTeam"]["starters"][0]["performance"]["rating"] = "7.5"
+    c["shotmap"]["shots"][0]["min"] = "10"
+    m = parse_match(data)
+    assert m["lineups"]["home"]["players"][0]["rating"] == 7.5 and m["shots"][0]["min"] == 10
+
+
+def test_incomplete_zones_are_dropped():
+    data = load("fotmob_match.json")
+    del data["props"]["pageProps"]["content"]["attackingZones"]["home"]["total"]["center"]
+    assert parse_match(data)["zones"] is None
