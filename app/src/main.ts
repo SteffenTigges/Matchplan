@@ -1,5 +1,5 @@
 import "./style.css";
-import { loadJson, type History, type Lineups, type Matchday, type Season, type Table } from "./data";
+import { loadJson, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
@@ -60,7 +60,8 @@ async function viewFor(route: Route): Promise<string> {
     const lineups = !match.finished ? await loadJson<Lineups>("lineups/current.json") : null;
     const fitting = lineups && lineups.matchday === day.matchday ? lineups : null;
     const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
-    return renderMatch(match, season, fitting, history);
+    const fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
+    return renderMatch(match, season, fitting, history, fm);
   }
 
   const table = await loadJson<Table>("table.json");

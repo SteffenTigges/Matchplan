@@ -1,4 +1,5 @@
-import type { History, Lineups, Match, Season, TeamInfo } from "../data";
+import type { FotmobMatch, History, Lineups, Match, Season, TeamInfo } from "../data";
+import { renderAnalysis } from "./analysis";
 import { berlin, crest, esc } from "../ui";
 import { renderHistory, renderMissing, renderPitch } from "./lineup";
 
@@ -31,7 +32,7 @@ export function renderMatchday(md: number, matches: Match[], season: Season): st
   return `<div class="pager">${prev}<b>${md}. Spieltag</b>${next}</div>${cards || `<section class="card"><p class="muted">Für diesen Spieltag sind noch keine Spiele angesetzt.</p></section>`}`;
 }
 
-export function renderMatch(m: Match, season: Season, lineups: Lineups | null, history: History | null): string {
+export function renderMatch(m: Match, season: Season, lineups: Lineups | null, history: History | null, fm: FotmobMatch | null = null): string {
   const h = team(season, m.home);
   const a = team(season, m.away);
   const hero = `<div class="hero" style="background:linear-gradient(120deg,${esc(h.color)} 0%,color-mix(in srgb,${esc(h.color)} 40%,#111) 48%,color-mix(in srgb,${esc(a.color)} 40%,#111) 52%,${esc(a.color)} 100%)">
@@ -47,7 +48,7 @@ export function renderMatch(m: Match, season: Season, lineups: Lineups | null, h
           })
           .join("")}</ul>`
       : `<p class="muted">Keine Tore</p>`;
-    return `${hero}<section class="card"><h3>Tore</h3>${goals}</section>`;
+    return `${hero}<section class="card"><h3>Tore</h3>${goals}</section>${renderAnalysis(m, fm, season)}`;
   }
 
   const hl = lineups?.teams[m.home];
