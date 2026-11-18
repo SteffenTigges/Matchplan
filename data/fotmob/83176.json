@@ -1,0 +1,1886 @@
+{
+ "fm_id": 5881166,
+ "stats": {
+  "BallPossesion": [
+   43,
+   57
+  ],
+  "expected_goals": [
+   2.76,
+   2.16
+  ],
+  "total_shots": [
+   20,
+   16
+  ],
+  "ShotsOnTarget": [
+   8,
+   5
+  ],
+  "touches_opp_box": [
+   31,
+   31
+  ],
+  "big_chance": [
+   5,
+   5
+  ],
+  "big_chance_missed_title": [
+   4,
+   4
+  ],
+  "accurate_passes": [
+   {
+    "n": 277,
+    "pct": 73
+   },
+   {
+    "n": 395,
+    "pct": 77
+   }
+  ],
+  "yellow_cards": [
+   1,
+   0
+  ],
+  "corners": [
+   5,
+   7
+  ],
+  "blocked_shots": [
+   5,
+   4
+  ],
+  "shots_inside_box": [
+   12,
+   13
+  ],
+  "expected_goals_open_play": [
+   2.68,
+   1.28
+  ],
+  "expected_goals_set_play": [
+   0.09,
+   0.89
+  ],
+  "expected_goals_on_target": [
+   2.89,
+   1.78
+  ],
+  "passes": [
+   381,
+   510
+  ],
+  "own_half_passes": [
+   112,
+   212
+  ],
+  "opposition_half_passes": [
+   165,
+   183
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 18,
+    "pct": 33
+   },
+   {
+    "n": 16,
+    "pct": 30
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 3,
+    "pct": 20
+   },
+   {
+    "n": 9,
+    "pct": 45
+   }
+  ],
+  "Offsides": [
+   2,
+   1
+  ],
+  "tackles": [
+   14,
+   13
+  ],
+  "interceptions": [
+   18,
+   8
+  ],
+  "shot_blocks": [
+   4,
+   5
+  ],
+  "clearances": [
+   37,
+   35
+  ],
+  "keeper_saves": [
+   4,
+   6
+  ],
+  "duel_won": [
+   50,
+   53
+  ],
+  "ground_duels_won": [
+   {
+    "n": 26,
+    "pct": 43
+   },
+   {
+    "n": 35,
+    "pct": 57
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 24,
+    "pct": 57
+   },
+   {
+    "n": 18,
+    "pct": 43
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 4,
+    "pct": 40
+   },
+   {
+    "n": 9,
+    "pct": 60
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   15,
+   8
+  ]
+ },
+ "shots": [
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 4,
+   "x": 95.0614035074,
+   "y": 41.7146875,
+   "xg": 0.35576939582824707,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 8,
+   "x": 95.8333333322,
+   "y": 35.83,
+   "xg": 0.30705928802490234,
+   "xgot": 0.4021073877811432,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Mats Rots",
+   "min": 11,
+   "x": 82.1470873792,
+   "y": 45.4721019068,
+   "xg": 0.031632766127586365,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 13,
+   "x": 95.4473684198,
+   "y": 24.955625,
+   "xg": 0.5026018023490906,
+   "xgot": 0.3078966736793518,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 18,
+   "x": 80.79563106879999,
+   "y": 36.97375,
+   "xg": 0.0272370558232069,
+   "xgot": 0.047390878200531006,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 21,
+   "x": 100.25862069,
+   "y": 43.860636937900004,
+   "xg": 0.17175160348415375,
+   "xgot": 0.12984922528266907,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 23,
+   "x": 95.54385964789999,
+   "y": 33.2375,
+   "xg": 0.11182387918233871,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 38,
+   "x": 94.9649122793,
+   "y": 42.5240625,
+   "xg": 0.06069347262382507,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 39,
+   "x": 87.85588235280001,
+   "y": 31.1025,
+   "xg": 0.09990785270929337,
+   "xgot": 0.3844203054904938,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 40,
+   "x": 96.0263157884,
+   "y": 30.256,
+   "xg": 0.1680065244436264,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 42,
+   "x": 78.4305825256,
+   "y": 36.05875,
+   "xg": 0.03781227394938469,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Wouter Burger",
+   "min": 44,
+   "x": 95.8333333322,
+   "y": 48.905222927500006,
+   "xg": 0.01570962183177471,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Maximilian Mittelstädt",
+   "min": 48,
+   "x": 91.3,
+   "y": 36.51625,
+   "xg": 0.19092920422554016,
+   "xgot": 0.7536091208457947,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 52,
+   "x": 75.7276699048,
+   "y": 31.1025,
+   "xg": 0.016881443560123444,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 52,
+   "x": 93.3,
+   "y": 36.51625,
+   "xg": 0.35640835762023926,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Wouter Burger",
+   "min": 57,
+   "x": 86.24558823480001,
+   "y": 34.838750000000005,
+   "xg": 0.07351327687501907,
+   "xgot": 0.47658872604370117,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 57,
+   "x": 100.6379310348,
+   "y": 45.752356684000006,
+   "xg": 0.05829475075006485,
+   "xgot": 0.19124411046504974,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Mats Rots",
+   "min": 59,
+   "x": 79.4441747584,
+   "y": 36.8975,
+   "xg": 0.04218415915966034,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 62,
+   "x": 95.0614035074,
+   "y": 40.46952381,
+   "xg": 0.3625643849372864,
+   "xgot": 0.4508342146873474,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 64,
+   "x": 90.7,
+   "y": 44.5612738809,
+   "xg": 0.03561854735016823,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Ozan Kabak",
+   "min": 66,
+   "x": 95.73684210409999,
+   "y": 30.244,
+   "xg": 0.05106079578399658,
+   "xgot": 0.054255541414022446,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 67,
+   "x": 96.2192982446,
+   "y": 42.1771875,
+   "xg": 0.3574715554714203,
+   "xgot": 0.5846944451332092,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 71,
+   "x": 74.150970876,
+   "y": 29.379523808000002,
+   "xg": 0.027766020968556404,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 74,
+   "x": 85.6014705876,
+   "y": 33.084999999999994,
+   "xg": 0.03301110118627548,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 74,
+   "x": 84.1742718448,
+   "y": 30.135952379000003,
+   "xg": 0.04625249654054642,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 77,
+   "x": 81.35873786479999,
+   "y": 30.95,
+   "xg": 0.018511803820729256,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 78,
+   "x": 97.7631578942,
+   "y": 37.768,
+   "xg": 0.06532198935747147,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 82,
+   "x": 97.6666666661,
+   "y": 35.29625000000001,
+   "xg": 0.14233006536960602,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "OtherBodyParts",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Jeff Chabot",
+   "min": 86,
+   "x": 99.3070175438,
+   "y": 30.22,
+   "xg": 0.09622941166162491,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Daghim",
+   "min": 86,
+   "x": 92.7,
+   "y": 20.9864968186,
+   "xg": 0.022707289084792137,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 89,
+   "x": 96.79824561320001,
+   "y": 30.304,
+   "xg": 0.05076245591044426,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Bilal El Khannouss",
+   "min": 89,
+   "x": 96.1228070165,
+   "y": 36.21125,
+   "xg": 0.04587063565850258,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Fisnik Asllani",
+   "min": 90,
+   "x": 99.784482759,
+   "y": 40.553571429,
+   "xg": 0.2761552035808563,
+   "xgot": 0.44897693395614624,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 90,
+   "x": 95.640350876,
+   "y": 41.5990625,
+   "xg": 0.48737165331840515,
+   "xgot": 0.43851616978645325,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 90,
+   "x": 98.0526315785,
+   "y": 35.60125,
+   "xg": 0.09691459685564041,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Jeff Chabot",
+   "min": 90,
+   "x": 97.6666666661,
+   "y": 31.941249999999997,
+   "xg": 0.08403266966342926,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   -5
+  ],
+  [
+   2,
+   -5
+  ],
+  [
+   3,
+   -3
+  ],
+  [
+   4,
+   57
+  ],
+  [
+   5,
+   57
+  ],
+  [
+   6,
+   54
+  ],
+  [
+   7,
+   -3
+  ],
+  [
+   8,
+   -62
+  ],
+  [
+   9,
+   -73
+  ],
+  [
+   10,
+   -81
+  ],
+  [
+   11,
+   -5
+  ],
+  [
+   12,
+   -16
+  ],
+  [
+   13,
+   16
+  ],
+  [
+   14,
+   8
+  ],
+  [
+   15,
+   41
+  ],
+  [
+   16,
+   24
+  ],
+  [
+   17,
+   5
+  ],
+  [
+   18,
+   -19
+  ],
+  [
+   19,
+   -24
+  ],
+  [
+   20,
+   -8
+  ],
+  [
+   21,
+   -76
+  ],
+  [
+   22,
+   -76
+  ],
+  [
+   23,
+   -100
+  ],
+  [
+   24,
+   -71
+  ],
+  [
+   25,
+   -71
+  ],
+  [
+   26,
+   -16
+  ],
+  [
+   27,
+   0
+  ],
+  [
+   28,
+   0
+  ],
+  [
+   29,
+   -11
+  ],
+  [
+   30,
+   -5
+  ],
+  [
+   31,
+   0
+  ],
+  [
+   32,
+   -5
+  ],
+  [
+   33,
+   14
+  ],
+  [
+   34,
+   8
+  ],
+  [
+   35,
+   24
+  ],
+  [
+   36,
+   0
+  ],
+  [
+   37,
+   5
+  ],
+  [
+   38,
+   62
+  ],
+  [
+   39,
+   65
+  ],
+  [
+   40,
+   100
+  ],
+  [
+   41,
+   62
+  ],
+  [
+   42,
+   60
+  ],
+  [
+   43,
+   16
+  ],
+  [
+   44,
+   54
+  ],
+  [
+   45,
+   49
+  ],
+  [
+   45.5,
+   -3
+  ],
+  [
+   46,
+   5
+  ],
+  [
+   47,
+   5
+  ],
+  [
+   48,
+   -5
+  ],
+  [
+   49,
+   -11
+  ],
+  [
+   50,
+   -11
+  ],
+  [
+   51,
+   -22
+  ],
+  [
+   52,
+   -33
+  ],
+  [
+   53,
+   -35
+  ],
+  [
+   54,
+   -19
+  ],
+  [
+   55,
+   -3
+  ],
+  [
+   56,
+   0
+  ],
+  [
+   57,
+   27
+  ],
+  [
+   58,
+   24
+  ],
+  [
+   59,
+   24
+  ],
+  [
+   60,
+   19
+  ],
+  [
+   61,
+   -57
+  ],
+  [
+   62,
+   -100
+  ],
+  [
+   63,
+   -100
+  ],
+  [
+   64,
+   -33
+  ],
+  [
+   65,
+   33
+  ],
+  [
+   66,
+   41
+  ],
+  [
+   67,
+   73
+  ],
+  [
+   68,
+   52
+  ],
+  [
+   69,
+   43
+  ],
+  [
+   70,
+   11
+  ],
+  [
+   71,
+   38
+  ],
+  [
+   72,
+   -92
+  ],
+  [
+   73,
+   -92
+  ],
+  [
+   74,
+   -92
+  ],
+  [
+   75,
+   43
+  ],
+  [
+   76,
+   60
+  ],
+  [
+   77,
+   27
+  ],
+  [
+   78,
+   -33
+  ],
+  [
+   79,
+   -38
+  ],
+  [
+   80,
+   -5
+  ],
+  [
+   81,
+   33
+  ],
+  [
+   82,
+   -49
+  ],
+  [
+   83,
+   -71
+  ],
+  [
+   84,
+   -33
+  ],
+  [
+   85,
+   0
+  ],
+  [
+   86,
+   -35
+  ],
+  [
+   87,
+   -41
+  ],
+  [
+   88,
+   -46
+  ],
+  [
+   89,
+   -35
+  ],
+  [
+   90,
+   -57
+  ],
+  [
+   90.5,
+   57
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 51,
+   "center": 28,
+   "right": 21
+  },
+  "away": {
+   "left": 47,
+   "center": 27,
+   "right": 26
+  }
+ },
+ "lineups": {
+  "home": {
+   "team": "TSG",
+   "formation": "4-2-3-1",
+   "rating": 7.5,
+   "players": [
+    {
+     "name": "Oliver Baumann",
+     "pos_id": 11,
+     "rating": 7.7,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Vladimír Coufal",
+     "pos_id": 32,
+     "rating": 7,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "name": "Ozan Kabak",
+     "pos_id": 34,
+     "rating": 8,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "name": "Albian Hajdari",
+     "pos_id": 36,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "name": "Mats Rots",
+     "pos_id": 38,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "name": "Leon Avdullahu",
+     "pos_id": 64,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "name": "Wouter Burger",
+     "pos_id": 66,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "name": "Bambasé Conté",
+     "pos_id": 83,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "name": "Adam Hložek",
+     "pos_id": 85,
+     "rating": 8.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "name": "Adam Daghim",
+     "pos_id": 87,
+     "rating": 8.3,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "name": "Tim Lemperle",
+     "pos_id": 115,
+     "rating": 7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "VFB",
+   "formation": "3-4-2-1",
+   "rating": 6.8,
+   "players": [
+    {
+     "name": "Fabian Bredlow",
+     "pos_id": 11,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Finn Jeltsch",
+     "pos_id": 33,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "name": "Jeff Chabot",
+     "pos_id": 35,
+     "rating": 7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "name": "Ramon Hendriks",
+     "pos_id": 37,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "name": "Josha Vagnoman",
+     "pos_id": 62,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "name": "Grischa Prömel",
+     "pos_id": 64,
+     "rating": 6.1,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "name": "Angelo Stiller",
+     "pos_id": 66,
+     "rating": 5.8,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "name": "Maximilian Mittelstädt",
+     "pos_id": 68,
+     "rating": 8.3,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "name": "Ermedin Demirović",
+     "pos_id": 84,
+     "rating": 6,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "name": "Chris Führich",
+     "pos_id": 86,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "name": "Dženan Pejčinović",
+     "pos_id": 105,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "team": "TSG",
+   "name": "Andrej Kramarić",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "team": "TSG",
+   "name": "Oliver Baumann",
+   "keeper": true,
+   "rating": 7.67,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 44,
+   "tackles": 0,
+   "final_third_passes": 10,
+   "interceptions": 1
+  },
+  {
+   "team": "TSG",
+   "name": "Vladimír Coufal",
+   "keeper": false,
+   "rating": 6.96,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 3
+  },
+  {
+   "team": "VFB",
+   "name": "Fabian Bredlow",
+   "keeper": true,
+   "rating": 7.8,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 63,
+   "duels_won": 2,
+   "tackles": 0,
+   "final_third_passes": 10,
+   "interceptions": 0
+  },
+  {
+   "team": "VFB",
+   "name": "Maximilian Mittelstädt",
+   "keeper": false,
+   "rating": 8.34,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.19,
+   "xa": 0.44,
+   "shots": 1,
+   "key_passes": 6,
+   "touches": 77,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 4,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 5,
+   "duels_lost": 7
+  },
+  {
+   "team": "VFB",
+   "name": "Grischa Prömel",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.16,
+   "xa": 0.02,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 70,
+   "touches_box": 1,
+   "final_third_passes": 7,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "team": "VFB",
+   "name": "Marius Funk",
+   "keeper": true
+  },
+  {
+   "team": "VFB",
+   "name": "Deniz Undav",
+   "keeper": false,
+   "rating": 5.84,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 3
+  },
+  {
+   "team": "VFB",
+   "name": "Atakan Karazor",
+   "keeper": false
+  },
+  {
+   "team": "TSG",
+   "name": "Koki Machida",
+   "keeper": false,
+   "rating": 6.63,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 15,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 2
+  },
+  {
+   "team": "VFB",
+   "name": "Ermedin Demirović",
+   "keeper": false,
+   "rating": 6.04,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.95,
+   "xa": 0.02,
+   "shots": 4,
+   "key_passes": 0,
+   "touches": 30,
+   "touches_box": 4,
+   "dribbles": 0,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 7
+  },
+  {
+   "team": "TSG",
+   "name": "Ozan Kabak",
+   "keeper": false,
+   "rating": 7.98,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 51,
+   "touches_box": 2,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 1
+  },
+  {
+   "team": "VFB",
+   "name": "Jeff Chabot",
+   "keeper": false,
+   "rating": 6.96,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.18,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 76,
+   "touches_box": 2,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 4
+  },
+  {
+   "team": "VFB",
+   "name": "Chris Führich",
+   "keeper": false,
+   "rating": 6.63,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.47,
+   "key_passes": 2,
+   "touches": 45,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "team": "VFB",
+   "name": "Josha Vagnoman",
+   "keeper": false,
+   "rating": 7.12,
+   "minutes": 81,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.48,
+   "key_passes": 1,
+   "touches": 72,
+   "touches_box": 2,
+   "dribbles": 2,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 7,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Wouter Burger",
+   "keeper": false,
+   "rating": 7.53,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.07,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 62,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "team": "TSG",
+   "name": "Adam Hložek",
+   "keeper": false,
+   "rating": 8.88,
+   "minutes": 82,
+   "goals": 2,
+   "assists": 0,
+   "xg": 1.45,
+   "xa": 0.04,
+   "shots": 7,
+   "key_passes": 0,
+   "touches": 41,
+   "touches_box": 7,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_lost": 8
+  },
+  {
+   "team": "VFB",
+   "name": "Leonidas Stergiou",
+   "keeper": false
+  },
+  {
+   "team": "VFB",
+   "name": "Angelo Stiller",
+   "keeper": false,
+   "rating": 5.84,
+   "minutes": 35,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 26,
+   "touches_box": 1,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Patrick Wimmer",
+   "keeper": false,
+   "rating": 7.26,
+   "minutes": 35,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.55,
+   "xa": 0.26,
+   "shots": 3,
+   "key_passes": 2,
+   "touches": 28,
+   "touches_box": 4,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 5,
+   "duels_lost": 2
+  },
+  {
+   "team": "VFB",
+   "name": "Jamie Leweling",
+   "keeper": false,
+   "minutes": 9,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "team": "TSG",
+   "name": "Valentin Gendrey",
+   "keeper": false,
+   "rating": 6.64,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Tim Lemperle",
+   "keeper": false,
+   "rating": 6.98,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.25,
+   "xa": 0.05,
+   "shots": 3,
+   "key_passes": 3,
+   "touches": 36,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 8
+  },
+  {
+   "team": "VFB",
+   "name": "Ramon Hendriks",
+   "keeper": false,
+   "rating": 6.65,
+   "minutes": 81,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 9,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 8,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Luca Philipp",
+   "keeper": true
+  },
+  {
+   "team": "TSG",
+   "name": "Albian Hajdari",
+   "keeper": false,
+   "rating": 7.61,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 1,
+   "final_third_passes": 15,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "team": "TSG",
+   "name": "Fisnik Asllani",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.28,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 8,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "team": "TSG",
+   "name": "Robin Hranác",
+   "keeper": false
+  },
+  {
+   "team": "TSG",
+   "name": "Bambasé Conté",
+   "keeper": false,
+   "rating": 7.55,
+   "minutes": 55,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.13,
+   "key_passes": 1,
+   "touches": 23,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "team": "VFB",
+   "name": "Bilal El Khannouss",
+   "keeper": false,
+   "rating": 6.68,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.13,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 26,
+   "touches_box": 1,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "team": "TSG",
+   "name": "Adam Daghim",
+   "keeper": false,
+   "rating": 8.3,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.02,
+   "xa": 0.32,
+   "shots": 1,
+   "key_passes": 4,
+   "touches": 54,
+   "touches_box": 3,
+   "dribbles": 2,
+   "final_third_passes": 4,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 5,
+   "duels_lost": 7
+  },
+  {
+   "team": "VFB",
+   "name": "Dženan Pejčinović",
+   "keeper": false,
+   "rating": 6.76,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.36,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 44,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 7
+  },
+  {
+   "team": "VFB",
+   "name": "Leo Sauer",
+   "keeper": false,
+   "minutes": 9,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Mats Rots",
+   "keeper": false,
+   "rating": 7.25,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.42,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 53,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "team": "TSG",
+   "name": "Leon Avdullahu",
+   "keeper": false,
+   "rating": 7.27,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 54,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 4,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "team": "TSG",
+   "name": "Max Moerstedt",
+   "keeper": false
+  },
+  {
+   "team": "VFB",
+   "name": "Finn Jeltsch",
+   "keeper": false,
+   "rating": 7.23,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.28,
+   "xa": 0.05,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 87,
+   "touches_box": 4,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 7,
+   "duels_lost": 5
+  },
+  {
+   "team": "VFB",
+   "name": "Maximilian Herwerth",
+   "keeper": false
+  },
+  {
+   "team": "TSG",
+   "name": "Nathan De Cat",
+   "keeper": false
+  },
+  {
+   "team": "VFB",
+   "name": "Yanik Spalt",
+   "keeper": false,
+   "rating": 6.75,
+   "minutes": 55,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 39,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 3
+  }
+ ],
+ "oldb_id": 83176,
+ "matchday": 3,
+ "season": 2026
+}

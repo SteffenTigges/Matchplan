@@ -1,0 +1,1836 @@
+{
+ "fm_id": 5881208,
+ "stats": {
+  "BallPossesion": [
+   56,
+   44
+  ],
+  "expected_goals": [
+   4.48,
+   0.74
+  ],
+  "total_shots": [
+   23,
+   12
+  ],
+  "ShotsOnTarget": [
+   5,
+   6
+  ],
+  "touches_opp_box": [
+   45,
+   24
+  ],
+  "big_chance": [
+   6,
+   0
+  ],
+  "big_chance_missed_title": [
+   4,
+   0
+  ],
+  "accurate_passes": [
+   {
+    "n": 516,
+    "pct": 86
+   },
+   {
+    "n": 394,
+    "pct": 82
+   }
+  ],
+  "yellow_cards": [
+   2,
+   1
+  ],
+  "corners": [
+   5,
+   2
+  ],
+  "blocked_shots": [
+   8,
+   4
+  ],
+  "shots_inside_box": [
+   18,
+   7
+  ],
+  "expected_goals_open_play": [
+   2.8,
+   0.65
+  ],
+  "expected_goals_set_play": [
+   0.89,
+   0.1
+  ],
+  "expected_goals_on_target": [
+   4.12,
+   1.55
+  ],
+  "passes": [
+   603,
+   483
+  ],
+  "own_half_passes": [
+   260,
+   206
+  ],
+  "opposition_half_passes": [
+   256,
+   188
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 27,
+    "pct": 50
+   },
+   {
+    "n": 19,
+    "pct": 36
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 4,
+    "pct": 36
+   },
+   {
+    "n": 0,
+    "pct": 0
+   }
+  ],
+  "Offsides": [
+   3,
+   3
+  ],
+  "tackles": [
+   12,
+   19
+  ],
+  "interceptions": [
+   13,
+   14
+  ],
+  "shot_blocks": [
+   4,
+   8
+  ],
+  "clearances": [
+   17,
+   23
+  ],
+  "keeper_saves": [
+   4,
+   3
+  ],
+  "duel_won": [
+   32,
+   41
+  ],
+  "ground_duels_won": [
+   {
+    "n": 23,
+    "pct": 39
+   },
+   {
+    "n": 36,
+    "pct": 61
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 9,
+    "pct": 64
+   },
+   {
+    "n": 5,
+    "pct": 36
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 6,
+    "pct": 35
+   },
+   {
+    "n": 6,
+    "pct": 50
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   11,
+   6
+  ]
+ },
+ "shots": [
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 7,
+   "x": 95.54385964789999,
+   "y": 52.1982165596,
+   "xg": 0.019956417381763458,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Michael Olise",
+   "min": 10,
+   "x": 92.3,
+   "y": 40.721666666999994,
+   "xg": 0.04338020086288452,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Michael Olise",
+   "min": 10,
+   "x": 90.2,
+   "y": 39.040714287,
+   "xg": 0.04974837601184845,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Ismael Saibari",
+   "min": 10,
+   "x": 94.2894736826,
+   "y": 37.58375000000001,
+   "xg": 0.4678744077682495,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Maximilian Beier",
+   "min": 15,
+   "x": 91.4,
+   "y": 38.704523811,
+   "xg": 0.1757461577653885,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Carney Chukwuemeka",
+   "min": 15,
+   "x": 90.4,
+   "y": 33.61875,
+   "xg": 0.12170810997486115,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Jobe Bellingham",
+   "min": 22,
+   "x": 82.37233009760001,
+   "y": 29.295476189000002,
+   "xg": 0.02873019315302372,
+   "xgot": 0.18310420215129852,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Felix Nmecha",
+   "min": 22,
+   "x": 89.2,
+   "y": 46.1727388498,
+   "xg": 0.028365006670355797,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Ismael Saibari",
+   "min": 24,
+   "x": 92.2,
+   "y": 34.533750000000005,
+   "xg": 0.6539556980133057,
+   "xgot": 0.7488309741020203,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Konrad Laimer",
+   "min": 38,
+   "x": 93.3,
+   "y": 26.4009375,
+   "xg": 0.3170008659362793,
+   "xgot": 0.5821426510810852,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Konrad Laimer",
+   "min": 38,
+   "x": 99.8793103452,
+   "y": 30.22,
+   "xg": 0.7739656567573547,
+   "xgot": 0.9915407299995422,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 41,
+   "x": 77.9800970888,
+   "y": 42.00375,
+   "xg": 0.018477056175470352,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Jobe Bellingham",
+   "min": 41,
+   "x": 85.9235294112,
+   "y": 34.305,
+   "xg": 0.03752242773771286,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Carney Chukwuemeka",
+   "min": 45,
+   "x": 94.09649122639999,
+   "y": 43.5803821607,
+   "xg": 0.054633188992738724,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Konrad Laimer",
+   "min": 47,
+   "x": 94.8684210512,
+   "y": 23.0183439533,
+   "xg": 0.08420608192682266,
+   "xgot": 0.809673547744751,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Michael Olise",
+   "min": 48,
+   "x": 92,
+   "y": 26.942142857,
+   "xg": 0.055341318249702454,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Michael Olise",
+   "min": 50,
+   "x": 91.5,
+   "y": 37.72,
+   "xg": 0.19192074239253998,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 51,
+   "x": 89.1,
+   "y": 41.9459375,
+   "xg": 0.035540979355573654,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 55,
+   "x": 101.681034483,
+   "y": 46.0326114612,
+   "xg": 0.016856234520673752,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 56,
+   "x": 94,
+   "y": 34,
+   "xg": 0.7884,
+   "xgot": 0,
+   "situation": "Penalty",
+   "type": "RightFoot",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Felix Nmecha",
+   "min": 59,
+   "x": 80.11990291360001,
+   "y": 46.1727388498,
+   "xg": 0.01704072393476963,
+   "xgot": 0.010477299802005291,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 60,
+   "x": 94.7719298231,
+   "y": 37.78,
+   "xg": 0.10129276663064957,
+   "xgot": 0.7259120941162109,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Joshua Kimmich",
+   "min": 62,
+   "x": 83.2733009712,
+   "y": 31.4075,
+   "xg": 0.02855001762509346,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Joshua Kimmich",
+   "min": 62,
+   "x": 85.9235294112,
+   "y": 31.865,
+   "xg": 0.042960815131664276,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Konrad Laimer",
+   "min": 66,
+   "x": 94.7719298231,
+   "y": 21.7571974559,
+   "xg": 0.05234483256936073,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Dayot Upamecano",
+   "min": 66,
+   "x": 102.53448275880001,
+   "y": 31.1025,
+   "xg": 0.7990887761116028,
+   "xgot": 0.9923381209373474,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Harry Kane",
+   "min": 78,
+   "x": 90.8,
+   "y": 39.545000001,
+   "xg": 0.09764865785837173,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Fábio Silva",
+   "min": 79,
+   "x": 76.8538834968,
+   "y": 40.721666666999994,
+   "xg": 0.01461052056401968,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Michael Olise",
+   "min": 80,
+   "x": 84.85,
+   "y": 27.278333333000003,
+   "xg": 0.027989301830530167,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Jobe Bellingham",
+   "min": 83,
+   "x": 85.17205882280001,
+   "y": 26.169687500000002,
+   "xg": 0.06974882632493973,
+   "xgot": 0.21123328804969788,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Fábio Silva",
+   "min": 83,
+   "x": 98.6315789471,
+   "y": 47.5740127358,
+   "xg": 0.05092201381921768,
+   "xgot": 0.08883131295442581,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Fábio Silva",
+   "min": 89,
+   "x": 93.8,
+   "y": 22.247643316,
+   "xg": 0.04417216405272484,
+   "xgot": 0.3337743878364563,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Konrad Laimer",
+   "min": 90,
+   "x": 93,
+   "y": 24.84,
+   "xg": 0.10994169861078262,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Nathaniel Brown",
+   "min": 90,
+   "x": 90.7,
+   "y": 36.36375,
+   "xg": 0.06525523215532303,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCB",
+   "player": "Lennart Karl",
+   "min": 90,
+   "x": 80.79563106879999,
+   "y": 18.2540127409,
+   "xg": 0.011349814012646675,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "post",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   2,
+   22
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   5,
+   -5
+  ],
+  [
+   6,
+   27
+  ],
+  [
+   7,
+   43
+  ],
+  [
+   8,
+   22
+  ],
+  [
+   9,
+   8
+  ],
+  [
+   10,
+   35
+  ],
+  [
+   11,
+   46
+  ],
+  [
+   12,
+   54
+  ],
+  [
+   13,
+   16
+  ],
+  [
+   14,
+   5
+  ],
+  [
+   15,
+   -71
+  ],
+  [
+   16,
+   -81
+  ],
+  [
+   17,
+   -90
+  ],
+  [
+   18,
+   5
+  ],
+  [
+   19,
+   43
+  ],
+  [
+   20,
+   79
+  ],
+  [
+   21,
+   43
+  ],
+  [
+   22,
+   -60
+  ],
+  [
+   23,
+   -76
+  ],
+  [
+   24,
+   -24
+  ],
+  [
+   25,
+   35
+  ],
+  [
+   26,
+   35
+  ],
+  [
+   27,
+   0
+  ],
+  [
+   28,
+   -24
+  ],
+  [
+   29,
+   -19
+  ],
+  [
+   30,
+   -19
+  ],
+  [
+   31,
+   16
+  ],
+  [
+   32,
+   11
+  ],
+  [
+   33,
+   0
+  ],
+  [
+   34,
+   -16
+  ],
+  [
+   35,
+   -16
+  ],
+  [
+   36,
+   -16
+  ],
+  [
+   37,
+   0
+  ],
+  [
+   38,
+   54
+  ],
+  [
+   39,
+   46
+  ],
+  [
+   40,
+   68
+  ],
+  [
+   41,
+   8
+  ],
+  [
+   42,
+   22
+  ],
+  [
+   43,
+   0
+  ],
+  [
+   44,
+   22
+  ],
+  [
+   45,
+   33
+  ],
+  [
+   45.5,
+   -54
+  ],
+  [
+   46,
+   0
+  ],
+  [
+   47,
+   22
+  ],
+  [
+   48,
+   41
+  ],
+  [
+   49,
+   41
+  ],
+  [
+   50,
+   62
+  ],
+  [
+   51,
+   60
+  ],
+  [
+   52,
+   49
+  ],
+  [
+   53,
+   5
+  ],
+  [
+   54,
+   -5
+  ],
+  [
+   55,
+   11
+  ],
+  [
+   56,
+   11
+  ],
+  [
+   57,
+   5
+  ],
+  [
+   58,
+   -22
+  ],
+  [
+   59,
+   -54
+  ],
+  [
+   60,
+   -100
+  ],
+  [
+   61,
+   -76
+  ],
+  [
+   62,
+   27
+  ],
+  [
+   63,
+   100
+  ],
+  [
+   64,
+   100
+  ],
+  [
+   65,
+   100
+  ],
+  [
+   66,
+   100
+  ],
+  [
+   67,
+   100
+  ],
+  [
+   68,
+   90
+  ],
+  [
+   69,
+   27
+  ],
+  [
+   70,
+   5
+  ],
+  [
+   71,
+   0
+  ],
+  [
+   72,
+   11
+  ],
+  [
+   73,
+   33
+  ],
+  [
+   74,
+   16
+  ],
+  [
+   75,
+   0
+  ],
+  [
+   76,
+   -5
+  ],
+  [
+   77,
+   38
+  ],
+  [
+   78,
+   87
+  ],
+  [
+   79,
+   65
+  ],
+  [
+   80,
+   54
+  ],
+  [
+   81,
+   0
+  ],
+  [
+   82,
+   11
+  ],
+  [
+   83,
+   -54
+  ],
+  [
+   84,
+   -54
+  ],
+  [
+   85,
+   -33
+  ],
+  [
+   86,
+   -5
+  ],
+  [
+   87,
+   -27
+  ],
+  [
+   88,
+   -38
+  ],
+  [
+   89,
+   -46
+  ],
+  [
+   90,
+   -24
+  ],
+  [
+   90.5,
+   38
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 38,
+   "center": 30,
+   "right": 32
+  },
+  "away": {
+   "left": 40,
+   "center": 27,
+   "right": 33
+  }
+ },
+ "lineups": {
+  "home": {
+   "team": "FCB",
+   "formation": "4-2-3-1",
+   "rating": 7,
+   "players": [
+    {
+     "name": "Jonas Urbig",
+     "pos_id": 11,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Konrad Laimer",
+     "pos_id": 32,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "name": "Dayot Upamecano",
+     "pos_id": 34,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "name": "Kim Min-Jae",
+     "pos_id": 36,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "name": "Alphonso Davies",
+     "pos_id": 38,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "name": "Joshua Kimmich",
+     "pos_id": 64,
+     "rating": 7.7,
+     "captain": true,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "name": "Aleksandar Pavlović",
+     "pos_id": 66,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "name": "Michael Olise",
+     "pos_id": 83,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "name": "Ismael Saibari",
+     "pos_id": 85,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "name": "Serge Gnabry",
+     "pos_id": 87,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "name": "Harry Kane",
+     "pos_id": 115,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "BVB",
+   "formation": "4-3-3",
+   "rating": 7,
+   "players": [
+    {
+     "name": "Gregor Kobel",
+     "pos_id": 11,
+     "rating": 8.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Joane Gadou",
+     "pos_id": 32,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "name": "Waldemar Anton",
+     "pos_id": 34,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "name": "Nico Schlotterbeck",
+     "pos_id": 36,
+     "rating": 7.2,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "name": "Daniel Svensson",
+     "pos_id": 38,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "name": "Jobe Bellingham",
+     "pos_id": 73,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "name": "Joey Veerman",
+     "pos_id": 75,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "name": "Felix Nmecha",
+     "pos_id": 77,
+     "rating": 5.6,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "name": "Maximilian Beier",
+     "pos_id": 103,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.87
+    },
+    {
+     "name": "Serhou Guirassy",
+     "pos_id": 105,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    },
+    {
+     "name": "Carney Chukwuemeka",
+     "pos_id": 107,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "team": "FCB",
+   "name": "Sven Ulreich",
+   "keeper": true
+  },
+  {
+   "team": "FCB",
+   "name": "Harry Kane",
+   "keeper": false,
+   "rating": 7.17,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.98,
+   "xa": 0.43,
+   "shots": 6,
+   "key_passes": 1,
+   "touches": 36,
+   "touches_box": 7,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "team": "BVB",
+   "name": "Marcel Sabitzer",
+   "keeper": false,
+   "rating": 6.27,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 1,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "team": "FCB",
+   "name": "Serge Gnabry",
+   "keeper": false,
+   "rating": 6.47,
+   "minutes": 31,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 24,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_lost": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Serhou Guirassy",
+   "keeper": false,
+   "rating": 7.71,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.13,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 44,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "team": "FCB",
+   "name": "Joshua Kimmich",
+   "keeper": false,
+   "rating": 7.67,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.3,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 103,
+   "touches_box": 0,
+   "final_third_passes": 15,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "team": "FCB",
+   "name": "Jonathan Tah",
+   "keeper": false
+  },
+  {
+   "team": "FCB",
+   "name": "Konrad Laimer",
+   "keeper": false,
+   "rating": 8.06,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 1.09,
+   "xa": 0.23,
+   "shots": 5,
+   "key_passes": 3,
+   "touches": 83,
+   "touches_box": 9,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "team": "BVB",
+   "name": "Ramy Bensebaini",
+   "keeper": false
+  },
+  {
+   "team": "FCB",
+   "name": "Dayot Upamecano",
+   "keeper": false,
+   "rating": 7.65,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.8,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 76,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 3,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "team": "BVB",
+   "name": "Julian Ryerson",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Waldemar Anton",
+   "keeper": false,
+   "rating": 6.66,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 74,
+   "touches_box": 0,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 3,
+   "duels_won": 2
+  },
+  {
+   "team": "BVB",
+   "name": "Alexander Meyer",
+   "keeper": true
+  },
+  {
+   "team": "FCB",
+   "name": "Alphonso Davies",
+   "keeper": false,
+   "rating": 6.93,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.11,
+   "key_passes": 2,
+   "touches": 87,
+   "touches_box": 7,
+   "dribbles": 5,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 10,
+   "duels_lost": 11
+  },
+  {
+   "team": "BVB",
+   "name": "Gregor Kobel",
+   "keeper": true,
+   "rating": 8.39,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 40,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 7,
+   "interceptions": 0
+  },
+  {
+   "team": "BVB",
+   "name": "Joey Veerman",
+   "keeper": false,
+   "rating": 6.82,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.06,
+   "key_passes": 0,
+   "touches": 72,
+   "touches_box": 0,
+   "final_third_passes": 11,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 8,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "team": "FCB",
+   "name": "Kim Min-Jae",
+   "keeper": false,
+   "rating": 7.25,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 78,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 7,
+   "duels_lost": 4
+  },
+  {
+   "team": "FCB",
+   "name": "Hiroki Ito",
+   "keeper": false
+  },
+  {
+   "team": "FCB",
+   "name": "Josip Stanišić",
+   "keeper": false,
+   "rating": 7.06,
+   "minutes": 59,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.06,
+   "key_passes": 0,
+   "touches": 62,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Felix Nmecha",
+   "keeper": false,
+   "rating": 5.57,
+   "minutes": 76,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.03,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "team": "BVB",
+   "name": "Nico Schlotterbeck",
+   "keeper": false,
+   "rating": 7.21,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.12,
+   "key_passes": 1,
+   "touches": 85,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 4,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 6
+  },
+  {
+   "team": "FCB",
+   "name": "Michael Olise",
+   "keeper": false,
+   "rating": 7.17,
+   "minutes": 84,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.37,
+   "xa": 0.22,
+   "shots": 5,
+   "key_passes": 4,
+   "touches": 72,
+   "touches_box": 6,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_lost": 5
+  },
+  {
+   "team": "FCB",
+   "name": "Sacha Boey",
+   "keeper": false
+  },
+  {
+   "team": "BVB",
+   "name": "Maximilian Beier",
+   "keeper": false,
+   "rating": 6.58,
+   "minutes": 67,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.18,
+   "xa": 0.05,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 35,
+   "touches_box": 4,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 7
+  },
+  {
+   "team": "BVB",
+   "name": "Fábio Silva",
+   "keeper": false,
+   "rating": 7.53,
+   "minutes": 14,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 13,
+   "touches_box": 3,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Carney Chukwuemeka",
+   "keeper": false,
+   "rating": 7.8,
+   "minutes": 67,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.18,
+   "xa": 0.29,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 48,
+   "touches_box": 7,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "team": "FCB",
+   "name": "Ismael Saibari",
+   "keeper": false,
+   "rating": 6.32,
+   "minutes": 29,
+   "goals": 0,
+   "assists": 0,
+   "xg": 1.12,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Daniel Svensson",
+   "keeper": false,
+   "rating": 6.34,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.25,
+   "key_passes": 2,
+   "touches": 63,
+   "touches_box": 2,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "team": "BVB",
+   "name": "Ethan Nwaneri",
+   "keeper": false
+  },
+  {
+   "team": "FCB",
+   "name": "Jonas Urbig",
+   "keeper": true,
+   "rating": 6.42,
+   "minutes": 90,
+   "recoveries": 13,
+   "touches": 50,
+   "tackles": 0,
+   "final_third_passes": 4,
+   "interceptions": 0
+  },
+  {
+   "team": "FCB",
+   "name": "Tom Bischof",
+   "keeper": false
+  },
+  {
+   "team": "BVB",
+   "name": "Jobe Bellingham",
+   "keeper": false,
+   "rating": 7.13,
+   "minutes": 87,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.14,
+   "xa": 0.05,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "team": "FCB",
+   "name": "Nathaniel Brown",
+   "keeper": false,
+   "rating": 6.21,
+   "minutes": 61,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.03,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 21,
+   "touches_box": 5,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "team": "FCB",
+   "name": "Aleksandar Pavlović",
+   "keeper": false,
+   "rating": 7.21,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.09,
+   "key_passes": 0,
+   "touches": 97,
+   "touches_box": 3,
+   "final_third_passes": 9,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 9,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "team": "BVB",
+   "name": "Joane Gadou",
+   "keeper": false,
+   "rating": 7.34,
+   "minutes": 87,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 73,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 6,
+   "tackles": 5,
+   "interceptions": 0,
+   "recoveries": 9,
+   "duels_won": 8,
+   "duels_lost": 5
+  },
+  {
+   "team": "BVB",
+   "name": "Konstantinos Karetsas",
+   "keeper": false,
+   "rating": 6.9,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 16,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "team": "BVB",
+   "name": "Filippo Mane",
+   "keeper": false
+  },
+  {
+   "team": "FCB",
+   "name": "Lennart Karl",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "team": "FCB",
+   "name": "Tim Binder",
+   "keeper": false
+  },
+  {
+   "team": "BVB",
+   "name": "Samuele Inácio",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 0,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  }
+ ],
+ "oldb_id": 83219,
+ "matchday": 8,
+ "season": 2026
+}

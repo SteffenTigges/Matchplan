@@ -1,0 +1,1780 @@
+{
+ "fm_id": 5881210,
+ "stats": {
+  "BallPossesion": [
+   52,
+   48
+  ],
+  "expected_goals": [
+   1.95,
+   1.16
+  ],
+  "total_shots": [
+   15,
+   12
+  ],
+  "ShotsOnTarget": [
+   10,
+   3
+  ],
+  "touches_opp_box": [
+   30,
+   23
+  ],
+  "big_chance": [
+   3,
+   2
+  ],
+  "big_chance_missed_title": [
+   1,
+   1
+  ],
+  "accurate_passes": [
+   {
+    "n": 342,
+    "pct": 79
+   },
+   {
+    "n": 292,
+    "pct": 75
+   }
+  ],
+  "yellow_cards": [
+   2,
+   4
+  ],
+  "corners": [
+   6,
+   6
+  ],
+  "blocked_shots": [
+   1,
+   3
+  ],
+  "shots_inside_box": [
+   11,
+   8
+  ],
+  "expected_goals_open_play": [
+   1.23,
+   0.75
+  ],
+  "expected_goals_set_play": [
+   0.72,
+   0.41
+  ],
+  "expected_goals_on_target": [
+   4.41,
+   0.82
+  ],
+  "passes": [
+   434,
+   391
+  ],
+  "own_half_passes": [
+   184,
+   145
+  ],
+  "opposition_half_passes": [
+   158,
+   147
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 23,
+    "pct": 42
+   },
+   {
+    "n": 39,
+    "pct": 51
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 5,
+    "pct": 26
+   },
+   {
+    "n": 5,
+    "pct": 19
+   }
+  ],
+  "Offsides": [
+   2,
+   3
+  ],
+  "tackles": [
+   20,
+   29
+  ],
+  "interceptions": [
+   8,
+   13
+  ],
+  "shot_blocks": [
+   3,
+   1
+  ],
+  "clearances": [
+   29,
+   26
+  ],
+  "keeper_saves": [
+   3,
+   8
+  ],
+  "duel_won": [
+   57,
+   63
+  ],
+  "ground_duels_won": [
+   {
+    "n": 39,
+    "pct": 47
+   },
+   {
+    "n": 44,
+    "pct": 53
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 18,
+    "pct": 49
+   },
+   {
+    "n": 19,
+    "pct": 51
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 9,
+    "pct": 39
+   },
+   {
+    "n": 5,
+    "pct": 42
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   10,
+   10
+  ]
+ },
+ "shots": [
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 5,
+   "x": 90.2,
+   "y": 30.244,
+   "xg": 0.07870865613222122,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 6,
+   "x": 92,
+   "y": 35.75375,
+   "xg": 0.22797861695289612,
+   "xgot": 0.14806972444057465,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Warmed Omari",
+   "min": 10,
+   "x": 2.2758620688,
+   "y": 35.0675,
+   "xg": null,
+   "xgot": null,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": true
+  },
+  {
+   "team": "HSV",
+   "player": "Terem Moffi",
+   "min": 14,
+   "x": 100.732758621,
+   "y": 34,
+   "xg": 0.4755772352218628,
+   "xgot": 0.5765829086303711,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Shafiq Nandja",
+   "min": 27,
+   "x": 99.784482759,
+   "y": 34.68625,
+   "xg": 0.16776950657367706,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Farès Chaïbi",
+   "min": 31,
+   "x": 94.4824561388,
+   "y": 52.2682802539,
+   "xg": 0.019808202981948853,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Albert Grønbæk",
+   "min": 31,
+   "x": 86.5676470584,
+   "y": 37.708,
+   "xg": 0.047346081584692,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Albert Sambi Lokonga",
+   "min": 38,
+   "x": 78.8810679624,
+   "y": 35.75375,
+   "xg": 0.025308240205049515,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Miro Muheim",
+   "min": 39,
+   "x": 82.8228155344,
+   "y": 45.1217834353,
+   "xg": 0.03058776818215847,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Shafiq Nandja",
+   "min": 43,
+   "x": 83.0480582528,
+   "y": 16.7826751606,
+   "xg": 0.029352322220802307,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Robin Koch",
+   "min": 45,
+   "x": 93.5,
+   "y": 37.864047621,
+   "xg": 0.015072961337864399,
+   "xgot": 0.1843290627002716,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Robin Koch",
+   "min": 45,
+   "x": 95.8333333322,
+   "y": 32.24625,
+   "xg": 0.044464584439992905,
+   "xgot": 0.11113602668046951,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 46,
+   "x": 86.0308823524,
+   "y": 30.291999999999998,
+   "xg": 0.08651189506053925,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Lilian Brassier",
+   "min": 47,
+   "x": 96.79824561320001,
+   "y": 37.2025,
+   "xg": 0.05212094262242317,
+   "xgot": 0.7415039539337158,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Raphael Onyedika",
+   "min": 47,
+   "x": 102.53448275880001,
+   "y": 35.0675,
+   "xg": 0.555556058883667,
+   "xgot": 0.9659345149993896,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 51,
+   "x": 89.7,
+   "y": 47.9243312073,
+   "xg": 0.031711459159851074,
+   "xgot": 0.15704487264156342,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Farès Chaïbi",
+   "min": 57,
+   "x": 60.9383333331,
+   "y": 45.752356684000006,
+   "xg": 0.015745768323540688,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 69,
+   "x": 98.3421052628,
+   "y": 40.889761905,
+   "xg": 0.5224518179893494,
+   "xgot": 0.868032693862915,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Farès Chaïbi",
+   "min": 75,
+   "x": 89.2,
+   "y": 34.68625,
+   "xg": 0.10493283718824387,
+   "xgot": 0.5786398649215698,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Ritsu Doan",
+   "min": 77,
+   "x": 96.79824561320001,
+   "y": 35.90625,
+   "xg": 0.10658469051122665,
+   "xgot": 0.6200724244117737,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Alexander Røssing",
+   "min": 80,
+   "x": 92.7,
+   "y": 45.1918471296,
+   "xg": 0.056868962943553925,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Shafiq Nandja",
+   "min": 87,
+   "x": 96.1228070165,
+   "y": 39.713095239,
+   "xg": 0.03148302435874939,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Alexander Røssing",
+   "min": 88,
+   "x": 89.7,
+   "y": 42.235,
+   "xg": 0.09698306024074554,
+   "xgot": 0.16798925399780273,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Warmed Omari",
+   "min": 89,
+   "x": 99.8793103452,
+   "y": 36.8975,
+   "xg": 0.1347179263830185,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Otto Stange",
+   "min": 89,
+   "x": 97.1842105256,
+   "y": 43.1021875,
+   "xg": 0.04990137368440628,
+   "xgot": 0.08018623292446136,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Niko Iličević",
+   "min": 90,
+   "x": 84.9573529404,
+   "y": 26.111875,
+   "xg": 0.05480995774269104,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Niko Iličević",
+   "min": 90,
+   "x": 87.53382352919999,
+   "y": 48.554904456,
+   "xg": 0.057870157063007355,
+   "xgot": 0.03252460062503815,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Jordan Torunarigha",
+   "min": 90,
+   "x": 91.6,
+   "y": 29.631666665,
+   "xg": 0.01790899783372879,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   5
+  ],
+  [
+   3,
+   11
+  ],
+  [
+   4,
+   11
+  ],
+  [
+   5,
+   49
+  ],
+  [
+   6,
+   92
+  ],
+  [
+   7,
+   100
+  ],
+  [
+   8,
+   95
+  ],
+  [
+   9,
+   24
+  ],
+  [
+   10,
+   16
+  ],
+  [
+   11,
+   -5
+  ],
+  [
+   12,
+   22
+  ],
+  [
+   13,
+   -8
+  ],
+  [
+   14,
+   -100
+  ],
+  [
+   15,
+   -100
+  ],
+  [
+   16,
+   -100
+  ],
+  [
+   17,
+   -11
+  ],
+  [
+   18,
+   0
+  ],
+  [
+   19,
+   0
+  ],
+  [
+   20,
+   16
+  ],
+  [
+   21,
+   16
+  ],
+  [
+   22,
+   0
+  ],
+  [
+   23,
+   -14
+  ],
+  [
+   24,
+   -19
+  ],
+  [
+   25,
+   -3
+  ],
+  [
+   26,
+   -16
+  ],
+  [
+   27,
+   -81
+  ],
+  [
+   28,
+   -49
+  ],
+  [
+   29,
+   -33
+  ],
+  [
+   30,
+   38
+  ],
+  [
+   31,
+   -8
+  ],
+  [
+   32,
+   -8
+  ],
+  [
+   33,
+   -19
+  ],
+  [
+   34,
+   -5
+  ],
+  [
+   35,
+   11
+  ],
+  [
+   36,
+   11
+  ],
+  [
+   37,
+   5
+  ],
+  [
+   38,
+   -100
+  ],
+  [
+   39,
+   -100
+  ],
+  [
+   40,
+   -100
+  ],
+  [
+   41,
+   16
+  ],
+  [
+   42,
+   -14
+  ],
+  [
+   43,
+   -24
+  ],
+  [
+   44,
+   -14
+  ],
+  [
+   45,
+   22
+  ],
+  [
+   45.5,
+   56
+  ],
+  [
+   46,
+   3
+  ],
+  [
+   47,
+   22
+  ],
+  [
+   48,
+   16
+  ],
+  [
+   49,
+   14
+  ],
+  [
+   50,
+   5
+  ],
+  [
+   51,
+   16
+  ],
+  [
+   52,
+   16
+  ],
+  [
+   53,
+   5
+  ],
+  [
+   54,
+   -27
+  ],
+  [
+   55,
+   -11
+  ],
+  [
+   56,
+   -5
+  ],
+  [
+   57,
+   43
+  ],
+  [
+   58,
+   38
+  ],
+  [
+   59,
+   49
+  ],
+  [
+   60,
+   27
+  ],
+  [
+   61,
+   27
+  ],
+  [
+   62,
+   11
+  ],
+  [
+   63,
+   11
+  ],
+  [
+   64,
+   -11
+  ],
+  [
+   65,
+   -5
+  ],
+  [
+   66,
+   -5
+  ],
+  [
+   67,
+   0
+  ],
+  [
+   68,
+   5
+  ],
+  [
+   69,
+   100
+  ],
+  [
+   70,
+   100
+  ],
+  [
+   71,
+   92
+  ],
+  [
+   72,
+   -43
+  ],
+  [
+   73,
+   -27
+  ],
+  [
+   74,
+   -35
+  ],
+  [
+   75,
+   35
+  ],
+  [
+   76,
+   35
+  ],
+  [
+   77,
+   87
+  ],
+  [
+   78,
+   -35
+  ],
+  [
+   79,
+   -24
+  ],
+  [
+   80,
+   -68
+  ],
+  [
+   81,
+   33
+  ],
+  [
+   82,
+   22
+  ],
+  [
+   83,
+   43
+  ],
+  [
+   84,
+   -5
+  ],
+  [
+   85,
+   -5
+  ],
+  [
+   86,
+   -5
+  ],
+  [
+   87,
+   -73
+  ],
+  [
+   88,
+   -73
+  ],
+  [
+   89,
+   -100
+  ],
+  [
+   90,
+   -60
+  ],
+  [
+   90.5,
+   6
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 41,
+   "center": 24,
+   "right": 35
+  },
+  "away": {
+   "left": 31,
+   "center": 24,
+   "right": 45
+  }
+ },
+ "lineups": {
+  "home": {
+   "team": "SGE",
+   "formation": "4-2-3-1",
+   "rating": 7.3,
+   "players": [
+    {
+     "name": "Noah Atubolu",
+     "pos_id": 11,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Elias Baum",
+     "pos_id": 32,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "name": "Robin Koch",
+     "pos_id": 34,
+     "rating": 7.2,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "name": "Lilian Brassier",
+     "pos_id": 36,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "name": "Keita Kosugi",
+     "pos_id": 38,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "name": "Raphael Onyedika",
+     "pos_id": 64,
+     "rating": 8.5,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "name": "Noël Aséko",
+     "pos_id": 66,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "name": "Ritsu Doan",
+     "pos_id": 83,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "name": "Can Uzun",
+     "pos_id": 85,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "name": "Farès Chaïbi",
+     "pos_id": 87,
+     "rating": 8,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "name": "Younes Ebnoutalib",
+     "pos_id": 115,
+     "rating": 8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "HSV",
+   "formation": "3-4-2-1",
+   "rating": 6.6,
+   "players": [
+    {
+     "name": "Daniel Heuer Fernandes",
+     "pos_id": 11,
+     "rating": 8.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "name": "Shafiq Nandja",
+     "pos_id": 33,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "name": "Jordan Torunarigha",
+     "pos_id": 35,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "name": "Warmed Omari",
+     "pos_id": 37,
+     "rating": 4.9,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "name": "David Møller Wolfe",
+     "pos_id": 62,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "name": "Albert Sambi Lokonga",
+     "pos_id": 64,
+     "rating": 6.5,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "name": "Miro Muheim",
+     "pos_id": 66,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "name": "Louis Lemke",
+     "pos_id": 68,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "name": "Martin Adeline",
+     "pos_id": 84,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "name": "Albert Grønbæk",
+     "pos_id": 86,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "name": "Terem Moffi",
+     "pos_id": 105,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "team": "SGE",
+   "name": "Timothy Chandler",
+   "keeper": false
+  },
+  {
+   "team": "SGE",
+   "name": "Mario Götze",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "team": "HSV",
+   "name": "Daniel Heuer Fernandes",
+   "keeper": true,
+   "rating": 8.6,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 17,
+   "touches": 64,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 9,
+   "interceptions": 0
+  },
+  {
+   "team": "SGE",
+   "name": "Robin Koch",
+   "keeper": false,
+   "rating": 7.23,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 66,
+   "touches_box": 3,
+   "final_third_passes": 11,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 5
+  },
+  {
+   "team": "SGE",
+   "name": "Ritsu Doan",
+   "keeper": false,
+   "rating": 7.65,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 50,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 4,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "team": "HSV",
+   "name": "Patson Daka",
+   "keeper": false,
+   "rating": 5.82,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 1,
+   "touches": 12,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "team": "HSV",
+   "name": "Jordan Torunarigha",
+   "keeper": false,
+   "rating": 6.64,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.07,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 2,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 4,
+   "recoveries": 4,
+   "duels_won": 8,
+   "duels_lost": 2
+  },
+  {
+   "team": "HSV",
+   "name": "Miro Muheim",
+   "keeper": false,
+   "rating": 6.66,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.48,
+   "shots": 1,
+   "key_passes": 5,
+   "touches": 72,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 4,
+   "duels_lost": 8
+  },
+  {
+   "team": "HSV",
+   "name": "Bakery Jatta",
+   "keeper": false
+  },
+  {
+   "team": "HSV",
+   "name": "Terem Moffi",
+   "keeper": false,
+   "rating": 7.48,
+   "minutes": 63,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.48,
+   "xa": 0.14,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 26,
+   "touches_box": 5,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "team": "HSV",
+   "name": "Albert Sambi Lokonga",
+   "keeper": false,
+   "rating": 6.48,
+   "minutes": 80,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.03,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 61,
+   "touches_box": 0,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "team": "SGE",
+   "name": "Jonathan Burkardt",
+   "keeper": false,
+   "rating": 6.43,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 17,
+   "touches_box": 3,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "team": "HSV",
+   "name": "David Møller Wolfe",
+   "keeper": false,
+   "rating": 5.85,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 60,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 12,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 9,
+   "duels_lost": 7
+  },
+  {
+   "team": "HSV",
+   "name": "Immanuël Pherai",
+   "keeper": false
+  },
+  {
+   "team": "SGE",
+   "name": "Lilian Brassier",
+   "keeper": false,
+   "rating": 6.65,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 96,
+   "touches_box": 1,
+   "final_third_passes": 9,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "team": "SGE",
+   "name": "Raphael Onyedika",
+   "keeper": false,
+   "rating": 8.49,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.56,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 50,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 5,
+   "duels_lost": 2
+  },
+  {
+   "team": "HSV",
+   "name": "Albert Grønbæk",
+   "keeper": false,
+   "rating": 7.2,
+   "minutes": 88,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.05,
+   "xa": 0.73,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 39,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 5,
+   "duels_lost": 7
+  },
+  {
+   "team": "HSV",
+   "name": "Sander Tangvik",
+   "keeper": true
+  },
+  {
+   "team": "SGE",
+   "name": "Ansgar Knauff",
+   "keeper": false,
+   "rating": 6.49,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 27,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "team": "SGE",
+   "name": "Nnamdi Collins",
+   "keeper": false
+  },
+  {
+   "team": "HSV",
+   "name": "Warmed Omari",
+   "keeper": false,
+   "rating": 4.92,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.13,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 54,
+   "touches_box": 2,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "team": "SGE",
+   "name": "Noah Atubolu",
+   "keeper": true,
+   "rating": 6.88,
+   "minutes": 90,
+   "recoveries": 7,
+   "touches": 45,
+   "tackles": 0,
+   "final_third_passes": 3,
+   "interceptions": 0
+  },
+  {
+   "team": "HSV",
+   "name": "Zakaria El Ouahdi",
+   "keeper": false,
+   "rating": 6.88,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 28,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "team": "HSV",
+   "name": "Martin Adeline",
+   "keeper": false,
+   "rating": 7.23,
+   "minutes": 80,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.2,
+   "key_passes": 0,
+   "touches": 54,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 6,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "team": "SGE",
+   "name": "Farès Chaïbi",
+   "keeper": false,
+   "rating": 8.03,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.14,
+   "xa": 0.38,
+   "shots": 3,
+   "key_passes": 6,
+   "touches": 68,
+   "touches_box": 5,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 5,
+   "duels_lost": 10
+  },
+  {
+   "team": "SGE",
+   "name": "Can Uzun",
+   "keeper": false,
+   "rating": 7.82,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.2,
+   "xa": 0.38,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 78,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 11,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 7
+  },
+  {
+   "team": "SGE",
+   "name": "Kauã",
+   "keeper": true
+  },
+  {
+   "team": "SGE",
+   "name": "Elias Baum",
+   "keeper": false,
+   "rating": 6.94,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.21,
+   "key_passes": 2,
+   "touches": 61,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 7,
+   "duels_lost": 8
+  },
+  {
+   "team": "SGE",
+   "name": "Younes Ebnoutalib",
+   "keeper": false,
+   "rating": 7.98,
+   "minutes": 74,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.75,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 33,
+   "touches_box": 7,
+   "dribbles": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "team": "HSV",
+   "name": "Otto Stange",
+   "keeper": false,
+   "minutes": 2,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "team": "HSV",
+   "name": "Kofi Amoako",
+   "keeper": false,
+   "rating": 6.28,
+   "minutes": 10,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3
+  },
+  {
+   "team": "SGE",
+   "name": "Noël Aséko",
+   "keeper": false,
+   "rating": 7.81,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 57,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 4,
+   "tackles": 4,
+   "interceptions": 1,
+   "recoveries": 8,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "team": "SGE",
+   "name": "Keita Kosugi",
+   "keeper": false,
+   "rating": 6.33,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 27,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "team": "HSV",
+   "name": "Alexander Røssing",
+   "keeper": false,
+   "rating": 7.25,
+   "minutes": 10,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.15,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "team": "SGE",
+   "name": "Jeremiaha Maluze",
+   "keeper": false
+  },
+  {
+   "team": "SGE",
+   "name": "Ayoube Amaimouni-Echghouyab",
+   "keeper": false
+  },
+  {
+   "team": "HSV",
+   "name": "Shafiq Nandja",
+   "keeper": false,
+   "rating": 5.28,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.23,
+   "xa": 0.01,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 5,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 7,
+   "duels_lost": 6
+  },
+  {
+   "team": "SGE",
+   "name": "Niko Iličević",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.45,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "team": "HSV",
+   "name": "Louis Lemke",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "team": "HSV",
+   "name": "Jason Dean Bissi Mouelle",
+   "keeper": false
+  }
+ ],
+ "oldb_id": 83221,
+ "matchday": 8,
+ "season": 2026
+}
