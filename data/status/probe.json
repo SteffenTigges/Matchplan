@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-11-18T15:16:08.519912+00:00",
+  "ok_count": 5,
+  "total": 10,
+  "sources": [
+    {
+      "key": "openligadb",
+      "name": "OpenLigaDB",
+      "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 601,
+      "bytes": 356380,
+      "error": null,
+      "purpose": "Spielplan, Ergebnisse, Tabelle"
+    },
+    {
+      "key": "fotmob_api",
+      "name": "FotMob (API)",
+      "url": "https://www.fotmob.com/api/leagues?id=54",
+      "ok": false,
+      "status": 404,
+      "elapsed_ms": 97,
+      "bytes": 0,
+      "error": "HTTP 404",
+      "purpose": "Spielstatistik, Noten, Kader"
+    },
+    {
+      "key": "fotmob_web",
+      "name": "FotMob (Webseite)",
+      "url": "https://www.fotmob.com/leagues/54/overview/bundesliga",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 536,
+      "bytes": 1019768,
+      "error": null,
+      "purpose": "Spielstatistik, Noten, Kader"
+    },
+    {
+      "key": "understat",
+      "name": "Understat",
+      "url": "https://understat.com/league/Bundesliga/2026",
+      "ok": false,
+      "status": 200,
+      "elapsed_ms": 512,
+      "bytes": 26719,
+      "error": "Inhalt unerwartet",
+      "purpose": "xG pro Schuss, Schusskarten"
+    },
+    {
+      "key": "bundesliga",
+      "name": "bundesliga.com",
+      "url": "https://www.bundesliga.com/en/bundesliga/stats/players",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 153,
+      "bytes": 666043,
+      "error": null,
+      "purpose": "Laufdaten, Match Facts"
+    },
+    {
+      "key": "ligainsider",
+      "name": "Ligainsider",
+      "url": "https://www.ligainsider.de/borussia-moenchengladbach/5/",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 479,
+      "bytes": 269413,
+      "error": null,
+      "purpose": "Voraussichtliche Aufstellungen, Ausfälle"
+    },
+    {
+      "key": "ligainsider_img",
+      "name": "Ligainsider (Bilder)",
+      "url": "https://cdn.ligainsider.de/images/teams/small/fc-bayern-muenchen-wappen.png",
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 506,
+      "bytes": 0,
+      "error": null,
+      "purpose": "Spielerfotos, Wappen"
+    },
+    {
+      "key": "transfermarkt",
+      "name": "Transfermarkt",
+      "url": "https://www.transfermarkt.de/bundesliga/startseite/wettbewerb/L1",
+      "ok": false,
+      "status": 202,
+      "elapsed_ms": 200,
+      "bytes": 0,
+      "error": "HTTP 202",
+      "purpose": "Karrieren, Marktwerte"
+    },
+    {
+      "key": "clubelo",
+      "name": "ClubElo",
+      "url": "http://api.clubelo.com/Bayern",
+      "ok": false,
+      "status": 502,
+      "elapsed_ms": 793,
+      "bytes": 0,
+      "error": "HTTP 502",
+      "purpose": "Elo-Stärke der Teams"
+    },
+    {
+      "key": "footballdata",
+      "name": "football-data.co.uk",
+      "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+      "ok": false,
+      "status": 200,
+      "elapsed_ms": 851,
+      "bytes": 39033,
+      "error": "Inhalt unerwartet",
+      "purpose": "Quoten, historische Ergebnisse"
+    }
+  ]
+}
