@@ -117,6 +117,12 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
             t["gf"] += gf
             t["ga"] += ga
             t["clean_sheets"] += 1 if ga == 0 else 0
+            if "expected_goals" in st:
+                t["gf_xg"] += gf
+                t["ga_xg"] += ga
+            if all(k in st for k in ("tackles", "interceptions", "fouls", "own_half_passes")):
+                t["defacts"] += v("tackles", i) + v("interceptions", i) + v("fouls", i)
+                t["opp_own_half"] += v("own_half_passes", j)
             for key, name in [("expected_goals", "xg"), ("big_chance", "bc"), ("touches_opp_box", "box"), ("total_shots", "shots"),
                               ("ShotsOnTarget", "sot"), ("shots_inside_box", "inbox"), ("expected_goals_on_target", "xgot"),
                               ("passes", "passes"), ("accurate_passes", "acc"), ("opposition_half_passes", "opph"),
@@ -124,10 +130,10 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
                               ("corners", "corners"), ("duel_won", "duels"), ("aerials_won", "aerials"),
                               ("dribbles_succeeded", "dribbles"), ("fouls", "fouls"), ("yellow_cards", "yellow"),
                               ("BallPossesion", "poss")]:
-                t[name] += v(key, i)
-                t[name + "_opp"] += v(key, j)
-            t["defacts"] += v("tackles", i) + v("interceptions", i) + v("fouls", i)
-            t["opp_own_half"] += v("own_half_passes", j)
+                if key in st:  # fehlende Werte zählen nicht als 0
+                    t[name] += v(key, i)
+                    t[name + "_opp"] += v(key, j)
+                    t["n_" + name] += 1
             for key, name in [("long_balls_accurate", "long"), ("accurate_crosses", "cross")]:
                 vals = st.get(key)
                 if vals:
@@ -137,51 +143,59 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
                 t["xpoints"] += xp[i]
                 t["xp_matches"] += 1
 
-    def div(a: float, b: float) -> float:
-        return a / b if b else 0.0
+    def div(a: float, b: float) -> float | None:
+        return a / b if b else None
 
-    out: dict[str, dict[str, float]] = {}
+    out: dict[str, dict[str, float | None]] = {}
     for team, t in s.items():
         n = t["matches"]
+
+        def pg(name: str, opp: bool = False) -> float | None:  # pro Spiel, nur Spiele mit diesem Wert
+            return div(t[name + ("_opp" if opp else "")], t["n_" + name])
+
+        def share(a: float, b: float, name: str) -> float | None:
+            return div(a, b) if t["n_" + name] else None
+
+        poss = pg("poss")
         out[team] = {
             "matches": int(n),
             "points": int(t["points"]),
-            "possession": div(t["poss"], n) / 100,
+            "possession": poss / 100 if poss is not None else None,
             "goal_diff": t["gf"] - t["ga"],
             "goals_pg": div(t["gf"], n),
-            "xg_pg": div(t["xg"], n),
-            "big_chances_pg": div(t["bc"], n),
-            "box_touches_pg": div(t["box"], n),
-            "field_tilt": div(t["box"], t["box"] + t["box_opp"]),
-            "shots_pg": div(t["shots"], n),
-            "on_target_pg": div(t["sot"], n),
-            "inside_box_share": div(t["inbox"], t["shots"]),
-            "xg_per_shot": div(t["xg"], t["shots"]),
-            "xgot_pg": div(t["xgot"], n),
-            "passes_pg": div(t["passes"], n),
-            "pass_accuracy": div(t["acc"], t["passes"]),
-            "opp_half_share": div(t["opph"], t["passes"]),
+            "xg_pg": pg("xg"),
+            "big_chances_pg": pg("bc"),
+            "box_touches_pg": pg("box"),
+            "field_tilt": share(t["box"], t["box"] + t["box_opp"], "box"),
+            "shots_pg": pg("shots"),
+            "on_target_pg": pg("sot"),
+            "inside_box_share": share(t["inbox"], t["shots"], "inbox"),
+            "xg_per_shot": share(t["xg"], t["shots"], "xg"),
+            "xgot_pg": pg("xgot"),
+            "passes_pg": pg("passes"),
+            "pass_accuracy": share(t["acc"], t["passes"], "acc"),
+            "opp_half_share": share(t["opph"], t["passes"], "opph"),
             "long_ball_accuracy": div(t["long"], t["long_att"]),
             "cross_accuracy": div(t["cross"], t["cross_att"]),
             "against_pg": div(t["ga"], n),
-            "xga_pg": div(t["xg_opp"], n),
-            "shots_against_pg": div(t["shots_opp"], n),
-            "big_chances_against_pg": div(t["bc_opp"], n),
+            "xga_pg": pg("xg", opp=True),
+            "shots_against_pg": pg("shots", opp=True),
+            "big_chances_against_pg": pg("bc", opp=True),
             "clean_sheets": int(t["clean_sheets"]),
             "ppda": div(t["opp_own_half"], t["defacts"]),
-            "tackles_pg": div(t["tackles"], n),
-            "interceptions_pg": div(t["inter"], n),
-            "xg_setplay_pg": div(t["xgsp"], n),
-            "xga_setplay_pg": div(t["xgsp_opp"], n),
-            "corners_pg": div(t["corners"], n),
-            "duel_rate": div(t["duels"], t["duels"] + t["duels_opp"]),
-            "aerial_rate": div(t["aerials"], t["aerials"] + t["aerials_opp"]),
-            "dribbles_pg": div(t["dribbles"], n),
-            "fouls_pg": div(t["fouls"], n),
-            "yellow_pg": div(t["yellow"], n),
-            "goals_minus_xg": t["gf"] - t["xg"],
-            "against_minus_xga": t["ga"] - t["xg_opp"],
-            "points_minus_xpoints": t["points"] - t["xpoints"] if t["xp_matches"] == n else 0.0,
+            "tackles_pg": pg("tackles"),
+            "interceptions_pg": pg("inter"),
+            "xg_setplay_pg": pg("xgsp"),
+            "xga_setplay_pg": pg("xgsp", opp=True),
+            "corners_pg": pg("corners"),
+            "duel_rate": share(t["duels"], t["duels"] + t["duels_opp"], "duels"),
+            "aerial_rate": share(t["aerials"], t["aerials"] + t["aerials_opp"], "aerials"),
+            "dribbles_pg": pg("dribbles"),
+            "fouls_pg": pg("fouls"),
+            "yellow_pg": pg("yellow"),
+            "goals_minus_xg": t["gf_xg"] - t["xg"] if t["n_xg"] else None,
+            "against_minus_xga": t["ga_xg"] - t["xg_opp"] if t["n_xg"] else None,
+            "points_minus_xpoints": t["points"] - t["xpoints"] if t["xp_matches"] == n else None,
         }
     return out
 
@@ -195,8 +209,8 @@ def rank(values: dict[str, float], higher_is_better: bool) -> dict[str, int]:
 def build_teamstats(values: dict[str, dict[str, float]]) -> dict:
     teams: dict[str, dict] = {k: {"matches": v["matches"]} for k, v in values.items()}
     for m in METRICS:
-        col = {k: round(v[m.key], 4) for k, v in values.items()}
+        col = {k: round(v[m.key], 4) for k, v in values.items() if v[m.key] is not None}
         ranks = rank(col, m.higher_is_better)
         for k in values:
-            teams[k][m.key] = {"value": col[k], "rank": ranks[k]}
+            teams[k][m.key] = {"value": col.get(k), "rank": ranks.get(k)}
     return {"categories": CATEGORIES, "metrics": [asdict(m) for m in METRICS], "teams": teams}

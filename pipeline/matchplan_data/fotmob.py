@@ -59,6 +59,12 @@ def to_number(v):
     return int(f) if f.is_integer() and "." not in s else f
 
 
+def _num(v) -> float | int | None:
+    """Nur echte Zahlen durchlassen (auch aus Text wie '7.5')."""
+    n = to_number(v)
+    return n if isinstance(n, (int, float)) else None
+
+
 def parse_league(data: dict) -> list[dict]:
     out = []
     for m in data["props"]["pageProps"]["fixtures"]["allMatches"]:
@@ -111,8 +117,8 @@ def parse_match(data: dict) -> dict:
 
     shots = [
         {
-            "team": _key(s.get("teamId")), "player": s.get("playerName"), "min": s.get("min"),
-            "x": s.get("x"), "y": s.get("y"), "xg": s.get("expectedGoals"), "xgot": s.get("expectedGoalsOnTarget"),
+            "team": _key(s.get("teamId")), "player": s.get("playerName"), "min": _num(s.get("min")),
+            "x": _num(s.get("x")), "y": _num(s.get("y")), "xg": _num(s.get("expectedGoals")), "xgot": _num(s.get("expectedGoalsOnTarget")),
             "situation": s.get("situation"), "type": s.get("shotType"), "result": _result(s), "own_goal": bool(s.get("isOwnGoal")),
         }
         for s in ((c.get("shotmap") or {}).get("shots") or [])
@@ -122,16 +128,19 @@ def parse_match(data: dict) -> dict:
     momentum = [[p["minute"], p["value"]] for p in mom] if mom else None
 
     az = c.get("attackingZones")
-    zones = {side: az[side]["total"] for side in ("home", "away")} if az and az.get("home") and az.get("away") else None
+    zones = None
+    if az and az.get("home") and az.get("away"):
+        zz = {side: {k: _num((az[side].get("total") or {}).get(k)) for k in ("left", "center", "right")} for side in ("home", "away")}
+        zones = zz if all(v is not None for z in zz.values() for v in z.values()) else None
 
     lineups = None
     lu = c.get("lineup") or {}
     if lu.get("homeTeam") and lu.get("awayTeam"):
         def team(t: dict) -> dict:
             return {
-                "team": _key(t.get("id")), "formation": t.get("formation"), "rating": t.get("rating"),
+                "team": _key(t.get("id")), "formation": t.get("formation"), "rating": _num(t.get("rating")),
                 "players": [
-                    {"name": p.get("name"), "pos_id": p.get("positionId"), "rating": (p.get("performance") or {}).get("rating"),
+                    {"name": p.get("name"), "pos_id": _num(p.get("positionId")), "rating": _num((p.get("performance") or {}).get("rating")),
                      "captain": bool(p.get("isCaptain")), "x": (p.get("verticalLayout") or {}).get("x"), "y": (p.get("verticalLayout") or {}).get("y")}
                     for p in t.get("starters") or []
                 ],
@@ -145,7 +154,7 @@ def parse_match(data: dict) -> dict:
             for s in (g.get("stats") or {}).values():
                 field = PLAYER_STATS.get(s.get("key"))
                 if field and field not in row:
-                    row[field] = to_number((s.get("stat") or {}).get("value"))
+                    row[field] = _num((s.get("stat") or {}).get("value"))
         players.append(row)
 
     return {"fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,

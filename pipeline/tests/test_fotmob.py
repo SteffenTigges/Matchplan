@@ -72,3 +72,18 @@ def test_missing_sections_are_none():
     m = parse_match(data)
     assert m["shots"] == [] and m["momentum"] is None and m["zones"] is None and m["lineups"] is None and m["players"] == []
     assert m["stats"]["expected_goals"] == [2.23, 2.6]
+
+
+def test_numbers_from_fotmob_are_coerced():
+    data = load("fotmob_match.json")
+    c = data["props"]["pageProps"]["content"]
+    c["lineup"]["homeTeam"]["starters"][0]["performance"]["rating"] = "7.5"
+    c["shotmap"]["shots"][0]["min"] = "10"
+    m = parse_match(data)
+    assert m["lineups"]["home"]["players"][0]["rating"] == 7.5 and m["shots"][0]["min"] == 10
+
+
+def test_incomplete_zones_are_dropped():
+    data = load("fotmob_match.json")
+    del data["props"]["pageProps"]["content"]["attackingZones"]["home"]["total"]["center"]
+    assert parse_match(data)["zones"] is None

@@ -23,7 +23,7 @@ export function renderTeamStats(key: string, stats: TeamStats): string {
   const matches = typeof team.matches === "number" ? team.matches : 0;
   const row = (m: MetricDef): string => {
     const e = team[m.key];
-    if (!e || typeof e === "number") return "";
+    if (!e || typeof e === "number" || e.value == null || e.rank == null) return "";
     return `<div class="srow"><span>${esc(m.label)}${m.approx ? '<span class="tag">Näherung</span>' : ""}</span><span class="num">${esc(formatMetric(e.value, m.fmt))}</span>${chip(e.rank)}</div>`;
   };
   const nav = `<div class="seg">${stats.categories.map((c, i) => `<a href="#" onclick="event.preventDefault();const d=document.getElementById('tc-${i}');d.open=true;d.scrollIntoView({behavior:'smooth'})">${esc(c)}</a>`).join("")}</div>`;

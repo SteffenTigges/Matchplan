@@ -60,3 +60,21 @@ def test_build_teamstats_has_value_and_rank_per_metric():
     assert ts["teams"]["AAA"]["xg_pg"] == {"value": 2.0, "rank": 1}
     assert ts["teams"]["BBB"]["xg_pg"]["rank"] == 2
     assert ts["metrics"][0]["key"] == METRICS[0].key and "category" in ts["metrics"][0]
+
+
+def test_missing_stats_do_not_lower_averages():
+    pairs = [
+        (match("AAA", "BBB", [1, 0], 1), stats(expected_goals=[2.0, 0.5])),
+        (match("AAA", "BBB", [0, 0], 2), {"stats": {}, "shots": []}),
+    ]
+    v = aggregate(pairs)
+    assert v["AAA"]["matches"] == 2 and v["AAA"]["points"] == 4
+    assert v["AAA"]["xg_pg"] == pytest.approx(2.0) and v["AAA"]["possession"] == pytest.approx(0.5)
+
+
+def test_metric_missing_for_everyone_is_unranked():
+    pairs = [(match("AAA", "BBB", [1, 0], 1), {"stats": {"total_shots": [5, 3]}, "shots": []})]
+    ts = build_teamstats(aggregate(pairs))
+    assert ts["teams"]["AAA"]["xg_pg"] == {"value": None, "rank": None}
+    assert ts["teams"]["AAA"]["ppda"] == {"value": None, "rank": None}
+    assert ts["teams"]["AAA"]["shots_pg"] == {"value": 5.0, "rank": 1}

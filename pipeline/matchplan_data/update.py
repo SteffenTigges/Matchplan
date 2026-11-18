@@ -41,7 +41,9 @@ def _lineup_from_dict(d: dict) -> TeamLineup:
     return TeamLineup(d["team"], d["formation"], rows, d["missing"], d.get("updated_label"), d.get("opponent"), d.get("home"))
 
 
-SETTLE = timedelta(hours=48)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
+SETTLE = timedelta(hours=48)
+RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange erneut versuchen
+CORE_STATS = {"expected_goals", "passes", "total_shots"}  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
 
 def _settled(matches: list[dict], now: datetime) -> bool:
@@ -87,7 +89,10 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
         path = out / "fotmob" / f"{om['id']}.json"
         kickoff = datetime.fromisoformat((fm["kickoff"] or "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
         if path.exists() and now - kickoff > SETTLE:
-            continue
+            old = _read(path) or {}
+            complete = bool(old.get("stats")) and bool(old.get("shots"))
+            if complete or now - kickoff > RETRY_INCOMPLETE:
+                continue
         try:
             nd = next_data(get(fm["url"]))
             if nd is None:
@@ -97,13 +102,18 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
             errors.append(f"{fm['home']}–{fm['away']}: {e}")
 
     pairs = []
+    lacking = 0
     for f in sorted((out / "fotmob").glob("*.json")) if (out / "fotmob").exists() else []:
         fmd = _read(f)
         if fmd and fmd.get("season") == SEASON and fmd.get("oldb_id") in by_id:
             pairs.append((by_id[fmd["oldb_id"]], fmd))
+            if not CORE_STATS <= set(fmd.get("stats") or {}):
+                lacking += 1
     if pairs:
         _write(out / "teamstats.json", {"updated_at": at, **build_teamstats(aggregate(pairs))})
     note = f"{len(pairs)} Spiele ausgewertet" + (f", {unmatched} Spiel ohne Zuordnung" if unmatched == 1 else f", {unmatched} Spiele ohne Zuordnung" if unmatched else "")
+    if lacking:
+        note += f", {lacking} ohne Kernwerte (xG, Pässe oder Schüsse fehlen – Format geändert?)"
     status["fotmob"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None, "note": note}
 
 

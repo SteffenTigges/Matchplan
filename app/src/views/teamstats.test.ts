@@ -36,3 +36,8 @@ test("marks_approximations", () => {
 test("unknown_team_returns_empty", () => {
   expect(renderTeamStats("XXX", stats)).toBe("");
 });
+
+test("metrics_without_value_are_hidden", () => {
+  const s = { ...stats, teams: { TSG: { ...stats.teams.TSG, ppda: { value: null, rank: null } } } } as unknown as TeamStats;
+  expect(renderTeamStats("TSG", s)).not.toContain("PPDA");
+});

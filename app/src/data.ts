@@ -61,5 +61,5 @@ export interface FotmobMatch {
 export interface MetricDef { key: string; label: string; category: string; higher_is_better: boolean; fmt: string; approx: boolean }
 export interface TeamStats {
   updated_at: string; categories: string[]; metrics: MetricDef[];
-  teams: Record<string, Record<string, { value: number; rank: number } | number>>;
+  teams: Record<string, Record<string, { value: number | null; rank: number | null } | number>>;
 }

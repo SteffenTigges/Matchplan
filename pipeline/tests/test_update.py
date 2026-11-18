@@ -189,3 +189,26 @@ def test_fotmob_down_keeps_previous_files(tmp_path):
     status = run_update(tmp_path, fake(broken={FM_LEAGUE}), NOW, sleep=lambda s: None)
     assert (tmp_path / "fotmob" / "83231.json").exists() and (tmp_path / "teamstats.json").exists()
     assert status["fotmob"]["ok"] is False
+
+
+def test_incomplete_match_file_is_refetched_within_14_days(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    path = tmp_path / "fotmob" / "83231.json"
+    d = read(path)
+    d["stats"] = {}
+    path.write_text(json.dumps(d), encoding="utf-8")
+    calls = []
+    base = fake()
+    run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], NOW, sleep=lambda s: None)
+    assert FM_MATCH in calls and read(path)["stats"]["expected_goals"] == [2.23, 2.6]
+
+
+def test_warns_when_core_stats_are_missing(tmp_path):
+    def renamed(url):
+        r = fake()(url)
+        if url == FM_MATCH:
+            return Response(200, r.text.replace('"expected_goals"', '"xg_renamed"'), "text/html", 1)
+        return r
+
+    status = run_update(tmp_path, renamed, NOW, sleep=lambda s: None)
+    assert "ohne Kernwerte" in status["fotmob"]["note"]
