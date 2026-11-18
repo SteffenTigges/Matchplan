@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matchplan-data"
+version = "0.1.0"
+description = "Datenjob für Matchplan"
+requires-python = ">=3.12"
+dependencies = ["requests>=2.32,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools]
+packages = ["matchplan_data"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
