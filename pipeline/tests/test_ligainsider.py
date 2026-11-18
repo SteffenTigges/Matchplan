@@ -50,3 +50,20 @@ def test_diagnose_names_the_missing_part():
 def test_opponent_keeps_digits_in_name():
     page = fixture("ligainsider_bmg.html").replace("Borussia Dortmund", "SV 07 Elversberg")
     assert parse_lineup_page(page).opponent == "SV 07 Elversberg"
+
+
+def test_parses_page_with_relative_links_as_served_to_scripts():
+    """Ligainsider liefert relative Links; Browser-Werkzeuge machen sie absolut."""
+    raw = fixture("ligainsider_bmg.html").replace('href="https://www.ligainsider.de/', 'href="/')
+    raw = raw.replace('<img class="img-circle" src="https://cdn.ligainsider.de/', '<img alt="" class="img-circle" data-src="https://cdn.ligainsider.de/')
+    lu = parse_lineup_page(raw)
+    assert lu is not None and sum(len(r) for r in lu.rows) == 11
+    herold = lu.rows[2][3]
+    assert herold.player.id == "david-herold_34927" and herold.player.photo.endswith("david-herold-gladbach-2627.jpg")
+    assert [a.name for a in herold.alternatives] == ["Castrop"]
+    assert lu.missing[0]["name"] == "Kō Itakura"
+
+
+def test_relative_photo_paths_become_absolute():
+    raw = fixture("ligainsider_bmg.html").replace('src="https://cdn.ligainsider.de/images/player', 'src="/images/player')
+    assert parse_lineup_page(raw).rows[0][0].player.photo.startswith("https://www.ligainsider.de/images/player")

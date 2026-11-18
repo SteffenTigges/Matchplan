@@ -32,12 +32,21 @@ class TeamLineup:
 
 
 _TITLE = re.compile(r"<title>\s*([^<:]+?)\s*:\s*Voraussichtliche Aufstellung", re.I)
-_PLAYER = re.compile(
-    r'<img class="img-circle" src="([^"]+)"[^>]*>.*?'
-    r'class="player_name"><a href="https://www\.ligainsider\.de/([^/"]+)/"[^>]*>([^<]+)</a>',
-    re.S,
-)
-_NAME_ONLY = re.compile(r'class="player_name"><a href="https://www\.ligainsider\.de/([^/"]+)/"[^>]*>([^<]+)</a>')
+# Links kommen je nach Abrufweg relativ ("/name_123/") oder absolut ("https://www.ligainsider.de/name_123/").
+_HREF = r'href="(?:https?://www\.ligainsider\.de)?/([^/"]+)/"'
+_NAME = re.compile(r'class="player_name"><a ' + _HREF + r'[^>]*>([^<]+)</a>')
+_IMG = re.compile(r'<img\b[^>]*class="img-circle"[^>]*>')
+_SRC = re.compile(r'\b(?:data-src|src)="([^"]+)"')
+SITE = "https://www.ligainsider.de"
+
+
+def _photo(block: str) -> str | None:
+    img = _IMG.search(block)
+    src = _SRC.search(img.group(0)) if img else None
+    if not src:
+        return None
+    url = H.unescape(src.group(1))
+    return SITE + url if url.startswith("/") else url
 
 
 def _clean(s: str) -> str:
@@ -49,13 +58,9 @@ def _players(column_html: str) -> list[Player]:
     blocks = column_html.split('class="sub_child"')[1:] or [column_html]
     out = []
     for b in blocks:
-        m = _PLAYER.search(b)
-        if m:
-            out.append(Player(m.group(2), _clean(m.group(3)), m.group(1)))
-            continue
-        n = _NAME_ONLY.search(b)
+        n = _NAME.search(b)
         if n:
-            out.append(Player(n.group(1), _clean(n.group(2)), None))
+            out.append(Player(n.group(1), _clean(n.group(2)), _photo(b)))
     return out
 
 

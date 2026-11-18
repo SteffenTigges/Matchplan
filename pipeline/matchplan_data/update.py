@@ -71,7 +71,11 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
         if not first_request[0]:
             sleep(PAUSE_S)
         first_request[0] = False
-        r = fetch(url)
+        try:
+            r = fetch(url)
+        except Exception:  # einmal nachfassen, z. B. nach einer Zeitüberschreitung
+            sleep(PAUSE_S * 3)
+            r = fetch(url)
         if r.status != 200:
             raise RuntimeError(f"HTTP {r.status}")
         return r.text

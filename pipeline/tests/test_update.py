@@ -126,3 +126,17 @@ def test_matchday_files_of_another_season_are_refetched(tmp_path):
         {"id": 1, "kickoff": "2025-11-01T14:30:00Z", "home": "FCB", "away": "BVB", "finished": True, "score": [1, 0], "halftime": [0, 0], "goals": []}]}), encoding="utf-8")
     run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
     assert read(tmp_path / "matchdays" / "9.json")["matches"][0]["home"] == "BVB"
+
+
+def test_slow_page_is_retried_once(tmp_path):
+    base = fake()
+    tries = {"n": 0}
+
+    def flaky(url):
+        if url == team_by_key("BMG").li_url and tries["n"] == 0:
+            tries["n"] += 1
+            raise TimeoutError("Read timed out")
+        return base(url)
+
+    status = run_update(tmp_path, flaky, NOW, sleep=lambda s: None)
+    assert status["ligainsider:BMG"]["ok"] is True
