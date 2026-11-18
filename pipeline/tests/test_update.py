@@ -212,3 +212,16 @@ def test_warns_when_core_stats_are_missing(tmp_path):
 
     status = run_update(tmp_path, renamed, NOW, sleep=lambda s: None)
     assert "ohne Kernwerte" in status["fotmob"]["note"]
+
+
+def test_old_format_match_is_refetched(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    path = tmp_path / "fotmob" / "83231.json"
+    d = read(path)
+    d.pop("v")
+    path.write_text(json.dumps(d), encoding="utf-8")
+    calls = []
+    base = fake()
+    later = datetime(2027, 1, 30, tzinfo=timezone.utc)  # weit nach dem Spiel
+    run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], later, sleep=lambda s: None)
+    assert FM_MATCH in calls and read(path)["v"] == 2

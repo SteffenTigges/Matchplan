@@ -87,3 +87,10 @@ def test_incomplete_zones_are_dropped():
     data = load("fotmob_match.json")
     del data["props"]["pageProps"]["content"]["attackingZones"]["home"]["total"]["center"]
     assert parse_match(data)["zones"] is None
+
+
+def test_match_has_player_ids():
+    m = parse_match(load("fotmob_match.json"))
+    assert m["v"] == 2
+    assert m["lineups"]["home"]["players"][0]["id"] == 178778
+    assert all(isinstance(p["id"], int) for p in m["players"])

@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Callable
 
 from . import probe
-from .fotmob import LEAGUE_URL, next_data, parse_league, parse_match
+from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
 from .teamstats import aggregate, build_teamstats
@@ -90,8 +90,9 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
         kickoff = datetime.fromisoformat((fm["kickoff"] or "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
         if path.exists() and now - kickoff > SETTLE:
             old = _read(path) or {}
+            current_format = old.get("v") == FORMAT_VERSION
             complete = bool(old.get("stats")) and bool(old.get("shots"))
-            if complete or now - kickoff > RETRY_INCOMPLETE:
+            if current_format and (complete or now - kickoff > RETRY_INCOMPLETE):
                 continue
         try:
             nd = next_data(get(fm["url"]))

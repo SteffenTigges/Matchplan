@@ -9,6 +9,7 @@ from .teams import team_by_fotmob
 
 BASE = "https://www.fotmob.com"
 LEAGUE_URL = f"{BASE}/leagues/54/fixtures/bundesliga"
+FORMAT_VERSION = 2  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
 
 _NEXT = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 _COUNT_PCT = re.compile(r"^\s*(-?\d+(?:\.\d+)?)\s*\((\d+(?:\.\d+)?)%\)\s*$")
@@ -140,7 +141,7 @@ def parse_match(data: dict) -> dict:
             return {
                 "team": _key(t.get("id")), "formation": t.get("formation"), "rating": _num(t.get("rating")),
                 "players": [
-                    {"name": p.get("name"), "pos_id": _num(p.get("positionId")), "rating": _num((p.get("performance") or {}).get("rating")),
+                    {"id": _num(p.get("id")), "name": p.get("name"), "pos_id": _num(p.get("positionId")), "rating": _num((p.get("performance") or {}).get("rating")),
                      "captain": bool(p.get("isCaptain")), "x": (p.get("verticalLayout") or {}).get("x"), "y": (p.get("verticalLayout") or {}).get("y")}
                     for p in t.get("starters") or []
                 ],
@@ -148,8 +149,8 @@ def parse_match(data: dict) -> dict:
         lineups = {"home": team(lu["homeTeam"]), "away": team(lu["awayTeam"])}
 
     players = []
-    for p in (c.get("playerStats") or {}).values():
-        row = {"team": _key(p.get("teamId")), "name": p.get("name"), "keeper": bool(p.get("isGoalkeeper"))}
+    for pid, p in (c.get("playerStats") or {}).items():
+        row = {"id": _num(p.get("id")) or _num(pid), "team": _key(p.get("teamId")), "name": p.get("name"), "keeper": bool(p.get("isGoalkeeper"))}
         for g in p.get("stats") or []:
             for s in (g.get("stats") or {}).values():
                 field = PLAYER_STATS.get(s.get("key"))
@@ -157,5 +158,5 @@ def parse_match(data: dict) -> dict:
                     row[field] = _num((s.get("stat") or {}).get("value"))
         players.append(row)
 
-    return {"fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,
+    return {"v": FORMAT_VERSION, "fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,
             "momentum": momentum, "zones": zones, "lineups": lineups, "players": players}
