@@ -184,7 +184,7 @@ document.addEventListener(
   (e) => {
     const target = e.target as Element | null;
     if (target?.closest?.(".picker")) return; // In der Vereins-/Team-Auswahl wählt der Tipp das Team aus
-    const el = target?.closest?.("[data-team]");
+    const el = target?.closest?.(".crest[data-team]"); // nur das Wappen selbst, nicht Bereiche mit Team-Markierung
     const key = el?.getAttribute("data-team");
     if (!key) return;
     e.preventDefault();
