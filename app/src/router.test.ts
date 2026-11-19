@@ -2,7 +2,7 @@ import { expect, test } from "vitest";
 import { parseRoute } from "./router";
 
 test("parses_all_routes", () => {
-  expect(parseRoute("")).toEqual({ view: "spiele" });
+  expect(parseRoute("")).toEqual({ view: "verein" });
   expect(parseRoute("#unbekannt")).toEqual({ view: "spiele" });
   expect(parseRoute("#spiele")).toEqual({ view: "spiele" });
   expect(parseRoute("#spiele/12")).toEqual({ view: "spiele", matchday: 12 });
@@ -26,4 +26,13 @@ test("parses_player_routes", () => {
 test("parses_rank_route", () => {
   expect(parseRoute("#rang/xg_pg/TSG")).toEqual({ view: "rang", metric: "xg_pg", key: "TSG" });
   expect(parseRoute("#rang/<x>/TSG")).toEqual({ view: "spiele" });
+});
+
+test("parses_club_and_scouting_routes", () => {
+  expect(parseRoute("#verein")).toEqual({ view: "verein" });
+  expect(parseRoute("#verein/BVB")).toEqual({ view: "verein", key: "BVB" });
+  expect(parseRoute("#verein/wechseln")).toEqual({ view: "verein", change: true });
+  expect(parseRoute("#scouting")).toEqual({ view: "scouting" });
+  expect(parseRoute("#scouting/FCB")).toEqual({ view: "scouting", key: "FCB" });
+  expect(parseRoute("#scouting/FCB/personal")).toEqual({ view: "scouting", key: "FCB", section: "personal" });
 });
