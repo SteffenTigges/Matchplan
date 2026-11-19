@@ -66,3 +66,12 @@ test("team_pitch_places_all_eleven", () => {
   expect(svg).toContain("<svg");
   expect(svg).toContain("Gladbach");
 });
+
+test("pitch_and_missing_link_to_player_profiles", () => {
+  const home = team("Heim", [3, 4, 3]);
+  const away = team("Gast", [4, 4, 2]);
+  const links = { li: { [home.rows[3]![0]!.player.id]: 4711 }, names: { BMG: { "ko itakura": 4712 } } };
+  expect(renderPitch(home, away, H, A, {}, links)).toContain('<a href="#spieler/4711"');
+  expect(renderTeamPitch(home, H, {}, links)).toContain('#spieler/4711');
+  expect(renderMissing({ ...H, key: "BMG" }, home, links)).toContain('href="#spieler/4712"');
+});

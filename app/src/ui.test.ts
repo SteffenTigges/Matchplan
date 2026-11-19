@@ -29,3 +29,14 @@ test("crest_carries_team_key_for_navigation", () => {
   expect(fallback).toContain('data-team="FCB"');
   expect(crest({ short: "X", color: "#000", crest: "x.png" })).not.toContain("data-team");
 });
+
+test("find_player_by_full_short_and_abbreviated_name", async () => {
+  const { findPlayer } = await import("./ui");
+  const links = { names: { FCB: { "harry kane": 2, "luis diaz": 3 }, BVB: { "felix nmecha": 9, "lukas nmecha": 10 } } };
+  expect(findPlayer(links, "Harry Kane", "FCB")).toBe(2);
+  expect(findPlayer(links, "Díaz", "FCB")).toBe(3);
+  expect(findPlayer(links, "F. Nmecha", "BVB")).toBe(9);
+  expect(findPlayer(links, "Nmecha", "BVB")).toBeNull();
+  expect(findPlayer(links, "Kane", "BVB")).toBe(2);
+  expect(findPlayer(null, "Kane")).toBeNull();
+});

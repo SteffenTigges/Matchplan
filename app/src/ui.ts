@@ -36,3 +36,31 @@ export function photo(url: string | null | undefined, name: string, size = 40): 
   if (!url) return ini;
   return `<img class="photo" src="${esc(url)}" width="${size}" height="${size}" alt="${esc(name)}" loading="lazy" onerror="this.outerHTML=this.dataset.f" data-f="${esc(ini)}">`;
 }
+
+export const normName = (s: string): string =>
+  s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().split(/[^a-z0-9]+/).filter(Boolean).join(" ");
+
+/** FotMob-Spieler-ID zu einem Namen („Harry Kane“, „H. Kane“, „Kane“), zuerst im genannten Team, sonst ligaweit; nur eindeutige Treffer. */
+export function findPlayer(links: { names: Record<string, Record<string, number>> } | null | undefined, name: string, team?: string | null): number | null {
+  if (!links || !name) return null;
+  const want = normName(name).split(" ");
+  if (!want.length) return null;
+  const last = want[want.length - 1]!;
+  const initial = want.length > 1 && want[0]!.length === 1 ? want[0] : null;
+  const pools = team && links.names[team] ? [links.names[team]!, ...Object.values(links.names)] : Object.values(links.names);
+  for (const pool of pools) {
+    const exact = pool[want.join(" ")];
+    if (exact) return exact;
+    const hits = Object.entries(pool).filter(([k]) => {
+      const t = k.split(" ");
+      return t[t.length - 1] === last && (!initial || t[0]!.startsWith(initial));
+    });
+    if (hits.length === 1) return hits[0]![1];
+    if (hits.length > 1) return null;
+  }
+  return null;
+}
+
+/** Name (und optional Bild) als Link aufs Spielerprofil, wenn die ID bekannt ist. */
+export const playerLink = (id: number | null | undefined, inner: string): string =>
+  id ? `<a class="plink" href="#spieler/${id}">${inner}</a>` : inner;

@@ -155,3 +155,6 @@ export interface Referees {
   updated_at: string; league: { yellow_pg: number | null; fouls_pg: number | null; penalties_pg: number | null };
   referees: Record<string, RefereeStats>; upcoming: Record<string, { name: string; id: number | null; country?: string }>;
 }
+
+// --- Spieler-Verknüpfung (data/player_links.json) ---
+export interface PlayerLinks { li: Record<string, number>; names: Record<string, Record<string, number>> }

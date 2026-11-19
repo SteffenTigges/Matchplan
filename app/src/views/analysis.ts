@@ -109,7 +109,7 @@ function lineups(fm: FotmobMatch, h: TeamInfo, a: TeamInfo): string {
     .sort((x, y) => y.rating! - x.rating!)
     .slice(0, 3);
   return `<section class="card"><h3>Aufstellungen & Noten</h3>
-    ${all.length ? `<div class="row" style="flex-wrap:wrap;gap:8px"><span class="muted">Beste Spieler:</span>${all.map((p) => `<span class="row" style="gap:4px">${ratingChip(p.rating)}${esc(p.name)}</span>`).join("")}</div>` : ""}
+    ${all.length ? `<div class="row" style="flex-wrap:wrap;gap:8px"><span class="muted">Beste Spieler:</span>${all.map((p) => `<span class="row" style="gap:4px">${ratingChip(p.rating)}${p.id ? `<a href="#spieler/${p.id}">${esc(p.name)}</a>` : esc(p.name)}</span>`).join("")}</div>` : ""}
     <div class="two">${list(h, lu.home)}${list(a, lu.away)}</div><p class="muted">Note von 0 bis 10 (FotMob).</p></section>`;
 }
 

@@ -117,3 +117,25 @@ def absence_factors(missing: list[dict], season_players: list[dict]) -> tuple[fl
     att = max(1 - ATT_PER_SHARE * xg_share, 1 - CAP)
     dfn = min(1 + DEF_PER_REGULAR * regulars, 1 + CAP)
     return round(att, 4), round(dfn, 4), info
+
+
+def norm_name(name: str) -> str:
+    return " ".join(_norm(name))
+
+
+def build_links(lineups: dict[str, dict], index_rows: list[dict]) -> dict:
+    """Ligainsider-Spieler → FotMob-Spieler-ID und Namensliste je Team, damit die App jeden Spieler verlinken kann."""
+    by_team: dict[str, list[dict]] = {}
+    for r in index_rows:
+        if r.get("team") and r.get("id"):
+            by_team.setdefault(r["team"], []).append({"id": r["id"], "name": r.get("name") or ""})
+    li: dict[str, int] = {}
+    for team, lu in lineups.items():
+        cands = by_team.get(team, [])
+        people = [s["player"] for row in lu.get("rows") or [] for s in row] + [a for row in lu.get("rows") or [] for s in row for a in s.get("alternatives") or []]
+        for p in people:
+            m = match_player(p, cands)
+            if m and p.get("id"):
+                li[p["id"]] = m["id"]
+    names = {team: {norm_name(c["name"]): c["id"] for c in cands if c["name"]} for team, cands in by_team.items()}
+    return {"li": li, "names": names}
