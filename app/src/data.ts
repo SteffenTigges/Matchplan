@@ -76,3 +76,33 @@ export interface PlayerProfile {
   career: { senior: CareerEntry[]; youth: CareerEntry[]; national: CareerEntry[]; national_youth: CareerEntry[] };
   transfers: { from: string; to: string; date: string | null; fee: string | null; loan: boolean }[]; fetched_at: string;
 }
+
+// --- Prognose (data/predictions/<spieltag>.json, data/model.json) ---
+export interface Scorer { name: string; li_id: string | null; fm_id: number | null; photo: string | null; minutes: number; lam: number; p: number }
+export interface AbsenceInfo { name: string; fm_id: number | null; xg_share: number; minutes_share: number }
+export interface Prediction {
+  home: string; away: string; kickoff: string | null; made_at: string;
+  xg: [number, number]; probs: [number, number, number]; tip: [number, number]; tip_prob: number;
+  matrix: number[][];
+  markets: { over25: number; btts: number; home_clean_sheet: number; away_clean_sheet: number };
+  odds: { home: number; draw: number; away: number; source: string } | null;
+  scorers: { home: Scorer[]; away: Scorer[] };
+  xi: { home: { li_id: string | null; name: string }[]; away: { li_id: string | null; name: string }[] };
+  why: {
+    attack: [number, number]; defence: [number, number]; xgf: [number, number]; xga: [number, number]; n: [number, number];
+    form: [number | null, number | null]; means: [number, number]; rho: number;
+    absence_factor: [[number, number], [number, number]];
+    absences: { home: AbsenceInfo[]; away: AbsenceInfo[] };
+  };
+  lineup_hits?: { home: number | null; away: number | null };
+}
+export interface Predictions { matchday: number; updated_at: string; matches: Record<string, Prediction> }
+export interface ModelCheck {
+  updated_at: string;
+  calibration: { home: number; away: number; rho: number; matches: number; seasons: string | null; fetched_at: string | null };
+  check: {
+    matches: number; tendency_rate: number | null; exact_rate: number | null; brier: number | null;
+    odds_matches: number; brier_model_same: number | null; brier_odds: number | null;
+    by_matchday: { md: number; matches: number; tendency: number; exact: number; brier: number }[];
+  };
+}
