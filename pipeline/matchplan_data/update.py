@@ -51,6 +51,7 @@ RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange 
 CORE_STATS = {"expected_goals", "passes", "total_shots"}
 REF_AHEAD = timedelta(days=6)
 PLAYER_FORMAT = 2  # 2: mit Saisonwerten aus der Karriere
+BUDGET_S = 11 * 60  # Spielerseiten nur, solange der Lauf jünger ist (Rest beim nächsten Lauf)
 STAR_LIST_FRESH, STAR_FRESH, STAR_CAP, STAR_RATING = timedelta(days=7), timedelta(days=30), 30, 7.2
 PLAYER_CAP = 120  # Spielerseiten pro Lauf (≈ 4 min); alle ~420 Profile nach etwa vier Läufen
 PLAYER_FRESH = timedelta(days=7)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
@@ -190,6 +191,8 @@ def _update_stars(out: Path, get: Callable[[str], str], now: datetime, at: str, 
         if not prof or prof.get("v") != PLAYER_FORMAT or now - datetime.fromisoformat(prof["fetched_at"]) > STAR_FRESH:
             due.append(r)
     for r in due[:STAR_CAP]:
+        if _over_budget():
+            break
         try:
             nd = next_data(get(player_url(r["id"])))
             if nd is None:
@@ -235,6 +238,8 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
             due.append((t or datetime.min.replace(tzinfo=now.tzinfo), pid))
     errors = []
     for _, pid in sorted(due)[:PLAYER_CAP]:
+        if _over_budget():
+            break
         try:
             nd = next_data(get(player_url(pid)))
             if nd is None:
@@ -282,7 +287,18 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
                                 "note": f"{fresh} von {len(seen)} Profilen aktuell"}
 
 
-def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float], None] = time.sleep) -> dict:
+_STARTED = [time.monotonic()]
+_CLOCK: list[Callable[[], float]] = [time.monotonic]
+
+
+def _over_budget() -> bool:
+    return _CLOCK[0]() - _STARTED[0] > BUDGET_S
+
+
+def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float], None] = time.sleep,
+               clock: Callable[[], float] = time.monotonic) -> dict:
+    _CLOCK[0] = clock
+    _STARTED[0] = clock()
     out = Path(out)
     at = now.isoformat(timespec="seconds")
     status: dict[str, dict] = {}

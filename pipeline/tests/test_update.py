@@ -319,3 +319,22 @@ def test_referees_file_written(tmp_path):
 def test_stars_failure_does_not_break_the_run(tmp_path):
     status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
     assert "vorbilder" in status and status["vergleiche"]["ok"] is True
+
+
+def test_player_pages_stop_when_time_budget_is_used(tmp_path):
+    t = [0.0]
+
+    def clock():
+        t[0] += 700.0  # jeder Blick auf die Uhr: knapp 12 Minuten später
+        return t[0]
+
+    calls = []
+    base = fake()
+
+    def counting(url):
+        calls.append(url)
+        return base(url)
+
+    status = run_update(tmp_path, counting, NOW, sleep=lambda s: None, clock=clock)
+    assert not any("/players/" in u for u in calls)
+    assert status["openligadb"]["ok"] is True
