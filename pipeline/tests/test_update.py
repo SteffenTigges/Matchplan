@@ -282,3 +282,13 @@ def test_page_of_another_match_is_rejected(tmp_path):
     status = run_update(tmp_path, other, NOW, sleep=lambda s: None)
     assert not (tmp_path / "fotmob" / "83231.json").exists()
     assert "anderes Spiel" in status["fotmob"]["error"]
+
+
+def test_update_writes_predictions_and_model(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    current = read(tmp_path / "season.json")["current_matchday"]
+    assert (tmp_path / "model.json").exists()
+    assert status["prognose"]["ok"] is True and "quoten" in status
+    if (tmp_path / "predictions" / f"{current}.json").exists():
+        preds = read(tmp_path / "predictions" / f"{current}.json")["matches"]
+        assert all(abs(sum(p["probs"]) - 1) < 1e-3 for p in preds.values() if "probs" in p)
