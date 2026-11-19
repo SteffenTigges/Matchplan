@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import type { PlayerProfile, PlayerRow, Season } from "../data";
-import { filterPlayers, renderPlayer, renderPlayerList } from "./players";
+import { filterPlayers, renderCompare, renderPlayer, renderPlayerList } from "./players";
 
 const season: Season = { season: 2026, current_matchday: 10, updated_at: "", teams: {
   TSG: { name: "TSG Hoffenheim", short: "Hoffenheim", color: "#1961b5", crest: "" },
@@ -80,4 +80,29 @@ test("player_outside_bundesliga_shows_new_club", () => {
   expect(html).toContain("Austria Wien");
   expect(html).not.toContain("TSG Hoffenheim");
   expect(html).not.toContain("#1961b5");
+});
+
+const sim = {
+  style: [{ id: 7, name: "Tim Kleindienst", team: "BMG", age: 30, score: 91.4 }],
+  could_be: [{ id: 8, name: "Harry Kane", team: "FCB", age: 30, score: 82.6, rating: 7.9, keys: 4 }],
+};
+
+test("renders_similar_players", () => {
+  const html = renderPlayer(prof, rows[0]!, season, sim);
+  expect(html).toContain("Ähnliche Spieler");
+  expect(html).toContain("Tim Kleindienst");
+  expect(html).toContain("91 %");
+  expect(html).toContain('href="#spieler/8"');
+  expect(html).toContain("83 %");
+});
+
+test("could_be_hidden_for_old_players", () => {
+  const html = renderCompare(sim, { ...prof, age: 27 }, season);
+  expect(html).toContain("Ähnliche Spieler");
+  expect(html).not.toContain("Könnte so gut werden wie");
+});
+
+test("explains_limits", () => {
+  expect(renderCompare(sim, prof, season)).toContain("anderer Ligen");
+  expect(renderCompare(null, prof, season)).toBe("");
 });
