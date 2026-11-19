@@ -26,7 +26,7 @@ export function writeFav(key: string | null, store: Storage | null = typeof loca
   }
 }
 
-const VS = ["goals_pg", "xg_pg", "big_chances_pg", "against_pg", "xga_pg", "possession", "field_tilt", "won_att3_pg", "xg_setplay_pg", "duel_rate"];
+const VS = ["goals_pg", "xg_pg", "big_chances_pg", "against_pg", "xga_pg", "possession", "field_tilt", "press_ratio", "won_att3_pg", "xg_setplay_pg", "duel_rate"];
 
 function wirGegenSie(me: string, them: string, ts: TeamStats, season: Season): string {
   const a = team(season, me);

@@ -13,16 +13,18 @@ export function berlin(iso: string): string {
   return `${WD[parts.weekday] ?? ""} ${parts.day}.${parts.month}., ${parts.hour}:${parts.minute}`;
 }
 
-export interface CrestTeam { short: string; color: string; crest?: string | null }
+export interface CrestTeam { short: string; color: string; crest?: string | null; key?: string }
+
+const teamAttr = (t: CrestTeam): string => (t.key ? ` data-team="${esc(t.key)}" role="link" aria-label="${esc(t.short)}: Teamseite"` : "");
 
 const shield = (t: CrestTeam, size: number): string =>
-  `<svg class="crest" width="${size}" height="${Math.round(size * 1.15)}" viewBox="0 0 40 46" aria-hidden="true"><path d="M20 1 L38 7 V22 C38 34 30 41 20 45 C10 41 2 34 2 22 V7 Z" fill="${esc(t.color)}"/><text x="20" y="29" text-anchor="middle" font-size="17" font-weight="800" fill="#fff" font-family="Barlow Condensed,Arial Narrow,sans-serif">${esc(t.short[0] ?? "?")}</text></svg>`;
+  `<svg class="crest"${teamAttr(t)} width="${size}" height="${Math.round(size * 1.15)}" viewBox="0 0 40 46" aria-hidden="true"><path d="M20 1 L38 7 V22 C38 34 30 41 20 45 C10 41 2 34 2 22 V7 Z" fill="${esc(t.color)}"/><text x="20" y="29" text-anchor="middle" font-size="17" font-weight="800" fill="#fff" font-family="Barlow Condensed,Arial Narrow,sans-serif">${esc(t.short[0] ?? "?")}</text></svg>`;
 
 /** Wappen von der Quelle; schlägt das Laden fehl, ersetzt ein Farbwappen das Bild. */
 export function crest(t: CrestTeam, size = 28): string {
   if (!t.crest) return shield(t, size);
   const fallback = esc(shield(t, size)).replace(/&quot;/g, "&#34;");
-  return `<img class="crest" src="${esc(t.crest)}" width="${size}" height="${size}" alt="" loading="lazy" onerror="this.outerHTML=this.dataset.f" data-f="${fallback}">`;
+  return `<img class="crest"${teamAttr(t)} src="${esc(t.crest)}" width="${size}" height="${size}" alt="" loading="lazy" onerror="this.outerHTML=this.dataset.f" data-f="${fallback}">`;
 }
 
 const initials = (name: string): string =>

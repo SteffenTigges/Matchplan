@@ -1,6 +1,6 @@
 // Typen der JSON-Dateien, die der Datenjob schreibt (pipeline/matchplan_data/update.py).
 
-export interface TeamInfo { name: string; short: string; color: string; crest: string }
+export interface TeamInfo { name: string; short: string; color: string; crest: string; key?: string }
 export interface Season { season: number; current_matchday: number; updated_at: string; teams: Record<string, TeamInfo> }
 
 export interface TableRow {
