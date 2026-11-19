@@ -9,19 +9,7 @@
     "games": 9
    }
   ],
-  "tags": [
-   {
-    "text": "Abwartend gegen den Ball",
-    "evidence": [
-     {
-      "label": "PPDA",
-      "value": 6.5052,
-      "fmt": "dec1",
-      "rank": 18
-     }
-    ]
-   }
-  ]
+  "tags": []
  },
  "next": {
   "id": 83245,
@@ -40,24 +28,28 @@
  },
  "strengths": [
   {
+   "key": "xga_pg",
    "label": "Zugelassene xG pro Spiel",
    "value": 1.12,
    "fmt": "dec2",
    "rank": 2
   },
   {
+   "key": "shots_against_pg",
    "label": "Zugelassene Schüsse pro Spiel",
    "value": 10.1111,
    "fmt": "dec1",
    "rank": 2
   },
   {
+   "key": "big_chances_against_pg",
    "label": "Zugelassene Großchancen pro Spiel",
    "value": 1.8889,
    "fmt": "dec1",
    "rank": 2
   },
   {
+   "key": "xga_setplay_pg",
    "label": "Zugelassene xG nach Standards pro Spiel",
    "value": 0.2078,
    "fmt": "dec2",
@@ -66,12 +58,7 @@
  ],
  "weaknesses": [
   {
-   "label": "PPDA",
-   "value": 6.5052,
-   "fmt": "dec1",
-   "rank": 18
-  },
-  {
+   "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
    "value": 13.3333,
    "fmt": "dec1",
@@ -118,6 +105,7 @@
    "text": "Stark: Zugelassene xG pro Spiel (Platz 2)",
    "evidence": [
     {
+     "key": "xga_pg",
      "label": "Zugelassene xG pro Spiel",
      "value": 1.12,
      "fmt": "dec2",
@@ -130,6 +118,7 @@
    "text": "Stark: Zugelassene Schüsse pro Spiel (Platz 2)",
    "evidence": [
     {
+     "key": "shots_against_pg",
      "label": "Zugelassene Schüsse pro Spiel",
      "value": 10.1111,
      "fmt": "dec1",
@@ -141,36 +130,42 @@
  "buildup": {
   "metrics": [
    {
+    "key": "possession",
     "label": "Ballbesitz Ø",
     "value": 0.5178,
     "fmt": "pct",
     "rank": 7
    },
    {
+    "key": "pass_accuracy",
     "label": "Passquote",
     "value": 0.8348,
     "fmt": "pct",
     "rank": 6
    },
    {
+    "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.3782,
     "fmt": "pct",
     "rank": 12
    },
    {
+    "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
     "value": 0.4394,
     "fmt": "pct",
     "rank": 10
    },
    {
+    "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.264,
     "fmt": "pct",
     "rank": 7
    },
    {
+    "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.5675,
     "fmt": "pct",
@@ -222,30 +217,35 @@
   "inside_box": 0.65,
   "metrics": [
    {
+    "key": "goals_pg",
     "label": "Tore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 1.8267,
     "fmt": "dec2",
     "rank": 8
    },
    {
+    "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.3333,
     "fmt": "dec1",
     "rank": 7
    },
    {
+    "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.115,
     "fmt": "dec2",
     "rank": 8
    },
    {
+    "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 3.56,
     "fmt": "signed1",
@@ -296,30 +296,35 @@
   },
   "metrics": [
    {
+    "key": "against_pg",
     "label": "Gegentore pro Spiel",
     "value": 1.1111,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.12,
     "fmt": "dec2",
     "rank": 2
    },
    {
+    "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 10.1111,
     "fmt": "dec1",
     "rank": 2
    },
    {
+    "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 1.8889,
     "fmt": "dec1",
     "rank": 2
    },
    {
+    "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
@@ -330,18 +335,21 @@
  "setpieces": {
   "metrics": [
    {
+    "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
     "value": 0.5989,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.2078,
     "fmt": "dec2",
     "rank": 2
    },
    {
+    "key": "corners_pg",
     "label": "Ecken pro Spiel",
     "value": 4.7778,
     "fmt": "dec1",

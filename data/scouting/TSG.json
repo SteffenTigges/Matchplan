@@ -22,6 +22,7 @@
     "text": "Ballbesitzteam",
     "evidence": [
      {
+      "key": "possession",
       "label": "Ballbesitz Ø",
       "value": 0.5489,
       "fmt": "pct",
@@ -33,8 +34,9 @@
     "text": "Hohes Pressing",
     "evidence": [
      {
-      "label": "PPDA",
-      "value": 3.9945,
+      "key": "won_att3_pg",
+      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+      "value": 5.6,
       "fmt": "dec1",
       "rank": 2
      }
@@ -44,6 +46,7 @@
     "text": "Drückt den Gegner in die eigene Hälfte",
     "evidence": [
      {
+      "key": "field_tilt",
       "label": "Field Tilt",
       "value": 0.5783,
       "fmt": "pct",
@@ -55,6 +58,7 @@
     "text": "Spielt viel in der gegnerischen Hälfte",
     "evidence": [
      {
+      "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
       "value": 0.4374,
       "fmt": "pct",
@@ -91,44 +95,51 @@
  },
  "strengths": [
   {
-   "label": "PPDA",
-   "value": 3.9945,
+   "key": "won_att3_pg",
+   "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+   "value": 5.6,
    "fmt": "dec1",
    "rank": 2
   },
   {
+   "key": "press_ratio",
+   "label": "Gegnerische Pässe pro Ballgewinn (Mitte + Angriff)",
+   "value": 6.0485,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "key": "interceptions_pg",
    "label": "Abgefangene Bälle pro Spiel",
    "value": 12.7778,
    "fmt": "dec1",
    "rank": 2
   },
   {
+   "key": "box_touches_pg",
    "label": "Ballaktionen im gegn. Strafraum pro Spiel",
    "value": 34.8889,
-   "fmt": "dec1",
-   "rank": 3
-  },
-  {
-   "label": "Schüsse pro Spiel",
-   "value": 17.5556,
    "fmt": "dec1",
    "rank": 3
   }
  ],
  "weaknesses": [
   {
+   "key": "xg_setplay_pg",
    "label": "xG nach Standards pro Spiel",
    "value": 0.2833,
    "fmt": "dec2",
    "rank": 17
   },
   {
+   "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
    "value": 3.96,
    "fmt": "signed1",
    "rank": 17
   },
   {
+   "key": "inside_box_share",
    "label": "Anteil Schüsse aus dem Strafraum",
    "value": 0.6266,
    "fmt": "pct",
@@ -157,8 +168,9 @@
    "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
    "evidence": [
     {
-     "label": "PPDA",
-     "value": 3.9945,
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 5.6,
      "fmt": "dec1",
      "rank": 2
     }
@@ -203,8 +215,9 @@
    "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
    "evidence": [
     {
-     "label": "PPDA",
-     "value": 3.9945,
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 5.6,
      "fmt": "dec1",
      "rank": 2
     }
@@ -230,36 +243,42 @@
  "buildup": {
   "metrics": [
    {
+    "key": "possession",
     "label": "Ballbesitz Ø",
     "value": 0.5489,
     "fmt": "pct",
     "rank": 4
    },
    {
+    "key": "pass_accuracy",
     "label": "Passquote",
     "value": 0.8076,
     "fmt": "pct",
     "rank": 10
    },
    {
+    "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.4374,
     "fmt": "pct",
     "rank": 4
    },
    {
+    "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
     "value": 0.4436,
     "fmt": "pct",
     "rank": 9
    },
    {
+    "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2522,
     "fmt": "pct",
     "rank": 11
    },
    {
+    "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.5783,
     "fmt": "pct",
@@ -311,30 +330,35 @@
   "inside_box": 0.633,
   "metrics": [
    {
+    "key": "goals_pg",
     "label": "Tore pro Spiel",
     "value": 1.7778,
     "fmt": "dec2",
     "rank": 9
    },
    {
+    "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 1.9311,
     "fmt": "dec2",
     "rank": 6
    },
    {
+    "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.4444,
     "fmt": "dec1",
     "rank": 5
    },
    {
+    "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.11,
     "fmt": "dec2",
     "rank": 9
    },
    {
+    "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": -1.38,
     "fmt": "signed1",
@@ -385,30 +409,35 @@
   },
   "metrics": [
    {
+    "key": "against_pg",
     "label": "Gegentore pro Spiel",
     "value": 1.8889,
     "fmt": "dec2",
     "rank": 10
    },
    {
+    "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.4489,
     "fmt": "dec2",
     "rank": 4
    },
    {
+    "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 14.5556,
     "fmt": "dec1",
     "rank": 7
    },
    {
+    "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.8889,
     "fmt": "dec1",
     "rank": 8
    },
    {
+    "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
@@ -419,18 +448,21 @@
  "setpieces": {
   "metrics": [
    {
+    "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
     "value": 0.2833,
     "fmt": "dec2",
     "rank": 17
    },
    {
+    "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.4333,
     "fmt": "dec2",
     "rank": 10
    },
    {
+    "key": "corners_pg",
     "label": "Ecken pro Spiel",
     "value": 6.1111,
     "fmt": "dec1",

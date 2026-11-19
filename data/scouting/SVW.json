@@ -22,10 +22,11 @@
     "text": "Hohes Pressing",
     "evidence": [
      {
-      "label": "PPDA",
-      "value": 3.8425,
+      "key": "won_att3_pg",
+      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+      "value": 4.2,
       "fmt": "dec1",
-      "rank": 1
+      "rank": 4
      }
     ]
    }
@@ -48,27 +49,31 @@
  },
  "strengths": [
   {
-   "label": "PPDA",
-   "value": 3.8425,
-   "fmt": "dec1",
-   "rank": 1
-  },
-  {
+   "key": "long_ball_accuracy",
    "label": "Lange Bälle angekommen",
    "value": 0.5134,
    "fmt": "pct",
    "rank": 2
   },
   {
+   "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
    "value": 21.0,
    "fmt": "dec1",
    "rank": 2
   },
   {
+   "key": "big_chances_against_pg",
    "label": "Zugelassene Großchancen pro Spiel",
    "value": 2.1111,
    "fmt": "dec1",
+   "rank": 3
+  },
+  {
+   "key": "duel_rate",
+   "label": "Zweikampfquote",
+   "value": 0.5228,
+   "fmt": "pct",
    "rank": 3
   }
  ],
@@ -79,10 +84,11 @@
    "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
    "evidence": [
     {
-     "label": "PPDA",
-     "value": 3.8425,
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 4.2,
      "fmt": "dec1",
-     "rank": 1
+     "rank": 4
     }
    ]
   }
@@ -93,22 +99,11 @@
    "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
    "evidence": [
     {
-     "label": "PPDA",
-     "value": 3.8425,
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 4.2,
      "fmt": "dec1",
-     "rank": 1
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: PPDA (Platz 1)",
-   "evidence": [
-    {
-     "label": "PPDA",
-     "value": 3.8425,
-     "fmt": "dec1",
-     "rank": 1
+     "rank": 4
     }
    ]
   },
@@ -117,9 +112,23 @@
    "text": "Stark: Lange Bälle angekommen (Platz 2)",
    "evidence": [
     {
+     "key": "long_ball_accuracy",
      "label": "Lange Bälle angekommen",
      "value": 0.5134,
      "fmt": "pct",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Tacklings pro Spiel (Platz 2)",
+   "evidence": [
+    {
+     "key": "tackles_pg",
+     "label": "Tacklings pro Spiel",
+     "value": 21.0,
+     "fmt": "dec1",
      "rank": 2
     }
    ]
@@ -128,36 +137,42 @@
  "buildup": {
   "metrics": [
    {
+    "key": "possession",
     "label": "Ballbesitz Ø",
     "value": 0.4767,
     "fmt": "pct",
     "rank": 12
    },
    {
+    "key": "pass_accuracy",
     "label": "Passquote",
     "value": 0.8316,
     "fmt": "pct",
     "rank": 7
    },
    {
+    "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.3799,
     "fmt": "pct",
     "rank": 10
    },
    {
+    "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
     "value": 0.5134,
     "fmt": "pct",
     "rank": 2
    },
    {
+    "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2335,
     "fmt": "pct",
     "rank": 15
    },
    {
+    "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.4718,
     "fmt": "pct",
@@ -209,30 +224,35 @@
   "inside_box": 0.667,
   "metrics": [
    {
+    "key": "goals_pg",
     "label": "Tore pro Spiel",
     "value": 1.8889,
     "fmt": "dec2",
     "rank": 7
    },
    {
+    "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 1.6989,
     "fmt": "dec2",
     "rank": 10
    },
    {
+    "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 2.6667,
     "fmt": "dec1",
     "rank": 10
    },
    {
+    "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1084,
     "fmt": "dec2",
     "rank": 11
    },
    {
+    "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 1.71,
     "fmt": "signed1",
@@ -283,30 +303,35 @@
   },
   "metrics": [
    {
+    "key": "against_pg",
     "label": "Gegentore pro Spiel",
     "value": 1.6667,
     "fmt": "dec2",
     "rank": 8
    },
    {
+    "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.5078,
     "fmt": "dec2",
     "rank": 5
    },
    {
+    "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 15.4444,
     "fmt": "dec1",
     "rank": 10
    },
    {
+    "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.1111,
     "fmt": "dec1",
     "rank": 3
    },
    {
+    "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
@@ -317,18 +342,21 @@
  "setpieces": {
   "metrics": [
    {
+    "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
     "value": 0.33,
     "fmt": "dec2",
     "rank": 15
    },
    {
+    "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.3756,
     "fmt": "dec2",
     "rank": 6
    },
    {
+    "key": "corners_pg",
     "label": "Ecken pro Spiel",
     "value": 4.4444,
     "fmt": "dec1",

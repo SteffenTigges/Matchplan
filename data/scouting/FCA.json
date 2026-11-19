@@ -18,10 +18,23 @@
     "text": "Überlässt dem Gegner den Ball",
     "evidence": [
      {
+      "key": "possession",
       "label": "Ballbesitz Ø",
       "value": 0.4467,
       "fmt": "pct",
       "rank": 14
+     }
+    ]
+   },
+   {
+    "text": "Abwartend gegen den Ball",
+    "evidence": [
+     {
+      "key": "won_att3_pg",
+      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+      "value": 3.1,
+      "fmt": "dec1",
+      "rank": 15
      }
     ]
    }
@@ -44,24 +57,28 @@
  },
  "strengths": [
   {
+   "key": "fouls_pg",
    "label": "Fouls pro Spiel",
    "value": 9.2222,
    "fmt": "dec1",
    "rank": 1
   },
   {
+   "key": "goals_pg",
    "label": "Tore pro Spiel",
    "value": 2.2222,
    "fmt": "dec2",
    "rank": 3
   },
   {
+   "key": "xg_pg",
    "label": "xG pro Spiel",
    "value": 2.0567,
    "fmt": "dec2",
    "rank": 3
   },
   {
+   "key": "on_target_pg",
    "label": "Schüsse aufs Tor pro Spiel",
    "value": 6.6667,
    "fmt": "dec1",
@@ -70,12 +87,14 @@
  ],
  "weaknesses": [
   {
+   "key": "xga_pg",
    "label": "Zugelassene xG pro Spiel",
    "value": 2.5622,
    "fmt": "dec2",
    "rank": 18
   },
   {
+   "key": "big_chances_against_pg",
    "label": "Zugelassene Großchancen pro Spiel",
    "value": 3.8889,
    "fmt": "dec1",
@@ -88,6 +107,7 @@
    "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
     {
+     "key": "big_chances_against_pg",
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.8889,
      "fmt": "dec1",
@@ -116,6 +136,7 @@
    "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
    "evidence": [
     {
+     "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.5389,
      "fmt": "dec2",
@@ -130,6 +151,7 @@
    "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
     {
+     "key": "big_chances_against_pg",
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.8889,
      "fmt": "dec1",
@@ -158,6 +180,7 @@
    "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
    "evidence": [
     {
+     "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.5389,
      "fmt": "dec2",
@@ -169,36 +192,42 @@
  "buildup": {
   "metrics": [
    {
+    "key": "possession",
     "label": "Ballbesitz Ø",
     "value": 0.4467,
     "fmt": "pct",
     "rank": 14
    },
    {
+    "key": "pass_accuracy",
     "label": "Passquote",
     "value": 0.7986,
     "fmt": "pct",
     "rank": 12
    },
    {
+    "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.3791,
     "fmt": "pct",
     "rank": 11
    },
    {
+    "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
     "value": 0.4156,
     "fmt": "pct",
     "rank": 14
    },
    {
+    "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2905,
     "fmt": "pct",
     "rank": 3
    },
    {
+    "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.4365,
     "fmt": "pct",
@@ -250,30 +279,35 @@
   "inside_box": 0.717,
   "metrics": [
    {
+    "key": "goals_pg",
     "label": "Tore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 2.0567,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.1111,
     "fmt": "dec1",
     "rank": 8
    },
    {
+    "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1218,
     "fmt": "dec2",
     "rank": 5
    },
    {
+    "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 1.49,
     "fmt": "signed1",
@@ -324,30 +358,35 @@
   },
   "metrics": [
    {
+    "key": "against_pg",
     "label": "Gegentore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
     "rank": 14
    },
    {
+    "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 2.5622,
     "fmt": "dec2",
     "rank": 18
    },
    {
+    "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 18.3333,
     "fmt": "dec1",
     "rank": 15
    },
    {
+    "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.8889,
     "fmt": "dec1",
     "rank": 17
    },
    {
+    "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
@@ -358,18 +397,21 @@
  "setpieces": {
   "metrics": [
    {
+    "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
     "value": 0.3856,
     "fmt": "dec2",
     "rank": 13
    },
    {
+    "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.5389,
     "fmt": "dec2",
     "rank": 15
    },
    {
+    "key": "corners_pg",
     "label": "Ecken pro Spiel",
     "value": 4.8889,
     "fmt": "dec1",

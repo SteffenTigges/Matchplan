@@ -22,6 +22,7 @@
     "text": "Ballbesitzteam",
     "evidence": [
      {
+      "key": "possession",
       "label": "Ballbesitz Ø",
       "value": 0.5367,
       "fmt": "pct",
@@ -30,9 +31,22 @@
     ]
    },
    {
+    "text": "Hohes Pressing",
+    "evidence": [
+     {
+      "key": "won_att3_pg",
+      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+      "value": 4.6,
+      "fmt": "dec1",
+      "rank": 3
+     }
+    ]
+   },
+   {
     "text": "Drückt den Gegner in die eigene Hälfte",
     "evidence": [
      {
+      "key": "field_tilt",
       "label": "Field Tilt",
       "value": 0.5881,
       "fmt": "pct",
@@ -44,6 +58,7 @@
     "text": "Spielt viel in der gegnerischen Hälfte",
     "evidence": [
      {
+      "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
       "value": 0.4544,
       "fmt": "pct",
@@ -70,24 +85,28 @@
  },
  "strengths": [
   {
+   "key": "against_pg",
    "label": "Gegentore pro Spiel",
    "value": 0.7778,
    "fmt": "dec2",
    "rank": 1
   },
   {
+   "key": "clean_sheets",
    "label": "Spiele ohne Gegentor",
    "value": 5,
    "fmt": "int",
    "rank": 1
   },
   {
+   "key": "points_minus_xpoints",
    "label": "Punkte minus xPunkte",
    "value": 6.5017,
    "fmt": "signed1",
    "rank": 1
   },
   {
+   "key": "opp_half_share",
    "label": "Anteil Pässe in der gegn. Hälfte",
    "value": 0.4544,
    "fmt": "pct",
@@ -96,12 +115,14 @@
  ],
  "weaknesses": [
   {
+   "key": "cross_accuracy",
    "label": "Flankenquote",
    "value": 0.2222,
    "fmt": "pct",
    "rank": 16
   },
   {
+   "key": "xg_setplay_pg",
    "label": "xG nach Standards pro Spiel",
    "value": 0.32,
    "fmt": "dec2",
@@ -122,6 +143,19 @@
      "label": "Anteil an allen Gegentoren",
      "value": 0.42857142857142855,
      "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 4.6,
+     "fmt": "dec1",
+     "rank": 3
     }
    ]
   },
@@ -155,6 +189,19 @@
    ]
   },
   {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "key": "won_att3_pg",
+     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+     "value": 4.6,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "side",
    "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
    "evidence": [
@@ -164,53 +211,47 @@
      "fmt": "pct"
     }
    ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Gegentore pro Spiel (Platz 1)",
-   "evidence": [
-    {
-     "label": "Gegentore pro Spiel",
-     "value": 0.7778,
-     "fmt": "dec2",
-     "rank": 1
-    }
-   ]
   }
  ],
  "buildup": {
   "metrics": [
    {
+    "key": "possession",
     "label": "Ballbesitz Ø",
     "value": 0.5367,
     "fmt": "pct",
     "rank": 5
    },
    {
+    "key": "pass_accuracy",
     "label": "Passquote",
     "value": 0.8393,
     "fmt": "pct",
     "rank": 5
    },
    {
+    "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.4544,
     "fmt": "pct",
     "rank": 2
    },
    {
+    "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
     "value": 0.4508,
     "fmt": "pct",
     "rank": 5
    },
    {
+    "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2222,
     "fmt": "pct",
     "rank": 16
    },
    {
+    "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.5881,
     "fmt": "pct",
@@ -262,30 +303,35 @@
   "inside_box": 0.667,
   "metrics": [
    {
+    "key": "goals_pg",
     "label": "Tore pro Spiel",
     "value": 1.7778,
     "fmt": "dec2",
     "rank": 9
    },
    {
+    "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 1.5367,
     "fmt": "dec2",
     "rank": 13
    },
    {
+    "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 2.4444,
     "fmt": "dec1",
     "rank": 12
    },
    {
+    "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1002,
     "fmt": "dec2",
     "rank": 15
    },
    {
+    "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 2.17,
     "fmt": "signed1",
@@ -336,30 +382,35 @@
   },
   "metrics": [
    {
+    "key": "against_pg",
     "label": "Gegentore pro Spiel",
     "value": 0.7778,
     "fmt": "dec2",
     "rank": 1
    },
    {
+    "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.4411,
     "fmt": "dec2",
     "rank": 3
    },
    {
+    "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 13.0,
     "fmt": "dec1",
     "rank": 3
    },
    {
+    "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.3333,
     "fmt": "dec1",
     "rank": 4
    },
    {
+    "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 5,
     "fmt": "int",
@@ -370,18 +421,21 @@
  "setpieces": {
   "metrics": [
    {
+    "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
     "value": 0.32,
     "fmt": "dec2",
     "rank": 16
    },
    {
+    "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.4233,
     "fmt": "dec2",
     "rank": 8
    },
    {
+    "key": "corners_pg",
     "label": "Ecken pro Spiel",
     "value": 5.5556,
     "fmt": "dec1",

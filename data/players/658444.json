@@ -411,7 +411,7 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.61
+    "value": 0.6
    },
    {
     "key": "goals",
@@ -430,7 +430,169 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 7,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.7,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.74
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.47
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 20,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.65,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 20,
+     "goals": 1,
+     "assists": 1,
+     "rating": 6.65
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 31,
+   "goals": 2,
+   "assists": 2,
+   "rating": 7.38,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 31,
+     "goals": 2,
+     "assists": 2,
+     "rating": 7.38
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 36,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.87,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 36,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.87
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 30,
+   "goals": 2,
+   "assists": 2,
+   "rating": 7.0,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 30,
+     "goals": 2,
+     "assists": 2,
+     "rating": 7.0
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 31,
+   "goals": 0,
+   "assists": 3,
+   "rating": 6.96,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 31,
+     "goals": 0,
+     "assists": 3,
+     "rating": 6.96
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.12,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.12
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 4,
+   "goals": 1,
+   "assists": 0,
+   "rating": 5.95,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 4,
+     "goals": 1,
+     "assists": 0,
+     "rating": 5.95
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.8,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.8
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -549,5 +711,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T00:54:41+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T07:25:15+00:00"
 }

@@ -18,8 +18,8 @@
    "main": true
   },
   {
-   "label": "Defensives Mittelfeld",
-   "short": "DM",
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
    "main": false
   }
  ],
@@ -346,7 +346,7 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.49
+    "value": 0.5
    },
    {
     "key": "aerials_won",
@@ -371,11 +371,361 @@
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.48
+    "value": 0.47
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 11,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.15,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.17
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.11
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 28,
+   "goals": 1,
+   "assists": 2,
+   "rating": 7.21,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 26,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.22
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.2
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 17,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.11,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 15,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.17
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.71
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 24,
+   "goals": 2,
+   "assists": 2,
+   "rating": 7.09,
+   "competitions": [
+    {
+     "league": "Super League",
+     "league_id": 69,
+     "apps": 18,
+     "goals": 2,
+     "assists": 2,
+     "rating": 7.09
+    },
+    {
+     "league": "Swiss Cup",
+     "league_id": 164,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 36,
+   "goals": 4,
+   "assists": 0,
+   "rating": 7.1,
+   "competitions": [
+    {
+     "league": "Super League",
+     "league_id": 69,
+     "apps": 34,
+     "goals": 4,
+     "assists": 0,
+     "rating": 7.1
+    },
+    {
+     "league": "Swiss Cup",
+     "league_id": 164,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 26,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.11,
+   "competitions": [
+    {
+     "league": "Super League",
+     "league_id": 69,
+     "apps": 22,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.16
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.88
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 25,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.09,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 21,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.09
+    },
+    {
+     "league": "Croatian Cup",
+     "league_id": 275,
+     "apps": 4,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Challenge Cup",
+     "league_id": 179,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 29,
+   "goals": 3,
+   "assists": 1,
+   "rating": 6.38,
+   "competitions": [
+    {
+     "league": "Premiership",
+     "league_id": 64,
+     "apps": 19,
+     "goals": 2,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "League Cup",
+     "league_id": 180,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Scottish Cup",
+     "league_id": 137,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 8,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.38
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 30,
+   "goals": 3,
+   "assists": 0,
+   "rating": 5.48,
+   "competitions": [
+    {
+     "league": "Premiership",
+     "league_id": 64,
+     "apps": 18,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "League Cup",
+     "league_id": 180,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Scottish Cup",
+     "league_id": 137,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 9,
+     "goals": 1,
+     "assists": 0,
+     "rating": 5.48
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 36,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 34,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Croatian Cup",
+     "league_id": 275,
+     "apps": 2,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 32,
+   "goals": 2,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 29,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Croatian Cup",
+     "league_id": 275,
+     "apps": 3,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 1,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -510,5 +860,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T00:54:41+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T07:25:15+00:00"
 }

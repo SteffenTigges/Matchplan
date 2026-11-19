@@ -341,36 +341,429 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.38
+    "value": 0.31
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.51
+    "value": 0.53
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.4
+    "value": 0.37
    },
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.68
+    "value": 0.69
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.52
+    "value": 0.5
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.93
+    "value": 0.9
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 15,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.15,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.21
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.5
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.84
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 34,
+   "goals": 2,
+   "assists": 0,
+   "rating": 6.85,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 20,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.7
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.34
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 11,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.0
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 35,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.76,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 32,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.74
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.99
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 22,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.9,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 15,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.8
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.34
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 5,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.04
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 39,
+   "goals": 2,
+   "assists": 0,
+   "rating": 7.12,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 29,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.06
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 4,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.3
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.31
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 38,
+   "goals": 5,
+   "assists": 0,
+   "rating": 7.12,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 32,
+     "goals": 5,
+     "assists": 0,
+     "rating": 7.1
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.24
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 36,
+   "goals": 4,
+   "assists": 0,
+   "rating": 6.62,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 34,
+     "goals": 4,
+     "assists": 0,
+     "rating": 6.62
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.66
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 24,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.63,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 22,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.63
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 16,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.53,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 14,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.53
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 14,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.27,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 11,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.27
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 26,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 26,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 27,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 27,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2014/2015",
+   "apps": 4,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": null,
+     "apps": 4,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2013/2014",
+   "apps": 22,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": null,
+     "apps": 22,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2012/2013",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -493,5 +886,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T00:54:41+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T07:25:15+00:00"
 }
