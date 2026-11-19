@@ -22,3 +22,10 @@ test("photo_has_fallback_handler", () => {
 test("photo_without_url_shows_initials", () => {
   expect(photo(null, "Jens Castrop", 40)).toContain(">JC<");
 });
+
+test("crest_carries_team_key_for_navigation", () => {
+  expect(crest({ short: "Bayern", color: "#d00", crest: "fcb.png", key: "FCB" })).toContain('data-team="FCB"');
+  const fallback = crest({ short: "Bayern", color: "#d00", key: "FCB" });
+  expect(fallback).toContain('data-team="FCB"');
+  expect(crest({ short: "X", color: "#000", crest: "x.png" })).not.toContain("data-team");
+});

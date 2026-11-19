@@ -42,6 +42,7 @@ async function viewFor(route: Route): Promise<string> {
     return renderStatus(probe, new Date()) + renderModelCheck(model);
   }
   const season = await loadJson<Season>("season.json");
+  if (season) for (const [k, t] of Object.entries(season.teams)) t.key = k; // Wappen wissen so, zu welchem Team sie führen
   if (route.view === "verein") {
     header("Mein Verein", "Matchplan");
     if (route.change) writeFav(null);
@@ -177,4 +178,19 @@ async function render(): Promise<void> {
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);
 window.addEventListener("hashchange", () => void render());
+// Jedes Wappen führt zur Teamseite – auch wenn es in einer anderen verlinkten Karte steht.
+document.addEventListener(
+  "click",
+  (e) => {
+    const target = e.target as Element | null;
+    if (target?.closest?.(".picker")) return; // In der Vereins-/Team-Auswahl wählt der Tipp das Team aus
+    const el = target?.closest?.("[data-team]");
+    const key = el?.getAttribute("data-team");
+    if (!key) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if (location.hash !== `#team/${key}`) location.hash = `#team/${key}`;
+  },
+  true,
+);
 void render();
