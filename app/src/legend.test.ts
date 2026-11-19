@@ -27,3 +27,9 @@ test("legend_skips_absent_terms", () => {
   expect(html).not.toContain("PPDA");
   expect(html).not.toContain("xGOT");
 });
+
+test("legend_explains_percentile_and_per90", () => {
+  const html = legendFor('<p>Perzentil pro 90 Minuten</p><span class="pp">0,55 /90</span>');
+  expect(html).toContain("Perzentil");
+  expect(html).toContain("/90");
+});

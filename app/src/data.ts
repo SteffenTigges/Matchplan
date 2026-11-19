@@ -45,7 +45,7 @@ export interface Shot {
   xg: number | null; xgot: number | null; situation: string | null; type: string | null;
   result: "goal" | "saved" | "miss" | "blocked" | "post"; own_goal: boolean;
 }
-export interface LineupPlayer { name: string; pos_id: number | null; rating: number | null; captain: boolean; x: number | null; y: number | null }
+export interface LineupPlayer { id?: number | null; name: string; pos_id: number | null; rating: number | null; captain: boolean; x: number | null; y: number | null }
 export interface FmLineup { team: string | null; formation: string | null; rating: number | null; players: LineupPlayer[] }
 export interface FotmobMatch {
   fm_id: number;
@@ -62,4 +62,17 @@ export interface MetricDef { key: string; label: string; category: string; highe
 export interface TeamStats {
   updated_at: string; categories: string[]; metrics: MetricDef[];
   teams: Record<string, Record<string, { value: number | null; rank: number | null } | number>>;
+}
+
+// --- Spieler (data/players.json, data/players/<id>.json) ---
+export interface PlayerRow { id: number; name: string; team: string | null; team_name?: string | null; pos: string | null; age: number | null; minutes: number; apps: number; rating: number | null }
+export interface PlayerIndex { updated_at: string; players: PlayerRow[] }
+export interface PlayerStat { group: string; key: string; title: string; value: number | null; per90: number | null; pct: number | null; fmt?: string }
+export interface CareerEntry { team: string; start: string | null; end: string | null; apps: number | null; goals: number | null; kind: string | null }
+export interface PlayerProfile {
+  id: number; name: string; team: string | null; team_name: string | null; birth_date: string | null; age: number | null;
+  height_cm: number | null; foot: string | null; country: string | null; shirt: number | null; market_value: number | null;
+  contract_end: string | null; positions: { label: string; short: string; main: boolean }[]; stats: PlayerStat[];
+  career: { senior: CareerEntry[]; youth: CareerEntry[]; national: CareerEntry[]; national_youth: CareerEntry[] };
+  transfers: { from: string; to: string; date: string | null; fee: string | null; loan: boolean }[]; fetched_at: string;
 }

@@ -19,7 +19,7 @@ def test_next_data_extracts_json():
 
 def test_parse_league_maps_teams_and_rounds():
     ms = parse_league(load("fotmob_league.json"))
-    assert ms[0] == {"fm_id": 5881219, "url": "https://www.fotmob.com/matches/hoffenheim-vs-schalke-04/2syjsa",
+    assert ms[0] == {"fm_id": 5881219, "url": "https://www.fotmob.com/match/5881219",
                      "round": 9, "home": "TSG", "away": "S04", "finished": True, "kickoff": "2026-11-08T18:30:00Z"}
     assert ms[2]["home"] == "FCB" and ms[2]["finished"] is False
 
@@ -87,3 +87,10 @@ def test_incomplete_zones_are_dropped():
     data = load("fotmob_match.json")
     del data["props"]["pageProps"]["content"]["attackingZones"]["home"]["total"]["center"]
     assert parse_match(data)["zones"] is None
+
+
+def test_match_has_player_ids():
+    m = parse_match(load("fotmob_match.json"))
+    assert m["v"] == 3
+    assert m["lineups"]["home"]["players"][0]["id"] == 178778
+    assert all(isinstance(p["id"], int) for p in m["players"])

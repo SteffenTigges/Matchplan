@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Callable
 
 from . import probe
-from .fotmob import LEAGUE_URL, next_data, parse_league, parse_match
+from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
 from .teamstats import aggregate, build_teamstats
@@ -43,7 +43,9 @@ def _lineup_from_dict(d: dict) -> TeamLineup:
 
 SETTLE = timedelta(hours=48)
 RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange erneut versuchen
-CORE_STATS = {"expected_goals", "passes", "total_shots"}  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
+CORE_STATS = {"expected_goals", "passes", "total_shots"}
+PLAYER_CAP = 40  # Spielerseiten pro Lauf
+PLAYER_FRESH = timedelta(days=7)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
 
 def _settled(matches: list[dict], now: datetime) -> bool:
@@ -90,14 +92,18 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
         kickoff = datetime.fromisoformat((fm["kickoff"] or "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
         if path.exists() and now - kickoff > SETTLE:
             old = _read(path) or {}
+            current_format = old.get("v") == FORMAT_VERSION
             complete = bool(old.get("stats")) and bool(old.get("shots"))
-            if complete or now - kickoff > RETRY_INCOMPLETE:
+            if current_format and (complete or now - kickoff > RETRY_INCOMPLETE):
                 continue
         try:
             nd = next_data(get(fm["url"]))
             if nd is None:
                 raise RuntimeError("Keine eingebetteten Daten")
-            _write(path, {**parse_match(nd), "oldb_id": om["id"], "matchday": fm["round"], "season": SEASON})
+            parsed = parse_match(nd)
+            if parsed["fm_id"] != fm["fm_id"]:
+                raise RuntimeError(f"Seite zeigt ein anderes Spiel ({parsed['fm_id']})")
+            _write(path, {**parsed, "oldb_id": om["id"], "matchday": fm["round"], "season": SEASON})
         except Exception as e:  # alte Datei bleibt stehen
             errors.append(f"{fm['home']}–{fm['away']}: {e}")
 
@@ -115,6 +121,62 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
     if lacking:
         note += f", {lacking} ohne Kernwerte (xG, Pässe oder Schüsse fehlen – Format geändert?)"
     status["fotmob"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None, "note": note}
+
+
+def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str, status: dict) -> None:
+    """Spieler aus den FotMob-Spieldateien sammeln, fällige Profile laden, Index schreiben."""
+    seen: dict[int, dict] = {}
+    files = sorted((out / "fotmob").glob("*.json")) if (out / "fotmob").exists() else []
+    for f in files:
+        m = _read(f) or {}
+        if m.get("season") != SEASON:
+            continue
+        for p in m.get("players") or []:
+            if not p.get("id") or not p.get("minutes"):
+                continue
+            e = seen.setdefault(p["id"], {"id": p["id"], "name": p.get("name"), "team": p.get("team"), "minutes": 0, "apps": 0, "ratings": [], "md": -1})
+            e["minutes"] += p["minutes"]
+            e["apps"] += 1
+            if p.get("rating") is not None:
+                e["ratings"].append(p["rating"])
+            if m.get("matchday", 0) >= e["md"]:
+                e["md"], e["team"], e["name"] = m.get("matchday", 0), p.get("team"), p.get("name")
+
+    def fetched(pid: int) -> datetime | None:
+        prof = _read(out / "players" / f"{pid}.json")
+        return datetime.fromisoformat(prof["fetched_at"]) if prof and prof.get("fetched_at") else None
+
+    due = []
+    for pid in seen:
+        t = fetched(pid)
+        if t is None or now - t > PLAYER_FRESH:
+            due.append((t or datetime.min.replace(tzinfo=now.tzinfo), pid))
+    errors = []
+    for _, pid in sorted(due)[:PLAYER_CAP]:
+        try:
+            nd = next_data(get(player_url(pid)))
+            if nd is None:
+                raise RuntimeError("Keine eingebetteten Daten")
+            _write(out / "players" / f"{pid}.json", {**parse_player(nd), "fetched_at": at})
+        except Exception as e:
+            errors.append(f"{pid}: {e}")
+
+    index, fresh = [], 0
+    for pid, e in seen.items():
+        prof = _read(out / "players" / f"{pid}.json") or {}
+        if prof.get("fetched_at") and now - datetime.fromisoformat(prof["fetched_at"]) <= PLAYER_FRESH:
+            fresh += 1
+        main = next((p for p in prof.get("positions") or [] if p.get("main")), None)
+        team = prof["team"] if prof else e["team"]  # Profil kennt den aktuellen Verein (auch außerhalb der Liga)
+        index.append({"id": pid, "name": e["name"], "team": team, "team_name": prof.get("team_name"), "pos": main["short"] if main else None,
+                      "age": prof.get("age"), "minutes": e["minutes"], "apps": e["apps"],
+                      "rating": round(sum(e["ratings"]) / len(e["ratings"]), 2) if e["ratings"] else None})
+    if index:
+        index.sort(key=lambda x: (x["team"] or "", -x["minutes"]))
+        _write(out / "players.json", {"updated_at": at, "players": index})
+    status["fotmob_players"] = {"ok": len(errors) < max(1, len(due[:PLAYER_CAP])) or not due, "at": at,
+                                "error": "; ".join(errors[:5]) + (f" (+{len(errors) - 5})" if len(errors) > 5 else "") or None,
+                                "note": f"{fresh} von {len(seen)} Profilen aktuell"}
 
 
 def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float], None] = time.sleep) -> dict:
@@ -166,6 +228,7 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
     status["openligadb"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None}
 
     _update_fotmob(out, get, matchdays, now, at, status)
+    _update_players(out, get, now, at, status)
 
     if current is None:  # noch nie Spiele gesehen: nichts Falsches schreiben
         _write(out / "status" / "sources.json", status)

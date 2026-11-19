@@ -11,6 +11,8 @@ const GLOSSAR: { test: RegExp; term: (m: RegExpMatchArray) => string; text: stri
   { test: /Field Tilt/, term: () => "Field Tilt", text: "Anteil der Ballaktionen im gegnerischen Strafraum, die auf ein Team entfallen. Zeigt, wer das Spiel nach vorne drückt." },
   { test: /xPunkte/, term: () => "xPunkte", text: "Erwartete Punkte: so viele Punkte, wie die Chancen beider Teams im Schnitt gebracht hätten (aus jedem einzelnen Schuss berechnet)." },
   { test: /Momentum/, term: () => "Momentum", text: "Wer gerade drückt: Druck und Gefahr beider Teams Minute für Minute im Vergleich." },
+  { test: /Perzentil/, term: () => "Perzentil", text: "Besser als so viel Prozent der Spieler auf derselben Position in der Liga. 87 = besser als 87 %." },
+  { test: /\/90/, term: () => "/90", text: "Pro 90 Minuten Spielzeit, damit Spieler mit vielen und wenigen Minuten vergleichbar sind." },
   { test: /Näherung/, term: () => "Näherung", text: "Wert aus verfügbaren Zahlen nachgebildet, nicht von der Quelle direkt gemessen." },
 ];
 

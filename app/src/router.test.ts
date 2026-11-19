@@ -16,3 +16,9 @@ test("rejects_invalid_numbers", () => {
   expect(parseRoute("#spiele/99")).toEqual({ view: "spiele" });
   expect(parseRoute("#spiel/abc")).toEqual({ view: "spiele" });
 });
+
+test("parses_player_routes", () => {
+  expect(parseRoute("#spieler")).toEqual({ view: "spieler" });
+  expect(parseRoute("#spieler/1219540")).toEqual({ view: "spieler", id: 1219540 });
+  expect(parseRoute("#spieler/abc")).toEqual({ view: "spieler" });
+});

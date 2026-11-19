@@ -87,3 +87,8 @@ test("momentum_axis_shows_whole_minutes", () => {
   const html = renderAnalysis(m, { ...fm, momentum: [[0, 0], [90.75, 10]] }, season);
   expect(html).toContain(">91'<");
 });
+
+test("lineup_names_link_to_player", () => {
+  const withIds = { ...fm, lineups: { ...fm.lineups!, home: { ...fm.lineups!.home, players: [{ ...fm.lineups!.home.players[0], id: 178778 }] } } };
+  expect(renderAnalysis(m, withIds, season)).toContain('href="#spieler/178778"');
+});
