@@ -169,7 +169,7 @@ def _metric(ts: dict, team: str, key: str) -> tuple[dict | None, dict | None]:
 
 def _ev(ts: dict, team: str, key: str) -> dict | None:
     meta, e = _metric(ts, team, key)
-    return {"label": meta["label"], "value": e["value"], "fmt": meta["fmt"], "rank": e["rank"]} if e else None
+    return {"key": key, "label": meta["label"], "value": e["value"], "fmt": meta["fmt"], "rank": e["rank"]} if e else None
 
 
 def strengths_weaknesses(ts: dict, team: str, n: int = 4) -> tuple[list[dict], list[dict]]:

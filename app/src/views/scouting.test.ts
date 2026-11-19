@@ -52,6 +52,19 @@ test("findings_show_evidence", () => {
   expect(html).toContain("Platz 16");
 });
 
+test("every_rank_links_to_the_ranking", () => {
+  const r = rep("FCB");
+  r.findings[0]!.evidence[0]!.key = "xga_setplay_pg";
+  r.matchplan[0]!.evidence[0]!.key = "xga_setplay_pg";
+  r.strengths[0]!.key = "xg_pg";
+  expect(renderReport(r, season, null)).toContain('href="#rang/xg_pg/FCB"');
+  expect(renderReport(r, season, null)).toContain('href="#rang/xga_setplay_pg/FCB"');
+  expect(renderVerein("BVB", season, rep("BVB"), r, ts)).toContain('href="#rang/xga_setplay_pg/FCB"');
+  const vs = renderVerein("BVB", season, rep("BVB"), rep("FCB"), ts);
+  expect(vs).toContain('href="#rang/xg_pg/BVB"');
+  expect(vs).toContain('href="#rang/xg_pg/FCB"');
+});
+
 test("duels_only_in_club_view", () => {
   expect(renderReport(rep("FCB"), season, null)).not.toContain("Duelle");
   const mine = { ...rep("BVB"), lines: { Angriff: { id: 1, name: "Serhou Guirassy", rating: 7.4, minutes: 800 } } };

@@ -1,6 +1,6 @@
 // Matchplan Service Worker: Seiten und Daten zuerst frisch aus dem Netz (damit neue Versionen ankommen),
 // unveränderliche Dateien (assets/ mit Hash im Namen, Icons) aus dem Speicher. Offline: Speicher.
-const CACHE = "matchplan-v2";
+const CACHE = "matchplan-v3";
 const SHELL = ["./", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -22,7 +22,8 @@ self.addEventListener("fetch", (e) => {
     return res;
   };
   if (e.request.mode === "navigate" || url.pathname.includes("/data/") || url.pathname.endsWith(".webmanifest")) {
-    e.respondWith(fetch(e.request).then(put).catch(() => caches.match(e.request)));
+    // "no-cache": immer beim Server nachfragen, nie eine bis zu 10 Minuten alte Kopie aus dem Browser-Speicher nehmen.
+    e.respondWith(fetch(e.request, { cache: "no-cache" }).then(put).catch(() => caches.match(e.request)));
   } else {
     e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request).then(put)));
   }

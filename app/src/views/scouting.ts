@@ -17,17 +17,16 @@ export const AREAS: { id: string; title: string }[] = [
   { id: "verlauf", title: "Spielverlauf" },
 ];
 
-/** Ein Beleg: Kennzahl, Wert, Ligaplatz. */
-export function evidence(e: Evidence): string {
-  return `<span class="ev"><span>${esc(e.label)}</span><b class="num">${esc(formatMetric(e.value, e.fmt))}</b>${e.rank != null ? `<span class="muted">Platz ${e.rank}</span>` : ""}</span>`;
+/** Ein Beleg: Kennzahl, Wert, Ligaplatz. Mit Kennzahl-Schlüssel führt ein Tipp zur Rangliste aller Teams. */
+export function evidence(e: Evidence, team?: string): string {
+  const inner = `<span>${esc(e.label)}</span><b class="num">${esc(formatMetric(e.value, e.fmt))}</b>${e.rank != null ? `<span class="muted">Platz ${e.rank}${e.key && team ? " ›" : ""}</span>` : ""}`;
+  return e.key && team && e.rank != null ? `<a class="ev" href="#rang/${esc(e.key)}/${esc(team)}">${inner}</a>` : `<span class="ev">${inner}</span>`;
 }
 
-export function findingList(items: Finding[], empty: string): string {
+export function findingList(items: Finding[], empty: string, team?: string): string {
   if (!items.length) return none(empty);
-  return `<ol class="findings">${items.map((f) => `<li><b>${esc(f.text)}</b><div class="evs">${f.evidence.map(evidence).join("")}</div></li>`).join("")}</ol>`;
+  return `<ol class="findings">${items.map((f) => `<li><b>${esc(f.text)}</b><div class="evs">${f.evidence.map((e) => evidence(e, team)).join("")}</div></li>`).join("")}</ol>`;
 }
-
-const evRows = (list: Evidence[]): string => (list.length ? `<div class="evs">${list.map(evidence).join("")}</div>` : "");
 
 function situations(s: Situations | null, color: string): string {
   if (!s) return none("Keine Schussdaten vorhanden.");
@@ -75,6 +74,7 @@ function duels(r: ScoutReport, mine: ScoutReport, season: Season): string {
 
 export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport | null, open?: string): string {
   const t = team(season, r.team);
+  const evRows = (list: Evidence[]): string => (list.length ? `<div class="evs">${list.map((e) => evidence(e, r.team)).join("")}</div>` : "");
   const nav = `<div class="seg">${AREAS.map((a) => `<a href="#scouting/${esc(r.team)}/${a.id}">${esc(a.title)}</a>`).join("")}</div>`;
   const hero = `<div class="hero" style="background:linear-gradient(135deg,${esc(t.color)} 0%,color-mix(in srgb,${esc(t.color)} 55%,#000) 100%)">
     <div class="row">${crest(t, 48)}<div><div class="tlab">Gegner-Bericht · ${r.matches} Spiele</div><h2 style="color:#fff">${esc(t.name)}</h2></div></div>
@@ -97,10 +97,10 @@ export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport |
     `<details class="card area" id="area-${id}" ${!open || open === id ? "open" : ""}><summary><h2>${esc(title)}</h2></summary>${body}</details>`;
 
   const ueberblick = area("ueberblick", "Überblick",
-    section("idee", "Spielidee", formations + (r.idea.tags.length ? findingList(r.idea.tags, "") : none("Kein auffälliges Muster in den Kennzahlen."))) +
+    section("idee", "Spielidee", formations + (r.idea.tags.length ? findingList(r.idea.tags, "", r.team) : none("Kein auffälliges Muster in den Kennzahlen."))) +
     section("prognose", "Prognose", nextHtml) +
     section("staerken", "Stärken & Schwächen", `<div class="tlab">Stärken</div>${r.strengths.length ? evRows(r.strengths) : none("Keine Kennzahl unter den besten drei.")}<div class="tlab">Schwächen</div>${r.weaknesses.length ? evRows(r.weaknesses) : none("Keine Kennzahl unter den schlechtesten drei.")}`) +
-    section("matchplan", "Matchplan", findingList(r.matchplan, "Keine eindeutige Schwachstelle in den Zahlen.")));
+    section("matchplan", "Matchplan", findingList(r.matchplan, "Keine eindeutige Schwachstelle in den Zahlen.", r.team)));
 
   const mitball = area("mitball", "Mit Ball",
     section("aufbau", "Spielaufbau", evRows(r.buildup.metrics) + zones(r.buildup.zones, "Angriffsseiten", t.color)) +

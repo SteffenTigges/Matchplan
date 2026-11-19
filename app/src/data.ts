@@ -108,7 +108,7 @@ export interface ModelCheck {
 }
 
 // --- Gegner-Bericht (data/scouting/<team>.json) ---
-export interface Evidence { label: string; value: number; fmt: string; rank?: number }
+export interface Evidence { key?: string; label: string; value: number; fmt: string; rank?: number }
 export interface Finding { key?: string; text: string; evidence: Evidence[] }
 export interface SituationRow { goals: number; xg: number; shots: number; share: number }
 export type Situations = Record<"Spielaufbau" | "Konter" | "Standard" | "Elfmeter", SituationRow>;
