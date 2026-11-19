@@ -6,7 +6,7 @@ import { esc } from "./ui";
 import { renderMatch, renderMatchday } from "./views/spiele";
 import { renderStatus, type ProbeReport } from "./views/status";
 import { renderTable, renderTeam } from "./views/teams";
-import { renderTeamStats } from "./views/teamstats";
+import { renderMetricRanking, renderTeamStats } from "./views/teamstats";
 import { renderAllResults, renderModelCheck } from "./views/prognose";
 import { normSearch, renderPlayer, renderPlayerList, renderSquad } from "./views/players";
 
@@ -17,7 +17,7 @@ const TABS = [
   { view: "status", href: "#status", label: "Status", icon: '<circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="2" fill="none"/>' },
 ];
 
-const tabOf = (r: Route): string => (r.view === "spiel" || r.view === "prognose" ? "spiele" : r.view === "team" ? "teams" : r.view);
+const tabOf = (r: Route): string => (r.view === "spiel" || r.view === "prognose" ? "spiele" : r.view === "team" || r.view === "rang" ? "teams" : r.view);
 
 export function header(title: string, sub: string, back?: string): void {
   document.getElementById("hdr")!.innerHTML =
@@ -87,6 +87,13 @@ async function viewFor(route: Route): Promise<string> {
     const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
     const fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
     return renderMatch(match, season, fitting, history, fm, pred);
+  }
+
+  if (route.view === "rang") {
+    const ts = await loadJson<TeamStats>("teamstats.json");
+    const label = ts?.metrics.find((m) => m.key === route.metric)?.label ?? "Rangliste";
+    header(label, "Rangliste aller Teams", `#team/${route.key}`);
+    return (ts && renderMetricRanking(route.metric, route.key, ts, season)) || NO_DATA;
   }
 
   const table = await loadJson<Table>("table.json");

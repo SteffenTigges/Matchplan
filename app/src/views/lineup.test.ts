@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import type { TeamInfo, TeamLineup } from "../data";
-import { renderHistory, renderMissing, renderPitch } from "./lineup";
+import { renderHistory, renderMissing, renderPitch, renderTeamPitch } from "./lineup";
 
 const team = (prefix: string, formation: number[], alt = false): TeamLineup => {
   let n = 0;
@@ -58,4 +58,11 @@ test("pitch_shows_goal_probability", () => {
   const home = team("Heim", [3, 4, 3]);
   const html = renderPitch(home, team("Gast", [4, 4, 2]), H, A, { [home.rows[home.rows.length - 1]![0]!.player.id]: 0.42 });
   expect(html).toContain("42%");
+});
+
+test("team_pitch_places_all_eleven", () => {
+  const svg = renderTeamPitch(team("Heim", [4, 2, 3, 1]), H);
+  expect((svg.match(/stroke-width="1.6"/g) ?? []).length).toBe(11);
+  expect(svg).toContain("<svg");
+  expect(svg).toContain("Gladbach");
 });

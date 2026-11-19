@@ -22,3 +22,8 @@ test("parses_player_routes", () => {
   expect(parseRoute("#spieler/1219540")).toEqual({ view: "spieler", id: 1219540 });
   expect(parseRoute("#spieler/abc")).toEqual({ view: "spieler" });
 });
+
+test("parses_rank_route", () => {
+  expect(parseRoute("#rang/xg_pg/TSG")).toEqual({ view: "rang", metric: "xg_pg", key: "TSG" });
+  expect(parseRoute("#rang/<x>/TSG")).toEqual({ view: "spiele" });
+});

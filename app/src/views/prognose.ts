@@ -108,7 +108,7 @@ export function renderAllResults(m: Match, p: Prediction, season: Season): strin
   const shown = cells.reduce((s, c) => s + c.v, 0);
   const max = cells[0]?.v || 1;
   const list = `<section class="card"><h2>Alle Ergebnisse</h2><div class="list">${cells
-    .map((c) => `<div class="item"><span class="num" style="font-weight:700;width:38px">${c.i}:${c.j}</span><span class="grow"><span class="pbar"><i style="width:${(c.v / max) * 100}%;background:${esc(c.i > c.j ? h.color : c.i < c.j ? a.color : "#8f9bb0")}"></i></span></span><span class="num" style="width:52px;text-align:right">${dec(c.v * 100, 1)} %</span></div>`)
+    .map((c) => `<div class="item"><span class="num" style="font-weight:700;width:38px">${c.i}:${c.j}</span><span class="grow"><span class="pbar"><i style="width:${(c.v / max) * 100}%;background:${esc(c.i > c.j ? h.color : c.i < c.j ? a.color : "#8f9bb0")}"></i></span></span><span class="num" style="width:62px;text-align:right;white-space:nowrap">${dec(c.v * 100, 1)} %</span></div>`)
     .join("")}</div><p class="muted">Alle anderen Ergebnisse (6 Tore oder mehr für ein Team): ${dec(Math.max(0, 1 - shown) * 100, 1)} %.</p></section>`;
 
   const heat = `<section class="card"><h2>Ergebnistabelle</h2><p class="muted">Zeilen: Tore ${esc(h.short)}, Spalten: Tore ${esc(a.short)}.</p>

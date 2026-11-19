@@ -77,3 +77,9 @@ def test_absence_factor_capped():
 
 def test_no_absences_neutral():
     assert absence_factors([], FM)[:2] == (1.0, 1.0)
+
+
+def test_unmatched_prior_follows_lineup_row():
+    lu = {"rows": [[slot("a-tor_1", "Tor")], [slot("b-abwehr_1", "Abwehr")], [slot("c-mitte_1", "Mitte")], [slot("d-sturm_1", "Sturm")]]}
+    out = {s["name"]: s["p"] for s in scorers(lu, FM, team_xg_pg=2.0, lam=2.0, pos={})}
+    assert out["Sturm"] > out["Mitte"] > out["Abwehr"] > out["Tor"] == 0
