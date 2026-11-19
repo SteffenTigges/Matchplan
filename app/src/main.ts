@@ -1,12 +1,13 @@
 import "./style.css";
-import { loadJson, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
+import { loadJson, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
 import { renderMatch, renderMatchday } from "./views/spiele";
 import { renderStatus, type ProbeReport } from "./views/status";
 import { renderTable, renderTeam } from "./views/teams";
-import { renderTeamStats } from "./views/teamstats";
+import { renderMetricRanking, renderTeamStats } from "./views/teamstats";
+import { renderAllResults, renderModelCheck } from "./views/prognose";
 import { normSearch, renderPlayer, renderPlayerList, renderSquad } from "./views/players";
 
 const TABS = [
@@ -16,7 +17,7 @@ const TABS = [
   { view: "status", href: "#status", label: "Status", icon: '<circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="2" fill="none"/>' },
 ];
 
-const tabOf = (r: Route): string => (r.view === "spiel" ? "spiele" : r.view === "team" ? "teams" : r.view);
+const tabOf = (r: Route): string => (r.view === "spiel" || r.view === "prognose" ? "spiele" : r.view === "team" || r.view === "rang" ? "teams" : r.view);
 
 export function header(title: string, sub: string, back?: string): void {
   document.getElementById("hdr")!.innerHTML =
@@ -34,7 +35,8 @@ async function allMatchdays(): Promise<Matchday[]> {
 async function viewFor(route: Route): Promise<string> {
   if (route.view === "status") {
     header("Status", "Quellen-Check");
-    return renderStatus(await loadJson<ProbeReport>("status/probe.json"), new Date());
+    const [probe, model] = await Promise.all([loadJson<ProbeReport>("status/probe.json"), loadJson<ModelCheck>("model.json")]);
+    return renderStatus(probe, new Date()) + renderModelCheck(model);
   }
   const season = await loadJson<Season>("season.json");
   if (route.view === "spieler") {
@@ -59,11 +61,11 @@ async function viewFor(route: Route): Promise<string> {
   if (route.view === "spiele") {
     const md = route.matchday ?? season.current_matchday;
     header(`${md}. Spieltag`, "1. Bundesliga · Saison 26/27");
-    const day = await loadJson<Matchday>(`matchdays/${md}.json`);
-    return renderMatchday(md, day?.matches ?? [], season);
+    const [day, preds] = await Promise.all([loadJson<Matchday>(`matchdays/${md}.json`), loadJson<Predictions>(`predictions/${md}.json`)]);
+    return renderMatchday(md, day?.matches ?? [], season, preds);
   }
 
-  if (route.view === "spiel") {
+  if (route.view === "spiel" || route.view === "prognose") {
     const mds = await allMatchdays();
     const day = mds.find((d) => d.matches.some((m) => m.id === route.id));
     const match = day?.matches.find((m) => m.id === route.id);
@@ -73,12 +75,25 @@ async function viewFor(route: Route): Promise<string> {
     }
     const h = season.teams[match.home]?.short ?? match.home;
     const a = season.teams[match.away]?.short ?? match.away;
+    const preds = await loadJson<Predictions>(`predictions/${day.matchday}.json`);
+    const pred = preds?.matches[String(match.id)] ?? null;
+    if (route.view === "prognose") {
+      header("Alle Ergebnisse", `${h} – ${a}`, `#spiel/${match.id}`);
+      return pred?.probs ? renderAllResults(match, pred, season) : NO_DATA;
+    }
     header(`${h} – ${a}`, `${day.matchday}. Spieltag`, `#spiele/${day.matchday}`);
     const lineups = !match.finished ? await loadJson<Lineups>("lineups/current.json") : null;
     const fitting = lineups && lineups.matchday === day.matchday ? lineups : null;
     const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
     const fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
-    return renderMatch(match, season, fitting, history, fm);
+    return renderMatch(match, season, fitting, history, fm, pred);
+  }
+
+  if (route.view === "rang") {
+    const ts = await loadJson<TeamStats>("teamstats.json");
+    const label = ts?.metrics.find((m) => m.key === route.metric)?.label ?? "Rangliste";
+    header(label, "Rangliste aller Teams", `#team/${route.key}`);
+    return (ts && renderMetricRanking(route.metric, route.key, ts, season)) || NO_DATA;
   }
 
   const table = await loadJson<Table>("table.json");

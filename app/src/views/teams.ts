@@ -1,6 +1,6 @@
 import type { Lineups, Match, Season, TableRow, TeamInfo } from "../data";
-import { berlin, crest, esc, photo } from "../ui";
-import { renderMissing } from "./lineup";
+import { berlin, crest, esc } from "../ui";
+import { renderMissing, renderTeamPitch } from "./lineup";
 
 const info = (s: Season, key: string): TeamInfo => s.teams[key] ?? { name: key, short: key, color: "#64748b", crest: "" };
 const form = (f: string[]): string => `<span class="form">${f.map((x) => `<i class="${esc(x)}">${esc(x)}</i>`).join("")}</span>`;
@@ -48,9 +48,7 @@ export function renderTeam(key: string, season: Season, rows: TableRow[], matche
   const lu = lineups?.teams[key];
   const lineupCard = lu
     ? `<section class="card"><h2>Voraussichtliche Aufstellung</h2><span class="chip" style="align-self:flex-start">${esc(lu.formation)}</span>
-        <div class="list">${lu.rows
-          .map((r) => r.map((s) => `<div class="item">${photo(s.player.photo, s.player.name, 34)}<span class="grow"><b>${esc(s.player.name)}</b>${s.alternatives.length ? `<br><span class="muted">oder ${esc(s.alternatives.map((a) => a.name).join(" / "))}</span>` : ""}</span></div>`).join(""))
-          .join("")}</div>
+        ${renderTeamPitch(lu, t)}
         <p class="muted">Quelle: Ligainsider · Stand ${esc(berlin(lu.fetched_at))} Uhr</p></section>
       <section class="card"><h2>Es fehlen</h2>${renderMissing(t, lu)}</section>`
     : "";

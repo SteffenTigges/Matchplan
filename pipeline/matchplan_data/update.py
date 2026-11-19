@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Callable
 
 from . import probe
+from .forecast import run_forecast
 from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
@@ -268,6 +269,10 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
     _write(out / "lineups" / "current.json", {"season": SEASON, "matchday": current, "fetched_at": at, "teams": teams_out})
     if events:
         append_history(out / "lineups", current, events, season=SEASON)
+    try:
+        run_forecast(out, get, matchdays, current, teams_out, now, at, status)
+    except Exception as e:  # Prognose darf den übrigen Lauf nicht kippen
+        status["prognose"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
     _write(out / "status" / "sources.json", status)
     return status
 

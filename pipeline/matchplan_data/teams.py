@@ -71,3 +71,12 @@ def team_by_key(key: str) -> Team:
 
 def team_by_fotmob(fotmob_id: int | str) -> Team:
     return _BY_FOTMOB[int(fotmob_id)]
+
+
+# Schreibweise bei football-data.co.uk (Quoten, Vorsaison-Ergebnisse)
+FD_NAMES = {
+    "Bayern Munich": "FCB", "Dortmund": "BVB", "RB Leipzig": "RBL", "Stuttgart": "VFB", "Hoffenheim": "TSG",
+    "Leverkusen": "B04", "Freiburg": "SCF", "Ein Frankfurt": "SGE", "Augsburg": "FCA", "Mainz": "M05",
+    "Union Berlin": "FCU", "M'gladbach": "BMG", "Hamburg": "HSV", "FC Koln": "KOE", "Werder Bremen": "SVW",
+    "Schalke 04": "S04", "Elversberg": "SVE", "Paderborn": "SCP",
+}

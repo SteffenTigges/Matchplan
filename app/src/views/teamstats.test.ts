@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import type { TeamStats } from "../data";
-import { renderTeamStats } from "./teamstats";
+import { renderMetricRanking, renderTeamStats } from "./teamstats";
 
 const stats: TeamStats = {
   updated_at: "2026-11-18T16:00:00+00:00",
@@ -24,9 +24,9 @@ test("renders_all_categories", () => {
 
 test("rank_chip_colours", () => {
   const html = renderTeamStats("TSG", stats);
-  expect(html).toContain('<span class="chip good">3.</span>');
-  expect(html).toContain('<span class="chip bad">15.</span>');
-  expect(html).toContain('<span class="chip mid">8.</span>');
+  expect(html).toContain('class="chip good" href="#rang/possession/TSG"');
+  expect(html).toContain('class="chip bad" href="#rang/xg_pg/TSG"');
+  expect(html).toContain('class="chip mid" href="#rang/points/TSG"');
 });
 
 test("marks_approximations", () => {
@@ -40,4 +40,15 @@ test("unknown_team_returns_empty", () => {
 test("metrics_without_value_are_hidden", () => {
   const s = { ...stats, teams: { TSG: { ...stats.teams.TSG, ppda: { value: null, rank: null } } } } as unknown as TeamStats;
   expect(renderTeamStats("TSG", s)).not.toContain("PPDA");
+});
+
+test("ranking_lists_all_teams_sorted_and_highlights_team", () => {
+  const s2: TeamStats = { ...stats, teams: { ...stats.teams, FCB: { matches: 9, xg_pg: { value: 2.9, rank: 1 } }, SVE: { matches: 8, xg_pg: { value: 0.8, rank: 18 } } } };
+  const season = { season: 2026, current_matchday: 12, updated_at: "", teams: { FCB: { name: "FC Bayern", short: "Bayern", color: "#d00", crest: "" }, TSG: { name: "TSG", short: "Hoffenheim", color: "#16b", crest: "" }, SVE: { name: "SVE", short: "Elversberg", color: "#111", crest: "" } } };
+  const html = renderMetricRanking("xg_pg", "TSG", s2, season);
+  expect(html.indexOf("Bayern")).toBeLessThan(html.indexOf("Hoffenheim"));
+  expect(html.indexOf("Hoffenheim")).toBeLessThan(html.indexOf("Elversberg"));
+  expect(html).toContain('class="item me" href="#team/TSG"');
+  expect(html).toContain("2,90");
+  expect(html).toContain("höher ist besser");
 });
