@@ -83,7 +83,9 @@ TS = {"metrics": [{"key": "xg_pg", "label": "xG pro Spiel", "higher_is_better": 
 
 
 def test_strengths_and_weaknesses_from_ranks():
-    s, w = strengths_weaknesses(TS, "A")
+    ts = {"metrics": TS["metrics"] + [{"key": "points", "label": "Punkte", "higher_is_better": True, "fmt": "int"}],
+          "teams": {"A": {**TS["teams"]["A"], "points": {"value": 25, "rank": 1}}}}
+    s, w = strengths_weaknesses(ts, "A")
     assert [x["label"] for x in s] == ["PPDA", "xG pro Spiel", "Ballbesitz"]
     assert [x["label"] for x in w] == ["Zugelassene xG nach Standards"]
 

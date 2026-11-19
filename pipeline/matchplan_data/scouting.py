@@ -14,6 +14,7 @@ LINE = {**{p: "Abwehr" for p in ("CB", "LB", "RB", "LWB", "RWB")},
         **{p: "Mittelfeld" for p in ("DM", "CM", "AM", "LM", "RM", "CDM", "CAM")},
         **{p: "Angriff" for p in ("ST", "CF", "LW", "RW", "SS")}}
 
+RESULT_METRICS = {"points", "goal_diff"}  # Ergebnis, keine Spielweise
 Pair = tuple[dict, dict]  # (OpenLigaDB-Spiel, FotMob-Datei)
 
 
@@ -172,7 +173,7 @@ def _ev(ts: dict, team: str, key: str) -> dict | None:
 
 
 def strengths_weaknesses(ts: dict, team: str, n: int = 4) -> tuple[list[dict], list[dict]]:
-    evs = [x for x in (_ev(ts, team, m["key"]) for m in ts.get("metrics", [])) if x]
+    evs = [x for x in (_ev(ts, team, m["key"]) for m in ts.get("metrics", []) if m["key"] not in RESULT_METRICS) if x]
     strong = sorted([x for x in evs if x["rank"] <= 3], key=lambda x: x["rank"])[:n]
     weak = sorted([x for x in evs if x["rank"] >= 16], key=lambda x: -x["rank"])[:n]
     return strong, weak
