@@ -210,6 +210,18 @@ def _info(data: dict, title: str):
     return {}
 
 
+def _seasons(entries: list[dict]) -> list[dict]:
+    """Saisonzeilen, falls FotMob sie in der Karriere mitliefert (für spätere Altersvergleiche)."""
+    out = []
+    for e in entries or []:
+        for s in e.get("seasonEntries") or []:
+            rating = s.get("rating")
+            out.append({"season": s.get("seasonName"), "team": e.get("team"), "apps": _num(s.get("appearances")),
+                        "goals": _num(s.get("goals")), "assists": _num(s.get("assists")),
+                        "rating": _num(rating.get("rating") if isinstance(rating, dict) else rating)})
+    return out
+
+
 def _career(entries: list[dict]) -> list[dict]:
     out = []
     for e in entries or []:
@@ -250,6 +262,7 @@ def parse_player(data: dict) -> dict:
         "country": _info(d, "Country").get("fallback"), "shirt": _num(_info(d, "Shirt").get("numberValue")),
         "market_value": _num(_info(d, "Market value").get("numberValue")), "contract_end": _date(d.get("contractEnd")),
         "positions": positions, "stats": stats, "traits": traits,
+        "seasons": _seasons((ci.get("senior") or {}).get("teamEntries")),
         "career": {"senior": _career((ci.get("senior") or {}).get("teamEntries")),
                    "youth": _career((ci.get("youth") or {}).get("teamEntries")),
                    "national": _career((ci.get("national team") or {}).get("teamEntries")),

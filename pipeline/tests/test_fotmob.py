@@ -94,3 +94,9 @@ def test_match_has_player_ids():
     assert m["v"] == 3
     assert m["lineups"]["home"]["players"][0]["id"] == 178778
     assert all(isinstance(p["id"], int) for p in m["players"])
+
+
+def test_player_season_rows_when_present():
+    from matchplan_data.fotmob import _seasons
+    rows = _seasons([{"team": "Hoffenheim", "seasonEntries": [{"seasonName": "2024/2025", "appearances": "30", "goals": "9", "assists": "4", "rating": {"rating": "7.12"}}]}, {"team": "X"}])
+    assert rows == [{"season": "2024/2025", "team": "Hoffenheim", "apps": 30, "goals": 9, "assists": 4, "rating": 7.12}]

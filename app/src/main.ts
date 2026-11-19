@@ -1,5 +1,5 @@
 import "./style.css";
-import { loadJson, type ScoutReport, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
+import { loadJson, type SimilarFile, type ScoutReport, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
@@ -82,7 +82,8 @@ async function viewFor(route: Route): Promise<string> {
     if (route.id) {
       const row = idx?.players.find((r) => r.id === route.id) ?? null;
       header(row?.name ?? "Spieler", "Spielerprofil", "#spieler");
-      return renderPlayer(await loadJson<PlayerProfile>(`players/${route.id}.json`), row, season);
+      const [prof, sim] = await Promise.all([loadJson<PlayerProfile>(`players/${route.id}.json`), loadJson<SimilarFile>("similar.json")]);
+      return renderPlayer(prof, row, season, sim?.players[String(route.id)] ?? (prof ? sim?.players[String(prof.id)] : undefined) ?? null);
     }
     header("Spieler", "1. Bundesliga · Saison 26/27");
     return idx ? renderPlayerList(idx.players, season, "") : NO_DATA;

@@ -132,3 +132,7 @@ export interface ScoutReport {
     points_from_behind: number; points_dropped: number; late_for: number; late_against: number; goals_for: number; goals_against: number;
   };
 }
+
+// --- Vergleiche (data/similar.json) ---
+export interface SimilarEntry { id: number; name: string; team: string | null; team_name?: string | null; age: number | null; score: number; rating?: number; keys?: number }
+export interface SimilarFile { updated_at: string; players: Record<string, { style: SimilarEntry[]; could_be: SimilarEntry[] }> }
