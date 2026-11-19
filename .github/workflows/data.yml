@@ -64,7 +64,9 @@ jobs:
           else
             git commit -m "data: Aktualisierung"
             for i in 1 2 3; do
-              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              # Bei gleichzeitigen Läufen gewinnt der neueste Datenstand (beim Rebase ist "theirs" dieser Lauf).
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+              git rebase --abort 2>/dev/null || true
               sleep 5
             done
             exit 1
