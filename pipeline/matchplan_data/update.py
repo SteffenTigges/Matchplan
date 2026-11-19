@@ -13,6 +13,7 @@ from typing import Callable
 from . import probe
 from .forecast import run_forecast
 from .scouting import build_report
+from .similar import build_similar
 from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
@@ -176,6 +177,15 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
     if index:
         index.sort(key=lambda x: (x["team"] or "", -x["minutes"]))
         _write(out / "players.json", {"updated_at": at, "players": index})
+    try:
+        profiles = [x for x in (_read(f) for f in sorted((out / "players").glob("*.json"))) if x and x.get("id")] if (out / "players").exists() else []
+        rows = {r["id"]: {"minutes": r["minutes"], "rating": r["rating"]} for r in index}
+        sim = build_similar(profiles, rows)
+        _write(out / "similar.json", {"updated_at": at, "players": {str(k): v for k, v in sim.items()}})
+        status["vergleiche"] = {"ok": True, "at": at, "error": None,
+                                "note": f"{sum(1 for v in sim.values() if v['style'])} Spieler mit Stil-Vergleich, {sum(1 for v in sim.values() if v['could_be'])} mit Wirkungs-Vergleich"}
+    except Exception as e:
+        status["vergleiche"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
     status["fotmob_players"] = {"ok": len(errors) < max(1, len(due[:PLAYER_CAP])) or not due, "at": at,
                                 "error": "; ".join(errors[:5]) + (f" (+{len(errors) - 5})" if len(errors) > 5 else "") or None,
                                 "note": f"{fresh} von {len(seen)} Profilen aktuell"}

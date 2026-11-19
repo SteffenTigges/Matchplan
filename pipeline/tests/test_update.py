@@ -301,3 +301,10 @@ def test_writes_report_for_every_team(tmp_path):
     assert len(files) == 18
     tsg = read(tmp_path / "scouting" / "TSG.json")
     assert tsg["team"] == "TSG" and tsg["matches"] >= 1 and "matchplan" in tsg
+
+
+def test_writes_similar_file(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    sim = read(tmp_path / "similar.json")
+    assert sim["players"] and all(set(v) == {"style", "could_be"} for v in sim["players"].values())
+    assert status["vergleiche"]["ok"] is True
