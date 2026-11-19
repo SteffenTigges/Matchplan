@@ -1,0 +1,439 @@
+{
+ "id": 622373,
+ "name": "Josip Juranović",
+ "team": "FCU",
+ "team_name": "Union Berlin",
+ "birth_date": "1995-08-16",
+ "age": 31,
+ "height_cm": 173,
+ "foot": "rechts",
+ "country": "Croatia",
+ "shirt": 18,
+ "market_value": 1154872,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": true
+  },
+  {
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
+   "main": false
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.2,
+   "per90": 0.0692716535433071,
+   "pct": 60,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.32,
+   "per90": 0.11498031496062992,
+   "pct": 80,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.2,
+   "per90": 0.0692716535433071,
+   "pct": 60,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 4,
+   "per90": 1.4173228346456692,
+   "pct": 78.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 0.7086614173228346,
+   "pct": 90,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 2,
+   "per90": 0.7086614173228346,
+   "pct": 96.66666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.57,
+   "per90": 0.2031579921259842,
+   "pct": 73.33333333333333,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 77,
+   "per90": 27.283464566929137,
+   "pct": 40,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 67.0,
+   "per90": 66.95652173913044,
+   "pct": 5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 9,
+   "per90": 3.188976377952756,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 36.0,
+   "per90": 36,
+   "pct": 35,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 9,
+   "per90": 3.188976377952756,
+   "pct": 95,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.7086614173228346,
+   "pct": 93.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 8,
+   "per90": 2.8346456692913384,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 26.7,
+   "per90": 26.666666666666668,
+   "pct": 66.66666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 7,
+   "per90": 2.4803149606299213,
+   "pct": 8.333333333333332,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 63.6,
+   "per90": 63.63636363636363,
+   "pct": 91.66666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 1,
+   "per90": 0.3543307086614173,
+   "pct": 15,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 33.3,
+   "per90": 33.333333333333336,
+   "pct": 20,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 222,
+   "per90": 78.66141732283465,
+   "pct": 76.66666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 15,
+   "per90": 5.31496062992126,
+   "pct": 36.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 6,
+   "per90": 2.1259842519685037,
+   "pct": 50,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 4,
+   "per90": 1.4173228346456692,
+   "pct": 70,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 12,
+   "per90": 4.251968503937007,
+   "pct": 55.00000000000001,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.3543307086614173,
+   "pct": 73.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 0.7086614173228346,
+   "pct": 56.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 5,
+   "per90": 1.7716535433070866,
+   "pct": 21.666666666666668,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 10,
+   "per90": 3.543307086614173,
+   "pct": 8.333333333333332,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 6.77,
+   "per90": 2.4001299212598424,
+   "pct": 16.666666666666664,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other fullbacks",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 1
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.03
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.22
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.88
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.81
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.74
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Union Berlin",
+    "start": "2023-01-22",
+    "end": null,
+    "apps": 77,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "Celtic",
+    "start": "2021-08-21",
+    "end": "2023-01-22",
+    "apps": 53,
+    "goals": 6,
+    "kind": null
+   },
+   {
+    "team": "Legia Warszawa",
+    "start": "2020-08-01",
+    "end": "2021-08-20",
+    "apps": 41,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Hajduk Split",
+    "start": "2015-01-01",
+    "end": "2020-07-31",
+    "apps": 165,
+    "goals": 3,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Croatia",
+    "start": "2017-01-10",
+    "end": "2026-09-21",
+    "apps": 40,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Celtic",
+   "to": "Union Berlin",
+   "date": "2023-01-22",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Legia Warszawa",
+   "to": "Celtic",
+   "date": "2021-08-21",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:42:59+00:00"
+}

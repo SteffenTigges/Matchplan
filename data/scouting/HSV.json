@@ -1,0 +1,581 @@
+{
+ "team": "HSV",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-4-2-1",
+    "games": 5
+   },
+   {
+    "formation": "3-5-2",
+    "games": 3
+   },
+   {
+    "formation": "3-5-1-1",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Überlässt dem Gegner den Ball",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.4278,
+      "fmt": "pct",
+      "rank": 16
+     }
+    ]
+   },
+   {
+    "text": "Hohes Pressing",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 4.504,
+      "fmt": "dec1",
+      "rank": 3
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83243,
+  "home": "SVW",
+  "away": "HSV",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "tip": [
+   2,
+   0
+  ],
+  "probs": [
+   0.6851,
+   0.1884,
+   0.1265
+  ]
+ },
+ "strengths": [
+  {
+   "label": "PPDA",
+   "value": 4.504,
+   "fmt": "dec1",
+   "rank": 3
+  },
+  {
+   "label": "Punkte minus xPunkte",
+   "value": 3.6853,
+   "fmt": "signed1",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.5714,
+   "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 19.2222,
+   "fmt": "dec1",
+   "rank": 17
+  },
+  {
+   "label": "Field Tilt",
+   "value": 0.3604,
+   "fmt": "pct",
+   "rank": 17
+  },
+  {
+   "label": "Flankenquote",
+   "value": 0.2139,
+   "fmt": "pct",
+   "rank": 17
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 4.504,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4548,
+     "fmt": "pct",
+     "rank": 16
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 4.504,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4548,
+     "fmt": "pct",
+     "rank": 16
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: PPDA (Platz 3)",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 4.504,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4278,
+    "fmt": "pct",
+    "rank": 16
+   },
+   {
+    "label": "Passquote",
+    "value": 0.7805,
+    "fmt": "pct",
+    "rank": 15
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3415,
+    "fmt": "pct",
+    "rank": 15
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4209,
+    "fmt": "pct",
+    "rank": 13
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2139,
+    "fmt": "pct",
+    "rank": 17
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.3604,
+    "fmt": "pct",
+    "rank": 17
+   }
+  ],
+  "zones": {
+   "left": 35.1,
+   "center": 24.3,
+   "right": 40.6
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 6,
+    "xg": 5.7,
+    "shots": 54,
+    "share": 0.6
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 1.43,
+    "shots": 11,
+    "share": 0.1
+   },
+   "Standard": {
+    "goals": 3,
+    "xg": 3.26,
+    "shots": 40,
+    "share": 0.3
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   3,
+   0,
+   1,
+   2,
+   1,
+   3
+  ],
+  "goals": 10,
+  "inside_box": 0.581,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.1111,
+    "fmt": "dec2",
+    "rank": 14
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.1467,
+    "fmt": "dec2",
+    "rank": 16
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 2.1111,
+    "fmt": "dec1",
+    "rank": 14
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.0983,
+    "fmt": "dec2",
+    "rank": 16
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -0.32,
+    "fmt": "signed1",
+    "rank": 9
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 13,
+    "xg": 10.76,
+    "shots": 103,
+    "share": 0.722
+   },
+   "Konter": {
+    "goals": 2,
+    "xg": 1.92,
+    "shots": 11,
+    "share": 0.111
+   },
+   "Standard": {
+    "goals": 3,
+    "xg": 4.24,
+    "shots": 51,
+    "share": 0.167
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   2,
+   3,
+   2,
+   5,
+   3,
+   5
+  ],
+  "goals": 20,
+  "opp_zones": {
+   "left": 38.2,
+   "center": 28.3,
+   "right": 33.4
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 2.2222,
+    "fmt": "dec2",
+    "rank": 14
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.8744,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 18.3333,
+    "fmt": "dec1",
+    "rank": 15
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.8889,
+    "fmt": "dec1",
+    "rank": 8
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 1,
+    "fmt": "int",
+    "rank": 11
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.3678,
+    "fmt": "dec2",
+    "rank": 14
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.4733,
+    "fmt": "dec2",
+    "rank": 12
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 4.1111,
+    "fmt": "dec1",
+    "rank": 16
+   }
+  ],
+  "goals_for": 3,
+  "goals_against": 3,
+  "corners_against": 5.67
+ },
+ "key_players": [
+  {
+   "id": 1133381,
+   "name": "Albert Grønbæk",
+   "pos": null,
+   "minutes": 536,
+   "goals": 1,
+   "assists": 4,
+   "rating": 7.16,
+   "xg90": 0.06,
+   "xa90": 0.38,
+   "why": []
+  },
+  {
+   "id": 1287871,
+   "name": "Zakaria El Ouahdi",
+   "pos": null,
+   "minutes": 475,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.84,
+   "xg90": 0.09,
+   "xa90": 0.11,
+   "why": []
+  },
+  {
+   "id": 1018564,
+   "name": "Nicolás Capaldo",
+   "pos": null,
+   "minutes": 540,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.59,
+   "xg90": 0.11,
+   "xa90": 0.05,
+   "why": []
+  },
+  {
+   "id": 1049679,
+   "name": "David Møller Wolfe",
+   "pos": null,
+   "minutes": 701,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.47,
+   "xg90": 0.08,
+   "xa90": 0.07,
+   "why": []
+  },
+  {
+   "id": 1324082,
+   "name": "Martin Adeline",
+   "pos": null,
+   "minutes": 500,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.93,
+   "xg90": 0.0,
+   "xa90": 0.09,
+   "why": []
+  }
+ ],
+ "lines": {},
+ "load": [
+  {
+   "id": 406501,
+   "name": "Daniel Heuer Fernandes",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1049679,
+   "name": "David Møller Wolfe",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1202595,
+   "name": "Warmed Omari",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 759817,
+   "name": "Miro Muheim",
+   "minutes": 251,
+   "full": true
+  },
+  {
+   "id": 1804634,
+   "name": "Shafiq Nandja",
+   "minutes": 243,
+   "full": false
+  },
+  {
+   "id": 1324082,
+   "name": "Martin Adeline",
+   "minutes": 233,
+   "full": false
+  },
+  {
+   "id": 1287871,
+   "name": "Zakaria El Ouahdi",
+   "minutes": 207,
+   "full": false
+  },
+  {
+   "id": 1133381,
+   "name": "Albert Grønbæk",
+   "minutes": 187,
+   "full": false
+  },
+  {
+   "id": 901495,
+   "name": "Albert Sambi Lokonga",
+   "minutes": 179,
+   "full": false
+  },
+  {
+   "id": 922892,
+   "name": "Sebastiaan Bornauw",
+   "minutes": 179,
+   "full": false
+  },
+  {
+   "id": 885005,
+   "name": "Terem Moffi",
+   "minutes": 135,
+   "full": false
+  },
+  {
+   "id": 644459,
+   "name": "Patson Daka",
+   "minutes": 117,
+   "full": false
+  },
+  {
+   "id": 700074,
+   "name": "Jordan Torunarigha",
+   "minutes": 90,
+   "full": false
+  },
+  {
+   "id": 1576487,
+   "name": "Otto Stange",
+   "minutes": 78,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Albert Sambi Lokonga",
+   "kind": "Verletzung",
+   "note": "Albert Sambi Lokonga"
+  },
+  {
+   "name": "Nicolai Remberg",
+   "kind": "Verletzung",
+   "note": "Nicolai Remberg"
+  },
+  {
+   "name": "Bilal Nadir",
+   "kind": "Verletzung",
+   "note": "Bilal Nadir"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 1,
+   "points": 3
+  },
+  "ht_draw": {
+   "games": 5,
+   "points": 9
+  },
+  "ht_trail": {
+   "games": 3,
+   "points": 0
+  },
+  "points_from_behind": 3,
+  "points_dropped": 0,
+  "late_for": 3,
+  "late_against": 5,
+  "goals_for": 10,
+  "goals_against": 20,
+  "for_bands": [
+   3,
+   0,
+   1,
+   2,
+   1,
+   3
+  ],
+  "against_bands": [
+   2,
+   3,
+   2,
+   5,
+   3,
+   5
+  ]
+ },
+ "season": 2026
+}

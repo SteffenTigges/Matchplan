@@ -1,0 +1,513 @@
+{
+ "id": 523749,
+ "name": "Lee Jae-Sung",
+ "team": "M05",
+ "team_name": "Mainz 05",
+ "birth_date": "1992-08-10",
+ "age": 34,
+ "height_cm": 180,
+ "foot": "links",
+ "country": "Korea Republic",
+ "shirt": 7,
+ "market_value": 1349204,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": true
+  },
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.77,
+   "per90": 0.13851,
+   "pct": 73.61111111111111,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.95,
+   "per90": 0.17046,
+   "pct": 72.22222222222221,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.77,
+   "per90": 0.13851,
+   "pct": 77.77777777777779,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 10,
+   "per90": 1.8,
+   "pct": 80.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 72.22222222222221,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 6,
+   "per90": 1.08,
+   "pct": 97.22222222222221,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.98,
+   "per90": 0.1759965606,
+   "pct": 68.05555555555556,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 154,
+   "per90": 27.72,
+   "pct": 27.77777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 78.2,
+   "per90": 78.1725888324873,
+   "pct": 26.38888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 27.3,
+   "per90": 27.272727272727273,
+   "pct": 18.055555555555554,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 2,
+   "per90": 0.36,
+   "pct": 38.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 9,
+   "per90": 1.6199999999999999,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.36,
+   "pct": 76.38888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 69.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 84.72222222222221,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 47.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 75.0,
+   "per90": 75,
+   "pct": 81.94444444444444,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 34,
+   "per90": 6.12,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 60.7,
+   "per90": 60.714285714285715,
+   "pct": 90.27777777777779,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 8,
+   "per90": 1.44,
+   "pct": 69.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 53.3,
+   "per90": 53.333333333333336,
+   "pct": 58.333333333333336,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 298,
+   "per90": 53.64,
+   "pct": 23.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 27,
+   "per90": 4.86,
+   "pct": 93.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 6,
+   "per90": 1.08,
+   "pct": 27.77777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 8,
+   "per90": 1.44,
+   "pct": 68.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 37,
+   "per90": 6.659999999999999,
+   "pct": 76.38888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 15,
+   "per90": 2.6999999999999997,
+   "pct": 76.38888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 10,
+   "per90": 1.8,
+   "pct": 83.33333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 5,
+   "per90": 0.9,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 18,
+   "per90": 3.2399999999999998,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 2,
+   "per90": 0.36,
+   "pct": 45.83333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 12,
+   "per90": 2.16,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 9,
+   "per90": 1.6199999999999999,
+   "pct": 62.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 9.22,
+   "per90": 1.6589159999999998,
+   "pct": 52.77777777777778,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 43.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.67
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.78
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.43
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.76
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.56
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.22
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Mainz 05",
+    "start": "2021-07-08",
+    "end": null,
+    "apps": 180,
+    "goals": 31,
+    "kind": null
+   },
+   {
+    "team": "Holstein Kiel",
+    "start": "2018-07-27",
+    "end": "2021-06-30",
+    "apps": 104,
+    "goals": 23,
+    "kind": null
+   },
+   {
+    "team": "Jeonbuk Hyundai Motors FC",
+    "start": "2014-01-01",
+    "end": "2018-07-27",
+    "apps": 180,
+    "goals": 31,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "South Korea",
+    "start": "2015-01-01",
+    "end": null,
+    "apps": 112,
+    "goals": 16,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "South Korea U23",
+    "start": "2014-01-01",
+    "end": "2014-12-31",
+    "apps": 7,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Holstein Kiel",
+   "to": "Mainz",
+   "date": "2021-07-08",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Jeonbuk Hyundai Motors FC",
+   "to": "Holstein Kiel",
+   "date": "2018-07-27",
+   "fee": null,
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:42:59+00:00"
+}

@@ -1,0 +1,561 @@
+{
+ "team": "SCP",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-1-4-2",
+    "games": 4
+   },
+   {
+    "formation": "3-5-2",
+    "games": 4
+   },
+   {
+    "formation": "3-4-3",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Standardstark",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Standards",
+      "value": 0.5,
+      "fmt": "pct"
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83238,
+  "home": "B04",
+  "away": "SCP",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.5753,
+   0.2206,
+   0.2041
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 13.1111,
+   "fmt": "dec1",
+   "rank": 1
+  },
+  {
+   "label": "Spiele ohne Gegentor",
+   "value": 3,
+   "fmt": "int",
+   "rank": 3
+  },
+  {
+   "label": "Tacklings pro Spiel",
+   "value": 18.1111,
+   "fmt": "dec1",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "xG pro Schuss",
+   "value": 0.085,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.623,
+   "fmt": "pct",
+   "rank": 17
+  },
+  {
+   "label": "xGOT pro Spiel",
+   "value": 0.7778,
+   "fmt": "dec2",
+   "rank": 17
+  },
+  {
+   "label": "Tore pro Spiel",
+   "value": 0.8889,
+   "fmt": "dec2",
+   "rank": 16
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 4,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.36363636363636365,
+     "fmt": "pct"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 4,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.36363636363636365,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Abgefangene Bälle pro Spiel (Platz 1)",
+   "evidence": [
+    {
+     "label": "Abgefangene Bälle pro Spiel",
+     "value": 13.1111,
+     "fmt": "dec1",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Spiele ohne Gegentor (Platz 3)",
+   "evidence": [
+    {
+     "label": "Spiele ohne Gegentor",
+     "value": 3,
+     "fmt": "int",
+     "rank": 3
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4978,
+    "fmt": "pct",
+    "rank": 10
+   },
+   {
+    "label": "Passquote",
+    "value": 0.8112,
+    "fmt": "pct",
+    "rank": 9
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3489,
+    "fmt": "pct",
+    "rank": 13
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4486,
+    "fmt": "pct",
+    "rank": 6
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2624,
+    "fmt": "pct",
+    "rank": 8
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.4588,
+    "fmt": "pct",
+    "rank": 11
+   }
+  ],
+  "zones": {
+   "left": 36.7,
+   "center": 27.0,
+   "right": 36.3
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 2,
+    "xg": 5.39,
+    "shots": 70,
+    "share": 0.25
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 0.67,
+    "shots": 9,
+    "share": 0.125
+   },
+   "Standard": {
+    "goals": 4,
+    "xg": 3.51,
+    "shots": 42,
+    "share": 0.5
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.125
+   }
+  },
+  "bands": [
+   0,
+   3,
+   2,
+   0,
+   2,
+   1
+  ],
+  "goals": 8,
+  "inside_box": 0.623,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 0.8889,
+    "fmt": "dec2",
+    "rank": 16
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.1522,
+    "fmt": "dec2",
+    "rank": 15
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 2.1111,
+    "fmt": "dec1",
+    "rank": 14
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.085,
+    "fmt": "dec2",
+    "rank": 18
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -2.37,
+    "fmt": "signed1",
+    "rank": 15
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 7,
+    "xg": 9.71,
+    "shots": 97,
+    "share": 0.636
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 1.59,
+    "shots": 10,
+    "share": 0.091
+   },
+   "Standard": {
+    "goals": 2,
+    "xg": 2.86,
+    "shots": 38,
+    "share": 0.182
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.091
+   }
+  },
+  "bands": [
+   1,
+   3,
+   0,
+   2,
+   1,
+   4
+  ],
+  "goals": 11,
+  "opp_zones": {
+   "left": 37.0,
+   "center": 30.0,
+   "right": 33.0
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 1.2222,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.66,
+    "fmt": "dec2",
+    "rank": 8
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 16.2222,
+    "fmt": "dec1",
+    "rank": 11
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 3.2222,
+    "fmt": "dec1",
+    "rank": 12
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 3,
+    "fmt": "int",
+    "rank": 3
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.3989,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.3233,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 4.5556,
+    "fmt": "dec1",
+    "rank": 13
+   }
+  ],
+  "goals_for": 4,
+  "goals_against": 2,
+  "corners_against": 5.56
+ },
+ "key_players": [
+  {
+   "id": 784225,
+   "name": "Raphael Obermair",
+   "pos": null,
+   "minutes": 758,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.24,
+   "xg90": 0.11,
+   "xa90": 0.29,
+   "why": []
+  },
+  {
+   "id": 1426060,
+   "name": "Laurin Curda",
+   "pos": null,
+   "minutes": 787,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.41,
+   "xg90": 0.09,
+   "xa90": 0.3,
+   "why": []
+  },
+  {
+   "id": 956913,
+   "name": "Marvin Pieringer",
+   "pos": null,
+   "minutes": 496,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.24,
+   "xg90": 0.29,
+   "xa90": 0.05,
+   "why": []
+  },
+  {
+   "id": 1321553,
+   "name": "Stefano Marino",
+   "pos": null,
+   "minutes": 589,
+   "goals": 2,
+   "assists": 0,
+   "rating": 6.54,
+   "xg90": 0.16,
+   "xa90": 0.13,
+   "why": []
+  },
+  {
+   "id": 1367587,
+   "name": "Laurin Ulrich",
+   "pos": null,
+   "minutes": 554,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.58,
+   "xg90": 0.07,
+   "xa90": 0.14,
+   "why": []
+  }
+ ],
+ "lines": {},
+ "load": [
+  {
+   "id": 1257826,
+   "name": "Nahuel Noll",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1362492,
+   "name": "Santiago Castañeda",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1415373,
+   "name": "Tjark Scheller",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1426060,
+   "name": "Laurin Curda",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1515976,
+   "name": "Mattes Hansen",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 784225,
+   "name": "Raphael Obermair",
+   "minutes": 245,
+   "full": false
+  },
+  {
+   "id": 1321553,
+   "name": "Stefano Marino",
+   "minutes": 238,
+   "full": false
+  },
+  {
+   "id": 1520469,
+   "name": "Jano ter Horst",
+   "minutes": 220,
+   "full": false
+  },
+  {
+   "id": 658444,
+   "name": "Tom Baack",
+   "minutes": 203,
+   "full": false
+  },
+  {
+   "id": 1276453,
+   "name": "Gabriel Vidović",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 956913,
+   "name": "Marvin Pieringer",
+   "minutes": 105,
+   "full": false
+  },
+  {
+   "id": 706500,
+   "name": "Steffen Tigges",
+   "minutes": 102,
+   "full": false
+  },
+  {
+   "id": 1367587,
+   "name": "Laurin Ulrich",
+   "minutes": 92,
+   "full": false
+  },
+  {
+   "id": 1688956,
+   "name": "Ruben Müller",
+   "minutes": 65,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Timur Gayret",
+   "kind": "Aufbautraining",
+   "note": "Timur Gayret"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 2,
+   "points": 4
+  },
+  "ht_draw": {
+   "games": 4,
+   "points": 6
+  },
+  "ht_trail": {
+   "games": 3,
+   "points": 0
+  },
+  "points_from_behind": 1,
+  "points_dropped": 4,
+  "late_for": 1,
+  "late_against": 4,
+  "goals_for": 8,
+  "goals_against": 11,
+  "for_bands": [
+   0,
+   3,
+   2,
+   0,
+   2,
+   1
+  ],
+  "against_bands": [
+   1,
+   3,
+   0,
+   2,
+   1,
+   4
+  ]
+ },
+ "season": 2026
+}

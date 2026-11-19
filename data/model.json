@@ -1,0 +1,1788 @@
+{
+ "updated_at": "2026-11-19T00:42:59+00:00",
+ "calibration": {
+  "home": 1.7386,
+  "away": 1.4575,
+  "rho": -0.07,
+  "matches": 918,
+  "seasons": "2023–2025",
+  "fetched_at": "2026-11-19T00:42:59+00:00"
+ },
+ "check": {
+  "matches": 81,
+  "tendency_rate": 0.5556,
+  "exact_rate": 0.1111,
+  "brier": 0.5852,
+  "odds_matches": 81,
+  "brier_model_same": 0.5852,
+  "brier_odds": 0.5778,
+  "by_matchday": [
+   {
+    "md": 1,
+    "matches": 9,
+    "tendency": 7,
+    "exact": 0,
+    "brier": 0.5631
+   },
+   {
+    "md": 2,
+    "matches": 9,
+    "tendency": 1,
+    "exact": 0,
+    "brier": 0.6711
+   },
+   {
+    "md": 3,
+    "matches": 9,
+    "tendency": 5,
+    "exact": 2,
+    "brier": 0.5593
+   },
+   {
+    "md": 4,
+    "matches": 9,
+    "tendency": 6,
+    "exact": 0,
+    "brier": 0.5405
+   },
+   {
+    "md": 5,
+    "matches": 9,
+    "tendency": 4,
+    "exact": 1,
+    "brier": 0.6256
+   },
+   {
+    "md": 6,
+    "matches": 9,
+    "tendency": 6,
+    "exact": 1,
+    "brier": 0.519
+   },
+   {
+    "md": 7,
+    "matches": 9,
+    "tendency": 5,
+    "exact": 1,
+    "brier": 0.6722
+   },
+   {
+    "md": 8,
+    "matches": 9,
+    "tendency": 4,
+    "exact": 1,
+    "brier": 0.7133
+   },
+   {
+    "md": 9,
+    "matches": 9,
+    "tendency": 7,
+    "exact": 3,
+    "brier": 0.4025
+   }
+  ],
+  "games": [
+   {
+    "id": 83156,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     5,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.075
+   },
+   {
+    "id": 83158,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.2317
+   },
+   {
+    "id": 83161,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8587,
+    "brier_odds": 1.0412
+   },
+   {
+    "id": 83162,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8587,
+    "brier_odds": 0.8252
+   },
+   {
+    "id": 83163,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     2
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.7412
+   },
+   {
+    "id": 83164,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     2
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 1.0621
+   },
+   {
+    "id": 83157,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.1264
+   },
+   {
+    "id": 83159,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     4,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.3288
+   },
+   {
+    "id": 83160,
+    "md": 1,
+    "probs": [
+     0.4366,
+     0.2466,
+     0.3168
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4786,
+    "brier_odds": 0.5155
+   },
+   {
+    "id": 83165,
+    "md": 2,
+    "probs": [
+     0.3554,
+     0.2389,
+     0.4057
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     4,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6372,
+    "brier_odds": 0.1783
+   },
+   {
+    "id": 83166,
+    "md": 2,
+    "probs": [
+     0.4377,
+     0.2534,
+     0.3088
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.7336,
+    "brier_odds": 0.6162
+   },
+   {
+    "id": 83167,
+    "md": 2,
+    "probs": [
+     0.4759,
+     0.2465,
+     0.2776
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     4,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4125,
+    "brier_odds": 0.1359
+   },
+   {
+    "id": 83169,
+    "md": 2,
+    "probs": [
+     0.3958,
+     0.2427,
+     0.3615
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     4
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6232,
+    "brier_odds": 0.8473
+   },
+   {
+    "id": 83171,
+    "md": 2,
+    "probs": [
+     0.3019,
+     0.2405,
+     0.4576
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.7545,
+    "brier_odds": 0.882
+   },
+   {
+    "id": 83173,
+    "md": 2,
+    "probs": [
+     0.3666,
+     0.2701,
+     0.3633
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6127,
+    "brier_odds": 0.3905
+   },
+   {
+    "id": 83172,
+    "md": 2,
+    "probs": [
+     0.3078,
+     0.2203,
+     0.4718
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9252,
+    "brier_odds": 1.3928
+   },
+   {
+    "id": 83170,
+    "md": 2,
+    "probs": [
+     0.4087,
+     0.2719,
+     0.3194
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     5
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.7041,
+    "brier_odds": 0.5501
+   },
+   {
+    "id": 83168,
+    "md": 2,
+    "probs": [
+     0.4094,
+     0.2344,
+     0.3562
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     4
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6371,
+    "brier_odds": 0.8725
+   },
+   {
+    "id": 83180,
+    "md": 3,
+    "probs": [
+     0.4922,
+     0.233,
+     0.2748
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8225,
+    "brier_odds": 0.7107
+   },
+   {
+    "id": 83174,
+    "md": 3,
+    "probs": [
+     0.5012,
+     0.2589,
+     0.2399
+    ],
+    "tip": [
+     1,
+     0
+    ],
+    "score": [
+     3,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.3733,
+    "brier_odds": 0.0934
+   },
+   {
+    "id": 83176,
+    "md": 3,
+    "probs": [
+     0.5535,
+     0.2,
+     0.2465
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.3001,
+    "brier_odds": 0.489
+   },
+   {
+    "id": 83177,
+    "md": 3,
+    "probs": [
+     0.6335,
+     0.1987,
+     0.1678
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     5,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2019,
+    "brier_odds": 0.2896
+   },
+   {
+    "id": 83178,
+    "md": 3,
+    "probs": [
+     0.3679,
+     0.2355,
+     0.3966
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.877,
+    "brier_odds": 0.9087
+   },
+   {
+    "id": 83179,
+    "md": 3,
+    "probs": [
+     0.532,
+     0.2438,
+     0.2243
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9442,
+    "brier_odds": 0.9361
+   },
+   {
+    "id": 83181,
+    "md": 3,
+    "probs": [
+     0.5386,
+     0.2204,
+     0.241
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9559,
+    "brier_odds": 0.8597
+   },
+   {
+    "id": 83175,
+    "md": 3,
+    "probs": [
+     0.6725,
+     0.192,
+     0.1355
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     5,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1625,
+    "brier_odds": 0.1507
+   },
+   {
+    "id": 83182,
+    "md": 3,
+    "probs": [
+     0.2784,
+     0.2351,
+     0.4865
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.3965,
+    "brier_odds": 0.0567
+   },
+   {
+    "id": 83183,
+    "md": 4,
+    "probs": [
+     0.7499,
+     0.1522,
+     0.0979
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     7,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.0953,
+    "brier_odds": 0.0092
+   },
+   {
+    "id": 83186,
+    "md": 4,
+    "probs": [
+     0.3335,
+     0.2634,
+     0.4031
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8163,
+    "brier_odds": 0.8402
+   },
+   {
+    "id": 83187,
+    "md": 4,
+    "probs": [
+     0.2517,
+     0.2312,
+     0.5171
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     3,
+     4
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.35,
+    "brier_odds": 0.4597
+   },
+   {
+    "id": 83188,
+    "md": 4,
+    "probs": [
+     0.3398,
+     0.2426,
+     0.4176
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6692,
+    "brier_odds": 0.6331
+   },
+   {
+    "id": 83189,
+    "md": 4,
+    "probs": [
+     0.407,
+     0.2464,
+     0.3466
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     2
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5324,
+    "brier_odds": 0.5038
+   },
+   {
+    "id": 83184,
+    "md": 4,
+    "probs": [
+     0.3403,
+     0.2279,
+     0.4319
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4904,
+    "brier_odds": 0.6413
+   },
+   {
+    "id": 83185,
+    "md": 4,
+    "probs": [
+     0.4803,
+     0.2392,
+     0.2804
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4059,
+    "brier_odds": 0.3591
+   },
+   {
+    "id": 83190,
+    "md": 4,
+    "probs": [
+     0.4852,
+     0.222,
+     0.2928
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9265,
+    "brier_odds": 0.8984
+   },
+   {
+    "id": 83191,
+    "md": 4,
+    "probs": [
+     0.3812,
+     0.2621,
+     0.3567
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5788,
+    "brier_odds": 0.9022
+   },
+   {
+    "id": 83192,
+    "md": 5,
+    "probs": [
+     0.5639,
+     0.2404,
+     0.1957
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9333,
+    "brier_odds": 1.1759
+   },
+   {
+    "id": 83194,
+    "md": 5,
+    "probs": [
+     0.6338,
+     0.2046,
+     0.1616
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.1465,
+    "brier_odds": 1.2201
+   },
+   {
+    "id": 83196,
+    "md": 5,
+    "probs": [
+     0.1986,
+     0.2033,
+     0.5981
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.0319,
+    "brier_odds": 1.49
+   },
+   {
+    "id": 83197,
+    "md": 5,
+    "probs": [
+     0.4011,
+     0.2434,
+     0.3554
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     4
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6357,
+    "brier_odds": 0.489
+   },
+   {
+    "id": 83198,
+    "md": 5,
+    "probs": [
+     0.4066,
+     0.2422,
+     0.3512
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5341,
+    "brier_odds": 0.5698
+   },
+   {
+    "id": 83200,
+    "md": 5,
+    "probs": [
+     0.4615,
+     0.2499,
+     0.2885
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.7817,
+    "brier_odds": 0.2626
+   },
+   {
+    "id": 83193,
+    "md": 5,
+    "probs": [
+     0.6044,
+     0.1995,
+     0.1962
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     6,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2348,
+    "brier_odds": 0.247
+   },
+   {
+    "id": 83199,
+    "md": 5,
+    "probs": [
+     0.6364,
+     0.1782,
+     0.1854
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.1983,
+    "brier_odds": 0.3912
+   },
+   {
+    "id": 83195,
+    "md": 5,
+    "probs": [
+     0.7025,
+     0.1757,
+     0.1218
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1342,
+    "brier_odds": 0.2606
+   },
+   {
+    "id": 83203,
+    "md": 6,
+    "probs": [
+     0.4567,
+     0.2195,
+     0.3239
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4482,
+    "brier_odds": 0.3175
+   },
+   {
+    "id": 83204,
+    "md": 6,
+    "probs": [
+     0.2922,
+     0.2586,
+     0.4493
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8369,
+    "brier_odds": 1.0552
+   },
+   {
+    "id": 83206,
+    "md": 6,
+    "probs": [
+     0.4527,
+     0.2346,
+     0.3128
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4524,
+    "brier_odds": 0.9663
+   },
+   {
+    "id": 83207,
+    "md": 6,
+    "probs": [
+     0.5065,
+     0.2598,
+     0.2338
+    ],
+    "tip": [
+     1,
+     0
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8591,
+    "brier_odds": 0.9613
+   },
+   {
+    "id": 83208,
+    "md": 6,
+    "probs": [
+     0.3386,
+     0.2377,
+     0.4237
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5033,
+    "brier_odds": 0.5518
+   },
+   {
+    "id": 83209,
+    "md": 6,
+    "probs": [
+     0.528,
+     0.2151,
+     0.2569
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     4,
+     3
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.3351,
+    "brier_odds": 0.5651
+   },
+   {
+    "id": 83201,
+    "md": 6,
+    "probs": [
+     0.6615,
+     0.1764,
+     0.1621
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     6,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1719,
+    "brier_odds": 0.0826
+   },
+   {
+    "id": 83202,
+    "md": 6,
+    "probs": [
+     0.437,
+     0.2533,
+     0.3097
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.4771,
+    "brier_odds": 0.2501
+   },
+   {
+    "id": 83205,
+    "md": 6,
+    "probs": [
+     0.3878,
+     0.2313,
+     0.3809
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.5872,
+    "brier_odds": 0.4926
+   },
+   {
+    "id": 83212,
+    "md": 7,
+    "probs": [
+     0.6374,
+     0.179,
+     0.1836
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.1049,
+    "brier_odds": 1.2921
+   },
+   {
+    "id": 83211,
+    "md": 7,
+    "probs": [
+     0.6532,
+     0.1804,
+     0.1664
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     4,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1805,
+    "brier_odds": 0.2172
+   },
+   {
+    "id": 83215,
+    "md": 7,
+    "probs": [
+     0.5804,
+     0.1965,
+     0.2231
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.0322,
+    "brier_odds": 0.9525
+   },
+   {
+    "id": 83216,
+    "md": 7,
+    "probs": [
+     0.6124,
+     0.2016,
+     0.1861
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.078,
+    "brier_odds": 0.94
+   },
+   {
+    "id": 83217,
+    "md": 7,
+    "probs": [
+     0.5775,
+     0.2295,
+     0.1929
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9644,
+    "brier_odds": 0.8262
+   },
+   {
+    "id": 83218,
+    "md": 7,
+    "probs": [
+     0.4604,
+     0.2693,
+     0.2702
+    ],
+    "tip": [
+     1,
+     0
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.4367,
+    "brier_odds": 0.4751
+   },
+   {
+    "id": 83210,
+    "md": 7,
+    "probs": [
+     0.6208,
+     0.2069,
+     0.1724
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2163,
+    "brier_odds": 0.1546
+   },
+   {
+    "id": 83213,
+    "md": 7,
+    "probs": [
+     0.4387,
+     0.2476,
+     0.3137
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4747,
+    "brier_odds": 0.7538
+   },
+   {
+    "id": 83214,
+    "md": 7,
+    "probs": [
+     0.3564,
+     0.2531,
+     0.3906
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     1,
+     3
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5625,
+    "brier_odds": 0.165
+   },
+   {
+    "id": 83227,
+    "md": 8,
+    "probs": [
+     0.358,
+     0.2257,
+     0.4163
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     4,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.6363,
+    "brier_odds": 0.8498
+   },
+   {
+    "id": 83220,
+    "md": 8,
+    "probs": [
+     0.6277,
+     0.1827,
+     0.1896
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     4
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.0841,
+    "brier_odds": 0.9289
+   },
+   {
+    "id": 83222,
+    "md": 8,
+    "probs": [
+     0.3813,
+     0.2212,
+     0.3975
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.5573,
+    "brier_odds": 0.5823
+   },
+   {
+    "id": 83224,
+    "md": 8,
+    "probs": [
+     0.5385,
+     0.2346,
+     0.2269
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9274,
+    "brier_odds": 0.8501
+   },
+   {
+    "id": 83225,
+    "md": 8,
+    "probs": [
+     0.4363,
+     0.2471,
+     0.3166
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.479,
+    "brier_odds": 0.5421
+   },
+   {
+    "id": 83226,
+    "md": 8,
+    "probs": [
+     0.326,
+     0.2542,
+     0.4199
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     2
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5074,
+    "brier_odds": 0.3613
+   },
+   {
+    "id": 83219,
+    "md": 8,
+    "probs": [
+     0.6854,
+     0.1876,
+     0.127
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 1.1459,
+    "brier_odds": 1.2198
+   },
+   {
+    "id": 83223,
+    "md": 8,
+    "probs": [
+     0.3769,
+     0.2728,
+     0.3503
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.7936,
+    "brier_odds": 0.7999
+   },
+   {
+    "id": 83221,
+    "md": 8,
+    "probs": [
+     0.5613,
+     0.2293,
+     0.2094
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2888,
+    "brier_odds": 0.203
+   },
+   {
+    "id": 83228,
+    "md": 9,
+    "probs": [
+     0.5937,
+     0.2194,
+     0.187
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.2482,
+    "brier_odds": 0.1282
+   },
+   {
+    "id": 83229,
+    "md": 9,
+    "probs": [
+     0.7662,
+     0.1254,
+     0.1084
+    ],
+    "tip": [
+     3,
+     1
+    ],
+    "score": [
+     5,
+     2
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.0821,
+    "brier_odds": 0.1649
+   },
+   {
+    "id": 83233,
+    "md": 9,
+    "probs": [
+     0.2667,
+     0.2095,
+     0.5238
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.3418,
+    "brier_odds": 0.0948
+   },
+   {
+    "id": 83236,
+    "md": 9,
+    "probs": [
+     0.4449,
+     0.2543,
+     0.3008
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8445,
+    "brier_odds": 0.8459
+   },
+   {
+    "id": 83230,
+    "md": 9,
+    "probs": [
+     0.461,
+     0.2187,
+     0.3203
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4409,
+    "brier_odds": 0.3452
+   },
+   {
+    "id": 83235,
+    "md": 9,
+    "probs": [
+     0.5166,
+     0.2363,
+     0.2471
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8895,
+    "brier_odds": 0.2651
+   },
+   {
+    "id": 83232,
+    "md": 9,
+    "probs": [
+     0.6487,
+     0.2153,
+     0.136
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "tendency": true,
+    "exact": true,
+    "brier": 0.1882,
+    "brier_odds": 0.1845
+   },
+   {
+    "id": 83231,
+    "md": 9,
+    "probs": [
+     0.7303,
+     0.1784,
+     0.0913
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1129,
+    "brier_odds": 0.216
+   },
+   {
+    "id": 83234,
+    "md": 9,
+    "probs": [
+     0.4383,
+     0.2545,
+     0.3072
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.4746,
+    "brier_odds": 0.5372
+   }
+  ]
+ }
+}

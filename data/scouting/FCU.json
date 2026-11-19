@@ -1,0 +1,570 @@
+{
+ "team": "FCU",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "4-2-3-1",
+    "games": 4
+   },
+   {
+    "formation": "4-1-2-1-2",
+    "games": 2
+   },
+   {
+    "formation": "4-1-3-2",
+    "games": 2
+   },
+   {
+    "formation": "3-4-1-2",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Überlässt dem Gegner den Ball",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.4178,
+      "fmt": "pct",
+      "rank": 17
+     }
+    ]
+   },
+   {
+    "text": "Standardstark",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Standards",
+      "value": 0.714,
+      "fmt": "pct"
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83241,
+  "home": "FCU",
+  "away": "RBL",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   1,
+   2
+  ],
+  "probs": [
+   0.2605,
+   0.2424,
+   0.4971
+  ]
+ },
+ "strengths": [],
+ "weaknesses": [
+  {
+   "label": "xG pro Spiel",
+   "value": 0.9589,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "label": "Großchancen pro Spiel",
+   "value": 1.2222,
+   "fmt": "dec1",
+   "rank": 18
+  },
+  {
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 16.5556,
+   "fmt": "dec1",
+   "rank": 18
+  },
+  {
+   "label": "Field Tilt",
+   "value": 0.3091,
+   "fmt": "pct",
+   "rank": 18
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4683,
+     "fmt": "pct",
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.5556,
+     "fmt": "dec1",
+     "rank": 14
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4683,
+     "fmt": "pct",
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.5556,
+     "fmt": "dec1",
+     "rank": 14
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4178,
+    "fmt": "pct",
+    "rank": 17
+   },
+   {
+    "label": "Passquote",
+    "value": 0.7433,
+    "fmt": "pct",
+    "rank": 17
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3227,
+    "fmt": "pct",
+    "rank": 16
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.3642,
+    "fmt": "pct",
+    "rank": 17
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2744,
+    "fmt": "pct",
+    "rank": 5
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.3091,
+    "fmt": "pct",
+    "rank": 18
+   }
+  ],
+  "zones": {
+   "left": 44.0,
+   "center": 21.2,
+   "right": 34.8
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 2,
+    "xg": 3.84,
+    "shots": 44,
+    "share": 0.286
+   },
+   "Konter": {
+    "goals": 0,
+    "xg": 0.34,
+    "shots": 5,
+    "share": 0.0
+   },
+   "Standard": {
+    "goals": 5,
+    "xg": 4.45,
+    "shots": 43,
+    "share": 0.714
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   2,
+   0,
+   0,
+   0,
+   1,
+   4
+  ],
+  "goals": 7,
+  "inside_box": 0.696,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 0.7778,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 0.9589,
+    "fmt": "dec2",
+    "rank": 18
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 1.2222,
+    "fmt": "dec1",
+    "rank": 18
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.0938,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -1.63,
+    "fmt": "signed1",
+    "rank": 12
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 12,
+    "xg": 10.05,
+    "shots": 93,
+    "share": 0.6
+   },
+   "Konter": {
+    "goals": 2,
+    "xg": 2.06,
+    "shots": 14,
+    "share": 0.1
+   },
+   "Standard": {
+    "goals": 5,
+    "xg": 4.13,
+    "shots": 44,
+    "share": 0.25
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 1.58,
+    "shots": 2,
+    "share": 0.05
+   }
+  },
+  "bands": [
+   3,
+   3,
+   2,
+   4,
+   6,
+   3
+  ],
+  "goals": 21,
+  "opp_zones": {
+   "left": 33.7,
+   "center": 27.2,
+   "right": 39.1
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 2.3333,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.98,
+    "fmt": "dec2",
+    "rank": 12
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 17.0,
+    "fmt": "dec1",
+    "rank": 13
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 3.5556,
+    "fmt": "dec1",
+    "rank": 14
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 2,
+    "fmt": "int",
+    "rank": 7
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.5178,
+    "fmt": "dec2",
+    "rank": 5
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.47,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 3.1111,
+    "fmt": "dec1",
+    "rank": 18
+   }
+  ],
+  "goals_for": 5,
+  "goals_against": 5,
+  "corners_against": 5.67
+ },
+ "key_players": [
+  {
+   "id": 304354,
+   "name": "Janik Haberer",
+   "pos": "RWB",
+   "minutes": 527,
+   "goals": 2,
+   "assists": 0,
+   "rating": 6.87,
+   "xg90": 0.32,
+   "xa90": 0.01,
+   "why": [
+    "Rote Karten (100. Perzentil)",
+    "Tore (95. Perzentil)"
+   ]
+  },
+  {
+   "id": 1282582,
+   "name": "Tom Rothe",
+   "pos": null,
+   "minutes": 635,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.63,
+   "xg90": 0.09,
+   "xa90": 0.21,
+   "why": []
+  },
+  {
+   "id": 949673,
+   "name": "Jeong Woo-Yeong",
+   "pos": null,
+   "minutes": 509,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.6,
+   "xg90": 0.1,
+   "xa90": 0.15,
+   "why": []
+  },
+  {
+   "id": 792756,
+   "name": "Michel Aebischer",
+   "pos": null,
+   "minutes": 716,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.55,
+   "xg90": 0.04,
+   "xa90": 0.09,
+   "why": []
+  },
+  {
+   "id": 767800,
+   "name": "Felix Uduokhai",
+   "pos": null,
+   "minutes": 469,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.19,
+   "xg90": 0.11,
+   "xa90": 0.01,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Mittelfeld": {
+   "id": 304348,
+   "name": "Rani Khedira",
+   "rating": 6.51,
+   "minutes": 810
+  },
+  "Abwehr": {
+   "id": 304354,
+   "name": "Janik Haberer",
+   "rating": 6.87,
+   "minutes": 527
+  }
+ },
+ "load": [
+  {
+   "id": 186557,
+   "name": "Frederik Rønnow",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 304348,
+   "name": "Rani Khedira",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 836726,
+   "name": "András Schäfer",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1231677,
+   "name": "Zeno Van Den Bosch",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 304354,
+   "name": "Janik Haberer",
+   "minutes": 254,
+   "full": true
+  },
+  {
+   "id": 792756,
+   "name": "Michel Aebischer",
+   "minutes": 250,
+   "full": true
+  },
+  {
+   "id": 530858,
+   "name": "Marvin Friedrich",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 860260,
+   "name": "Derrick Köhn",
+   "minutes": 175,
+   "full": false
+  },
+  {
+   "id": 1520506,
+   "name": "Livan Burcu",
+   "minutes": 167,
+   "full": false
+  },
+  {
+   "id": 658440,
+   "name": "Tim Skarke",
+   "minutes": 151,
+   "full": false
+  },
+  {
+   "id": 949673,
+   "name": "Jeong Woo-Yeong",
+   "minutes": 137,
+   "full": false
+  },
+  {
+   "id": 852049,
+   "name": "Kastriot Imeri",
+   "minutes": 106,
+   "full": false
+  },
+  {
+   "id": 1282582,
+   "name": "Tom Rothe",
+   "minutes": 95,
+   "full": false
+  },
+  {
+   "id": 609504,
+   "name": "Oliver Burke",
+   "minutes": 88,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Andrik Markgraf",
+   "kind": "Verletzung",
+   "note": "Andrik Markgraf Kreuzbandriss"
+  },
+  {
+   "name": "Stanley Nsoki",
+   "kind": "Aufbautraining",
+   "note": "Stanley Nsoki"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 1,
+   "points": 1
+  },
+  "ht_draw": {
+   "games": 4,
+   "points": 5
+  },
+  "ht_trail": {
+   "games": 4,
+   "points": 1
+  },
+  "points_from_behind": 2,
+  "points_dropped": 4,
+  "late_for": 4,
+  "late_against": 3,
+  "goals_for": 7,
+  "goals_against": 21,
+  "for_bands": [
+   2,
+   0,
+   0,
+   0,
+   1,
+   4
+  ],
+  "against_bands": [
+   3,
+   3,
+   2,
+   4,
+   6,
+   3
+  ]
+ },
+ "season": 2026
+}

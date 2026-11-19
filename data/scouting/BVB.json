@@ -1,0 +1,613 @@
+{
+ "team": "BVB",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-4-2-1",
+    "games": 6
+   },
+   {
+    "formation": "4-3-3",
+    "games": 2
+   },
+   {
+    "formation": "3-4-3",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Ballbesitzteam",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.5367,
+      "fmt": "pct",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "text": "Drückt den Gegner in die eigene Hälfte",
+    "evidence": [
+     {
+      "label": "Field Tilt",
+      "value": 0.5881,
+      "fmt": "pct",
+      "rank": 3
+     }
+    ]
+   },
+   {
+    "text": "Spielt viel in der gegnerischen Hälfte",
+    "evidence": [
+     {
+      "label": "Anteil Pässe in der gegn. Hälfte",
+      "value": 0.4544,
+      "fmt": "pct",
+      "rank": 2
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83242,
+  "home": "BMG",
+  "away": "BVB",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.3878,
+   0.2517,
+   0.3605
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Gegentore pro Spiel",
+   "value": 0.7778,
+   "fmt": "dec2",
+   "rank": 1
+  },
+  {
+   "label": "Spiele ohne Gegentor",
+   "value": 5,
+   "fmt": "int",
+   "rank": 1
+  },
+  {
+   "label": "Punkte minus xPunkte",
+   "value": 6.5017,
+   "fmt": "signed1",
+   "rank": 1
+  },
+  {
+   "label": "Anteil Pässe in der gegn. Hälfte",
+   "value": 0.4544,
+   "fmt": "pct",
+   "rank": 2
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Flankenquote",
+   "value": 0.2222,
+   "fmt": "pct",
+   "rank": 16
+  },
+  {
+   "label": "xG nach Standards pro Spiel",
+   "value": 0.32,
+   "fmt": "dec2",
+   "rank": 16
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 3,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.42857142857142855,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "side",
+   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "evidence": [
+    {
+     "label": "Angriffe der Gegner über links",
+     "value": 0.40399999999999997,
+     "fmt": "pct"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 3,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.42857142857142855,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "side",
+   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "evidence": [
+    {
+     "label": "Angriffe der Gegner über links",
+     "value": 0.40399999999999997,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Gegentore pro Spiel (Platz 1)",
+   "evidence": [
+    {
+     "label": "Gegentore pro Spiel",
+     "value": 0.7778,
+     "fmt": "dec2",
+     "rank": 1
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.5367,
+    "fmt": "pct",
+    "rank": 5
+   },
+   {
+    "label": "Passquote",
+    "value": 0.8393,
+    "fmt": "pct",
+    "rank": 5
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.4544,
+    "fmt": "pct",
+    "rank": 2
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4508,
+    "fmt": "pct",
+    "rank": 5
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2222,
+    "fmt": "pct",
+    "rank": 16
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.5881,
+    "fmt": "pct",
+    "rank": 3
+   }
+  ],
+  "zones": {
+   "left": 35.1,
+   "center": 29.0,
+   "right": 35.9
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 11,
+    "xg": 8.68,
+    "shots": 88,
+    "share": 0.733
+   },
+   "Konter": {
+    "goals": 2,
+    "xg": 2.35,
+    "shots": 16,
+    "share": 0.133
+   },
+   "Standard": {
+    "goals": 2,
+    "xg": 2.89,
+    "shots": 34,
+    "share": 0.133
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   2,
+   0,
+   0,
+   3,
+   4,
+   7
+  ],
+  "goals": 16,
+  "inside_box": 0.667,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.7778,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.5367,
+    "fmt": "dec2",
+    "rank": 13
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 2.4444,
+    "fmt": "dec1",
+    "rank": 12
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1002,
+    "fmt": "dec2",
+    "rank": 15
+   },
+   {
+    "label": "Tore minus xG",
+    "value": 2.17,
+    "fmt": "signed1",
+    "rank": 4
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 3,
+    "xg": 7.14,
+    "shots": 73,
+    "share": 0.429
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 1.5,
+    "shots": 9,
+    "share": 0.143
+   },
+   "Standard": {
+    "goals": 3,
+    "xg": 3.81,
+    "shots": 34,
+    "share": 0.429
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   0,
+   0,
+   2,
+   1,
+   1,
+   3
+  ],
+  "goals": 7,
+  "opp_zones": {
+   "left": 40.4,
+   "center": 26.8,
+   "right": 32.8
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 0.7778,
+    "fmt": "dec2",
+    "rank": 1
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.4411,
+    "fmt": "dec2",
+    "rank": 3
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 13.0,
+    "fmt": "dec1",
+    "rank": 3
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.3333,
+    "fmt": "dec1",
+    "rank": 4
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 5,
+    "fmt": "int",
+    "rank": 1
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.32,
+    "fmt": "dec2",
+    "rank": 16
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.4233,
+    "fmt": "dec2",
+    "rank": 8
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 5.5556,
+    "fmt": "dec1",
+    "rank": 6
+   }
+  ],
+  "goals_for": 2,
+  "goals_against": 3,
+  "corners_against": 4.44
+ },
+ "key_players": [
+  {
+   "id": 448540,
+   "name": "Serhou Guirassy",
+   "pos": "ST",
+   "minutes": 701,
+   "goals": 3,
+   "assists": 2,
+   "rating": 7.44,
+   "xg90": 0.54,
+   "xa90": 0.14,
+   "why": [
+    "Spiele ohne Gegentor (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1047667,
+   "name": "Maximilian Beier",
+   "pos": null,
+   "minutes": 566,
+   "goals": 2,
+   "assists": 3,
+   "rating": 7.14,
+   "xg90": 0.43,
+   "xa90": 0.17,
+   "why": []
+  },
+  {
+   "id": 659272,
+   "name": "Julian Ryerson",
+   "pos": null,
+   "minutes": 528,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.98,
+   "xg90": 0.01,
+   "xa90": 0.5,
+   "why": []
+  },
+  {
+   "id": 792429,
+   "name": "Joey Veerman",
+   "pos": null,
+   "minutes": 476,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.11,
+   "xg90": 0.05,
+   "xa90": 0.21,
+   "why": []
+  },
+  {
+   "id": 966019,
+   "name": "Felix Nmecha",
+   "pos": null,
+   "minutes": 659,
+   "goals": 4,
+   "assists": 0,
+   "rating": 7.49,
+   "xg90": 0.13,
+   "xa90": 0.12,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Angriff": {
+   "id": 448540,
+   "name": "Serhou Guirassy",
+   "rating": 7.44,
+   "minutes": 701
+  }
+ },
+ "load": [
+  {
+   "id": 664970,
+   "name": "Waldemar Anton",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 764018,
+   "name": "Gregor Kobel",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 792429,
+   "name": "Joey Veerman",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1002058,
+   "name": "Nico Schlotterbeck",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1209228,
+   "name": "Daniel Svensson",
+   "minutes": 248,
+   "full": false
+  },
+  {
+   "id": 966019,
+   "name": "Felix Nmecha",
+   "minutes": 245,
+   "full": false
+  },
+  {
+   "id": 1287373,
+   "name": "Jobe Bellingham",
+   "minutes": 184,
+   "full": false
+  },
+  {
+   "id": 448540,
+   "name": "Serhou Guirassy",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 1050158,
+   "name": "Fábio Silva",
+   "minutes": 168,
+   "full": false
+  },
+  {
+   "id": 1479742,
+   "name": "Joane Gadou",
+   "minutes": 155,
+   "full": false
+  },
+  {
+   "id": 1047667,
+   "name": "Maximilian Beier",
+   "minutes": 145,
+   "full": false
+  },
+  {
+   "id": 1089685,
+   "name": "Carney Chukwuemeka",
+   "minutes": 123,
+   "full": false
+  },
+  {
+   "id": 659272,
+   "name": "Julian Ryerson",
+   "minutes": 115,
+   "full": false
+  },
+  {
+   "id": 559065,
+   "name": "Ramy Bensebaini",
+   "minutes": 113,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Emre Can",
+   "kind": "Verletzung",
+   "note": "Emre Can Kreuzbandriss"
+  },
+  {
+   "name": "Giannis Konstantelias",
+   "kind": "Verletzung",
+   "note": "Giannis Konstantelias"
+  },
+  {
+   "name": "Justin Lerma",
+   "kind": "Verletzung",
+   "note": "Justin Lerma Muskelverletzung"
+  },
+  {
+   "name": "Mussa Kaba",
+   "kind": "Verletzung",
+   "note": "Mussa Kaba"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 2,
+   "points": 6
+  },
+  "ht_draw": {
+   "games": 5,
+   "points": 11
+  },
+  "ht_trail": {
+   "games": 2,
+   "points": 4
+  },
+  "points_from_behind": 4,
+  "points_dropped": 2,
+  "late_for": 7,
+  "late_against": 3,
+  "goals_for": 16,
+  "goals_against": 7,
+  "for_bands": [
+   2,
+   0,
+   0,
+   3,
+   4,
+   7
+  ],
+  "against_bands": [
+   0,
+   0,
+   2,
+   1,
+   1,
+   3
+  ]
+ },
+ "season": 2026
+}

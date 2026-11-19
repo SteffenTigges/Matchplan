@@ -1,0 +1,576 @@
+{
+ "team": "M05",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-5-2",
+    "games": 7
+   },
+   {
+    "formation": "3-1-4-2",
+    "games": 2
+   }
+  ],
+  "tags": [
+   {
+    "text": "Abwartend gegen den Ball",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 5.2857,
+      "fmt": "dec1",
+      "rank": 14
+     }
+    ]
+   },
+   {
+    "text": "Spielt viel in der gegnerischen Hälfte",
+    "evidence": [
+     {
+      "label": "Anteil Pässe in der gegn. Hälfte",
+      "value": 0.4482,
+      "fmt": "pct",
+      "rank": 3
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83240,
+  "home": "FCA",
+  "away": "M05",
+  "kickoff": "2026-11-22T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4463,
+   0.204,
+   0.3497
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Flankenquote",
+   "value": 0.3607,
+   "fmt": "pct",
+   "rank": 1
+  },
+  {
+   "label": "xG nach Standards pro Spiel",
+   "value": 0.6544,
+   "fmt": "dec2",
+   "rank": 1
+  },
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.7431,
+   "fmt": "pct",
+   "rank": 2
+  },
+  {
+   "label": "Anteil Pässe in der gegn. Hälfte",
+   "value": 0.4482,
+   "fmt": "pct",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Fouls pro Spiel",
+   "value": 13.3333,
+   "fmt": "dec1",
+   "rank": 17
+  },
+  {
+   "label": "Punkte minus xPunkte",
+   "value": -4.6113,
+   "fmt": "signed1",
+   "rank": 17
+  },
+  {
+   "label": "Gegentore minus zugelassene xG",
+   "value": 3.87,
+   "fmt": "signed1",
+   "rank": 16
+  }
+ ],
+ "matchplan": [],
+ "findings": [
+  {
+   "key": "strength",
+   "text": "Stark: Flankenquote (Platz 1)",
+   "evidence": [
+    {
+     "label": "Flankenquote",
+     "value": 0.3607,
+     "fmt": "pct",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: xG nach Standards pro Spiel (Platz 1)",
+   "evidence": [
+    {
+     "label": "xG nach Standards pro Spiel",
+     "value": 0.6544,
+     "fmt": "dec2",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Anteil Schüsse aus dem Strafraum (Platz 2)",
+   "evidence": [
+    {
+     "label": "Anteil Schüsse aus dem Strafraum",
+     "value": 0.7431,
+     "fmt": "pct",
+     "rank": 2
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4833,
+    "fmt": "pct",
+    "rank": 11
+   },
+   {
+    "label": "Passquote",
+    "value": 0.796,
+    "fmt": "pct",
+    "rank": 14
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.4482,
+    "fmt": "pct",
+    "rank": 3
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4238,
+    "fmt": "pct",
+    "rank": 11
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.3607,
+    "fmt": "pct",
+    "rank": 1
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.5385,
+    "fmt": "pct",
+    "rank": 7
+   }
+  ],
+  "zones": {
+   "left": 33.0,
+   "center": 28.9,
+   "right": 38.1
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 11,
+    "xg": 8.13,
+    "shots": 81,
+    "share": 0.611
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 2.69,
+    "shots": 12,
+    "share": 0.056
+   },
+   "Standard": {
+    "goals": 6,
+    "xg": 6.32,
+    "shots": 50,
+    "share": 0.333
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   0,
+   3,
+   4,
+   2,
+   1,
+   8
+  ],
+  "goals": 18,
+  "inside_box": 0.743,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 2.0,
+    "fmt": "dec2",
+    "rank": 6
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.9356,
+    "fmt": "dec2",
+    "rank": 5
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 3.5556,
+    "fmt": "dec1",
+    "rank": 4
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.121,
+    "fmt": "dec2",
+    "rank": 6
+   },
+   {
+    "label": "Tore minus xG",
+    "value": 0.58,
+    "fmt": "signed1",
+    "rank": 8
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 12,
+    "xg": 6.39,
+    "shots": 66,
+    "share": 0.632
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 2.28,
+    "shots": 17,
+    "share": 0.053
+   },
+   "Standard": {
+    "goals": 3,
+    "xg": 3.35,
+    "shots": 44,
+    "share": 0.158
+   },
+   "Elfmeter": {
+    "goals": 3,
+    "xg": 3.15,
+    "shots": 4,
+    "share": 0.158
+   }
+  },
+  "bands": [
+   7,
+   2,
+   0,
+   6,
+   2,
+   2
+  ],
+  "goals": 19,
+  "opp_zones": {
+   "left": 36.8,
+   "center": 27.4,
+   "right": 35.8
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 2.1111,
+    "fmt": "dec2",
+    "rank": 13
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.6811,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 14.5556,
+    "fmt": "dec1",
+    "rank": 7
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.5556,
+    "fmt": "dec1",
+    "rank": 5
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 3,
+    "fmt": "int",
+    "rank": 3
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.6544,
+    "fmt": "dec2",
+    "rank": 1
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.3744,
+    "fmt": "dec2",
+    "rank": 5
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 5.8889,
+    "fmt": "dec1",
+    "rank": 4
+   }
+  ],
+  "goals_for": 6,
+  "goals_against": 3,
+  "corners_against": 4.78
+ },
+ "key_players": [
+  {
+   "id": 495222,
+   "name": "Sheraldo Becker",
+   "pos": "ST",
+   "minutes": 682,
+   "goals": 2,
+   "assists": 4,
+   "rating": 7.36,
+   "xg90": 0.35,
+   "xa90": 0.52,
+   "why": [
+    "xA (100. Perzentil)",
+    "Flanken angekommen (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 686315,
+   "name": "Phillip Tietz",
+   "pos": null,
+   "minutes": 719,
+   "goals": 6,
+   "assists": 0,
+   "rating": 7.39,
+   "xg90": 0.58,
+   "xa90": 0.14,
+   "why": []
+  },
+  {
+   "id": 614449,
+   "name": "Nadiem Amiri",
+   "pos": "CM",
+   "minutes": 773,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.13,
+   "xg90": 0.2,
+   "xa90": 0.39,
+   "why": [
+    "Rote Karten (100. Perzentil)",
+    "Flanken angekommen (97. Perzentil)"
+   ]
+  },
+  {
+   "id": 771401,
+   "name": "Anthony Caci",
+   "pos": null,
+   "minutes": 687,
+   "goals": 3,
+   "assists": 3,
+   "rating": 7.63,
+   "xg90": 0.19,
+   "xa90": 0.32,
+   "why": []
+  },
+  {
+   "id": 523749,
+   "name": "Lee Jae-Sung",
+   "pos": "CM",
+   "minutes": 500,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.96,
+   "xg90": 0.14,
+   "xa90": 0.18,
+   "why": [
+    "Rote Karten (100. Perzentil)",
+    "Kopfballschüsse (97. Perzentil)"
+   ]
+  }
+ ],
+ "lines": {
+  "Abwehr": {
+   "id": 240537,
+   "name": "Danny da Costa",
+   "rating": 6.77,
+   "minutes": 527
+  },
+  "Mittelfeld": {
+   "id": 614449,
+   "name": "Nadiem Amiri",
+   "rating": 7.13,
+   "minutes": 773
+  },
+  "Angriff": {
+   "id": 495222,
+   "name": "Sheraldo Becker",
+   "rating": 7.36,
+   "minutes": 682
+  }
+ },
+ "load": [
+  {
+   "id": 1800401,
+   "name": "Kacper Potulski",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1033111,
+   "name": "Kaishu Sano",
+   "minutes": 266,
+   "full": true
+  },
+  {
+   "id": 240537,
+   "name": "Danny da Costa",
+   "minutes": 265,
+   "full": true
+  },
+  {
+   "id": 771401,
+   "name": "Anthony Caci",
+   "minutes": 247,
+   "full": false
+  },
+  {
+   "id": 495222,
+   "name": "Sheraldo Becker",
+   "minutes": 243,
+   "full": false
+  },
+  {
+   "id": 614449,
+   "name": "Nadiem Amiri",
+   "minutes": 243,
+   "full": false
+  },
+  {
+   "id": 557325,
+   "name": "Stefan Posch",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 686315,
+   "name": "Phillip Tietz",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 556505,
+   "name": "Robin Zentner",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 423812,
+   "name": "Phillipp Mwene",
+   "minutes": 153,
+   "full": false
+  },
+  {
+   "id": 523749,
+   "name": "Lee Jae-Sung",
+   "minutes": 138,
+   "full": false
+  },
+  {
+   "id": 275034,
+   "name": "Silvan Widmer",
+   "minutes": 111,
+   "full": false
+  },
+  {
+   "id": 1121170,
+   "name": "Ransford Königsdörffer",
+   "minutes": 105,
+   "full": false
+  },
+  {
+   "id": 1175939,
+   "name": "Paul Nebel",
+   "minutes": 95,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Dominik Kohr",
+   "kind": "Verletzung",
+   "note": "Dominik Kohr"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 3,
+   "points": 9
+  },
+  "ht_draw": {
+   "games": 2,
+   "points": 1
+  },
+  "ht_trail": {
+   "games": 4,
+   "points": 0
+  },
+  "points_from_behind": 3,
+  "points_dropped": 0,
+  "late_for": 8,
+  "late_against": 2,
+  "goals_for": 18,
+  "goals_against": 19,
+  "for_bands": [
+   0,
+   3,
+   4,
+   2,
+   1,
+   8
+  ],
+  "against_bands": [
+   7,
+   2,
+   0,
+   6,
+   2,
+   2
+  ]
+ },
+ "season": 2026
+}

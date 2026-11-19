@@ -1,0 +1,601 @@
+{
+ "team": "B04",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "4-2-3-1",
+    "games": 9
+   }
+  ],
+  "tags": [
+   {
+    "text": "Ballbesitzteam",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.5889,
+      "fmt": "pct",
+      "rank": 2
+     }
+    ]
+   },
+   {
+    "text": "Drückt den Gegner in die eigene Hälfte",
+    "evidence": [
+     {
+      "label": "Field Tilt",
+      "value": 0.6508,
+      "fmt": "pct",
+      "rank": 2
+     }
+    ]
+   },
+   {
+    "text": "Spielt viel in der gegnerischen Hälfte",
+    "evidence": [
+     {
+      "label": "Anteil Pässe in der gegn. Hälfte",
+      "value": 0.4365,
+      "fmt": "pct",
+      "rank": 5
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83238,
+  "home": "B04",
+  "away": "SCP",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.5753,
+   0.2206,
+   0.2041
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Ballbesitz Ø",
+   "value": 0.5889,
+   "fmt": "pct",
+   "rank": 2
+  },
+  {
+   "label": "Großchancen pro Spiel",
+   "value": 3.8889,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 35.0,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "label": "Field Tilt",
+   "value": 0.6508,
+   "fmt": "pct",
+   "rank": 2
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Luftzweikämpfe gewonnen",
+   "value": 0.4497,
+   "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 8.1111,
+   "fmt": "dec1",
+   "rank": 16
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4497,
+     "fmt": "pct",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.5244,
+     "fmt": "dec2",
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "key": "possession",
+   "text": "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.",
+   "evidence": [
+    {
+     "label": "Ballbesitz Ø",
+     "value": 0.5889,
+     "fmt": "pct",
+     "rank": 2
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4497,
+     "fmt": "pct",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.5244,
+     "fmt": "dec2",
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "key": "possession",
+   "text": "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.",
+   "evidence": [
+    {
+     "label": "Ballbesitz Ø",
+     "value": 0.5889,
+     "fmt": "pct",
+     "rank": 2
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.5889,
+    "fmt": "pct",
+    "rank": 2
+   },
+   {
+    "label": "Passquote",
+    "value": 0.866,
+    "fmt": "pct",
+    "rank": 3
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.4365,
+    "fmt": "pct",
+    "rank": 5
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4984,
+    "fmt": "pct",
+    "rank": 4
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2384,
+    "fmt": "pct",
+    "rank": 13
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.6508,
+    "fmt": "pct",
+    "rank": 2
+   }
+  ],
+  "zones": {
+   "left": 37.9,
+   "center": 30.6,
+   "right": 31.6
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 15,
+    "xg": 11.61,
+    "shots": 105,
+    "share": 0.75
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 1.62,
+    "shots": 13,
+    "share": 0.05
+   },
+   "Standard": {
+    "goals": 4,
+    "xg": 4.7,
+    "shots": 47,
+    "share": 0.2
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   4,
+   4,
+   1,
+   3,
+   2,
+   6
+  ],
+  "goals": 20,
+  "inside_box": 0.685,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 2.2222,
+    "fmt": "dec2",
+    "rank": 3
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.9844,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 3.8889,
+    "fmt": "dec1",
+    "rank": 2
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1082,
+    "fmt": "dec2",
+    "rank": 12
+   },
+   {
+    "label": "Tore minus xG",
+    "value": 2.14,
+    "fmt": "signed1",
+    "rank": 5
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 9,
+    "xg": 7.72,
+    "shots": 71,
+    "share": 0.529
+   },
+   "Konter": {
+    "goals": 3,
+    "xg": 2.87,
+    "shots": 13,
+    "share": 0.176
+   },
+   "Standard": {
+    "goals": 4,
+    "xg": 5.26,
+    "shots": 32,
+    "share": 0.235
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.059
+   }
+  },
+  "bands": [
+   4,
+   1,
+   2,
+   4,
+   1,
+   5
+  ],
+  "goals": 17,
+  "opp_zones": {
+   "left": 38.6,
+   "center": 26.9,
+   "right": 34.6
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 1.8889,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.7511,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 13.0,
+    "fmt": "dec1",
+    "rank": 3
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.5556,
+    "fmt": "dec1",
+    "rank": 5
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 2,
+    "fmt": "int",
+    "rank": 7
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.5267,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.5244,
+    "fmt": "dec2",
+    "rank": 14
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 7.2222,
+    "fmt": "dec1",
+    "rank": 2
+   }
+  ],
+  "goals_for": 4,
+  "goals_against": 4,
+  "corners_against": 3.33
+ },
+ "key_players": [
+  {
+   "id": 540097,
+   "name": "Patrik Schick",
+   "pos": "ST",
+   "minutes": 704,
+   "goals": 8,
+   "assists": 2,
+   "rating": 7.81,
+   "xg90": 0.71,
+   "xa90": 0.14,
+   "why": [
+    "Quote lange Bälle (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1457626,
+   "name": "Ibrahim Maza",
+   "pos": null,
+   "minutes": 778,
+   "goals": 3,
+   "assists": 3,
+   "rating": 7.62,
+   "xg90": 0.28,
+   "xa90": 0.4,
+   "why": []
+  },
+  {
+   "id": 942379,
+   "name": "Miguel Gutiérrez",
+   "pos": null,
+   "minutes": 803,
+   "goals": 1,
+   "assists": 4,
+   "rating": 7.36,
+   "xg90": 0.07,
+   "xa90": 0.35,
+   "why": []
+  },
+  {
+   "id": 1107620,
+   "name": "Jarell Quansah",
+   "pos": null,
+   "minutes": 702,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.88,
+   "xg90": 0.11,
+   "xa90": 0.23,
+   "why": []
+  },
+  {
+   "id": 642551,
+   "name": "Aleix García",
+   "pos": null,
+   "minutes": 797,
+   "goals": 1,
+   "assists": 2,
+   "rating": 7.78,
+   "xg90": 0.05,
+   "xa90": 0.24,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Angriff": {
+   "id": 540097,
+   "name": "Patrik Schick",
+   "rating": 7.81,
+   "minutes": 704
+  }
+ },
+ "load": [
+  {
+   "id": 330643,
+   "name": "Mark Flekken",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 540097,
+   "name": "Patrik Schick",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 789914,
+   "name": "Edmond Tapsoba",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 942379,
+   "name": "Miguel Gutiérrez",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1457626,
+   "name": "Ibrahim Maza",
+   "minutes": 268,
+   "full": true
+  },
+  {
+   "id": 642551,
+   "name": "Aleix García",
+   "minutes": 263,
+   "full": true
+  },
+  {
+   "id": 812652,
+   "name": "Facundo Medina",
+   "minutes": 262,
+   "full": true
+  },
+  {
+   "id": 1107620,
+   "name": "Jarell Quansah",
+   "minutes": 244,
+   "full": false
+  },
+  {
+   "id": 1199959,
+   "name": "Equi Fernández",
+   "minutes": 229,
+   "full": false
+  },
+  {
+   "id": 1367047,
+   "name": "Afonso Moreira",
+   "minutes": 191,
+   "full": false
+  },
+  {
+   "id": 1126058,
+   "name": "Malik Tillman",
+   "minutes": 140,
+   "full": false
+  },
+  {
+   "id": 877700,
+   "name": "Nathan Tella",
+   "minutes": 64,
+   "full": false
+  },
+  {
+   "id": 359193,
+   "name": "Lucas Vázquez",
+   "minutes": 62,
+   "full": false
+  },
+  {
+   "id": 331542,
+   "name": "Jonas Hofmann",
+   "minutes": 48,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Martin Terrier",
+   "kind": "Verletzung",
+   "note": "Martin Terrier"
+  },
+  {
+   "name": "Kennet Eichhorn",
+   "kind": "Aufbautraining",
+   "note": "Kennet Eichhorn"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 4,
+   "points": 10
+  },
+  "ht_draw": {
+   "games": 3,
+   "points": 6
+  },
+  "ht_trail": {
+   "games": 2,
+   "points": 0
+  },
+  "points_from_behind": 4,
+  "points_dropped": 2,
+  "late_for": 6,
+  "late_against": 5,
+  "goals_for": 20,
+  "goals_against": 17,
+  "for_bands": [
+   4,
+   4,
+   1,
+   3,
+   2,
+   6
+  ],
+  "against_bands": [
+   4,
+   1,
+   2,
+   4,
+   1,
+   5
+  ]
+ },
+ "season": 2026
+}

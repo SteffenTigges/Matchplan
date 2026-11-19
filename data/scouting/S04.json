@@ -1,0 +1,679 @@
+{
+ "team": "S04",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-4-2-1",
+    "games": 5
+   },
+   {
+    "formation": "4-2-3-1",
+    "games": 1
+   },
+   {
+    "formation": "4-3-2-1",
+    "games": 1
+   },
+   {
+    "formation": "5-3-2",
+    "games": 1
+   },
+   {
+    "formation": "5-4-1",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Überlässt dem Gegner den Ball",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.41,
+      "fmt": "pct",
+      "rank": 18
+     }
+    ]
+   },
+   {
+    "text": "Gefährlich im Konter",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Kontern",
+      "value": 0.2,
+      "fmt": "pct"
+     }
+    ]
+   },
+   {
+    "text": "Standardstark",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Standards",
+      "value": 0.4,
+      "fmt": "pct"
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83244,
+  "home": "S04",
+  "away": "VFB",
+  "kickoff": "2026-11-21T17:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4005,
+   0.2388,
+   0.3607
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Tacklings pro Spiel",
+   "value": 21.3333,
+   "fmt": "dec1",
+   "rank": 1
+  },
+  {
+   "label": "Gegentore minus zugelassene xG",
+   "value": -7.84,
+   "fmt": "signed1",
+   "rank": 1
+  },
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.7374,
+   "fmt": "pct",
+   "rank": 3
+  },
+  {
+   "label": "Spiele ohne Gegentor",
+   "value": 3,
+   "fmt": "int",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Ballbesitz Ø",
+   "value": 0.41,
+   "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "label": "Tore pro Spiel",
+   "value": 0.5556,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "label": "xGOT pro Spiel",
+   "value": 0.7589,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "label": "Passquote",
+   "value": 0.7181,
+   "fmt": "pct",
+   "rank": 18
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 5,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.45454545454545453,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 4.6667,
+     "fmt": "dec1",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "side",
+   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "evidence": [
+    {
+     "label": "Angriffe der Gegner über links",
+     "value": 0.409,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4715,
+     "fmt": "pct",
+     "rank": 13
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 5,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.45454545454545453,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 4.6667,
+     "fmt": "dec1",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "side",
+   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "evidence": [
+    {
+     "label": "Angriffe der Gegner über links",
+     "value": 0.409,
+     "fmt": "pct"
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.41,
+    "fmt": "pct",
+    "rank": 18
+   },
+   {
+    "label": "Passquote",
+    "value": 0.7181,
+    "fmt": "pct",
+    "rank": 18
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3463,
+    "fmt": "pct",
+    "rank": 14
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.3403,
+    "fmt": "pct",
+    "rank": 18
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2714,
+    "fmt": "pct",
+    "rank": 6
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.4066,
+    "fmt": "pct",
+    "rank": 15
+   }
+  ],
+  "zones": {
+   "left": 36.9,
+   "center": 29.2,
+   "right": 33.9
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 2,
+    "xg": 4.18,
+    "shots": 48,
+    "share": 0.4
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 2.65,
+    "shots": 16,
+    "share": 0.2
+   },
+   "Standard": {
+    "goals": 2,
+    "xg": 3.76,
+    "shots": 35,
+    "share": 0.4
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   0,
+   2,
+   0,
+   1,
+   0,
+   2
+  ],
+  "goals": 5,
+  "inside_box": 0.737,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 0.5556,
+    "fmt": "dec2",
+    "rank": 18
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.1433,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 1.8889,
+    "fmt": "dec1",
+    "rank": 17
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1039,
+    "fmt": "dec2",
+    "rank": 13
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -5.29,
+    "fmt": "signed1",
+    "rank": 18
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 8,
+    "xg": 10.13,
+    "shots": 84,
+    "share": 0.727
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 4.4,
+    "shots": 15,
+    "share": 0.091
+   },
+   "Standard": {
+    "goals": 1,
+    "xg": 3.81,
+    "shots": 37,
+    "share": 0.091
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.091
+   }
+  },
+  "bands": [
+   2,
+   3,
+   1,
+   0,
+   0,
+   5
+  ],
+  "goals": 11,
+  "opp_zones": {
+   "left": 40.9,
+   "center": 24.7,
+   "right": 34.4
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 1.2222,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 2.0933,
+    "fmt": "dec2",
+    "rank": 15
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 15.2222,
+    "fmt": "dec1",
+    "rank": 9
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 4.6667,
+    "fmt": "dec1",
+    "rank": 18
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 3,
+    "fmt": "int",
+    "rank": 3
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.3911,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.4267,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 3.3333,
+    "fmt": "dec1",
+    "rank": 17
+   }
+  ],
+  "goals_for": 2,
+  "goals_against": 1,
+  "corners_against": 6.33
+ },
+ "key_players": [
+  {
+   "id": 1047664,
+   "name": "Adil Aouchiche",
+   "pos": null,
+   "minutes": 681,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.07,
+   "xg90": 0.23,
+   "xa90": 0.34,
+   "why": []
+  },
+  {
+   "id": 518346,
+   "name": "Robin Gosens",
+   "pos": "LB",
+   "minutes": 506,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.81,
+   "xg90": 0.12,
+   "xa90": 0.09,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1249185,
+   "name": "Soufian El-Faouzi",
+   "pos": null,
+   "minutes": 673,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.8,
+   "xg90": 0.06,
+   "xa90": 0.12,
+   "why": []
+  },
+  {
+   "id": 469763,
+   "name": "Kenan Karaman",
+   "pos": "AM",
+   "minutes": 536,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.0,
+   "xg90": 0.09,
+   "xa90": 0.08,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 725655,
+   "name": "Nikola Katić",
+   "pos": null,
+   "minutes": 777,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.17,
+   "xg90": 0.04,
+   "xa90": 0.03,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Abwehr": {
+   "id": 518346,
+   "name": "Robin Gosens",
+   "rating": 6.81,
+   "minutes": 506
+  },
+  "Mittelfeld": {
+   "id": 469763,
+   "name": "Kenan Karaman",
+   "rating": 7.0,
+   "minutes": 536
+  }
+ },
+ "load": [
+  {
+   "id": 725655,
+   "name": "Nikola Katić",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 794619,
+   "name": "Hasan Kuruçay",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1047664,
+   "name": "Adil Aouchiche",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 620026,
+   "name": "Hwang Hee-Chan",
+   "minutes": 263,
+   "full": true
+  },
+  {
+   "id": 1155066,
+   "name": "Satoshi Tanaka",
+   "minutes": 250,
+   "full": true
+  },
+  {
+   "id": 287894,
+   "name": "Loris Karius",
+   "minutes": 232,
+   "full": false
+  },
+  {
+   "id": 469763,
+   "name": "Kenan Karaman",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 1659420,
+   "name": "Vitalie Becker",
+   "minutes": 176,
+   "full": false
+  },
+  {
+   "id": 785739,
+   "name": "Timo Becker",
+   "minutes": 173,
+   "full": false
+  },
+  {
+   "id": 882163,
+   "name": "Chukwubuike Adamu",
+   "minutes": 167,
+   "full": false
+  },
+  {
+   "id": 1755657,
+   "name": "Mertcan Ayhan",
+   "minutes": 138,
+   "full": false
+  },
+  {
+   "id": 1249185,
+   "name": "Soufian El-Faouzi",
+   "minutes": 133,
+   "full": false
+  },
+  {
+   "id": 1040889,
+   "name": "Junior Dina Ebimbe",
+   "minutes": 117,
+   "full": false
+  },
+  {
+   "id": 861668,
+   "name": "Dejan Ljubičić",
+   "minutes": 109,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Maximilian Wöber",
+   "kind": "Verletzung",
+   "note": "Maximilian Wöber"
+  },
+  {
+   "name": "Justin Heekeren",
+   "kind": "Verletzung",
+   "note": "Justin Heekeren Kreuzbandverletzung"
+  },
+  {
+   "name": "Emil Højlund",
+   "kind": "Verletzung",
+   "note": "Emil Højlund Achillessehnenverletzung"
+  },
+  {
+   "name": "Johannes Siebeking",
+   "kind": "Verletzung",
+   "note": "Johannes Siebeking Bauchmuskelverletzung"
+  },
+  {
+   "name": "Luca Vozar",
+   "kind": "Verletzung",
+   "note": "Luca Vozar Oberschenkelverletzung"
+  },
+  {
+   "name": "Anton Donkor",
+   "kind": "Nicht im Kader",
+   "note": "Anton Donkor Nicht berücksichtigt"
+  },
+  {
+   "name": "Max Grüger",
+   "kind": "Nicht im Kader",
+   "note": "Max Grüger Nicht berücksichtigt"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 1,
+   "points": 3
+  },
+  "ht_draw": {
+   "games": 5,
+   "points": 3
+  },
+  "ht_trail": {
+   "games": 3,
+   "points": 0
+  },
+  "points_from_behind": 0,
+  "points_dropped": 0,
+  "late_for": 2,
+  "late_against": 5,
+  "goals_for": 5,
+  "goals_against": 11,
+  "for_bands": [
+   0,
+   2,
+   0,
+   1,
+   0,
+   2
+  ],
+  "against_bands": [
+   2,
+   3,
+   1,
+   0,
+   0,
+   5
+  ]
+ },
+ "season": 2026
+}

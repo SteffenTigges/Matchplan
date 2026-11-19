@@ -1,0 +1,570 @@
+{
+ "team": "SVW",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "4-2-3-1",
+    "games": 7
+   },
+   {
+    "formation": "3-4-3",
+    "games": 1
+   },
+   {
+    "formation": "4-3-3",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Hohes Pressing",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 3.8425,
+      "fmt": "dec1",
+      "rank": 1
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83243,
+  "home": "SVW",
+  "away": "HSV",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "tip": [
+   2,
+   0
+  ],
+  "probs": [
+   0.6851,
+   0.1884,
+   0.1265
+  ]
+ },
+ "strengths": [
+  {
+   "label": "PPDA",
+   "value": 3.8425,
+   "fmt": "dec1",
+   "rank": 1
+  },
+  {
+   "label": "Lange Bälle angekommen",
+   "value": 0.5134,
+   "fmt": "pct",
+   "rank": 2
+  },
+  {
+   "label": "Tacklings pro Spiel",
+   "value": 21.0,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "label": "Zugelassene Großchancen pro Spiel",
+   "value": 2.1111,
+   "fmt": "dec1",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [],
+ "matchplan": [
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 3.8425,
+     "fmt": "dec1",
+     "rank": 1
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 3.8425,
+     "fmt": "dec1",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: PPDA (Platz 1)",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 3.8425,
+     "fmt": "dec1",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Lange Bälle angekommen (Platz 2)",
+   "evidence": [
+    {
+     "label": "Lange Bälle angekommen",
+     "value": 0.5134,
+     "fmt": "pct",
+     "rank": 2
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4767,
+    "fmt": "pct",
+    "rank": 12
+   },
+   {
+    "label": "Passquote",
+    "value": 0.8316,
+    "fmt": "pct",
+    "rank": 7
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3799,
+    "fmt": "pct",
+    "rank": 10
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.5134,
+    "fmt": "pct",
+    "rank": 2
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2335,
+    "fmt": "pct",
+    "rank": 15
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.4718,
+    "fmt": "pct",
+    "rank": 10
+   }
+  ],
+  "zones": {
+   "left": 36.8,
+   "center": 29.0,
+   "right": 34.2
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 9,
+    "xg": 8.24,
+    "shots": 85,
+    "share": 0.529
+   },
+   "Konter": {
+    "goals": 0,
+    "xg": 1.78,
+    "shots": 15,
+    "share": 0.0
+   },
+   "Standard": {
+    "goals": 5,
+    "xg": 2.98,
+    "shots": 38,
+    "share": 0.294
+   },
+   "Elfmeter": {
+    "goals": 3,
+    "xg": 2.37,
+    "shots": 3,
+    "share": 0.176
+   }
+  },
+  "bands": [
+   2,
+   1,
+   0,
+   2,
+   5,
+   7
+  ],
+  "goals": 17,
+  "inside_box": 0.667,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.8889,
+    "fmt": "dec2",
+    "rank": 7
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.6989,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 2.6667,
+    "fmt": "dec1",
+    "rank": 10
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1084,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Tore minus xG",
+    "value": 1.71,
+    "fmt": "signed1",
+    "rank": 6
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 8,
+    "xg": 7.15,
+    "shots": 85,
+    "share": 0.533
+   },
+   "Konter": {
+    "goals": 3,
+    "xg": 1.96,
+    "shots": 8,
+    "share": 0.2
+   },
+   "Standard": {
+    "goals": 4,
+    "xg": 3.39,
+    "shots": 45,
+    "share": 0.267
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.79,
+    "shots": 1,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   2,
+   4,
+   2,
+   3,
+   1,
+   3
+  ],
+  "goals": 15,
+  "opp_zones": {
+   "left": 35.0,
+   "center": 30.2,
+   "right": 34.8
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 1.6667,
+    "fmt": "dec2",
+    "rank": 8
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.5078,
+    "fmt": "dec2",
+    "rank": 5
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 15.4444,
+    "fmt": "dec1",
+    "rank": 10
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.1111,
+    "fmt": "dec1",
+    "rank": 3
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 1,
+    "fmt": "int",
+    "rank": 11
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.33,
+    "fmt": "dec2",
+    "rank": 15
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.3756,
+    "fmt": "dec2",
+    "rank": 6
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 4.4444,
+    "fmt": "dec1",
+    "rank": 14
+   }
+  ],
+  "goals_for": 5,
+  "goals_against": 4,
+  "corners_against": 5.44
+ },
+ "key_players": [
+  {
+   "id": 276791,
+   "name": "Niclas Füllkrug",
+   "pos": "ST",
+   "minutes": 746,
+   "goals": 9,
+   "assists": 0,
+   "rating": 7.77,
+   "xg90": 0.75,
+   "xa90": 0.17,
+   "why": [
+    "Penalty goals (100. Perzentil)",
+    "Linien brechende Pässe (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1024292,
+   "name": "Marco Grüll",
+   "pos": null,
+   "minutes": 782,
+   "goals": 2,
+   "assists": 7,
+   "rating": 8.04,
+   "xg90": 0.18,
+   "xa90": 0.25,
+   "why": []
+  },
+  {
+   "id": 1146376,
+   "name": "Eren Dinkçi",
+   "pos": null,
+   "minutes": 545,
+   "goals": 2,
+   "assists": 1,
+   "rating": 6.99,
+   "xg90": 0.29,
+   "xa90": 0.07,
+   "why": []
+  },
+  {
+   "id": 1315344,
+   "name": "Chuki",
+   "pos": null,
+   "minutes": 647,
+   "goals": 0,
+   "assists": 2,
+   "rating": 6.89,
+   "xg90": 0.16,
+   "xa90": 0.2,
+   "why": []
+  },
+  {
+   "id": 869326,
+   "name": "Ludovit Reis",
+   "pos": null,
+   "minutes": 761,
+   "goals": 2,
+   "assists": 0,
+   "rating": 7.3,
+   "xg90": 0.17,
+   "xa90": 0.04,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Angriff": {
+   "id": 276791,
+   "name": "Niclas Füllkrug",
+   "rating": 7.77,
+   "minutes": 746
+  }
+ },
+ "load": [
+  {
+   "id": 765998,
+   "name": "Amos Pieper",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 767789,
+   "name": "Marco Friedl",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 982692,
+   "name": "Karl Hein",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1111980,
+   "name": "Youri Regeer",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1353457,
+   "name": "Arthur",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 869326,
+   "name": "Ludovit Reis",
+   "minutes": 269,
+   "full": true
+  },
+  {
+   "id": 276791,
+   "name": "Niclas Füllkrug",
+   "minutes": 260,
+   "full": true
+  },
+  {
+   "id": 1024292,
+   "name": "Marco Grüll",
+   "minutes": 247,
+   "full": false
+  },
+  {
+   "id": 969856,
+   "name": "Olivier Deman",
+   "minutes": 208,
+   "full": false
+  },
+  {
+   "id": 1146376,
+   "name": "Eren Dinkçi",
+   "minutes": 178,
+   "full": false
+  },
+  {
+   "id": 1315344,
+   "name": "Chuki",
+   "minutes": 168,
+   "full": false
+  },
+  {
+   "id": 919742,
+   "name": "Senne Lynen",
+   "minutes": 84,
+   "full": false
+  },
+  {
+   "id": 298823,
+   "name": "Mitchell Weiser",
+   "minutes": 75,
+   "full": false
+  },
+  {
+   "id": 1714103,
+   "name": "Mick Schmetgens",
+   "minutes": 62,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Skelly Alvero",
+   "kind": "Verletzung",
+   "note": "Skelly Alvero"
+  },
+  {
+   "name": "Salim Musah",
+   "kind": "Verletzung",
+   "note": "Salim Musah"
+  },
+  {
+   "name": "Felix Agu",
+   "kind": "Aufbautraining",
+   "note": "Felix Agu"
+  },
+  {
+   "name": "Jens Stage",
+   "kind": "Aufbautraining",
+   "note": "Jens Stage"
+  },
+  {
+   "name": "Keke Topp",
+   "kind": "Aufbautraining",
+   "note": "Keke Topp"
+  },
+  {
+   "name": "Moussa Ndiaye",
+   "kind": "Aufbautraining",
+   "note": "Moussa Ndiaye"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 2,
+   "points": 6
+  },
+  "ht_draw": {
+   "games": 2,
+   "points": 4
+  },
+  "ht_trail": {
+   "games": 5,
+   "points": 5
+  },
+  "points_from_behind": 6,
+  "points_dropped": 0,
+  "late_for": 7,
+  "late_against": 3,
+  "goals_for": 17,
+  "goals_against": 15,
+  "for_bands": [
+   2,
+   1,
+   0,
+   2,
+   5,
+   7
+  ],
+  "against_bands": [
+   2,
+   4,
+   2,
+   3,
+   1,
+   3
+  ]
+ },
+ "season": 2026
+}

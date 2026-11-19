@@ -1,0 +1,662 @@
+{
+ "team": "TSG",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "4-2-3-1",
+    "games": 4
+   },
+   {
+    "formation": "4-4-2",
+    "games": 4
+   },
+   {
+    "formation": "3-5-2",
+    "games": 1
+   }
+  ],
+  "tags": [
+   {
+    "text": "Ballbesitzteam",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.5489,
+      "fmt": "pct",
+      "rank": 4
+     }
+    ]
+   },
+   {
+    "text": "Hohes Pressing",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 3.9945,
+      "fmt": "dec1",
+      "rank": 2
+     }
+    ]
+   },
+   {
+    "text": "Drückt den Gegner in die eigene Hälfte",
+    "evidence": [
+     {
+      "label": "Field Tilt",
+      "value": 0.5783,
+      "fmt": "pct",
+      "rank": 4
+     }
+    ]
+   },
+   {
+    "text": "Spielt viel in der gegnerischen Hälfte",
+    "evidence": [
+     {
+      "label": "Anteil Pässe in der gegn. Hälfte",
+      "value": 0.4374,
+      "fmt": "pct",
+      "rank": 4
+     }
+    ]
+   },
+   {
+    "text": "Gefährlich im Konter",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Kontern",
+      "value": 0.4,
+      "fmt": "pct"
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83239,
+  "home": "SGE",
+  "away": "TSG",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4115,
+   0.2378,
+   0.3507
+  ]
+ },
+ "strengths": [
+  {
+   "label": "PPDA",
+   "value": 3.9945,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.7778,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 34.8889,
+   "fmt": "dec1",
+   "rank": 3
+  },
+  {
+   "label": "Schüsse pro Spiel",
+   "value": 17.5556,
+   "fmt": "dec1",
+   "rank": 3
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "xG nach Standards pro Spiel",
+   "value": 0.2833,
+   "fmt": "dec2",
+   "rank": 17
+  },
+  {
+   "label": "Gegentore minus zugelassene xG",
+   "value": 3.96,
+   "fmt": "signed1",
+   "rank": 17
+  },
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.6266,
+   "fmt": "pct",
+   "rank": 16
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 6,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.35294117647058826,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 3.9945,
+     "fmt": "dec1",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "counter",
+   "text": "Gefährlich im Konter: Restverteidigung sichern, Ballverluste im Zentrum vermeiden.",
+   "evidence": [
+    {
+     "label": "Anteil Tore nach Kontern",
+     "value": 0.4,
+     "fmt": "pct"
+    },
+    {
+     "label": "Tore nach Kontern",
+     "value": 6,
+     "fmt": "int"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 6,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.35294117647058826,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 3.9945,
+     "fmt": "dec1",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "counter",
+   "text": "Gefährlich im Konter: Restverteidigung sichern, Ballverluste im Zentrum vermeiden.",
+   "evidence": [
+    {
+     "label": "Anteil Tore nach Kontern",
+     "value": 0.4,
+     "fmt": "pct"
+    },
+    {
+     "label": "Tore nach Kontern",
+     "value": 6,
+     "fmt": "int"
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.5489,
+    "fmt": "pct",
+    "rank": 4
+   },
+   {
+    "label": "Passquote",
+    "value": 0.8076,
+    "fmt": "pct",
+    "rank": 10
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.4374,
+    "fmt": "pct",
+    "rank": 4
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4436,
+    "fmt": "pct",
+    "rank": 9
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2522,
+    "fmt": "pct",
+    "rank": 11
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.5783,
+    "fmt": "pct",
+    "rank": 4
+   }
+  ],
+  "zones": {
+   "left": 37.4,
+   "center": 27.6,
+   "right": 35.0
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 6,
+    "xg": 8.58,
+    "shots": 103,
+    "share": 0.4
+   },
+   "Konter": {
+    "goals": 6,
+    "xg": 4.8,
+    "shots": 17,
+    "share": 0.4
+   },
+   "Standard": {
+    "goals": 2,
+    "xg": 2.48,
+    "shots": 36,
+    "share": 0.133
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 1.58,
+    "shots": 2,
+    "share": 0.067
+   }
+  },
+  "bands": [
+   3,
+   2,
+   1,
+   5,
+   2,
+   3
+  ],
+  "goals": 16,
+  "inside_box": 0.633,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.7778,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.9311,
+    "fmt": "dec2",
+    "rank": 6
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 3.4444,
+    "fmt": "dec1",
+    "rank": 5
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.11,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -1.38,
+    "fmt": "signed1",
+    "rank": 11
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 11,
+    "xg": 7.15,
+    "shots": 74,
+    "share": 0.688
+   },
+   "Konter": {
+    "goals": 0,
+    "xg": 2.02,
+    "shots": 15,
+    "share": 0.0
+   },
+   "Standard": {
+    "goals": 5,
+    "xg": 3.91,
+    "shots": 42,
+    "share": 0.312
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   1,
+   1,
+   1,
+   4,
+   4,
+   6
+  ],
+  "goals": 17,
+  "opp_zones": {
+   "left": 38.3,
+   "center": 28.4,
+   "right": 33.2
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 1.8889,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.4489,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 14.5556,
+    "fmt": "dec1",
+    "rank": 7
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 2.8889,
+    "fmt": "dec1",
+    "rank": 8
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 1,
+    "fmt": "int",
+    "rank": 11
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.2833,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.4333,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 6.1111,
+    "fmt": "dec1",
+    "rank": 3
+   }
+  ],
+  "goals_for": 2,
+  "goals_against": 5,
+  "corners_against": 4.78
+ },
+ "key_players": [
+  {
+   "id": 969870,
+   "name": "Adam Hložek",
+   "pos": null,
+   "minutes": 520,
+   "goals": 2,
+   "assists": 1,
+   "rating": 7.0,
+   "xg90": 0.61,
+   "xa90": 0.12,
+   "why": []
+  },
+  {
+   "id": 1124825,
+   "name": "Tim Lemperle",
+   "pos": null,
+   "minutes": 454,
+   "goals": 2,
+   "assists": 0,
+   "rating": 6.89,
+   "xg90": 0.38,
+   "xa90": 0.15,
+   "why": []
+  },
+  {
+   "id": 307317,
+   "name": "Vladimír Coufal",
+   "pos": "RB",
+   "minutes": 699,
+   "goals": 0,
+   "assists": 2,
+   "rating": 7.21,
+   "xg90": 0.01,
+   "xa90": 0.36,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1353000,
+   "name": "Adam Daghim",
+   "pos": null,
+   "minutes": 628,
+   "goals": 2,
+   "assists": 2,
+   "rating": 7.11,
+   "xg90": 0.07,
+   "xa90": 0.21,
+   "why": []
+  },
+  {
+   "id": 947884,
+   "name": "Wouter Burger",
+   "pos": null,
+   "minutes": 691,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.35,
+   "xg90": 0.09,
+   "xa90": 0.14,
+   "why": []
+  }
+ ],
+ "lines": {
+  "Abwehr": {
+   "id": 307317,
+   "name": "Vladimír Coufal",
+   "rating": 7.21,
+   "minutes": 699
+  }
+ },
+ "load": [
+  {
+   "id": 178778,
+   "name": "Oliver Baumann",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 727817,
+   "name": "Koki Machida",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 845990,
+   "name": "Ozan Kabak",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1478148,
+   "name": "Leon Avdullahu",
+   "minutes": 267,
+   "full": true
+  },
+  {
+   "id": 1445416,
+   "name": "Mats Rots",
+   "minutes": 257,
+   "full": true
+  },
+  {
+   "id": 947884,
+   "name": "Wouter Burger",
+   "minutes": 252,
+   "full": true
+  },
+  {
+   "id": 1219540,
+   "name": "Fisnik Asllani",
+   "minutes": 249,
+   "full": false
+  },
+  {
+   "id": 1353000,
+   "name": "Adam Daghim",
+   "minutes": 186,
+   "full": false
+  },
+  {
+   "id": 173461,
+   "name": "Andrej Kramarić",
+   "minutes": 182,
+   "full": false
+  },
+  {
+   "id": 307317,
+   "name": "Vladimír Coufal",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 1027194,
+   "name": "Alexander Prass",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 969870,
+   "name": "Adam Hložek",
+   "minutes": 145,
+   "full": false
+  },
+  {
+   "id": 1124825,
+   "name": "Tim Lemperle",
+   "minutes": 119,
+   "full": false
+  },
+  {
+   "id": 1899713,
+   "name": "Natnael Abraha",
+   "minutes": 90,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Valentin Gendrey",
+   "kind": "Verletzung",
+   "note": "Valentin Gendrey"
+  },
+  {
+   "name": "Albian Hajdari",
+   "kind": "Verletzung",
+   "note": "Albian Hajdari"
+  },
+  {
+   "name": "Robin Hranáč",
+   "kind": "Verletzung",
+   "note": "Robin Hranáč"
+  },
+  {
+   "name": "Nathan De Cat",
+   "kind": "Verletzung",
+   "note": "Nathan De Cat Außenmeniskusverletzung"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 5,
+   "points": 9
+  },
+  "ht_draw": {
+   "games": 3,
+   "points": 3
+  },
+  "ht_trail": {
+   "games": 1,
+   "points": 0
+  },
+  "points_from_behind": 0,
+  "points_dropped": 9,
+  "late_for": 3,
+  "late_against": 6,
+  "goals_for": 16,
+  "goals_against": 17,
+  "for_bands": [
+   3,
+   2,
+   1,
+   5,
+   2,
+   3
+  ],
+  "against_bands": [
+   1,
+   1,
+   1,
+   4,
+   4,
+   6
+  ]
+ },
+ "season": 2026
+}

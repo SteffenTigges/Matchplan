@@ -1,0 +1,366 @@
+{
+ "id": 573465,
+ "name": "Marvin Schwäbe",
+ "team": "KOE",
+ "team_name": "1. FC Köln",
+ "birth_date": "1995-04-25",
+ "age": 31,
+ "height_cm": 190,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 1,
+ "market_value": 1717825,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 35,
+   "per90": 3.888888888888889,
+   "pct": 62.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 71.4,
+   "per90": 71.42857142857143,
+   "pct": 62.5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 14,
+   "per90": 1.5555555555555554,
+   "pct": 58.333333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 2.86,
+   "per90": 0.31724444444444444,
+   "pct": 75,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.1111111111111111,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_saves",
+   "title": "Penalty saves",
+   "value": 1,
+   "per90": 0.1111111111111111,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_goals_conceded",
+   "title": "Penalties conceded",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_save_percent",
+   "title": "Penalty saves %",
+   "value": 100.0,
+   "per90": 100,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 4,
+   "per90": 0.4444444444444444,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 7,
+   "per90": 0.7777777777777777,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 277,
+   "per90": 30.777777777777775,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 76.3,
+   "per90": 76.30853994490359,
+   "pct": 79.16666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 74,
+   "per90": 8.222222222222221,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 46.5,
+   "per90": 46.540880503144656,
+   "pct": 87.5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.1111111111111111,
+   "pct": 62.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.03,
+   "per90": 0.0038025366666666663,
+   "pct": 58.333333333333336,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.78
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 0.06
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.07
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.34
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 0.04
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.91
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "1. FC Köln",
+    "start": "2021-07-01",
+    "end": null,
+    "apps": 174,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Brøndby IF",
+    "start": "2018-07-01",
+    "end": "2021-06-30",
+    "apps": 120,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Dynamo Dresden",
+    "start": "2016-08-01",
+    "end": "2018-06-30",
+    "apps": 61,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "VfL Osnabrück",
+    "start": "2015-07-06",
+    "end": "2016-06-30",
+    "apps": 38,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Hoffenheim",
+    "start": "2014-07-01",
+    "end": "2015-07-06",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim II",
+    "start": "2013-07-01",
+    "end": "2015-06-30",
+    "apps": 40,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Eintracht Frankfurt II",
+    "start": "2012-10-01",
+    "end": "2013-06-30",
+    "apps": 9,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Hoffenheim U19",
+    "start": "2013-07-01",
+    "end": "2014-06-30",
+    "apps": 13,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Eintracht Frankfurt U19",
+    "start": "2012-08-01",
+    "end": "2013-06-30",
+    "apps": 18,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2015-01-01",
+    "end": "2017-09-03",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U20",
+    "start": "2015-01-01",
+    "end": "2016-12-31",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U19",
+    "start": "2013-01-01",
+    "end": "2014-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U17",
+    "start": "2011-10-10",
+    "end": "2012-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Brøndby IF",
+   "to": "Köln",
+   "date": "2021-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Hoffenheim",
+   "to": "Brøndby IF",
+   "date": "2018-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Hoffenheim",
+   "to": "Dynamo Dresden",
+   "date": "2016-07-01",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T00:42:59+00:00"
+}

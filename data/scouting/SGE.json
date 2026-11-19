@@ -1,0 +1,599 @@
+{
+ "team": "SGE",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "4-4-2",
+    "games": 5
+   },
+   {
+    "formation": "3-4-2-1",
+    "games": 2
+   },
+   {
+    "formation": "4-2-3-1",
+    "games": 2
+   }
+  ],
+  "tags": [
+   {
+    "text": "Hohes Pressing",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 4.6278,
+      "fmt": "dec1",
+      "rank": 4
+     }
+    ]
+   },
+   {
+    "text": "Standardstark",
+    "evidence": [
+     {
+      "label": "Anteil Tore nach Standards",
+      "value": 0.357,
+      "fmt": "pct"
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83239,
+  "home": "SGE",
+  "away": "TSG",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4115,
+   0.2378,
+   0.3507
+  ]
+ },
+ "strengths": [
+  {
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.748,
+   "fmt": "pct",
+   "rank": 1
+  }
+ ],
+ "weaknesses": [
+  {
+   "label": "Zugelassene xG nach Standards pro Spiel",
+   "value": 0.74,
+   "fmt": "dec2",
+   "rank": 18
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.74,
+     "fmt": "dec2",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 6,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.3,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 4.6278,
+     "fmt": "dec1",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.3333,
+     "fmt": "dec1",
+     "rank": 13
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.74,
+     "fmt": "dec2",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 6,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.3,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
+   "evidence": [
+    {
+     "label": "PPDA",
+     "value": 4.6278,
+     "fmt": "dec1",
+     "rank": 4
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4989,
+    "fmt": "pct",
+    "rank": 9
+   },
+   {
+    "label": "Passquote",
+    "value": 0.7998,
+    "fmt": "pct",
+    "rank": 11
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.3802,
+    "fmt": "pct",
+    "rank": 9
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.4482,
+    "fmt": "pct",
+    "rank": 7
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2543,
+    "fmt": "pct",
+    "rank": 10
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.494,
+    "fmt": "pct",
+    "rank": 9
+   }
+  ],
+  "zones": {
+   "left": 34.8,
+   "center": 26.7,
+   "right": 38.6
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 7,
+    "xg": 9.79,
+    "shots": 77,
+    "share": 0.5
+   },
+   "Konter": {
+    "goals": 2,
+    "xg": 2.25,
+    "shots": 11,
+    "share": 0.143
+   },
+   "Standard": {
+    "goals": 5,
+    "xg": 3.71,
+    "shots": 39,
+    "share": 0.357
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   6,
+   1,
+   1,
+   3,
+   2,
+   2
+  ],
+  "goals": 15,
+  "inside_box": 0.748,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.6667,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.7467,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 3.0,
+    "fmt": "dec1",
+    "rank": 9
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1238,
+    "fmt": "dec2",
+    "rank": 4
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -0.72,
+    "fmt": "signed1",
+    "rank": 10
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 10,
+    "xg": 7.55,
+    "shots": 73,
+    "share": 0.526
+   },
+   "Konter": {
+    "goals": 2,
+    "xg": 2.33,
+    "shots": 15,
+    "share": 0.105
+   },
+   "Standard": {
+    "goals": 6,
+    "xg": 7.02,
+    "shots": 56,
+    "share": 0.316
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 1.58,
+    "shots": 2,
+    "share": 0.053
+   }
+  },
+  "bands": [
+   4,
+   0,
+   4,
+   4,
+   2,
+   6
+  ],
+  "goals": 20,
+  "opp_zones": {
+   "left": 37.6,
+   "center": 27.1,
+   "right": 35.3
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 2.2222,
+    "fmt": "dec2",
+    "rank": 14
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 1.9867,
+    "fmt": "dec2",
+    "rank": 13
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 16.2222,
+    "fmt": "dec1",
+    "rank": 11
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 3.3333,
+    "fmt": "dec1",
+    "rank": 13
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 1,
+    "fmt": "int",
+    "rank": 11
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.4289,
+    "fmt": "dec2",
+    "rank": 9
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.74,
+    "fmt": "dec2",
+    "rank": 18
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 5.0,
+    "fmt": "dec1",
+    "rank": 10
+   }
+  ],
+  "goals_for": 5,
+  "goals_against": 6,
+  "corners_against": 5.0
+ },
+ "key_players": [
+  {
+   "id": 1447050,
+   "name": "Younes Ebnoutalib",
+   "pos": null,
+   "minutes": 593,
+   "goals": 6,
+   "assists": 1,
+   "rating": 7.31,
+   "xg90": 0.83,
+   "xa90": 0.15,
+   "why": []
+  },
+  {
+   "id": 1367924,
+   "name": "Can Uzun",
+   "pos": null,
+   "minutes": 580,
+   "goals": 2,
+   "assists": 1,
+   "rating": 7.2,
+   "xg90": 0.42,
+   "xa90": 0.27,
+   "why": []
+  },
+  {
+   "id": 1345875,
+   "name": "Farès Chaïbi",
+   "pos": null,
+   "minutes": 482,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.08,
+   "xg90": 0.22,
+   "xa90": 0.32,
+   "why": []
+  },
+  {
+   "id": 947901,
+   "name": "Jonathan Burkardt",
+   "pos": null,
+   "minutes": 674,
+   "goals": 5,
+   "assists": 1,
+   "rating": 7.27,
+   "xg90": 0.4,
+   "xa90": 0.13,
+   "why": []
+  },
+  {
+   "id": 629805,
+   "name": "Ritsu Doan",
+   "pos": "RW",
+   "minutes": 642,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.86,
+   "xg90": 0.09,
+   "xa90": 0.28,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  }
+ ],
+ "lines": {
+  "Abwehr": {
+   "id": 628201,
+   "name": "Robin Koch",
+   "rating": 7.0,
+   "minutes": 765
+  },
+  "Angriff": {
+   "id": 629805,
+   "name": "Ritsu Doan",
+   "rating": 6.86,
+   "minutes": 642
+  }
+ },
+ "load": [
+  {
+   "id": 628201,
+   "name": "Robin Koch",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1073941,
+   "name": "Lilian Brassier",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1281100,
+   "name": "Noah Atubolu",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1126768,
+   "name": "Raphael Onyedika",
+   "minutes": 265,
+   "full": true
+  },
+  {
+   "id": 1345875,
+   "name": "Farès Chaïbi",
+   "minutes": 264,
+   "full": true
+  },
+  {
+   "id": 1421821,
+   "name": "Elias Baum",
+   "minutes": 255,
+   "full": true
+  },
+  {
+   "id": 629805,
+   "name": "Ritsu Doan",
+   "minutes": 241,
+   "full": false
+  },
+  {
+   "id": 1596359,
+   "name": "Noël Aséko",
+   "minutes": 218,
+   "full": false
+  },
+  {
+   "id": 947901,
+   "name": "Jonathan Burkardt",
+   "minutes": 183,
+   "full": false
+  },
+  {
+   "id": 1447050,
+   "name": "Younes Ebnoutalib",
+   "minutes": 177,
+   "full": false
+  },
+  {
+   "id": 1367924,
+   "name": "Can Uzun",
+   "minutes": 166,
+   "full": false
+  },
+  {
+   "id": 1176780,
+   "name": "Nnamdi Collins",
+   "minutes": 135,
+   "full": false
+  },
+  {
+   "id": 1175708,
+   "name": "Ansgar Knauff",
+   "minutes": 103,
+   "full": false
+  },
+  {
+   "id": 1627706,
+   "name": "Keita Kosugi",
+   "minutes": 45,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Elias Baum",
+   "kind": "Gelb-Rote Karte",
+   "note": "Elias Baum Sperre"
+  },
+  {
+   "name": "Jessic Ngankam",
+   "kind": "Aufbautraining",
+   "note": "Jessic Ngankam Adduktorenzerrung"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 4,
+   "points": 5
+  },
+  "ht_draw": {
+   "games": 4,
+   "points": 7
+  },
+  "ht_trail": {
+   "games": 1,
+   "points": 0
+  },
+  "points_from_behind": 2,
+  "points_dropped": 9,
+  "late_for": 2,
+  "late_against": 6,
+  "goals_for": 15,
+  "goals_against": 20,
+  "for_bands": [
+   6,
+   1,
+   1,
+   3,
+   2,
+   2
+  ],
+  "against_bands": [
+   4,
+   0,
+   4,
+   4,
+   2,
+   6
+  ]
+ },
+ "season": 2026
+}

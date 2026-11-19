@@ -1,0 +1,521 @@
+{
+ "id": 628201,
+ "name": "Robin Koch",
+ "team": "SGE",
+ "team_name": "Eintracht Frankfurt",
+ "birth_date": "1996-07-17",
+ "age": 30,
+ "height_cm": 192,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 4,
+ "market_value": 10430248,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.29,
+   "per90": 0.03411764705882352,
+   "pct": 40.57971014492754,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.85,
+   "per90": 0.10052941176470588,
+   "pct": 76.81159420289855,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.29,
+   "per90": 0.03411764705882352,
+   "pct": 42.028985507246375,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 8,
+   "per90": 0.9411764705882353,
+   "pct": 69.56521739130434,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 5,
+   "per90": 0.5882352941176471,
+   "pct": 95.65217391304348,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 8,
+   "per90": 0.9411764705882353,
+   "pct": 88.40579710144928,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.11764705882352941,
+   "pct": 89.85507246376811,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.13,
+   "per90": 0.014884841176470587,
+   "pct": 15.942028985507244,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 418,
+   "per90": 49.17647058823529,
+   "pct": 49.275362318840585,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 86.2,
+   "per90": 86.18556701030928,
+   "pct": 47.82608695652174,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 29,
+   "per90": 3.411764705882353,
+   "pct": 76.81159420289855,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 51.8,
+   "per90": 51.785714285714285,
+   "pct": 73.91304347826086,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 53,
+   "per90": 6.235294117647059,
+   "pct": 89.85507246376811,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 2,
+   "per90": 0.23529411764705882,
+   "pct": 39.130434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 1,
+   "per90": 0.11764705882352941,
+   "pct": 79.71014492753623,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 56,
+   "per90": 6.588235294117648,
+   "pct": 84.05797101449275,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 62.9,
+   "per90": 62.92134831460674,
+   "pct": 63.76811594202898,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 45,
+   "per90": 5.294117647058823,
+   "pct": 94.20289855072464,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 68.2,
+   "per90": 68.18181818181819,
+   "pct": 78.26086956521739,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 631,
+   "per90": 74.23529411764706,
+   "pct": 50.72463768115942,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 14,
+   "per90": 1.647058823529412,
+   "pct": 72.46376811594203,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 3,
+   "per90": 0.3529411764705882,
+   "pct": 28.985507246376812,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 111,
+   "per90": 13.058823529411766,
+   "pct": 86.95652173913044,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 8,
+   "per90": 0.9411764705882353,
+   "pct": 11.594202898550725,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 13,
+   "per90": 1.5294117647058822,
+   "pct": 50.72463768115942,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 4,
+   "per90": 0.47058823529411764,
+   "pct": 27.536231884057973,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 8,
+   "per90": 0.9411764705882353,
+   "pct": 56.52173913043478,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 28,
+   "per90": 3.294117647058824,
+   "pct": 30.434782608695656,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.11764705882352941,
+   "pct": 72.46376811594203,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 5,
+   "per90": 0.5882352941176471,
+   "pct": 37.68115942028986,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 86,
+   "per90": 10.117647058823529,
+   "pct": 92.7536231884058,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.11764705882352941,
+   "pct": 43.47826086956522,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 18,
+   "per90": 2.1176470588235294,
+   "pct": 31.88405797101449,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 15.85,
+   "per90": 1.8647999999999998,
+   "pct": 43.47826086956522,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.11764705882352941,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other center-backs",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.22
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.9
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.91
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.78
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.46
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.67
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Eintracht Frankfurt",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 96,
+    "goals": 8,
+    "kind": null
+   },
+   {
+    "team": "Eintracht Frankfurt",
+    "start": "2023-07-06",
+    "end": "2024-06-30",
+    "apps": 42,
+    "goals": 4,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Leeds United",
+    "start": "2020-08-29",
+    "end": "2023-07-06",
+    "apps": 79,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Freiburg",
+    "start": "2017-08-22",
+    "end": "2020-08-29",
+    "apps": 87,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "Kaiserslautern",
+    "start": "2016-07-01",
+    "end": "2017-08-22",
+    "apps": 28,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Kaiserslautern II",
+    "start": "2015-07-01",
+    "end": "2017-08-22",
+    "apps": 27,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Eintracht Trier",
+    "start": "2014-07-01",
+    "end": "2015-06-30",
+    "apps": 23,
+    "goals": 2,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Leeds United U23",
+    "start": "2021-03-14",
+    "end": "2021-06-30",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Germany",
+    "start": "2019-10-07",
+    "end": "2025-11-06",
+    "apps": 15,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2018-10-01",
+    "end": "2019-08-28",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Leeds",
+   "to": "Frankfurt",
+   "date": "2024-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Leeds",
+   "to": "Frankfurt",
+   "date": "2023-07-06",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Freiburg",
+   "to": "Leeds",
+   "date": "2020-08-29",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Kaiserslautern",
+   "to": "Freiburg",
+   "date": "2017-08-22",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:42:59+00:00"
+}

@@ -1,0 +1,625 @@
+{
+ "team": "BMG",
+ "matches": 9,
+ "fotmob_matches": 9,
+ "idea": {
+  "formations": [
+   {
+    "formation": "3-4-2-1",
+    "games": 5
+   },
+   {
+    "formation": "4-2-3-1",
+    "games": 2
+   },
+   {
+    "formation": "4-4-2",
+    "games": 2
+   }
+  ],
+  "tags": [
+   {
+    "text": "Überlässt dem Gegner den Ball",
+    "evidence": [
+     {
+      "label": "Ballbesitz Ø",
+      "value": 0.4456,
+      "fmt": "pct",
+      "rank": 15
+     }
+    ]
+   },
+   {
+    "text": "Abwartend gegen den Ball",
+    "evidence": [
+     {
+      "label": "PPDA",
+      "value": 5.5833,
+      "fmt": "dec1",
+      "rank": 16
+     }
+    ]
+   }
+  ]
+ },
+ "next": {
+  "id": 83242,
+  "home": "BMG",
+  "away": "BVB",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.3878,
+   0.2517,
+   0.3605
+  ]
+ },
+ "strengths": [],
+ "weaknesses": [
+  {
+   "label": "Gegentore pro Spiel",
+   "value": 2.7778,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "label": "Zweikampfquote",
+   "value": 0.4568,
+   "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "label": "Fouls pro Spiel",
+   "value": 14.3333,
+   "fmt": "dec1",
+   "rank": 18
+  },
+  {
+   "label": "Gegentore minus zugelassene xG",
+   "value": 5.4,
+   "fmt": "signed1",
+   "rank": 18
+  }
+ ],
+ "matchplan": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 8,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.32,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.6889,
+     "fmt": "dec2",
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4511,
+     "fmt": "pct",
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.7778,
+     "fmt": "dec1",
+     "rank": 15
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "late",
+   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "evidence": [
+    {
+     "label": "Gegentore ab der 76. Minute",
+     "value": 8,
+     "fmt": "int"
+    },
+    {
+     "label": "Anteil an allen Gegentoren",
+     "value": 0.32,
+     "fmt": "pct"
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.6889,
+     "fmt": "dec2",
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
+   "evidence": [
+    {
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4511,
+     "fmt": "pct",
+     "rank": 17
+    }
+   ]
+  }
+ ],
+ "buildup": {
+  "metrics": [
+   {
+    "label": "Ballbesitz Ø",
+    "value": 0.4456,
+    "fmt": "pct",
+    "rank": 15
+   },
+   {
+    "label": "Passquote",
+    "value": 0.7803,
+    "fmt": "pct",
+    "rank": 16
+   },
+   {
+    "label": "Anteil Pässe in der gegn. Hälfte",
+    "value": 0.322,
+    "fmt": "pct",
+    "rank": 17
+   },
+   {
+    "label": "Lange Bälle angekommen",
+    "value": 0.3658,
+    "fmt": "pct",
+    "rank": 16
+   },
+   {
+    "label": "Flankenquote",
+    "value": 0.2401,
+    "fmt": "pct",
+    "rank": 12
+   },
+   {
+    "label": "Field Tilt",
+    "value": 0.4573,
+    "fmt": "pct",
+    "rank": 12
+   }
+  ],
+  "zones": {
+   "left": 39.8,
+   "center": 28.3,
+   "right": 31.9
+  }
+ },
+ "scoring": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 8,
+    "xg": 8.97,
+    "shots": 80,
+    "share": 0.667
+   },
+   "Konter": {
+    "goals": 1,
+    "xg": 1.2,
+    "shots": 11,
+    "share": 0.083
+   },
+   "Standard": {
+    "goals": 2,
+    "xg": 3.48,
+    "shots": 45,
+    "share": 0.167
+   },
+   "Elfmeter": {
+    "goals": 1,
+    "xg": 1.58,
+    "shots": 2,
+    "share": 0.083
+   }
+  },
+  "bands": [
+   2,
+   0,
+   4,
+   4,
+   1,
+   1
+  ],
+  "goals": 12,
+  "inside_box": 0.638,
+  "metrics": [
+   {
+    "label": "Tore pro Spiel",
+    "value": 1.3333,
+    "fmt": "dec2",
+    "rank": 13
+   },
+   {
+    "label": "xG pro Spiel",
+    "value": 1.6822,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Großchancen pro Spiel",
+    "value": 2.4444,
+    "fmt": "dec1",
+    "rank": 12
+   },
+   {
+    "label": "xG pro Schuss",
+    "value": 0.1097,
+    "fmt": "dec2",
+    "rank": 10
+   },
+   {
+    "label": "Tore minus xG",
+    "value": -3.14,
+    "fmt": "signed1",
+    "rank": 16
+   }
+  ]
+ },
+ "conceding": {
+  "situations": {
+   "Spielaufbau": {
+    "goals": 15,
+    "xg": 11.68,
+    "shots": 89,
+    "share": 0.6
+   },
+   "Konter": {
+    "goals": 4,
+    "xg": 2.23,
+    "shots": 16,
+    "share": 0.16
+   },
+   "Standard": {
+    "goals": 6,
+    "xg": 6.9,
+    "shots": 49,
+    "share": 0.24
+   },
+   "Elfmeter": {
+    "goals": 0,
+    "xg": 0.0,
+    "shots": 0,
+    "share": 0.0
+   }
+  },
+  "bands": [
+   3,
+   6,
+   0,
+   4,
+   4,
+   8
+  ],
+  "goals": 25,
+  "opp_zones": {
+   "left": 37.3,
+   "center": 28.7,
+   "right": 34.0
+  },
+  "metrics": [
+   {
+    "label": "Gegentore pro Spiel",
+    "value": 2.7778,
+    "fmt": "dec2",
+    "rank": 18
+   },
+   {
+    "label": "Zugelassene xG pro Spiel",
+    "value": 2.1778,
+    "fmt": "dec2",
+    "rank": 16
+   },
+   {
+    "label": "Zugelassene Schüsse pro Spiel",
+    "value": 17.1111,
+    "fmt": "dec1",
+    "rank": 14
+   },
+   {
+    "label": "Zugelassene Großchancen pro Spiel",
+    "value": 3.7778,
+    "fmt": "dec1",
+    "rank": 15
+   },
+   {
+    "label": "Spiele ohne Gegentor",
+    "value": 1,
+    "fmt": "int",
+    "rank": 11
+   }
+  ]
+ },
+ "setpieces": {
+  "metrics": [
+   {
+    "label": "xG nach Standards pro Spiel",
+    "value": 0.3911,
+    "fmt": "dec2",
+    "rank": 11
+   },
+   {
+    "label": "Zugelassene xG nach Standards pro Spiel",
+    "value": 0.6889,
+    "fmt": "dec2",
+    "rank": 17
+   },
+   {
+    "label": "Ecken pro Spiel",
+    "value": 5.3333,
+    "fmt": "dec1",
+    "rank": 8
+   }
+  ],
+  "goals_for": 2,
+  "goals_against": 6,
+  "corners_against": 5.67
+ },
+ "key_players": [
+  {
+   "id": 1351569,
+   "name": "Hugo Bolin",
+   "pos": null,
+   "minutes": 561,
+   "goals": 2,
+   "assists": 0,
+   "rating": 7.02,
+   "xg90": 0.36,
+   "xa90": 0.18,
+   "why": []
+  },
+  {
+   "id": 1793874,
+   "name": "Wael Mohya",
+   "pos": null,
+   "minutes": 535,
+   "goals": 2,
+   "assists": 1,
+   "rating": 6.76,
+   "xg90": 0.38,
+   "xa90": 0.1,
+   "why": []
+  },
+  {
+   "id": 959696,
+   "name": "Joseph Scally",
+   "pos": null,
+   "minutes": 687,
+   "goals": 3,
+   "assists": 2,
+   "rating": 6.73,
+   "xg90": 0.24,
+   "xa90": 0.1,
+   "why": []
+  },
+  {
+   "id": 1398483,
+   "name": "Lukas Ullrich",
+   "pos": null,
+   "minutes": 676,
+   "goals": 0,
+   "assists": 2,
+   "rating": 6.62,
+   "xg90": 0.09,
+   "xa90": 0.11,
+   "why": []
+  },
+  {
+   "id": 566158,
+   "name": "Kevin Diks",
+   "pos": "CB",
+   "minutes": 574,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.85,
+   "xg90": 0.15,
+   "xa90": 0.05,
+   "why": [
+    "Ballverluste im Zweikampf (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  }
+ ],
+ "lines": {
+  "Abwehr": {
+   "id": 566158,
+   "name": "Kevin Diks",
+   "rating": 5.85,
+   "minutes": 574
+  }
+ },
+ "load": [
+  {
+   "id": 951918,
+   "name": "Philipp Sander",
+   "minutes": 270,
+   "full": true
+  },
+  {
+   "id": 1337143,
+   "name": "Zento Uno",
+   "minutes": 261,
+   "full": true
+  },
+  {
+   "id": 1398483,
+   "name": "Lukas Ullrich",
+   "minutes": 261,
+   "full": true
+  },
+  {
+   "id": 764507,
+   "name": "Florian Neuhaus",
+   "minutes": 257,
+   "full": true
+  },
+  {
+   "id": 1276331,
+   "name": "Fabio Chiarodia",
+   "minutes": 256,
+   "full": true
+  },
+  {
+   "id": 959696,
+   "name": "Joseph Scally",
+   "minutes": 250,
+   "full": true
+  },
+  {
+   "id": 1793874,
+   "name": "Wael Mohya",
+   "minutes": 237,
+   "full": false
+  },
+  {
+   "id": 915111,
+   "name": "Shuto Machino",
+   "minutes": 234,
+   "full": false
+  },
+  {
+   "id": 878296,
+   "name": "Daiki Hashioka",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 212873,
+   "name": "Daniel Batz",
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 884919,
+   "name": "Robin Hack",
+   "minutes": 153,
+   "full": false
+  },
+  {
+   "id": 784146,
+   "name": "Moritz Nicolas",
+   "minutes": 90,
+   "full": false
+  },
+  {
+   "id": 1351569,
+   "name": "Hugo Bolin",
+   "minutes": 84,
+   "full": false
+  },
+  {
+   "id": 620917,
+   "name": "Ko Itakura",
+   "minutes": 62,
+   "full": false
+  }
+ ],
+ "absences": [
+  {
+   "name": "Kō Itakura",
+   "kind": "Gelb-Rote Karte",
+   "note": "Kō Itakura Sperre"
+  },
+  {
+   "name": "Enzo Leopold",
+   "kind": "Verletzung",
+   "note": "Enzo Leopold"
+  },
+  {
+   "name": "Lukas Ullrich",
+   "kind": "Verletzung",
+   "note": "Lukas Ullrich Schlüsselbeinbruch"
+  },
+  {
+   "name": "Jan Leszczyński",
+   "kind": "Verletzung",
+   "note": "Jan Leszczyński"
+  },
+  {
+   "name": "Tim Kleindienst",
+   "kind": "Aufbautraining",
+   "note": "Tim Kleindienst"
+  },
+  {
+   "name": "Hugo Bolin",
+   "kind": "Aufbautraining",
+   "note": "Hugo Bolin"
+  }
+ ],
+ "reaction": {
+  "ht_lead": {
+   "games": 1,
+   "points": 0
+  },
+  "ht_draw": {
+   "games": 4,
+   "points": 4
+  },
+  "ht_trail": {
+   "games": 4,
+   "points": 0
+  },
+  "points_from_behind": 3,
+  "points_dropped": 6,
+  "late_for": 1,
+  "late_against": 8,
+  "goals_for": 12,
+  "goals_against": 25,
+  "for_bands": [
+   2,
+   0,
+   4,
+   4,
+   1,
+   1
+  ],
+  "against_bands": [
+   3,
+   6,
+   0,
+   4,
+   4,
+   8
+  ]
+ },
+ "season": 2026
+}
