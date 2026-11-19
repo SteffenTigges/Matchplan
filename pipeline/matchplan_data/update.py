@@ -47,7 +47,7 @@ def _lineup_from_dict(d: dict) -> TeamLineup:
 SETTLE = timedelta(hours=48)
 RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange erneut versuchen
 CORE_STATS = {"expected_goals", "passes", "total_shots"}
-PLAYER_CAP = 40  # Spielerseiten pro Lauf
+PLAYER_CAP = 120  # Spielerseiten pro Lauf (≈ 4 min); alle ~420 Profile nach etwa vier Läufen
 PLAYER_FRESH = timedelta(days=7)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
 
