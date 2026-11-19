@@ -33,3 +33,10 @@ test("legend_explains_percentile_and_per90", () => {
   expect(html).toContain("Perzentil");
   expect(html).toContain("/90");
 });
+
+test("legend_explains_prediction_terms", () => {
+  const html = legendFor("<p>Brier-Score 0,59</p><b>Über 2,5 Tore</b>");
+  expect(html).toContain("Brier-Score");
+  expect(html).toContain("Über/Unter 2,5");
+  expect(html).not.toContain("Dixon-Coles");
+});

@@ -53,3 +53,9 @@ test("history_lists_events_in_order", () => {
 test("history_empty_state", () => {
   expect(renderHistory([], { BMG: H })).toContain("Noch keine Änderungen");
 });
+
+test("pitch_shows_goal_probability", () => {
+  const home = team("Heim", [3, 4, 3]);
+  const html = renderPitch(home, team("Gast", [4, 4, 2]), H, A, { [home.rows[home.rows.length - 1]![0]!.player.id]: 0.42 });
+  expect(html).toContain("42%");
+});

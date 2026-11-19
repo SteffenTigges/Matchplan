@@ -8,7 +8,7 @@ const initials = (name: string): string =>
   name.split(/\s+/).filter(Boolean).map((w) => w[0]!.toUpperCase()).slice(0, 2).join("");
 
 /** Spielfeld mit beiden voraussichtlichen Aufstellungen: Heim unten, Gast oben. */
-export function renderPitch(home: TeamLineup, away: TeamLineup, homeTeam: TeamInfo, awayTeam: TeamInfo): string {
+export function renderPitch(home: TeamLineup, away: TeamLineup, homeTeam: TeamInfo, awayTeam: TeamInfo, goal: Record<string, number> = {}): string {
   let uid = 0;
   const place = (lu: TeamLineup, info: TeamInfo, isHome: boolean): string => {
     const R = lu.rows.length;
@@ -40,6 +40,10 @@ export function renderPitch(home: TeamLineup, away: TeamLineup, homeTeam: TeamIn
         const fs = n >= 5 ? 7.2 : 7.8;
         out += `<text x="${tx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" font-size="${fs}" font-weight="700" fill="#fff">${esc(p.name)}</text>`;
         if (alt) out += `<text x="${tx.toFixed(1)}" y="${(ly + 8.5).toFixed(1)}" text-anchor="${anchor}" font-size="6.6" fill="#ffd27a">oder ${esc(alt)}</text>`;
+        const g = goal[p.id];
+        if (g !== undefined && g >= 0.005) {
+          out += `<text x="${(x + 8).toFixed(1)}" y="${(y - 6).toFixed(1)}" font-size="6.4" font-weight="700" fill="#fff" stroke="#0b5" stroke-width="2.4" paint-order="stroke">${Math.round(g * 100)}%</text>`;
+        }
       });
     });
     return out;

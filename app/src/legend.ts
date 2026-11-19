@@ -13,6 +13,13 @@ const GLOSSAR: { test: RegExp; term: (m: RegExpMatchArray) => string; text: stri
   { test: /Momentum/, term: () => "Momentum", text: "Wer gerade drückt: Druck und Gefahr beider Teams Minute für Minute im Vergleich." },
   { test: /Perzentil/, term: () => "Perzentil", text: "Besser als so viel Prozent der Spieler auf derselben Position in der Liga. 87 = besser als 87 %." },
   { test: /\/90/, term: () => "/90", text: "Pro 90 Minuten Spielzeit, damit Spieler mit vielen und wenigen Minuten vergleichbar sind." },
+  { test: /Dixon-Coles/, term: () => "Dixon-Coles", text: "Korrektur der Poisson-Rechnung: Ergebnisse wie 0:0, 1:0, 0:1 und 1:1 kommen im Fußball etwas anders oft vor, als die einfache Rechnung sagt." },
+  { test: /Poisson/, term: () => "Poisson-Verteilung", text: "Rechenmodell für seltene Ereignisse wie Tore: Aus den erwarteten Toren ergibt sich, wie wahrscheinlich 0, 1, 2 … Tore sind." },
+  { test: /λ/, term: () => "λ", text: "Erwartete Tore eines Teams in diesem Spiel, die Grundlage aller Wahrscheinlichkeiten." },
+  { test: /ρ/, term: () => "ρ", text: "Stärke der Dixon-Coles-Korrektur, an früheren Bundesliga-Saisons ermittelt." },
+  { test: /Brier-Score/, term: () => "Brier-Score", text: "Gütemaß für Wahrscheinlichkeiten: 0 = perfekt, 2 = komplett daneben. Wer dem tatsächlichen Ausgang mehr Prozent gab, schneidet besser ab." },
+  { test: /Implizite Wahrscheinlichkeit/, term: () => "Implizite Wahrscheinlichkeit", text: "Aus der Quote abgeleitete Chance (1 geteilt durch Quote), so umgerechnet, dass Sieg, Remis und Niederlage zusammen 100 % ergeben." },
+  { test: /Über 2,5|Unter 2,5/, term: () => "Über/Unter 2,5", text: "Fallen insgesamt mindestens 3 Tore (über) oder höchstens 2 (unter)?" },
   { test: /Näherung/, term: () => "Näherung", text: "Wert aus verfügbaren Zahlen nachgebildet, nicht von der Quelle direkt gemessen." },
 ];
 
