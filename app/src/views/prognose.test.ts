@@ -81,3 +81,11 @@ test("model_check_card", () => {
   expect(html).toContain("Brier-Score");
   expect(html).toContain("0,57");
 });
+
+test("cross_check_shows_elo_without_odds", () => {
+  const html = renderPrognosis(m, { ...p, odds: null, elo: { home: 1890, away: 1610, probs: [0.7, 0.18, 0.12] } }, season);
+  expect(html).toContain("Gegencheck");
+  expect(html).toContain("Bayern 1890");
+  expect(html).toContain("70 %");
+  expect(html).toContain("Buchmacherquoten folgen");
+});

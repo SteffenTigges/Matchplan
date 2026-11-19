@@ -1,4 +1,4 @@
-import type { SimilarEntry, CareerEntry, PlayerProfile, PlayerRow, Season, TeamInfo } from "../data";
+import type { Compare, SimilarEntry, CareerEntry, PlayerProfile, PlayerRow, Season, TeamInfo } from "../data";
 import { crest, esc, photo } from "../ui";
 
 const info = (s: Season, k: string | null): TeamInfo | null => (k ? s.teams[k] ?? null : null);
@@ -60,20 +60,38 @@ function compareList(items: SimilarEntry[], season: Season, label: (x: SimilarEn
 }
 
 /** „Ähnliche Spieler“ (Stil) und „Könnte so gut werden wie …“ (Wirkung), getrennt. */
-export function renderCompare(sim: { style: SimilarEntry[]; could_be: SimilarEntry[] } | null, p: PlayerProfile | null, season: Season): string {
+export function renderCompare(sim: Compare | null, p: PlayerProfile | null, season: Season): string {
   if (!sim) return "";
   const style = sim.style.length
     ? `<section class="card"><h2>Ähnliche Spieler</h2><p class="muted">Nach Spielstil: wie ähnlich die Perzentil-Werte sind (gleiche Positionsgruppe, Bundesliga).</p>${compareList(sim.style, season, (x) => `${Math.round(x.score)} %<br><span class="muted" style="font-weight:400">ähnlich</span>`)}</section>`
     : "";
   const young = (p?.age ?? 99) <= 24;
-  const could = young && sim.could_be.length
+  const same = young && sim.same_age?.length
+    ? `<section class="card"><h2>Könnte so gut werden wie …</h2><p class="muted">Verglichen mit Topspielern aus Bundesliga, Premier League, LaLiga, Serie A und Ligue 1 – und zwar mit der Saison, in der sie genauso alt waren. Note und Tore + Vorlagen pro Spiel in der Liga.</p>
+        <div class="list">${sim.same_age
+          .map((x) => `<a class="item" href="#spieler/${x.id}">${photo(fotmobPhoto(x.id), x.name, 40)}<span class="grow"><b>${esc(x.name)}</b> <span class="muted">mit ${x.then.age} (${esc(x.then.season)}, ${esc(x.then.league)})</span><br>
+            <span class="muted">damals Note ${de(x.then.rating, 2)} · ${de(x.then.ga, 2)} T+V/Spiel – ${esc(p?.name ?? "")} heute ${de(x.now.rating, 2)} · ${de(x.now.ga, 2)}</span></span>
+            <span class="num" style="font-weight:700;text-align:right">${Math.round(x.score)} %<br><span class="muted" style="font-weight:400">auf Kurs</span></span></a>`)
+          .join("")}</div></section>`
+    : "";
+  const could = young && !same && sim.could_be.length
     ? `<section class="card"><h2>Könnte so gut werden wie …</h2><p class="muted">Nach Wirkung pro 90 Minuten (bei Offensivspielern xG, xA, vorbereitete Torchancen, Ballaktionen im Strafraum), verglichen mit heutigen Bundesliga-Topspielern zwischen 25 und 30 Jahren. Der Prozentwert zeigt, wie viel ihrer Wirkung ${esc(p?.name ?? "er")} mit ${p?.age} Jahren schon erreicht.</p>${compareList(sim.could_be, season, (x) => `${Math.round(x.score)} %<br><span class="muted" style="font-weight:400">der Wirkung</span>`)}
         <p class="muted">Frühere Saisons im selben Alter und Spieler anderer Ligen geben die freien Quellen nicht her. Deshalb ist der Vergleich auf heutige Bundesliga-Spieler beschränkt.</p></section>`
     : "";
-  return style + could;
+  return style + same + could;
 }
 
-export function renderPlayer(p: PlayerProfile | null, row: PlayerRow | null, season: Season, sim: { style: SimilarEntry[]; could_be: SimilarEntry[] } | null = null): string {
+/** Saison für Saison: Liga-Einsätze, Tore, Vorlagen, Note (FotMob-Karriere). */
+export function renderSeasons(p: PlayerProfile | null): string {
+  const rows = (p?.seasons ?? []).flatMap((s) => (s.competitions.length ? s.competitions : []).filter((c) => (c.apps ?? 0) > 0).map((c) => ({ season: s.season, ...c })));
+  if (!rows.length) return "";
+  return `<section class="card"><h2>Saison für Saison</h2><div class="stable"><span class="tlab">Saison</span><span class="tlab">Wettbewerb</span><span class="tlab">Sp.</span><span class="tlab">T</span><span class="tlab">V</span><span class="tlab">Note</span>${rows
+    .slice(0, 40)
+    .map((r) => `<span class="num">${esc(r.season.replace(/^20(\d\d)\/20(\d\d)$/, "$1/$2"))}</span><span class="cut">${esc(r.league)}</span><span class="num">${r.apps ?? "–"}</span><span class="num">${r.goals ?? "–"}</span><span class="num">${r.assists ?? "–"}</span><span class="num">${r.rating != null ? de(r.rating, 2) : "–"}</span>`)
+    .join("")}</div><p class="muted">Quelle: FotMob</p></section>`;
+}
+
+export function renderPlayer(p: PlayerProfile | null, row: PlayerRow | null, season: Season, sim: Compare | null = null): string {
   const id = p?.id ?? row?.id ?? 0;
   const name = p?.name ?? row?.name ?? "";
   const t = info(season, p ? p.team : row?.team ?? null); // mit Profil zählt dessen aktueller Verein
@@ -112,7 +130,7 @@ export function renderPlayer(p: PlayerProfile | null, row: PlayerRow | null, sea
         .map((x) => `<div class="item"><span class="num muted" style="width:44px">${esc(x.date?.slice(0, 4) ?? "")}</span><span class="grow">${esc(x.from)} → <b>${esc(x.to)}</b></span><span class="chip">${esc(x.fee ?? "–")}</span></div>`)
         .join("")}</div></section>`
     : "";
-  return hero + season_ + stats + renderCompare(sim, p, season) + career + transfers;
+  return hero + season_ + stats + renderCompare(sim, p, season) + renderSeasons(p) + career + transfers;
 }
 
 export function renderSquad(rows: PlayerRow[], team: string): string {

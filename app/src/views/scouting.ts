@@ -1,4 +1,5 @@
-import type { Evidence, Finding, ScoutReport, Season, Situations, TeamInfo, Zones } from "../data";
+import type { Evidence, Finding, Referees, ScoutReport, Season, Situations, TeamInfo, Zones } from "../data";
+import { renderReferee } from "./referee";
 import { berlin, crest, esc, photo } from "../ui";
 import { ratingColor } from "./analysis";
 import { fotmobPhoto } from "./players";
@@ -72,7 +73,7 @@ function duels(r: ScoutReport, mine: ScoutReport, season: Season): string {
   return section("duelle", "Duelle", rows || none("Noch zu wenige Einsatzminuten für einen Vergleich."));
 }
 
-export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport | null, open?: string): string {
+export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport | null, open?: string, refs: Referees | null = null): string {
   const t = team(season, r.team);
   const evRows = (list: Evidence[]): string => (list.length ? `<div class="evs">${list.map((e) => evidence(e, r.team)).join("")}</div>` : "");
   const nav = `<div class="seg">${AREAS.map((a) => `<a href="#scouting/${esc(r.team)}/${a.id}">${esc(a.title)}</a>`).join("")}</div>`;
@@ -135,7 +136,7 @@ export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport |
   const verlauf = area("verlauf", "Spielverlauf",
     section("reaktion", "Reaktion im Spielverlauf", `<div class="tlab">Nach der Halbzeit, je nach Pausenstand</div><div class="kpis">${ht("Führung", re.ht_lead)}${ht("Unentschieden", re.ht_draw)}${ht("Rückstand", re.ht_trail)}</div>
       <p class="muted">Nach Rückstand noch ${re.points_from_behind} Punkte geholt, nach Führung ${re.points_dropped} Punkte abgegeben. Ab der 76. Minute: ${re.late_for} Tore erzielt, ${re.late_against} kassiert.</p>`) +
-    section("schiri", "Schiedsrichter", none("Für Schiedsrichter-Daten gibt es keine frei nutzbare Quelle. Dieser Abschnitt bleibt leer.")));
+    section("schiri", "Schiedsrichter", r.next ? renderReferee(r.next.id, refs, season, [r.team]) : none("Kein Spiel angesetzt.")));
 
   return hero + nav + ueberblick + mitball + gegen + personal + verlauf + `<p class="muted" style="padding:0 4px">Daten: FotMob (${r.fotmob_matches} Spiele), OpenLigaDB, Ligainsider. Aussagen sind regelbasiert aus den gezeigten Zahlen abgeleitet.</p>`;
 }

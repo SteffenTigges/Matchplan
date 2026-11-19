@@ -14,7 +14,8 @@ from . import probe
 from .forecast import run_forecast
 from .referees import build_referees
 from .scouting import build_report
-from .similar import build_similar
+from .similar import build_similar, group_of
+from .stars import LEAGUES, same_age, stats_rating_url, top_rated
 from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, referee, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
@@ -50,6 +51,7 @@ RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange 
 CORE_STATS = {"expected_goals", "passes", "total_shots"}
 REF_AHEAD = timedelta(days=6)
 PLAYER_FORMAT = 2  # 2: mit Saisonwerten aus der Karriere
+STAR_LIST_FRESH, STAR_FRESH, STAR_CAP, STAR_RATING = timedelta(days=7), timedelta(days=30), 30, 7.2
 PLAYER_CAP = 120  # Spielerseiten pro Lauf (≈ 4 min); alle ~420 Profile nach etwa vier Läufen
 PLAYER_FRESH = timedelta(days=7)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
@@ -154,6 +156,42 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
     status["fotmob"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None, "note": note}
 
 
+def _update_stars(out: Path, get: Callable[[str], str], now: datetime, at: str, status: dict) -> None:
+    """Topspieler der Premier League, LaLiga, Serie A und Ligue 1 samt Werdegang (für Vergleiche im selben Alter)."""
+    idx = _read(out / "stars.json") or {}
+    errors = []
+    if not idx.get("fetched_at") or now - datetime.fromisoformat(idx["fetched_at"]) > STAR_LIST_FRESH:
+        found = []
+        for lid, slug in LEAGUES.items():
+            try:
+                url = stats_rating_url(next_data(get(f"https://www.fotmob.com/leagues/{lid}/stats/{slug}")) or {})
+                if not url:
+                    raise RuntimeError("keine Notenliste")
+                found += [{**r, "league_id": lid} for r in top_rated(get(url))]
+            except Exception as e:
+                errors.append(f"Liga {lid}: {e}")
+        if found:
+            idx = {"fetched_at": at, "players": found}
+            _write(out / "stars.json", idx)
+    due = []
+    for r in idx.get("players", []):
+        prof = _read(out / "stars" / f"{r['id']}.json")
+        if not prof or prof.get("v") != PLAYER_FORMAT or now - datetime.fromisoformat(prof["fetched_at"]) > STAR_FRESH:
+            due.append(r)
+    for r in due[:STAR_CAP]:
+        try:
+            nd = next_data(get(player_url(r["id"])))
+            if nd is None:
+                raise RuntimeError("Keine eingebetteten Daten")
+            _write(out / "stars" / f"{r['id']}.json", {**parse_player(nd), "v": PLAYER_FORMAT, "fetched_at": at,
+                                                        "star_rating": r.get("rating"), "star_league": r.get("league_id")})
+        except Exception as e:
+            errors.append(f"{r['id']}: {e}")
+    have = len(list((out / "stars").glob("*.json"))) if (out / "stars").exists() else 0
+    status["vorbilder"] = {"ok": not errors or have > 0, "at": at, "error": "; ".join(errors[:4]) or None,
+                           "note": f"{have} von {len(idx.get('players', []))} Topspielern anderer Ligen geladen"}
+
+
 def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str, status: dict) -> None:
     """Spieler aus den FotMob-Spieldateien sammeln, fällige Profile laden, Index schreiben."""
     seen: dict[int, dict] = {}
@@ -208,12 +246,24 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
         index.sort(key=lambda x: (x["team"] or "", -x["minutes"]))
         _write(out / "players.json", {"updated_at": at, "players": index})
     try:
+        _update_stars(out, get, now, at, status)
+    except Exception as e:
+        status["vorbilder"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
+    try:
         profiles = [x for x in (_read(f) for f in sorted((out / "players").glob("*.json"))) if x and x.get("id")] if (out / "players").exists() else []
         rows = {r["id"]: {"minutes": r["minutes"], "rating": r["rating"]} for r in index}
         sim = build_similar(profiles, rows)
+        stars = [x for x in (_read(f) for f in sorted((out / "stars").glob("*.json"))) if x and x.get("id")] if (out / "stars").exists() else []
+        models = stars + [{**p, "star_rating": rows[p["id"]]["rating"]} for p in profiles
+                          if (p.get("age") or 0) >= 25 and p["id"] in rows and (rows[p["id"]]["rating"] or 0) >= STAR_RATING]
+        season_name = f"{SEASON}/{SEASON + 1}"
+        for p in profiles:
+            if p["id"] in sim:
+                sim[p["id"]]["same_age"] = same_age(p, models, season_name, group_of)
         _write(out / "similar.json", {"updated_at": at, "players": {str(k): v for k, v in sim.items()}})
         status["vergleiche"] = {"ok": True, "at": at, "error": None,
-                                "note": f"{sum(1 for v in sim.values() if v['style'])} Spieler mit Stil-Vergleich, {sum(1 for v in sim.values() if v['could_be'])} mit Wirkungs-Vergleich"}
+                                "note": f"{sum(1 for v in sim.values() if v['style'])} Spieler mit Stil-Vergleich, {sum(1 for v in sim.values() if v['could_be'])} mit Wirkungs-Vergleich, "
+                                        f"{sum(1 for v in sim.values() if v.get('same_age'))} mit Vergleich im selben Alter ({len(models)} Vorbilder)"}
     except Exception as e:
         status["vergleiche"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
     status["fotmob_players"] = {"ok": len(errors) < max(1, len(due[:PLAYER_CAP])) or not due, "at": at,

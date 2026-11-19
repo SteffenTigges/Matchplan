@@ -306,7 +306,7 @@ def test_writes_report_for_every_team(tmp_path):
 def test_writes_similar_file(tmp_path):
     status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
     sim = read(tmp_path / "similar.json")
-    assert sim["players"] and all(set(v) == {"style", "could_be"} for v in sim["players"].values())
+    assert sim["players"] and all(set(v) == {"style", "could_be", "same_age"} for v in sim["players"].values())
     assert status["vergleiche"]["ok"] is True
 
 
@@ -314,3 +314,8 @@ def test_referees_file_written(tmp_path):
     run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
     r = read(tmp_path / "referees.json")
     assert set(r) >= {"league", "referees", "upcoming", "updated_at"}
+
+
+def test_stars_failure_does_not_break_the_run(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    assert "vorbilder" in status and status["vergleiche"]["ok"] is True

@@ -26,7 +26,7 @@ const result = (m: Match, key: string): string => {
   return `<span class="form"><i class="${mine > 0 ? "S" : mine === 0 ? "U" : "N"}">${mine > 0 ? "S" : mine === 0 ? "U" : "N"}</i></span>`;
 };
 
-export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null, statsHtml = ""): string {
+export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null, statsHtml = "", elo: { elo: number; rank: number } | null = null): string {
   const t = info(season, key);
   const row = rows.find((r) => r.team === key);
   const mine = matches.filter((m) => m.home === key || m.away === key).sort((a, b) => (a.kickoff ?? "9").localeCompare(b.kickoff ?? "9"));
@@ -34,7 +34,7 @@ export function renderTeam(key: string, season: Season, rows: TableRow[], matche
   const played = mine.filter((m) => m.finished && m.score).reverse();
 
   const hero = `<div class="hero" style="background:linear-gradient(135deg,${esc(t.color)} 0%,color-mix(in srgb,${esc(t.color)} 55%,#000) 100%)">
-    <div class="row">${crest(t, 52)}<div><div class="tlab">${row ? `${row.rank}. Platz · ${row.points} Punkte` : ""}</div><h2 style="color:#fff">${esc(t.name)}</h2></div></div>
+    <div class="row">${crest(t, 52)}<div><div class="tlab">${row ? `${row.rank}. Platz · ${row.points} Punkte` : ""}${elo ? ` · Elo ${elo.elo} (${elo.rank}.)` : ""}</div><h2 style="color:#fff">${esc(t.name)}</h2></div></div>
     ${row ? `<div>${form(row.form)}</div>` : ""}
     <div class="pills"><a class="pill" href="#verein/${esc(key)}">Als meinen Verein festlegen</a><a class="pill" href="#scouting/${esc(key)}">Scouting-Bericht ›</a></div></div>`;
 

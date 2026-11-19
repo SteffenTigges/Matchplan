@@ -83,11 +83,14 @@ export function renderPrognosis(m: Match, p: Prediction, season: Season): string
     <p class="muted">Heimvorteil: Heimteams schießen in der Liga im Schnitt ${dec(w.means[0], 2)} Tore, Gäste ${dec(w.means[1], 2)}.</p>
     <p class="muted">Personal (Näherung): Bei ${esc(h.short)} fehlen ${abs("home")}${factor(w.absence_factor[0]) ? ` (eigene Tore ${factor(w.absence_factor[0])} %)` : ""}; bei ${esc(a.short)} fehlen ${abs("away")}${factor(w.absence_factor[1]) ? ` (eigene Tore ${factor(w.absence_factor[1])} %)` : ""}.</p></section>`;
 
-  const odds = p.odds
-    ? `<section class="card"><h2>Gegencheck</h2><p class="muted">Implizite Wahrscheinlichkeit aus den Quoten (${esc(p.odds.source)}, Buchmacher-Marge herausgerechnet). Elo nicht verfügbar: ClubElo ist seit Wochen nicht erreichbar.</p>
-        <div class="srow"><span></span><span class="tlab">Modell</span><span class="tlab">Buchmacher</span></div>
-        ${[["Sieg " + h.short, ph, p.odds.home], ["Remis", pd, p.odds.draw], ["Sieg " + a.short, pa, p.odds.away]]
-          .map(([l, x, y]) => `<div class="srow"><span>${esc(l)}</span><span class="num">${pct(x as number)}</span><span class="num">${pct(y as number)}</span></div>`)
+  const cols: [string, [number, number, number]][] = [["Modell", p.probs]];
+  if (p.elo) cols.push(["Elo", p.elo.probs]);
+  if (p.odds) cols.push(["Buchmacher", [p.odds.home, p.odds.draw, p.odds.away]]);
+  const odds = cols.length > 1
+    ? `<section class="card"><h2>Gegencheck</h2><p class="muted">${p.elo ? `Elo (eigene Berechnung aus allen Spielen der 1. und 2. Liga seit 2016): ${esc(h.short)} ${p.elo.home}, ${esc(a.short)} ${p.elo.away}. ` : ""}${p.odds ? `Implizite Wahrscheinlichkeit aus den Quoten (${esc(p.odds.source)}, Buchmacher-Marge herausgerechnet).` : "Buchmacherquoten folgen, sobald sie veröffentlicht sind."}</p>
+        <div class="srow" style="grid-template-columns:minmax(0,1fr) repeat(${cols.length}, auto)"><span></span>${cols.map(([l]) => `<span class="tlab">${esc(l)}</span>`).join("")}</div>
+        ${[`Sieg ${h.short}`, "Remis", `Sieg ${a.short}`]
+          .map((l, i) => `<div class="srow" style="grid-template-columns:minmax(0,1fr) repeat(${cols.length}, auto)"><span>${esc(l)}</span>${cols.map(([, v]) => `<span class="num" style="min-width:52px;text-align:right">${pct(v[i]!)}</span>`).join("")}</div>`)
           .join("")}</section>`
     : "";
 

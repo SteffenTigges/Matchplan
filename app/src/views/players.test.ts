@@ -106,3 +106,14 @@ test("explains_limits", () => {
   expect(renderCompare(sim, prof, season)).toContain("anderer Ligen");
   expect(renderCompare(null, prof, season)).toBe("");
 });
+
+test("same_age_comparison_and_season_table", () => {
+  const withSeasons = { ...prof, age: 21, seasons: [{ season: "2026/2027", apps: 12, goals: 5, assists: 2, rating: 7.3, competitions: [{ league: "Bundesliga", league_id: 54, apps: 9, goals: 5, assists: 2, rating: 7.4 }] }] };
+  const s = { ...sim, same_age: [{ id: 9, name: "Erling Haaland", team: null, team_name: "Manchester City", age: 26, score: 84, then: { season: "2021/2022", league: "Bundesliga", apps: 24, rating: 7.6, ga: 1.21, age: 21 }, now: { rating: 7.4, ga: 0.78, league: "Bundesliga" } }] };
+  const html = renderPlayer(withSeasons, rows[0]!, season, s);
+  expect(html).toContain("Erling Haaland");
+  expect(html).toContain("mit 21 (2021/2022, Bundesliga)");
+  expect(html).toContain("84 %");
+  expect(html).toContain("Saison für Saison");
+  expect(html).toContain("26/27");
+});
