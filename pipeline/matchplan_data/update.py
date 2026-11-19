@@ -12,6 +12,7 @@ from typing import Callable
 
 from . import probe
 from .forecast import run_forecast
+from .scouting import build_report
 from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
@@ -273,8 +274,37 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
         run_forecast(out, get, matchdays, current, teams_out, now, at, status)
     except Exception as e:  # Prognose darf den übrigen Lauf nicht kippen
         status["prognose"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
+    try:
+        n = _update_scouting(out, matchdays, current, teams_out)
+        status["scouting"] = {"ok": True, "at": at, "error": None, "note": f"{n} Gegner-Berichte"}
+    except Exception as e:
+        status["scouting"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
     _write(out / "status" / "sources.json", status)
     return status
+
+
+def _update_scouting(out: Path, matchdays: dict[int, list[dict]], current: int, lineups: dict) -> int:
+    """Gegner-Bericht je Team aus allen gespeicherten Daten."""
+    games = [m for ms in matchdays.values() for m in ms]
+    fm_by_id = {}
+    for m in games:
+        fm = _read(out / "fotmob" / f"{m['id']}.json") if m.get("finished") else None
+        if fm and fm.get("season") == SEASON:
+            fm_by_id[m["id"]] = fm
+    ts = _read(out / "teamstats.json") or {"metrics": [], "teams": {}}
+    rows = (_read(out / "players.json") or {}).get("players", [])
+    preds = (_read(out / "predictions" / f"{current}.json") or {}).get("matches", {})
+    for t in TEAMS:
+        nxt = next((m for m in sorted(games, key=lambda m: m.get("kickoff") or "9") if not m.get("finished") and t.key in (m["home"], m["away"])), None)
+        info = None
+        if nxt:
+            p = preds.get(str(nxt["id"])) or {}
+            info = {"id": nxt["id"], "home": nxt["home"], "away": nxt["away"], "kickoff": nxt.get("kickoff"),
+                    "tip": p.get("tip"), "probs": p.get("probs")}
+        rep = build_report(t.key, games, fm_by_id, ts, [r for r in rows if r.get("team") == t.key],
+                           lambda pid: _read(out / "players" / f"{pid}.json"), lineups.get(t.key), info)
+        _write(out / "scouting" / f"{t.key}.json", {**rep, "season": SEASON})
+    return len(TEAMS)
 
 
 def main(argv: list[str] | None = None) -> int:

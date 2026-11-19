@@ -1,5 +1,5 @@
 import "./style.css";
-import { loadJson, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
+import { loadJson, type ScoutReport, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
@@ -8,16 +8,19 @@ import { renderStatus, type ProbeReport } from "./views/status";
 import { renderTable, renderTeam } from "./views/teams";
 import { renderMetricRanking, renderTeamStats } from "./views/teamstats";
 import { renderAllResults, renderModelCheck } from "./views/prognose";
+import { renderReport, renderScoutPicker } from "./views/scouting";
+import { readFav, renderVerein, writeFav } from "./views/verein";
 import { normSearch, renderPlayer, renderPlayerList, renderSquad } from "./views/players";
 
 const TABS = [
+  { view: "verein", href: "#verein", label: "Mein Verein", icon: '<path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z" stroke="currentColor" stroke-width="2" fill="none"/>' },
   { view: "spiele", href: "#spiele", label: "Spiele", icon: '<rect x="3" y="5" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2" fill="none"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2"/>' },
   { view: "teams", href: "#teams", label: "Teams", icon: '<path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z" stroke="currentColor" stroke-width="2" fill="none"/>' },
   { view: "spieler", href: "#spieler", label: "Spieler", icon: '<circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2" fill="none"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6" stroke="currentColor" stroke-width="2" fill="none"/>' },
-  { view: "status", href: "#status", label: "Status", icon: '<circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="2" fill="none"/>' },
+  { view: "scouting", href: "#scouting", label: "Scouting", icon: '<circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2" fill="none"/><path d="M16 16l5 5" stroke="currentColor" stroke-width="2"/>' },
 ];
 
-const tabOf = (r: Route): string => (r.view === "spiel" || r.view === "prognose" ? "spiele" : r.view === "team" || r.view === "rang" ? "teams" : r.view);
+const tabOf = (r: Route): string => (r.view === "spiel" || r.view === "prognose" ? "spiele" : r.view === "team" || r.view === "rang" ? "teams" : r.view === "status" ? "verein" : r.view);
 
 export function header(title: string, sub: string, back?: string): void {
   document.getElementById("hdr")!.innerHTML =
@@ -39,6 +42,37 @@ async function viewFor(route: Route): Promise<string> {
     return renderStatus(probe, new Date()) + renderModelCheck(model);
   }
   const season = await loadJson<Season>("season.json");
+  if (route.view === "verein") {
+    header("Mein Verein", "Matchplan");
+    if (route.change) writeFav(null);
+    if (route.key) {
+      writeFav(route.key);
+      history.replaceState(null, "", "#verein");
+    }
+    if (!season) return NO_DATA;
+    const fav = readFav();
+    if (!fav) return renderVerein(null, season, null, null, null);
+    const mine = await loadJson<ScoutReport>(`scouting/${fav}.json`);
+    const n = mine?.next;
+    const oppKey = n ? (n.home === fav ? n.away : n.home) : null;
+    const [opp, ts] = await Promise.all([oppKey ? loadJson<ScoutReport>(`scouting/${oppKey}.json`) : Promise.resolve(null), loadJson<TeamStats>("teamstats.json")]);
+    header(season.teams[fav]?.short ?? "Mein Verein", "Mein Verein");
+    return renderVerein(fav, season, mine, opp, ts);
+  }
+  if (route.view === "scouting") {
+    if (!season) {
+      header("Scouting", "Matchplan");
+      return NO_DATA;
+    }
+    if (!route.key) {
+      header("Scouting", "Gegner-Bericht über jedes Team");
+      return renderScoutPicker(season, "#scouting/");
+    }
+    const fav = readFav();
+    const [rep, mine] = await Promise.all([loadJson<ScoutReport>(`scouting/${route.key}.json`), fav && fav !== route.key ? loadJson<ScoutReport>(`scouting/${fav}.json`) : Promise.resolve(null)]);
+    header(season.teams[route.key]?.short ?? route.key, "Gegner-Bericht", "#scouting");
+    return rep ? renderReport(rep, season, mine, route.section) : NO_DATA;
+  }
   if (route.view === "spieler") {
     if (!season) {
       header("Spieler", "Matchplan");
@@ -119,6 +153,7 @@ async function render(): Promise<void> {
   try {
     const html = await viewFor(route);
     root.innerHTML = html + legendFor(html);
+    if (route.view === "scouting" && route.section) document.getElementById(`area-${route.section}`)?.scrollIntoView();
     const search = document.getElementById("psearch") as HTMLInputElement | null;
     search?.addEventListener("input", () => {
       const q = normSearch(search.value.trim());
@@ -135,7 +170,7 @@ async function render(): Promise<void> {
   } catch {
     root.innerHTML = `<section class="card"><p class="muted">Diese Seite konnte nicht geladen werden.</p></section>`;
   }
-  window.scrollTo(0, 0);
+  if (!(route.view === "scouting" && route.section)) window.scrollTo(0, 0);
 }
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);

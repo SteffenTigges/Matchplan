@@ -106,3 +106,29 @@ export interface ModelCheck {
     by_matchday: { md: number; matches: number; tendency: number; exact: number; brier: number }[];
   };
 }
+
+// --- Gegner-Bericht (data/scouting/<team>.json) ---
+export interface Evidence { label: string; value: number; fmt: string; rank?: number }
+export interface Finding { key?: string; text: string; evidence: Evidence[] }
+export interface SituationRow { goals: number; xg: number; shots: number; share: number }
+export type Situations = Record<"Spielaufbau" | "Konter" | "Standard" | "Elfmeter", SituationRow>;
+export interface Zones { left: number; center: number; right: number }
+export interface KeyPlayer { id: number; name: string; pos: string | null; minutes: number; goals: number; assists: number; rating: number | null; xg90: number; xa90: number; why: string[] }
+export interface ScoutReport {
+  team: string; matches: number; fotmob_matches: number;
+  idea: { formations: { formation: string; games: number }[]; tags: Finding[] };
+  next: { id: number; home: string; away: string; kickoff: string | null; tip: [number, number] | null; probs: [number, number, number] | null } | null;
+  strengths: Evidence[]; weaknesses: Evidence[]; matchplan: Finding[]; findings: Finding[];
+  buildup: { metrics: Evidence[]; zones: Zones | null };
+  scoring: { situations: Situations | null; bands: number[]; goals: number; inside_box: number | null; metrics: Evidence[] };
+  conceding: { situations: Situations | null; bands: number[]; goals: number; opp_zones: Zones | null; metrics: Evidence[] };
+  setpieces: { metrics: Evidence[]; goals_for: number | null; goals_against: number | null; corners_against: number | null };
+  key_players: KeyPlayer[];
+  lines: Partial<Record<"Abwehr" | "Mittelfeld" | "Angriff", { id: number; name: string; rating: number; minutes: number }>>;
+  load: { id: number; name: string; minutes: number; full: boolean }[];
+  absences: { name: string; kind: string; note: string }[];
+  reaction: {
+    ht_lead: { games: number; points: number }; ht_draw: { games: number; points: number }; ht_trail: { games: number; points: number };
+    points_from_behind: number; points_dropped: number; late_for: number; late_against: number; goals_for: number; goals_against: number;
+  };
+}

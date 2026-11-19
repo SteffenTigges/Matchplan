@@ -292,3 +292,12 @@ def test_update_writes_predictions_and_model(tmp_path):
     if (tmp_path / "predictions" / f"{current}.json").exists():
         preds = read(tmp_path / "predictions" / f"{current}.json")["matches"]
         assert all(abs(sum(p["probs"]) - 1) < 1e-3 for p in preds.values() if "probs" in p)
+
+
+def test_writes_report_for_every_team(tmp_path):
+    status = run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    assert status["scouting"]["ok"] is True
+    files = sorted(p.stem for p in (tmp_path / "scouting").glob("*.json"))
+    assert len(files) == 18
+    tsg = read(tmp_path / "scouting" / "TSG.json")
+    assert tsg["team"] == "TSG" and tsg["matches"] >= 1 and "matchplan" in tsg

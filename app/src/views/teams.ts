@@ -35,7 +35,8 @@ export function renderTeam(key: string, season: Season, rows: TableRow[], matche
 
   const hero = `<div class="hero" style="background:linear-gradient(135deg,${esc(t.color)} 0%,color-mix(in srgb,${esc(t.color)} 55%,#000) 100%)">
     <div class="row">${crest(t, 52)}<div><div class="tlab">${row ? `${row.rank}. Platz · ${row.points} Punkte` : ""}</div><h2 style="color:#fff">${esc(t.name)}</h2></div></div>
-    ${row ? `<div>${form(row.form)}</div>` : ""}</div>`;
+    ${row ? `<div>${form(row.form)}</div>` : ""}
+    <div class="pills"><a class="pill" href="#verein/${esc(key)}">Als meinen Verein festlegen</a><a class="pill" href="#scouting/${esc(key)}">Scouting-Bericht ›</a></div></div>`;
 
   const nextCard = next
     ? (() => {
