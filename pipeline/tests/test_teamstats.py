@@ -36,9 +36,20 @@ def test_averages_use_own_match_count():
     assert v["AAA"]["points"] == 4 and v["AAA"]["clean_sheets"] == 1
 
 
-def test_ppda_is_opponent_own_half_passes_per_defensive_action():
+def test_press_ratio_uses_measured_ball_wins():
+    from matchplan_data.teamstats import add_pressing
     v = aggregate([(match("AAA", "BBB", [0, 0], 1), stats(own_half_passes=[100, 200], tackles=[10, 10], interceptions=[5, 5], fouls=[5, 5]))])
-    assert v["AAA"]["ppda"] == pytest.approx(200 / 20) and v["BBB"]["ppda"] == pytest.approx(100 / 20)
+    add_pressing(v, {"AAA": {"won_att3_pg": 6.0, "won_mid_pg": 19.0}})
+    assert v["AAA"]["won_att3_pg"] == 6.0 and v["AAA"]["press_ratio"] == pytest.approx(200 / 25)
+    assert v["BBB"]["press_ratio"] is None and v["BBB"]["won_att3_pg"] is None
+
+
+def test_parse_pressing():
+    import json
+    from matchplan_data.fotmob import parse_pressing
+    text = json.dumps({"TopLists": [{"StatList": [{"TeamId": 9823, "StatValue": 6.3, "SubStatValue": 225.0, "MatchesPlayed": 9},
+                                                  {"TeamId": 1, "StatValue": 1.0, "SubStatValue": 9.0, "MatchesPlayed": 9}]}]})
+    assert parse_pressing(text) == {"FCB": {"won_att3_pg": 6.3, "won_mid_pg": 25.0}}
 
 
 def test_ties_share_rank():
@@ -76,5 +87,5 @@ def test_metric_missing_for_everyone_is_unranked():
     pairs = [(match("AAA", "BBB", [1, 0], 1), {"stats": {"total_shots": [5, 3]}, "shots": []})]
     ts = build_teamstats(aggregate(pairs))
     assert ts["teams"]["AAA"]["xg_pg"] == {"value": None, "rank": None}
-    assert ts["teams"]["AAA"]["ppda"] == {"value": None, "rank": None}
+    assert ts["teams"]["AAA"]["won_att3_pg"] == {"value": None, "rank": None}
     assert ts["teams"]["AAA"]["shots_pg"] == {"value": 5.0, "rank": 1}

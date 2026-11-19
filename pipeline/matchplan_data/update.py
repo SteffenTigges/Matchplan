@@ -16,10 +16,10 @@ from .referees import build_referees
 from .scouting import build_report
 from .similar import build_similar, group_of
 from .stars import LEAGUES, same_age, stats_rating_url, top_rated
-from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, referee, parse_league, parse_match, parse_player, player_url
+from .fotmob import FORMAT_VERSION, LEAGUE_STATS_URL, LEAGUE_URL, next_data, parse_pressing, referee, team_stat_url, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
-from .teamstats import aggregate, build_teamstats
+from .teamstats import add_pressing, aggregate, build_teamstats
 from .openligadb import current_matchday, matchday_url, table_url, transform_matches, transform_table
 from .probe import Fetcher
 from .teams import TEAMS, team_by_key
@@ -145,10 +145,21 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
             pairs.append((by_id[fmd["oldb_id"]], fmd))
             if not CORE_STATS <= set(fmd.get("stats") or {}):
                 lacking += 1
+    pressing: dict = {}
+    try:
+        url = team_stat_url(next_data(get(LEAGUE_STATS_URL)) or {}, "poss_won_att_3rd_team")
+        if url:
+            pressing = parse_pressing(get(url))
+    except Exception:  # Zusatzwert: ohne ihn bleiben nur diese Zeilen leer
+        pass
     if pairs:
-        _write(out / "teamstats.json", {"updated_at": at, **build_teamstats(aggregate(pairs))})
+        values = aggregate(pairs)
+        add_pressing(values, pressing)
+        _write(out / "teamstats.json", {"updated_at": at, **build_teamstats(values)})
         _write(out / "referees.json", {"updated_at": at, **build_referees(pairs, upcoming)})
     note = f"{len(pairs)} Spiele ausgewertet" + (f", {unmatched} Spiel ohne Zuordnung" if unmatched == 1 else f", {unmatched} Spiele ohne Zuordnung" if unmatched else "")
+    if not pressing:
+        note += ", Ballgewinne nicht abrufbar"
     if upcoming or ref_failed:
         note += f", {len(upcoming)} Schiedsrichter angesetzt" + (f" ({ref_failed} Abrufe fehlgeschlagen)" if ref_failed else "")
     if lacking:

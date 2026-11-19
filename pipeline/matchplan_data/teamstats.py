@@ -43,7 +43,9 @@ METRICS: list[Metric] = [
     Metric("shots_against_pg", "Zugelassene Schüsse pro Spiel", "Defensive", False, "dec1"),
     Metric("big_chances_against_pg", "Zugelassene Großchancen pro Spiel", "Defensive", False, "dec1"),
     Metric("clean_sheets", "Spiele ohne Gegentor", "Defensive", True, "int"),
-    Metric("ppda", "PPDA", "Gegen den Ball", False, "dec1", approx=True),
+    Metric("won_att3_pg", "Ballgewinne im Angriffsdrittel pro Spiel", "Gegen den Ball", True, "dec1"),
+    Metric("won_mid_pg", "Ballgewinne im Mittelfeld pro Spiel", "Gegen den Ball", True, "dec1"),
+    Metric("press_ratio", "Gegnerische Pässe pro Ballgewinn (Mitte + Angriff)", "Gegen den Ball", False, "dec1"),
     Metric("tackles_pg", "Tacklings pro Spiel", "Gegen den Ball", True, "dec1"),
     Metric("interceptions_pg", "Abgefangene Bälle pro Spiel", "Gegen den Ball", True, "dec1"),
     Metric("xg_setplay_pg", "xG nach Standards pro Spiel", "Standards", True, "dec2"),
@@ -121,8 +123,8 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
                 t["gf_xg"] += gf
                 t["ga_xg"] += ga
             if all(k in st for k in ("tackles", "interceptions", "fouls", "own_half_passes")):
-                t["defacts"] += v("tackles", i) + v("interceptions", i) + v("fouls", i)
                 t["opp_own_half"] += v("own_half_passes", j)
+                t["n_press"] += 1
             for key, name in [("expected_goals", "xg"), ("big_chance", "bc"), ("touches_opp_box", "box"), ("total_shots", "shots"),
                               ("ShotsOnTarget", "sot"), ("shots_inside_box", "inbox"), ("expected_goals_on_target", "xgot"),
                               ("passes", "passes"), ("accurate_passes", "acc"), ("opposition_half_passes", "opph"),
@@ -182,7 +184,8 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
             "shots_against_pg": pg("shots", opp=True),
             "big_chances_against_pg": pg("bc", opp=True),
             "clean_sheets": int(t["clean_sheets"]),
-            "ppda": div(t["opp_own_half"], t["defacts"]),
+            "opp_own_half_pg": div(t["opp_own_half"], t["n_press"]),  # Hilfswert für press_ratio
+            "won_att3_pg": None, "won_mid_pg": None, "press_ratio": None,
             "tackles_pg": pg("tackles"),
             "interceptions_pg": pg("inter"),
             "xg_setplay_pg": pg("xgsp"),
@@ -200,6 +203,18 @@ def aggregate(pairs: list[tuple[dict, dict]]) -> dict[str, dict[str, float]]:
     return out
 
 
+def add_pressing(values: dict[str, dict], pressing: dict[str, dict]) -> None:
+    """Gemessene Ballgewinne (FotMob/Opta) je Team ergänzen; daraus Pässe des Gegners pro Ballgewinn in den vorderen zwei Dritteln."""
+    for team, v in values.items():
+        p = pressing.get(team)
+        if not p:
+            continue
+        v["won_att3_pg"], v["won_mid_pg"] = p["won_att3_pg"], p["won_mid_pg"]
+        won = (p["won_att3_pg"] or 0) + (p["won_mid_pg"] or 0)
+        if won and v.get("opp_own_half_pg") is not None:
+            v["press_ratio"] = v["opp_own_half_pg"] / won
+
+
 def rank(values: dict[str, float], higher_is_better: bool) -> dict[str, int]:
     """Platz 1 = bester Wert; gleiche Werte teilen sich den besseren Platz."""
     better = (lambda a, b: a > b) if higher_is_better else (lambda a, b: a < b)
@@ -209,7 +224,7 @@ def rank(values: dict[str, float], higher_is_better: bool) -> dict[str, int]:
 def build_teamstats(values: dict[str, dict[str, float]]) -> dict:
     teams: dict[str, dict] = {k: {"matches": v["matches"]} for k, v in values.items()}
     for m in METRICS:
-        col = {k: round(v[m.key], 4) for k, v in values.items() if v[m.key] is not None}
+        col = {k: round(v[m.key], 4) for k, v in values.items() if v.get(m.key) is not None}
         ranks = rank(col, m.higher_is_better)
         for k in values:
             teams[k][m.key] = {"value": col.get(k), "rank": ranks.get(k)}

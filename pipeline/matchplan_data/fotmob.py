@@ -289,3 +289,27 @@ def parse_player(data: dict) -> dict:
                        "fee": fee_de.get(((t.get("fee") or {}).get("feeText") or "").lower(), (t.get("fee") or {}).get("feeText")),
                        "loan": bool(t.get("onLoan"))} for t in d.get("transfers") or []],
     }
+
+
+# ---------------- Ligaweite Teamwerte (data.fotmob.com) ----------------
+
+LEAGUE_STATS_URL = f"{BASE}/leagues/54/stats/bundesliga"
+
+
+def team_stat_url(nd: dict, name: str) -> str | None:
+    for x in ((nd.get("props") or {}).get("pageProps") or {}).get("stats", {}).get("teams") or []:
+        if str(x.get("fetchAllUrl", "")).endswith(f"/{name}.json"):
+            return x["fetchAllUrl"]
+    return None
+
+
+def parse_pressing(text: str) -> dict[str, dict]:
+    """Ballgewinne im Angriffsdrittel (pro Spiel) und im Mittelfeld (Summe → pro Spiel) je Team."""
+    lists = json.loads(text).get("TopLists") or []
+    out = {}
+    for r in lists[0]["StatList"] if lists else []:
+        key = _key(r.get("TeamId"))
+        games = r.get("MatchesPlayed") or 0
+        if key and games:
+            out[key] = {"won_att3_pg": _num(r.get("StatValue")), "won_mid_pg": round((r.get("SubStatValue") or 0) / games, 2)}
+    return out
