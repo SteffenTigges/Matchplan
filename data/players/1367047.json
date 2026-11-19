@@ -1,0 +1,542 @@
+{
+ "id": 1367047,
+ "name": "Afonso Moreira",
+ "team": "B04",
+ "team_name": "Bayer Leverkusen",
+ "birth_date": "2005-03-19",
+ "age": 21,
+ "height_cm": 176,
+ "foot": "rechts",
+ "country": "Portugal",
+ "shirt": 9,
+ "market_value": 35438595,
+ "contract_end": "2031-06-30",
+ "positions": [
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": true
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 1.53,
+   "per90": 0.20759548872180453,
+   "pct": 42.857142857142854,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 1.62,
+   "per90": 0.2194375939849624,
+   "pct": 41.269841269841265,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 1.53,
+   "per90": 0.20759548872180453,
+   "pct": 46.03174603174603,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 20,
+   "per90": 2.706766917293233,
+   "pct": 55.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 8,
+   "per90": 1.0827067669172934,
+   "pct": 63.49206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 1,
+   "per90": 0.13533834586466167,
+   "pct": 63.49206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.13533834586466167,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.48,
+   "per90": 0.06513029323308271,
+   "pct": 11.11111111111111,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 167,
+   "per90": 22.601503759398497,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 82.7,
+   "per90": 82.67326732673267,
+   "pct": 77.77777777777779,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 3,
+   "per90": 0.406015037593985,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 23.1,
+   "per90": 23.076923076923077,
+   "pct": 17.46031746031746,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 5,
+   "per90": 0.6766917293233082,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 1,
+   "per90": 0.13533834586466167,
+   "pct": 36.507936507936506,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 4.3,
+   "per90": 4.3478260869565215,
+   "pct": 36.507936507936506,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 6,
+   "per90": 0.81203007518797,
+   "pct": 36.507936507936506,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 46.2,
+   "per90": 46.15384615384615,
+   "pct": 41.269841269841265,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 26,
+   "per90": 3.518796992481203,
+   "pct": 28.57142857142857,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 35.6,
+   "per90": 35.61643835616438,
+   "pct": 20.634920634920633,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 345,
+   "per90": 46.69172932330827,
+   "pct": 38.095238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 33,
+   "per90": 4.466165413533835,
+   "pct": 52.38095238095239,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 10,
+   "per90": 1.3533834586466165,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 13,
+   "per90": 1.7593984962406015,
+   "pct": 60.317460317460316,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 15,
+   "per90": 2.0300751879699246,
+   "pct": 31.746031746031743,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 7,
+   "per90": 0.9473684210526315,
+   "pct": 42.857142857142854,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 3,
+   "per90": 0.406015037593985,
+   "pct": 39.682539682539684,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 9,
+   "per90": 1.218045112781955,
+   "pct": 34.92063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 26,
+   "per90": 3.518796992481203,
+   "pct": 42.857142857142854,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 6,
+   "per90": 0.81203007518797,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 5,
+   "per90": 0.6766917293233082,
+   "pct": 52.38095238095239,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 5,
+   "per90": 0.6766917293233082,
+   "pct": 49.2063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 2,
+   "per90": 0.27067669172932335,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 16,
+   "per90": 2.165413533834587,
+   "pct": 19.047619047619047,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 12.97,
+   "per90": 1.7559879699248122,
+   "pct": 38.095238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.27067669172932335,
+   "pct": 17.46031746031746,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.52
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.3
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.49
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.23
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.82
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.62
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Bayer Leverkusen",
+    "start": "2026-07-01",
+    "end": null,
+    "apps": 15,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Lyon",
+    "start": "2025-07-22",
+    "end": "2026-07-01",
+    "apps": 37,
+    "goals": 8,
+    "kind": null
+   },
+   {
+    "team": "Sporting CP B",
+    "start": "2024-07-01",
+    "end": "2025-07-22",
+    "apps": 22,
+    "goals": 7,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Sporting CP",
+    "start": "2024-07-01",
+    "end": "2025-07-22",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Gil Vicente",
+    "start": "2024-01-29",
+    "end": "2024-06-30",
+    "apps": 5,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Sporting CP",
+    "start": "2023-03-31",
+    "end": "2024-01-29",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Sporting CP B",
+    "start": "2022-07-01",
+    "end": "2024-01-29",
+    "apps": 33,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Sporting Clube de Portugal Under 21",
+    "start": "2024-12-18",
+    "end": "2025-07-22",
+    "apps": 2,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Sporting CP U19",
+    "start": "2024-09-16",
+    "end": "2025-06-30",
+    "apps": 6,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Sporting CP U19",
+    "start": "2021-07-01",
+    "end": "2024-01-29",
+    "apps": 9,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Portugal U21",
+    "start": "2025-09-02",
+    "end": null,
+    "apps": 5,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Portugal U19",
+    "start": "2023-03-15",
+    "end": "2023-06-30",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Portugal U17",
+    "start": "2021-11-07",
+    "end": "2022-11-12",
+    "apps": 11,
+    "goals": 5,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Lyon",
+   "to": "Leverkusen",
+   "date": "2026-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Sporting CP",
+   "to": "Lyon",
+   "date": "2025-07-22",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

@@ -1,0 +1,433 @@
+{
+ "id": 1049679,
+ "name": "David Møller Wolfe",
+ "team": "HSV",
+ "team_name": "Hamburger SV",
+ "birth_date": "2002-04-23",
+ "age": 24,
+ "height_cm": 185,
+ "foot": "links",
+ "country": "Norway",
+ "shirt": 3,
+ "market_value": 14665418,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Linksverteidiger",
+   "short": "LB",
+   "main": true
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  },
+  {
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
+   "main": false
+  },
+  {
+   "label": "Rechtes Mittelfeld",
+   "short": "RM",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.12,
+   "per90": 0.12559842857142856,
+   "pct": 76.23762376237624,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 38,
+   "per90": 40.714285714285715,
+   "pct": 81.1881188118812,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 88.4,
+   "per90": 88.37209302325581,
+   "pct": 94.05940594059405,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 19,
+   "per90": 20.357142857142858,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 1.0714285714285714,
+   "pct": 67.32673267326733,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 4,
+   "per90": 4.285714285714286,
+   "pct": 40.5940594059406,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 26.732673267326735,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 2,
+   "per90": 2.142857142857143,
+   "pct": 82.17821782178217,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 42.57425742574257,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 59,
+   "per90": 63.21428571428571,
+   "pct": 46.53465346534654,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 1,
+   "per90": 1.0714285714285714,
+   "pct": 39.603960396039604,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 5,
+   "per90": 5.357142857142857,
+   "pct": 20.792079207920793,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 2,
+   "per90": 2.142857142857143,
+   "pct": 60.396039603960396,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 1.0714285714285714,
+   "pct": 45.54455445544555,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 4,
+   "per90": 4.285714285714286,
+   "pct": 58.415841584158414,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 1,
+   "per90": 1.0714285714285714,
+   "pct": 13.861386138613863,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 2.142857142857143,
+   "pct": 24.752475247524753,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 3,
+   "per90": 3.214285714285714,
+   "pct": 2.9702970297029703,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 0.69,
+   "per90": 0.7423928571428571,
+   "pct": 96.03960396039604,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other fullbacks",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.2
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.71
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.29
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.21
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.02
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Wolverhampton Wanderers",
+    "start": "2027-07-01",
+    "end": null,
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Hamburger SV",
+    "start": "2026-09-01",
+    "end": "2027-06-30",
+    "apps": 9,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Wolverhampton Wanderers",
+    "start": "2025-08-02",
+    "end": "2026-09-01",
+    "apps": 29,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "AZ Alkmaar",
+    "start": "2023-06-13",
+    "end": "2025-08-02",
+    "apps": 92,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Brann",
+    "start": "2021-02-01",
+    "end": "2023-06-13",
+    "apps": 65,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Åsane",
+    "start": "2020-07-12",
+    "end": "2020-12-31",
+    "apps": 28,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Norway",
+    "start": "2023-11-08",
+    "end": null,
+    "apps": 32,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Norway U21",
+    "start": "2023-03-24",
+    "end": "2023-11-10",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Norway Under 18",
+    "start": "2019-11-15",
+    "end": "2021-10-06",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Norway U17",
+    "start": "2019-03-18",
+    "end": "2019-04-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Wolves",
+   "to": "Hamburger SV",
+   "date": "2026-09-01",
+   "fee": "fee",
+   "loan": true
+  },
+  {
+   "from": "AZ Alkmaar",
+   "to": "Wolves",
+   "date": "2025-08-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Brann",
+   "to": "AZ Alkmaar",
+   "date": "2023-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Brann",
+   "to": "Åsane",
+   "date": "2020-07-13",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

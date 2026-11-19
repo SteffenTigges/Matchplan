@@ -1,0 +1,427 @@
+{
+ "id": 1164506,
+ "name": "Tiago Tomás",
+ "team": "VFB",
+ "team_name": "VfB Stuttgart",
+ "birth_date": "2002-06-16",
+ "age": 24,
+ "height_cm": 180,
+ "foot": "rechts",
+ "country": "Portugal",
+ "shirt": 8,
+ "market_value": 18427771,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": true
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.32,
+   "per90": 0.3335172413793104,
+   "pct": 25.53191489361702,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.06,
+   "per90": 0.06455172413793103,
+   "pct": 6.382978723404255,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.32,
+   "per90": 0.3335172413793104,
+   "pct": 29.78723404255319,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 2,
+   "per90": 2.0689655172413794,
+   "pct": 23.404255319148938,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 46.808510638297875,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.07,
+   "per90": 0.07736420689655173,
+   "pct": 36.17021276595745,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 20,
+   "per90": 20.689655172413794,
+   "pct": 82.97872340425532,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 69.0,
+   "per90": 68.96551724137932,
+   "pct": 38.297872340425535,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 89.36170212765957,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 46.808510638297875,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 7,
+   "per90": 7.241379310344827,
+   "pct": 78.72340425531915,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 53.8,
+   "per90": 53.84615384615385,
+   "pct": 93.61702127659575,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 3,
+   "per90": 3.103448275862069,
+   "pct": 63.829787234042556,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 42.9,
+   "per90": 42.857142857142854,
+   "pct": 55.319148936170215,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 49,
+   "per90": 50.689655172413794,
+   "pct": 93.61702127659575,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 5,
+   "per90": 5.172413793103448,
+   "pct": 42.5531914893617,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 57.446808510638306,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 2,
+   "per90": 2.0689655172413794,
+   "pct": 85.1063829787234,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 3,
+   "per90": 3.103448275862069,
+   "pct": 74.46808510638297,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 2,
+   "per90": 2.0689655172413794,
+   "pct": 91.48936170212765,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 61.702127659574465,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 2,
+   "per90": 2.0689655172413794,
+   "pct": 36.17021276595745,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 1,
+   "per90": 1.0344827586206897,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 3,
+   "per90": 3.103448275862069,
+   "pct": 8.51063829787234,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 2.37,
+   "per90": 2.450068965517241,
+   "pct": 14.893617021276595,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.03
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.84
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.63
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.98
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.95
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.31
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "VfB Stuttgart",
+    "start": "2025-08-16",
+    "end": null,
+    "apps": 43,
+    "goals": 9,
+    "kind": null
+   },
+   {
+    "team": "Wolfsburg",
+    "start": "2023-07-05",
+    "end": "2025-08-16",
+    "apps": 65,
+    "goals": 9,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2022-01-30",
+    "end": "2023-06-30",
+    "apps": 47,
+    "goals": 8,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Sporting CP",
+    "start": "2020-01-01",
+    "end": "2022-01-30",
+    "apps": 66,
+    "goals": 9,
+    "kind": null
+   },
+   {
+    "team": "Sporting CP B",
+    "start": "2020-08-03",
+    "end": "2021-02-05",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Portugal U21",
+    "start": "2021-03-15",
+    "end": "2025-09-02",
+    "apps": 19,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Portugal U17",
+    "start": "2018-09-01",
+    "end": "2019-05-30",
+    "apps": 9,
+    "goals": 2,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Wolfsburg",
+   "to": "VfB Stuttgart",
+   "date": "2025-08-16",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Sporting CP",
+   "to": "Wolfsburg",
+   "date": "2023-07-05",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Sporting CP",
+   "to": "VfB Stuttgart",
+   "date": "2022-01-30",
+   "fee": "fee",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

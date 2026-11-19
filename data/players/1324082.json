@@ -1,0 +1,526 @@
+{
+ "id": 1324082,
+ "name": "Martin Adeline",
+ "team": "HSV",
+ "team_name": "Hamburger SV",
+ "birth_date": "2003-12-02",
+ "age": 22,
+ "height_cm": 180,
+ "foot": "rechts",
+ "country": "France",
+ "shirt": 5,
+ "market_value": 10217368,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": true
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.52,
+   "per90": 0.0934165548,
+   "pct": 20.634920634920633,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 160,
+   "per90": 28.8,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 80.0,
+   "per90": 80,
+   "pct": 61.904761904761905,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 4,
+   "per90": 0.72,
+   "pct": 57.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 66.66666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 7,
+   "per90": 1.26,
+   "pct": 79.36507936507937,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 4,
+   "per90": 0.72,
+   "pct": 6.349206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 36.507936507936506,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 39.682539682539684,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 11.1,
+   "per90": 11.11111111111111,
+   "pct": 39.682539682539684,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 4,
+   "per90": 0.72,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 46.03174603174603,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 32,
+   "per90": 5.76,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 73.01587301587301,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 10,
+   "per90": 1.8,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 47.6,
+   "per90": 47.61904761904762,
+   "pct": 63.49206349206349,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 283,
+   "per90": 50.94,
+   "pct": 52.38095238095239,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 7,
+   "per90": 1.26,
+   "pct": 1.5873015873015872,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 4,
+   "per90": 0.72,
+   "pct": 79.36507936507937,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 11.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 30,
+   "per90": 5.3999999999999995,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 17,
+   "per90": 3.06,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 5,
+   "per90": 0.9,
+   "pct": 82.53968253968253,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 10,
+   "per90": 1.8,
+   "pct": 9.523809523809524,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 35,
+   "per90": 6.300000000000001,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 5,
+   "per90": 0.9,
+   "pct": 84.12698412698413,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 3,
+   "per90": 0.54,
+   "pct": 60.317460317460316,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 8,
+   "per90": 1.44,
+   "pct": 82.53968253968253,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 12,
+   "per90": 2.16,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 10.34,
+   "per90": 1.860318,
+   "pct": 34.92063492063492,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.18,
+   "pct": 31.746031746031743,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.75
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.82
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.96
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.63
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.04
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.54
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Hamburger SV",
+    "start": "2026-07-13",
+    "end": null,
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Troyes",
+    "start": "2024-08-30",
+    "end": "2026-07-13",
+    "apps": 63,
+    "goals": 13,
+    "kind": null
+   },
+   {
+    "team": "Reims",
+    "start": "2024-07-01",
+    "end": "2024-08-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Annecy FC",
+    "start": "2023-08-10",
+    "end": "2024-06-30",
+    "apps": 23,
+    "goals": 2,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Reims",
+    "start": "2023-07-01",
+    "end": "2023-08-10",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Rodez",
+    "start": "2023-01-31",
+    "end": "2023-06-30",
+    "apps": 8,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Reims",
+    "start": "2021-12-18",
+    "end": "2023-01-31",
+    "apps": 17,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Reims B",
+    "start": "2020-07-01",
+    "end": "2023-01-31",
+    "apps": 22,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Paris Saint Germain U19",
+    "start": "2019-07-01",
+    "end": "2020-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "France U20",
+    "start": "2023-03-16",
+    "end": "2024-05-20",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "France U19",
+    "start": "2021-09-30",
+    "end": "2022-06-30",
+    "apps": 10,
+    "goals": 1,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Troyes",
+   "to": "Hamburger SV",
+   "date": "2026-07-13",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Reims",
+   "to": "Troyes",
+   "date": "2024-08-30",
+   "fee": "undisclosed",
+   "loan": false
+  },
+  {
+   "from": "Reims",
+   "to": "Annecy FC",
+   "date": "2023-08-10",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Reims",
+   "to": "Rodez",
+   "date": "2023-01-31",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

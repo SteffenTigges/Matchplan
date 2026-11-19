@@ -1,0 +1,445 @@
+{
+ "id": 1199283,
+ "name": "Eric Martel",
+ "team": "M05",
+ "team_name": "Mainz 05",
+ "birth_date": "2002-04-29",
+ "age": 24,
+ "height_cm": 188,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 5,
+ "market_value": 6599251,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.8108108108108109,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.53,
+   "per90": 0.429,
+   "pct": 95.83333333333334,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.51,
+   "per90": 0.4140810810810811,
+   "pct": 94.44444444444444,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.53,
+   "per90": 0.429,
+   "pct": 95.83333333333334,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 5,
+   "per90": 4.0540540540540535,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 1.6216216216216217,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 3,
+   "per90": 2.4324324324324325,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.01,
+   "per90": 0.005513286486486487,
+   "pct": 0,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 17,
+   "per90": 13.783783783783782,
+   "pct": 1.3888888888888888,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 70.8,
+   "per90": 70.83333333333333,
+   "pct": 4.166666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 10,
+   "per90": 8.108108108108107,
+   "pct": 95.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 47.6,
+   "per90": 47.61904761904762,
+   "pct": 38.88888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 5,
+   "per90": 4.0540540540540535,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 71.4,
+   "per90": 71.42857142857143,
+   "pct": 90.27777777777779,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 49,
+   "per90": 39.729729729729726,
+   "pct": 4.166666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 6,
+   "per90": 4.864864864864865,
+   "pct": 94.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 1.6216216216216217,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 2,
+   "per90": 1.6216216216216217,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 6,
+   "per90": 4.864864864864865,
+   "pct": 43.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 4,
+   "per90": 3.2432432432432434,
+   "pct": 90.27777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 4,
+   "per90": 3.2432432432432434,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "penalty_conceded_title",
+   "title": "Penalties conceded",
+   "value": 1,
+   "per90": 0.8108108108108109,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 2,
+   "per90": 1.6216216216216217,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 3,
+   "per90": 2.4324324324324325,
+   "pct": 5.555555555555555,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 1.6216216216216217,
+   "pct": 48.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 6,
+   "per90": 4.864864864864865,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 3.39,
+   "per90": 2.745324324324324,
+   "pct": 2.7777777777777777,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.03
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.99
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.96
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.75
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.69
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.55
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Mainz 05",
+    "start": "2026-07-01",
+    "end": null,
+    "apps": 7,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "1. FC Köln",
+    "start": "2022-07-01",
+    "end": "2026-06-30",
+    "apps": 134,
+    "goals": 8,
+    "kind": null
+   },
+   {
+    "team": "Austria Wien",
+    "start": "2021-01-15",
+    "end": "2022-06-30",
+    "apps": 56,
+    "goals": 4,
+    "kind": "Leihe"
+   },
+   {
+    "team": "RB Leipzig",
+    "start": "2019-07-01",
+    "end": "2021-01-15",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "RB Leipzig U19",
+    "start": "2019-07-01",
+    "end": "2021-01-14",
+    "apps": 29,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "RasenBallsport Leipzig Under 17",
+    "start": "2018-07-01",
+    "end": "2019-06-30",
+    "apps": 24,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2021-11-05",
+    "end": "2025-06-30",
+    "apps": 26,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Germany U19",
+    "start": "2020-09-02",
+    "end": "2021-08-21",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Köln",
+   "to": "Mainz",
+   "date": "2026-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "Köln",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "Austria Wien",
+   "date": "2021-01-15",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

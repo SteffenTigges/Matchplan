@@ -1,0 +1,400 @@
+{
+ "id": 1281256,
+ "name": "Frederik Schmahl",
+ "team": "SVE",
+ "team_name": "Elversberg",
+ "birth_date": "2002-12-21",
+ "age": 23,
+ "height_cm": 183,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 17,
+ "market_value": 661100,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 87.3015873015873,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.73,
+   "per90": 0.47876086956521735,
+   "pct": 82.53968253968253,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.75,
+   "per90": 0.49213043478260876,
+   "pct": 80.95238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.73,
+   "per90": 0.47876086956521735,
+   "pct": 82.53968253968253,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 2,
+   "per90": 1.3043478260869565,
+   "pct": 14.285714285714285,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 34.92063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.06,
+   "per90": 0.04056130434782609,
+   "pct": 4.761904761904762,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 20,
+   "per90": 13.043478260869566,
+   "pct": 6.349206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 74.1,
+   "per90": 74.07407407407408,
+   "pct": 25.396825396825395,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 53.96825396825397,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 42.857142857142854,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 2,
+   "per90": 1.3043478260869565,
+   "pct": 30.158730158730158,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 25.396825396825395,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 46.03174603174603,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 3,
+   "per90": 1.9565217391304348,
+   "pct": 1.5873015873015872,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 20.0,
+   "per90": 20,
+   "pct": 0,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 51,
+   "per90": 33.26086956521739,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 3,
+   "per90": 1.9565217391304348,
+   "pct": 4.761904761904762,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 80.95238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 2,
+   "per90": 1.3043478260869565,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 2,
+   "per90": 1.3043478260869565,
+   "pct": 26.984126984126984,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 57.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 46.03174603174603,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 6,
+   "per90": 3.9130434782608696,
+   "pct": 1.5873015873015872,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 5.45,
+   "per90": 3.55454347826087,
+   "pct": 3.1746031746031744,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.6521739130434783,
+   "pct": 1.5873015873015872,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.67
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.64
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.28
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.82
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.87
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.17
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Elversberg",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 67,
+    "goals": 6,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim II",
+    "start": "2022-06-25",
+    "end": "2024-06-30",
+    "apps": 61,
+    "goals": 12,
+    "kind": null
+   },
+   {
+    "team": "FSV Luckenwalde",
+    "start": "2021-07-01",
+    "end": "2022-06-25",
+    "apps": 35,
+    "goals": 7,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Energie Cottbus U19",
+    "start": "2020-07-01",
+    "end": "2021-06-30",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "1. FC Union Berlin Under 19",
+    "start": "2019-07-01",
+    "end": "2020-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "1. FC Union Berlin Under 17",
+    "start": "2018-07-01",
+    "end": "2020-06-30",
+    "apps": 17,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Hoffenheim",
+   "to": "Elversberg",
+   "date": "2024-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

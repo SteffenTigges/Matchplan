@@ -1,0 +1,430 @@
+{
+ "id": 1192406,
+ "name": "Lorenz Assignon",
+ "team": "VFB",
+ "team_name": "VfB Stuttgart",
+ "birth_date": "2000-06-22",
+ "age": 26,
+ "height_cm": 181,
+ "foot": "rechts",
+ "country": "France",
+ "shirt": 22,
+ "market_value": 10688603,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": true
+  },
+  {
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.13,
+   "per90": 0.21278571428571427,
+   "pct": 88.33333333333333,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.1,
+   "per90": 0.15557142857142855,
+   "pct": 86.66666666666667,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.13,
+   "per90": 0.21278571428571427,
+   "pct": 88.33333333333333,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 2,
+   "per90": 3.214285714285714,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.02,
+   "per90": 0.024620689285714287,
+   "pct": 15,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 35,
+   "per90": 56.25,
+   "pct": 93.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 89.7,
+   "per90": 89.74358974358974,
+   "pct": 93.33333333333333,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 2,
+   "per90": 3.214285714285714,
+   "pct": 93.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 95,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 1.6666666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 14.3,
+   "per90": 14.285714285714286,
+   "pct": 1.6666666666666667,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 53,
+   "per90": 85.17857142857143,
+   "pct": 86.66666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 3,
+   "per90": 4.821428571428571,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 8.333333333333332,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 4,
+   "per90": 6.428571428571428,
+   "pct": 53.333333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 31.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 2,
+   "per90": 3.214285714285714,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 3,
+   "per90": 4.821428571428571,
+   "pct": 70,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 3.214285714285714,
+   "pct": 1.6666666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 1,
+   "per90": 1.607142857142857,
+   "pct": 20,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 2,
+   "per90": 3.214285714285714,
+   "pct": 11.666666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 1.99,
+   "per90": 3.1958035714285717,
+   "pct": 3.3333333333333335,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other fullbacks",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.74
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.87
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.48
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.64
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.76
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.54
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "VfB Stuttgart",
+    "start": "2025-06-06",
+    "end": null,
+    "apps": 43,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Rennes B",
+    "start": "2025-04-18",
+    "end": "2025-06-06",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Rennes",
+    "start": "2024-07-01",
+    "end": "2025-06-06",
+    "apps": 34,
+    "goals": 4,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Burnley",
+    "start": "2024-02-01",
+    "end": "2024-06-30",
+    "apps": 15,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Rennes",
+    "start": "2021-07-01",
+    "end": "2024-02-01",
+    "apps": 64,
+    "goals": 3,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Rennes B",
+    "start": "2023-04-14",
+    "end": "2024-01-31",
+    "apps": 3,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "SC Bastia",
+    "start": "2021-02-01",
+    "end": "2021-06-30",
+    "apps": 13,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Rennes",
+    "start": "2020-10-02",
+    "end": "2021-01-31",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Rennes B",
+    "start": "2019-01-01",
+    "end": "2021-01-31",
+    "apps": 21,
+    "goals": 2,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Stade Rennais FC Under 19",
+    "start": "2019-09-01",
+    "end": "2021-01-31",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Rennes",
+   "to": "VfB Stuttgart",
+   "date": "2025-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Rennes",
+   "to": "Burnley",
+   "date": "2024-02-01",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}

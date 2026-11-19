@@ -1,0 +1,541 @@
+{
+ "id": 1134467,
+ "name": "Yuito Suzuki",
+ "team": "SCF",
+ "team_name": "Freiburg",
+ "birth_date": "2001-10-25",
+ "age": 25,
+ "height_cm": 175,
+ "foot": "rechts",
+ "country": "Japan",
+ "shirt": 14,
+ "market_value": 25123026,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": true
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 5,
+   "per90": 0.721153846153846,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 3.24,
+   "per90": 0.46792788461538465,
+   "pct": 80.95238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 4.56,
+   "per90": 0.658125,
+   "pct": 88.88888888888889,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 3.24,
+   "per90": 0.46792788461538465,
+   "pct": 80.95238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 13,
+   "per90": 1.875,
+   "pct": 26.984126984126984,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 7,
+   "per90": 1.0096153846153846,
+   "pct": 60.317460317460316,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 1,
+   "per90": 0.14423076923076922,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.54,
+   "per90": 0.07825349999999999,
+   "pct": 17.46031746031746,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 154,
+   "per90": 22.211538461538463,
+   "pct": 39.682539682539684,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 83.2,
+   "per90": 83.24324324324324,
+   "pct": 80.95238095238095,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 4,
+   "per90": 0.5769230769230769,
+   "pct": 47.61904761904761,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 80.0,
+   "per90": 80,
+   "pct": 82.53968253968253,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 10,
+   "per90": 1.442307692307692,
+   "pct": 82.53968253968253,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 11,
+   "per90": 1.5865384615384615,
+   "pct": 42.857142857142854,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 11,
+   "per90": 1.5865384615384615,
+   "pct": 65.07936507936508,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 55.0,
+   "per90": 55,
+   "pct": 65.07936507936508,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 24,
+   "per90": 3.4615384615384617,
+   "pct": 26.984126984126984,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 43.6,
+   "per90": 43.63636363636363,
+   "pct": 46.03174603174603,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 2,
+   "per90": 0.28846153846153844,
+   "pct": 30.158730158730158,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 87.3015873015873,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 304,
+   "per90": 43.84615384615385,
+   "pct": 30.158730158730158,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 28,
+   "per90": 4.038461538461538,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 12,
+   "per90": 1.7307692307692308,
+   "pct": 28.57142857142857,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 5,
+   "per90": 0.721153846153846,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 10,
+   "per90": 1.442307692307692,
+   "pct": 15.873015873015872,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 6,
+   "per90": 0.8653846153846154,
+   "pct": 34.92063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 0.14423076923076922,
+   "pct": 17.46031746031746,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.14423076923076922,
+   "pct": 69.84126984126983,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 8,
+   "per90": 1.1538461538461537,
+   "pct": 41.269841269841265,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 31,
+   "per90": 4.471153846153846,
+   "pct": 65.07936507936508,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 4,
+   "per90": 0.5769230769230769,
+   "pct": 52.38095238095239,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 0.28846153846153844,
+   "pct": 74.60317460317461,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 0.28846153846153844,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 8,
+   "per90": 1.1538461538461537,
+   "pct": 61.904761904761905,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 7.87,
+   "per90": 1.1355576923076922,
+   "pct": 73.01587301587301,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.14423076923076922,
+   "pct": 41.269841269841265,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 1,
+   "per90": 0.14423076923076922,
+   "pct": 0,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.35
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.57
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.36
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.58
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.44
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.12
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Freiburg",
+    "start": "2025-07-01",
+    "end": null,
+    "apps": 56,
+    "goals": 14,
+    "kind": null
+   },
+   {
+    "team": "Brøndby IF",
+    "start": "2023-08-12",
+    "end": "2025-07-01",
+    "apps": 70,
+    "goals": 24,
+    "kind": null
+   },
+   {
+    "team": "Shimizu S-Pulse",
+    "start": "2023-07-01",
+    "end": "2023-08-12",
+    "apps": 3,
+    "goals": 1,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Strasbourg B",
+    "start": "2023-03-01",
+    "end": "2023-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Strasbourg",
+    "start": "2023-01-27",
+    "end": "2023-06-30",
+    "apps": 3,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Shimizu S-Pulse",
+    "start": "2020-01-23",
+    "end": "2023-01-26",
+    "apps": 93,
+    "goals": 6,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Japan",
+    "start": "2024-05-24",
+    "end": null,
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Japan U22",
+    "start": "2023-03-16",
+    "end": "2024-12-31",
+    "apps": 4,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Japan U23",
+    "start": "2022-03-17",
+    "end": "2024-04-04",
+    "apps": 6,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Japan Under 18",
+    "start": "2019-03-19",
+    "end": "2023-09-01",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Japan U21",
+    "start": "2022-09-01",
+    "end": "2022-11-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Brøndby IF",
+   "to": "Freiburg",
+   "date": "2025-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Shimizu S-Pulse",
+   "to": "Brøndby IF",
+   "date": "2023-08-12",
+   "fee": "undisclosed",
+   "loan": false
+  },
+  {
+   "from": "Shimizu S-Pulse",
+   "to": "Strasbourg",
+   "date": "2023-01-27",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T01:07:44+00:00"
+}
