@@ -62,3 +62,10 @@ def test_build_similar_shape():
     b = prof(2, "ST", [85, 75, 70, 60, 25, 30, 80, 45, 15, 50, 35], age=28, per90=IMP)
     res = build_similar([a, b], {1: {"minutes": 900, "rating": 7.0}, 2: {"minutes": 1500, "rating": 7.6}})
     assert set(res) == {1, 2} and res[1]["style"][0]["id"] == 2 and res[1]["could_be"][0]["id"] == 2
+
+
+def test_top_threshold_follows_season_progress():
+    young = prof(1, "ST", [50] * 11, age=21, per90=IMP)
+    star = prof(2, "ST", [50] * 11, age=27, per90=IMP)
+    rows = {1: {"minutes": 500, "rating": 7.0}, 2: {"minutes": 700, "rating": 7.8}, 3: {"minutes": 810, "rating": 6.5}}
+    assert could_be(young, [young, star], rows)[0]["id"] == 2  # 700 ≥ 0,6 × 810, obwohl unter 900

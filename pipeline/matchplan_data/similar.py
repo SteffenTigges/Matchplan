@@ -6,7 +6,8 @@ import math
 
 MIN_SHARED = 8
 YOUNG_MAX, TOP_AGE = 24, (25, 30)
-YOUNG_MIN_MIN, TOP_MIN_MIN = 450, 900
+YOUNG_MIN_MIN = 450
+TOP_MIN_SHARE = 0.6  # Topspieler: mindestens 60 % der bisher möglichen Minuten
 TOP_SHARE = 0.10
 GROUP = {**{p: "Abwehr" for p in ("CB", "LB", "RB", "LWB", "RWB")},
          **{p: "Mittelfeld" for p in ("DM", "CM", "AM", "LM", "RM", "CDM", "CAM")},
@@ -60,12 +61,14 @@ def style_similar(target: dict, pool: list[dict], n: int = 5) -> list[dict]:
     return sorted(out, key=lambda x: -x["score"])[:n]
 
 
-def could_be(target: dict, pool: list[dict], rows: dict, n: int = 3, min_score: float = 60.0) -> list[dict]:
+def could_be(target: dict, pool: list[dict], rows: dict, n: int = 3, min_score: float = 60.0, top_min: float | None = None) -> list[dict]:
     g = group_of(target)
     if g not in IMPACT or (target.get("age") or 99) > YOUNG_MAX or (rows.get(target["id"]) or {}).get("minutes", 0) < YOUNG_MIN_MIN:
         return []
+    if top_min is None:
+        top_min = TOP_MIN_SHARE * max((r.get("minutes") or 0 for r in rows.values()), default=0)
     tops = [p for p in pool if p["id"] != target["id"] and group_of(p) == g and TOP_AGE[0] <= (p.get("age") or 0) <= TOP_AGE[1]
-            and (rows.get(p["id"]) or {}).get("minutes", 0) >= TOP_MIN_MIN and (rows.get(p["id"]) or {}).get("rating")]
+            and (rows.get(p["id"]) or {}).get("minutes", 0) >= top_min and (rows.get(p["id"]) or {}).get("rating")]
     tops.sort(key=lambda p: -rows[p["id"]]["rating"])
     tops = tops[:max(1, math.ceil(len(tops) * TOP_SHARE))] if len(tops) > 10 else tops
     mine = _per90(target)
@@ -78,8 +81,10 @@ def could_be(target: dict, pool: list[dict], rows: dict, n: int = 3, min_score: 
         score = sum(ratios) / len(ratios) * 100
         if score >= min_score:
             out.append({**_brief(p), "rating": rows[p["id"]]["rating"], "score": round(min(score, 100.0), 1), "keys": len(ratios)})
-    return sorted(out, key=lambda x: -x["score"])[:n]
+    # Die größten Vorbilder zuerst (beste Note), solange die Wirkung schon nah dran ist.
+    return sorted(out, key=lambda x: (-x["rating"], -x["score"]))[:n]
 
 
 def build_similar(profiles: list[dict], rows: dict) -> dict[int, dict]:
-    return {p["id"]: {"style": style_similar(p, profiles), "could_be": could_be(p, profiles, rows)} for p in profiles if p.get("id")}
+    top_min = TOP_MIN_SHARE * max((r.get("minutes") or 0 for r in rows.values()), default=0)
+    return {p["id"]: {"style": style_similar(p, profiles), "could_be": could_be(p, profiles, rows, top_min=top_min)} for p in profiles if p.get("id")}
