@@ -16,7 +16,8 @@ on:
 permissions:
   contents: write
 
-concurrency: data
+concurrency:
+  group: data-${{ github.ref }}  # je Zweig eigene Warteschlange: Test-Läufe verdrängen nie den Lauf auf main
 
 jobs:
   probe:
