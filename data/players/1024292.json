@@ -1,0 +1,529 @@
+{
+ "id": 1024292,
+ "name": "Marco Grüll",
+ "team": "SVW",
+ "team_name": "Werder Bremen",
+ "birth_date": "1998-07-06",
+ "age": 28,
+ "height_cm": 182,
+ "foot": "beidfüßig",
+ "country": "Austria",
+ "shirt": 17,
+ "market_value": 2323478,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": true
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 2,
+   "per90": 0.23017902813299235,
+   "pct": 49.2063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 1.58,
+   "per90": 0.1816457800511509,
+   "pct": 34.92063492063492,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 1.94,
+   "per90": 0.2229283887468031,
+   "pct": 44.44444444444444,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 1.58,
+   "per90": 0.1816457800511509,
+   "pct": 38.095238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 20,
+   "per90": 2.3017902813299234,
+   "pct": 39.682539682539684,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 6,
+   "per90": 0.690537084398977,
+   "pct": 38.095238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 7,
+   "per90": 0.8056265984654731,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 2.14,
+   "per90": 0.24671106138107415,
+   "pct": 66.66666666666666,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 231,
+   "per90": 26.585677749360613,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 79.9,
+   "per90": 79.93079584775087,
+   "pct": 60.317460317460316,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 7,
+   "per90": 0.8056265984654731,
+   "pct": 65.07936507936508,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 53.8,
+   "per90": 53.84615384615385,
+   "pct": 60.317460317460316,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 46,
+   "per90": 5.294117647058823,
+   "pct": 95.23809523809523,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 24,
+   "per90": 2.762148337595908,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 3,
+   "per90": 0.3452685421994885,
+   "pct": 55.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 12,
+   "per90": 1.381074168797954,
+   "pct": 84.12698412698413,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 26.7,
+   "per90": 26.666666666666668,
+   "pct": 63.49206349206349,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 13,
+   "per90": 1.4961636828644502,
+   "pct": 60.317460317460316,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 65.0,
+   "per90": 65,
+   "pct": 84.12698412698413,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 59,
+   "per90": 6.790281329923273,
+   "pct": 85.71428571428571,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 53.2,
+   "per90": 53.153153153153156,
+   "pct": 79.36507936507937,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 7,
+   "per90": 0.8056265984654731,
+   "pct": 53.96825396825397,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 58.3,
+   "per90": 58.333333333333336,
+   "pct": 84.12698412698413,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 525,
+   "per90": 60.42199488491048,
+   "pct": 74.60317460317461,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 27,
+   "per90": 3.1074168797953963,
+   "pct": 26.984126984126984,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 19,
+   "per90": 2.186700767263427,
+   "pct": 20.634920634920633,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 17,
+   "per90": 1.9565217391304348,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "penalty_won_title",
+   "title": "Elfmeter herausgeholt",
+   "value": 1,
+   "per90": 0.11508951406649617,
+   "pct": 92.06349206349206,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 43,
+   "per90": 4.9488491048593355,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 22,
+   "per90": 2.5319693094629154,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 11,
+   "per90": 1.2659846547314577,
+   "pct": 92.06349206349206,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.11508951406649617,
+   "pct": 65.07936507936508,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 13,
+   "per90": 1.4961636828644502,
+   "pct": 17.46031746031746,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 49,
+   "per90": 5.639386189258311,
+   "pct": 92.06349206349206,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 6,
+   "per90": 0.690537084398977,
+   "pct": 68.25396825396825,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 8,
+   "per90": 0.9207161125319694,
+   "pct": 34.92063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 9,
+   "per90": 1.0358056265984654,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.11508951406649617,
+   "pct": 76.19047619047619,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 15,
+   "per90": 1.7263427109974425,
+   "pct": 38.095238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 13.3,
+   "per90": 1.5306099744245523,
+   "pct": 52.38095238095239,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.23017902813299235,
+   "pct": 23.809523809523807,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.82
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.67
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.94
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.14
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.36
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.61
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Werder Bremen",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 79,
+    "goals": 11,
+    "kind": null
+   },
+   {
+    "team": "Rapid Wien",
+    "start": "2021-07-01",
+    "end": "2024-06-30",
+    "apps": 132,
+    "goals": 46,
+    "kind": null
+   },
+   {
+    "team": "Ried",
+    "start": "2019-01-10",
+    "end": "2021-06-30",
+    "apps": 80,
+    "goals": 31,
+    "kind": null
+   },
+   {
+    "team": "TSV St. Johann im Pongau",
+    "start": "2015-07-01",
+    "end": "2019-01-10",
+    "apps": 102,
+    "goals": 50,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Austria",
+    "start": "2021-10-04",
+    "end": "2026-11-12",
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Austria U21",
+    "start": "2019-10-01",
+    "end": "2020-11-30",
+    "apps": 7,
+    "goals": 2,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Rapid Wien",
+   "to": "Werder Bremen",
+   "date": "2024-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

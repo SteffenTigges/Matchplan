@@ -1,0 +1,570 @@
+{
+ "id": 783585,
+ "name": "Emmanuel Latte Lath",
+ "team": "FCU",
+ "team_name": "Union Berlin",
+ "birth_date": "1999-01-01",
+ "age": 27,
+ "height_cm": 177,
+ "foot": "rechts",
+ "country": "Côte d'Ivoire",
+ "shirt": 29,
+ "market_value": 10489589,
+ "contract_end": "2028-12-31",
+ "positions": [
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.30405405405405406,
+   "pct": 36.17021276595745,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.39,
+   "per90": 0.11745608108108109,
+   "pct": 4.25531914893617,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.8,
+   "per90": 0.24190540540540542,
+   "pct": 31.914893617021278,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.39,
+   "per90": 0.11745608108108109,
+   "pct": 4.25531914893617,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 4,
+   "per90": 1.2162162162162162,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 0.6081081081081081,
+   "pct": 27.659574468085108,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 3,
+   "per90": 0.9121621621621622,
+   "pct": 61.702127659574465,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.12,
+   "per90": 0.03608211587837838,
+   "pct": 14.893617021276595,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 27,
+   "per90": 8.20945945945946,
+   "pct": 2.127659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 55.1,
+   "per90": 55.10204081632653,
+   "pct": 2.127659574468085,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 1,
+   "per90": 0.30405405405405406,
+   "pct": 82.97872340425532,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 2,
+   "per90": 0.6081081081081081,
+   "pct": 48.93617021276596,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 59.57446808510638,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 17,
+   "per90": 5.168918918918919,
+   "pct": 48.93617021276596,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 47.2,
+   "per90": 47.22222222222222,
+   "pct": 70.2127659574468,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 10,
+   "per90": 3.040540540540541,
+   "pct": 61.702127659574465,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 74.46808510638297,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 87,
+   "per90": 26.4527027027027,
+   "pct": 4.25531914893617,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 6,
+   "per90": 1.8243243243243243,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 5,
+   "per90": 1.5202702702702704,
+   "pct": 25.53191489361702,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 2,
+   "per90": 0.6081081081081081,
+   "pct": 17.02127659574468,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 6,
+   "per90": 1.8243243243243243,
+   "pct": 40.42553191489361,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 3,
+   "per90": 0.9121621621621622,
+   "pct": 68.08510638297872,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 0.30405405405405406,
+   "pct": 68.08510638297872,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 2,
+   "per90": 0.6081081081081081,
+   "pct": 76.59574468085107,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 6,
+   "per90": 1.8243243243243243,
+   "pct": 23.404255319148938,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 1,
+   "per90": 0.30405405405405406,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 0.6081081081081081,
+   "pct": 29.78723404255319,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 10,
+   "per90": 3.040540540540541,
+   "pct": 12.76595744680851,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 7.74,
+   "per90": 2.354320945945946,
+   "pct": 19.148936170212767,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other forwards",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.03
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.45
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.28
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.14
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.21
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.09
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Atlanta United",
+    "start": "2027-07-01",
+    "end": null,
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Union Berlin",
+    "start": "2026-08-02",
+    "end": "2027-06-30",
+    "apps": 8,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Atlanta United",
+    "start": "2025-02-04",
+    "end": "2026-08-02",
+    "apps": 48,
+    "goals": 11,
+    "kind": null
+   },
+   {
+    "team": "Middlesbrough",
+    "start": "2023-08-15",
+    "end": "2025-02-04",
+    "apps": 67,
+    "goals": 29,
+    "kind": null
+   },
+   {
+    "team": "Atalanta",
+    "start": "2023-07-01",
+    "end": "2023-08-15",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "St. Gallen",
+    "start": "2022-07-02",
+    "end": "2023-06-30",
+    "apps": 34,
+    "goals": 16,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Atalanta",
+    "start": "2022-07-01",
+    "end": "2022-07-02",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "SPAL",
+    "start": "2021-07-12",
+    "end": "2022-06-30",
+    "apps": 19,
+    "goals": 3,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Pro Patria",
+    "start": "2020-09-11",
+    "end": "2021-06-30",
+    "apps": 36,
+    "goals": 11,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Pianese",
+    "start": "2020-01-31",
+    "end": "2020-06-30",
+    "apps": 5,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Imolese Calcio",
+    "start": "2019-07-10",
+    "end": "2020-01-31",
+    "apps": 22,
+    "goals": 3,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Carrarese",
+    "start": "2019-01-24",
+    "end": "2019-06-30",
+    "apps": 17,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Pistoiese",
+    "start": "2018-07-06",
+    "end": "2019-01-24",
+    "apps": 18,
+    "goals": 2,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Atalanta",
+    "start": "2018-01-31",
+    "end": "2018-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Pescara",
+    "start": "2017-07-01",
+    "end": "2018-01-31",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Atalanta",
+    "start": "2016-07-01",
+    "end": "2017-06-30",
+    "apps": 3,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Ivory Coast",
+    "start": "2024-05-24",
+    "end": "2025-08-27",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Atlanta United",
+   "to": "Union Berlin",
+   "date": "2026-08-02",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Middlesbrough",
+   "to": "Atlanta United",
+   "date": "2025-02-04",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Atalanta",
+   "to": "Middlesbrough",
+   "date": "2023-08-16",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Atalanta",
+   "to": "St. Gallen",
+   "date": "2022-07-02",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Atalanta",
+   "to": "SPAL",
+   "date": "2021-07-12",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Atalanta",
+   "to": "Pistoiese",
+   "date": "2018-07-06",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Atalanta",
+   "to": "Pescara",
+   "date": "2017-07-01",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

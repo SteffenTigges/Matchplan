@@ -1,0 +1,522 @@
+{
+ "id": 792429,
+ "name": "Joey Veerman",
+ "team": "BVB",
+ "team_name": "Borussia Dortmund",
+ "birth_date": "1998-11-19",
+ "age": 28,
+ "height_cm": 185,
+ "foot": "rechts",
+ "country": "Netherlands",
+ "shirt": 25,
+ "market_value": 24991328,
+ "contract_end": "2031-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.29,
+   "per90": 0.05464285714285714,
+   "pct": 34.72222222222222,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.18,
+   "per90": 0.03371218487394958,
+   "pct": 38.88888888888889,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.29,
+   "per90": 0.05464285714285714,
+   "pct": 34.72222222222222,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 5,
+   "per90": 0.9453781512605043,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 0.18907563025210083,
+   "pct": 36.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.18907563025210083,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 1.14,
+   "per90": 0.21516600630252103,
+   "pct": 77.77777777777779,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 302,
+   "per90": 57.10084033613445,
+   "pct": 90.27777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 87.8,
+   "per90": 87.79069767441861,
+   "pct": 76.38888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 20,
+   "per90": 3.781512605042017,
+   "pct": 94.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 58.8,
+   "per90": 58.8235294117647,
+   "pct": 72.22222222222221,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 21,
+   "per90": 3.9705882352941178,
+   "pct": 87.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 8,
+   "per90": 1.5126050420168067,
+   "pct": 65.27777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.37815126050420167,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 7,
+   "per90": 1.3235294117647058,
+   "pct": 83.33333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 25.0,
+   "per90": 25,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 1,
+   "per90": 0.18907563025210083,
+   "pct": 23.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 43.05555555555556,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 22,
+   "per90": 4.159663865546219,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 52.4,
+   "per90": 52.38095238095238,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 6,
+   "per90": 1.134453781512605,
+   "pct": 59.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 60.0,
+   "per90": 60,
+   "pct": 68.05555555555556,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 439,
+   "per90": 83.00420168067227,
+   "pct": 90.27777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 4,
+   "per90": 0.7563025210084033,
+   "pct": 25,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 0.37815126050420167,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 3,
+   "per90": 0.5672268907563025,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 38,
+   "per90": 7.184873949579831,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 12,
+   "per90": 2.26890756302521,
+   "pct": 69.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 5,
+   "per90": 0.9453781512605043,
+   "pct": 37.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 3,
+   "per90": 0.5672268907563025,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 6,
+   "per90": 1.134453781512605,
+   "pct": 47.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 25,
+   "per90": 4.726890756302521,
+   "pct": 45.83333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 5,
+   "per90": 0.9453781512605043,
+   "pct": 86.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 7,
+   "per90": 1.3235294117647058,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 18,
+   "per90": 3.403361344537815,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.18907563025210083,
+   "pct": 69.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 6,
+   "per90": 1.134453781512605,
+   "pct": 76.38888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 9.68,
+   "per90": 1.830932773109244,
+   "pct": 36.11111111111111,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.37815126050420167,
+   "pct": 15.277777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.99
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.43
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.66
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.48
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.54
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.98
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Borussia Dortmund",
+    "start": "2026-08-18",
+    "end": null,
+    "apps": 15,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "PSV Eindhoven",
+    "start": "2022-01-04",
+    "end": "2026-08-18",
+    "apps": 198,
+    "goals": 31,
+    "kind": null
+   },
+   {
+    "team": "SC Heerenveen",
+    "start": "2019-08-30",
+    "end": "2022-01-04",
+    "apps": 81,
+    "goals": 18,
+    "kind": null
+   },
+   {
+    "team": "FC Volendam",
+    "start": "2016-09-01",
+    "end": "2019-08-30",
+    "apps": 81,
+    "goals": 12,
+    "kind": null
+   },
+   {
+    "team": "Jong FC Volendam",
+    "start": "2018-01-01",
+    "end": "2019-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Netherlands",
+    "start": "2023-03-20",
+    "end": null,
+    "apps": 22,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Netherlands U21",
+    "start": "2019-11-11",
+    "end": "2020-11-06",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "PSV Eindhoven",
+   "to": "Dortmund",
+   "date": "2026-08-18",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "SC Heerenveen",
+   "to": "PSV Eindhoven",
+   "date": "2022-01-04",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "FC Volendam",
+   "to": "SC Heerenveen",
+   "date": "2019-08-30",
+   "fee": "undisclosed",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

@@ -403,14 +403,17 @@
   {
    "id": 1018564,
    "name": "Nicolás Capaldo",
-   "pos": null,
+   "pos": "CB",
    "minutes": 540,
    "goals": 1,
    "assists": 0,
    "rating": 6.59,
    "xg90": 0.11,
    "xa90": 0.05,
-   "why": []
+   "why": [
+    "Gefoult worden (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
   },
   {
    "id": 1049679,
@@ -437,7 +440,20 @@
    "why": []
   }
  ],
- "lines": {},
+ "lines": {
+  "Mittelfeld": {
+   "id": 901495,
+   "name": "Albert Sambi Lokonga",
+   "rating": 6.8,
+   "minutes": 512
+  },
+  "Abwehr": {
+   "id": 1018564,
+   "name": "Nicolás Capaldo",
+   "rating": 6.59,
+   "minutes": 540
+  }
+ },
  "load": [
   {
    "id": 406501,

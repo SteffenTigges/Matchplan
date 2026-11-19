@@ -1,0 +1,594 @@
+{
+ "id": 840241,
+ "name": "Ermedin Demirović",
+ "team": "VFB",
+ "team_name": "VfB Stuttgart",
+ "birth_date": "1998-03-25",
+ "age": 28,
+ "height_cm": 185,
+ "foot": "rechts",
+ "country": "Bosnia and Herzegovina",
+ "shirt": 9,
+ "market_value": 17319316,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": true
+  },
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 5,
+   "per90": 0.8287292817679559,
+   "pct": 82.97872340425532,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 4.76,
+   "per90": 0.7883535911602211,
+   "pct": 85.1063829787234,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 3.94,
+   "per90": 0.6537513812154696,
+   "pct": 78.72340425531915,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 4.76,
+   "per90": 0.7883535911602211,
+   "pct": 89.36170212765957,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 24,
+   "per90": 3.9779005524861875,
+   "pct": 74.46808510638297,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 13,
+   "per90": 2.154696132596685,
+   "pct": 85.1063829787234,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 5,
+   "per90": 0.8287292817679559,
+   "pct": 55.319148936170215,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.47,
+   "per90": 0.07744193038674034,
+   "pct": 38.297872340425535,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 67,
+   "per90": 11.104972375690608,
+   "pct": 21.27659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 64.4,
+   "per90": 64.42307692307692,
+   "pct": 19.148936170212767,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 1,
+   "per90": 0.16574585635359115,
+   "pct": 34.04255319148936,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 25.0,
+   "per90": 25,
+   "pct": 34.04255319148936,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 3,
+   "per90": 0.49723756906077343,
+   "pct": 12.76595744680851,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 1,
+   "per90": 0.16574585635359115,
+   "pct": 46.808510638297875,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 3,
+   "per90": 0.49723756906077343,
+   "pct": 38.297872340425535,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 33.3,
+   "per90": 33.333333333333336,
+   "pct": 31.914893617021278,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 24,
+   "per90": 3.9779005524861875,
+   "pct": 23.404255319148938,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 31.2,
+   "per90": 31.16883116883117,
+   "pct": 14.893617021276595,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 10,
+   "per90": 1.6574585635359118,
+   "pct": 34.04255319148936,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 25.6,
+   "per90": 25.641025641025642,
+   "pct": 23.404255319148938,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 205,
+   "per90": 33.97790055248618,
+   "pct": 21.27659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 32,
+   "per90": 5.303867403314917,
+   "pct": 46.808510638297875,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 8,
+   "per90": 1.3259668508287292,
+   "pct": 38.297872340425535,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 8,
+   "per90": 1.3259668508287292,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 14,
+   "per90": 2.320441988950276,
+   "pct": 57.446808510638306,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 3,
+   "per90": 0.49723756906077343,
+   "pct": 27.659574468085108,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 5,
+   "per90": 0.8287292817679559,
+   "pct": 93.61702127659575,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.16574585635359115,
+   "pct": 68.08510638297872,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 8,
+   "per90": 1.3259668508287292,
+   "pct": 40.42553191489361,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 15,
+   "per90": 2.4861878453038675,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 55.319148936170215,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 19.148936170212767,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 5,
+   "per90": 0.8287292817679559,
+   "pct": 44.680851063829785,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 10,
+   "per90": 1.6574585635359118,
+   "pct": 57.446808510638306,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 13.45,
+   "per90": 2.230027624309392,
+   "pct": 27.659574468085108,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 17.02127659574468,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other forwards",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.27
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.46
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.62
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.68
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.54
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.2
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "VfB Stuttgart",
+    "start": "2024-07-16",
+    "end": null,
+    "apps": 102,
+    "goals": 41,
+    "kind": null
+   },
+   {
+    "team": "Augsburg",
+    "start": "2022-07-08",
+    "end": "2024-07-16",
+    "apps": 66,
+    "goals": 23,
+    "kind": null
+   },
+   {
+    "team": "Freiburg",
+    "start": "2020-08-05",
+    "end": "2022-07-08",
+    "apps": 69,
+    "goals": 8,
+    "kind": null
+   },
+   {
+    "team": "St. Gallen",
+    "start": "2019-09-02",
+    "end": "2020-08-04",
+    "apps": 28,
+    "goals": 14,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Almería",
+    "start": "2019-01-17",
+    "end": "2019-06-30",
+    "apps": 13,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Sochaux",
+    "start": "2018-07-24",
+    "end": "2019-01-16",
+    "apps": 17,
+    "goals": 4,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Deportivo Alavés",
+    "start": "2018-01-01",
+    "end": "2018-07-24",
+    "apps": 6,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "RB Leipzig",
+    "start": "2017-07-01",
+    "end": "2017-07-01",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "RasenBallsport Leipzig ll",
+    "start": "2017-04-12",
+    "end": "2017-06-30",
+    "apps": 1,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "RB Leipzig U19",
+    "start": "2015-01-01",
+    "end": "2017-06-30",
+    "apps": 56,
+    "goals": 26,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Bosnia and Herzegovina",
+    "start": "2018-11-01",
+    "end": null,
+    "apps": 50,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Bosnia and Herzegovina U21",
+    "start": "2017-08-30",
+    "end": "2020-10-28",
+    "apps": 13,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Bosnia and Herzegovina U19",
+    "start": "2015-01-01",
+    "end": "2017-10-31",
+    "apps": 9,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Bosnia and Herzegovina U17",
+    "start": "2014-01-01",
+    "end": "2015-03-26",
+    "apps": 6,
+    "goals": 1,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Augsburg",
+   "to": "VfB Stuttgart",
+   "date": "2024-07-16",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Freiburg",
+   "to": "Augsburg",
+   "date": "2022-07-08",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Deportivo Alavés",
+   "to": "Freiburg",
+   "date": "2020-07-27",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Deportivo Alavés",
+   "to": "St. Gallen",
+   "date": "2019-09-02",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Deportivo Alavés",
+   "to": "Almería",
+   "date": "2019-01-17",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Deportivo Alavés",
+   "to": "Sochaux",
+   "date": "2018-07-24",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "Deportivo Alavés",
+   "date": "2017-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

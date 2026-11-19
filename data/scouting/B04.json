@@ -421,14 +421,17 @@
   {
    "id": 942379,
    "name": "Miguel Gutiérrez",
-   "pos": null,
+   "pos": "LB",
    "minutes": 803,
    "goals": 1,
    "assists": 4,
    "rating": 7.36,
    "xg90": 0.07,
    "xa90": 0.35,
-   "why": []
+   "why": [
+    "Rote Karten (100. Perzentil)",
+    "Großchancen vorbereitet (97. Perzentil)"
+   ]
   },
   {
    "id": 1107620,
@@ -445,14 +448,17 @@
   {
    "id": 642551,
    "name": "Aleix García",
-   "pos": null,
+   "pos": "DM",
    "minutes": 797,
    "goals": 1,
    "assists": 2,
    "rating": 7.78,
    "xg90": 0.05,
    "xa90": 0.24,
-   "why": []
+   "why": [
+    "Rote Karten (100. Perzentil)",
+    "Lange Bälle angekommen (97. Perzentil)"
+   ]
   }
  ],
  "lines": {
@@ -461,6 +467,18 @@
    "name": "Patrik Schick",
    "rating": 7.81,
    "minutes": 704
+  },
+  "Mittelfeld": {
+   "id": 642551,
+   "name": "Aleix García",
+   "rating": 7.78,
+   "minutes": 797
+  },
+  "Abwehr": {
+   "id": 942379,
+   "name": "Miguel Gutiérrez",
+   "rating": 7.36,
+   "minutes": 803
   }
  },
  "load": [

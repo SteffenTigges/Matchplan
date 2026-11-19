@@ -1,0 +1,607 @@
+{
+ "id": 992060,
+ "name": "Tom Krauß",
+ "team": "KOE",
+ "team_name": "1. FC Köln",
+ "birth_date": "2001-06-22",
+ "age": 25,
+ "height_cm": 182,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 5,
+ "market_value": 4285134,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": true
+  },
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": false
+  },
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": false
+  },
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.93,
+   "per90": 0.11470976616231086,
+   "pct": 66.66666666666666,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.76,
+   "per90": 0.09456808803301238,
+   "pct": 59.72222222222222,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.93,
+   "per90": 0.11470976616231086,
+   "pct": 70.83333333333334,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 6,
+   "per90": 0.7427785419532323,
+   "pct": 27.77777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 0.24759284731774417,
+   "pct": 41.66666666666667,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.31,
+   "per90": 0.03825595089408528,
+   "pct": 19.444444444444446,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 357,
+   "per90": 44.19532324621733,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 86.0,
+   "per90": 86.02409638554217,
+   "pct": 72.22222222222221,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 7,
+   "per90": 0.8665749656121046,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 30.4,
+   "per90": 30.434782608695652,
+   "pct": 26.38888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 13,
+   "per90": 1.609353507565337,
+   "pct": 65.27777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 7,
+   "per90": 0.8665749656121046,
+   "pct": 36.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 1,
+   "per90": 0.12379642365887208,
+   "pct": 38.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 25.0,
+   "per90": 25,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 2,
+   "per90": 0.24759284731774417,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 28.6,
+   "per90": 28.571428571428573,
+   "pct": 18.055555555555554,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 47,
+   "per90": 5.8184319119669885,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 58.0,
+   "per90": 58.02469135802469,
+   "pct": 81.94444444444444,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 9,
+   "per90": 1.1141678129298487,
+   "pct": 58.333333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 64.3,
+   "per90": 64.28571428571429,
+   "pct": 79.16666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 567,
+   "per90": 70.19257221458047,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 11,
+   "per90": 1.361760660247593,
+   "pct": 43.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 4,
+   "per90": 0.49518569463548834,
+   "pct": 59.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 8,
+   "per90": 0.9903713892709767,
+   "pct": 45.83333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 81,
+   "per90": 10.027510316368637,
+   "pct": 95.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 28,
+   "per90": 3.4662998624484183,
+   "pct": 94.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 21,
+   "per90": 2.599724896836314,
+   "pct": 94.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 5,
+   "per90": 0.6189821182943603,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 12,
+   "per90": 1.4855570839064647,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 58,
+   "per90": 7.18019257221458,
+   "pct": 94.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 3,
+   "per90": 0.37138927097661617,
+   "pct": 47.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 9,
+   "per90": 1.1141678129298487,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 27,
+   "per90": 3.3425034387895463,
+   "pct": 87.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 11,
+   "per90": 1.361760660247593,
+   "pct": 68.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 12.59,
+   "per90": 1.5591292984869327,
+   "pct": 69.44444444444444,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 3,
+   "per90": 0.37138927097661617,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.29
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.55
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.98
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.03
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.52
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "1. FC Köln",
+    "start": "2026-07-01",
+    "end": null,
+    "apps": 11,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "1. FC Köln",
+    "start": "2025-07-05",
+    "end": "2026-06-30",
+    "apps": 27,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Mainz 05",
+    "start": "2025-07-01",
+    "end": "2025-07-05",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Bochum",
+    "start": "2025-01-30",
+    "end": "2025-06-30",
+    "apps": 14,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Luton Town",
+    "start": "2024-08-22",
+    "end": "2025-01-29",
+    "apps": 23,
+    "goals": 2,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Mainz 05",
+    "start": "2023-07-14",
+    "end": "2024-08-22",
+    "apps": 31,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Schalke 04",
+    "start": "2022-07-01",
+    "end": "2023-06-30",
+    "apps": 33,
+    "goals": 2,
+    "kind": "Leihe"
+   },
+   {
+    "team": "1. FC Nürnberg",
+    "start": "2020-08-04",
+    "end": "2022-06-30",
+    "apps": 66,
+    "goals": 5,
+    "kind": "Leihe"
+   },
+   {
+    "team": "RB Leipzig",
+    "start": "2018-11-28",
+    "end": "2020-08-04",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "RB Leipzig U19",
+    "start": "2017-07-01",
+    "end": "2020-06-30",
+    "apps": 43,
+    "goals": 12,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2021-08-27",
+    "end": "2023-09-01",
+    "apps": 14,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Germany U20",
+    "start": "2020-09-01",
+    "end": "2020-09-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Germany U19",
+    "start": "2019-09-08",
+    "end": "2020-09-02",
+    "apps": 4,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Germany U17",
+    "start": "2018-03-12",
+    "end": "2019-03-18",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Mainz",
+   "to": "Köln",
+   "date": "2026-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Mainz",
+   "to": "Köln",
+   "date": "2025-07-05",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Mainz",
+   "to": "Bochum",
+   "date": "2025-01-30",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Mainz",
+   "to": "Luton",
+   "date": "2024-08-22",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "Mainz",
+   "date": "2023-07-14",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "Schalke 04",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": true
+  },
+  {
+   "from": "RB Leipzig",
+   "to": "1. FC Nürnberg",
+   "date": "2020-08-04",
+   "fee": "ablösefrei",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

@@ -1,0 +1,529 @@
+{
+ "id": 792756,
+ "name": "Michel Aebischer",
+ "team": "FCU",
+ "team_name": "Union Berlin",
+ "birth_date": "1997-01-06",
+ "age": 29,
+ "height_cm": 183,
+ "foot": "rechts",
+ "country": "Switzerland",
+ "shirt": 20,
+ "market_value": 2119784,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": true
+  },
+  {
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
+   "main": false
+  },
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": false
+  },
+  {
+   "label": "Rechtes Mittelfeld",
+   "short": "RM",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.3,
+   "per90": 0.03757122905027933,
+   "pct": 23.61111111111111,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.3,
+   "per90": 0.03757122905027933,
+   "pct": 23.61111111111111,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 6,
+   "per90": 0.7541899441340782,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.73,
+   "per90": 0.0918924875698324,
+   "pct": 38.88888888888889,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 157,
+   "per90": 19.734636871508382,
+   "pct": 5.555555555555555,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 78.5,
+   "per90": 78.5,
+   "pct": 29.166666666666668,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 6,
+   "per90": 0.7541899441340782,
+   "pct": 26.38888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 42.9,
+   "per90": 42.857142857142854,
+   "pct": 45.83333333333333,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 8,
+   "per90": 1.005586592178771,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 2,
+   "per90": 0.25139664804469275,
+   "pct": 50,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 13.3,
+   "per90": 13.333333333333334,
+   "pct": 40.27777777777778,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 3,
+   "per90": 0.3770949720670391,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 75.0,
+   "per90": 75,
+   "pct": 81.94444444444444,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 25,
+   "per90": 3.142458100558659,
+   "pct": 11.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 44.6,
+   "per90": 44.642857142857146,
+   "pct": 29.166666666666668,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 5,
+   "per90": 0.6284916201117318,
+   "pct": 34.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 26.3,
+   "per90": 26.31578947368421,
+   "pct": 22.22222222222222,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 291,
+   "per90": 36.57821229050279,
+   "pct": 1.3888888888888888,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 9,
+   "per90": 1.1312849162011174,
+   "pct": 37.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 0.25139664804469275,
+   "pct": 81.94444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 4,
+   "per90": 0.5027932960893855,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 24,
+   "per90": 3.016759776536313,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 13,
+   "per90": 1.6340782122905029,
+   "pct": 37.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 5,
+   "per90": 0.6284916201117318,
+   "pct": 25,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 7,
+   "per90": 0.8798882681564246,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 33,
+   "per90": 4.148044692737431,
+   "pct": 27.77777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 2,
+   "per90": 0.25139664804469275,
+   "pct": 31.944444444444443,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 7,
+   "per90": 0.8798882681564246,
+   "pct": 47.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 6,
+   "per90": 0.7541899441340782,
+   "pct": 18.055555555555554,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.12569832402234637,
+   "pct": 58.333333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 18,
+   "per90": 2.2625698324022347,
+   "pct": 15.277777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 15.45,
+   "per90": 1.9420391061452513,
+   "pct": 27.77777777777778,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.12569832402234637,
+   "pct": 51.388888888888886,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.75
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.19
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.28
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.19
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.25
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.34
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Union Berlin",
+    "start": "2026-08-19",
+    "end": null,
+    "apps": 11,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Pisa",
+    "start": "2026-07-01",
+    "end": "2026-08-19",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Pisa",
+    "start": "2025-08-03",
+    "end": "2026-06-30",
+    "apps": 36,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Bologna",
+    "start": "2022-07-01",
+    "end": "2025-08-03",
+    "apps": 90,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Bologna",
+    "start": "2022-01-25",
+    "end": "2022-06-30",
+    "apps": 12,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Young Boys",
+    "start": "2016-09-01",
+    "end": "2022-01-25",
+    "apps": 190,
+    "goals": 15,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Switzerland",
+    "start": "2019-11-11",
+    "end": null,
+    "apps": 48,
+    "goals": 2,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Switzerland U21",
+    "start": "2017-06-11",
+    "end": "2019-09-08",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Pisa",
+   "to": "Union Berlin",
+   "date": "2026-08-19",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Bologna",
+   "to": "Pisa",
+   "date": "2026-06-05",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Bologna",
+   "to": "Pisa",
+   "date": "2025-08-03",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Young Boys",
+   "to": "Bologna",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Young Boys",
+   "to": "Bologna",
+   "date": "2022-01-25",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

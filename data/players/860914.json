@@ -1,0 +1,504 @@
+{
+ "id": 860914,
+ "name": "Luis Díaz",
+ "team": "FCB",
+ "team_name": "Bayern München",
+ "birth_date": "1997-01-13",
+ "age": 29,
+ "height_cm": 180,
+ "foot": "rechts",
+ "country": "Colombia",
+ "shirt": 14,
+ "market_value": 76414125,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": true
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 4,
+   "per90": 0.8089887640449439,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 3.63,
+   "per90": 0.7351280898876404,
+   "pct": 95.23809523809523,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 2.79,
+   "per90": 0.564067415730337,
+   "pct": 85.71428571428571,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 3.63,
+   "per90": 0.7351280898876404,
+   "pct": 95.23809523809523,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 18,
+   "per90": 3.6404494382022468,
+   "pct": 80.95238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 9,
+   "per90": 1.8202247191011234,
+   "pct": 85.71428571428571,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 1,
+   "per90": 0.20224719101123598,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.20224719101123598,
+   "pct": 57.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 2.61,
+   "per90": 0.5276449213483146,
+   "pct": 93.65079365079364,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 231,
+   "per90": 46.71910112359551,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 88.5,
+   "per90": 88.50574712643679,
+   "pct": 96.82539682539682,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 2,
+   "per90": 0.40449438202247195,
+   "pct": 31.746031746031743,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 40.0,
+   "per90": 40,
+   "pct": 36.507936507936506,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 13,
+   "per90": 2.6292134831460676,
+   "pct": 87.3015873015873,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.40449438202247195,
+   "pct": 65.07936507936508,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 2,
+   "per90": 0.40449438202247195,
+   "pct": 50.79365079365079,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 10,
+   "per90": 2.0224719101123596,
+   "pct": 76.19047619047619,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 41.7,
+   "per90": 41.666666666666664,
+   "pct": 34.92063492063492,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 24,
+   "per90": 4.853932584269663,
+   "pct": 60.317460317460316,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 36.9,
+   "per90": 36.92307692307692,
+   "pct": 26.984126984126984,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 5,
+   "per90": 1.0112359550561798,
+   "pct": 69.84126984126983,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 71.4,
+   "per90": 71.42857142857143,
+   "pct": 88.88888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 379,
+   "per90": 76.65168539325843,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 59,
+   "per90": 11.932584269662922,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 16,
+   "per90": 3.2359550561797756,
+   "pct": 6.349206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 5,
+   "per90": 1.0112359550561798,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 6,
+   "per90": 1.2134831460674158,
+   "pct": 11.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 4,
+   "per90": 0.8089887640449439,
+   "pct": 30.158730158730158,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 9,
+   "per90": 1.8202247191011234,
+   "pct": 7.936507936507936,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 12,
+   "per90": 2.4269662921348316,
+   "pct": 14.285714285714285,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 3,
+   "per90": 0.6067415730337079,
+   "pct": 57.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 1,
+   "per90": 0.20224719101123598,
+   "pct": 79.36507936507937,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 0.40449438202247195,
+   "pct": 25.396825396825395,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.20224719101123598,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 4,
+   "per90": 0.8089887640449439,
+   "pct": 84.12698412698413,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 4.7,
+   "per90": 0.9511685393258427,
+   "pct": 84.12698412698413,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.84
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.56
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.15
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.97
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.87
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.89
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Bayern München",
+    "start": "2025-07-30",
+    "end": null,
+    "apps": 62,
+    "goals": 31,
+    "kind": null
+   },
+   {
+    "team": "Liverpool",
+    "start": "2022-01-30",
+    "end": "2025-07-30",
+    "apps": 148,
+    "goals": 41,
+    "kind": null
+   },
+   {
+    "team": "FC Porto",
+    "start": "2019-07-10",
+    "end": "2022-01-30",
+    "apps": 124,
+    "goals": 39,
+    "kind": null
+   },
+   {
+    "team": "Junior FC",
+    "start": "2017-06-19",
+    "end": "2019-06-15",
+    "apps": 106,
+    "goals": 20,
+    "kind": null
+   },
+   {
+    "team": "Barranquilla FC",
+    "start": "2016-04-01",
+    "end": "2017-05-30",
+    "apps": 42,
+    "goals": 3,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Colombia",
+    "start": "2018-08-28",
+    "end": "2026-09-17",
+    "apps": 79,
+    "goals": 23,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Colombia U20",
+    "start": "2017-01-01",
+    "end": "2017-12-31",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Liverpool",
+   "to": "Bayern München",
+   "date": "2025-07-30",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "FC Porto",
+   "to": "Liverpool",
+   "date": "2022-01-30",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Atletico Junior",
+   "to": "FC Porto",
+   "date": "2019-07-11",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

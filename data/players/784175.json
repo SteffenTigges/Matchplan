@@ -1,0 +1,580 @@
+{
+ "id": 784175,
+ "name": "Luka Lochoshvili",
+ "team": "KOE",
+ "team_name": "1. FC Köln",
+ "birth_date": "1998-05-29",
+ "age": 28,
+ "height_cm": 191,
+ "foot": "links",
+ "country": "Georgia",
+ "shirt": 24,
+ "market_value": 2526708,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": true
+  },
+  {
+   "label": "Linksverteidiger",
+   "short": "LB",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.53,
+   "per90": 0.07768881685575364,
+   "pct": 68.11594202898551,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.53,
+   "per90": 0.07768881685575364,
+   "pct": 69.56521739130434,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 6,
+   "per90": 0.8752025931928687,
+   "pct": 65.21739130434783,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 5,
+   "per90": 0.7293354943273905,
+   "pct": 76.81159420289855,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.03,
+   "per90": 0.004818877147487844,
+   "pct": 1.4492753623188406,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 418,
+   "per90": 60.972447325769856,
+   "pct": 79.71014492753623,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 91.7,
+   "per90": 91.66666666666667,
+   "pct": 84.05797101449275,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 9,
+   "per90": 1.312803889789303,
+   "pct": 17.391304347826086,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 32.1,
+   "per90": 32.142857142857146,
+   "pct": 18.84057971014493,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 3,
+   "per90": 0.4376012965964344,
+   "pct": 44.927536231884055,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.1458670988654781,
+   "pct": 20.28985507246377,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 2,
+   "per90": 0.2917341977309562,
+   "pct": 72.46376811594203,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 60.86956521739131,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 38,
+   "per90": 5.542949756888168,
+   "pct": 63.76811594202898,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 57.6,
+   "per90": 57.57575757575758,
+   "pct": 44.927536231884055,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 20,
+   "per90": 2.917341977309562,
+   "pct": 68.11594202898551,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 58.8,
+   "per90": 58.8235294117647,
+   "pct": 44.927536231884055,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 559,
+   "per90": 81.53970826580228,
+   "pct": 72.46376811594203,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 11,
+   "per90": 1.6045380875202593,
+   "pct": 71.01449275362319,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 5,
+   "per90": 0.7293354943273905,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 61,
+   "per90": 8.897893030794165,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 11,
+   "per90": 1.6045380875202593,
+   "pct": 46.3768115942029,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 7,
+   "per90": 1.0210696920583469,
+   "pct": 23.18840579710145,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 5,
+   "per90": 0.7293354943273905,
+   "pct": 39.130434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 8,
+   "per90": 1.1669367909238249,
+   "pct": 43.47826086956522,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 24,
+   "per90": 3.500810372771475,
+   "pct": 40.57971014492754,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 5,
+   "per90": 0.7293354943273905,
+   "pct": 21.73913043478261,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 38,
+   "per90": 5.542949756888168,
+   "pct": 49.275362318840585,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 11,
+   "per90": 1.6045380875202593,
+   "pct": 57.971014492753625,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 11.23,
+   "per90": 1.637941653160454,
+   "pct": 60.86956521739131,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.1458670988654781,
+   "pct": 53.62318840579711,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other center-backs",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.29
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.68
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.7
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.97
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.88
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.53
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "1. FC Köln",
+    "start": "2026-07-02",
+    "end": null,
+    "apps": 8,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "1. FC Nürnberg",
+    "start": "2025-07-12",
+    "end": "2026-07-02",
+    "apps": 34,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "Cremonese",
+    "start": "2025-07-01",
+    "end": "2025-07-12",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Salernitana",
+    "start": "2025-01-10",
+    "end": "2025-06-30",
+    "apps": 20,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Cremonese",
+    "start": "2022-08-10",
+    "end": "2025-01-10",
+    "apps": 61,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Wolfsberger AC",
+    "start": "2020-08-24",
+    "end": "2022-08-10",
+    "apps": 71,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Dinamo Tbilisi",
+    "start": "2020-01-25",
+    "end": "2020-08-24",
+    "apps": 12,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Žilina B",
+    "start": "2019-03-07",
+    "end": "2019-12-31",
+    "apps": 10,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Žilina",
+    "start": "2019-02-07",
+    "end": "2019-06-30",
+    "apps": 3,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Dinamo Tbilisi",
+    "start": "2018-04-01",
+    "end": "2018-12-31",
+    "apps": 25,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Dynamo Kyiv",
+    "start": "2017-08-31",
+    "end": "2017-12-31",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Dinamo Tbilisi",
+    "start": "2014-07-01",
+    "end": "2017-08-31",
+    "apps": 24,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Dinamo Tbilisi II",
+    "start": "2014-01-01",
+    "end": "2014-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Dinamo Tbilisi U19",
+    "start": "2016-07-01",
+    "end": "2017-08-31",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Georgia",
+    "start": "2021-08-23",
+    "end": null,
+    "apps": 38,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Georgia U21",
+    "start": "2017-08-31",
+    "end": "2020-11-04",
+    "apps": 8,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Georgia U19",
+    "start": "2015-01-01",
+    "end": "2017-11-02",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Georgia U17",
+    "start": "2014-01-01",
+    "end": "2015-06-30",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "1. FC Nürnberg",
+   "to": "Köln",
+   "date": "2026-07-02",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Cremonese",
+   "to": "1. FC Nürnberg",
+   "date": "2025-07-12",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Cremonese",
+   "to": "Salernitana",
+   "date": "2025-01-10",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Wolfsberger AC",
+   "to": "Cremonese",
+   "date": "2022-08-10",
+   "fee": "undisclosed",
+   "loan": false
+  },
+  {
+   "from": "Dinamo Tbilisi",
+   "to": "Wolfsberger AC",
+   "date": "2020-08-24",
+   "fee": "undisclosed",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

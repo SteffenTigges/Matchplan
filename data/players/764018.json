@@ -1,0 +1,373 @@
+{
+ "id": 764018,
+ "name": "Gregor Kobel",
+ "team": "BVB",
+ "team_name": "Borussia Dortmund",
+ "birth_date": "1997-12-06",
+ "age": 28,
+ "height_cm": 195,
+ "foot": "rechts",
+ "country": "Switzerland",
+ "shirt": 1,
+ "market_value": 34596271,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 26,
+   "per90": 2.8888888888888893,
+   "pct": 33.33333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 78.8,
+   "per90": 78.78787878787878,
+   "pct": 87.5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 7,
+   "per90": 0.7777777777777777,
+   "pct": 87.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 2.9,
+   "per90": 0.32241111111111115,
+   "pct": 79.16666666666666,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 5,
+   "per90": 0.5555555555555556,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_saves",
+   "title": "Penalty saves",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_goals_conceded",
+   "title": "Penalties conceded",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_save_percent",
+   "title": "Penalty saves %",
+   "value": 0.0,
+   "per90": 0,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 5,
+   "per90": 0.5555555555555556,
+   "pct": 54.166666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 4,
+   "per90": 0.4444444444444444,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 183,
+   "per90": 20.333333333333332,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 65.4,
+   "per90": 65.35714285714286,
+   "pct": 29.166666666666668,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 54,
+   "per90": 6,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 35.8,
+   "per90": 35.76158940397351,
+   "pct": 25,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.02,
+   "per90": 0.001740104444444444,
+   "pct": 25,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.8
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 0.74
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.73
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.2
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 0.81
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.49
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Borussia Dortmund",
+    "start": "2021-07-01",
+    "end": null,
+    "apps": 231,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2020-07-28",
+    "end": "2021-07-01",
+    "apps": 34,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim",
+    "start": "2020-07-01",
+    "end": "2020-07-28",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2019-07-01",
+    "end": "2020-06-30",
+    "apps": 31,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Augsburg",
+    "start": "2019-01-03",
+    "end": "2019-06-30",
+    "apps": 18,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Hoffenheim II",
+    "start": "2017-07-01",
+    "end": "2019-01-03",
+    "apps": 12,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim",
+    "start": "2016-08-01",
+    "end": "2019-01-03",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim II",
+    "start": "2015-07-01",
+    "end": "2017-06-30",
+    "apps": 31,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Hoffenheim U19",
+    "start": "2014-07-01",
+    "end": "2016-06-30",
+    "apps": 22,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Switzerland",
+    "start": "2017-05-27",
+    "end": null,
+    "apps": 31,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Switzerland U21",
+    "start": "2017-06-11",
+    "end": "2019-09-08",
+    "apps": 7,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Switzerland U19",
+    "start": "2015-01-01",
+    "end": "2016-03-31",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Switzerland U17",
+    "start": "2014-01-01",
+    "end": "2014-09-30",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "VfB Stuttgart",
+   "to": "Dortmund",
+   "date": "2021-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Hoffenheim",
+   "to": "VfB Stuttgart",
+   "date": "2020-07-28",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Hoffenheim",
+   "to": "VfB Stuttgart",
+   "date": "2019-07-01",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Hoffenheim",
+   "to": "Augsburg",
+   "date": "2019-01-03",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Grasshopper",
+   "to": "Hoffenheim",
+   "date": "2016-07-01",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

@@ -1,0 +1,511 @@
+{
+ "id": 969870,
+ "name": "Adam Hložek",
+ "team": "TSG",
+ "team_name": "Hoffenheim",
+ "birth_date": "2002-07-25",
+ "age": 24,
+ "height_cm": 188,
+ "foot": "rechts",
+ "country": "Czechia",
+ "shirt": 10,
+ "market_value": 12811239,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": true
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 2,
+   "per90": 0.34615384615384615,
+   "pct": 40.42553191489361,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 3.52,
+   "per90": 0.6091269230769231,
+   "pct": 70.2127659574468,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 2.83,
+   "per90": 0.48925384615384604,
+   "pct": 65.95744680851064,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 3.52,
+   "per90": 0.6091269230769231,
+   "pct": 76.59574468085107,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 23,
+   "per90": 3.980769230769231,
+   "pct": 76.59574468085107,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 9,
+   "per90": 1.5576923076923077,
+   "pct": 74.46808510638297,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 5,
+   "per90": 0.8653846153846154,
+   "pct": 59.57446808510638,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.17307692307692307,
+   "pct": 70.2127659574468,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.71,
+   "per90": 0.12314052000000002,
+   "pct": 53.191489361702125,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 101,
+   "per90": 17.48076923076923,
+   "pct": 72.3404255319149,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 73.7,
+   "per90": 73.72262773722628,
+   "pct": 65.95744680851064,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 2,
+   "per90": 0.34615384615384615,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 40.0,
+   "per90": 40,
+   "pct": 42.5531914893617,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 2,
+   "per90": 0.34615384615384615,
+   "pct": 63.829787234042556,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 6,
+   "per90": 1.0384615384615385,
+   "pct": 48.93617021276596,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.34615384615384615,
+   "pct": 65.95744680851064,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 8,
+   "per90": 1.3846153846153846,
+   "pct": 85.1063829787234,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 57.1,
+   "per90": 57.142857142857146,
+   "pct": 70.2127659574468,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 32,
+   "per90": 5.538461538461538,
+   "pct": 57.446808510638306,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 43.8,
+   "per90": 43.83561643835616,
+   "pct": 59.57446808510638,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 16,
+   "per90": 2.769230769230769,
+   "pct": 55.319148936170215,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 74.46808510638297,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 252,
+   "per90": 43.61538461538461,
+   "pct": 70.2127659574468,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 40,
+   "per90": 6.923076923076923,
+   "pct": 70.2127659574468,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 8,
+   "per90": 1.3846153846153846,
+   "pct": 31.914893617021278,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 5,
+   "per90": 0.8653846153846154,
+   "pct": 29.78723404255319,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 13,
+   "per90": 2.25,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 3,
+   "per90": 0.5192307692307693,
+   "pct": 31.914893617021278,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 3,
+   "per90": 0.5192307692307693,
+   "pct": 82.97872340425532,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 10,
+   "per90": 1.7307692307692308,
+   "pct": 27.659574468085108,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 22,
+   "per90": 3.807692307692308,
+   "pct": 82.97872340425532,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 3,
+   "per90": 0.5192307692307693,
+   "pct": 40.42553191489361,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 0.34615384615384615,
+   "pct": 48.93617021276596,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 7,
+   "per90": 1.2115384615384617,
+   "pct": 61.702127659574465,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 11,
+   "per90": 1.903846153846154,
+   "pct": 40.42553191489361,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 8.94,
+   "per90": 1.546926923076923,
+   "pct": 74.46808510638297,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.16
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.95
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.35
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.76
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.9
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.04
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Hoffenheim",
+    "start": "2024-08-17",
+    "end": null,
+    "apps": 56,
+    "goals": 15,
+    "kind": null
+   },
+   {
+    "team": "Hoffenheim II",
+    "start": "2026-04-24",
+    "end": "2026-05-31",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Bayer Leverkusen",
+    "start": "2022-07-01",
+    "end": "2024-08-16",
+    "apps": 80,
+    "goals": 14,
+    "kind": null
+   },
+   {
+    "team": "Sparta Prague",
+    "start": "2018-08-31",
+    "end": "2022-06-30",
+    "apps": 132,
+    "goals": 40,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Sparta Prague U19",
+    "start": "2017-07-01",
+    "end": "2021-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Czechia",
+    "start": "2020-08-25",
+    "end": null,
+    "apps": 52,
+    "goals": 6,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Czechia U21",
+    "start": "2019-08-27",
+    "end": "2020-08-22",
+    "apps": 5,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Czechia U17",
+    "start": "2018-10-21",
+    "end": "2019-09-20",
+    "apps": 5,
+    "goals": 3,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Leverkusen",
+   "to": "Hoffenheim",
+   "date": "2024-08-17",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Sparta Prague",
+   "to": "Leverkusen",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

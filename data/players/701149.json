@@ -1,0 +1,609 @@
+{
+ "id": 701149,
+ "name": "Maximilian Wöber",
+ "team": "S04",
+ "team_name": "Schalke 04",
+ "birth_date": "1998-02-04",
+ "age": 28,
+ "height_cm": 188,
+ "foot": "links",
+ "country": "Austria",
+ "shirt": 39,
+ "market_value": 1602101,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": false
+  },
+  {
+   "label": "Linksverteidiger",
+   "short": "LB",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.26,
+   "per90": 0.13,
+   "pct": 88.40579710144928,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.67,
+   "per90": 0.3335,
+   "pct": 95.65217391304348,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.26,
+   "per90": 0.13,
+   "pct": 89.85507246376811,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 39.130434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 91.30434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.13,
+   "per90": 0.06727746,
+   "pct": 71.01449275362319,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 79,
+   "per90": 39.5,
+   "pct": 24.637681159420293,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 79.8,
+   "per90": 79.79797979797979,
+   "pct": 17.391304347826086,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 8,
+   "per90": 4,
+   "pct": 88.40579710144928,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 57.1,
+   "per90": 57.142857142857146,
+   "pct": 86.95652173913044,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 76.81159420289855,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 2,
+   "per90": 1,
+   "pct": 97.10144927536231,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 100.0,
+   "per90": 100,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 11,
+   "per90": 5.5,
+   "pct": 59.42028985507246,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 17.391304347826086,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 4,
+   "per90": 2,
+   "pct": 37.68115942028986,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 13.043478260869565,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 159,
+   "per90": 79.5,
+   "pct": 65.21739130434783,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 2,
+   "per90": 1,
+   "pct": 40.57971014492754,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 1,
+   "per90": 0.5,
+   "pct": 42.028985507246375,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 34,
+   "per90": 17,
+   "pct": 97.10144927536231,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 6,
+   "per90": 3,
+   "pct": 89.85507246376811,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 5,
+   "per90": 2.5,
+   "pct": 92.7536231884058,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 2,
+   "per90": 1,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 2,
+   "per90": 1,
+   "pct": 53.62318840579711,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 7,
+   "per90": 3.5,
+   "pct": 39.130434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 1,
+   "pct": 10.144927536231885,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 21,
+   "per90": 10.5,
+   "pct": 95.65217391304348,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 4,
+   "per90": 2,
+   "pct": 34.78260869565217,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 4.25,
+   "per90": 2.1236,
+   "pct": 26.08695652173913,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other fullbacks",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.41
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 1
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.9
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.97
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 1
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.77
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Schalke 04",
+    "start": "2026-07-22",
+    "end": null,
+    "apps": 6,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Leeds United",
+    "start": "2026-07-01",
+    "end": "2026-07-22",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Werder Bremen II",
+    "start": "2026-04-18",
+    "end": "2026-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Werder Bremen",
+    "start": "2025-07-04",
+    "end": "2026-06-30",
+    "apps": 3,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Leeds United",
+    "start": "2024-07-01",
+    "end": "2025-07-04",
+    "apps": 9,
+    "goals": 1,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Borussia Mönchengladbach",
+    "start": "2023-07-31",
+    "end": "2024-06-30",
+    "apps": 27,
+    "goals": 2,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Leeds United",
+    "start": "2023-01-03",
+    "end": "2023-07-31",
+    "apps": 19,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Salzburg",
+    "start": "2019-08-13",
+    "end": "2023-01-03",
+    "apps": 125,
+    "goals": 9,
+    "kind": null
+   },
+   {
+    "team": "Sevilla",
+    "start": "2019-07-01",
+    "end": "2019-08-13",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Sevilla",
+    "start": "2019-01-16",
+    "end": "2019-06-30",
+    "apps": 8,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Ajax",
+    "start": "2017-08-24",
+    "end": "2018-12-31",
+    "apps": 39,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Jong Ajax",
+    "start": "2017-09-24",
+    "end": "2018-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Rapid Wien",
+    "start": "2015-07-01",
+    "end": "2017-08-24",
+    "apps": 24,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Rapid Wien U20",
+    "start": "2015-07-01",
+    "end": "2017-06-30",
+    "apps": 28,
+    "goals": 3,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Austria",
+    "start": "2017-08-30",
+    "end": "2026-11-02",
+    "apps": 34,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Austria U21",
+    "start": "2016-01-01",
+    "end": "2020-11-30",
+    "apps": 12,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Austria U19",
+    "start": "2016-01-01",
+    "end": "2017-10-02",
+    "apps": 9,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Austria U17",
+    "start": "2015-01-01",
+    "end": "2015-06-30",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Leeds",
+   "to": "Schalke 04",
+   "date": "2026-07-22",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Leeds",
+   "to": "Werder Bremen",
+   "date": "2025-07-04",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Leeds",
+   "to": "M'gladbach",
+   "date": "2023-07-31",
+   "fee": "fee",
+   "loan": true
+  },
+  {
+   "from": "Salzburg",
+   "to": "Leeds",
+   "date": "2023-01-03",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Sevilla",
+   "to": "Salzburg",
+   "date": "2019-08-13",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Ajax",
+   "to": "Sevilla",
+   "date": "2019-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Ajax",
+   "to": "Sevilla",
+   "date": "2019-01-16",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Rapid Wien",
+   "to": "Ajax",
+   "date": "2017-08-24",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

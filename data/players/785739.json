@@ -1,0 +1,445 @@
+{
+ "id": 785739,
+ "name": "Timo Becker",
+ "team": "S04",
+ "team_name": "Schalke 04",
+ "birth_date": "1997-03-25",
+ "age": 29,
+ "height_cm": 190,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 5,
+ "market_value": 1231971,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": true
+  },
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": false
+  },
+  {
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.21,
+   "per90": 0.03045414504950495,
+   "pct": 43.47826086956522,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 165,
+   "per90": 24.504950495049506,
+   "pct": 1.4492753623188406,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 71.4,
+   "per90": 71.42857142857143,
+   "pct": 1.4492753623188406,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 16,
+   "per90": 2.376237623762376,
+   "pct": 47.82608695652174,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 35.6,
+   "per90": 35.55555555555556,
+   "pct": 27.536231884057973,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.1485148514851485,
+   "pct": 21.73913043478261,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 2,
+   "per90": 0.297029702970297,
+   "pct": 84.05797101449275,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 40.0,
+   "per90": 40,
+   "pct": 78.26086956521739,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 42,
+   "per90": 6.237623762376238,
+   "pct": 75.36231884057972,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 64.6,
+   "per90": 64.61538461538461,
+   "pct": 71.01449275362319,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 16,
+   "per90": 2.376237623762376,
+   "pct": 50.72463768115942,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 69.6,
+   "per90": 69.56521739130434,
+   "pct": 82.6086956521739,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 425,
+   "per90": 63.118811881188115,
+   "pct": 20.28985507246377,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 1,
+   "per90": 0.1485148514851485,
+   "pct": 14.492753623188406,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 101,
+   "per90": 15,
+   "pct": 91.30434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 25,
+   "per90": 3.7128712871287126,
+   "pct": 97.10144927536231,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 12,
+   "per90": 1.7821782178217822,
+   "pct": 62.31884057971014,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 6,
+   "per90": 0.8910891089108911,
+   "pct": 56.52173913043478,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 1,
+   "per90": 0.1485148514851485,
+   "pct": 92.7536231884058,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 24,
+   "per90": 3.5643564356435644,
+   "pct": 44.927536231884055,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.1485148514851485,
+   "pct": 82.6086956521739,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 15,
+   "per90": 2.227722772277228,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 58,
+   "per90": 8.613861386138614,
+   "pct": 86.95652173913044,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 2,
+   "per90": 0.297029702970297,
+   "pct": 76.81159420289855,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 8,
+   "per90": 1.188118811881188,
+   "pct": 75.36231884057972,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 14.79,
+   "per90": 2.1970247524752473,
+   "pct": 18.84057971014493,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.1485148514851485,
+   "pct": 52.17391304347826,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other fullbacks",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.05
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.97
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 1
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.4
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.47
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Schalke 04",
+    "start": "2025-07-01",
+    "end": null,
+    "apps": 37,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Holstein Kiel",
+    "start": "2022-07-01",
+    "end": "2025-06-30",
+    "apps": 86,
+    "goals": 10,
+    "kind": null
+   },
+   {
+    "team": "Hansa Rostock",
+    "start": "2022-01-20",
+    "end": "2022-06-30",
+    "apps": 14,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Schalke 04",
+    "start": "2019-09-01",
+    "end": "2022-01-20",
+    "apps": 39,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Schalke 04 II",
+    "start": "2019-08-07",
+    "end": "2022-01-20",
+    "apps": 30,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "RW Essen",
+    "start": "2015-07-01",
+    "end": "2019-06-30",
+    "apps": 75,
+    "goals": 5,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Rot-Weiss Essen Under 19",
+    "start": "2015-07-01",
+    "end": "2016-06-30",
+    "apps": 23,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Holstein Kiel",
+   "to": "Schalke 04",
+   "date": "2025-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Schalke 04",
+   "to": "Holstein Kiel",
+   "date": "2022-07-01",
+   "fee": "undisclosed",
+   "loan": false
+  },
+  {
+   "from": "Schalke 04",
+   "to": "Hansa Rostock",
+   "date": "2022-01-20",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}

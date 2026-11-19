@@ -1,0 +1,539 @@
+{
+ "id": 836726,
+ "name": "András Schäfer",
+ "team": "FCU",
+ "team_name": "Union Berlin",
+ "birth_date": "1999-04-13",
+ "age": 27,
+ "height_cm": 179,
+ "foot": "rechts",
+ "country": "Hungary",
+ "shirt": 13,
+ "market_value": 2146919,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Rechtes Mittelfeld",
+   "short": "RM",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.59,
+   "per90": 0.08444952681388013,
+   "pct": 56.94444444444444,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.58,
+   "per90": 0.08233438485804417,
+   "pct": 52.77777777777778,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.59,
+   "per90": 0.08444952681388013,
+   "pct": 58.333333333333336,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 6,
+   "per90": 0.8517350157728707,
+   "pct": 34.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 0.28391167192429023,
+   "pct": 51.388888888888886,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.22,
+   "per90": 0.03158296750788644,
+   "pct": 13.88888888888889,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 233,
+   "per90": 33.07570977917981,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 85.0,
+   "per90": 85.03649635036497,
+   "pct": 65.27777777777779,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 9,
+   "per90": 1.277602523659306,
+   "pct": 48.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 6,
+   "per90": 0.8517350157728707,
+   "pct": 34.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 6,
+   "per90": 0.8517350157728707,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 46.2,
+   "per90": 46.15384615384615,
+   "pct": 40.27777777777778,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 48,
+   "per90": 6.813880126182966,
+   "pct": 86.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 57.8,
+   "per90": 57.83132530120482,
+   "pct": 80.55555555555556,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 12,
+   "per90": 1.7034700315457414,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 52.2,
+   "per90": 52.17391304347826,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 416,
+   "per90": 59.05362776025237,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 9,
+   "per90": 1.277602523659306,
+   "pct": 40.27777777777778,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 7,
+   "per90": 0.9936908517350158,
+   "pct": 34.72222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 13,
+   "per90": 1.8454258675078865,
+   "pct": 83.33333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 53,
+   "per90": 7.52365930599369,
+   "pct": 84.72222222222221,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 18,
+   "per90": 2.555205047318612,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 10,
+   "per90": 1.419558359621451,
+   "pct": 68.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 4,
+   "per90": 0.5678233438485805,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 8,
+   "per90": 1.135646687697161,
+   "pct": 45.83333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "penalty_conceded_title",
+   "title": "Penalties conceded",
+   "value": 1,
+   "per90": 0.14195583596214512,
+   "pct": 1.3888888888888888,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 34,
+   "per90": 4.826498422712934,
+   "pct": 48.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.14195583596214512,
+   "pct": 25,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 0.28391167192429023,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 21,
+   "per90": 2.9810725552050474,
+   "pct": 80.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 15,
+   "per90": 2.1293375394321767,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 12.85,
+   "per90": 1.8234369085173503,
+   "pct": 37.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.21
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.81
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.83
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.58
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.82
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.42
+   }
+  ]
+ },
+ "seasons": [],
+ "career": {
+  "senior": [
+   {
+    "team": "Union Berlin",
+    "start": "2022-01-20",
+    "end": null,
+    "apps": 122,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "DAC 1904 Dunajska Streda",
+    "start": "2020-09-09",
+    "end": "2022-01-21",
+    "apps": 44,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Genoa",
+    "start": "2020-08-31",
+    "end": "2020-09-09",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "DAC 1904 Dunajska Streda",
+    "start": "2020-01-30",
+    "end": "2020-08-31",
+    "apps": 17,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Chievo Verona",
+    "start": "2019-08-21",
+    "end": "2020-01-17",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Genoa",
+    "start": "2019-01-25",
+    "end": "2019-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "MTK Budapest",
+    "start": "2017-04-01",
+    "end": "2019-01-25",
+    "apps": 48,
+    "goals": 5,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Hungary",
+    "start": "2020-08-24",
+    "end": null,
+    "apps": 51,
+    "goals": 5,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Hungary U21",
+    "start": "2019-09-05",
+    "end": "2020-11-19",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Hungary U19",
+    "start": "2017-10-01",
+    "end": "2018-10-09",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "DAC 1904 Dunajska Streda",
+   "to": "Union Berlin",
+   "date": "2022-01-21",
+   "fee": "undisclosed",
+   "loan": false
+  },
+  {
+   "from": "Genoa",
+   "to": "Chievo Verona",
+   "date": "2019-08-21",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "MTK Budapest",
+   "to": "Genoa",
+   "date": "2019-01-25",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:54:41+00:00"
+}
