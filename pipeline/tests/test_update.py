@@ -225,7 +225,7 @@ def test_old_format_match_is_refetched(tmp_path):
     base = fake()
     later = datetime(2027, 1, 30, tzinfo=timezone.utc)  # weit nach dem Spiel
     run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], later, sleep=lambda s: None)
-    assert FM_MATCH in calls and read(path)["v"] == 3
+    assert FM_MATCH in calls and read(path)["v"] == 4
 
 
 PLAYER = "https://www.fotmob.com/players/173461/x"
@@ -308,3 +308,9 @@ def test_writes_similar_file(tmp_path):
     sim = read(tmp_path / "similar.json")
     assert sim["players"] and all(set(v) == {"style", "could_be"} for v in sim["players"].values())
     assert status["vergleiche"]["ok"] is True
+
+
+def test_referees_file_written(tmp_path):
+    run_update(tmp_path, fake(), NOW, sleep=lambda s: None)
+    r = read(tmp_path / "referees.json")
+    assert set(r) >= {"league", "referees", "upcoming", "updated_at"}

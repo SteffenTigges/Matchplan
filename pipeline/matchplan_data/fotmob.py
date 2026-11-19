@@ -9,7 +9,7 @@ from .teams import team_by_fotmob
 
 BASE = "https://www.fotmob.com"
 LEAGUE_URL = f"{BASE}/leagues/54/fixtures/bundesliga"
-FORMAT_VERSION = 3  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
+FORMAT_VERSION = 4  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
 
 _NEXT = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 _COUNT_PCT = re.compile(r"^\s*(-?\d+(?:\.\d+)?)\s*\((\d+(?:\.\d+)?)%\)\s*$")
@@ -102,6 +102,17 @@ def _key(team_id) -> str | None:
         return None
 
 
+def referee(data: dict) -> dict | None:
+    """Schiedsrichter aus der Infobox (bei kommenden Spielen erst nach der Ansetzung vorhanden)."""
+    try:
+        r = data["props"]["pageProps"]["content"]["matchFacts"]["infoBox"]["Referee"]
+    except (KeyError, TypeError):
+        return None
+    if not isinstance(r, dict) or not r.get("text"):
+        return None
+    return {"name": r["text"], "id": _num(r.get("id")), "country": r.get("country")}
+
+
 def parse_match(data: dict) -> dict:
     pp = data["props"]["pageProps"]
     c = pp.get("content") or {}
@@ -161,7 +172,7 @@ def parse_match(data: dict) -> dict:
         players.append(row)
 
     return {"v": FORMAT_VERSION, "fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,
-            "momentum": momentum, "zones": zones, "lineups": lineups, "players": players}
+            "momentum": momentum, "zones": zones, "lineups": lineups, "players": players, "referee": referee(data)}
 
 
 # ---------------- Spielerseiten ----------------
@@ -211,14 +222,21 @@ def _info(data: dict, title: str):
 
 
 def _seasons(entries: list[dict]) -> list[dict]:
-    """Saisonzeilen, falls FotMob sie in der Karriere mitliefert (für spätere Altersvergleiche)."""
+    """Saisonwerte aus careerItems.senior.seasonEntries: Gesamt und je Wettbewerb (ohne Testspiele)."""
     out = []
-    for e in entries or []:
-        for s in e.get("seasonEntries") or []:
-            rating = s.get("rating")
-            out.append({"season": s.get("seasonName"), "team": e.get("team"), "apps": _num(s.get("appearances")),
-                        "goals": _num(s.get("goals")), "assists": _num(s.get("assists")),
-                        "rating": _num(rating.get("rating") if isinstance(rating, dict) else rating)})
+    for s in entries or []:
+        rating = s.get("rating")
+        comps = []
+        for t in s.get("tournamentStats") or []:
+            if t.get("isFriendly"):
+                continue
+            tr = t.get("rating")
+            comps.append({"league": t.get("leagueName"), "league_id": _num(t.get("leagueId")), "apps": _num(t.get("appearances")),
+                          "goals": _num(t.get("goals")), "assists": _num(t.get("assists")),
+                          "rating": _num(tr.get("rating") if isinstance(tr, dict) else tr)})
+        out.append({"season": s.get("seasonName"), "apps": _num(s.get("appearances")), "goals": _num(s.get("goals")),
+                    "assists": _num(s.get("assists")), "rating": _num(rating.get("rating") if isinstance(rating, dict) else rating),
+                    "competitions": comps})
     return out
 
 
@@ -262,7 +280,7 @@ def parse_player(data: dict) -> dict:
         "country": _info(d, "Country").get("fallback"), "shirt": _num(_info(d, "Shirt").get("numberValue")),
         "market_value": _num(_info(d, "Market value").get("numberValue")), "contract_end": _date(d.get("contractEnd")),
         "positions": positions, "stats": stats, "traits": traits,
-        "seasons": _seasons((ci.get("senior") or {}).get("teamEntries")),
+        "seasons": _seasons((ci.get("senior") or {}).get("seasonEntries")),
         "career": {"senior": _career((ci.get("senior") or {}).get("teamEntries")),
                    "youth": _career((ci.get("youth") or {}).get("teamEntries")),
                    "national": _career((ci.get("national team") or {}).get("teamEntries")),

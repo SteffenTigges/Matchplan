@@ -12,9 +12,10 @@ from typing import Callable
 
 from . import probe
 from .forecast import run_forecast
+from .referees import build_referees
 from .scouting import build_report
 from .similar import build_similar
-from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, parse_league, parse_match, parse_player, player_url
+from .fotmob import FORMAT_VERSION, LEAGUE_URL, next_data, referee, parse_league, parse_match, parse_player, player_url
 from .history import append_history, diff_lineups
 from .ligainsider import Player, Slot, TeamLineup, diagnose, parse_lineup_page
 from .teamstats import aggregate, build_teamstats
@@ -47,6 +48,8 @@ def _lineup_from_dict(d: dict) -> TeamLineup:
 SETTLE = timedelta(hours=48)
 RETRY_INCOMPLETE = timedelta(days=14)  # unvollständige FotMob-Seiten so lange erneut versuchen
 CORE_STATS = {"expected_goals", "passes", "total_shots"}
+REF_AHEAD = timedelta(days=6)
+PLAYER_FORMAT = 2  # 2: mit Saisonwerten aus der Karriere
 PLAYER_CAP = 120  # Spielerseiten pro Lauf (≈ 4 min); alle ~420 Profile nach etwa vier Läufen
 PLAYER_FRESH = timedelta(days=7)  # so lange nach dem letzten Anstoß wird ein Spieltag noch nachgeladen
 
@@ -110,6 +113,28 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
         except Exception as e:  # alte Datei bleibt stehen
             errors.append(f"{fm['home']}–{fm['away']}: {e}")
 
+    # Schiedsrichter-Ansetzung der nächsten Tage (FotMob trägt sie erst kurz vorher ein)
+    upcoming: dict[str, dict] = {}
+    ref_failed = 0
+    old_up = (_read(out / "referees.json") or {}).get("upcoming", {})
+    for fm in fixtures:
+        if fm["finished"] or not fm.get("kickoff"):
+            continue
+        om = by_teams.get((fm["round"], fm["home"], fm["away"]))
+        kick = datetime.fromisoformat(fm["kickoff"].replace("Z", "+00:00"))
+        if om is None or not (timedelta(0) < kick - now <= REF_AHEAD):
+            continue
+        if str(om["id"]) in old_up:
+            upcoming[str(om["id"])] = old_up[str(om["id"])]
+            continue
+        try:
+            nd = next_data(get(f"https://www.fotmob.com/match/{fm['fm_id']}"))
+            ref = referee(nd) if nd else None
+            if ref:
+                upcoming[str(om["id"])] = ref
+        except Exception:  # Ansetzung ist ein Zusatz; ein Fehlschlag macht die Spieldaten nicht ungültig
+            ref_failed += 1
+
     pairs = []
     lacking = 0
     for f in sorted((out / "fotmob").glob("*.json")) if (out / "fotmob").exists() else []:
@@ -120,7 +145,10 @@ def _update_fotmob(out: Path, get: Callable[[str], str], matchdays: dict[int, li
                 lacking += 1
     if pairs:
         _write(out / "teamstats.json", {"updated_at": at, **build_teamstats(aggregate(pairs))})
+        _write(out / "referees.json", {"updated_at": at, **build_referees(pairs, upcoming)})
     note = f"{len(pairs)} Spiele ausgewertet" + (f", {unmatched} Spiel ohne Zuordnung" if unmatched == 1 else f", {unmatched} Spiele ohne Zuordnung" if unmatched else "")
+    if upcoming or ref_failed:
+        note += f", {len(upcoming)} Schiedsrichter angesetzt" + (f" ({ref_failed} Abrufe fehlgeschlagen)" if ref_failed else "")
     if lacking:
         note += f", {lacking} ohne Kernwerte (xG, Pässe oder Schüsse fehlen – Format geändert?)"
     status["fotmob"] = {"ok": not errors, "at": at, "error": "; ".join(errors) or None, "note": note}
@@ -147,7 +175,9 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
 
     def fetched(pid: int) -> datetime | None:
         prof = _read(out / "players" / f"{pid}.json")
-        return datetime.fromisoformat(prof["fetched_at"]) if prof and prof.get("fetched_at") else None
+        if not prof or not prof.get("fetched_at") or prof.get("v") != PLAYER_FORMAT:
+            return None  # fehlt oder altes Format (z. B. ohne Saisonwerte): neu laden
+        return datetime.fromisoformat(prof["fetched_at"])
 
     due = []
     for pid in seen:
@@ -160,14 +190,14 @@ def _update_players(out: Path, get: Callable[[str], str], now: datetime, at: str
             nd = next_data(get(player_url(pid)))
             if nd is None:
                 raise RuntimeError("Keine eingebetteten Daten")
-            _write(out / "players" / f"{pid}.json", {**parse_player(nd), "fetched_at": at})
+            _write(out / "players" / f"{pid}.json", {**parse_player(nd), "v": PLAYER_FORMAT, "fetched_at": at})
         except Exception as e:
             errors.append(f"{pid}: {e}")
 
     index, fresh = [], 0
     for pid, e in seen.items():
         prof = _read(out / "players" / f"{pid}.json") or {}
-        if prof.get("fetched_at") and now - datetime.fromisoformat(prof["fetched_at"]) <= PLAYER_FRESH:
+        if prof.get("fetched_at") and prof.get("v") == PLAYER_FORMAT and now - datetime.fromisoformat(prof["fetched_at"]) <= PLAYER_FRESH:
             fresh += 1
         main = next((p for p in prof.get("positions") or [] if p.get("main")), None)
         team = prof["team"] if prof else e["team"]  # Profil kennt den aktuellen Verein (auch außerhalb der Liga)

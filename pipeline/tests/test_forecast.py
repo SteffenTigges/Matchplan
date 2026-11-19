@@ -130,10 +130,11 @@ def test_calibration_is_cached_for_a_week(tmp_path):
         return fake_get()(url)
 
     run_forecast(tmp_path, get, md, 2, {}, NOW, AT, {})
-    n = sum("mmz4281/2" in u and "2627" not in u for u in calls)
+    first = [u for u in calls if "mmz4281" in u and "2627" not in u]
     calls.clear()
     run_forecast(tmp_path, get, md, 2, {}, NOW, AT, {})
-    assert n == 3 and not any("mmz4281/2" in u and "2627" not in u for u in calls)
+    assert len(first) == 3 + 2 * 10  # Kalibrierung 3 Saisons, Elo 1. und 2. Liga seit 2016
+    assert not any("mmz4281" in u and "2627" not in u for u in calls)
 
 
 def test_failed_calibration_keeps_defaults_and_reports(tmp_path):
@@ -142,3 +143,13 @@ def test_failed_calibration_keeps_defaults_and_reports(tmp_path):
     run_forecast(tmp_path, lambda u: CSV, md, 2, {}, NOW, AT, status)  # nur 3 Spiele: zu wenig
     cal = read(tmp_path / "model.json")["calibration"]
     assert cal["rho"] == -0.05 and "Kalibrierung" in status["prognose"]["error"]
+
+
+def test_elo_in_predictions_and_model(tmp_path):
+    md = setup(tmp_path)
+    md[2][0] = match(3, "KOE", "BVB", "2026-11-21T14:30:00Z")
+    run_forecast(tmp_path, fake_get(), md, 2, {}, NOW, AT, {})
+    model = read(tmp_path / "model.json")
+    assert model["elo"]["FCB"]["elo"] > model["elo"]["BVB"]["elo"] and model["elo_base"]["games"] >= 1000
+    p = read(tmp_path / "predictions" / "2.json")["matches"]["3"]
+    assert p["elo"]["home"] == model["elo"]["KOE"]["elo"] and abs(sum(p["elo"]["probs"]) - 1) < 1e-3
