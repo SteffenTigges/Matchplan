@@ -341,12 +341,12 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.58
+    "value": 0.59
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.2
+    "value": 0.19
    },
    {
     "key": "defensive_actions",
@@ -356,7 +356,7 @@
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.41
+    "value": 0.4
    },
    {
     "key": "shot_attempts",
@@ -370,7 +370,166 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 10,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.56,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 8,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.52
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.74
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 40,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.88,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 35,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.88
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.94
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 46,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.84,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 41,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.84
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 45,
+   "goals": 2,
+   "assists": 2,
+   "rating": 6.88,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 33,
+     "goals": 0,
+     "assists": 2,
+     "rating": 6.95
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 6,
+     "goals": 2,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Super Cup",
+     "league_id": 266,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.42
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 9,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.58,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.58
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 12,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "First National Division VV",
+     "league_id": 9209,
+     "apps": 12,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -420,5 +579,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

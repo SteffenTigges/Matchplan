@@ -397,7 +397,7 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.34
+    "value": 0.35
    },
    {
     "key": "goals",
@@ -412,11 +412,130 @@
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.19
+    "value": 0.21
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 9,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.69,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 8,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.58
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.61
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 36,
+   "goals": 3,
+   "assists": 3,
+   "rating": 7.0,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 33,
+     "goals": 3,
+     "assists": 3,
+     "rating": 7.05
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.49
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 18,
+   "goals": 3,
+   "assists": 8,
+   "rating": 7.64,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 18,
+     "goals": 3,
+     "assists": 8,
+     "rating": 7.64
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.16,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.16
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 23,
+   "goals": 3,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 23,
+     "goals": 3,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -561,5 +680,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

@@ -1,0 +1,1043 @@
+{
+ "id": 325916,
+ "name": "Paulo Dybala",
+ "team": null,
+ "team_name": "Roma",
+ "birth_date": "1993-11-15",
+ "age": 33,
+ "height_cm": 177,
+ "foot": "links",
+ "country": "Argentina",
+ "shirt": 21,
+ "market_value": 2180119,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": true
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 2.02,
+   "per90": 0.365842753841031,
+   "pct": 82.71604938271605,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.89,
+   "per90": 0.16092943688554148,
+   "pct": 39.50617283950617,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 2.02,
+   "per90": 0.365842753841031,
+   "pct": 87.65432098765432,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 21,
+   "per90": 3.8104838709677415,
+   "pct": 82.71604938271605,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 6,
+   "per90": 1.0887096774193548,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 4,
+   "per90": 0.7258064516129032,
+   "pct": 92.5925925925926,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 4,
+   "per90": 0.7258064516129032,
+   "pct": 96.29629629629629,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 3.42,
+   "per90": 0.620820032012078,
+   "pct": 97.53086419753086,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 219,
+   "per90": 39.73790322580645,
+   "pct": 87.65432098765432,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 81.4,
+   "per90": 81.41263940520446,
+   "pct": 40.74074074074074,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 21,
+   "per90": 3.8104838709677415,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 70.0,
+   "per90": 70,
+   "pct": 74.07407407407408,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 53,
+   "per90": 9.616935483870968,
+   "pct": 95.06172839506173,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 23,
+   "per90": 4.173387096774194,
+   "pct": 93.82716049382715,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 8,
+   "per90": 1.4516129032258065,
+   "pct": 96.29629629629629,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 8,
+   "per90": 1.4516129032258065,
+   "pct": 86.41975308641975,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 27.6,
+   "per90": 27.586206896551722,
+   "pct": 54.32098765432099,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 4,
+   "per90": 0.7258064516129032,
+   "pct": 25.925925925925924,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 25.0,
+   "per90": 25,
+   "pct": 9.876543209876543,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 16,
+   "per90": 2.903225806451613,
+   "pct": 13.580246913580247,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 32.7,
+   "per90": 32.6530612244898,
+   "pct": 2.4691358024691357,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 1,
+   "per90": 0.1814516129032258,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 12.5,
+   "per90": 12.5,
+   "pct": 18.51851851851852,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 391,
+   "per90": 70.9475806451613,
+   "pct": 92.5925925925926,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 43,
+   "per90": 7.80241935483871,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 8,
+   "per90": 1.4516129032258065,
+   "pct": 39.50617283950617,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 7,
+   "per90": 1.2701612903225805,
+   "pct": 43.20987654320987,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 8,
+   "per90": 1.4516129032258065,
+   "pct": 14.814814814814813,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 4,
+   "per90": 0.7258064516129032,
+   "pct": 17.28395061728395,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 3,
+   "per90": 0.5443548387096774,
+   "pct": 55.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.1814516129032258,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 3,
+   "per90": 0.5443548387096774,
+   "pct": 76.5432098765432,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 27,
+   "per90": 4.899193548387097,
+   "pct": 75.30864197530865,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 9,
+   "per90": 1.6330645161290325,
+   "pct": 95.06172839506173,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 3,
+   "per90": 0.5443548387096774,
+   "pct": 58.0246913580247,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 3,
+   "per90": 0.5443548387096774,
+   "pct": 90.12345679012346,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 6.21,
+   "per90": 1.126524152294282,
+   "pct": 79.01234567901234,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 1
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.12
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.07
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.41
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.81
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.92
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 8,
+   "goals": 0,
+   "assists": 4,
+   "rating": 7.73,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 6,
+     "goals": 0,
+     "assists": 4,
+     "rating": 7.99
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.98
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 27,
+   "goals": 3,
+   "assists": 7,
+   "rating": 7.16,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 22,
+     "goals": 2,
+     "assists": 6,
+     "rating": 7.14
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.55
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 4,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.46
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 36,
+   "goals": 8,
+   "assists": 4,
+   "rating": 7.2,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 24,
+     "goals": 6,
+     "assists": 3,
+     "rating": 7.24
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.66
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 11,
+     "goals": 2,
+     "assists": 1,
+     "rating": 7.1
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 39,
+   "goals": 16,
+   "assists": 10,
+   "rating": 7.42,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 28,
+     "goals": 13,
+     "assists": 9,
+     "rating": 7.57
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.86
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 9,
+     "goals": 2,
+     "assists": 1,
+     "rating": 7.11
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 38,
+   "goals": 18,
+   "assists": 7,
+   "rating": 7.45,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 25,
+     "goals": 12,
+     "assists": 6,
+     "rating": 7.6
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.36
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 11,
+     "goals": 5,
+     "assists": 1,
+     "rating": 7.13
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 39,
+   "goals": 15,
+   "assists": 6,
+   "rating": 7.49,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 29,
+     "goals": 10,
+     "assists": 5,
+     "rating": 7.49
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 4,
+     "goals": 2,
+     "assists": 0,
+     "rating": 7.45
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 5,
+     "goals": 3,
+     "assists": 1,
+     "rating": 7.53
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 26,
+   "goals": 5,
+   "assists": 3,
+   "rating": 7.06,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 20,
+     "goals": 4,
+     "assists": 3,
+     "rating": 7.23
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.94
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 5,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.62
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 46,
+   "goals": 17,
+   "assists": 9,
+   "rating": 7.51,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 33,
+     "goals": 11,
+     "assists": 6,
+     "rating": 7.57
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 4,
+     "goals": 2,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 8,
+     "goals": 3,
+     "assists": 2,
+     "rating": 7.3
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 42,
+   "goals": 10,
+   "assists": 4,
+   "rating": 7.2,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 30,
+     "goals": 5,
+     "assists": 4,
+     "rating": 7.24
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 9,
+     "goals": 5,
+     "assists": 0,
+     "rating": 7.07
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 46,
+   "goals": 26,
+   "assists": 6,
+   "rating": 7.67,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 33,
+     "goals": 22,
+     "assists": 5,
+     "rating": 7.81
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 4,
+     "goals": 1,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 2,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 8,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.13
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 48,
+   "goals": 19,
+   "assists": 8,
+   "rating": 7.49,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 31,
+     "goals": 11,
+     "assists": 7,
+     "rating": 7.49
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 5,
+     "goals": 4,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 11,
+     "goals": 4,
+     "assists": 0,
+     "rating": 7.52
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 46,
+   "goals": 23,
+   "assists": 9,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 34,
+     "goals": 19,
+     "assists": 9,
+     "rating": null
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 4,
+     "goals": 2,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 7,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2014/2015",
+   "apps": 35,
+   "goals": 13,
+   "assists": 10,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 34,
+     "goals": 13,
+     "assists": 10,
+     "rating": null
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2013/2014",
+   "apps": 30,
+   "goals": 5,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Serie B",
+     "league_id": 86,
+     "apps": 28,
+     "goals": 5,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2012/2013",
+   "apps": 28,
+   "goals": 3,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 27,
+     "goals": 3,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2011/2012",
+   "apps": 40,
+   "goals": 17,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera B Nacional",
+     "league_id": 8965,
+     "apps": 38,
+     "goals": 17,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Play-offs 1/2",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Roma",
+    "start": "2022-07-20",
+    "end": null,
+    "apps": 148,
+    "goals": 45,
+    "kind": null
+   },
+   {
+    "team": "Juventus",
+    "start": "2015-07-01",
+    "end": "2022-06-30",
+    "apps": 293,
+    "goals": 115,
+    "kind": null
+   },
+   {
+    "team": "Palermo",
+    "start": "2012-07-20",
+    "end": "2015-07-01",
+    "apps": 93,
+    "goals": 21,
+    "kind": null
+   },
+   {
+    "team": "Instituto",
+    "start": "2011-07-01",
+    "end": "2012-07-02",
+    "apps": 40,
+    "goals": 17,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Argentina",
+    "start": "2015-01-01",
+    "end": "2025-03-17",
+    "apps": 40,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Free agent",
+   "to": "Roma",
+   "date": "2022-07-20",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Palermo",
+   "to": "Juventus",
+   "date": "2015-07-01",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00",
+ "star_rating": 7.99,
+ "star_league": 55
+}

@@ -40,7 +40,7 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.76
+    "value": 0.75
    },
    {
     "key": "goals",
@@ -59,7 +59,67 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 4,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.84,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 4,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.84
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 33,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.09,
+   "competitions": [
+    {
+     "league": "Ekstraklasa",
+     "league_id": 196,
+     "apps": 31,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.09
+    },
+    {
+     "league": "Cup",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Ekstraklasa",
+     "league_id": 196,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -124,5 +184,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

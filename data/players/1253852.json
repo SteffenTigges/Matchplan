@@ -351,7 +351,7 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.28
+    "value": 0.27
    },
    {
     "key": "goals",
@@ -370,7 +370,216 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 12,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.76,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.09
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.04
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.13
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 29,
+   "goals": 1,
+   "assists": 1,
+   "rating": 7.17,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 26,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.14
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 3,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.52
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 31,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.83,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 23,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.99
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.46
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.36
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 41,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.01,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 32,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.08
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.3
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.61
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 38,
+   "goals": 2,
+   "assists": 0,
+   "rating": 7.16,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 34,
+     "goals": 2,
+     "assists": 0,
+     "rating": 7.13
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.5
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 30,
+   "goals": 2,
+   "assists": 0,
+   "rating": 7.12,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 24,
+     "goals": 2,
+     "assists": 0,
+     "rating": 7.19
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.85
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 7,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 7,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -454,5 +663,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

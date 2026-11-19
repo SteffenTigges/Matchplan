@@ -342,26 +342,252 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.26
+    "value": 0.25
    },
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.46
+    "value": 0.45
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.33
+    "value": 0.32
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.11
+    "value": 0.1
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 8,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.75,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.44
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.39
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.24
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 31,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.84,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 29,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.82
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.22
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.71,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.7
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.75
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 8,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.75,
+   "competitions": [
+    {
+     "league": "1. Liga",
+     "league_id": 122,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.75
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 52,
+   "goals": 3,
+   "assists": 1,
+   "rating": 7.28,
+   "competitions": [
+    {
+     "league": "1. Liga",
+     "league_id": 122,
+     "apps": 32,
+     "goals": 3,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "Czech Cup",
+     "league_id": 254,
+     "apps": 5,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 15,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.28
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 31,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "1. Liga",
+     "league_id": 122,
+     "apps": 29,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Play-offs 1/2",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 10,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "1. Liga",
+     "league_id": 122,
+     "apps": 10,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 18,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "1. liga",
+     "league_id": 176,
+     "apps": 18,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "1. Liga",
+     "league_id": 122,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Czech Cup",
+     "league_id": 254,
+     "apps": 1,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -476,5 +702,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

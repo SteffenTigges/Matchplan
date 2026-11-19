@@ -13,18 +13,23 @@
  "contract_end": null,
  "positions": [
   {
-   "label": "Linksaußen",
-   "short": "LW",
-   "main": true
-  },
-  {
    "label": "Zentrales Mittelfeld",
    "short": "CM",
-   "main": false
+   "main": true
   },
   {
    "label": "Offensives Mittelfeld",
    "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  },
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
    "main": false
   }
  ],
@@ -50,7 +55,7 @@
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.66
+    "value": 0.67
    },
    {
     "key": "shot_attempts",
@@ -64,7 +69,251 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 10,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.78,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.64
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "rating": 8.06
+    }
+   ]
+  },
+  {
+   "season": "2026/2027",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.21,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.21
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 39,
+   "goals": 7,
+   "assists": 4,
+   "rating": 7.01,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 27,
+     "goals": 7,
+     "assists": 4,
+     "rating": 7.17
+    },
+    {
+     "league": "Croatian Cup",
+     "league_id": 275,
+     "apps": 5,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.42
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.16,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.16
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.91,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.16
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.66
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 40,
+   "goals": 9,
+   "assists": 3,
+   "rating": 7.0,
+   "competitions": [
+    {
+     "league": "HNL",
+     "league_id": 252,
+     "apps": 27,
+     "goals": 7,
+     "assists": 3,
+     "rating": 7.05
+    },
+    {
+     "league": "Croatian Cup",
+     "league_id": 275,
+     "apps": 4,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 9,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.87
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 25,
+   "goals": 4,
+   "assists": 0,
+   "rating": 6.69,
+   "competitions": [
+    {
+     "league": "Eredivisie",
+     "league_id": 57,
+     "apps": 25,
+     "goals": 4,
+     "assists": 0,
+     "rating": 6.69
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 1,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.15,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 1,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.15
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.08,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.08
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 3,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 30,
+   "goals": 21,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 30,
+     "goals": 21,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -223,5 +472,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

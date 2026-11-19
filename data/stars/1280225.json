@@ -1,0 +1,783 @@
+{
+ "id": 1280225,
+ "name": "Estéban Lepaul",
+ "team": null,
+ "team_name": "Rennes",
+ "birth_date": "2000-04-18",
+ "age": 26,
+ "height_cm": 177,
+ "foot": "rechts",
+ "country": "France",
+ "shirt": 9,
+ "market_value": 42481670,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 7,
+   "per90": 1.160220994475138,
+   "pct": 95,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 5.79,
+   "per90": 0.9591878453038675,
+   "pct": 95,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 6.03,
+   "per90": 0.998867403314917,
+   "pct": 92.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "goals_subtitle",
+   "title": "Penalty goals",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 2.63,
+   "per90": 0.43649171270718234,
+   "pct": 52.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 28,
+   "per90": 4.640883977900552,
+   "pct": 95,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 16,
+   "per90": 2.6519337016574585,
+   "pct": 95,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 7,
+   "per90": 1.160220994475138,
+   "pct": 87.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.19,
+   "per90": 0.031220477900552483,
+   "pct": 22.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 103,
+   "per90": 17.07182320441989,
+   "pct": 70,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 83.7,
+   "per90": 83.73983739837398,
+   "pct": 80,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 77.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 80.0,
+   "per90": 80,
+   "pct": 60,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 7,
+   "per90": 1.160220994475138,
+   "pct": 70,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 75,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 1,
+   "per90": 0.16574585635359115,
+   "pct": 17.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 25.0,
+   "per90": 25,
+   "pct": 30,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 15,
+   "per90": 2.4861878453038675,
+   "pct": 15,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 34.9,
+   "per90": 34.883720930232556,
+   "pct": 35,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 8,
+   "per90": 1.3259668508287292,
+   "pct": 52.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 38.1,
+   "per90": 38.095238095238095,
+   "pct": 47.5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 191,
+   "per90": 31.65745856353591,
+   "pct": 35,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 36,
+   "per90": 5.966850828729282,
+   "pct": 72.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 7,
+   "per90": 1.160220994475138,
+   "pct": 57.49999999999999,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 20,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "penalty_won_title",
+   "title": "Elfmeter herausgeholt",
+   "value": 1,
+   "per90": 0.16574585635359115,
+   "pct": 92.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 9,
+   "per90": 1.4917127071823204,
+   "pct": 32.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 22.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 52.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 4,
+   "per90": 0.6629834254143646,
+   "pct": 77.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 8,
+   "per90": 1.3259668508287292,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 47.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 5,
+   "per90": 0.8287292817679559,
+   "pct": 72.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 10,
+   "per90": 1.6574585635359118,
+   "pct": 37.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 12.71,
+   "per90": 2.107276243093923,
+   "pct": 17.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.3314917127071823,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other forwards",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.23
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.4
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.03
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.95
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.92
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.19
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 9,
+   "goals": 7,
+   "assists": 0,
+   "rating": 7.57,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 7,
+     "goals": 7,
+     "assists": 0,
+     "rating": 7.77
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.88
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 35,
+   "goals": 20,
+   "assists": 5,
+   "rating": 7.21,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 32,
+     "goals": 20,
+     "assists": 5,
+     "rating": 7.29
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.42
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 2,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.29,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.29
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 31,
+   "goals": 13,
+   "assists": 0,
+   "rating": 6.83,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 28,
+     "goals": 9,
+     "assists": 0,
+     "rating": 6.67
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 3,
+     "goals": 4,
+     "assists": 0,
+     "rating": 8.34
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 17,
+   "goals": 3,
+   "assists": 3,
+   "rating": 6.56,
+   "competitions": [
+    {
+     "league": "Ligue 2",
+     "league_id": 110,
+     "apps": 17,
+     "goals": 3,
+     "assists": 3,
+     "rating": 6.56
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 18,
+   "goals": 13,
+   "assists": 1,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "National 1",
+     "league_id": null,
+     "apps": 16,
+     "goals": 12,
+     "assists": 1,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 28,
+   "goals": 2,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 1",
+     "league_id": null,
+     "apps": 28,
+     "goals": 2,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 28,
+   "goals": 7,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "National 1",
+     "league_id": null,
+     "apps": 27,
+     "goals": 7,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 10,
+   "goals": 11,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 3",
+     "league_id": null,
+     "apps": 10,
+     "goals": 11,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 3,
+   "goals": 2,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 3",
+     "league_id": null,
+     "apps": 3,
+     "goals": 2,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 8,
+   "goals": 5,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 8,
+     "goals": 5,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 4,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 3,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 3,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National 2",
+     "league_id": null,
+     "apps": 1,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Rennes",
+    "start": "2025-08-28",
+    "end": null,
+    "apps": 44,
+    "goals": 27,
+    "kind": null
+   },
+   {
+    "team": "Angers",
+    "start": "2024-01-25",
+    "end": "2025-08-28",
+    "apps": 50,
+    "goals": 17,
+    "kind": null
+   },
+   {
+    "team": "Épinal",
+    "start": "2023-07-06",
+    "end": "2024-01-25",
+    "apps": 18,
+    "goals": 13,
+    "kind": null
+   },
+   {
+    "team": "Orléans",
+    "start": "2021-07-23",
+    "end": "2023-07-05",
+    "apps": 56,
+    "goals": 9,
+    "kind": null
+   },
+   {
+    "team": "US Orléans Loiret II",
+    "start": "2021-07-01",
+    "end": "2023-07-05",
+    "apps": 13,
+    "goals": 13,
+    "kind": null
+   },
+   {
+    "team": "Épinal",
+    "start": "2020-07-01",
+    "end": "2021-06-30",
+    "apps": 8,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "Lyon B",
+    "start": "2018-01-01",
+    "end": "2020-06-30",
+    "apps": 8,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Lyon U19",
+    "start": "2018-07-01",
+    "end": "2018-12-31",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "France",
+    "start": "2026-09-18",
+    "end": "2026-11-06",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Angers",
+   "to": "Rennes",
+   "date": "2025-08-28",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00",
+ "star_rating": 7.77,
+ "star_league": 53
+}

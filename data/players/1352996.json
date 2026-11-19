@@ -199,7 +199,117 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 15,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.71,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.66
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.6
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.83
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 32,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.87,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 32,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.87
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 34,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.57,
+   "competitions": [
+    {
+     "league": "Eredivisie",
+     "league_id": 57,
+     "apps": 33,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.59
+    },
+    {
+     "league": "KNVB Cup",
+     "league_id": 235,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.08
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 9,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 9,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 5,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -313,5 +423,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

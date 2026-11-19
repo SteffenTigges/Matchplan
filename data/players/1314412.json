@@ -382,7 +382,7 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.31
+    "value": 0.3
    },
    {
     "key": "aerials_won",
@@ -397,7 +397,7 @@
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.47
+    "value": 0.48
    },
    {
     "key": "shot_attempts",
@@ -411,7 +411,232 @@
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 11,
+   "goals": 5,
+   "assists": 0,
+   "rating": 7.11,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 7,
+     "goals": 5,
+     "assists": 0,
+     "rating": 7.46
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.57
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.5
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 32,
+   "goals": 9,
+   "assists": 4,
+   "rating": 7.11,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 30,
+     "goals": 9,
+     "assists": 4,
+     "rating": 7.12
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.97
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 33,
+   "goals": 17,
+   "assists": 10,
+   "rating": 7.6,
+   "competitions": [
+    {
+     "league": "Süper Lig",
+     "league_id": 71,
+     "apps": 29,
+     "goals": 13,
+     "assists": 9,
+     "rating": 7.51
+    },
+    {
+     "league": "Turkish Cup",
+     "league_id": 151,
+     "apps": 4,
+     "goals": 4,
+     "assists": 1,
+     "rating": 8.27
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 13,
+   "goals": 5,
+   "assists": 3,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "1. Lig",
+     "league_id": 165,
+     "apps": 13,
+     "goals": 5,
+     "assists": 3,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2024",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Paranaense 1",
+     "league_id": null,
+     "apps": 1,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023",
+   "apps": 28,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.63,
+   "competitions": [
+    {
+     "league": "Série A",
+     "league_id": 268,
+     "apps": 18,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.41
+    },
+    {
+     "league": "Copa Libertadores",
+     "league_id": 45,
+     "apps": 4,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.67
+    },
+    {
+     "league": "Copa do Brasil",
+     "league_id": 9067,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Paranaense 1",
+     "league_id": null,
+     "apps": 5,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022",
+   "apps": 51,
+   "goals": 9,
+   "assists": 2,
+   "rating": 6.62,
+   "competitions": [
+    {
+     "league": "Série A",
+     "league_id": 268,
+     "apps": 26,
+     "goals": 1,
+     "assists": 1,
+     "rating": 6.55
+    },
+    {
+     "league": "Copa Libertadores",
+     "league_id": 45,
+     "apps": 9,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.52
+    },
+    {
+     "league": "Copa do Brasil",
+     "league_id": 9067,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.08
+    },
+    {
+     "league": "Recopa Sudamericana",
+     "league_id": 491,
+     "apps": 2,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.7
+    },
+    {
+     "league": "Paranaense 1",
+     "league_id": null,
+     "apps": 12,
+     "goals": 6,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.71,
+   "competitions": [
+    {
+     "league": "Série A",
+     "league_id": 268,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.71
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -459,5 +684,6 @@
    "loan": true
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

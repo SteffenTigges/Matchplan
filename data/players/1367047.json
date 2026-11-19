@@ -379,7 +379,7 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.52
+    "value": 0.53
    },
    {
     "key": "aerials_won",
@@ -389,7 +389,7 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.49
+    "value": 0.48
    },
    {
     "key": "goals",
@@ -399,16 +399,225 @@
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.82
+    "value": 0.83
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.62
+    "value": 0.63
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 15,
+   "goals": 0,
+   "assists": 3,
+   "rating": 6.87,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.87
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.38
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 4,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.65
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 37,
+   "goals": 8,
+   "assists": 10,
+   "rating": 7.31,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 27,
+     "goals": 4,
+     "assists": 7,
+     "rating": 7.22
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 3,
+     "goals": 2,
+     "assists": 1,
+     "rating": 8.01
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 7,
+     "goals": 2,
+     "assists": 2,
+     "rating": 7.38
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 22,
+   "goals": 7,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Liga 3",
+     "league_id": null,
+     "apps": 22,
+     "goals": 7,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.98,
+   "competitions": [
+    {
+     "league": "Liga Portugal",
+     "league_id": 61,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Taça de Portugal",
+     "league_id": 186,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.98
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.18,
+   "competitions": [
+    {
+     "league": "Liga Portugal",
+     "league_id": 61,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.18
+    },
+    {
+     "league": "Taça de Portugal",
+     "league_id": 186,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.18,
+   "competitions": [
+    {
+     "league": "Liga Portugal",
+     "league_id": 61,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.18
+    },
+    {
+     "league": "League Cup",
+     "league_id": 187,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Taça de Portugal",
+     "league_id": 186,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 9,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Liga 3",
+     "league_id": null,
+     "apps": 9,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 24,
+   "goals": 4,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Liga 3",
+     "league_id": null,
+     "apps": 24,
+     "goals": 4,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -538,5 +747,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T01:07:44+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
 }

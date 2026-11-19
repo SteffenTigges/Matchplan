@@ -1,0 +1,388 @@
+{
+ "id": 1478098,
+ "name": "Dennis Seimen",
+ "team": "VFB",
+ "team_name": "VfB Stuttgart",
+ "birth_date": "2005-12-01",
+ "age": 20,
+ "height_cm": 190,
+ "foot": "links",
+ "country": "Germany",
+ "shirt": 41,
+ "market_value": 14484173,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 19,
+   "per90": 3.8000000000000003,
+   "pct": 58.333333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 76.0,
+   "per90": 76,
+   "pct": 75,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 6,
+   "per90": 1.2000000000000002,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 1.15,
+   "per90": 0.22969999999999996,
+   "pct": 66.66666666666666,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 2,
+   "per90": 0.4,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 1,
+   "per90": 0.2,
+   "pct": 16.666666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 4,
+   "per90": 0.8,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 7,
+   "per90": 1.4,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 99,
+   "per90": 19.8,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 56.9,
+   "per90": 56.89655172413793,
+   "pct": 8.333333333333332,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 35,
+   "per90": 7,
+   "pct": 50,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 32.1,
+   "per90": 32.11009174311926,
+   "pct": 8.333333333333332,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.01,
+   "per90": 0.0010959079999999998,
+   "pct": 12.5,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.56
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 0.36
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.59
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.49
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 0.36
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.92
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 6,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.98,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.08
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.49
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 36,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.05,
+   "competitions": [
+    {
+     "league": "2. Bundesliga",
+     "league_id": 146,
+     "apps": 34,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.98
+    },
+    {
+     "league": "Bundesliga Qualification",
+     "league_id": 9081,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 8.28
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 34,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.96,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 34,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.96
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 19,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 19,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 4,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "VfB Stuttgart",
+    "start": "2026-07-01",
+    "end": null,
+    "apps": 6,
+    "goals": 0,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Paderborn",
+    "start": "2025-06-01",
+    "end": "2026-06-30",
+    "apps": 36,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2023-05-13",
+    "end": "2025-06-01",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart II",
+    "start": "2023-04-01",
+    "end": "2025-06-01",
+    "apps": 57,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "VfB Stuttgart U19",
+    "start": "2021-08-01",
+    "end": "2025-06-01",
+    "apps": 23,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart Under 17",
+    "start": "2020-07-01",
+    "end": "2022-06-30",
+    "apps": 20,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2025-09-03",
+    "end": null,
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U19",
+    "start": "2023-09-05",
+    "end": "2024-09-09",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U17",
+    "start": "2021-09-01",
+    "end": "2022-10-07",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "VfB Stuttgart",
+   "to": "Paderborn",
+   "date": "2025-07-01",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T09:08:02+00:00"
+}
