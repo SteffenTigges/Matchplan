@@ -1,0 +1,622 @@
+{
+ "id": 1536436,
+ "name": "Konstantinos Karetsas",
+ "team": "BVB",
+ "team_name": "Borussia Dortmund",
+ "birth_date": "2007-11-19",
+ "age": 19,
+ "height_cm": 173,
+ "foot": "links",
+ "country": "Greece",
+ "shirt": 19,
+ "market_value": 44938122,
+ "contract_end": "2031-06-30",
+ "positions": [
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": true
+  },
+  {
+   "label": "Rechtes Mittelfeld",
+   "short": "RM",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.63,
+   "per90": 0.20211428571428572,
+   "pct": 38.095238095238095,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.55,
+   "per90": 0.17659285714285713,
+   "pct": 36.507936507936506,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.63,
+   "per90": 0.20211428571428572,
+   "pct": 41.269841269841265,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 10,
+   "per90": 3.214285714285714,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 5,
+   "per90": 1.607142857142857,
+   "pct": 79.36507936507937,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 2,
+   "per90": 0.6428571428571428,
+   "pct": 90.47619047619048,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.38,
+   "per90": 0.12082604142857144,
+   "pct": 30.158730158730158,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 92,
+   "per90": 29.571428571428573,
+   "pct": 77.77777777777779,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 79.3,
+   "per90": 79.3103448275862,
+   "pct": 53.96825396825397,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 8,
+   "per90": 2.571428571428571,
+   "pct": 95.23809523809523,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 88.9,
+   "per90": 88.88888888888889,
+   "pct": 87.3015873015873,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 2,
+   "per90": 0.6428571428571428,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 7,
+   "per90": 2.25,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 2,
+   "per90": 0.6428571428571428,
+   "pct": 68.25396825396825,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 22.2,
+   "per90": 22.22222222222222,
+   "pct": 57.14285714285714,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 11,
+   "per90": 3.5357142857142856,
+   "pct": 95.23809523809523,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 52.4,
+   "per90": 52.38095238095238,
+   "pct": 61.904761904761905,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 27,
+   "per90": 8.678571428571429,
+   "pct": 92.06349206349206,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 48.2,
+   "per90": 48.214285714285715,
+   "pct": 65.07936507936508,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 202,
+   "per90": 64.92857142857143,
+   "pct": 80.95238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 7,
+   "per90": 2.25,
+   "pct": 6.349206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 8,
+   "per90": 2.571428571428571,
+   "pct": 12.698412698412698,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 11,
+   "per90": 3.5357142857142856,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 7,
+   "per90": 2.25,
+   "pct": 44.44444444444444,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 5,
+   "per90": 1.607142857142857,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 4,
+   "per90": 1.2857142857142856,
+   "pct": 28.57142857142857,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 15,
+   "per90": 4.821428571428571,
+   "pct": 76.19047619047619,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.3214285714285714,
+   "pct": 22.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 7,
+   "per90": 2.25,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 0.6428571428571428,
+   "pct": 42.857142857142854,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 4,
+   "per90": 1.2857142857142856,
+   "pct": 53.96825396825397,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 4.68,
+   "per90": 1.5041571428571427,
+   "pct": 58.730158730158735,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.89
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.13
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.34
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.2
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.68
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.85
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 12,
+   "goals": 1,
+   "assists": 2,
+   "rating": 6.91,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 7,
+     "goals": 0,
+     "assists": 2,
+     "rating": 6.88
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.84
+    },
+    {
+     "league": "Super Cup",
+     "league_id": 8924,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 3,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.01
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 49,
+   "goals": 3,
+   "assists": 14,
+   "rating": 7.1,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 34,
+     "goals": 0,
+     "assists": 10,
+     "rating": 6.99
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 13,
+     "goals": 2,
+     "assists": 4,
+     "rating": 7.4
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 39,
+   "goals": 3,
+   "assists": 3,
+   "rating": 7.01,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 34,
+     "goals": 3,
+     "assists": 2,
+     "rating": 7.01
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 5,
+     "goals": 0,
+     "assists": 1,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 4,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.54,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 4,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.54
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 20,
+   "goals": 6,
+   "assists": 4,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "First Division B",
+     "league_id": 264,
+     "apps": 20,
+     "goals": 6,
+     "assists": 4,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Borussia Dortmund",
+    "start": "2026-08-03",
+    "end": null,
+    "apps": 12,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Genk",
+    "start": "2023-01-13",
+    "end": "2026-08-03",
+    "apps": 92,
+    "goals": 6,
+    "kind": null
+   },
+   {
+    "team": "Genk U23",
+    "start": "2023-07-01",
+    "end": "2024-06-30",
+    "apps": 20,
+    "goals": 6,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Genk U19",
+    "start": "2023-02-07",
+    "end": "2024-07-01",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Greece",
+    "start": "2025-03-10",
+    "end": null,
+    "apps": 16,
+    "goals": 3,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Belgium U21",
+    "start": "2024-08-30",
+    "end": "2025-03-14",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Belgium U17",
+    "start": "2023-10-01",
+    "end": "2024-04-16",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Belgium Under 16",
+    "start": "2023-04-02",
+    "end": "2024-03-03",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Genk",
+   "to": "Dortmund",
+   "date": "2026-08-03",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T14:29:58+00:00"
+}

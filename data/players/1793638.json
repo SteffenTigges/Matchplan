@@ -1,0 +1,473 @@
+{
+ "id": 1793638,
+ "name": "Yanik Spalt",
+ "team": null,
+ "team_name": "VfB Stuttgart U19",
+ "birth_date": "2007-09-03",
+ "age": 19,
+ "height_cm": 176,
+ "foot": "links",
+ "country": "Austria",
+ "shirt": 8,
+ "market_value": 807787,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": false
+  },
+  {
+   "label": "Linksverteidiger",
+   "short": "LB",
+   "main": false
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  },
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": false
+  },
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.02,
+   "per90": 0.014483641726618703,
+   "pct": 2.7777777777777777,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 52,
+   "per90": 33.66906474820144,
+   "pct": 43.05555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 83.9,
+   "per90": 83.87096774193549,
+   "pct": 55.55555555555556,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 7,
+   "per90": 4.532374100719425,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.6474820143884893,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 9,
+   "per90": 5.827338129496403,
+   "pct": 72.22222222222221,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 60.0,
+   "per90": 60,
+   "pct": 88.88888888888889,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 4,
+   "per90": 2.589928057553957,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 80.0,
+   "per90": 80,
+   "pct": 94.44444444444444,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 92,
+   "per90": 59.568345323741006,
+   "pct": 47.22222222222222,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 3,
+   "per90": 1.9424460431654678,
+   "pct": 88.88888888888889,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 12,
+   "per90": 7.769784172661871,
+   "pct": 86.11111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 2,
+   "per90": 1.2949640287769786,
+   "pct": 25,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 2,
+   "per90": 1.2949640287769786,
+   "pct": 62.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.6474820143884893,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 4,
+   "per90": 2.589928057553957,
+   "pct": 5.555555555555555,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 6,
+   "per90": 3.8848920863309355,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 7,
+   "per90": 4.532374100719425,
+   "pct": 95.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 1,
+   "per90": 0.6474820143884893,
+   "pct": 97.22222222222221,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 3.21,
+   "per90": 2.0761510791366904,
+   "pct": 19.444444444444446,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": null,
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.87,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.92
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.74
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2026/2027",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.38,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.38
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 22,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.51,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 22,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.51
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "VfB Stuttgart",
+    "start": "2026-01-01",
+    "end": null,
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart II",
+    "start": "2025-07-01",
+    "end": null,
+    "apps": 26,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "VfB Stuttgart U19",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 45,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart Under 17",
+    "start": "2023-07-01",
+    "end": "2024-06-30",
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Fußballakademie Vorarlberg Under 16",
+    "start": "2022-07-01",
+    "end": "2023-06-30",
+    "apps": 19,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Fußballakademie Vorarlberg Under 15",
+    "start": "2020-07-01",
+    "end": "2022-06-30",
+    "apps": 44,
+    "goals": 7,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Austria",
+    "start": "2026-11-13",
+    "end": null,
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Austria U21",
+    "start": "2026-09-15",
+    "end": null,
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Austria U19",
+    "start": "2025-03-10",
+    "end": "2026-04-01",
+    "apps": 8,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Austria U17",
+    "start": "2023-10-05",
+    "end": "2024-05-31",
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [],
+ "v": 2,
+ "fetched_at": "2026-11-19T14:29:58+00:00"
+}

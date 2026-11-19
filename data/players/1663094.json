@@ -1,0 +1,460 @@
+{
+ "id": 1663094,
+ "name": "Filippo Mane",
+ "team": null,
+ "team_name": "Borussia Dortmund II",
+ "birth_date": "2005-03-08",
+ "age": 21,
+ "height_cm": 188,
+ "foot": "rechts",
+ "country": "Italy",
+ "shirt": 39,
+ "market_value": 5737690,
+ "contract_end": null,
+ "positions": [
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.0,
+   "per90": 0.006549525,
+   "pct": 2.898550724637681,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 29,
+   "per90": 54.375,
+   "pct": 65.21739130434783,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 90.6,
+   "per90": 90.625,
+   "pct": 79.71014492753623,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 2,
+   "per90": 3.75,
+   "pct": 13.043478260869565,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 40.0,
+   "per90": 40,
+   "pct": 1.4492753623188406,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 42,
+   "per90": 78.75,
+   "pct": 59.42028985507246,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 1,
+   "per90": 1.875,
+   "pct": 97.10144927536231,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 5,
+   "per90": 9.375,
+   "pct": 42.028985507246375,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 1,
+   "per90": 1.875,
+   "pct": 55.072463768115945,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 2,
+   "per90": 3.75,
+   "pct": 97.10144927536231,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 2,
+   "per90": 3.75,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 3,
+   "per90": 5.625,
+   "pct": 85.5072463768116,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 3.75,
+   "pct": 11.594202898550725,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 0.35,
+   "per90": 0.6601875,
+   "pct": 98.55072463768117,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other center-backs",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.01
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.78
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.14
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.77
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.85,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.22
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 8.11
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 6,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.51,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.02
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.5
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.48
+    }
+   ]
+  },
+  {
+   "season": "2026/2027",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 3,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 11,
+   "goals": 3,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Regionalliga",
+     "league_id": 512,
+     "apps": 11,
+     "goals": 3,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.17,
+   "competitions": [
+    {
+     "league": "3. Liga",
+     "league_id": 208,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.17
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Borussia Dortmund",
+    "start": "2024-08-09",
+    "end": null,
+    "apps": 9,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Borussia Dortmund II",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 19,
+    "goals": 3,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "BV Borussia 09 Dortmund Under 21",
+    "start": "2026-05-11",
+    "end": "2026-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Borussia Dortmund U19",
+    "start": "2022-02-01",
+    "end": "2024-12-31",
+    "apps": 46,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "BV Borussia 09 Dortmund Under 17",
+    "start": "2022-02-24",
+    "end": "2022-06-30",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Sampdoria Under 19",
+    "start": "2021-07-01",
+    "end": "2021-12-31",
+    "apps": 10,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Italy",
+    "start": "2026-05-25",
+    "end": "2026-09-18",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Italy U21",
+    "start": "2025-08-29",
+    "end": null,
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Italy U19",
+    "start": "2023-03-16",
+    "end": "2024-08-29",
+    "apps": 11,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Italy U17",
+    "start": "2021-10-14",
+    "end": "2022-09-26",
+    "apps": 9,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [],
+ "v": 2,
+ "fetched_at": "2026-11-19T14:29:58+00:00"
+}

@@ -1,0 +1,639 @@
+{
+ "id": 1482209,
+ "name": "Andrija Maksimović",
+ "team": "RBL",
+ "team_name": "RB Leipzig",
+ "birth_date": "2007-06-05",
+ "age": 19,
+ "height_cm": 182,
+ "foot": "links",
+ "country": "Serbia",
+ "shirt": 30,
+ "market_value": 12919386,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Rechtsaußen",
+   "short": "RW",
+   "main": true
+  },
+  {
+   "label": "Rechtes Mittelfeld",
+   "short": "RM",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.25,
+   "per90": 0.12388524590163935,
+   "pct": 23.809523809523807,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.31,
+   "per90": 0.15329508196721311,
+   "pct": 33.33333333333333,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.25,
+   "per90": 0.12388524590163935,
+   "pct": 23.809523809523807,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 2,
+   "per90": 0.9836065573770492,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 20.634920634920633,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 82.53968253968253,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.8,
+   "per90": 0.3947927704918033,
+   "pct": 88.88888888888889,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 78,
+   "per90": 38.36065573770492,
+   "pct": 90.47619047619048,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 83.0,
+   "per90": 82.97872340425532,
+   "pct": 79.36507936507937,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 4,
+   "per90": 1.9672131147540983,
+   "pct": 90.47619047619048,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 66.66666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 9,
+   "per90": 4.426229508196721,
+   "pct": 92.06349206349206,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 5,
+   "per90": 2.459016393442623,
+   "pct": 80.95238095238095,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 74.60317460317461,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 58.730158730158735,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 33.3,
+   "per90": 33.333333333333336,
+   "pct": 73.01587301587301,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 3,
+   "per90": 1.4754098360655739,
+   "pct": 58.730158730158735,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 60.0,
+   "per90": 60,
+   "pct": 74.60317460317461,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 7,
+   "per90": 3.4426229508196724,
+   "pct": 25.396825396825395,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 73.01587301587301,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 34.92063492063492,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 65.07936507936508,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 119,
+   "per90": 58.52459016393442,
+   "pct": 73.01587301587301,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 8,
+   "per90": 3.9344262295081966,
+   "pct": 42.857142857142854,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 0.9836065573770492,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 6,
+   "per90": 2.9508196721311477,
+   "pct": 63.49206349206349,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 3,
+   "per90": 1.4754098360655739,
+   "pct": 68.25396825396825,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 46.03174603174603,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 93.65079365079364,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 2,
+   "per90": 0.9836065573770492,
+   "pct": 53.96825396825397,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 3,
+   "per90": 1.4754098360655739,
+   "pct": 3.1746031746031744,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 31.746031746031743,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 1,
+   "per90": 0.4918032786885246,
+   "pct": 96.82539682539682,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 2.88,
+   "per90": 1.4166393442622953,
+   "pct": 65.07936507936508,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.53
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.29
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.16
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.82
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.15
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.5
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 8,
+   "goals": 2,
+   "assists": 1,
+   "rating": 6.69,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 5,
+     "goals": 1,
+     "assists": 1,
+     "rating": 6.8
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.26
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.66
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 10,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.23,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 8,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.18
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.45
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 39,
+   "goals": 6,
+   "assists": 5,
+   "rating": 6.3,
+   "competitions": [
+    {
+     "league": "Super Liga",
+     "league_id": 182,
+     "apps": 27,
+     "goals": 4,
+     "assists": 5,
+     "rating": null
+    },
+    {
+     "league": "Kup Srbije",
+     "league_id": 183,
+     "apps": 5,
+     "goals": 2,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 7,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.3
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Kup Srbije",
+     "league_id": 183,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 5,
+   "goals": 3,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Prva Liga",
+     "league_id": 9114,
+     "apps": 5,
+     "goals": 3,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 24,
+   "goals": 6,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Prva Liga",
+     "league_id": 9114,
+     "apps": 24,
+     "goals": 6,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "RB Leipzig",
+    "start": "2025-07-16",
+    "end": null,
+    "apps": 18,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "FK Crvena Zvezda",
+    "start": "2023-09-01",
+    "end": "2025-07-16",
+    "apps": 41,
+    "goals": 6,
+    "kind": null
+   },
+   {
+    "team": "FK Grafičar Beograd",
+    "start": "2023-07-01",
+    "end": "2024-12-31",
+    "apps": 29,
+    "goals": 9,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "RasenBallsport Leipzig Under 21",
+    "start": "2025-07-16",
+    "end": null,
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "FK Crvena Zvezda U19",
+    "start": "2022-07-01",
+    "end": "2025-07-16",
+    "apps": 7,
+    "goals": 2,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Serbia",
+    "start": "2024-09-24",
+    "end": "2026-09-18",
+    "apps": 9,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Serbia U19",
+    "start": "2024-09-01",
+    "end": "2026-06-17",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Serbia U17",
+    "start": "2022-11-01",
+    "end": "2024-10-24",
+    "apps": 16,
+    "goals": 7,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "FK Crvena Zvezda",
+   "to": "RB Leipzig",
+   "date": "2025-07-16",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T14:29:58+00:00"
+}

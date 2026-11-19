@@ -1,0 +1,452 @@
+{
+ "id": 1705081,
+ "name": "Christian Kofane",
+ "team": "B04",
+ "team_name": "Bayer Leverkusen",
+ "birth_date": "2006-07-26",
+ "age": 20,
+ "height_cm": 189,
+ "foot": "rechts",
+ "country": "Cameroon",
+ "shirt": 35,
+ "market_value": 47368368,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Stürmer",
+   "short": "ST",
+   "main": true
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 2,
+   "per90": 1.3432835820895521,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 1.02,
+   "per90": 0.6817164179104479,
+   "pct": 72.3404255319149,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 1.36,
+   "per90": 0.9101417910447761,
+   "pct": 85.1063829787234,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 1.02,
+   "per90": 0.6817164179104479,
+   "pct": 80.85106382978722,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 8,
+   "per90": 5.3731343283582085,
+   "pct": 93.61702127659575,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 2,
+   "per90": 1.3432835820895521,
+   "pct": 59.57446808510638,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 4,
+   "per90": 2.6865671641791042,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.14,
+   "per90": 0.09146695970149256,
+   "pct": 44.680851063829785,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 15,
+   "per90": 10.074626865671641,
+   "pct": 10.638297872340425,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 78.9,
+   "per90": 78.94736842105263,
+   "pct": 85.1063829787234,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.6716417910447761,
+   "pct": 21.27659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 6,
+   "per90": 4.029850746268656,
+   "pct": 25.53191489361702,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 37.5,
+   "per90": 37.5,
+   "pct": 36.17021276595745,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 4,
+   "per90": 2.6865671641791042,
+   "pct": 53.191489361702125,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 43,
+   "per90": 28.88059701492537,
+   "pct": 10.638297872340425,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 12,
+   "per90": 8.059701492537313,
+   "pct": 91.48936170212765,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 1.3432835820895521,
+   "pct": 36.17021276595745,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 1,
+   "per90": 0.6716417910447761,
+   "pct": 21.27659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 2,
+   "per90": 1.3432835820895521,
+   "pct": 21.27659574468085,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 1,
+   "per90": 0.6716417910447761,
+   "pct": 61.702127659574465,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 0.6716417910447761,
+   "pct": 89.36170212765957,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 6,
+   "per90": 4.029850746268656,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 2,
+   "per90": 1.3432835820895521,
+   "pct": 72.3404255319149,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 1.35,
+   "per90": 0.9038955223880597,
+   "pct": 95.74468085106383,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other forwards",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.65
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.5
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.85
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.34
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.72
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.11
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 6,
+   "goals": 3,
+   "assists": 0,
+   "rating": 6.69,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 4,
+     "goals": 2,
+     "assists": 0,
+     "rating": 6.6
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.23
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.51
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 44,
+   "goals": 7,
+   "assists": 6,
+   "rating": 6.8,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 29,
+     "goals": 5,
+     "assists": 4,
+     "rating": 6.84
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 4,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.19
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 11,
+     "goals": 1,
+     "assists": 1,
+     "rating": 6.56
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 20,
+   "goals": 8,
+   "assists": 1,
+   "rating": 6.93,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 20,
+     "goals": 8,
+     "assists": 1,
+     "rating": 6.93
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Bayer Leverkusen",
+    "start": "2025-07-11",
+    "end": null,
+    "apps": 50,
+    "goals": 10,
+    "kind": null
+   },
+   {
+    "team": "Albacete",
+    "start": "2025-01-10",
+    "end": "2025-07-11",
+    "apps": 20,
+    "goals": 8,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Cameroon",
+    "start": "2025-12-01",
+    "end": "2026-10-26",
+    "apps": 7,
+    "goals": 2,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Albacete",
+   "to": "Leverkusen",
+   "date": "2025-07-11",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T14:29:58+00:00"
+}
