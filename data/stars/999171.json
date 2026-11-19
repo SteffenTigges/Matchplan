@@ -1,0 +1,484 @@
+{
+ "id": 999171,
+ "name": "Álvaro Vallés",
+ "team": null,
+ "team_name": "Real Betis",
+ "birth_date": "1997-07-25",
+ "age": 29,
+ "height_cm": 190,
+ "foot": "rechts",
+ "country": "Spain",
+ "shirt": 1,
+ "market_value": 10840547,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 48,
+   "per90": 4,
+   "pct": 85.71428571428571,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 76.2,
+   "per90": 76.19047619047619,
+   "pct": 75,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 15,
+   "per90": 1.25,
+   "pct": 57.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 8.64,
+   "per90": 0.7200000286102295,
+   "pct": 100,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 6,
+   "per90": 0.5,
+   "pct": 85.71428571428571,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_saves",
+   "title": "Penalty saves",
+   "value": 1,
+   "per90": 0.08333333333333334,
+   "pct": 82.14285714285714,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_goals_conceded",
+   "title": "Penalties conceded",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_save_percent",
+   "title": "Penalty saves %",
+   "value": 100.0,
+   "per90": 100,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 17,
+   "per90": 1.4166666666666665,
+   "pct": 67.85714285714286,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 14,
+   "per90": 1.1666666666666667,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 241,
+   "per90": 20.083333333333332,
+   "pct": 53.57142857142857,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 76.5,
+   "per90": 76.5079365079365,
+   "pct": 78.57142857142857,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 67,
+   "per90": 5.583333333333333,
+   "pct": 50,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 47.9,
+   "per90": 47.857142857142854,
+   "pct": 82.14285714285714,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 1,
+   "per90": 0.08333333333333334,
+   "pct": 71.42857142857143,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.01,
+   "per90": 0.0008812975138425827,
+   "pct": 32.142857142857146,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.89
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 0.54
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.76
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.63
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 0.73
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.73
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 16,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.47,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 12,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.78
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.57
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 33,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.02,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 28,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.98
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.3
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 37,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.06,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 37,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.06
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 34,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.86,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 34,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.86
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 18,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.9,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 16,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.76
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 8.02
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 28,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.4,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 26,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.4
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 21,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.37,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 21,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.37
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 7,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 7,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Real Betis",
+    "start": "2025-06-17",
+    "end": null,
+    "apps": 49,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Las Palmas",
+    "start": "2018-07-10",
+    "end": "2025-02-10",
+    "apps": 138,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Las Palmas B",
+    "start": "2018-07-10",
+    "end": "2019-08-26",
+    "apps": 7,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Real Betis",
+    "start": "2018-07-01",
+    "end": "2018-07-01",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "CD Gerena",
+    "start": "2017-09-06",
+    "end": "2018-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Real Betis",
+    "start": "2017-06-28",
+    "end": "2017-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Betis Deportivo Balompie",
+    "start": "2015-02-01",
+    "end": "2017-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Spain",
+    "start": "2026-10-01",
+    "end": null,
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Free agent",
+   "to": "Real Betis",
+   "date": "2025-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00",
+ "star_rating": 7.78,
+ "star_league": 87
+}

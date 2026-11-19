@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T07:25:15+00:00",
+ "updated_at": "2026-11-19T08:24:45+00:00",
  "categories": [
   "Allgemein",
   "Offensive",
@@ -197,6 +197,14 @@
    "approx": false
   },
   {
+   "key": "press_ratio",
+   "label": "PPDA (Pässe des Gegners pro Ballgewinn)",
+   "category": "Gegen den Ball",
+   "higher_is_better": false,
+   "fmt": "dec1",
+   "approx": true
+  },
+  {
    "key": "won_att3_pg",
    "label": "Ballgewinne im Angriffsdrittel pro Spiel",
    "category": "Gegen den Ball",
@@ -209,14 +217,6 @@
    "label": "Ballgewinne im Mittelfeld pro Spiel",
    "category": "Gegen den Ball",
    "higher_is_better": true,
-   "fmt": "dec1",
-   "approx": false
-  },
-  {
-   "key": "press_ratio",
-   "label": "Gegnerische Pässe pro Ballgewinn (Mitte + Angriff)",
-   "category": "Gegen den Ball",
-   "higher_is_better": false,
    "fmt": "dec1",
    "approx": false
   },
@@ -420,16 +420,16 @@
     "value": 2,
     "rank": 7
    },
+   "press_ratio": {
+    "value": 4.9947,
+    "rank": 1
+   },
    "won_att3_pg": {
     "value": 6.3,
     "rank": 1
    },
    "won_mid_pg": {
     "value": 25.0,
-    "rank": 1
-   },
-   "press_ratio": {
-    "value": 4.9947,
     "rank": 1
    },
    "tackles_pg": {
@@ -579,6 +579,10 @@
     "value": 2,
     "rank": 7
    },
+   "press_ratio": {
+    "value": 8.233,
+    "rank": 8
+   },
    "won_att3_pg": {
     "value": 3.6,
     "rank": 11
@@ -586,10 +590,6 @@
    "won_mid_pg": {
     "value": 17.44,
     "rank": 15
-   },
-   "press_ratio": {
-    "value": 8.233,
-    "rank": 8
    },
    "tackles_pg": {
     "value": 13.2222,
@@ -738,6 +738,10 @@
     "value": 5,
     "rank": 1
    },
+   "press_ratio": {
+    "value": 7.8834,
+    "rank": 6
+   },
    "won_att3_pg": {
     "value": 4.6,
     "rank": 3
@@ -745,10 +749,6 @@
    "won_mid_pg": {
     "value": 20.22,
     "rank": 8
-   },
-   "press_ratio": {
-    "value": 7.8834,
-    "rank": 6
    },
    "tackles_pg": {
     "value": 16.8889,
@@ -897,6 +897,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 9.754,
+    "rank": 15
+   },
    "won_att3_pg": {
     "value": 2.8,
     "rank": 16
@@ -904,10 +908,6 @@
    "won_mid_pg": {
     "value": 16.44,
     "rank": 17
-   },
-   "press_ratio": {
-    "value": 9.754,
-    "rank": 15
    },
    "tackles_pg": {
     "value": 18.0,
@@ -1056,6 +1056,10 @@
     "value": 5,
     "rank": 1
    },
+   "press_ratio": {
+    "value": 8.6425,
+    "rank": 10
+   },
    "won_att3_pg": {
     "value": 4.2,
     "rank": 4
@@ -1063,10 +1067,6 @@
    "won_mid_pg": {
     "value": 20.78,
     "rank": 7
-   },
-   "press_ratio": {
-    "value": 8.6425,
-    "rank": 10
    },
    "tackles_pg": {
     "value": 15.6667,
@@ -1215,6 +1215,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 9.8045,
+    "rank": 16
+   },
    "won_att3_pg": {
     "value": 3.7,
     "rank": 9
@@ -1222,10 +1226,6 @@
    "won_mid_pg": {
     "value": 17.56,
     "rank": 14
-   },
-   "press_ratio": {
-    "value": 9.8045,
-    "rank": 16
    },
    "tackles_pg": {
     "value": 15.0,
@@ -1374,6 +1374,10 @@
     "value": 3,
     "rank": 3
    },
+   "press_ratio": {
+    "value": 9.7248,
+    "rank": 14
+   },
    "won_att3_pg": {
     "value": 3.7,
     "rank": 9
@@ -1381,10 +1385,6 @@
    "won_mid_pg": {
     "value": 17.78,
     "rank": 13
-   },
-   "press_ratio": {
-    "value": 9.7248,
-    "rank": 14
    },
    "tackles_pg": {
     "value": 13.3333,
@@ -1533,6 +1533,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 6.9456,
+    "rank": 4
+   },
    "won_att3_pg": {
     "value": 4.2,
     "rank": 4
@@ -1540,10 +1544,6 @@
    "won_mid_pg": {
     "value": 19.22,
     "rank": 10
-   },
-   "press_ratio": {
-    "value": 6.9456,
-    "rank": 4
    },
    "tackles_pg": {
     "value": 21.0,
@@ -1692,6 +1692,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 8.2867,
+    "rank": 9
+   },
    "won_att3_pg": {
     "value": 3.1,
     "rank": 15
@@ -1699,10 +1703,6 @@
    "won_mid_pg": {
     "value": 21.33,
     "rank": 5
-   },
-   "press_ratio": {
-    "value": 8.2867,
-    "rank": 9
    },
    "tackles_pg": {
     "value": 17.5556,
@@ -1851,6 +1851,10 @@
     "value": 3,
     "rank": 3
    },
+   "press_ratio": {
+    "value": 10.276,
+    "rank": 17
+   },
    "won_att3_pg": {
     "value": 3.6,
     "rank": 11
@@ -1858,10 +1862,6 @@
    "won_mid_pg": {
     "value": 18.22,
     "rank": 12
-   },
-   "press_ratio": {
-    "value": 10.276,
-    "rank": 17
    },
    "tackles_pg": {
     "value": 21.3333,
@@ -2010,6 +2010,10 @@
     "value": 3,
     "rank": 3
    },
+   "press_ratio": {
+    "value": 9.6146,
+    "rank": 13
+   },
    "won_att3_pg": {
     "value": 3.2,
     "rank": 14
@@ -2017,10 +2021,6 @@
    "won_mid_pg": {
     "value": 19.89,
     "rank": 9
-   },
-   "press_ratio": {
-    "value": 9.6146,
-    "rank": 13
    },
    "tackles_pg": {
     "value": 17.7778,
@@ -2169,6 +2169,10 @@
     "value": 3,
     "rank": 3
    },
+   "press_ratio": {
+    "value": 8.0594,
+    "rank": 7
+   },
    "won_att3_pg": {
     "value": 3.8,
     "rank": 6
@@ -2176,10 +2180,6 @@
    "won_mid_pg": {
     "value": 22.67,
     "rank": 2
-   },
-   "press_ratio": {
-    "value": 8.0594,
-    "rank": 7
    },
    "tackles_pg": {
     "value": 18.1111,
@@ -2328,16 +2328,16 @@
     "value": 2,
     "rank": 7
    },
+   "press_ratio": {
+    "value": 11.7876,
+    "rank": 18
+   },
    "won_att3_pg": {
     "value": 2.7,
     "rank": 17
    },
    "won_mid_pg": {
     "value": 13.56,
-    "rank": 18
-   },
-   "press_ratio": {
-    "value": 11.7876,
     "rank": 18
    },
    "tackles_pg": {
@@ -2487,6 +2487,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 6.9562,
+    "rank": 5
+   },
    "won_att3_pg": {
     "value": 3.8,
     "rank": 6
@@ -2494,10 +2498,6 @@
    "won_mid_pg": {
     "value": 22.22,
     "rank": 3
-   },
-   "press_ratio": {
-    "value": 6.9562,
-    "rank": 5
    },
    "tackles_pg": {
     "value": 17.3333,
@@ -2646,6 +2646,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 8.754,
+    "rank": 11
+   },
    "won_att3_pg": {
     "value": 3.6,
     "rank": 11
@@ -2653,10 +2657,6 @@
    "won_mid_pg": {
     "value": 16.67,
     "rank": 16
-   },
-   "press_ratio": {
-    "value": 8.754,
-    "rank": 11
    },
    "tackles_pg": {
     "value": 15.8889,
@@ -2805,6 +2805,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 6.0485,
+    "rank": 2
+   },
    "won_att3_pg": {
     "value": 5.6,
     "rank": 2
@@ -2812,10 +2816,6 @@
    "won_mid_pg": {
     "value": 21.11,
     "rank": 6
-   },
-   "press_ratio": {
-    "value": 6.0485,
-    "rank": 2
    },
    "tackles_pg": {
     "value": 14.8889,
@@ -2964,6 +2964,10 @@
     "value": 1,
     "rank": 11
    },
+   "press_ratio": {
+    "value": 9.0278,
+    "rank": 12
+   },
    "won_att3_pg": {
     "value": 2.2,
     "rank": 18
@@ -2971,10 +2975,6 @@
    "won_mid_pg": {
     "value": 18.44,
     "rank": 11
-   },
-   "press_ratio": {
-    "value": 9.0278,
-    "rank": 12
    },
    "tackles_pg": {
     "value": 14.6667,
@@ -3123,6 +3123,10 @@
     "value": 2,
     "rank": 7
    },
+   "press_ratio": {
+    "value": 6.6597,
+    "rank": 3
+   },
    "won_att3_pg": {
     "value": 3.8,
     "rank": 6
@@ -3130,10 +3134,6 @@
    "won_mid_pg": {
     "value": 21.56,
     "rank": 4
-   },
-   "press_ratio": {
-    "value": 6.6597,
-    "rank": 3
    },
    "tackles_pg": {
     "value": 14.6667,

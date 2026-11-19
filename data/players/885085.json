@@ -314,7 +314,7 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.56
+    "value": 0.54
    },
    {
     "key": "aerials_won",
@@ -324,26 +324,267 @@
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.28
+    "value": 0.29
    },
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.57
+    "value": 0.56
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.83
+    "value": 0.82
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.64
+    "value": 0.63
    }
   ]
  },
- "seasons": [],
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 4,
+   "goals": 2,
+   "assists": 0,
+   "rating": 6.71,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 3,
+     "goals": 2,
+     "assists": 0,
+     "rating": 6.99
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.88
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 37,
+   "goals": 5,
+   "assists": 4,
+   "rating": 6.57,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 23,
+     "goals": 2,
+     "assists": 2,
+     "rating": 6.47
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.08
+    },
+    {
+     "league": "Supercoppa",
+     "league_id": 222,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 11,
+     "goals": 3,
+     "assists": 2,
+     "rating": 6.89
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 43,
+   "goals": 7,
+   "assists": 2,
+   "rating": 6.55,
+   "competitions": [
+    {
+     "league": "Serie A",
+     "league_id": 55,
+     "apps": 31,
+     "goals": 3,
+     "assists": 2,
+     "rating": 6.5
+    },
+    {
+     "league": "Coppa Italia",
+     "league_id": 141,
+     "apps": 4,
+     "goals": 3,
+     "assists": 0,
+     "rating": 7.54
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 8,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.26
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 44,
+   "goals": 19,
+   "assists": 4,
+   "rating": 7.19,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 33,
+     "goals": 14,
+     "assists": 2,
+     "rating": 7.16
+    },
+    {
+     "league": "Trophée des champions",
+     "league_id": 207,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.18
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 8,
+     "goals": 4,
+     "assists": 2,
+     "rating": 7.36
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 42,
+   "goals": 18,
+   "assists": 3,
+   "rating": 6.91,
+   "competitions": [
+    {
+     "league": "Ligue 1",
+     "league_id": 53,
+     "apps": 36,
+     "goals": 12,
+     "assists": 1,
+     "rating": 6.74
+    },
+    {
+     "league": "Coupe de France",
+     "league_id": 134,
+     "apps": 6,
+     "goals": 6,
+     "assists": 2,
+     "rating": 7.93
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 44,
+   "goals": 36,
+   "assists": 9,
+   "rating": 7.8,
+   "competitions": [
+    {
+     "league": "Eerste Divisie",
+     "league_id": 111,
+     "apps": 37,
+     "goals": 32,
+     "assists": 8,
+     "rating": 7.82
+    },
+    {
+     "league": "Eredivisie Qualification",
+     "league_id": 58,
+     "apps": 6,
+     "goals": 4,
+     "assists": 1,
+     "rating": 7.68
+    },
+    {
+     "league": "KNVB Cup",
+     "league_id": 235,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 7,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.14,
+   "competitions": [
+    {
+     "league": "Eredivisie",
+     "league_id": 57,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.14
+    },
+    {
+     "league": "KNVB Cup",
+     "league_id": 235,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 8,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Eerste Divisie",
+     "league_id": 111,
+     "apps": 8,
+     "goals": 1,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  }
+ ],
  "career": {
   "senior": [
    {
@@ -464,5 +705,6 @@
    "loan": false
   }
  ],
- "fetched_at": "2026-11-19T00:54:41+00:00"
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00"
 }

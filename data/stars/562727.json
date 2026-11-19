@@ -1,0 +1,704 @@
+{
+ "id": 562727,
+ "name": "David Raya",
+ "team": null,
+ "team_name": "Arsenal",
+ "birth_date": "1995-09-15",
+ "age": 31,
+ "height_cm": 183,
+ "foot": "rechts",
+ "country": "Spain",
+ "shirt": 1,
+ "market_value": 23534518,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 20,
+   "per90": 2,
+   "pct": 8,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 80.0,
+   "per90": 80,
+   "pct": 92,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 5,
+   "per90": 0.5,
+   "pct": 96,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 2.25,
+   "per90": 0.225,
+   "pct": 68,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 7,
+   "per90": 0.7,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_saves",
+   "title": "Penalty saves",
+   "value": 1,
+   "per90": 0.1,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_goals_conceded",
+   "title": "Penalties conceded",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_save_percent",
+   "title": "Penalty saves %",
+   "value": 100.0,
+   "per90": 100,
+   "pct": 100,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 12,
+   "per90": 1.2000000000000002,
+   "pct": 76,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 15,
+   "per90": 1.5,
+   "pct": 76,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 214,
+   "per90": 21.400000000000002,
+   "pct": 52,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 65.8,
+   "per90": 65.84615384615384,
+   "pct": 64,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 65,
+   "per90": 6.499999999999999,
+   "pct": 44,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 37.8,
+   "per90": 37.7906976744186,
+   "pct": 80,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.03,
+   "per90": 0.002507222071290016,
+   "pct": 56.00000000000001,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.1,
+   "pct": 12,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.89
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 1
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.95
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.94
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 1
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.45
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 15,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.49,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 10,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.52
+    },
+    {
+     "league": "Community Shield",
+     "league_id": 247,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.44
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 51,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.21,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 37,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.99
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 14,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.81
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 55,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.1,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 38,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.06
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.46
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.95
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 13,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.55
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 41,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.89,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 32,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.88
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.93
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 39,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.12,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 38,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.16
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.76
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 25,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.78,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 24,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.9
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 4.1
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 48,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.65,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 45,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.68
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.22
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 49,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.61,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 49,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.61
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 46,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.25,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 41,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.28
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.7
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 47,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "League One",
+     "league_id": 108,
+     "apps": 45,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 8,
+   "goals": 0,
+   "assists": 0,
+   "rating": 7.31,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.31
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2014/2015",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Championship",
+     "league_id": 48,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2014/2015",
+   "apps": 24,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "National League",
+     "league_id": 117,
+     "apps": 16,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "FA Trophy",
+     "league_id": 9253,
+     "apps": 2,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Arsenal",
+    "start": "2024-07-04",
+    "end": null,
+    "apps": 121,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Brentford",
+    "start": "2024-07-01",
+    "end": "2024-07-04",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Arsenal",
+    "start": "2023-08-15",
+    "end": "2024-06-30",
+    "apps": 41,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Brentford",
+    "start": "2019-07-06",
+    "end": "2023-08-15",
+    "apps": 161,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Blackburn Rovers",
+    "start": "2015-04-01",
+    "end": "2019-07-06",
+    "apps": 108,
+    "goals": 0,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Southport",
+    "start": "2014-09-19",
+    "end": "2015-03-30",
+    "apps": 24,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Blackburn Rovers",
+    "start": "2013-07-01",
+    "end": "2014-09-19",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Blackburn Rovers U23",
+    "start": "2016-08-01",
+    "end": "2017-06-30",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Spain",
+    "start": "2022-03-18",
+    "end": null,
+    "apps": 14,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": []
+ },
+ "transfers": [
+  {
+   "from": "Brentford",
+   "to": "Arsenal",
+   "date": "2024-07-04",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Brentford",
+   "to": "Arsenal",
+   "date": "2023-08-15",
+   "fee": "fee",
+   "loan": true
+  },
+  {
+   "from": "Blackburn",
+   "to": "Brentford",
+   "date": "2019-07-06",
+   "fee": null,
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00",
+ "star_rating": 7.52,
+ "star_league": 47
+}

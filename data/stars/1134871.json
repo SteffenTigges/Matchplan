@@ -1,0 +1,823 @@
+{
+ "id": 1134871,
+ "name": "Maxim De Cuyper",
+ "team": null,
+ "team_name": "Brighton & Hove Albion",
+ "birth_date": "2000-12-22",
+ "age": 25,
+ "height_cm": 183,
+ "foot": "links",
+ "country": "Belgium",
+ "shirt": 29,
+ "market_value": 36879494,
+ "contract_end": "2030-06-30",
+ "positions": [
+  {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": true
+  },
+  {
+   "label": "Linksverteidiger",
+   "short": "LB",
+   "main": false
+  },
+  {
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
+   "main": false
+  },
+  {
+   "label": "Linkes Mittelfeld",
+   "short": "LM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 2,
+   "per90": 0.21765417170495766,
+   "pct": 62.88659793814433,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 2.44,
+   "per90": 0.2654727886204564,
+   "pct": 70.10309278350515,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 1.83,
+   "per90": 0.19957799000492119,
+   "pct": 57.73195876288659,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 2.44,
+   "per90": 0.2654727886204564,
+   "pct": 76.28865979381443,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 15,
+   "per90": 1.6324062877871828,
+   "pct": 23.711340206185564,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 19.587628865979383,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 81.44329896907216,
+   "fmt": "number"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_topspeed",
+   "title": "Top Speed",
+   "value": 31.8,
+   "per90": 31.799999237060547,
+   "pct": 21.649484536082475,
+   "fmt": "kph"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_distance_covered",
+   "title": "Total Distance Covered",
+   "value": 101252.1,
+   "per90": 11018.966048216445,
+   "pct": 43.29896907216495,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_running",
+   "title": "Running",
+   "value": 24022.8,
+   "per90": 2614.3359729254835,
+   "pct": 60.824742268041234,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_sprinting",
+   "title": "Sprinting",
+   "value": 3068.1,
+   "per90": 333.89414629307737,
+   "pct": 72.16494845360825,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_number_of_sprints",
+   "title": "Number of Sprints",
+   "value": 144,
+   "per90": 15.671100362756954,
+   "pct": 71.1340206185567,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 83.50515463917526,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 1.46,
+   "per90": 0.159176735088067,
+   "pct": 67.0103092783505,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 298,
+   "per90": 32.43047158403869,
+   "pct": 76.28865979381443,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 84.7,
+   "per90": 84.6590909090909,
+   "pct": 70.10309278350515,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 19,
+   "per90": 2.0677146311970978,
+   "pct": 90.72164948453609,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 61.3,
+   "per90": 61.29032258064516,
+   "pct": 68.04123711340206,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 60,
+   "per90": 6.529625151148731,
+   "pct": 61.855670103092784,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 22,
+   "per90": 2.3941958887545343,
+   "pct": 82.4742268041237,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 5,
+   "per90": 0.5441354292623942,
+   "pct": 82.4742268041237,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 16,
+   "per90": 1.7412333736396612,
+   "pct": 90.72164948453609,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 34.8,
+   "per90": 34.78260869565217,
+   "pct": 86.5979381443299,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 4,
+   "per90": 0.4353083434099153,
+   "pct": 19.587628865979383,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 40.0,
+   "per90": 40,
+   "pct": 37.11340206185567,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 33,
+   "per90": 3.591293833131802,
+   "pct": 18.556701030927837,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 47.1,
+   "per90": 47.142857142857146,
+   "pct": 59.79381443298969,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 1,
+   "per90": 0.10882708585247883,
+   "pct": 18.556701030927837,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 12.5,
+   "per90": 12.5,
+   "pct": 20.618556701030926,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 532,
+   "per90": 57.89600967351874,
+   "pct": 69.0721649484536,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 27,
+   "per90": 2.938331318016929,
+   "pct": 23.711340206185564,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 76.28865979381443,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 12,
+   "per90": 1.305925030229746,
+   "pct": 47.42268041237113,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 33,
+   "per90": 3.591293833131802,
+   "pct": 1.0309278350515463,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 16,
+   "per90": 1.7412333736396612,
+   "pct": 69.0721649484536,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 77.31958762886599,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 13,
+   "per90": 1.414752116082225,
+   "pct": 28.865979381443296,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 35,
+   "per90": 3.808948004836759,
+   "pct": 55.670103092783506,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 71.1340206185567,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 4,
+   "per90": 0.4353083434099153,
+   "pct": 77.31958762886599,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 10,
+   "per90": 1.0882708585247884,
+   "pct": 71.1340206185567,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 89.69072164948454,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 77.31958762886599,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 12.49,
+   "per90": 1.359108817620606,
+   "pct": 51.546391752577314,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 19.587628865979383,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.86
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.47
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.89
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.29
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.08
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.88
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 16,
+   "goals": 4,
+   "assists": 4,
+   "rating": 7.39,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 10,
+     "goals": 2,
+     "assists": 3,
+     "rating": 7.64
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 2,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.92
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 4,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.02
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 31,
+   "goals": 2,
+   "assists": 3,
+   "rating": 6.74,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 30,
+     "goals": 2,
+     "assists": 3,
+     "rating": 6.75
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.51
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 54,
+   "goals": 4,
+   "assists": 6,
+   "rating": 7.37,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 37,
+     "goals": 3,
+     "assists": 5,
+     "rating": 7.52
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 5,
+     "goals": 0,
+     "assists": 1,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 12,
+     "goals": 1,
+     "assists": 0,
+     "rating": 6.94
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 55,
+   "goals": 5,
+   "assists": 11,
+   "rating": 7.45,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 37,
+     "goals": 3,
+     "assists": 10,
+     "rating": 7.48
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 16,
+     "goals": 2,
+     "assists": 1,
+     "rating": 7.39
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 40,
+   "goals": 9,
+   "assists": 7,
+   "rating": 7.45,
+   "competitions": [
+    {
+     "league": "First Division A",
+     "league_id": 40,
+     "apps": 39,
+     "goals": 9,
+     "assists": 7,
+     "rating": 7.45
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 28,
+   "goals": 6,
+   "assists": 4,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "First Division B",
+     "league_id": 264,
+     "apps": 25,
+     "goals": 6,
+     "assists": 4,
+     "rating": null
+    },
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 20,
+   "goals": 5,
+   "assists": 3,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "First Division B",
+     "league_id": 264,
+     "apps": 20,
+     "goals": 5,
+     "assists": 3,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Belgian Cup",
+     "league_id": 149,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.44,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.44
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Brighton & Hove Albion",
+    "start": "2025-07-05",
+    "end": null,
+    "apps": 47,
+    "goals": 6,
+    "kind": null
+   },
+   {
+    "team": "Club Brugge",
+    "start": "2023-07-01",
+    "end": "2025-07-05",
+    "apps": 109,
+    "goals": 9,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Westerlo",
+    "start": "2021-08-02",
+    "end": "2023-06-30",
+    "apps": 68,
+    "goals": 15,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Club Brugge NXT",
+    "start": "2020-07-01",
+    "end": "2021-08-01",
+    "apps": 20,
+    "goals": 5,
+    "kind": null
+   },
+   {
+    "team": "Club Brugge",
+    "start": "2020-01-08",
+    "end": "2021-08-01",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "Club Brugge U19",
+    "start": "2018-07-01",
+    "end": "2021-08-01",
+    "apps": 13,
+    "goals": 1,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Belgium",
+    "start": "2024-05-27",
+    "end": null,
+    "apps": 30,
+    "goals": 5,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Belgium U21",
+    "start": "2022-09-16",
+    "end": "2023-09-02",
+    "apps": 8,
+    "goals": 1,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Club Brugge",
+   "to": "Brighton",
+   "date": "2025-07-05",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Club Brugge",
+   "to": "Westerlo",
+   "date": "2022-07-01",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Club Brugge",
+   "to": "Westerlo",
+   "date": "2021-08-02",
+   "fee": "Leihe",
+   "loan": true
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00",
+ "star_rating": 7.64,
+ "star_league": 47
+}

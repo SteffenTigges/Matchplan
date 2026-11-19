@@ -1,0 +1,946 @@
+{
+ "id": 640220,
+ "name": "Marc Roca",
+ "team": null,
+ "team_name": "Real Betis",
+ "birth_date": "1996-11-26",
+ "age": 29,
+ "height_cm": 184,
+ "foot": "links",
+ "country": "Spain",
+ "shirt": 21,
+ "market_value": 2622687,
+ "contract_end": "2029-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.18,
+   "per90": 0.020702319200505914,
+   "pct": 19.834710743801654,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.18,
+   "per90": 0.020702319200505914,
+   "pct": 19.834710743801654,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 4,
+   "per90": 0.4639175257731959,
+   "pct": 21.487603305785125,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 2,
+   "per90": 0.23195876288659795,
+   "pct": 80.16528925619835,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 1,
+   "per90": 0.11597938144329897,
+   "pct": 68.59504132231406,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 1.21,
+   "per90": 0.1407977093740837,
+   "pct": 71.07438016528926,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 512,
+   "per90": 59.381443298969074,
+   "pct": 90.08264462809917,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 93.6,
+   "per90": 93.60146252285192,
+   "pct": 95.86776859504133,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 29,
+   "per90": 3.36340206185567,
+   "pct": 85.12396694214877,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 72.5,
+   "per90": 72.5,
+   "pct": 81.81818181818183,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 79,
+   "per90": 9.162371134020619,
+   "pct": 73.55371900826447,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 7,
+   "per90": 0.8118556701030927,
+   "pct": 42.97520661157025,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 2,
+   "per90": 0.23195876288659795,
+   "pct": 73.55371900826447,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 3,
+   "per90": 0.3479381443298969,
+   "pct": 28.92561983471074,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 75.0,
+   "per90": 75,
+   "pct": 79.33884297520662,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 37,
+   "per90": 4.291237113402062,
+   "pct": 40.49586776859504,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 52.9,
+   "per90": 52.857142857142854,
+   "pct": 66.11570247933885,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 6,
+   "per90": 0.6958762886597938,
+   "pct": 54.54545454545454,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 76.85950413223141,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 641,
+   "per90": 74.34278350515463,
+   "pct": 75.20661157024794,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 11,
+   "per90": 1.2757731958762886,
+   "pct": 52.066115702479344,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 5,
+   "per90": 0.5798969072164948,
+   "pct": 71.07438016528926,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 9,
+   "per90": 1.0438144329896908,
+   "pct": 43.80165289256198,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 46,
+   "per90": 5.335051546391752,
+   "pct": 66.94214876033058,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 19,
+   "per90": 2.2036082474226806,
+   "pct": 58.67768595041323,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 11,
+   "per90": 1.2757731958762886,
+   "pct": 72.72727272727273,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 4,
+   "per90": 0.4639175257731959,
+   "pct": 80.99173553719008,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 16,
+   "per90": 1.8556701030927836,
+   "pct": 24.793388429752067,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 63,
+   "per90": 7.306701030927836,
+   "pct": 95.86776859504133,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 3,
+   "per90": 0.3479381443298969,
+   "pct": 50.413223140495866,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 8,
+   "per90": 0.9278350515463918,
+   "pct": 48.760330578512395,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 12,
+   "per90": 1.3917525773195876,
+   "pct": 59.50413223140496,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 4,
+   "per90": 0.4639175257731959,
+   "pct": 98.34710743801654,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 7,
+   "per90": 0.8118556701030927,
+   "pct": 86.77685950413223,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 14.43,
+   "per90": 1.6741275787353516,
+   "pct": 26.446280991735538,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 2,
+   "per90": 0.23195876288659795,
+   "pct": 45.45454545454545,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.4
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.25
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.73
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.19
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.27
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.61
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 13,
+   "goals": 0,
+   "assists": 1,
+   "rating": 7.27,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 9,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.47
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.84
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 40,
+   "goals": 1,
+   "assists": 3,
+   "rating": 6.86,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 29,
+     "goals": 1,
+     "assists": 1,
+     "rating": 6.87
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.1
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 8,
+     "goals": 0,
+     "assists": 2,
+     "rating": 7.12
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 17,
+   "goals": 2,
+   "assists": 2,
+   "rating": 7.08,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 14,
+     "goals": 2,
+     "assists": 2,
+     "rating": 7.13
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.87
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 37,
+   "goals": 4,
+   "assists": 3,
+   "rating": 7.03,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 26,
+     "goals": 2,
+     "assists": 2,
+     "rating": 6.99
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 3,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.16
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 6,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.24
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.82
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 38,
+   "goals": 1,
+   "assists": 2,
+   "rating": 6.73,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 32,
+     "goals": 1,
+     "assists": 2,
+     "rating": 6.72
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 3,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.9
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.79
+    },
+    {
+     "league": "Queensland Champions Cup",
+     "league_id": null,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 13,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.69,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 9,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.84
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.37
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 10,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.26,
+   "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 6,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.12
+    },
+    {
+     "league": "DFB Pokal",
+     "league_id": 209,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.41
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.54
+    }
+   ]
+  },
+  {
+   "season": "2020",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "FIFA Intercontinental Cup",
+     "league_id": 10703,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "rating": 5.86,
+   "competitions": [
+    {
+     "league": "LaLiga2",
+     "league_id": 140,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.86
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 44,
+   "goals": 2,
+   "assists": 2,
+   "rating": 6.42,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 35,
+     "goals": 2,
+     "assists": 1,
+     "rating": 6.38
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 8,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.62
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 41,
+   "goals": 1,
+   "assists": 2,
+   "rating": 6.82,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 35,
+     "goals": 1,
+     "assists": 2,
+     "rating": 6.82
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 5,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Supercopa de Catalunya",
+     "league_id": null,
+     "apps": 1,
+     "goals": 0,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 9,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.3,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 8,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.3
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 26,
+   "goals": 0,
+   "assists": 1,
+   "rating": 6.4,
+   "competitions": [
+    {
+     "league": "LaLiga",
+     "league_id": 87,
+     "apps": 25,
+     "goals": 0,
+     "assists": 1,
+     "rating": 6.4
+    },
+    {
+     "league": "Copa del Rey",
+     "league_id": 138,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 6,
+   "goals": 2,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 6,
+     "goals": 2,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2015/2016",
+   "apps": 34,
+   "goals": 3,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 34,
+     "goals": 3,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2014/2015",
+   "apps": 11,
+   "goals": 1,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Primera División RFEF",
+     "league_id": null,
+     "apps": 11,
+     "goals": 1,
+     "assists": null,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Real Betis",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 70,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Real Betis",
+    "start": "2023-07-17",
+    "end": "2024-06-30",
+    "apps": 37,
+    "goals": 4,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Leeds United",
+    "start": "2022-06-17",
+    "end": "2023-07-17",
+    "apps": 38,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Bayern München",
+    "start": "2020-10-04",
+    "end": "2022-06-17",
+    "apps": 24,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Espanyol",
+    "start": "2016-08-01",
+    "end": "2020-10-03",
+    "apps": 122,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Espanyol B",
+    "start": "2014-08-01",
+    "end": "2017-06-30",
+    "apps": 51,
+    "goals": 6,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Spain",
+    "start": "2026-11-06",
+    "end": null,
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Spain U21",
+    "start": "2018-09-01",
+    "end": "2019-07-31",
+    "apps": 5,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Spain U19",
+    "start": "2015-01-01",
+    "end": "2015-07-31",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Leeds",
+   "to": "Real Betis",
+   "date": "2024-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Leeds",
+   "to": "Real Betis",
+   "date": "2023-07-17",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Bayern München",
+   "to": "Leeds",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Espanyol",
+   "to": "Bayern München",
+   "date": "2020-10-04",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00",
+ "star_rating": 7.47,
+ "star_league": 87
+}

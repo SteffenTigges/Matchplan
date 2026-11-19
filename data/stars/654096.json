@@ -1,0 +1,967 @@
+{
+ "id": 654096,
+ "name": "Declan Rice",
+ "team": null,
+ "team_name": "Arsenal",
+ "birth_date": "1999-01-14",
+ "age": 27,
+ "height_cm": 185,
+ "foot": "rechts",
+ "country": "England",
+ "shirt": 41,
+ "market_value": 109566248,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Rechtsverteidiger",
+   "short": "RB",
+   "main": false
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.57,
+   "per90": 0.06191172795831941,
+   "pct": 55.4054054054054,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.14,
+   "per90": 0.015170496349034893,
+   "pct": 45.94594594594595,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.57,
+   "per90": 0.06191172795831941,
+   "pct": 55.4054054054054,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 12,
+   "per90": 1.305925030229746,
+   "pct": 60.810810810810814,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 68.91891891891892,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "headed_shots",
+   "title": "Kopfballschüsse",
+   "value": 1,
+   "per90": 0.10882708585247883,
+   "pct": 72.97297297297297,
+   "fmt": "number"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_topspeed",
+   "title": "Top Speed",
+   "value": 32.4,
+   "per90": 32.400001525878906,
+   "pct": 63.51351351351351,
+   "fmt": "kph"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_distance_covered",
+   "title": "Total Distance Covered",
+   "value": 100697.8,
+   "per90": 10958.643534613058,
+   "pct": 12.162162162162163,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_running",
+   "title": "Running",
+   "value": 19941.9,
+   "per90": 2170.213698326028,
+   "pct": 6.756756756756757,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_sprinting",
+   "title": "Sprinting",
+   "value": 2038.3,
+   "per90": 221.82435336683795,
+   "pct": 74.32432432432432,
+   "fmt": "meter"
+  },
+  {
+   "group": "Physical",
+   "key": "physical_metrics_number_of_sprints",
+   "title": "Number of Sprints",
+   "value": 89,
+   "per90": 9.685610640870616,
+   "pct": 64.86486486486487,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 5,
+   "per90": 0.5441354292623942,
+   "pct": 97.2972972972973,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 2.03,
+   "per90": 0.2207146013806492,
+   "pct": 95.94594594594594,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 602,
+   "per90": 65.51390568319226,
+   "pct": 90.54054054054053,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 90.1,
+   "per90": 90.11976047904191,
+   "pct": 78.37837837837837,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 26,
+   "per90": 2.82950423216445,
+   "pct": 85.13513513513513,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 51.0,
+   "per90": 50.98039215686274,
+   "pct": 50,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 191,
+   "per90": 20.785973397823458,
+   "pct": 95.94594594594594,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 17,
+   "per90": 1.8500604594921404,
+   "pct": 83.78378378378379,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "big_chance_created_team_title",
+   "title": "Großchancen vorbereitet",
+   "value": 4,
+   "per90": 0.4353083434099153,
+   "pct": 87.83783783783784,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 9,
+   "per90": 0.9794437726723096,
+   "pct": 91.8918918918919,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 27.3,
+   "per90": 27.272727272727273,
+   "pct": 68.91891891891892,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 67.56756756756756,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 70.0,
+   "per90": 70,
+   "pct": 72.97297297297297,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 34,
+   "per90": 3.7001209189842807,
+   "pct": 22.972972972972975,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 54.0,
+   "per90": 53.96825396825397,
+   "pct": 56.75675675675676,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 11,
+   "per90": 1.1970979443772671,
+   "pct": 70.27027027027027,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 55.0,
+   "per90": 55,
+   "pct": 56.75675675675676,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 802,
+   "per90": 87.27932285368803,
+   "pct": 90.54054054054053,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 10,
+   "per90": 1.0882708585247884,
+   "pct": 47.2972972972973,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 4,
+   "per90": 0.4353083434099153,
+   "pct": 71.62162162162163,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 3,
+   "per90": 0.3264812575574365,
+   "pct": 14.864864864864865,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 79,
+   "per90": 8.597339782345827,
+   "pct": 20.27027027027027,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 13,
+   "per90": 1.414752116082225,
+   "pct": 17.56756756756757,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 9,
+   "per90": 0.9794437726723096,
+   "pct": 40.54054054054054,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "blocked_shots",
+   "title": "Geblockte Abschlüsse",
+   "value": 4,
+   "per90": 0.4353083434099153,
+   "pct": 56.75675675675676,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 7,
+   "per90": 0.7617896009673519,
+   "pct": 79.72972972972973,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 35,
+   "per90": 3.808948004836759,
+   "pct": 25.675675675675674,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "poss_won_att_3rd_team_title",
+   "title": "Ballgewinne im Angriffsdrittel",
+   "value": 1,
+   "per90": 0.10882708585247883,
+   "pct": 17.56756756756757,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 6,
+   "per90": 0.652962515114873,
+   "pct": 64.86486486486487,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 18,
+   "per90": 1.9588875453446193,
+   "pct": 74.32432432432432,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 2,
+   "per90": 0.21765417170495766,
+   "pct": 68.91891891891892,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 5,
+   "per90": 0.5441354292623942,
+   "pct": 87.83783783783784,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 6.86,
+   "per90": 0.7468585379899197,
+   "pct": 94.5945945945946,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.10882708585247883,
+   "pct": 60.810810810810814,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other midfielders",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.91
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.7
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.57
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.61
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.52
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.87
+   }
+  ]
+ },
+ "seasons": [
+  {
+   "season": "2026/2027",
+   "apps": 15,
+   "goals": 1,
+   "assists": 5,
+   "rating": 7.76,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 10,
+     "goals": 0,
+     "assists": 5,
+     "rating": 7.76
+    },
+    {
+     "league": "Community Shield",
+     "league_id": 247,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 4,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.79
+    }
+   ]
+  },
+  {
+   "season": "2025/2026",
+   "apps": 55,
+   "goals": 5,
+   "assists": 9,
+   "rating": 7.52,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 36,
+     "goals": 4,
+     "assists": 5,
+     "rating": 7.62
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 6,
+     "goals": 0,
+     "assists": 2,
+     "rating": 7.07
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 13,
+     "goals": 1,
+     "assists": 2,
+     "rating": 7.49
+    }
+   ]
+  },
+  {
+   "season": "2024/2025",
+   "apps": 52,
+   "goals": 9,
+   "assists": 10,
+   "rating": 7.42,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 35,
+     "goals": 4,
+     "assists": 7,
+     "rating": 7.37
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.56
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 3,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.74
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 13,
+     "goals": 4,
+     "assists": 2,
+     "rating": 7.55
+    }
+   ]
+  },
+  {
+   "season": "2023/2024",
+   "apps": 51,
+   "goals": 7,
+   "assists": 9,
+   "rating": 7.57,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 38,
+     "goals": 7,
+     "assists": 8,
+     "rating": 7.66
+    },
+    {
+     "league": "Community Shield",
+     "league_id": 247,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.32
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.46
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 10,
+     "goals": 0,
+     "assists": 1,
+     "rating": 7.4
+    }
+   ]
+  },
+  {
+   "season": "2022/2023",
+   "apps": 50,
+   "goals": 5,
+   "assists": 4,
+   "rating": 7.46,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 37,
+     "goals": 4,
+     "assists": 2,
+     "rating": 7.41
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 2,
+     "goals": 0,
+     "assists": 1,
+     "rating": 8.16
+    },
+    {
+     "league": "Conference League",
+     "league_id": 10216,
+     "apps": 11,
+     "goals": 1,
+     "assists": 1,
+     "rating": 7.54
+    }
+   ]
+  },
+  {
+   "season": "2021/2022",
+   "apps": 50,
+   "goals": 5,
+   "assists": 4,
+   "rating": 7.56,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 36,
+     "goals": 1,
+     "assists": 4,
+     "rating": 7.48
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 3,
+     "goals": 1,
+     "assists": 0,
+     "rating": 7.59
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 8.16
+    },
+    {
+     "league": "Europa League",
+     "league_id": 73,
+     "apps": 10,
+     "goals": 3,
+     "assists": 0,
+     "rating": 7.78
+    }
+   ]
+  },
+  {
+   "season": "2020/2021",
+   "apps": 35,
+   "goals": 2,
+   "assists": 1,
+   "rating": 7.1,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 32,
+     "goals": 2,
+     "assists": 1,
+     "rating": 7.1
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.2
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2019/2020",
+   "apps": 40,
+   "goals": 1,
+   "assists": 3,
+   "rating": 6.95,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 38,
+     "goals": 1,
+     "assists": 3,
+     "rating": 6.95
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 2,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.12
+    }
+   ]
+  },
+  {
+   "season": "2018/2019",
+   "apps": 38,
+   "goals": 2,
+   "assists": 1,
+   "rating": 6.9,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 34,
+     "goals": 2,
+     "assists": 0,
+     "rating": 6.89
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.25
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 3,
+     "goals": 0,
+     "assists": 1,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2017/2018",
+   "apps": 31,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.34,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 26,
+     "goals": 0,
+     "assists": 0,
+     "rating": 6.32
+    },
+    {
+     "league": "FA Cup",
+     "league_id": 132,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 7.1
+    },
+    {
+     "league": "EFL Cup",
+     "league_id": 133,
+     "apps": 4,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  },
+  {
+   "season": "2016/2017",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "rating": null,
+   "competitions": [
+    {
+     "league": "Premier League",
+     "league_id": 47,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
+    }
+   ]
+  }
+ ],
+ "career": {
+  "senior": [
+   {
+    "team": "Arsenal",
+    "start": "2023-07-15",
+    "end": null,
+    "apps": 173,
+    "goals": 22,
+    "kind": null
+   },
+   {
+    "team": "West Ham United",
+    "start": "2016-07-01",
+    "end": "2023-07-15",
+    "apps": 245,
+    "goals": 15,
+    "kind": null
+   }
+  ],
+  "youth": [
+   {
+    "team": "West Ham United U21",
+    "start": "2017-07-01",
+    "end": "2021-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "West Ham United U23",
+    "start": "2016-07-01",
+    "end": "2018-06-30",
+    "apps": 26,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "West Ham United U18",
+    "start": "2016-07-01",
+    "end": "2017-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national": [
+   {
+    "team": "England",
+    "start": "2019-03-18",
+    "end": null,
+    "apps": 82,
+    "goals": 8,
+    "kind": null
+   },
+   {
+    "team": "Ireland",
+    "start": "2017-05-23",
+    "end": "2018-09-03",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Ireland U21",
+    "start": "2017-09-03",
+    "end": "2018-09-02",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Ireland U19",
+    "start": "2016-01-01",
+    "end": "2017-09-30",
+    "apps": 4,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Ireland U17",
+    "start": "2015-01-01",
+    "end": "2016-04-30",
+    "apps": 5,
+    "goals": 2,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "West Ham",
+   "to": "Arsenal",
+   "date": "2023-07-15",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "v": 2,
+ "fetched_at": "2026-11-19T08:24:45+00:00",
+ "star_rating": 7.76,
+ "star_league": 47
+}
