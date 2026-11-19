@@ -9,9 +9,9 @@ const stats: TeamStats = {
     { key: "points", label: "Punkte", category: "Allgemein", higher_is_better: true, fmt: "int", approx: false },
     { key: "possession", label: "Ballbesitz Ø", category: "Allgemein", higher_is_better: true, fmt: "pct", approx: false },
     { key: "xg_pg", label: "xG pro Spiel", category: "Offensive", higher_is_better: true, fmt: "dec2", approx: false },
-    { key: "ppda", label: "PPDA", category: "Gegen den Ball", higher_is_better: false, fmt: "dec1", approx: true },
+    { key: "field_tilt", label: "Field Tilt", category: "Gegen den Ball", higher_is_better: true, fmt: "pct", approx: true },
   ],
-  teams: { TSG: { matches: 9, points: { value: 12, rank: 8 }, possession: { value: 0.534, rank: 3 }, xg_pg: { value: 1.6789, rank: 15 }, ppda: { value: 9.84, rank: 2 } } },
+  teams: { TSG: { matches: 9, points: { value: 12, rank: 8 }, possession: { value: 0.534, rank: 3 }, xg_pg: { value: 1.6789, rank: 15 }, field_tilt: { value: 0.61, rank: 2 } } },
 };
 
 test("renders_all_categories", () => {
@@ -30,7 +30,7 @@ test("rank_chip_colours", () => {
 });
 
 test("marks_approximations", () => {
-  expect(renderTeamStats("TSG", stats)).toContain('PPDA<span class="tag">Näherung</span>');
+  expect(renderTeamStats("TSG", stats)).toContain('Field Tilt<span class="tag">Näherung</span>');
 });
 
 test("unknown_team_returns_empty", () => {
@@ -38,8 +38,8 @@ test("unknown_team_returns_empty", () => {
 });
 
 test("metrics_without_value_are_hidden", () => {
-  const s = { ...stats, teams: { TSG: { ...stats.teams.TSG, ppda: { value: null, rank: null } } } } as unknown as TeamStats;
-  expect(renderTeamStats("TSG", s)).not.toContain("PPDA");
+  const s = { ...stats, teams: { TSG: { ...stats.teams.TSG, field_tilt: { value: null, rank: null } } } } as unknown as TeamStats;
+  expect(renderTeamStats("TSG", s)).not.toContain("Field Tilt");
 });
 
 test("ranking_lists_all_teams_sorted_and_highlights_team", () => {

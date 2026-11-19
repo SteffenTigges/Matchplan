@@ -1,4 +1,5 @@
-import type { FotmobMatch, History, Lineups, Match, Prediction, Predictions, Season, TeamInfo } from "../data";
+import type { FotmobMatch, History, Lineups, Match, Prediction, Predictions, Referees, Season, TeamInfo } from "../data";
+import { renderReferee } from "./referee";
 import { renderPriorPrediction, renderPrognosis, tipLine } from "./prognose";
 import { renderAnalysis } from "./analysis";
 import { berlin, crest, esc } from "../ui";
@@ -34,7 +35,7 @@ export function renderMatchday(md: number, matches: Match[], season: Season, pre
   return `<div class="pager">${prev}<b>${md}. Spieltag</b>${next}</div>${cards || `<section class="card"><p class="muted">Für diesen Spieltag sind noch keine Spiele angesetzt.</p></section>`}`;
 }
 
-export function renderMatch(m: Match, season: Season, lineups: Lineups | null, history: History | null, fm: FotmobMatch | null = null, pred: Prediction | null = null): string {
+export function renderMatch(m: Match, season: Season, lineups: Lineups | null, history: History | null, fm: FotmobMatch | null = null, pred: Prediction | null = null, refs: Referees | null = null): string {
   const h = team(season, m.home);
   const a = team(season, m.away);
   const hero = `<div class="hero" style="background:linear-gradient(120deg,${esc(h.color)} 0%,color-mix(in srgb,${esc(h.color)} 40%,#111) 48%,color-mix(in srgb,${esc(a.color)} 40%,#111) 52%,${esc(a.color)} 100%)">
@@ -53,7 +54,7 @@ export function renderMatch(m: Match, season: Season, lineups: Lineups | null, h
     return `${hero}<section class="card"><h3>Tore</h3>${goals}</section>${pred?.probs ? renderPriorPrediction(m, pred, season) : ""}${renderAnalysis(m, fm, season)}`;
   }
 
-  const prog = pred?.probs ? renderPrognosis(m, pred, season) : "";
+  const prog = (pred?.probs ? renderPrognosis(m, pred, season) : "") + `<section class="card"><h2>Schiedsrichter</h2>${renderReferee(m.id, refs, season, [m.home, m.away])}</section>`;
   const hl = lineups?.teams[m.home];
   const al = lineups?.teams[m.away];
   if (!hl || !al || lineups?.matchday === undefined) {

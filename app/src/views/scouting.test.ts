@@ -13,7 +13,7 @@ const season: Season = {
 const sit = { goals: 0, xg: 0, shots: 0, share: 0 };
 export const rep = (team: string): ScoutReport => ({
   team, matches: 11, fotmob_matches: 11,
-  idea: { formations: [{ formation: "4-2-3-1", games: 8 }], tags: [{ text: "Hohes Pressing", evidence: [{ label: "PPDA", value: 7.9, fmt: "dec1", rank: 2 }] }] },
+  idea: { formations: [{ formation: "4-2-3-1", games: 8 }], tags: [{ text: "Hohes Pressing", evidence: [{ label: "Ballgewinne im Angriffsdrittel pro Spiel", value: 6.3, fmt: "dec1", rank: 1 }] }] },
   next: { id: 83255, home: "FCB", away: "BVB", kickoff: "2026-12-04T19:30:00Z", tip: [2, 1], probs: [0.55, 0.22, 0.23] },
   strengths: [{ label: "xG pro Spiel", value: 2.4, fmt: "dec2", rank: 1 }], weaknesses: [{ label: "Flankenquote", value: 0.18, fmt: "pct", rank: 17 }],
   matchplan: [{ key: "setpieces", text: "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.", evidence: [{ label: "Zugelassene xG nach Standards", value: 0.41, fmt: "dec2", rank: 16 }] }],
@@ -50,6 +50,19 @@ test("findings_show_evidence", () => {
   expect(html).toContain("Zugelassene xG nach Standards");
   expect(html).toContain("0,41");
   expect(html).toContain("Platz 16");
+});
+
+test("every_rank_links_to_the_ranking", () => {
+  const r = rep("FCB");
+  r.findings[0]!.evidence[0]!.key = "xga_setplay_pg";
+  r.matchplan[0]!.evidence[0]!.key = "xga_setplay_pg";
+  r.strengths[0]!.key = "xg_pg";
+  expect(renderReport(r, season, null)).toContain('href="#rang/xg_pg/FCB"');
+  expect(renderReport(r, season, null)).toContain('href="#rang/xga_setplay_pg/FCB"');
+  expect(renderVerein("BVB", season, rep("BVB"), r, ts)).toContain('href="#rang/xga_setplay_pg/FCB"');
+  const vs = renderVerein("BVB", season, rep("BVB"), rep("FCB"), ts);
+  expect(vs).toContain('href="#rang/xg_pg/BVB"');
+  expect(vs).toContain('href="#rang/xg_pg/FCB"');
 });
 
 test("duels_only_in_club_view", () => {

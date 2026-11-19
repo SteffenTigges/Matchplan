@@ -75,6 +75,8 @@ export interface PlayerProfile {
   contract_end: string | null; positions: { label: string; short: string; main: boolean }[]; stats: PlayerStat[];
   career: { senior: CareerEntry[]; youth: CareerEntry[]; national: CareerEntry[]; national_youth: CareerEntry[] };
   transfers: { from: string; to: string; date: string | null; fee: string | null; loan: boolean }[]; fetched_at: string;
+  seasons?: { season: string; apps: number | null; goals: number | null; assists: number | null; rating: number | null;
+    competitions: { league: string; league_id: number | null; apps: number | null; goals: number | null; assists: number | null; rating: number | null }[] }[];
 }
 
 // --- Prognose (data/predictions/<spieltag>.json, data/model.json) ---
@@ -95,10 +97,12 @@ export interface Prediction {
     absences: { home: AbsenceInfo[]; away: AbsenceInfo[] };
   };
   lineup_hits?: { home: number | null; away: number | null };
+  elo?: { home: number; away: number; probs: [number, number, number] } | null;
 }
 export interface Predictions { matchday: number; updated_at: string; matches: Record<string, Prediction> }
 export interface ModelCheck {
   updated_at: string;
+  elo?: Record<string, { elo: number; rank: number }>;
   calibration: { home: number; away: number; rho: number; matches: number; seasons: string | null; fetched_at: string | null };
   check: {
     matches: number; tendency_rate: number | null; exact_rate: number | null; brier: number | null;
@@ -108,7 +112,7 @@ export interface ModelCheck {
 }
 
 // --- Gegner-Bericht (data/scouting/<team>.json) ---
-export interface Evidence { label: string; value: number; fmt: string; rank?: number }
+export interface Evidence { key?: string; label: string; value: number; fmt: string; rank?: number }
 export interface Finding { key?: string; text: string; evidence: Evidence[] }
 export interface SituationRow { goals: number; xg: number; shots: number; share: number }
 export type Situations = Record<"Spielaufbau" | "Konter" | "Standard" | "Elfmeter", SituationRow>;
@@ -135,4 +139,19 @@ export interface ScoutReport {
 
 // --- Vergleiche (data/similar.json) ---
 export interface SimilarEntry { id: number; name: string; team: string | null; team_name?: string | null; age: number | null; score: number; rating?: number; keys?: number }
-export interface SimilarFile { updated_at: string; players: Record<string, { style: SimilarEntry[]; could_be: SimilarEntry[] }> }
+export interface SameAge extends SimilarEntry {
+  then: { season: string; league: string; apps: number; rating: number; ga: number; age: number };
+  now: { rating: number; ga: number; league: string };
+}
+export interface Compare { style: SimilarEntry[]; could_be: SimilarEntry[]; same_age?: SameAge[] }
+export interface SimilarFile { updated_at: string; players: Record<string, Compare> }
+
+// --- Schiedsrichter (data/referees.json) ---
+export interface RefereeStats {
+  name: string; id: number | null; games: number; yellow_pg: number; red: number; fouls_pg: number; penalties: number; penalties_pg: number;
+  home_win: number; draw: number; away_win: number; teams: Record<string, { games: number; points: number }>;
+}
+export interface Referees {
+  updated_at: string; league: { yellow_pg: number | null; fouls_pg: number | null; penalties_pg: number | null };
+  referees: Record<string, RefereeStats>; upcoming: Record<string, { name: string; id: number | null; country?: string }>;
+}

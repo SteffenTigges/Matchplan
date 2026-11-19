@@ -16,15 +16,15 @@ test("legend_empty_when_no_terms", () => {
 });
 
 test("legend_explains_xg_when_present", () => {
-  const html = legendFor("<span>xG pro Spiel</span><span>PPDA</span><span>Field Tilt</span>");
+  const html = legendFor("<span>xG pro Spiel</span><span>Gegnerische Pässe pro Ballgewinn (Mitte + Angriff)</span><span>Field Tilt</span>");
   expect(html).toContain("Expected Goals");
-  expect(html).toContain("PPDA");
+  expect(html).toContain("Gegnerische Pässe pro Ballgewinn");
   expect(html).toContain("Field Tilt");
 });
 
 test("legend_skips_absent_terms", () => {
   const html = legendFor("<span>xG</span>");
-  expect(html).not.toContain("PPDA");
+  expect(html).not.toContain("Pässe pro Ballgewinn");
   expect(html).not.toContain("xGOT");
 });
 

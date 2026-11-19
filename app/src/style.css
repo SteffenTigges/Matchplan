@@ -158,3 +158,7 @@ details.area[open] > summary::after { transform: rotate(90deg); }
 .sec h3 { margin: 0; }
 .duel { display: flex; flex-direction: column; gap: 6px; padding: 6px 0; }
 a.pill { color: #fff; text-decoration: none; }
+a.ev { color: inherit; text-decoration: none; }
+a.ev .muted { color: var(--accent); font-weight: 600; }
+.stable { display: grid; grid-template-columns: auto minmax(0, 1fr) repeat(4, auto); gap: 6px 10px; font-size: 13px; align-items: center; }
+.stable .cut { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

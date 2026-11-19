@@ -7,11 +7,12 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Callable
 
+from .elo import game_rows, rank as elo_rank, run_elo, win_draw_loss
 from .odds import FIXTURES_URL, closing_odds, odds_by_pair, parse_csv, results, season_url
 from .predict import (DEFAULT_CAL, Means, TeamGame, expected_goals, markets, outcome_probs, score_matrix,
                       season_means, strengths, tip)
 from .scorers import absence_factors, match_player, player_season, scorers
-from .teams import TEAMS
+from .teams import FD_NAMES, TEAMS
 
 SEASON = 2026
 CAL_FRESH = timedelta(days=7)
@@ -48,6 +49,33 @@ def _calibration(out: Path, get: Callable[[str], str], now: datetime, at: str) -
         return {**fit_calibration(res), "matches": len(res), "seasons": f"{SEASON - CAL_SEASONS}–{SEASON - 1}", "fetched_at": at}, None
     except Exception as e:
         return (old or {**DEFAULT_CAL, "matches": 0, "seasons": None, "fetched_at": None}), f"Kalibrierung: {e}"
+
+
+ELO_FROM = 2016
+
+
+def _elo(out: Path, get: Callable[[str], str], cur_rows: list[dict], now: datetime, at: str) -> tuple[dict, dict | None, str | None]:
+    """Elo je Team: Stand nach der Vorsaison (wöchentlich neu aus 1. und 2. Liga seit 2016) plus laufende Saison."""
+    old = (_read(out / "model.json") or {}).get("elo_base")
+    err = None
+    if not (old and old.get("fetched_at") and now - datetime.fromisoformat(old["fetched_at"]) < CAL_FRESH):
+        try:
+            rows = []
+            for y in range(ELO_FROM, SEASON):
+                for div in ("D1", "D2"):
+                    rows += parse_csv(get(season_url(y).replace("/D1.csv", f"/{div}.csv")))
+            games = game_rows(rows)
+            if len(games) < 1000:
+                raise RuntimeError(f"nur {len(games)} Spiele")
+            old = {"ratings": {k: round(v, 1) for k, v in run_elo(games).items()}, "games": len(games), "fetched_at": at}
+        except Exception as e:
+            err = f"Elo: {e}"
+    if not old:
+        return {}, None, err
+    cur = run_elo(game_rows([r for r in cur_rows if r.get("Div") == "D1"]), base=old["ratings"])
+    ours = {FD_NAMES[n]: v for n, v in cur.items() if n in FD_NAMES}
+    rk = elo_rank(ours)
+    return {k: {"elo": round(v), "rank": rk[k]} for k, v in ours.items()}, old, err
 
 
 def _games(out: Path, matchdays: dict[int, list[dict]]) -> tuple[list[TeamGame], list[dict]]:
@@ -113,14 +141,17 @@ def run_forecast(out: Path, get: Callable[[str], str], matchdays: dict[int, list
     except Exception as e:
         odds_err = str(e)
     closing: dict = {}
+    cur_rows: list[dict] = []
     try:
-        closing, more = closing_odds(parse_csv(get(season_url(SEASON))))
+        cur_rows = parse_csv(get(season_url(SEASON)))
+        closing, more = closing_odds(cur_rows)
         unknown += [u for u in more if u not in unknown]
     except Exception:
         pass
     status["quoten"] = {"ok": odds_err is None, "at": at, "error": odds_err,
                         "note": f"{len(odds)} Spiele mit Quoten" + (f"; unbekannte Namen: {', '.join(unknown)}" if unknown else "")}
 
+    elo, elo_base, elo_err = _elo(out, get, cur_rows, now, at)
     games, files = _games(out, matchdays)
     season_players = player_season(files, SEASON)
     index = _read(out / "players.json") or {}
@@ -154,6 +185,8 @@ def run_forecast(out: Path, get: Callable[[str], str], matchdays: dict[int, list
             "markets": {k: _r(v) for k, v in markets(mat).items()},
             "odds": ({k: (_r(v) if isinstance(v, float) else v) for k, v in odds[(h, a)].items()} if (h, a) in odds else None),
             "scorers": sc,
+            "elo": ({"home": elo[h]["elo"], "away": elo[a]["elo"], "probs": [_r(x) for x in win_draw_loss(elo[h]["elo"], elo[a]["elo"])]}
+                    if h in elo and a in elo else None),
             "xi": {"home": _xi(lu_h), "away": _xi(lu_a)},
             "why": {
                 "attack": [_r(st[h]["att"], 3), _r(st[a]["att"], 3)],
@@ -215,7 +248,7 @@ def run_forecast(out: Path, get: Callable[[str], str], matchdays: dict[int, list
         by_md.append({"md": md, "matches": len(cs), "tendency": sum(c["tendency"] for c in cs), "exact": sum(c["exact"] for c in cs),
                       "brier": _r(sum(c["brier"] for c in cs) / len(cs))})
     _write(out / "model.json", {
-        "updated_at": at, "calibration": cal,
+        "updated_at": at, "calibration": cal, "elo": elo, "elo_base": elo_base,
         "check": {"matches": n,
                   "tendency_rate": _r(sum(c["tendency"] for c in check) / n) if n else None,
                   "exact_rate": _r(sum(c["exact"] for c in check) / n) if n else None,
@@ -225,5 +258,5 @@ def run_forecast(out: Path, get: Callable[[str], str], matchdays: dict[int, list
                   "brier_odds": _r(sum(c["brier_odds"] for c in with_odds) / len(with_odds)) if with_odds else None,
                   "by_matchday": by_md, "games": check},
     })
-    status["prognose"] = {"ok": True, "at": at, "error": cal_err,
+    status["prognose"] = {"ok": True, "at": at, "error": "; ".join(x for x in (cal_err, elo_err) if x) or None,
                           "note": f"{made} Spiele vorhergesagt, Modellprüfung über {n} Spiele"}

@@ -91,12 +91,23 @@ def test_incomplete_zones_are_dropped():
 
 def test_match_has_player_ids():
     m = parse_match(load("fotmob_match.json"))
-    assert m["v"] == 3
+    assert m["v"] == 4
     assert m["lineups"]["home"]["players"][0]["id"] == 178778
     assert all(isinstance(p["id"], int) for p in m["players"])
 
 
 def test_player_season_rows_when_present():
     from matchplan_data.fotmob import _seasons
-    rows = _seasons([{"team": "Hoffenheim", "seasonEntries": [{"seasonName": "2024/2025", "appearances": "30", "goals": "9", "assists": "4", "rating": {"rating": "7.12"}}]}, {"team": "X"}])
-    assert rows == [{"season": "2024/2025", "team": "Hoffenheim", "apps": 30, "goals": 9, "assists": 4, "rating": 7.12}]
+    rows = _seasons([{"seasonName": "2024/2025", "appearances": "30", "goals": "9", "assists": "4", "rating": {"rating": "7.12"},
+                      "tournamentStats": [{"isFriendly": False, "leagueId": 54, "leagueName": "Bundesliga", "appearances": "28", "goals": "8", "assists": "4", "rating": {"rating": "7.1"}},
+                                          {"isFriendly": True, "leagueName": "Club Friendlies", "appearances": "3"}]}])
+    assert rows == [{"season": "2024/2025", "apps": 30, "goals": 9, "assists": 4, "rating": 7.12,
+                     "competitions": [{"league": "Bundesliga", "league_id": 54, "apps": 28, "goals": 8, "assists": 4, "rating": 7.1}]}]
+
+
+def test_referee_from_info_box():
+    from matchplan_data.fotmob import referee
+    nd = {"props": {"pageProps": {"content": {"matchFacts": {"infoBox": {"Referee": {"text": "Martin Petersen", "id": 1001075723, "country": "Germany"}}}}}}}
+    assert referee(nd) == {"name": "Martin Petersen", "id": 1001075723, "country": "Germany"}
+    assert referee({"props": {"pageProps": {"content": {"matchFacts": {"infoBox": {"Referee": None}}}}}}) is None
+    assert referee({}) is None

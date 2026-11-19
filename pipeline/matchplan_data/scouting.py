@@ -169,7 +169,7 @@ def _metric(ts: dict, team: str, key: str) -> tuple[dict | None, dict | None]:
 
 def _ev(ts: dict, team: str, key: str) -> dict | None:
     meta, e = _metric(ts, team, key)
-    return {"label": meta["label"], "value": e["value"], "fmt": meta["fmt"], "rank": e["rank"]} if e else None
+    return {"key": key, "label": meta["label"], "value": e["value"], "fmt": meta["fmt"], "rank": e["rank"]} if e else None
 
 
 def strengths_weaknesses(ts: dict, team: str, n: int = 4) -> tuple[list[dict], list[dict]]:
@@ -189,7 +189,7 @@ def matchplan_rules(ts: dict, team: str, react: dict, opp_zones: dict | None, sc
             out.append((weight(ev["rank"]), {"key": rkey, "text": text, "evidence": [ev]}))
 
     rank_rule("xga_setplay_pg", lambda r: r >= 13, "setpieces", "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.", lambda r: r)
-    rank_rule("ppda", lambda r: r <= 4, "press", "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.", lambda r: 19 - r)
+    rank_rule("won_att3_pg", lambda r: r <= 4, "press", "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.", lambda r: 19 - r)
     rank_rule("aerial_rate", lambda r: r >= 13, "aerial", "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.", lambda r: r)
     rank_rule("big_chances_against_pg", lambda r: r >= 13, "depth", "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.", lambda r: r)
     rank_rule("possession", lambda r: r <= 3, "possession", "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.", lambda r: 15 - r)
@@ -224,8 +224,8 @@ def style_tags(ts: dict, team: str, scoring: dict | None) -> list[dict]:
 
     tag("possession", lambda r: r <= 5, "Ballbesitzteam")
     tag("possession", lambda r: r >= 14, "Überlässt dem Gegner den Ball")
-    tag("ppda", lambda r: r <= 5, "Hohes Pressing")
-    tag("ppda", lambda r: r >= 14, "Abwartend gegen den Ball")
+    tag("won_att3_pg", lambda r: r <= 5, "Hohes Pressing")
+    tag("won_att3_pg", lambda r: r >= 14, "Abwartend gegen den Ball")
     tag("field_tilt", lambda r: r <= 5, "Drückt den Gegner in die eigene Hälfte")
     tag("opp_half_share", lambda r: r <= 5, "Spielt viel in der gegnerischen Hälfte")
     if scoring:

@@ -26,7 +26,7 @@ export function writeFav(key: string | null, store: Storage | null = typeof loca
   }
 }
 
-const VS = ["goals_pg", "xg_pg", "big_chances_pg", "against_pg", "xga_pg", "possession", "field_tilt", "ppda", "xg_setplay_pg", "duel_rate"];
+const VS = ["goals_pg", "xg_pg", "big_chances_pg", "against_pg", "xga_pg", "possession", "field_tilt", "won_att3_pg", "xg_setplay_pg", "duel_rate"];
 
 function wirGegenSie(me: string, them: string, ts: TeamStats, season: Season): string {
   const a = team(season, me);
@@ -40,7 +40,7 @@ function wirGegenSie(me: string, them: string, ts: TeamStats, season: Season): s
     const lv = Math.abs(l.value);
     const rv = Math.abs(r.value);
     const tot = lv + rv || 1;
-    return `<span class="l">${esc(formatMetric(l.value, m.fmt))}<br><span class="muted">${l.rank}.</span></span><span class="lab">${esc(m.label)}</span><span class="r">${esc(formatMetric(r.value, m.fmt))}<br><span class="muted">${r.rank}.</span></span>
+    return `<span class="l">${esc(formatMetric(l.value, m.fmt))}<br><a class="muted" href="#rang/${esc(k)}/${esc(me)}">${l.rank}. ›</a></span><span class="lab">${esc(m.label)}</span><span class="r">${esc(formatMetric(r.value, m.fmt))}<br><a class="muted" href="#rang/${esc(k)}/${esc(them)}">${r.rank}. ›</a></span>
       <span class="bb"><i class="${lw ? "w" : ""}" style="flex:${lv / tot};background:${esc(a.color)}"></i><i class="${!lw ? "w" : ""}" style="flex:${rv / tot};background:${esc(b.color)}"></i></span>`;
   }).join("");
   if (!rows) return "";
@@ -66,7 +66,7 @@ export function renderVerein(fav: string | null, season: Season, mine: ScoutRepo
     : `<section class="card"><p class="muted">Kein weiteres Spiel angesetzt.</p></section>`;
 
   const findings = opp && o
-    ? `<section class="card"><h2>Die 3 wichtigsten Erkenntnisse über ${esc(o.short)}</h2>${findingList(opp.findings, "Noch zu wenige Daten über diesen Gegner.")}</section>
+    ? `<section class="card"><h2>Die 3 wichtigsten Erkenntnisse über ${esc(o.short)}</h2>${findingList(opp.findings, "Noch zu wenige Daten über diesen Gegner.", oppKey!)}</section>
        <section class="card"><h2>Gegner-Bericht ${esc(o.short)}</h2><div class="tiles">${AREAS.map((a) => `<a href="#scouting/${esc(oppKey!)}/${a.id}">${esc(a.title)}<span class="chev">›</span></a>`).join("")}</div></section>`
     : "";
 

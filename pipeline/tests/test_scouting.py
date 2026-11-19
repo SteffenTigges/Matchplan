@@ -73,11 +73,11 @@ def test_load_last_three():
 
 
 TS = {"metrics": [{"key": "xg_pg", "label": "xG pro Spiel", "higher_is_better": True, "fmt": "dec2"},
-                  {"key": "ppda", "label": "PPDA", "higher_is_better": False, "fmt": "dec1"},
+                  {"key": "won_att3_pg", "label": "Ballgewinne im Angriffsdrittel pro Spiel", "higher_is_better": True, "fmt": "dec1"},
                   {"key": "xga_setplay_pg", "label": "Zugelassene xG nach Standards", "higher_is_better": False, "fmt": "dec2"},
                   {"key": "aerial_rate", "label": "Luftzweikämpfe gewonnen", "higher_is_better": True, "fmt": "pct"},
                   {"key": "possession", "label": "Ballbesitz", "higher_is_better": True, "fmt": "pct"}],
-      "teams": {"A": {"matches": 9, "xg_pg": {"value": 2.1, "rank": 2}, "ppda": {"value": 8.0, "rank": 1},
+      "teams": {"A": {"matches": 9, "xg_pg": {"value": 2.1, "rank": 2}, "won_att3_pg": {"value": 6.3, "rank": 1},
                       "xga_setplay_pg": {"value": 0.5, "rank": 17}, "aerial_rate": {"value": None, "rank": None},
                       "possession": {"value": 0.58, "rank": 3}}}}
 
@@ -86,7 +86,7 @@ def test_strengths_and_weaknesses_from_ranks():
     ts = {"metrics": TS["metrics"] + [{"key": "points", "label": "Punkte", "higher_is_better": True, "fmt": "int"}],
           "teams": {"A": {**TS["teams"]["A"], "points": {"value": 25, "rank": 1}}}}
     s, w = strengths_weaknesses(ts, "A")
-    assert [x["label"] for x in s] == ["PPDA", "xG pro Spiel", "Ballbesitz"]
+    assert [x["label"] for x in s] == ["Ballgewinne im Angriffsdrittel pro Spiel", "xG pro Spiel", "Ballbesitz"]
     assert [x["label"] for x in w] == ["Zugelassene xG nach Standards"]
 
 
