@@ -83,3 +83,12 @@ def test_unmatched_prior_follows_lineup_row():
     lu = {"rows": [[slot("a-tor_1", "Tor")], [slot("b-abwehr_1", "Abwehr")], [slot("c-mitte_1", "Mitte")], [slot("d-sturm_1", "Sturm")]]}
     out = {s["name"]: s["p"] for s in scorers(lu, FM, team_xg_pg=2.0, lam=2.0, pos={})}
     assert out["Sturm"] > out["Mitte"] > out["Abwehr"] > out["Tor"] == 0
+
+
+def test_build_links_maps_lineup_and_names():
+    from matchplan_data.scorers import build_links
+    lineups = {"FCB": {"rows": [[slot("harry-kane_2", "Kane", alts=["luis-diaz_3"])], [slot("max-muster_1", "Muster")]]}}
+    rows = [{"id": 2, "team": "FCB", "name": "Harry Kane"}, {"id": 3, "team": "FCB", "name": "Luis Díaz"}]
+    links = build_links(lineups, rows)
+    assert links["li"] == {"harry-kane_2": 2, "luis-diaz_3": 3}
+    assert links["names"]["FCB"] == {"harry kane": 2, "luis diaz": 3}

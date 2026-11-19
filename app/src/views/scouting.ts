@@ -1,6 +1,6 @@
-import type { Evidence, Finding, Referees, ScoutReport, Season, Situations, TeamInfo, Zones } from "../data";
+import type { Evidence, Finding, PlayerLinks, Referees, ScoutReport, Season, Situations, TeamInfo, Zones } from "../data";
 import { renderReferee } from "./referee";
-import { berlin, crest, esc, photo } from "../ui";
+import { berlin, crest, esc, findPlayer, photo, playerLink } from "../ui";
 import { ratingColor } from "./analysis";
 import { fotmobPhoto } from "./players";
 import { formatMetric } from "./teamstats";
@@ -73,7 +73,7 @@ function duels(r: ScoutReport, mine: ScoutReport, season: Season): string {
   return section("duelle", "Duelle", rows || none("Noch zu wenige Einsatzminuten für einen Vergleich."));
 }
 
-export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport | null, open?: string, refs: Referees | null = null): string {
+export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport | null, open?: string, refs: Referees | null = null, links: PlayerLinks | null = null): string {
   const t = team(season, r.team);
   const evRows = (list: Evidence[]): string => (list.length ? `<div class="evs">${list.map((e) => evidence(e, r.team)).join("")}</div>` : "");
   const nav = `<div class="seg">${AREAS.map((a) => `<a href="#scouting/${esc(r.team)}/${a.id}">${esc(a.title)}</a>`).join("")}</div>`;
@@ -121,11 +121,11 @@ export function renderReport(r: ScoutReport, season: Season, mine: ScoutReport |
     : none("Noch kein Spieler mit 450 Minuten.");
   const load = r.load.length
     ? `<div class="tlab">Minuten in den letzten 3 Spielen</div><div class="catbody">${r.load
-        .map((p) => `<div class="srow"><span>${esc(p.name)}</span><span class="num">${p.minutes}'</span>${p.full ? '<span class="chip mid">voll belastet</span>' : "<span></span>"}</div>`)
+        .map((p) => `<div class="srow"><span>${playerLink(p.id, esc(p.name))}</span><span class="num">${p.minutes}'</span>${p.full ? '<span class="chip mid">voll belastet</span>' : "<span></span>"}</div>`)
         .join("")}</div>`
     : "";
   const absent = r.absences.length
-    ? `<div class="tlab">Es fehlen (Ligainsider)</div><div class="catbody">${r.absences.map((a) => `<div class="srow"><span>${esc(a.name)}</span><span class="muted">${esc(a.note && a.note !== a.name ? a.note : "")}</span><span class="chip bad">${esc(a.kind)}</span></div>`).join("")}</div>`
+    ? `<div class="tlab">Es fehlen (Ligainsider)</div><div class="catbody">${r.absences.map((a) => `<div class="srow"><span>${playerLink(findPlayer(links, a.name, r.team), esc(a.name))}</span><span class="muted">${esc(a.note && a.note !== a.name ? a.note : "")}</span><span class="chip bad">${esc(a.kind)}</span></div>`).join("")}</div>`
     : none("Keine Ausfälle gemeldet.");
   const personal = area("personal", "Personal",
     section("schluessel", "Schlüsselspieler", kp) + (mine && mine.team !== r.team ? duels(r, mine, season) : "") + section("belastung", "Personal & Belastung", absent + load));

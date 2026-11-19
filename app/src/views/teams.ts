@@ -1,4 +1,4 @@
-import type { Lineups, Match, Season, TableRow, TeamInfo } from "../data";
+import type { Lineups, Match, PlayerLinks, Season, TableRow, TeamInfo } from "../data";
 import { berlin, crest, esc } from "../ui";
 import { renderMissing, renderTeamPitch } from "./lineup";
 
@@ -26,7 +26,7 @@ const result = (m: Match, key: string): string => {
   return `<span class="form"><i class="${mine > 0 ? "S" : mine === 0 ? "U" : "N"}">${mine > 0 ? "S" : mine === 0 ? "U" : "N"}</i></span>`;
 };
 
-export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null, statsHtml = "", elo: { elo: number; rank: number } | null = null): string {
+export function renderTeam(key: string, season: Season, rows: TableRow[], matches: Match[], lineups: Lineups | null, statsHtml = "", elo: { elo: number; rank: number } | null = null, links: PlayerLinks | null = null): string {
   const t = info(season, key);
   const row = rows.find((r) => r.team === key);
   const mine = matches.filter((m) => m.home === key || m.away === key).sort((a, b) => (a.kickoff ?? "9").localeCompare(b.kickoff ?? "9"));
@@ -49,9 +49,9 @@ export function renderTeam(key: string, season: Season, rows: TableRow[], matche
   const lu = lineups?.teams[key];
   const lineupCard = lu
     ? `<section class="card"><h2>Voraussichtliche Aufstellung</h2><span class="chip" style="align-self:flex-start">${esc(lu.formation)}</span>
-        ${renderTeamPitch(lu, t)}
+        ${renderTeamPitch(lu, t, {}, links)}
         <p class="muted">Quelle: Ligainsider · Stand ${esc(berlin(lu.fetched_at))} Uhr</p></section>
-      <section class="card"><h2>Es fehlen</h2>${renderMissing(t, lu)}</section>`
+      <section class="card"><h2>Es fehlen</h2>${renderMissing(t, lu, links)}</section>`
     : "";
 
   const results = played.length

@@ -1,4 +1,4 @@
-import type { Match, ModelCheck, Prediction, Scorer, Season, TeamInfo } from "../data";
+import type { Match, ModelCheck, PlayerLinks, Prediction, Scorer, Season, TeamInfo } from "../data";
 import { crest, esc, photo } from "../ui";
 
 const team = (s: Season, key: string): TeamInfo => s.teams[key] ?? { name: key, short: key, color: "#64748b", crest: "" };
@@ -44,19 +44,20 @@ function vsRow(label: string, l: number | null, r: number | null, higherBetter: 
     <span class="bb"><i class="${lw ? "w" : ""}" style="flex:${lv / tot};background:${esc(h.color)}"></i><i class="${!lw ? "w" : ""}" style="flex:${rv / tot};background:${esc(a.color)}"></i></span>`;
 }
 
-function scorerList(p: Prediction, season: Season, limit = 10): string {
+function scorerList(p: Prediction, season: Season, limit = 10, links: PlayerLinks | null = null): string {
   const rows = allScorers(p).filter((s) => s.p > 0).slice(0, limit);
   if (!rows.length) return `<p class="muted">Noch keine voraussichtliche Aufstellung.</p>`;
   return `<div class="list">${rows
     .map((s) => {
       const t = team(season, s.side === "home" ? p.home : p.away);
-      const link = s.fm_id ? ` href="#spieler/${s.fm_id}"` : "";
+      const id = s.fm_id ?? (s.li_id ? links?.li[s.li_id] : null);
+      const link = id ? ` href="#spieler/${id}"` : "";
       return `<a class="item"${link}>${photo(s.photo, s.name, 34)}<span class="grow"><b>${esc(s.name)}</b><br><span class="muted">${s.minutes < 80 ? "Position offen · " : ""}ca. ${Math.round(s.minutes)} Min.</span></span>${crest(t, 20)}<span class="num" style="font-weight:700;width:46px;text-align:right">${pct(s.p)}</span></a>`;
     })
     .join("")}</div>`;
 }
 
-export function renderPrognosis(m: Match, p: Prediction, season: Season): string {
+export function renderPrognosis(m: Match, p: Prediction, season: Season, links: PlayerLinks | null = null): string {
   const h = team(season, m.home);
   const a = team(season, m.away);
   const w = p.why;
@@ -94,7 +95,7 @@ export function renderPrognosis(m: Match, p: Prediction, season: Season): string
           .join("")}</section>`
     : "";
 
-  const scorers = `<section class="card"><h2>Wer trifft?</h2><p class="muted">Wahrscheinlichkeit für mindestens ein Tor, aus der voraussichtlichen Aufstellung und den Saison-xG pro 90 Minuten.</p>${scorerList(p, season)}</section>`;
+  const scorers = `<section class="card"><h2>Wer trifft?</h2><p class="muted">Wahrscheinlichkeit für mindestens ein Tor, aus der voraussichtlichen Aufstellung und den Saison-xG pro 90 Minuten.</p>${scorerList(p, season, 10, links)}</section>`;
 
   const calc = `<details class="card"><summary class="tlab">Rechenweg</summary>
     <p class="muted">λ ${esc(h.short)} = ${dec(w.means[0], 2)} (Heimschnitt) × ${dec(w.attack[0], 2)} (Angriff ${esc(h.short)}) × ${dec(w.defence[1], 2)} (Abwehr ${esc(a.short)}) × Ausfälle = <b>${dec(p.xg[0], 2)}</b></p>

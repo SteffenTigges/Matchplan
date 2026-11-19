@@ -13,6 +13,7 @@ from typing import Callable
 from . import probe
 from .forecast import run_forecast
 from .referees import build_referees
+from .scorers import build_links
 from .scouting import build_report
 from .similar import build_similar, group_of
 from .stars import LEAGUES, same_age, stats_rating_url, top_rated
@@ -391,6 +392,11 @@ def run_update(out: Path, fetch: Fetcher, now: datetime, sleep: Callable[[float]
         run_forecast(out, get, matchdays, current, teams_out, now, at, status)
     except Exception as e:  # Prognose darf den übrigen Lauf nicht kippen
         status["prognose"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
+    try:
+        rows = (_read(out / "players.json") or {}).get("players", [])
+        _write(out / "player_links.json", {"updated_at": at, **build_links(teams_out, rows)})
+    except Exception as e:
+        status["spieler_links"] = {"ok": False, "at": at, "error": f"{type(e).__name__}: {e}"}
     try:
         n = _update_scouting(out, matchdays, current, teams_out)
         status["scouting"] = {"ok": True, "at": at, "error": None, "note": f"{n} Gegner-Berichte"}
