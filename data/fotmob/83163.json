@@ -1,24 +1,1912 @@
 {
- "fm_id": 5881300,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881147,
+ "stats": {
+  "BallPossesion": [
+   41,
+   59
+  ],
+  "expected_goals": [
+   1.95,
+   1.88
+  ],
+  "total_shots": [
+   18,
+   15
+  ],
+  "ShotsOnTarget": [
+   6,
+   4
+  ],
+  "touches_opp_box": [
+   30,
+   34
+  ],
+  "big_chance": [
+   4,
+   3
+  ],
+  "big_chance_missed_title": [
+   2,
+   3
+  ],
+  "accurate_passes": [
+   {
+    "n": 277,
+    "pct": 81
+   },
+   {
+    "n": 425,
+    "pct": 86
+   }
+  ],
+  "yellow_cards": [
+   0,
+   2
+  ],
+  "corners": [
+   6,
+   7
+  ],
+  "blocked_shots": [
+   5,
+   4
+  ],
+  "shots_inside_box": [
+   13,
+   8
+  ],
+  "expected_goals_open_play": [
+   1.37,
+   0.85
+  ],
+  "expected_goals_set_play": [
+   0.58,
+   0.24
+  ],
+  "expected_goals_on_target": [
+   2.84,
+   1.99
+  ],
+  "passes": [
+   344,
+   492
+  ],
+  "own_half_passes": [
+   159,
+   193
+  ],
+  "opposition_half_passes": [
+   118,
+   232
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 26,
+    "pct": 42
+   },
+   {
+    "n": 31,
+    "pct": 60
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 7,
+    "pct": 29
+   },
+   {
+    "n": 8,
+    "pct": 28
+   }
+  ],
+  "Offsides": [
+   0,
+   0
+  ],
+  "tackles": [
+   18,
+   13
+  ],
+  "interceptions": [
+   8,
+   8
+  ],
+  "shot_blocks": [
+   4,
+   5
+  ],
+  "clearances": [
+   36,
+   29
+  ],
+  "keeper_saves": [
+   2,
+   3
+  ],
+  "duel_won": [
+   49,
+   53
+  ],
+  "ground_duels_won": [
+   {
+    "n": 36,
+    "pct": 57
+   },
+   {
+    "n": 27,
+    "pct": 43
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 13,
+    "pct": 33
+   },
+   {
+    "n": 26,
+    "pct": 67
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 4,
+    "pct": 50
+   },
+   {
+    "n": 4,
+    "pct": 33
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   11,
+   14
+  ]
+ },
+ "shots": [
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 5,
+   "x": 98.3421052628,
+   "y": 46.382929932699994,
+   "xg": 0.08977793902158737,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ragnar Ache",
+   "min": 7,
+   "x": 97.4736842099,
+   "y": 36.8975,
+   "xg": 0.08545365929603577,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Tom Krauß",
+   "min": 7,
+   "x": 98.4385964909,
+   "y": 31.7125,
+   "xg": 0.13775049149990082,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
    "team": "TSG",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Bambasé Conté",
+   "min": 8,
+   "x": 78.5432038848,
+   "y": 27.446428571,
+   "xg": 0.030768822878599167,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 11,
+   "x": 91.9,
+   "y": 27.950714285,
+   "xg": 0.08511871844530106,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Albian Hajdari",
+   "min": 15,
+   "x": 71.7859223328,
+   "y": 23.0183439533,
+   "xg": 0.015353629365563393,
+   "xgot": 0,
+   "situation": "IndividualPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 19,
+   "x": 78.5432038848,
+   "y": 35.143750000000004,
+   "xg": 0.08879576623439789,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 22,
+   "x": 81.80922330160001,
+   "y": 40.385476190999995,
+   "xg": 0.020492568612098694,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Leon Avdullahu",
+   "min": 24,
+   "x": 85.6014705876,
+   "y": 47.013503181400004,
+   "xg": 0.03205106034874916,
+   "xgot": 0,
+   "situation": "IndividualPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Daghim",
+   "min": 27,
+   "x": 86.99705882319999,
+   "y": 24.5597452279,
+   "xg": 0.017219586297869682,
+   "xgot": 0.21109911799430847,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 33,
+   "x": 72.68689320639999,
+   "y": 51.21732483940001,
+   "xg": 0.015353715978562832,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 40,
+   "x": 95.15789473550001,
+   "y": 42.2928125,
+   "xg": 0.351976603269577,
+   "xgot": 0.47792720794677734,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Gideon Mensah",
+   "min": 45,
+   "x": 86.99705882319999,
+   "y": 43.5803821607,
+   "xg": 0.030543502420186996,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 47,
+   "x": 95.4473684198,
+   "y": 36.51625,
+   "xg": 0.05179997533559799,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ísak Jóhannesson",
+   "min": 50,
+   "x": 96.1228070165,
+   "y": 15.941910829,
+   "xg": 0.02012426033616066,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 51,
+   "x": 94.675438595,
+   "y": 41.057857143,
+   "xg": 0.16344387829303741,
+   "xgot": 0.8108190298080444,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Paul Okon-Engstler",
+   "min": 53,
+   "x": 85.4941176464,
+   "y": 46.312866238400005,
+   "xg": 0.09407587349414825,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 55,
+   "x": 81.0208737872,
+   "y": 28.286904761,
+   "xg": 0.0417705774307251,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Max Moerstedt",
+   "min": 57,
+   "x": 94,
+   "y": 34,
+   "xg": 0.7884,
+   "xgot": 0.845202624797821,
+   "situation": "Penalty",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Max Moerstedt",
+   "min": 59,
+   "x": 95.2543859636,
+   "y": 41.141904761999996,
+   "xg": 0.4936056137084961,
+   "xgot": 0.33843696117401123,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Jan Thielmann",
+   "min": 61,
+   "x": 94.09649122639999,
+   "y": 24.5597452279,
+   "xg": 0.04431196674704552,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 63,
+   "x": 84.85,
+   "y": 51.007133756500004,
+   "xg": 0.021745411679148674,
+   "xgot": 0.01728309504687786,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Luka Lochoshvili",
+   "min": 64,
+   "x": 96.9912280694,
+   "y": 30.72125,
+   "xg": 0.0562334842979908,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Ozan Kabak",
+   "min": 67,
+   "x": 96.2192982446,
+   "y": 32.474999999999994,
+   "xg": 0.04801313579082489,
+   "xgot": 0.5941007137298584,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Luka Lochoshvili",
+   "min": 69,
+   "x": 96.0263157884,
+   "y": 31.559999999999995,
+   "xg": 0.041682641953229904,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Thijs Dallinga",
+   "min": 70,
+   "x": 97.7631578942,
+   "y": 38.284285716,
+   "xg": 0.05904011055827141,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Thijs Dallinga",
+   "min": 72,
+   "x": 95.9298245603,
+   "y": 37.355000000000004,
+   "xg": 0.11355191469192505,
+   "xgot": 0.3387477695941925,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Leon Avdullahu",
+   "min": 77,
+   "x": 79.3315533992,
+   "y": 34.915000000000006,
+   "xg": 0.025736529380083084,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Tom Krauß",
+   "min": 81,
+   "x": 95.54385964789999,
+   "y": 31.254999999999995,
+   "xg": 0.4574054479598999,
+   "xgot": 0.6091359257698059,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Thijs Dallinga",
+   "min": 82,
+   "x": 89.9,
+   "y": 30.797499999999996,
+   "xg": 0.07556923478841782,
+   "xgot": 0.5812393426895142,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Bambasé Conté",
+   "min": 86,
+   "x": 94.675438595,
+   "y": 27.110238095,
+   "xg": 0.18643732368946075,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Andrej Kramarić",
+   "min": 90,
+   "x": 91.3,
+   "y": 50.7969426736,
+   "xg": 0.020360300317406654,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Max Moerstedt",
+   "min": 90,
+   "x": 97.7631578942,
+   "y": 43.3001273835,
+   "xg": 0.02579820528626442,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   4,
+   -5
+  ],
+  [
+   5,
+   -43
+  ],
+  [
+   6,
+   -43
+  ],
+  [
+   7,
+   -43
+  ],
+  [
+   8,
+   0
+  ],
+  [
+   9,
+   -5
+  ],
+  [
+   10,
+   0
+  ],
+  [
+   11,
+   -35
+  ],
+  [
+   12,
+   -35
+  ],
+  [
+   13,
+   -52
+  ],
+  [
+   14,
+   -22
+  ],
+  [
+   15,
+   -22
+  ],
+  [
+   16,
+   35
+  ],
+  [
+   17,
+   57
+  ],
+  [
+   18,
+   62
+  ],
+  [
+   19,
+   33
+  ],
+  [
+   20,
+   -14
+  ],
+  [
+   21,
+   -35
+  ],
+  [
+   22,
+   -73
+  ],
+  [
+   23,
+   -54
+  ],
+  [
+   24,
+   -49
+  ],
+  [
+   25,
+   -16
+  ],
+  [
+   26,
+   -54
+  ],
+  [
+   27,
+   -38
+  ],
+  [
+   28,
+   -43
+  ],
+  [
+   29,
+   16
+  ],
+  [
+   30,
+   5
+  ],
+  [
+   31,
+   5
+  ],
+  [
+   32,
+   -16
+  ],
+  [
+   33,
+   3
+  ],
+  [
+   34,
+   -3
+  ],
+  [
+   35,
+   -46
+  ],
+  [
+   36,
+   -76
+  ],
+  [
+   37,
+   -71
+  ],
+  [
+   38,
+   -27
+  ],
+  [
+   39,
+   -16
+  ],
+  [
+   40,
+   -33
+  ],
+  [
+   41,
+   -22
+  ],
+  [
+   42,
+   -27
+  ],
+  [
+   43,
+   -16
+  ],
+  [
+   44,
+   -100
+  ],
+  [
+   45,
+   -100
+  ],
+  [
+   45.5,
+   -27
+  ],
+  [
+   46,
+   3
+  ],
+  [
+   47,
+   -22
+  ],
+  [
+   48,
+   -11
+  ],
+  [
+   49,
+   -19
+  ],
+  [
+   50,
+   19
+  ],
+  [
+   51,
+   62
+  ],
+  [
+   52,
+   68
+  ],
+  [
+   53,
+   54
+  ],
+  [
+   54,
+   -5
+  ],
+  [
+   55,
+   -27
+  ],
+  [
+   56,
+   -27
+  ],
+  [
+   57,
+   -33
+  ],
+  [
+   58,
+   -11
+  ],
+  [
+   59,
+   -65
+  ],
+  [
+   60,
+   -100
+  ],
+  [
+   61,
+   -100
+  ],
+  [
+   62,
+   -16
+  ],
+  [
+   63,
+   57
+  ],
+  [
+   64,
+   62
+  ],
+  [
+   65,
+   27
+  ],
+  [
+   66,
+   -3
+  ],
+  [
+   67,
+   -41
+  ],
+  [
+   68,
+   -24
+  ],
+  [
+   69,
+   33
+  ],
+  [
+   70,
+   100
+  ],
+  [
+   71,
+   100
+  ],
+  [
+   72,
+   100
+  ],
+  [
+   73,
+   41
+  ],
+  [
+   74,
+   35
+  ],
+  [
+   75,
+   30
+  ],
+  [
+   76,
+   5
+  ],
+  [
+   77,
+   -11
+  ],
+  [
+   78,
+   -30
+  ],
+  [
+   79,
+   -27
+  ],
+  [
+   80,
+   -46
+  ],
+  [
+   81,
+   0
+  ],
+  [
+   82,
+   24
+  ],
+  [
+   83,
+   43
+  ],
+  [
+   84,
+   -8
+  ],
+  [
+   85,
+   -11
+  ],
+  [
+   86,
+   -95
+  ],
+  [
+   87,
+   -95
+  ],
+  [
+   88,
+   -84
+  ],
+  [
+   89,
+   -5
+  ],
+  [
+   90,
+   -16
+  ],
+  [
+   90.5,
+   -55
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 40,
+   "center": 31,
+   "right": 29
   },
   "away": {
-   "team": "KOE",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 27,
+   "center": 29,
+   "right": 44
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "KOE",
+   "formation": "4-3-3",
+   "rating": 7.2,
+   "players": [
+    {
+     "id": 573465,
+     "name": "Marvin Schwäbe",
+     "pos_id": 11,
+     "rating": 7.5,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 748620,
+     "name": "Alessio Castro-Montes",
+     "pos_id": 32,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 1463271,
+     "name": "Jahmai Simpson-Pusey",
+     "pos_id": 34,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 784175,
+     "name": "Luka Lochoshvili",
+     "pos_id": 36,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 771630,
+     "name": "Gideon Mensah",
+     "pos_id": 38,
+     "rating": 7,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1000428,
+     "name": "Ísak Jóhannesson",
+     "pos_id": 73,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "id": 992060,
+     "name": "Tom Krauß",
+     "pos_id": 75,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 1527363,
+     "name": "Paul Okon-Engstler",
+     "pos_id": 77,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "id": 1119643,
+     "name": "Jan Thielmann",
+     "pos_id": 103,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.87
+    },
+    {
+     "id": 772193,
+     "name": "Ragnar Ache",
+     "pos_id": 105,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    },
+    {
+     "id": 1613676,
+     "name": "Saïd El Mala",
+     "pos_id": 107,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "TSG",
+   "formation": "4-4-2",
+   "rating": 6.7,
+   "players": [
+    {
+     "id": 178778,
+     "name": "Oliver Baumann",
+     "pos_id": 11,
+     "rating": 6.6,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 307317,
+     "name": "Vladimír Coufal",
+     "pos_id": 32,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 845990,
+     "name": "Ozan Kabak",
+     "pos_id": 34,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 1186015,
+     "name": "Albian Hajdari",
+     "pos_id": 36,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 637716,
+     "name": "Bernardo",
+     "pos_id": 38,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1073498,
+     "name": "Patrick Wimmer",
+     "pos_id": 72,
+     "rating": 7,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.613
+    },
+    {
+     "id": 947884,
+     "name": "Wouter Burger",
+     "pos_id": 74,
+     "rating": 6,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.613
+    },
+    {
+     "id": 1478148,
+     "name": "Leon Avdullahu",
+     "pos_id": 76,
+     "rating": 7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.613
+    },
+    {
+     "id": 1353000,
+     "name": "Adam Daghim",
+     "pos_id": 78,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.613
+    },
+    {
+     "id": 969870,
+     "name": "Adam Hložek",
+     "pos_id": 104,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1338957,
+     "name": "Bambasé Conté",
+     "pos_id": 106,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 41087,
+   "team": "KOE",
+   "name": "Ron-Robert Zieler",
+   "keeper": true
+  },
+  {
+   "id": 173461,
+   "team": "TSG",
+   "name": "Andrej Kramarić",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 178778,
+   "team": "TSG",
+   "name": "Oliver Baumann",
+   "keeper": true,
+   "rating": 6.61,
+   "minutes": 90,
+   "xa": 0.05,
+   "recoveries": 3,
+   "touches": 42,
+   "tackles": 0,
+   "final_third_passes": 9,
+   "interceptions": 0
+  },
+  {
+   "id": 307317,
+   "team": "TSG",
+   "name": "Vladimír Coufal",
+   "keeper": false,
+   "rating": 7.38,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.3,
+   "key_passes": 4,
+   "touches": 88,
+   "touches_box": 1,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 573465,
+   "team": "KOE",
+   "name": "Marvin Schwäbe",
+   "keeper": true,
+   "rating": 7.48,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 5,
+   "touches": 56,
+   "duels_lost": 1,
+   "tackles": 0,
+   "final_third_passes": 15,
+   "interceptions": 0
+  },
+  {
+   "id": 574642,
+   "team": "KOE",
+   "name": "Ellyes Skhiri",
+   "keeper": false,
+   "rating": 6.32,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 626890,
+   "team": "KOE",
+   "name": "Marius Bülter",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 637716,
+   "team": "TSG",
+   "name": "Bernardo",
+   "keeper": false,
+   "rating": 7.45,
+   "minutes": 53,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 43,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 748620,
+   "team": "KOE",
+   "name": "Alessio Castro-Montes",
+   "keeper": false,
+   "rating": 6.69,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.14,
+   "key_passes": 2,
+   "touches": 46,
+   "touches_box": 4,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 771630,
+   "team": "KOE",
+   "name": "Gideon Mensah",
+   "keeper": false,
+   "rating": 6.96,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 8,
+   "duels_won": 5,
+   "duels_lost": 6
+  },
+  {
+   "id": 772193,
+   "team": "KOE",
+   "name": "Ragnar Ache",
+   "keeper": false,
+   "rating": 7.05,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 26,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 8,
+   "duels_lost": 9
+  },
+  {
+   "id": 784175,
+   "team": "KOE",
+   "name": "Luka Lochoshvili",
+   "keeper": false,
+   "rating": 7.26,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 67,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 7,
+   "duels_lost": 2
+  },
+  {
+   "id": 845990,
+   "team": "TSG",
+   "name": "Ozan Kabak",
+   "keeper": false,
+   "rating": 7.41,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 77,
+   "touches_box": 5,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 13,
+   "duels_lost": 7
+  },
+  {
+   "id": 885085,
+   "team": "KOE",
+   "name": "Thijs Dallinga",
+   "keeper": false,
+   "rating": 8.57,
+   "minutes": 25,
+   "goals": 2,
+   "assists": 0,
+   "xg": 0.25,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 14,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 930035,
+   "team": "KOE",
+   "name": "Linton Maina",
+   "keeper": false,
+   "rating": 7.05,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.11,
+   "key_passes": 1,
+   "touches": 10,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 947884,
+   "team": "TSG",
+   "name": "Wouter Burger",
+   "keeper": false,
+   "rating": 6.01,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.09,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 1,
+   "final_third_passes": 14,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 969870,
+   "team": "TSG",
+   "name": "Adam Hložek",
+   "keeper": false,
+   "rating": 6.79,
+   "minutes": 53,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.05,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 25,
+   "touches_box": 5,
+   "dribbles": 2,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 992060,
+   "team": "KOE",
+   "name": "Tom Krauß",
+   "keeper": false,
+   "rating": 7.09,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.6,
+   "xa": 0.03,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 4,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 1000428,
+   "team": "KOE",
+   "name": "Ísak Jóhannesson",
+   "keeper": false,
+   "rating": 7.65,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.23,
+   "shots": 1,
+   "key_passes": 3,
+   "touches": 45,
+   "touches_box": 4,
+   "final_third_passes": 2,
+   "tackles": 4,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 1003254,
+   "team": "KOE",
+   "name": "Joël Schmied",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1073498,
+   "team": "TSG",
+   "name": "Patrick Wimmer",
+   "keeper": false,
+   "rating": 7.02,
+   "minutes": 71,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.13,
+   "xa": 0.14,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 41,
+   "touches_box": 6,
+   "dribbles": 2,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 2
+  },
+  {
+   "id": 1077653,
+   "team": "TSG",
+   "name": "Valentin Gendrey",
+   "keeper": false
+  },
+  {
+   "id": 1119643,
+   "team": "KOE",
+   "name": "Jan Thielmann",
+   "keeper": false,
+   "rating": 7.16,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 36,
+   "touches_box": 3,
+   "dribbles": 1,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1175933,
+   "team": "TSG",
+   "name": "Luca Philipp",
+   "keeper": true
+  },
+  {
+   "id": 1186015,
+   "team": "TSG",
+   "name": "Albian Hajdari",
+   "keeper": false,
+   "rating": 5.68,
+   "minutes": 87,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.18,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 77,
+   "touches_box": 3,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "id": 1199391,
+   "team": "KOE",
+   "name": "Rav van den Berg",
+   "keeper": false
+  },
+  {
+   "id": 1225995,
+   "team": "TSG",
+   "name": "Robin Hranác",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 37,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 42,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 1338957,
+   "team": "TSG",
+   "name": "Bambasé Conté",
+   "keeper": false,
+   "rating": 7.5,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.22,
+   "xa": 0.11,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 47,
+   "touches_box": 5,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 7
+  },
+  {
+   "id": 1353000,
+   "team": "TSG",
+   "name": "Adam Daghim",
+   "keeper": false,
+   "rating": 7.6,
+   "minutes": 87,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.11,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 40,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1445416,
+   "team": "TSG",
+   "name": "Mats Rots",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 1463271,
+   "team": "KOE",
+   "name": "Jahmai Simpson-Pusey",
+   "keeper": false,
+   "rating": 6.46,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 56,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 1478148,
+   "team": "TSG",
+   "name": "Leon Avdullahu",
+   "keeper": false,
+   "rating": 7.01,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.09,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 77,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 1486537,
+   "team": "TSG",
+   "name": "Max Moerstedt",
+   "keeper": false,
+   "rating": 5.42,
+   "minutes": 37,
+   "goals": 0,
+   "assists": 0,
+   "xg": 1.31,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 5,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "id": 1527363,
+   "team": "KOE",
+   "name": "Paul Okon-Engstler",
+   "keeper": false,
+   "rating": 6.84,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 38,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 1613676,
+   "team": "KOE",
+   "name": "Saïd El Mala",
+   "keeper": false,
+   "rating": 7.56,
+   "minutes": 65,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.73,
+   "xa": 0.01,
+   "shots": 6,
+   "key_passes": 0,
+   "touches": 33,
+   "touches_box": 5,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 6
+  },
+  {
+   "id": 1664759,
+   "team": "TSG",
+   "name": "Nathan De Cat",
+   "keeper": false,
+   "rating": 6.23,
+   "minutes": 19,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 12,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1665352,
+   "team": "KOE",
+   "name": "Reigan Heskey",
+   "keeper": false
+  },
+  {
+   "id": 1793498,
+   "team": "TSG",
+   "name": "Cajetan Lenz",
+   "keeper": false
+  },
+  {
+   "id": 1829438,
+   "team": "KOE",
+   "name": "Jonathan Friemel",
+   "keeper": false
+  },
+  {
+   "id": 1899713,
+   "team": "TSG",
+   "name": "Natnael Abraha",
+   "keeper": false
+  }
+ ],
  "oldb_id": 83163,
  "matchday": 1,
  "season": 2026

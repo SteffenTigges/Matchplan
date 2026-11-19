@@ -1,0 +1,353 @@
+{
+ "id": 287894,
+ "name": "Loris Karius",
+ "team": "S04",
+ "team_name": "Schalke 04",
+ "birth_date": "1993-06-22",
+ "age": 33,
+ "height_cm": 190,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 1,
+ "market_value": 931238,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Keeper",
+   "short": "GK",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Torwartspiel",
+   "key": "saves",
+   "title": "Paraden",
+   "value": 46,
+   "per90": 5.362694300518134,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "save_percentage",
+   "title": "Paradenquote",
+   "value": 80.7,
+   "per90": 80.70175438596492,
+   "pct": 91.66666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_conceded",
+   "title": "Gegentore",
+   "value": 11,
+   "per90": 1.2823834196891193,
+   "pct": 70.83333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "goals_prevented",
+   "title": "Verhinderte Tore",
+   "value": 5.83,
+   "per90": 0.6795699481865285,
+   "pct": 100,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 3,
+   "per90": 0.34974093264248707,
+   "pct": 66.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_saves",
+   "title": "Penalty saves",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_goals_conceded",
+   "title": "Penalties conceded",
+   "value": 1,
+   "per90": 0.11658031088082901,
+   "pct": 12.5,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "penalty_save_percent",
+   "title": "Penalty saves %",
+   "value": 0.0,
+   "per90": 0,
+   "pct": 54.166666666666664,
+   "fmt": "percent"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "error_led_to_goal",
+   "title": "Error led to goal",
+   "value": 1,
+   "per90": 0.11658031088082901,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_sweeper",
+   "title": "Acted as sweeper",
+   "value": 3,
+   "per90": 0.34974093264248707,
+   "pct": 29.166666666666668,
+   "fmt": "number"
+  },
+  {
+   "group": "Torwartspiel",
+   "key": "keeper_high_claim",
+   "title": "High claims",
+   "value": 6,
+   "per90": 0.6994818652849741,
+   "pct": 29.166666666666668,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 127,
+   "per90": 14.805699481865284,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 48.7,
+   "per90": 48.65900383141762,
+   "pct": 0,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 58,
+   "per90": 6.761658031088083,
+   "pct": 45.83333333333333,
+   "fmt": "number"
+  },
+  {
+   "group": "Distribution",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 30.4,
+   "per90": 30.36649214659686,
+   "pct": 4.166666666666666,
+   "fmt": "percent"
+  },
+  {
+   "group": "Distribution",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.02,
+   "per90": 0.0022928467616580303,
+   "pct": 33.33333333333333,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.11658031088082901,
+   "pct": 8.333333333333332,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other keepers",
+  "items": [
+   {
+    "key": "keeper_sweeper_actions",
+    "title": "Sweeper actions",
+    "value": 0.94
+   },
+   {
+    "key": "goals_conceded",
+    "title": "Goals conceded",
+    "value": 0.69
+   },
+   {
+    "key": "save_percentage",
+    "title": "Save percentage",
+    "value": 0.88
+   },
+   {
+    "key": "keeper_high_claim",
+    "title": "High claims",
+    "value": 0.51
+   },
+   {
+    "key": "clean_sheet",
+    "title": "Clean sheets",
+    "value": 0.71
+   },
+   {
+    "key": "long_ball_succeeeded_accuracy",
+    "title": "Long ball percentage",
+    "value": 0.25
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Schalke 04",
+    "start": "2025-01-14",
+    "end": null,
+    "apps": 46,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Newcastle United",
+    "start": "2022-09-12",
+    "end": "2024-06-30",
+    "apps": 2,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Liverpool",
+    "start": "2021-07-01",
+    "end": "2022-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Union Berlin",
+    "start": "2020-09-28",
+    "end": "2021-06-30",
+    "apps": 5,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Liverpool",
+    "start": "2020-09-01",
+    "end": "2020-09-28",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Beşiktaş",
+    "start": "2018-08-25",
+    "end": "2020-06-30",
+    "apps": 67,
+    "goals": 0,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Liverpool",
+    "start": "2016-07-01",
+    "end": "2018-08-25",
+    "apps": 49,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Mainz 05",
+    "start": "2011-08-29",
+    "end": "2016-06-30",
+    "apps": 96,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Mainz 05 II",
+    "start": "2011-08-29",
+    "end": "2014-06-30",
+    "apps": 27,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2014-01-01",
+    "end": "2015-06-30",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Free agent",
+   "to": "Schalke 04",
+   "date": "2025-01-14",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Free agent",
+   "to": "Newcastle",
+   "date": "2023-01-19",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Free agent",
+   "to": "Newcastle",
+   "date": "2022-09-12",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Liverpool",
+   "to": "Union Berlin",
+   "date": "2020-09-28",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Liverpool",
+   "to": "Beşiktaş",
+   "date": "2018-08-25",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Mainz",
+   "to": "Liverpool",
+   "date": "2016-07-01",
+   "fee": null,
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:24:35+00:00"
+}

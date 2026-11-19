@@ -1,0 +1,452 @@
+{
+ "id": 303905,
+ "name": "Dominik Kohr",
+ "team": "M05",
+ "team_name": "Mainz 05",
+ "birth_date": "1994-01-31",
+ "age": 32,
+ "height_cm": 183,
+ "foot": "rechts",
+ "country": "Germany",
+ "shirt": 31,
+ "market_value": 1658430,
+ "contract_end": "2028-06-30",
+ "positions": [
+  {
+   "label": "Innenverteidiger",
+   "short": "CB",
+   "main": true
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals",
+   "title": "xG",
+   "value": 0.01,
+   "per90": 0.0156375,
+   "pct": 23.18840579710145,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "expected_goals_on_target",
+   "title": "xGOT",
+   "value": 0.39,
+   "per90": 0.4402125,
+   "pct": 97.10144927536231,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "non_penalty_xg",
+   "title": "xG ohne Elfmeter",
+   "value": 0.01,
+   "per90": 0.0156375,
+   "pct": 23.18840579710145,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 81.15942028985508,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "ShotsOnTarget",
+   "title": "Schüsse aufs Tor",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.07,
+   "per90": 0.0839244375,
+   "pct": 81.15942028985508,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 44,
+   "per90": 49.50000000000001,
+   "pct": 50.72463768115942,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 89.8,
+   "per90": 89.79591836734694,
+   "pct": 68.11594202898551,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 5,
+   "per90": 5.625,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 55.6,
+   "per90": 55.55555555555556,
+   "pct": 81.15942028985508,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 5,
+   "per90": 5.625,
+   "pct": 65.21739130434783,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 62.5,
+   "per90": 62.5,
+   "pct": 60.86956521739131,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won",
+   "title": "Luftzweikämpfe gewonnen",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 7.246376811594203,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "aerials_won_percent",
+   "title": "Luftzweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 13.043478260869565,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 63,
+   "per90": 70.875,
+   "pct": 39.130434782608695,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 50.72463768115942,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 8,
+   "per90": 9,
+   "pct": 34.78260869565217,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 4,
+   "per90": 4.5,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 46.3768115942029,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 1,
+   "per90": 1.125,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 4,
+   "per90": 4.5,
+   "pct": 23.18840579710145,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 0.66,
+   "per90": 0.7473375,
+   "pct": 95.65217391304348,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other center-backs",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.55
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.05
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.84
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.5
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.65
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.29
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Mainz 05",
+    "start": "2022-07-01",
+    "end": null,
+    "apps": 140,
+    "goals": 10,
+    "kind": null
+   },
+   {
+    "team": "Mainz 05",
+    "start": "2021-01-18",
+    "end": "2022-06-30",
+    "apps": 41,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Eintracht Frankfurt",
+    "start": "2019-07-03",
+    "end": "2021-01-18",
+    "apps": 49,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "Bayer Leverkusen",
+    "start": "2017-07-01",
+    "end": "2019-06-30",
+    "apps": 57,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Augsburg",
+    "start": "2015-07-01",
+    "end": "2017-06-30",
+    "apps": 67,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Augsburg",
+    "start": "2014-01-13",
+    "end": "2015-06-30",
+    "apps": 35,
+    "goals": 1,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Bayer Leverkusen II",
+    "start": "2012-07-01",
+    "end": "2014-01-13",
+    "apps": 33,
+    "goals": 2,
+    "kind": null
+   },
+   {
+    "team": "Bayer Leverkusen",
+    "start": "2012-04-08",
+    "end": "2014-01-13",
+    "apps": 12,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [],
+  "national_youth": [
+   {
+    "team": "Germany U21",
+    "start": "2016-01-01",
+    "end": "2017-09-03",
+    "apps": 3,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "Germany U19",
+    "start": "2012-07-01",
+    "end": "2013-06-30",
+    "apps": 6,
+    "goals": 2,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Frankfurt",
+   "to": "Mainz",
+   "date": "2022-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Frankfurt",
+   "to": "Mainz",
+   "date": "2021-07-01",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Frankfurt",
+   "to": "Mainz",
+   "date": "2021-01-18",
+   "fee": "Leihe",
+   "loan": true
+  },
+  {
+   "from": "Leverkusen",
+   "to": "Frankfurt",
+   "date": "2019-07-03",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Augsburg",
+   "to": "Leverkusen",
+   "date": "2017-07-01",
+   "fee": "fee",
+   "loan": false
+  },
+  {
+   "from": "Leverkusen",
+   "to": "Augsburg",
+   "date": "2015-07-01",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:24:35+00:00"
+}

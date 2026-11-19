@@ -1,0 +1,494 @@
+{
+ "id": 276739,
+ "name": "Kevin Stöger",
+ "team": "BMG",
+ "team_name": "Borussia Mönchengladbach",
+ "birth_date": "1993-08-27",
+ "age": 33,
+ "height_cm": 176,
+ "foot": "links",
+ "country": "Austria",
+ "shirt": 7,
+ "market_value": 916915,
+ "contract_end": "2027-06-30",
+ "positions": [
+  {
+   "label": "Defensives Mittelfeld",
+   "short": "DM",
+   "main": true
+  },
+  {
+   "label": "Zentrales Mittelfeld",
+   "short": "CM",
+   "main": false
+  },
+  {
+   "label": "Offensives Mittelfeld",
+   "short": "AM",
+   "main": false
+  }
+ ],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.26,
+   "per90": 0.14647824223602482,
+   "pct": 63.888888888888886,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 86,
+   "per90": 48.07453416149068,
+   "pct": 80.55555555555556,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 80.4,
+   "per90": 80.37383177570094,
+   "pct": 37.5,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_balls_accurate",
+   "title": "Lange Bälle angekommen",
+   "value": 4,
+   "per90": 2.2360248447204967,
+   "pct": 79.16666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "long_ball_succeeeded_accuracy",
+   "title": "Quote lange Bälle",
+   "value": 44.4,
+   "per90": 44.44444444444444,
+   "pct": 48.61111111111111,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "chances_created",
+   "title": "Torchancen vorbereitet",
+   "value": 3,
+   "per90": 1.6770186335403727,
+   "pct": 73.61111111111111,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded",
+   "title": "Flanken angekommen",
+   "value": 3,
+   "per90": 1.6770186335403727,
+   "pct": 91.66666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "crosses_succeeeded_accuracy",
+   "title": "Flankenquote",
+   "value": 42.9,
+   "per90": 42.857142857142854,
+   "pct": 77.77777777777779,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 3,
+   "per90": 1.6770186335403727,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 27.3,
+   "per90": 27.272727272727273,
+   "pct": 0,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 132,
+   "per90": 73.7888198757764,
+   "pct": 83.33333333333334,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "fouls_won",
+   "title": "Gefoult worden",
+   "value": 2,
+   "per90": 1.1180124223602483,
+   "pct": 54.166666666666664,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 4,
+   "per90": 2.2360248447204967,
+   "pct": 8.333333333333332,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 1,
+   "per90": 0.5590062111801242,
+   "pct": 4.166666666666666,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 1,
+   "per90": 0.5590062111801242,
+   "pct": 20.833333333333336,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 3,
+   "per90": 1.6770186335403727,
+   "pct": 19.444444444444446,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 4,
+   "per90": 2.2360248447204967,
+   "pct": 2.7777777777777777,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 5,
+   "per90": 2.7950310559006213,
+   "pct": 1.3888888888888888,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 2,
+   "per90": 1.1180124223602483,
+   "pct": 30.555555555555557,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 8,
+   "per90": 4.472049689440993,
+   "pct": 1.3888888888888888,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 6.26,
+   "per90": 3.5004968944099377,
+   "pct": 0,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.5590062111801242,
+   "pct": 5.555555555555555,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
+ "traits": {
+  "title": "Stats compared to other attacking midfielders/wingers",
+  "items": [
+   {
+    "key": "chances_created",
+    "title": "Chances created",
+    "value": 0.56
+   },
+   {
+    "key": "aerials_won",
+    "title": "Aerial duels",
+    "value": 0.07
+   },
+   {
+    "key": "defensive_actions",
+    "title": "Defensive actions",
+    "value": 0.94
+   },
+   {
+    "key": "goals",
+    "title": "Goals",
+    "value": 0.07
+   },
+   {
+    "key": "shot_attempts",
+    "title": "Shot attempts",
+    "value": 0.14
+   },
+   {
+    "key": "touches",
+    "title": "Touches",
+    "value": 0.98
+   }
+  ]
+ },
+ "career": {
+  "senior": [
+   {
+    "team": "Borussia Mönchengladbach",
+    "start": "2024-07-01",
+    "end": null,
+    "apps": 70,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Bochum",
+    "start": "2022-07-01",
+    "end": "2024-06-30",
+    "apps": 70,
+    "goals": 14,
+    "kind": null
+   },
+   {
+    "team": "Mainz 05",
+    "start": "2020-10-07",
+    "end": "2022-06-30",
+    "apps": 45,
+    "goals": 4,
+    "kind": null
+   },
+   {
+    "team": "Fortuna Düsseldorf",
+    "start": "2018-07-01",
+    "end": "2020-06-30",
+    "apps": 47,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Bochum",
+    "start": "2016-07-01",
+    "end": "2018-06-30",
+    "apps": 40,
+    "goals": 7,
+    "kind": null
+   },
+   {
+    "team": "Paderborn",
+    "start": "2015-08-25",
+    "end": "2016-06-30",
+    "apps": 26,
+    "goals": 1,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2015-07-01",
+    "end": "2015-08-24",
+    "apps": null,
+    "goals": null,
+    "kind": "Leihende"
+   },
+   {
+    "team": "Kaiserslautern",
+    "start": "2013-07-01",
+    "end": "2015-06-30",
+    "apps": 40,
+    "goals": 3,
+    "kind": "Leihe"
+   },
+   {
+    "team": "Kaiserslautern II",
+    "start": "2013-09-01",
+    "end": "2014-06-30",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart",
+    "start": "2012-07-01",
+    "end": "2013-06-30",
+    "apps": 1,
+    "goals": 0,
+    "kind": null
+   },
+   {
+    "team": "VfB Stuttgart II",
+    "start": "2011-01-01",
+    "end": "2013-06-30",
+    "apps": 51,
+    "goals": 4,
+    "kind": null
+   }
+  ],
+  "youth": [],
+  "national": [
+   {
+    "team": "Austria",
+    "start": "2019-03-17",
+    "end": "2025-05-26",
+    "apps": 5,
+    "goals": 0,
+    "kind": null
+   }
+  ],
+  "national_youth": [
+   {
+    "team": "Austria U21",
+    "start": "2013-01-01",
+    "end": "2015-06-30",
+    "apps": 8,
+    "goals": 3,
+    "kind": null
+   },
+   {
+    "team": "Austria U20",
+    "start": "2011-07-01",
+    "end": "2015-03-31",
+    "apps": null,
+    "goals": null,
+    "kind": null
+   },
+   {
+    "team": "Austria U19",
+    "start": "2011-09-01",
+    "end": "2012-12-31",
+    "apps": 6,
+    "goals": 0,
+    "kind": null
+   }
+  ]
+ },
+ "transfers": [
+  {
+   "from": "Bochum",
+   "to": "M'gladbach",
+   "date": "2024-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Mainz",
+   "to": "Bochum",
+   "date": "2022-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Free agent",
+   "to": "Mainz",
+   "date": "2020-10-07",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Bochum",
+   "to": "Düsseldorf",
+   "date": "2018-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "Paderborn",
+   "to": "Bochum",
+   "date": "2016-07-01",
+   "fee": "ablösefrei",
+   "loan": false
+  },
+  {
+   "from": "VfB Stuttgart",
+   "to": "Paderborn",
+   "date": "2015-08-25",
+   "fee": "fee",
+   "loan": false
+  }
+ ],
+ "fetched_at": "2026-11-19T00:24:35+00:00"
+}

@@ -1,24 +1,1851 @@
 {
- "fm_id": 5881310,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881157,
+ "stats": {
+  "BallPossesion": [
+   59,
+   41
+  ],
+  "expected_goals": [
+   0.77,
+   1.24
+  ],
+  "total_shots": [
+   14,
+   16
+  ],
+  "ShotsOnTarget": [
+   3,
+   5
+  ],
+  "touches_opp_box": [
+   25,
+   23
+  ],
+  "big_chance": [
+   0,
+   1
+  ],
+  "big_chance_missed_title": [
+   0,
+   0
+  ],
+  "accurate_passes": [
+   {
+    "n": 443,
+    "pct": 82
+   },
+   {
+    "n": 276,
+    "pct": 75
+   }
+  ],
+  "yellow_cards": [
+   3,
+   3
+  ],
+  "corners": [
+   5,
+   4
+  ],
+  "blocked_shots": [
+   5,
+   8
+  ],
+  "shots_inside_box": [
+   6,
+   9
+  ],
+  "expected_goals_open_play": [
+   0.62,
+   1.17
+  ],
+  "expected_goals_set_play": [
+   0.15,
+   0.07
+  ],
+  "expected_goals_on_target": [
+   0.61,
+   2.18
+  ],
+  "passes": [
+   538,
+   366
+  ],
+  "own_half_passes": [
+   299,
+   156
+  ],
+  "opposition_half_passes": [
+   144,
+   120
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 23,
+    "pct": 37
+   },
+   {
+    "n": 28,
+    "pct": 44
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 2,
+    "pct": 14
+   },
+   {
+    "n": 6,
+    "pct": 38
+   }
+  ],
+  "Offsides": [
+   1,
+   1
+  ],
+  "tackles": [
+   16,
+   19
+  ],
+  "interceptions": [
+   11,
+   12
+  ],
+  "shot_blocks": [
+   7,
+   5
+  ],
+  "clearances": [
+   30,
+   33
+  ],
+  "keeper_saves": [
+   4,
+   3
+  ],
+  "duel_won": [
+   53,
+   65
+  ],
+  "ground_duels_won": [
+   {
+    "n": 32,
+    "pct": 44
+   },
+   {
+    "n": 41,
+    "pct": 56
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 21,
+    "pct": 47
+   },
+   {
+    "n": 24,
+    "pct": 53
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 7,
+    "pct": 39
+   },
+   {
+    "n": 8,
+    "pct": 50
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   16,
+   10
+  ]
+ },
+ "shots": [
+  {
    "team": "SCF",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Jan-Niklas Beste",
+   "min": 1,
+   "x": 99.784482759,
+   "y": 18.043821658,
+   "xg": 0.011013269424438477,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 1,
+   "x": 91.3,
+   "y": 30.34,
+   "xg": 0.07497229427099228,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 1,
+   "x": 91.6,
+   "y": 22.808152870399997,
+   "xg": 0.031824562698602676,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Marvin Pieringer",
+   "min": 2,
+   "x": 83.38592233039999,
+   "y": 48.2746496788,
+   "xg": 0.038473017513751984,
+   "xgot": 0.2520027458667755,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Laurin Ulrich",
+   "min": 2,
+   "x": 90.4,
+   "y": 33.00875,
+   "xg": 0.10408077389001846,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 5,
+   "x": 86.24558823480001,
+   "y": 31.7125,
+   "xg": 0.11624240130186081,
+   "xgot": 0.6318446397781372,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 17,
+   "x": 91.3,
+   "y": 40.217380953,
+   "xg": 0.16366520524024963,
+   "xgot": 0.40234535932540894,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Rayan Philippe",
+   "min": 18,
+   "x": 76.1781553416,
+   "y": 33.00875,
+   "xg": 0.028963947668671608,
+   "xgot": 0.08579849451780319,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yuito Suzuki",
+   "min": 20,
+   "x": 93.6,
+   "y": 28.875238094000004,
+   "xg": 0.08287221938371658,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 26,
+   "x": 95.35087719170001,
+   "y": 41.31,
+   "xg": 0.16297437250614166,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yannik Engelhardt",
+   "min": 26,
+   "x": 90.2,
+   "y": 33.61875,
+   "xg": 0.16870880126953125,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 26,
+   "x": 92.8,
+   "y": 38.872619049,
+   "xg": 0.1774754375219345,
+   "xgot": 0.7214683890342712,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 28,
+   "x": 94.1929824545,
+   "y": 28.959285713000003,
+   "xg": 0.05537053197622299,
+   "xgot": 0.3472172021865845,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 28,
+   "x": 80.79563106879999,
+   "y": 27.866666666,
+   "xg": 0.0198234710842371,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Marvin Pieringer",
+   "min": 30,
+   "x": 102.8189655174,
+   "y": 44.91159235240001,
+   "xg": 0.039117373526096344,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Derry Scherhant",
+   "min": 37,
+   "x": 84.9573529404,
+   "y": 54.225592409,
+   "xg": 0.023632070049643517,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Derry Scherhant",
+   "min": 50,
+   "x": 84.1742718448,
+   "y": 51.0771974508,
+   "xg": 0.04319669306278229,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Steffen Tigges",
+   "min": 54,
+   "x": 92.5,
+   "y": 46.0326114612,
+   "xg": 0.020128656178712845,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Steffen Tigges",
+   "min": 54,
+   "x": 91,
+   "y": 40.049285714999996,
+   "xg": 0.05010893568396568,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Laurin Ulrich",
+   "min": 57,
+   "x": 84.286893204,
+   "y": 19.725350321199997,
+   "xg": 0.017613306641578674,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Mattes Hansen",
+   "min": 57,
+   "x": 79.3315533992,
+   "y": 28.959285713000003,
+   "xg": 0.02291969396173954,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Marvin Pieringer",
+   "min": 63,
+   "x": 87.31911764680001,
+   "y": 24.5597452279,
+   "xg": 0.08594249188899994,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Laurin Ulrich",
+   "min": 64,
+   "x": 83.6111650488,
+   "y": 39.713095239,
+   "xg": 0.10328260064125061,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Steffen Tigges",
+   "min": 66,
+   "x": 86.4602941172,
+   "y": 43.044375,
+   "xg": 0.048177819699048996,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Derry Scherhant",
+   "min": 67,
+   "x": 85.6014705876,
+   "y": 43.650445855,
+   "xg": 0.03820224106311798,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yuito Suzuki",
+   "min": 77,
+   "x": 83.0480582528,
+   "y": 35.143750000000004,
+   "xg": 0.03888513520359993,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Oliver Batista Meier",
+   "min": 79,
+   "x": 74.82669903120001,
+   "y": 24.699872616500002,
+   "xg": 0.03823791444301605,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Santiago Castañeda",
+   "min": 85,
+   "x": 91.5,
+   "y": 34.838750000000005,
+   "xg": 0.07496554404497147,
+   "xgot": 0.2690971791744232,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 90,
+   "x": 88.39264705880001,
+   "y": 35.6775,
+   "xg": 0.029992463067173958,
+   "xgot": 0.07574830949306488,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Stefano Marino",
+   "min": 90,
+   "x": 90.5,
+   "y": 26.69,
+   "xg": 0.10166783630847931,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   -30
+  ],
+  [
+   2,
+   19
+  ],
+  [
+   3,
+   24
+  ],
+  [
+   4,
+   54
+  ],
+  [
+   5,
+   -5
+  ],
+  [
+   6,
+   -11
+  ],
+  [
+   7,
+   -11
+  ],
+  [
+   8,
+   5
+  ],
+  [
+   9,
+   5
+  ],
+  [
+   10,
+   -22
+  ],
+  [
+   11,
+   -38
+  ],
+  [
+   12,
+   -38
+  ],
+  [
+   13,
+   -14
+  ],
+  [
+   14,
+   -14
+  ],
+  [
+   15,
+   -11
+  ],
+  [
+   16,
+   -8
+  ],
+  [
+   17,
+   -30
+  ],
+  [
+   18,
+   -33
+  ],
+  [
+   19,
+   -54
+  ],
+  [
+   20,
+   -84
+  ],
+  [
+   21,
+   -95
+  ],
+  [
+   22,
+   -73
+  ],
+  [
+   23,
+   -11
+  ],
+  [
+   24,
+   5
+  ],
+  [
+   25,
+   0
+  ],
+  [
+   26,
+   -38
+  ],
+  [
+   27,
+   -43
+  ],
+  [
+   28,
+   -92
+  ],
+  [
+   29,
+   -38
+  ],
+  [
+   30,
+   -22
+  ],
+  [
+   31,
+   33
+  ],
+  [
+   32,
+   16
+  ],
+  [
+   33,
+   11
+  ],
+  [
+   34,
+   11
+  ],
+  [
+   35,
+   11
+  ],
+  [
+   36,
+   -5
+  ],
+  [
+   37,
+   -22
+  ],
+  [
+   38,
+   -22
+  ],
+  [
+   39,
+   -5
+  ],
+  [
+   40,
+   11
+  ],
+  [
+   41,
+   11
+  ],
+  [
+   42,
+   -3
+  ],
+  [
+   43,
+   3
+  ],
+  [
+   44,
+   -27
+  ],
+  [
+   45,
+   -19
+  ],
+  [
+   45.5,
+   -15
+  ],
+  [
+   46,
+   8
+  ],
+  [
+   47,
+   3
+  ],
+  [
+   48,
+   22
+  ],
+  [
+   49,
+   14
+  ],
+  [
+   50,
+   19
+  ],
+  [
+   51,
+   43
+  ],
+  [
+   52,
+   90
+  ],
+  [
+   53,
+   100
+  ],
+  [
+   54,
+   95
+  ],
+  [
+   55,
+   57
+  ],
+  [
+   56,
+   30
+  ],
+  [
+   57,
+   33
+  ],
+  [
+   58,
+   19
+  ],
+  [
+   59,
+   19
+  ],
+  [
+   60,
+   -22
+  ],
+  [
+   61,
+   -16
+  ],
+  [
+   62,
+   8
+  ],
+  [
+   63,
+   46
+  ],
+  [
+   64,
+   57
+  ],
+  [
+   65,
+   0
+  ],
+  [
+   66,
+   -22
+  ],
+  [
+   67,
+   -60
+  ],
+  [
+   68,
+   -27
+  ],
+  [
+   69,
+   -33
+  ],
+  [
+   70,
+   -11
+  ],
+  [
+   71,
+   -14
+  ],
+  [
+   72,
+   3
+  ],
+  [
+   73,
+   16
+  ],
+  [
+   74,
+   19
+  ],
+  [
+   75,
+   8
+  ],
+  [
+   76,
+   5
+  ],
+  [
+   77,
+   5
+  ],
+  [
+   78,
+   16
+  ],
+  [
+   79,
+   3
+  ],
+  [
+   80,
+   14
+  ],
+  [
+   81,
+   -3
+  ],
+  [
+   82,
+   5
+  ],
+  [
+   83,
+   38
+  ],
+  [
+   84,
+   52
+  ],
+  [
+   85,
+   87
+  ],
+  [
+   86,
+   33
+  ],
+  [
+   87,
+   30
+  ],
+  [
+   88,
+   -5
+  ],
+  [
+   89,
+   5
+  ],
+  [
+   90,
+   11
+  ],
+  [
+   90.5,
+   13
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 37,
+   "center": 30,
+   "right": 33
   },
   "away": {
-   "team": "SCP",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 41,
+   "center": 34,
+   "right": 25
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "SCP",
+   "formation": "3-1-4-2",
+   "rating": 6.7,
+   "players": [
+    {
+     "id": 1257826,
+     "name": "Nahuel Noll",
+     "pos_id": 11,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1520469,
+     "name": "Jano ter Horst",
+     "pos_id": 33,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 1415373,
+     "name": "Tjark Scheller",
+     "pos_id": 35,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 1515976,
+     "name": "Mattes Hansen",
+     "pos_id": 37,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 1362492,
+     "name": "Santiago Castañeda",
+     "pos_id": 65,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.485
+    },
+    {
+     "id": 1426060,
+     "name": "Laurin Curda",
+     "pos_id": 72,
+     "rating": 7,
+     "captain": true,
+     "x": 0.125,
+     "y": 0.678
+    },
+    {
+     "id": 1367587,
+     "name": "Laurin Ulrich",
+     "pos_id": 74,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.678
+    },
+    {
+     "id": 1276453,
+     "name": "Gabriel Vidović",
+     "pos_id": 76,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.678
+    },
+    {
+     "id": 784225,
+     "name": "Raphael Obermair",
+     "pos_id": 78,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.678
+    },
+    {
+     "id": 956913,
+     "name": "Marvin Pieringer",
+     "pos_id": 104,
+     "rating": 5.5,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1079892,
+     "name": "Rayan Philippe",
+     "pos_id": 106,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "SCF",
+   "formation": "4-2-3-1",
+   "rating": 7.4,
+   "players": [
+    {
+     "id": 1352996,
+     "name": "Mio Backhaus",
+     "pos_id": 11,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1281090,
+     "name": "Philipp Treu",
+     "pos_id": 32,
+     "rating": 8,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 303912,
+     "name": "Matthias Ginter",
+     "pos_id": 34,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 643724,
+     "name": "Philipp Lienhart",
+     "pos_id": 36,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 1281108,
+     "name": "Jordy Makengo",
+     "pos_id": 38,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 602523,
+     "name": "Maximilian Eggestein",
+     "pos_id": 64,
+     "rating": 8.2,
+     "captain": true,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 1269497,
+     "name": "Yannik Engelhardt",
+     "pos_id": 66,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 864157,
+     "name": "Jan-Niklas Beste",
+     "pos_id": 83,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1134467,
+     "name": "Yuito Suzuki",
+     "pos_id": 85,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1302666,
+     "name": "Derry Scherhant",
+     "pos_id": 87,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 1210893,
+     "name": "Igor Matanović",
+     "pos_id": 115,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 303912,
+   "team": "SCF",
+   "name": "Matthias Ginter",
+   "keeper": false,
+   "rating": 8.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 50,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 5,
+   "interceptions": 3,
+   "recoveries": 2,
+   "duels_won": 11,
+   "duels_lost": 3
+  },
+  {
+   "id": 307209,
+   "team": "SCF",
+   "name": "Lukas Kübler",
+   "keeper": false,
+   "rating": 6.19,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 16,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 355358,
+   "team": "SCF",
+   "name": "Christian Günter",
+   "keeper": false
+  },
+  {
+   "id": 400625,
+   "team": "SCF",
+   "name": "Vincenzo Grifo",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2
+  },
+  {
+   "id": 602523,
+   "team": "SCF",
+   "name": "Maximilian Eggestein",
+   "keeper": false,
+   "rating": 8.22,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.39,
+   "xa": 0.12,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 55,
+   "touches_box": 5,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 4,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 643724,
+   "team": "SCF",
+   "name": "Philipp Lienhart",
+   "keeper": false,
+   "rating": 7.31,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 61,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 658444,
+   "team": "SCP",
+   "name": "Tom Baack",
+   "keeper": false
+  },
+  {
+   "id": 659046,
+   "team": "SCP",
+   "name": "Markus Schubert",
+   "keeper": true
+  },
+  {
+   "id": 706500,
+   "team": "SCP",
+   "name": "Steffen Tigges",
+   "keeper": false,
+   "rating": 6.03,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.12,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 27,
+   "touches_box": 6,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 8
+  },
+  {
+   "id": 737365,
+   "team": "SCF",
+   "name": "Florian Müller",
+   "keeper": true
+  },
+  {
+   "id": 784225,
+   "team": "SCP",
+   "name": "Raphael Obermair",
+   "keeper": false,
+   "rating": 6.94,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.09,
+   "key_passes": 1,
+   "touches": 59,
+   "touches_box": 1,
+   "dribbles": 2,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 864157,
+   "team": "SCF",
+   "name": "Jan-Niklas Beste",
+   "keeper": false,
+   "rating": 7.43,
+   "minutes": 74,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "xa": 0.05,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 39,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 950822,
+   "team": "SCP",
+   "name": "Oliver Batista Meier",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 1,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 956913,
+   "team": "SCP",
+   "name": "Marvin Pieringer",
+   "keeper": false,
+   "rating": 5.52,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.16,
+   "xa": 0.01,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 36,
+   "touches_box": 4,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 9
+  },
+  {
+   "id": 1079892,
+   "team": "SCP",
+   "name": "Rayan Philippe",
+   "keeper": false,
+   "rating": 6.17,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.13,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 10,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1134467,
+   "team": "SCF",
+   "name": "Yuito Suzuki",
+   "keeper": false,
+   "rating": 6.85,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 42,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 2,
+   "duels_lost": 8
+  },
+  {
+   "id": 1210893,
+   "team": "SCF",
+   "name": "Igor Matanović",
+   "keeper": false,
+   "rating": 8.19,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.44,
+   "xa": 0.03,
+   "shots": 5,
+   "key_passes": 1,
+   "touches": 62,
+   "touches_box": 5,
+   "dribbles": 2,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 11,
+   "duels_lost": 9
+  },
+  {
+   "id": 1257826,
+   "team": "SCP",
+   "name": "Nahuel Noll",
+   "keeper": true,
+   "rating": 7.9,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 11,
+   "touches": 91,
+   "tackles": 0,
+   "final_third_passes": 14,
+   "interceptions": 0
+  },
+  {
+   "id": 1269497,
+   "team": "SCF",
+   "name": "Yannik Engelhardt",
+   "keeper": false,
+   "rating": 6.21,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.17,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 31,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 6
+  },
+  {
+   "id": 1276453,
+   "team": "SCP",
+   "name": "Gabriel Vidović",
+   "keeper": false,
+   "rating": 5.91,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 2,
+   "duels_lost": 10
+  },
+  {
+   "id": 1281090,
+   "team": "SCF",
+   "name": "Philipp Treu",
+   "keeper": false,
+   "rating": 7.99,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.24,
+   "key_passes": 2,
+   "touches": 62,
+   "touches_box": 2,
+   "final_third_passes": 3,
+   "tackles": 6,
+   "interceptions": 2,
+   "recoveries": 2,
+   "duels_won": 8,
+   "duels_lost": 1
+  },
+  {
+   "id": 1281107,
+   "team": "SCF",
+   "name": "Max Rosenfelder",
+   "keeper": false
+  },
+  {
+   "id": 1281108,
+   "team": "SCF",
+   "name": "Jordy Makengo",
+   "keeper": false,
+   "rating": 7.86,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 1,
+   "touches": 59,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 10,
+   "duels_lost": 4
+  },
+  {
+   "id": 1302666,
+   "team": "SCF",
+   "name": "Derry Scherhant",
+   "keeper": false,
+   "rating": 7.32,
+   "minutes": 74,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.18,
+   "shots": 3,
+   "key_passes": 3,
+   "touches": 26,
+   "touches_box": 6,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 6
+  },
+  {
+   "id": 1321553,
+   "team": "SCP",
+   "name": "Stefano Marino",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 3,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1352996,
+   "team": "SCF",
+   "name": "Mio Backhaus",
+   "keeper": true,
+   "rating": 7.81,
+   "minutes": 90,
+   "recoveries": 11,
+   "touches": 51,
+   "duels_won": 1,
+   "tackles": 1,
+   "final_third_passes": 8,
+   "interceptions": 0
+  },
+  {
+   "id": 1362492,
+   "team": "SCP",
+   "name": "Santiago Castañeda",
+   "keeper": false,
+   "rating": 6.74,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 71,
+   "touches_box": 3,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 1367587,
+   "team": "SCP",
+   "name": "Laurin Ulrich",
+   "keeper": false,
+   "rating": 6.77,
+   "minutes": 74,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.22,
+   "xa": 0.19,
+   "shots": 3,
+   "key_passes": 2,
+   "touches": 42,
+   "touches_box": 3,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 1415373,
+   "team": "SCP",
+   "name": "Tjark Scheller",
+   "keeper": false,
+   "rating": 7.73,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 100,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 8,
+   "duels_won": 8,
+   "duels_lost": 1
+  },
+  {
+   "id": 1426060,
+   "team": "SCP",
+   "name": "Laurin Curda",
+   "keeper": false,
+   "rating": 6.98,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.13,
+   "key_passes": 2,
+   "touches": 62,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 12,
+   "duels_lost": 11
+  },
+  {
+   "id": 1436730,
+   "team": "SCF",
+   "name": "Keisuke Goto",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1515976,
+   "team": "SCP",
+   "name": "Mattes Hansen",
+   "keeper": false,
+   "rating": 7.29,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.13,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 93,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 8,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1520469,
+   "team": "SCP",
+   "name": "Jano ter Horst",
+   "keeper": false,
+   "rating": 7.16,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 76,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 3,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1520593,
+   "team": "SCP",
+   "name": "Jonah Sticker",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 1526221,
+   "team": "SCF",
+   "name": "Cyriaque Irié",
+   "keeper": false
+  },
+  {
+   "id": 1577843,
+   "team": "SCF",
+   "name": "Bruno Ogbus",
+   "keeper": false
+  },
+  {
+   "id": 1580371,
+   "team": "SCF",
+   "name": "Berkay Yılmaz",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 1586401,
+   "team": "SCP",
+   "name": "Luka Djuric",
+   "keeper": false
+  },
+  {
+   "id": 1701615,
+   "team": "SCP",
+   "name": "Clemens Lippmann",
+   "keeper": false
+  },
+  {
+   "id": 1801952,
+   "team": "SCP",
+   "name": "Niklas Mohr",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  }
+ ],
  "oldb_id": 83173,
  "matchday": 2,
  "season": 2026

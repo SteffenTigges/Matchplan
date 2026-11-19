@@ -1,24 +1,1919 @@
 {
- "fm_id": 5881302,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881144,
+ "stats": {
+  "BallPossesion": [
+   48,
+   52
+  ],
+  "expected_goals": [
+   3.72,
+   2.1
+  ],
+  "total_shots": [
+   24,
+   11
+  ],
+  "ShotsOnTarget": [
+   13,
+   5
+  ],
+  "touches_opp_box": [
+   41,
+   15
+  ],
+  "big_chance": [
+   9,
+   4
+  ],
+  "big_chance_missed_title": [
+   8,
+   4
+  ],
+  "accurate_passes": [
+   {
+    "n": 319,
+    "pct": 77
+   },
+   {
+    "n": 343,
+    "pct": 73
+   }
+  ],
+  "yellow_cards": [
+   1,
+   0
+  ],
+  "corners": [
+   11,
+   3
+  ],
+  "blocked_shots": [
+   5,
+   1
+  ],
+  "shots_inside_box": [
+   18,
+   7
+  ],
+  "expected_goals_open_play": [
+   3.14,
+   1.69
+  ],
+  "expected_goals_set_play": [
+   0.58,
+   0.41
+  ],
+  "expected_goals_on_target": [
+   3.54,
+   0.85
+  ],
+  "passes": [
+   415,
+   469
+  ],
+  "own_half_passes": [
+   170,
+   214
+  ],
+  "opposition_half_passes": [
+   149,
+   129
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 18,
+    "pct": 37
+   },
+   {
+    "n": 21,
+    "pct": 31
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 9,
+    "pct": 41
+   },
+   {
+    "n": 2,
+    "pct": 33
+   }
+  ],
+  "Offsides": [
+   3,
+   2
+  ],
+  "tackles": [
+   11,
+   10
+  ],
+  "interceptions": [
+   9,
+   4
+  ],
+  "shot_blocks": [
+   2,
+   5
+  ],
+  "clearances": [
+   28,
+   21
+  ],
+  "keeper_saves": [
+   4,
+   10
+  ],
+  "duel_won": [
+   53,
+   32
+  ],
+  "ground_duels_won": [
+   {
+    "n": 25,
+    "pct": 61
+   },
+   {
+    "n": 16,
+    "pct": 39
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 28,
+    "pct": 64
+   },
+   {
+    "n": 16,
+    "pct": 36
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 9,
+    "pct": 69
+   },
+   {
+    "n": 2,
+    "pct": 25
+   }
+  ],
+  "red_cards": [
+   0,
+   1
+  ],
+  "fouls": [
+   5,
+   6
+  ]
+ },
+ "shots": [
+  {
    "team": "S04",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Chukwubuike Adamu",
+   "min": 4,
+   "x": 86.6749999996,
+   "y": 31.4075,
+   "xg": 0.0651448667049408,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Moussa Sylla",
+   "min": 6,
+   "x": 102.155172414,
+   "y": 24.419617839300003,
+   "xg": 0.6336837410926819,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Ron Schallenberg",
+   "min": 6,
+   "x": 96.79824561320001,
+   "y": 28.286904761,
+   "xg": 0.06250917911529541,
+   "xgot": 0.2760096788406372,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Dejan Ljubičić",
+   "min": 15,
+   "x": 93,
+   "y": 23.5788535077,
+   "xg": 0.058562181890010834,
+   "xgot": 0.19772382080554962,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Chukwubuike Adamu",
+   "min": 15,
+   "x": 100.44827586240001,
+   "y": 28.454999999,
+   "xg": 0.44873154163360596,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Michael Gregoritsch",
+   "min": 18,
+   "x": 102.53448275880001,
+   "y": 32.6275,
+   "xg": 0.9449546337127686,
+   "xgot": 0.995267391204834,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 20,
+   "x": 91,
+   "y": 30.05190476,
+   "xg": 0.30237138271331787,
+   "xgot": 0.27037256956100464,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 29,
+   "x": 95.4473684198,
+   "y": 26.69,
+   "xg": 0.3612729012966156,
+   "xgot": 0.2797045409679413,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Fabian Rieder",
+   "min": 30,
+   "x": 79.55679611760002,
+   "y": 34.99125,
+   "xg": 0.0424259677529335,
+   "xgot": 0.11009059101343155,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Moussa Sylla",
+   "min": 33,
+   "x": 92.2,
+   "y": 44.4211464923,
+   "xg": 0.046326689422130585,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Moussa Sylla",
+   "min": 34,
+   "x": 100.6379310348,
+   "y": 31.559999999999995,
+   "xg": 0.3298633098602295,
+   "xgot": 0.2615121304988861,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 35,
+   "x": 88.6,
+   "y": 35.60125,
+   "xg": 0.04556999355554581,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Adil Aouchiche",
+   "min": 41,
+   "x": 87.31911764680001,
+   "y": 30.244,
+   "xg": 0.16589152812957764,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Adil Aouchiche",
+   "min": 45,
+   "x": 79.8946601952,
+   "y": 49.3256050933,
+   "xg": 0.020177699625492096,
+   "xgot": 0.11617565155029297,
+   "situation": "IndividualPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Fabian Rieder",
+   "min": 46,
+   "x": 80.68300970960001,
+   "y": 30.645,
+   "xg": 0.046659715473651886,
+   "xgot": 0.07498831301927567,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 47,
+   "x": 94.1929824545,
+   "y": 35.75375,
+   "xg": 0.08439846336841583,
+   "xgot": 0.02509414032101631,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Marius Wolf",
+   "min": 47,
+   "x": 100.44827586240001,
+   "y": 41.225952381,
+   "xg": 0.04667065665125847,
+   "xgot": 0.07528804987668991,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Moussa Sylla",
+   "min": 55,
+   "x": 79.55679611760002,
+   "y": 27.278333333000003,
+   "xg": 0.034421008080244064,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Noahkai Banks",
+   "min": 57,
+   "x": 94.4824561388,
+   "y": 24.699872616500002,
+   "xg": 0.04689616709947586,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Robin Fellhauer",
+   "min": 59,
+   "x": 80.4577669912,
+   "y": 27.614523809,
+   "xg": 0.01197865977883339,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Michael Gregoritsch",
+   "min": 64,
+   "x": 79.3315533992,
+   "y": 28.791190475,
+   "xg": 0.06527866423130035,
+   "xgot": 0.12123993784189224,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 67,
+   "x": 102.06034482780001,
+   "y": 40.973809524,
+   "xg": 0.16652998328208923,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Calvin Brackelmann",
+   "min": 69,
+   "x": 76.8538834968,
+   "y": 48.2746496788,
+   "xg": 0.01726337894797325,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Michael Gregoritsch",
+   "min": 70,
+   "x": 96.9912280694,
+   "y": 36.821250000000006,
+   "xg": 0.0840592011809349,
+   "xgot": 0.1239842101931572,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Robin Gosens",
+   "min": 71,
+   "x": 101.0172413796,
+   "y": 28.454999999,
+   "xg": 0.23938825726509094,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Robin Fellhauer",
+   "min": 71,
+   "x": 92.1,
+   "y": 41.425625,
+   "xg": 0.10998230427503586,
+   "xgot": 0.44555357098579407,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Robin Fellhauer",
+   "min": 74,
+   "x": 91.9,
+   "y": 43.3001273835,
+   "xg": 0.0738774910569191,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Michael Gregoritsch",
+   "min": 75,
+   "x": 96.7017543851,
+   "y": 35.83,
+   "xg": 0.07617952674627304,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Marius Wolf",
+   "min": 77,
+   "x": 96.79824561320001,
+   "y": 29.211428570000002,
+   "xg": 0.11400268971920013,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Calvin Brackelmann",
+   "min": 78,
+   "x": 101.8706896554,
+   "y": 39.460952381999995,
+   "xg": 0.1023508757352829,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Anton Kade",
+   "min": 79,
+   "x": 85.81617647,
+   "y": 28.454999999,
+   "xg": 0.09823949635028839,
+   "xgot": 0.6124191284179688,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Mert Kömür",
+   "min": 82,
+   "x": 96.50877192889999,
+   "y": 36.05875,
+   "xg": 0.3153456449508667,
+   "xgot": 0.2823587954044342,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Noahkai Banks",
+   "min": 85,
+   "x": 101.77586206919999,
+   "y": 29.043333332,
+   "xg": 0.14001691341400146,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Rodrigo Ribeiro",
+   "min": 87,
+   "x": 96.7017543851,
+   "y": 34.7625,
+   "xg": 0.36526164412498474,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Rodrigo Ribeiro",
+   "min": 90,
+   "x": 100.3534482762,
+   "y": 21.897324844499998,
+   "xg": 0.05924341082572937,
+   "xgot": 0.12243271619081497,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   -16
+  ],
+  [
+   2,
+   8
+  ],
+  [
+   3,
+   8
+  ],
+  [
+   4,
+   24
+  ],
+  [
+   5,
+   -11
+  ],
+  [
+   6,
+   -90
+  ],
+  [
+   7,
+   -90
+  ],
+  [
+   8,
+   -92
+  ],
+  [
+   9,
+   -24
+  ],
+  [
+   10,
+   -24
+  ],
+  [
+   11,
+   -22
+  ],
+  [
+   12,
+   -27
+  ],
+  [
+   13,
+   -24
+  ],
+  [
+   14,
+   -14
+  ],
+  [
+   15,
+   -100
+  ],
+  [
+   16,
+   -100
+  ],
+  [
+   17,
+   -100
+  ],
+  [
+   18,
+   100
+  ],
+  [
+   19,
+   100
+  ],
+  [
+   20,
+   100
+  ],
+  [
+   21,
+   52
+  ],
+  [
+   22,
+   46
+  ],
+  [
+   23,
+   11
+  ],
+  [
+   24,
+   0
+  ],
+  [
+   25,
+   16
+  ],
+  [
+   26,
+   65
+  ],
+  [
+   27,
+   81
+  ],
+  [
+   28,
+   71
+  ],
+  [
+   29,
+   68
+  ],
+  [
+   30,
+   60
+  ],
+  [
+   31,
+   38
+  ],
+  [
+   32,
+   -76
+  ],
+  [
+   33,
+   -95
+  ],
+  [
+   34,
+   -71
+  ],
+  [
+   35,
+   -8
+  ],
+  [
+   36,
+   27
+  ],
+  [
+   37,
+   41
+  ],
+  [
+   38,
+   35
+  ],
+  [
+   39,
+   0
+  ],
+  [
+   40,
+   -5
+  ],
+  [
+   41,
+   -54
+  ],
+  [
+   42,
+   -76
+  ],
+  [
+   43,
+   -87
+  ],
+  [
+   44,
+   -30
+  ],
+  [
+   45,
+   -3
+  ],
+  [
+   45.5,
+   -18
+  ],
+  [
+   46,
+   11
+  ],
+  [
+   47,
+   95
+  ],
+  [
+   48,
+   95
+  ],
+  [
+   49,
+   79
+  ],
+  [
+   50,
+   -22
+  ],
+  [
+   51,
+   -16
+  ],
+  [
+   52,
+   -27
+  ],
+  [
+   53,
+   -27
+  ],
+  [
+   54,
+   -33
+  ],
+  [
+   55,
+   -22
+  ],
+  [
+   56,
+   14
+  ],
+  [
+   57,
+   8
+  ],
+  [
+   58,
+   19
+  ],
+  [
+   59,
+   5
+  ],
+  [
+   60,
+   19
+  ],
+  [
+   61,
+   14
+  ],
+  [
+   62,
+   3
+  ],
+  [
+   63,
+   -5
+  ],
+  [
+   64,
+   -5
+  ],
+  [
+   65,
+   -30
+  ],
+  [
+   66,
+   -19
+  ],
+  [
+   67,
+   100
+  ],
+  [
+   68,
+   100
+  ],
+  [
+   69,
+   100
+  ],
+  [
+   70,
+   84
+  ],
+  [
+   71,
+   -19
+  ],
+  [
+   72,
+   -57
+  ],
+  [
+   73,
+   -92
+  ],
+  [
+   74,
+   22
+  ],
+  [
+   75,
+   65
+  ],
+  [
+   76,
+   54
+  ],
+  [
+   77,
+   49
+  ],
+  [
+   78,
+   81
+  ],
+  [
+   79,
+   98
+  ],
+  [
+   80,
+   76
+  ],
+  [
+   81,
+   16
+  ],
+  [
+   82,
+   41
+  ],
+  [
+   83,
+   35
+  ],
+  [
+   84,
+   68
+  ],
+  [
+   85,
+   100
+  ],
+  [
+   86,
+   100
+  ],
+  [
+   87,
+   100
+  ],
+  [
+   88,
+   41
+  ],
+  [
+   89,
+   19
+  ],
+  [
+   90,
+   5
+  ],
+  [
+   90.5,
+   20
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 41,
+   "center": 28,
+   "right": 31
   },
   "away": {
-   "team": "FCA",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 33,
+   "center": 28,
+   "right": 39
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "FCA",
+   "formation": "3-4-2-1",
+   "rating": 7.9,
+   "players": [
+    {
+     "id": 926445,
+     "name": "Finn Dahmen",
+     "pos_id": 11,
+     "rating": 8.3,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1641063,
+     "name": "Noahkai Banks",
+     "pos_id": 33,
+     "rating": 8,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 1178512,
+     "name": "Chrislain Matsima",
+     "pos_id": 35,
+     "rating": 8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 1300329,
+     "name": "Calvin Brackelmann",
+     "pos_id": 37,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 556029,
+     "name": "Marius Wolf",
+     "pos_id": 62,
+     "rating": 8.4,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "id": 978680,
+     "name": "Han-Noah Massengo",
+     "pos_id": 64,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "id": 1161211,
+     "name": "Fabian Rieder",
+     "pos_id": 66,
+     "rating": 8.4,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "id": 1678681,
+     "name": "Hennes Behrens",
+     "pos_id": 68,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "id": 1310103,
+     "name": "Anton Kade",
+     "pos_id": 84,
+     "rating": 8.8,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "id": 1185609,
+     "name": "Robin Fellhauer",
+     "pos_id": 86,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "id": 198316,
+     "name": "Michael Gregoritsch",
+     "pos_id": 105,
+     "rating": 8.3,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "S04",
+   "formation": "3-4-2-1",
+   "rating": 6.2,
+   "players": [
+    {
+     "id": 287894,
+     "name": "Loris Karius",
+     "pos_id": 11,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 785739,
+     "name": "Timo Becker",
+     "pos_id": 33,
+     "rating": 6.1,
+     "captain": true,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 725655,
+     "name": "Nikola Katić",
+     "pos_id": 35,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 794619,
+     "name": "Hasan Kuruçay",
+     "pos_id": 37,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 861668,
+     "name": "Dejan Ljubičić",
+     "pos_id": 62,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "id": 1249185,
+     "name": "Soufian El-Faouzi",
+     "pos_id": 64,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "id": 820974,
+     "name": "Ron Schallenberg",
+     "pos_id": 66,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "id": 1659420,
+     "name": "Vitalie Becker",
+     "pos_id": 68,
+     "rating": 6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "id": 882163,
+     "name": "Chukwubuike Adamu",
+     "pos_id": 84,
+     "rating": 6,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "id": 1047664,
+     "name": "Adil Aouchiche",
+     "pos_id": 86,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "id": 860056,
+     "name": "Moussa Sylla",
+     "pos_id": 105,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 15403,
+   "team": "S04",
+   "name": "Edin Džeko",
+   "keeper": false,
+   "rating": 5.91,
+   "minutes": 14,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 198316,
+   "team": "FCA",
+   "name": "Michael Gregoritsch",
+   "keeper": false,
+   "rating": 8.32,
+   "minutes": 83,
+   "goals": 1,
+   "assists": 0,
+   "xg": 1.17,
+   "xa": 0.09,
+   "shots": 4,
+   "key_passes": 1,
+   "touches": 32,
+   "touches_box": 5,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 7,
+   "duels_lost": 5
+  },
+  {
+   "id": 215159,
+   "team": "S04",
+   "name": "Kevin Müller",
+   "keeper": true
+  },
+  {
+   "id": 245315,
+   "team": "FCA",
+   "name": "Jeffrey Gouweleeuw",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 287894,
+   "team": "S04",
+   "name": "Loris Karius",
+   "keeper": true,
+   "rating": 7.4,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 16,
+   "touches": 57,
+   "tackles": 0,
+   "final_third_passes": 9,
+   "interceptions": 0
+  },
+  {
+   "id": 518346,
+   "team": "S04",
+   "name": "Robin Gosens",
+   "keeper": false,
+   "rating": 6.02,
+   "minutes": 28,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.24,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 15,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 556029,
+   "team": "FCA",
+   "name": "Marius Wolf",
+   "keeper": false,
+   "rating": 8.4,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.16,
+   "xa": 1.15,
+   "shots": 2,
+   "key_passes": 7,
+   "touches": 38,
+   "touches_box": 9,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 4
+  },
+  {
+   "id": 560976,
+   "team": "S04",
+   "name": "Janik Bachmann",
+   "keeper": false
+  },
+  {
+   "id": 701149,
+   "team": "S04",
+   "name": "Maximilian Wöber",
+   "keeper": false,
+   "rating": 4.64,
+   "minutes": 28,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 19,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 4
+  },
+  {
+   "id": 725655,
+   "team": "S04",
+   "name": "Nikola Katić",
+   "keeper": false,
+   "rating": 6.77,
+   "minutes": 76,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 76,
+   "touches_box": 2,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 6,
+   "duels_lost": 7
+  },
+  {
+   "id": 785739,
+   "team": "S04",
+   "name": "Timo Becker",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 88,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 7,
+   "duels_lost": 4
+  },
+  {
+   "id": 794619,
+   "team": "S04",
+   "name": "Hasan Kuruçay",
+   "keeper": false,
+   "rating": 6.74,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 70,
+   "touches_box": 0,
+   "final_third_passes": 10,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 820974,
+   "team": "S04",
+   "name": "Ron Schallenberg",
+   "keeper": false,
+   "rating": 5.3,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 1,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 844431,
+   "team": "FCA",
+   "name": "Yannik Keitel",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 860056,
+   "team": "S04",
+   "name": "Moussa Sylla",
+   "keeper": false,
+   "rating": 6.4,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 1.04,
+   "xa": 0.05,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 28,
+   "touches_box": 6,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 6
+  },
+  {
+   "id": 861668,
+   "team": "S04",
+   "name": "Dejan Ljubičić",
+   "keeper": false,
+   "rating": 6.19,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.16,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 43,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 9,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 882163,
+   "team": "S04",
+   "name": "Chukwubuike Adamu",
+   "keeper": false,
+   "rating": 5.98,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.51,
+   "xa": 0.47,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 27,
+   "touches_box": 2,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 2,
+   "duels_lost": 5
+  },
+  {
+   "id": 926445,
+   "team": "FCA",
+   "name": "Finn Dahmen",
+   "keeper": true,
+   "rating": 8.31,
+   "minutes": 90,
+   "recoveries": 14,
+   "touches": 53,
+   "duels_won": 1,
+   "duels_lost": 1,
+   "tackles": 0,
+   "final_third_passes": 3,
+   "interceptions": 0
+  },
+  {
+   "id": 978680,
+   "team": "FCA",
+   "name": "Han-Noah Massengo",
+   "keeper": false,
+   "rating": 7.56,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.3,
+   "key_passes": 4,
+   "touches": 46,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1040889,
+   "team": "S04",
+   "name": "Junior Dina Ebimbe",
+   "keeper": false,
+   "rating": 5.84,
+   "minutes": 28,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 3
+  },
+  {
+   "id": 1047664,
+   "team": "S04",
+   "name": "Adil Aouchiche",
+   "keeper": false,
+   "rating": 6.72,
+   "minutes": 86,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.19,
+   "xa": 0.39,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 50,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 11,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 2,
+   "duels_lost": 6
+  },
+  {
+   "id": 1049799,
+   "team": "FCA",
+   "name": "Nathanaël Mbuku",
+   "keeper": false
+  },
+  {
+   "id": 1132818,
+   "team": "FCA",
+   "name": "Seol Young-Woo",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 2,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1155066,
+   "team": "S04",
+   "name": "Satoshi Tanaka",
+   "keeper": false
+  },
+  {
+   "id": 1161211,
+   "team": "FCA",
+   "name": "Fabian Rieder",
+   "keeper": false,
+   "rating": 8.38,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.09,
+   "xa": 0.29,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 48,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1178512,
+   "team": "FCA",
+   "name": "Chrislain Matsima",
+   "keeper": false,
+   "rating": 7.96,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 1,
+   "touches": 54,
+   "touches_box": 0,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 1185609,
+   "team": "FCA",
+   "name": "Robin Fellhauer",
+   "keeper": false,
+   "rating": 6.65,
+   "minutes": 76,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.2,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 37,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 6
+  },
+  {
+   "id": 1249185,
+   "team": "S04",
+   "name": "Soufian El-Faouzi",
+   "keeper": false,
+   "rating": 7.07,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.53,
+   "key_passes": 2,
+   "touches": 56,
+   "touches_box": 1,
+   "final_third_passes": 7,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "id": 1284464,
+   "team": "FCA",
+   "name": "Nediljko Labrović",
+   "keeper": true
+  },
+  {
+   "id": 1300329,
+   "team": "FCA",
+   "name": "Calvin Brackelmann",
+   "keeper": false,
+   "rating": 7.87,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.04,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 67,
+   "touches_box": 3,
+   "final_third_passes": 6,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 12,
+   "duels_lost": 2
+  },
+  {
+   "id": 1310103,
+   "team": "FCA",
+   "name": "Anton Kade",
+   "keeper": false,
+   "rating": 8.81,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 1,
+   "xg": 1.06,
+   "xa": 0.88,
+   "shots": 6,
+   "key_passes": 3,
+   "touches": 46,
+   "touches_box": 11,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 7
+  },
+  {
+   "id": 1343749,
+   "team": "FCA",
+   "name": "Rodrigo Ribeiro",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.42,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1453218,
+   "team": "FCA",
+   "name": "Mert Kömür",
+   "keeper": false,
+   "rating": 6.6,
+   "minutes": 14,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.32,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 16,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 1641063,
+   "team": "FCA",
+   "name": "Noahkai Banks",
+   "keeper": false,
+   "rating": 8.04,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.19,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 73,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 6,
+   "duels_lost": 2
+  },
+  {
+   "id": 1659420,
+   "team": "S04",
+   "name": "Vitalie Becker",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.21,
+   "key_passes": 1,
+   "touches": 30,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1678681,
+   "team": "FCA",
+   "name": "Hennes Behrens",
+   "keeper": false,
+   "rating": 8.24,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.12,
+   "key_passes": 1,
+   "touches": 81,
+   "touches_box": 3,
+   "dribbles": 3,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 8,
+   "duels_won": 6,
+   "duels_lost": 1
+  },
+  {
+   "id": 1718174,
+   "team": "FCA",
+   "name": "Uchenna Ogundu",
+   "keeper": false
+  },
+  {
+   "id": 1755657,
+   "team": "S04",
+   "name": "Mertcan Ayhan",
+   "keeper": false,
+   "minutes": 4,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1842512,
+   "team": "S04",
+   "name": "Luca Vozar",
+   "keeper": false
+  },
+  {
+   "id": 1875448,
+   "team": "FCA",
+   "name": "Tim Schnitzer",
+   "keeper": false
+  }
+ ],
  "oldb_id": 83160,
  "matchday": 1,
  "season": 2026

@@ -1,24 +1,2008 @@
 {
- "fm_id": 5881309,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881159,
+ "stats": {
+  "BallPossesion": [
+   58,
+   42
+  ],
+  "expected_goals": [
+   3.47,
+   2.79
+  ],
+  "total_shots": [
+   22,
+   17
+  ],
+  "ShotsOnTarget": [
+   8,
+   3
+  ],
+  "touches_opp_box": [
+   38,
+   22
+  ],
+  "big_chance": [
+   5,
+   4
+  ],
+  "big_chance_missed_title": [
+   4,
+   4
+  ],
+  "accurate_passes": [
+   {
+    "n": 450,
+    "pct": 86
+   },
+   {
+    "n": 316,
+    "pct": 84
+   }
+  ],
+  "yellow_cards": [
+   1,
+   3
+  ],
+  "corners": [
+   10,
+   8
+  ],
+  "blocked_shots": [
+   6,
+   4
+  ],
+  "shots_inside_box": [
+   15,
+   13
+  ],
+  "expected_goals_open_play": [
+   2.74,
+   1.87
+  ],
+  "expected_goals_set_play": [
+   0.74,
+   0.92
+  ],
+  "expected_goals_on_target": [
+   2.65,
+   1.02
+  ],
+  "passes": [
+   526,
+   378
+  ],
+  "own_half_passes": [
+   187,
+   204
+  ],
+  "opposition_half_passes": [
+   263,
+   112
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 26,
+    "pct": 59
+   },
+   {
+    "n": 23,
+    "pct": 40
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 9,
+    "pct": 36
+   },
+   {
+    "n": 2,
+    "pct": 13
+   }
+  ],
+  "Offsides": [
+   1,
+   0
+  ],
+  "tackles": [
+   12,
+   8
+  ],
+  "interceptions": [
+   7,
+   10
+  ],
+  "shot_blocks": [
+   4,
+   6
+  ],
+  "clearances": [
+   23,
+   29
+  ],
+  "keeper_saves": [
+   3,
+   4
+  ],
+  "duel_won": [
+   42,
+   37
+  ],
+  "ground_duels_won": [
+   {
+    "n": 21,
+    "pct": 50
+   },
+   {
+    "n": 21,
+    "pct": 50
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 21,
+    "pct": 57
+   },
+   {
+    "n": 16,
+    "pct": 43
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 3,
+    "pct": 38
+   },
+   {
+    "n": 9,
+    "pct": 53
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   5,
+   6
+  ]
+ },
+ "shots": [
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 4,
+   "x": 88.1779411764,
+   "y": 44.5612738809,
+   "xg": 0.07316121459007263,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
    "team": "KOE",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Linton Maina",
+   "min": 6,
+   "x": 94.2894736826,
+   "y": 17.7635668808,
+   "xg": 0.028921371325850487,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Josha Vagnoman",
+   "min": 9,
+   "x": 102.9137931036,
+   "y": 30.492499999999996,
+   "xg": 0.6158475279808044,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 15,
+   "x": 100.732758621,
+   "y": 33.61875,
+   "xg": 0.2740715742111206,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 16,
+   "x": 90.7,
+   "y": 28.959285713000003,
+   "xg": 0.14845630526542664,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Gideon Mensah",
+   "min": 19,
+   "x": 83.0480582528,
+   "y": 46.1727388498,
+   "xg": 0.032411761581897736,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Deniz Undav",
+   "min": 19,
+   "x": 92.6,
+   "y": 37.05,
+   "xg": 0.30755144357681274,
+   "xgot": 0.31025201082229614,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Josha Vagnoman",
+   "min": 22,
+   "x": 83.8364077672,
+   "y": 26.774047619,
+   "xg": 0.06210867315530777,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 22,
+   "x": 91,
+   "y": 25.938437500000003,
+   "xg": 0.05929679051041603,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Jeff Chabot",
+   "min": 30,
+   "x": 98.14912280659999,
+   "y": 34.1525,
+   "xg": 0.1049489825963974,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 35,
+   "x": 95.4473684198,
+   "y": 31.4075,
+   "xg": 0.10911040753126144,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 36,
+   "x": 76.966504856,
+   "y": 41.656875,
+   "xg": 0.013820291496813297,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Bilal El Khannouss",
+   "min": 39,
+   "x": 92.7,
+   "y": 30.316,
+   "xg": 0.1760941445827484,
+   "xgot": 0.3998241424560547,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Jan Thielmann",
+   "min": 43,
+   "x": 77.3043689336,
+   "y": 33.92375,
+   "xg": 0.018030276522040367,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Luka Lochoshvili",
+   "min": 43,
+   "x": 97.8596491223,
+   "y": 30.316,
+   "xg": 0.0950031504034996,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Gideon Mensah",
+   "min": 47,
+   "x": 84.286893204,
+   "y": 37.50750000000001,
+   "xg": 0.03373020514845848,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ellyes Skhiri",
+   "min": 47,
+   "x": 101.9655172416,
+   "y": 31.865,
+   "xg": 0.5496370792388916,
+   "xgot": 0.849094569683075,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ellyes Skhiri",
+   "min": 49,
+   "x": 95.8333333322,
+   "y": 29.883809522,
+   "xg": 0.02536555752158165,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Mikey Moore",
+   "min": 53,
+   "x": 97.0877192975,
+   "y": 47.5740127358,
+   "xg": 0.09635715186595917,
+   "xgot": 0.10174461454153061,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Tom Krauß",
+   "min": 53,
+   "x": 96.0263157884,
+   "y": 47.2937579586,
+   "xg": 0.1121840626001358,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Mikey Moore",
+   "min": 56,
+   "x": 93.9,
+   "y": 22.597961787499997,
+   "xg": 0.16932588815689087,
+   "xgot": 0.07039465010166168,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ragnar Ache",
+   "min": 56,
+   "x": 96.2192982446,
+   "y": 28.202857142,
+   "xg": 0.21318508684635162,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ísak Jóhannesson",
+   "min": 57,
+   "x": 90.4,
+   "y": 34.38125,
+   "xg": 0.14729231595993042,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Tom Krauß",
+   "min": 58,
+   "x": 91.4,
+   "y": 34.7625,
+   "xg": 0.1671069860458374,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 60,
+   "x": 93.1,
+   "y": 36.135000000000005,
+   "xg": 0.35600146651268005,
+   "xgot": 0.6422631740570068,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 63,
+   "x": 96.8947368413,
+   "y": 36.135000000000005,
+   "xg": 0.11206544935703278,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Angelo Stiller",
+   "min": 63,
+   "x": 90.5,
+   "y": 23.158471341899997,
+   "xg": 0.05903956666588783,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Bilal El Khannouss",
+   "min": 66,
+   "x": 86.5676470584,
+   "y": 41.057857143,
+   "xg": 0.048188574612140656,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 66,
+   "x": 98.4385964909,
+   "y": 34.1525,
+   "xg": 0.21537061035633087,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Dženan Pejčinović",
+   "min": 71,
+   "x": 88.28529411759999,
+   "y": 34.533750000000005,
+   "xg": 0.2749750316143036,
+   "xgot": 0.4614541530609131,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Jeff Chabot",
+   "min": 72,
+   "x": 99.8793103452,
+   "y": 33.77125,
+   "xg": 0.18668489158153534,
+   "xgot": 0.5622840523719788,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Ragnar Ache",
+   "min": 74,
+   "x": 93.2,
+   "y": 23.0183439533,
+   "xg": 0.05623531714081764,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 75,
+   "x": 101.206896552,
+   "y": 23.158471341899997,
+   "xg": 0.15126584470272064,
+   "xgot": 0.1568036675453186,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Reigan Heskey",
+   "min": 79,
+   "x": 80.0072815544,
+   "y": 32.0175,
+   "xg": 0.03706691414117813,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Marius Bülter",
+   "min": 80,
+   "x": 97.3771929818,
+   "y": 43.440254772100005,
+   "xg": 0.12196137756109238,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ramon Hendriks",
+   "min": 81,
+   "x": 2.0862068964000002,
+   "y": 34.1525,
+   "xg": null,
+   "xgot": 0.9944856762886047,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": true
+  },
+  {
+   "team": "KOE",
+   "player": "Marius Bülter",
+   "min": 81,
+   "x": 101.9655172416,
+   "y": 33.61875,
+   "xg": 0.9238693714141846,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Finn Jeltsch",
+   "min": 87,
+   "x": 77.1917475744,
+   "y": 28.118809523000003,
+   "xg": 0.020672669634222984,
+   "xgot": 0.05275576561689377,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Leo Sauer",
+   "min": 88,
+   "x": 94.09649122639999,
+   "y": 43.860636937900004,
+   "xg": 0.06525643914937973,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Josha Vagnoman",
+   "min": 90,
+   "x": 82.7101941752,
+   "y": 34.305,
+   "xg": 0.040870241820812225,
+   "xgot": 0.059635844081640244,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   22
+  ],
+  [
+   2,
+   22
+  ],
+  [
+   3,
+   43
+  ],
+  [
+   4,
+   43
+  ],
+  [
+   5,
+   54
+  ],
+  [
+   6,
+   22
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   8,
+   -16
+  ],
+  [
+   9,
+   54
+  ],
+  [
+   10,
+   65
+  ],
+  [
+   11,
+   81
+  ],
+  [
+   12,
+   33
+  ],
+  [
+   13,
+   43
+  ],
+  [
+   14,
+   49
+  ],
+  [
+   15,
+   100
+  ],
+  [
+   16,
+   100
+  ],
+  [
+   17,
+   100
+  ],
+  [
+   18,
+   5
+  ],
+  [
+   19,
+   38
+  ],
+  [
+   20,
+   33
+  ],
+  [
+   21,
+   65
+  ],
+  [
+   22,
+   73
+  ],
+  [
+   23,
+   79
+  ],
+  [
+   24,
+   43
+  ],
+  [
+   25,
+   -24
+  ],
+  [
+   26,
+   -19
+  ],
+  [
+   27,
+   5
+  ],
+  [
+   28,
+   38
+  ],
+  [
+   29,
+   54
+  ],
+  [
+   30,
+   98
+  ],
+  [
+   31,
+   76
+  ],
+  [
+   32,
+   65
+  ],
+  [
+   33,
+   14
+  ],
+  [
+   34,
+   -3
+  ],
+  [
+   35,
+   52
+  ],
+  [
+   36,
+   38
+  ],
+  [
+   37,
+   71
+  ],
+  [
+   38,
+   30
+  ],
+  [
+   39,
+   100
+  ],
+  [
+   40,
+   100
+  ],
+  [
+   41,
+   100
+  ],
+  [
+   42,
+   5
+  ],
+  [
+   43,
+   -19
+  ],
+  [
+   44,
+   19
+  ],
+  [
+   45,
+   24
+  ],
+  [
+   45.5,
+   27
+  ],
+  [
+   46,
+   -30
+  ],
+  [
+   47,
+   -24
+  ],
+  [
+   48,
+   -52
+  ],
+  [
+   49,
+   -41
+  ],
+  [
+   50,
+   -3
+  ],
+  [
+   51,
+   19
+  ],
+  [
+   52,
+   33
+  ],
+  [
+   53,
+   -60
+  ],
+  [
+   54,
+   -60
+  ],
+  [
+   55,
+   -54
+  ],
+  [
+   56,
+   -11
+  ],
+  [
+   57,
+   -46
+  ],
+  [
+   58,
+   -71
+  ],
+  [
+   59,
+   -49
+  ],
+  [
+   60,
+   100
+  ],
+  [
+   61,
+   100
+  ],
+  [
+   62,
+   100
+  ],
+  [
+   63,
+   30
+  ],
+  [
+   64,
+   35
+  ],
+  [
+   65,
+   19
+  ],
+  [
+   66,
+   84
+  ],
+  [
+   67,
+   62
+  ],
+  [
+   68,
+   76
+  ],
+  [
+   69,
+   -19
+  ],
+  [
+   70,
+   -3
+  ],
+  [
+   71,
+   -5
+  ],
+  [
+   72,
+   65
+  ],
+  [
+   73,
+   71
+  ],
+  [
+   74,
+   49
+  ],
+  [
+   75,
+   16
+  ],
+  [
+   76,
+   11
+  ],
+  [
+   77,
+   27
+  ],
+  [
+   78,
+   -5
+  ],
+  [
+   79,
+   -11
+  ],
+  [
+   80,
+   -35
+  ],
+  [
+   81,
+   -100
+  ],
+  [
+   82,
+   -100
+  ],
+  [
+   83,
+   -100
+  ],
+  [
+   84,
+   -38
+  ],
+  [
+   85,
+   -49
+  ],
+  [
+   86,
+   -11
+  ],
+  [
+   87,
+   0
+  ],
+  [
+   88,
+   24
+  ],
+  [
+   89,
+   30
+  ],
+  [
+   90,
+   57
+  ],
+  [
+   90.5,
+   11
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 42,
+   "center": 34,
+   "right": 24
   },
   "away": {
-   "team": "VFB",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 36,
+   "center": 28,
+   "right": 36
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "VFB",
+   "formation": "3-4-2-1",
+   "rating": 7.5,
+   "players": [
+    {
+     "id": 522236,
+     "name": "Fabian Bredlow",
+     "pos_id": 11,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1487877,
+     "name": "Finn Jeltsch",
+     "pos_id": 33,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 867080,
+     "name": "Jeff Chabot",
+     "pos_id": 35,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 614384,
+     "name": "Maximilian Mittelstädt",
+     "pos_id": 37,
+     "rating": 8.4,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 928454,
+     "name": "Josha Vagnoman",
+     "pos_id": 62,
+     "rating": 8.9,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "id": 625175,
+     "name": "Grischa Prömel",
+     "pos_id": 64,
+     "rating": 8,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "id": 1071186,
+     "name": "Angelo Stiller",
+     "pos_id": 66,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "id": 892679,
+     "name": "Chris Führich",
+     "pos_id": 68,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "id": 661519,
+     "name": "Deniz Undav",
+     "pos_id": 84,
+     "rating": 7.1,
+     "captain": true,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "id": 1340895,
+     "name": "Bilal El Khannouss",
+     "pos_id": 86,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "id": 1366602,
+     "name": "Dženan Pejčinović",
+     "pos_id": 105,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "KOE",
+   "formation": "4-3-3",
+   "rating": 6.2,
+   "players": [
+    {
+     "id": 573465,
+     "name": "Marvin Schwäbe",
+     "pos_id": 11,
+     "rating": 5.3,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 748620,
+     "name": "Alessio Castro-Montes",
+     "pos_id": 32,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 1463271,
+     "name": "Jahmai Simpson-Pusey",
+     "pos_id": 34,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 784175,
+     "name": "Luka Lochoshvili",
+     "pos_id": 36,
+     "rating": 4.8,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 771630,
+     "name": "Gideon Mensah",
+     "pos_id": 38,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1000428,
+     "name": "Ísak Jóhannesson",
+     "pos_id": 73,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "id": 992060,
+     "name": "Tom Krauß",
+     "pos_id": 75,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 1527363,
+     "name": "Paul Okon-Engstler",
+     "pos_id": 77,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "id": 1119643,
+     "name": "Jan Thielmann",
+     "pos_id": 103,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.87
+    },
+    {
+     "id": 772193,
+     "name": "Ragnar Ache",
+     "pos_id": 105,
+     "rating": 6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    },
+    {
+     "id": 930035,
+     "name": "Linton Maina",
+     "pos_id": 107,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 41087,
+   "team": "KOE",
+   "name": "Ron-Robert Zieler",
+   "keeper": true
+  },
+  {
+   "id": 522236,
+   "team": "VFB",
+   "name": "Fabian Bredlow",
+   "keeper": true,
+   "rating": 7.9,
+   "minutes": 90,
+   "recoveries": 4,
+   "touches": 29,
+   "tackles": 0,
+   "final_third_passes": 1,
+   "interceptions": 0
+  },
+  {
+   "id": 573465,
+   "team": "KOE",
+   "name": "Marvin Schwäbe",
+   "keeper": true,
+   "rating": 5.34,
+   "minutes": 90,
+   "recoveries": 7,
+   "touches": 60,
+   "tackles": 0,
+   "final_third_passes": 7,
+   "interceptions": 0
+  },
+  {
+   "id": 574642,
+   "team": "KOE",
+   "name": "Ellyes Skhiri",
+   "keeper": false,
+   "rating": 6.15,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.57,
+   "xa": 0.04,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 27,
+   "touches_box": 2,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "id": 614384,
+   "team": "VFB",
+   "name": "Maximilian Mittelstädt",
+   "keeper": false,
+   "rating": 8.43,
+   "minutes": 78,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.57,
+   "key_passes": 4,
+   "touches": 83,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 622091,
+   "team": "KOE",
+   "name": "Borna Sosa",
+   "keeper": false
+  },
+  {
+   "id": 625175,
+   "team": "VFB",
+   "name": "Grischa Prömel",
+   "keeper": false,
+   "rating": 8.04,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.56,
+   "xa": 0.1,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 53,
+   "touches_box": 4,
+   "final_third_passes": 7,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 626890,
+   "team": "KOE",
+   "name": "Marius Bülter",
+   "keeper": false,
+   "rating": 6.34,
+   "minutes": 15,
+   "goals": 0,
+   "assists": 0,
+   "xg": 1.05,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 10,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "id": 659086,
+   "team": "VFB",
+   "name": "Marius Funk",
+   "keeper": true
+  },
+  {
+   "id": 661519,
+   "team": "VFB",
+   "name": "Deniz Undav",
+   "keeper": false,
+   "rating": 7.06,
+   "minutes": 70,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.31,
+   "xa": 0.08,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 36,
+   "touches_box": 3,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 684983,
+   "team": "VFB",
+   "name": "Atakan Karazor",
+   "keeper": false
+  },
+  {
+   "id": 748620,
+   "team": "KOE",
+   "name": "Alessio Castro-Montes",
+   "keeper": false,
+   "rating": 6.85,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 1,
+   "touches": 55,
+   "touches_box": 2,
+   "dribbles": 2,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 8,
+   "duels_won": 6,
+   "duels_lost": 3
+  },
+  {
+   "id": 771630,
+   "team": "KOE",
+   "name": "Gideon Mensah",
+   "keeper": false,
+   "rating": 5.68,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 7,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 772193,
+   "team": "KOE",
+   "name": "Ragnar Ache",
+   "keeper": false,
+   "rating": 6.02,
+   "minutes": 75,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.27,
+   "xa": 0.05,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 28,
+   "touches_box": 4,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 11
+  },
+  {
+   "id": 784175,
+   "team": "KOE",
+   "name": "Luka Lochoshvili",
+   "keeper": false,
+   "rating": 4.83,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 55,
+   "touches_box": 1,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 6
+  },
+  {
+   "id": 840241,
+   "team": "VFB",
+   "name": "Ermedin Demirović",
+   "keeper": false,
+   "rating": 7.82,
+   "minutes": 20,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.15,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 10,
+   "touches_box": 1,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 3
+  },
+  {
+   "id": 867080,
+   "team": "VFB",
+   "name": "Jeff Chabot",
+   "keeper": false,
+   "rating": 8.07,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.29,
+   "xa": 0.03,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 75,
+   "touches_box": 2,
+   "final_third_passes": 9,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 9,
+   "duels_lost": 5
+  },
+  {
+   "id": 892679,
+   "team": "VFB",
+   "name": "Chris Führich",
+   "keeper": false,
+   "rating": 7.57,
+   "minutes": 70,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.23,
+   "key_passes": 3,
+   "touches": 59,
+   "touches_box": 7,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 916092,
+   "team": "KOE",
+   "name": "Imad Rondić",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 928454,
+   "team": "VFB",
+   "name": "Josha Vagnoman",
+   "keeper": false,
+   "rating": 8.88,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 1,
+   "xg": 0.72,
+   "xa": 0.19,
+   "shots": 3,
+   "key_passes": 4,
+   "touches": 65,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 930035,
+   "team": "KOE",
+   "name": "Linton Maina",
+   "keeper": false,
+   "rating": 6.78,
+   "minutes": 75,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 34,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 992060,
+   "team": "KOE",
+   "name": "Tom Krauß",
+   "keeper": false,
+   "rating": 6.56,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.28,
+   "xa": 0.07,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 48,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 1000428,
+   "team": "KOE",
+   "name": "Ísak Jóhannesson",
+   "keeper": false,
+   "rating": 6.15,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.15,
+   "xa": 0.07,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 43,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 1003254,
+   "team": "KOE",
+   "name": "Joël Schmied",
+   "keeper": false
+  },
+  {
+   "id": 1019947,
+   "team": "VFB",
+   "name": "Leonidas Stergiou",
+   "keeper": false
+  },
+  {
+   "id": 1071186,
+   "team": "VFB",
+   "name": "Angelo Stiller",
+   "keeper": false,
+   "rating": 7.36,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.09,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 87,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 1074968,
+   "team": "VFB",
+   "name": "Jamie Leweling",
+   "keeper": false,
+   "rating": 6.01,
+   "minutes": 20,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1119643,
+   "team": "KOE",
+   "name": "Jan Thielmann",
+   "keeper": false,
+   "rating": 6.54,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 18,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1125187,
+   "team": "VFB",
+   "name": "Ramon Hendriks",
+   "keeper": false,
+   "rating": 5.2,
+   "minutes": 12,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1199391,
+   "team": "KOE",
+   "name": "Rav van den Berg",
+   "keeper": false
+  },
+  {
+   "id": 1279764,
+   "team": "VFB",
+   "name": "Ameen Al Dakhil",
+   "keeper": false
+  },
+  {
+   "id": 1340895,
+   "team": "VFB",
+   "name": "Bilal El Khannouss",
+   "keeper": false,
+   "rating": 8.22,
+   "minutes": 78,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.22,
+   "xa": 0.69,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 49,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1366602,
+   "team": "VFB",
+   "name": "Dženan Pejčinović",
+   "keeper": false,
+   "rating": 7.53,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.86,
+   "xa": 0.03,
+   "shots": 6,
+   "key_passes": 0,
+   "touches": 43,
+   "touches_box": 6,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 6
+  },
+  {
+   "id": 1407250,
+   "team": "KOE",
+   "name": "Mikey Moore",
+   "keeper": false,
+   "rating": 6.7,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.27,
+   "xa": 0.64,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 22,
+   "touches_box": 5,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1425998,
+   "team": "VFB",
+   "name": "Leo Sauer",
+   "keeper": false,
+   "rating": 6.07,
+   "minutes": 12,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1463271,
+   "team": "KOE",
+   "name": "Jahmai Simpson-Pusey",
+   "keeper": false,
+   "rating": 6.21,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 64,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 7,
+   "duels_lost": 3
+  },
+  {
+   "id": 1487877,
+   "team": "VFB",
+   "name": "Finn Jeltsch",
+   "keeper": false,
+   "rating": 8.17,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.24,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 76,
+   "touches_box": 1,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "id": 1527363,
+   "team": "KOE",
+   "name": "Paul Okon-Engstler",
+   "keeper": false,
+   "rating": 6.18,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 32,
+   "touches_box": 0,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1665352,
+   "team": "KOE",
+   "name": "Reigan Heskey",
+   "keeper": false,
+   "rating": 5.97,
+   "minutes": 15,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1793638,
+   "team": "VFB",
+   "name": "Yanik Spalt",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  }
+ ],
  "oldb_id": 83165,
  "matchday": 2,
  "season": 2026

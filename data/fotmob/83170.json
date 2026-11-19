@@ -1,24 +1,1794 @@
 {
- "fm_id": 5881311,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881155,
+ "stats": {
+  "BallPossesion": [
+   55,
+   45
+  ],
+  "expected_goals": [
+   0.19,
+   2.77
+  ],
+  "total_shots": [
+   8,
+   17
+  ],
+  "ShotsOnTarget": [
+   1,
+   8
+  ],
+  "touches_opp_box": [
+   13,
+   45
+  ],
+  "big_chance": [
+   0,
+   5
+  ],
+  "big_chance_missed_title": [
+   0,
+   1
+  ],
+  "accurate_passes": [
+   {
+    "n": 347,
+    "pct": 82
+   },
+   {
+    "n": 269,
+    "pct": 77
+   }
+  ],
+  "yellow_cards": [
+   1,
+   3
+  ],
+  "corners": [
+   4,
+   5
+  ],
+  "blocked_shots": [
+   5,
+   2
+  ],
+  "shots_inside_box": [
+   3,
+   14
+  ],
+  "expected_goals_open_play": [
+   0.11,
+   2.58
+  ],
+  "expected_goals_set_play": [
+   0.08,
+   0.2
+  ],
+  "expected_goals_on_target": [
+   0.05,
+   2.96
+  ],
+  "passes": [
+   421,
+   350
+  ],
+  "own_half_passes": [
+   201,
+   124
+  ],
+  "opposition_half_passes": [
+   146,
+   145
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 21,
+    "pct": 51
+   },
+   {
+    "n": 24,
+    "pct": 40
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 3,
+    "pct": 23
+   },
+   {
+    "n": 4,
+    "pct": 36
+   }
+  ],
+  "Offsides": [
+   2,
+   1
+  ],
+  "tackles": [
+   14,
+   12
+  ],
+  "interceptions": [
+   8,
+   12
+  ],
+  "shot_blocks": [
+   2,
+   4
+  ],
+  "clearances": [
+   25,
+   22
+  ],
+  "keeper_saves": [
+   3,
+   1
+  ],
+  "duel_won": [
+   49,
+   60
+  ],
+  "ground_duels_won": [
+   {
+    "n": 34,
+    "pct": 48
+   },
+   {
+    "n": 37,
+    "pct": 52
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 15,
+    "pct": 39
+   },
+   {
+    "n": 23,
+    "pct": 61
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 1,
+    "pct": 17
+   },
+   {
+    "n": 12,
+    "pct": 63
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   14,
+   19
+  ]
+ },
+ "shots": [
+  {
    "team": "M05",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Sheraldo Becker",
+   "min": 7,
+   "x": 80.0072815544,
+   "y": 47.5740127358,
+   "xg": 0.012870252132415771,
+   "xgot": 0.046145275235176086,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 9,
+   "x": 96.3157894727,
+   "y": 22.387770704599998,
+   "xg": 0.07991567254066467,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Sheraldo Becker",
+   "min": 10,
+   "x": 93.1,
+   "y": 20.4960509585,
+   "xg": 0.05094730854034424,
+   "xgot": 0.03035822883248329,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Fabio Gruber",
+   "min": 12,
+   "x": 94.7719298231,
+   "y": 32.39875,
+   "xg": 0.034149665385484695,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 14,
+   "x": 90.5,
+   "y": 37.864047621,
+   "xg": 0.08275867253541946,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Stefan Posch",
+   "min": 14,
+   "x": 75.840291264,
+   "y": 16.152101911899997,
+   "xg": 0.010931654833257198,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Sheraldo Becker",
+   "min": 18,
+   "x": 89.5,
+   "y": 40.553571429,
+   "xg": 0.07993748039007187,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Sheraldo Becker",
+   "min": 19,
+   "x": 92.3,
+   "y": 32.0175,
+   "xg": 0.6644423007965088,
+   "xgot": 0.6103257536888123,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillipp Mwene",
+   "min": 41,
+   "x": 103.00862068980001,
+   "y": 37.2025,
+   "xg": 0.827513575553894,
+   "xgot": 0.9828108549118042,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 44,
+   "x": 96.4122807008,
+   "y": 31.48375,
+   "xg": 0.063871368765831,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Terem Moffi",
+   "min": 46,
+   "x": 89.3,
+   "y": 18.604331212399998,
+   "xg": 0.012089354917407036,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 48,
+   "x": 98.0526315785,
+   "y": 29.379523808000002,
+   "xg": 0.1062503382563591,
+   "xgot": 0.3580319285392761,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 64,
+   "x": 77.529611652,
+   "y": 24.2794904507,
+   "xg": 0.023940514773130417,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Otto Stange",
+   "min": 66,
+   "x": 85.4941176464,
+   "y": 45.752356684000006,
+   "xg": 0.02179044485092163,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Ransford Königsdörffer",
+   "min": 72,
+   "x": 95.35087719170001,
+   "y": 37.50750000000001,
+   "xg": 0.16688309609889984,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Kacper Potulski",
+   "min": 73,
+   "x": 95.0614035074,
+   "y": 39.040714287,
+   "xg": 0.01665281504392624,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "David Møller Wolfe",
+   "min": 75,
+   "x": 84.62475728160001,
+   "y": 47.3638216529,
+   "xg": 0.007355854380875826,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "David Møller Wolfe",
+   "min": 75,
+   "x": 91.3,
+   "y": 43.860636937900004,
+   "xg": 0.014369755052030087,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Albert Grønbæk",
+   "min": 78,
+   "x": 74.714077672,
+   "y": 40.973809524,
+   "xg": 0.03287176415324211,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "David Møller Wolfe",
+   "min": 78,
+   "x": 92.8,
+   "y": 40.553571429,
+   "xg": 0.06052717939019203,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 80,
+   "x": 101.681034483,
+   "y": 40.217380953,
+   "xg": 0.1073453277349472,
+   "xgot": 0.15742772817611694,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 83,
+   "x": 89.6,
+   "y": 40.385476190999995,
+   "xg": 0.04287857934832573,
+   "xgot": 0.048593517392873764,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Fábio Vieira",
+   "min": 86,
+   "x": 73.4752427208,
+   "y": 21.9673885388,
+   "xg": 0.02689761482179165,
+   "xgot": 0.05025743320584297,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Otto Stange",
+   "min": 87,
+   "x": 77.529611652,
+   "y": 44.7014012695,
+   "xg": 0.01604314148426056,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Ransford Königsdörffer",
+   "min": 90,
+   "x": 95.640350876,
+   "y": 26.169687500000002,
+   "xg": 0.40195274353027344,
+   "xgot": 0.7232711315155029,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   -5
+  ],
+  [
+   3,
+   -11
+  ],
+  [
+   4,
+   -11
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   7,
+   -5
+  ],
+  [
+   8,
+   -5
+  ],
+  [
+   9,
+   -24
+  ],
+  [
+   10,
+   -35
+  ],
+  [
+   11,
+   -41
+  ],
+  [
+   12,
+   -41
+  ],
+  [
+   13,
+   -19
+  ],
+  [
+   14,
+   -57
+  ],
+  [
+   15,
+   -27
+  ],
+  [
+   16,
+   -22
+  ],
+  [
+   17,
+   27
+  ],
+  [
+   18,
+   -33
+  ],
+  [
+   19,
+   -81
+  ],
+  [
+   20,
+   -92
+  ],
+  [
+   21,
+   -49
+  ],
+  [
+   22,
+   76
+  ],
+  [
+   23,
+   87
+  ],
+  [
+   24,
+   98
+  ],
+  [
+   25,
+   3
+  ],
+  [
+   26,
+   3
+  ],
+  [
+   27,
+   3
+  ],
+  [
+   28,
+   -8
+  ],
+  [
+   29,
+   -8
+  ],
+  [
+   30,
+   -19
+  ],
+  [
+   31,
+   -11
+  ],
+  [
+   32,
+   -16
+  ],
+  [
+   33,
+   0
+  ],
+  [
+   34,
+   27
+  ],
+  [
+   35,
+   24
+  ],
+  [
+   36,
+   8
+  ],
+  [
+   37,
+   -8
+  ],
+  [
+   38,
+   -11
+  ],
+  [
+   39,
+   -5
+  ],
+  [
+   40,
+   -11
+  ],
+  [
+   41,
+   -100
+  ],
+  [
+   42,
+   -100
+  ],
+  [
+   43,
+   -100
+  ],
+  [
+   44,
+   -30
+  ],
+  [
+   45,
+   -33
+  ],
+  [
+   45.5,
+   -22
+  ],
+  [
+   46,
+   33
+  ],
+  [
+   47,
+   46
+  ],
+  [
+   48,
+   -14
+  ],
+  [
+   49,
+   -41
+  ],
+  [
+   50,
+   -60
+  ],
+  [
+   51,
+   5
+  ],
+  [
+   52,
+   -3
+  ],
+  [
+   53,
+   -14
+  ],
+  [
+   54,
+   -90
+  ],
+  [
+   55,
+   -81
+  ],
+  [
+   56,
+   -43
+  ],
+  [
+   57,
+   5
+  ],
+  [
+   58,
+   -27
+  ],
+  [
+   59,
+   -54
+  ],
+  [
+   60,
+   -27
+  ],
+  [
+   61,
+   0
+  ],
+  [
+   62,
+   -14
+  ],
+  [
+   63,
+   -30
+  ],
+  [
+   64,
+   -30
+  ],
+  [
+   65,
+   14
+  ],
+  [
+   66,
+   19
+  ],
+  [
+   67,
+   24
+  ],
+  [
+   68,
+   11
+  ],
+  [
+   69,
+   24
+  ],
+  [
+   70,
+   22
+  ],
+  [
+   71,
+   5
+  ],
+  [
+   72,
+   -35
+  ],
+  [
+   73,
+   -100
+  ],
+  [
+   74,
+   -100
+  ],
+  [
+   75,
+   -81
+  ],
+  [
+   76,
+   35
+  ],
+  [
+   77,
+   30
+  ],
+  [
+   78,
+   73
+  ],
+  [
+   79,
+   38
+  ],
+  [
+   80,
+   -79
+  ],
+  [
+   81,
+   -100
+  ],
+  [
+   82,
+   -100
+  ],
+  [
+   83,
+   -49
+  ],
+  [
+   84,
+   22
+  ],
+  [
+   85,
+   16
+  ],
+  [
+   86,
+   65
+  ],
+  [
+   87,
+   5
+  ],
+  [
+   88,
+   5
+  ],
+  [
+   89,
+   11
+  ],
+  [
+   90,
+   -11
+  ],
+  [
+   90.5,
+   -63
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 26,
+   "center": 24,
+   "right": 50
   },
   "away": {
-   "team": "HSV",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 29,
+   "center": 34,
+   "right": 37
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "HSV",
+   "formation": "3-4-2-1",
+   "rating": 5.7,
+   "players": [
+    {
+     "id": 406501,
+     "name": "Daniel Heuer Fernandes",
+     "pos_id": 11,
+     "rating": 4.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1018564,
+     "name": "Nicolás Capaldo",
+     "pos_id": 33,
+     "rating": 4.8,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 922892,
+     "name": "Sebastiaan Bornauw",
+     "pos_id": 35,
+     "rating": 5.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 700074,
+     "name": "Jordan Torunarigha",
+     "pos_id": 37,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 1287871,
+     "name": "Zakaria El Ouahdi",
+     "pos_id": 62,
+     "rating": 5.5,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "id": 1283407,
+     "name": "Bilal Nadir",
+     "pos_id": 64,
+     "rating": 6,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "id": 1188890,
+     "name": "Nicolai Remberg",
+     "pos_id": 66,
+     "rating": 5.5,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "id": 1049679,
+     "name": "David Møller Wolfe",
+     "pos_id": 68,
+     "rating": 5.8,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "id": 1324082,
+     "name": "Martin Adeline",
+     "pos_id": 84,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "id": 1133381,
+     "name": "Albert Grønbæk",
+     "pos_id": 86,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "id": 885005,
+     "name": "Terem Moffi",
+     "pos_id": 105,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "M05",
+   "formation": "3-5-2",
+   "rating": 8,
+   "players": [
+    {
+     "id": 248437,
+     "name": "Alexander Schwolow",
+     "pos_id": 11,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 557325,
+     "name": "Stefan Posch",
+     "pos_id": 33,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.357
+    },
+    {
+     "id": 1362417,
+     "name": "Fabio Gruber",
+     "pos_id": 35,
+     "rating": 8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.357
+    },
+    {
+     "id": 1800401,
+     "name": "Kacper Potulski",
+     "pos_id": 37,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.357
+    },
+    {
+     "id": 771401,
+     "name": "Anthony Caci",
+     "pos_id": 71,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.11,
+     "y": 0.613
+    },
+    {
+     "id": 614449,
+     "name": "Nadiem Amiri",
+     "pos_id": 73,
+     "rating": 7.8,
+     "captain": true,
+     "x": 0.305,
+     "y": 0.613
+    },
+    {
+     "id": 1033111,
+     "name": "Kaishu Sano",
+     "pos_id": 75,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 523749,
+     "name": "Lee Jae-Sung",
+     "pos_id": 77,
+     "rating": 8.4,
+     "captain": false,
+     "x": 0.695,
+     "y": 0.613
+    },
+    {
+     "id": 423812,
+     "name": "Phillipp Mwene",
+     "pos_id": 79,
+     "rating": 9.1,
+     "captain": false,
+     "x": 0.89,
+     "y": 0.613
+    },
+    {
+     "id": 495222,
+     "name": "Sheraldo Becker",
+     "pos_id": 104,
+     "rating": 9,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 686315,
+     "name": "Phillip Tietz",
+     "pos_id": 106,
+     "rating": 9,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 193901,
+   "team": "M05",
+   "name": "Stefan Bell",
+   "keeper": false
+  },
+  {
+   "id": 240537,
+   "team": "M05",
+   "name": "Danny da Costa",
+   "keeper": false,
+   "minutes": 9,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 248437,
+   "team": "M05",
+   "name": "Alexander Schwolow",
+   "keeper": true,
+   "rating": 7.57,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 5,
+   "key_passes": 1,
+   "touches": 37,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 7,
+   "interceptions": 0
+  },
+  {
+   "id": 266527,
+   "team": "HSV",
+   "name": "Yussuf Poulsen",
+   "keeper": false
+  },
+  {
+   "id": 406501,
+   "team": "HSV",
+   "name": "Daniel Heuer Fernandes",
+   "keeper": true,
+   "rating": 4.72,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 4,
+   "key_passes": 1,
+   "touches": 48,
+   "tackles": 0,
+   "final_third_passes": 6,
+   "interceptions": 0
+  },
+  {
+   "id": 423812,
+   "team": "M05",
+   "name": "Phillipp Mwene",
+   "keeper": false,
+   "rating": 9.09,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 1,
+   "xg": 0.83,
+   "xa": 0.14,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 58,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 4,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 11,
+   "duels_lost": 3
+  },
+  {
+   "id": 495222,
+   "team": "M05",
+   "name": "Sheraldo Becker",
+   "keeper": false,
+   "rating": 9.03,
+   "minutes": 68,
+   "goals": 1,
+   "assists": 2,
+   "xg": 0.81,
+   "xa": 0.85,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 35,
+   "touches_box": 9,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 8
+  },
+  {
+   "id": 523749,
+   "team": "M05",
+   "name": "Lee Jae-Sung",
+   "keeper": false,
+   "rating": 8.41,
+   "minutes": 88,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.39,
+   "key_passes": 3,
+   "touches": 37,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 6,
+   "duels_lost": 3
+  },
+  {
+   "id": 557325,
+   "team": "M05",
+   "name": "Stefan Posch",
+   "keeper": false,
+   "rating": 7.28,
+   "minutes": 88,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "xa": 0.03,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 47,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 614449,
+   "team": "M05",
+   "name": "Nadiem Amiri",
+   "keeper": false,
+   "rating": 7.77,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.21,
+   "xa": 0.34,
+   "shots": 3,
+   "key_passes": 3,
+   "touches": 65,
+   "touches_box": 6,
+   "dribbles": 1,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 644459,
+   "team": "HSV",
+   "name": "Patson Daka",
+   "keeper": false,
+   "rating": 6.46,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 17,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 686315,
+   "team": "M05",
+   "name": "Phillip Tietz",
+   "keeper": false,
+   "rating": 8.98,
+   "minutes": 90,
+   "goals": 2,
+   "assists": 0,
+   "xg": 0.29,
+   "xa": 0.44,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 45,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 10,
+   "duels_lost": 11
+  },
+  {
+   "id": 700074,
+   "team": "HSV",
+   "name": "Jordan Torunarigha",
+   "keeper": false,
+   "rating": 5.65,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 50,
+   "touches_box": 0,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 763998,
+   "team": "HSV",
+   "name": "Bakery Jatta",
+   "keeper": false
+  },
+  {
+   "id": 771401,
+   "team": "M05",
+   "name": "Anthony Caci",
+   "keeper": false,
+   "rating": 7.79,
+   "minutes": 81,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.07,
+   "key_passes": 0,
+   "touches": 47,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 885005,
+   "team": "HSV",
+   "name": "Terem Moffi",
+   "keeper": false,
+   "rating": 5.7,
+   "minutes": 64,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 2,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_lost": 4
+  },
+  {
+   "id": 921197,
+   "team": "M05",
+   "name": "Lennard Maloney",
+   "keeper": false,
+   "minutes": 2,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 922892,
+   "team": "HSV",
+   "name": "Sebastiaan Bornauw",
+   "keeper": false,
+   "rating": 5.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.28,
+   "key_passes": 0,
+   "touches": 70,
+   "touches_box": 0,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 7,
+   "duels_lost": 5
+  },
+  {
+   "id": 1018564,
+   "team": "HSV",
+   "name": "Nicolás Capaldo",
+   "keeper": false,
+   "rating": 4.79,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 0,
+   "touches": 63,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 10,
+   "tackles": 4,
+   "interceptions": 2,
+   "recoveries": 7,
+   "duels_won": 10,
+   "duels_lost": 14
+  },
+  {
+   "id": 1025462,
+   "team": "HSV",
+   "name": "Fábio Vieira",
+   "keeper": false,
+   "rating": 6.32,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 23,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 1033111,
+   "team": "M05",
+   "name": "Kaishu Sano",
+   "keeper": false,
+   "rating": 8.09,
+   "minutes": 88,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.19,
+   "key_passes": 2,
+   "touches": 38,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 5,
+   "duels_lost": 6
+  },
+  {
+   "id": 1049679,
+   "team": "HSV",
+   "name": "David Møller Wolfe",
+   "keeper": false,
+   "rating": 5.76,
+   "minutes": 84,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.04,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 33,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 1121170,
+   "team": "M05",
+   "name": "Ransford Königsdörffer",
+   "keeper": false,
+   "rating": 7.21,
+   "minutes": 22,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.57,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 4,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1133381,
+   "team": "HSV",
+   "name": "Albert Grønbæk",
+   "keeper": false,
+   "rating": 6.21,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.09,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 53,
+   "touches_box": 0,
+   "final_third_passes": 8,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 6,
+   "duels_lost": 4
+  },
+  {
+   "id": 1134759,
+   "team": "M05",
+   "name": "Sota Kawasaki",
+   "keeper": false
+  },
+  {
+   "id": 1145714,
+   "team": "HSV",
+   "name": "Sander Tangvik",
+   "keeper": true
+  },
+  {
+   "id": 1185568,
+   "team": "M05",
+   "name": "Benedict Hollerbach",
+   "keeper": false
+  },
+  {
+   "id": 1188890,
+   "team": "HSV",
+   "name": "Nicolai Remberg",
+   "keeper": false,
+   "rating": 5.49,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 72,
+   "touches_box": 3,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 4,
+   "duels_won": 7,
+   "duels_lost": 3
+  },
+  {
+   "id": 1283288,
+   "team": "M05",
+   "name": "Maximilian Kinzig",
+   "keeper": true
+  },
+  {
+   "id": 1283407,
+   "team": "HSV",
+   "name": "Bilal Nadir",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 35,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 1
+  },
+  {
+   "id": 1287871,
+   "team": "HSV",
+   "name": "Zakaria El Ouahdi",
+   "keeper": false,
+   "rating": 5.54,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 57,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 6
+  },
+  {
+   "id": 1324082,
+   "team": "HSV",
+   "name": "Martin Adeline",
+   "keeper": false,
+   "rating": 5.72,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 17,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1347994,
+   "team": "M05",
+   "name": "Otto Ruoppi",
+   "keeper": false,
+   "minutes": 2,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1362417,
+   "team": "M05",
+   "name": "Fabio Gruber",
+   "keeper": false,
+   "rating": 8,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 53,
+   "touches_box": 3,
+   "dribbles": 2,
+   "final_third_passes": 7,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 5
+  },
+  {
+   "id": 1576487,
+   "team": "HSV",
+   "name": "Otto Stange",
+   "keeper": false,
+   "rating": 5.77,
+   "minutes": 26,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1587901,
+   "team": "HSV",
+   "name": "Kofi Amoako",
+   "keeper": false
+  },
+  {
+   "id": 1800401,
+   "team": "M05",
+   "name": "Kacper Potulski",
+   "keeper": false,
+   "rating": 7.23,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 50,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "id": 1804634,
+   "team": "HSV",
+   "name": "Shafiq Nandja",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 22,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "id": 1899791,
+   "team": "HSV",
+   "name": "Louis Lemke",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 2140397,
+   "team": "M05",
+   "name": "Rael Nakuzola",
+   "keeper": false,
+   "minutes": 2,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  }
+ ],
  "oldb_id": 83170,
  "matchday": 2,
  "season": 2026

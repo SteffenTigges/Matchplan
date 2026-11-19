@@ -1,24 +1,1868 @@
 {
- "fm_id": 5881307,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881156,
+ "stats": {
+  "BallPossesion": [
+   60,
+   40
+  ],
+  "expected_goals": [
+   1.76,
+   2.04
+  ],
+  "total_shots": [
+   18,
+   11
+  ],
+  "ShotsOnTarget": [
+   6,
+   4
+  ],
+  "touches_opp_box": [
+   36,
+   21
+  ],
+  "big_chance": [
+   4,
+   4
+  ],
+  "big_chance_missed_title": [
+   3,
+   2
+  ],
+  "accurate_passes": [
+   {
+    "n": 399,
+    "pct": 80
+   },
+   {
+    "n": 253,
+    "pct": 76
+   }
+  ],
+  "yellow_cards": [
+   4,
+   2
+  ],
+  "corners": [
+   10,
+   3
+  ],
+  "blocked_shots": [
+   5,
+   5
+  ],
+  "shots_inside_box": [
+   11,
+   10
+  ],
+  "expected_goals_open_play": [
+   0.89,
+   1.87
+  ],
+  "expected_goals_set_play": [
+   0.87,
+   0.17
+  ],
+  "expected_goals_on_target": [
+   1.25,
+   2.17
+  ],
+  "passes": [
+   498,
+   335
+  ],
+  "own_half_passes": [
+   184,
+   165
+  ],
+  "opposition_half_passes": [
+   215,
+   88
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 25,
+    "pct": 42
+   },
+   {
+    "n": 20,
+    "pct": 40
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 6,
+    "pct": 21
+   },
+   {
+    "n": 5,
+    "pct": 28
+   }
+  ],
+  "Offsides": [
+   1,
+   2
+  ],
+  "tackles": [
+   19,
+   15
+  ],
+  "interceptions": [
+   8,
+   16
+  ],
+  "shot_blocks": [
+   4,
+   5
+  ],
+  "clearances": [
+   21,
+   60
+  ],
+  "keeper_saves": [
+   2,
+   4
+  ],
+  "duel_won": [
+   44,
+   54
+  ],
+  "ground_duels_won": [
+   {
+    "n": 29,
+    "pct": 46
+   },
+   {
+    "n": 34,
+    "pct": 54
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 15,
+    "pct": 43
+   },
+   {
+    "n": 20,
+    "pct": 57
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 4,
+    "pct": 29
+   },
+   {
+    "n": 6,
+    "pct": 43
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   13,
+   7
+  ]
+ },
+ "shots": [
+  {
+   "team": "TSG",
+   "player": "Adam Daghim",
+   "min": 1,
+   "x": 93.3,
+   "y": 57.898767766599995,
+   "xg": 0.012989635579288006,
+   "xgot": 0.03223232924938202,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
    "team": "BVB",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Maximilian Beier",
+   "min": 6,
+   "x": 93.5,
+   "y": 45.4020382125,
+   "xg": 0.03350098803639412,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 17,
+   "x": 90.8,
+   "y": 42.581875,
+   "xg": 0.034975919872522354,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 22,
+   "x": 91.9,
+   "y": 49.605859870500005,
+   "xg": 0.0386226661503315,
+   "xgot": 0.25993138551712036,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Maximilian Beier",
+   "min": 23,
+   "x": 101.0172413796,
+   "y": 32.3225,
+   "xg": 0.4700189232826233,
+   "xgot": 0.8220674395561218,
+   "situation": "FastBreak",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Daghim",
+   "min": 30,
+   "x": 96.2192982446,
+   "y": 46.7332484042,
+   "xg": 0.06352142244577408,
+   "xgot": 0.1754831224679947,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Ozan Kabak",
+   "min": 33,
+   "x": 97.2807017537,
+   "y": 35.525000000000006,
+   "xg": 0.333149790763855,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 34,
+   "x": 97.4736842099,
+   "y": 35.6775,
+   "xg": 0.19851578772068024,
+   "xgot": 0.2356882244348526,
+   "situation": "ThrowInSetPiece",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Patrick Wimmer",
+   "min": 38,
+   "x": 85.81617647,
+   "y": 17.1329936321,
+   "xg": 0.028805775567889214,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 39,
+   "x": 88.28529411759999,
+   "y": 36.36375,
+   "xg": 0.1452530175447464,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Felix Nmecha",
+   "min": 41,
+   "x": 96.79824561320001,
+   "y": 37.72,
+   "xg": 0.059422146528959274,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Daghim",
+   "min": 45,
+   "x": 91.4,
+   "y": 51.287388533699996,
+   "xg": 0.029073402285575867,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Leon Avdullahu",
+   "min": 45,
+   "x": 81.471359224,
+   "y": 24.699872616500002,
+   "xg": 0.027280133217573166,
+   "xgot": 0.19594311714172363,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 49,
+   "x": 91.4,
+   "y": 43.440254772100005,
+   "xg": 0.26267850399017334,
+   "xgot": 0.1312178522348404,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 50,
+   "x": 102.4396551726,
+   "y": 39.376904763,
+   "xg": 0.13370433449745178,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Joey Veerman",
+   "min": 51,
+   "x": 95.9298245603,
+   "y": 34.533750000000005,
+   "xg": 0.07510111480951309,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Daniel Svensson",
+   "min": 51,
+   "x": 89.5,
+   "y": 37.756,
+   "xg": 0.03538580238819122,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Ozan Kabak",
+   "min": 53,
+   "x": 95.73684210409999,
+   "y": 34.68625,
+   "xg": 0.055753037333488464,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 54,
+   "x": 91.7,
+   "y": 38.452380954,
+   "xg": 0.21754345297813416,
+   "xgot": 0.4784846901893616,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 59,
+   "x": 100.3534482762,
+   "y": 33.31375,
+   "xg": 0.5382953882217407,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 61,
+   "x": 94.9649122793,
+   "y": 30.492499999999996,
+   "xg": 0.36978140473365784,
+   "xgot": 0.2486231029033661,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Ozan Kabak",
+   "min": 65,
+   "x": 103.00862068980001,
+   "y": 27.614523809,
+   "xg": 0.09184929728507996,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Fábio Silva",
+   "min": 66,
+   "x": 95.35087719170001,
+   "y": 44.2810191037,
+   "xg": 0.22737158834934235,
+   "xgot": 0.8414533734321594,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "BVB",
+   "player": "Serhou Guirassy",
+   "min": 67,
+   "x": 85.17205882280001,
+   "y": 24.139363062099996,
+   "xg": 0.06246097758412361,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Wouter Burger",
+   "min": 72,
+   "x": 91.7,
+   "y": 44.000764326500004,
+   "xg": 0.0669265165925026,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Vladimír Coufal",
+   "min": 77,
+   "x": 78.4305825256,
+   "y": 44.2810191037,
+   "xg": 0.04469924047589302,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Tim Lemperle",
+   "min": 77,
+   "x": 85.279411764,
+   "y": 34.07625,
+   "xg": 0.025565095245838165,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Mats Rots",
+   "min": 86,
+   "x": 79.55679611760002,
+   "y": 19.865477709799997,
+   "xg": 0.038359448313713074,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Albian Hajdari",
+   "min": 86,
+   "x": 4.267241379,
+   "y": 29.631666665,
+   "xg": null,
+   "xgot": null,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": true
+  },
+  {
+   "team": "TSG",
+   "player": "Robin Hranác",
+   "min": 89,
+   "x": 101.4913793106,
+   "y": 26.858095238000004,
+   "xg": 0.0811225175857544,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   5
+  ],
+  [
+   3,
+   16
+  ],
+  [
+   4,
+   -8
+  ],
+  [
+   5,
+   -8
+  ],
+  [
+   6,
+   -41
+  ],
+  [
+   7,
+   -8
+  ],
+  [
+   8,
+   -3
+  ],
+  [
+   9,
+   14
+  ],
+  [
+   10,
+   5
+  ],
+  [
+   11,
+   8
+  ],
+  [
+   12,
+   16
+  ],
+  [
+   13,
+   8
+  ],
+  [
+   14,
+   14
+  ],
+  [
+   15,
+   11
+  ],
+  [
+   16,
+   43
+  ],
+  [
+   17,
+   79
+  ],
+  [
+   18,
+   65
+  ],
+  [
+   19,
+   49
+  ],
+  [
+   20,
+   24
+  ],
+  [
+   21,
+   11
+  ],
+  [
+   22,
+   0
+  ],
+  [
+   23,
+   -100
+  ],
+  [
+   24,
+   -76
+  ],
+  [
+   25,
+   -92
+  ],
+  [
+   26,
+   -41
+  ],
+  [
+   27,
+   -68
+  ],
+  [
+   28,
+   -46
+  ],
+  [
+   29,
+   -24
+  ],
+  [
+   30,
+   19
+  ],
+  [
+   31,
+   14
+  ],
+  [
+   32,
+   22
+  ],
+  [
+   33,
+   65
+  ],
+  [
+   34,
+   100
+  ],
+  [
+   35,
+   100
+  ],
+  [
+   36,
+   100
+  ],
+  [
+   37,
+   -5
+  ],
+  [
+   38,
+   0
+  ],
+  [
+   39,
+   41
+  ],
+  [
+   40,
+   79
+  ],
+  [
+   41,
+   43
+  ],
+  [
+   42,
+   57
+  ],
+  [
+   43,
+   19
+  ],
+  [
+   44,
+   49
+  ],
+  [
+   45,
+   33
+  ],
+  [
+   45.5,
+   -7
+  ],
+  [
+   46,
+   22
+  ],
+  [
+   47,
+   49
+  ],
+  [
+   48,
+   73
+  ],
+  [
+   49,
+   73
+  ],
+  [
+   50,
+   -24
+  ],
+  [
+   51,
+   -41
+  ],
+  [
+   52,
+   -52
+  ],
+  [
+   53,
+   14
+  ],
+  [
+   54,
+   11
+  ],
+  [
+   55,
+   0
+  ],
+  [
+   56,
+   0
+  ],
+  [
+   57,
+   -5
+  ],
+  [
+   58,
+   -22
+  ],
+  [
+   59,
+   -73
+  ],
+  [
+   60,
+   -41
+  ],
+  [
+   61,
+   -73
+  ],
+  [
+   62,
+   -16
+  ],
+  [
+   63,
+   -49
+  ],
+  [
+   64,
+   0
+  ],
+  [
+   65,
+   57
+  ],
+  [
+   66,
+   38
+  ],
+  [
+   67,
+   22
+  ],
+  [
+   68,
+   -33
+  ],
+  [
+   69,
+   -14
+  ],
+  [
+   70,
+   3
+  ],
+  [
+   71,
+   0
+  ],
+  [
+   72,
+   27
+  ],
+  [
+   73,
+   11
+  ],
+  [
+   74,
+   -5
+  ],
+  [
+   75,
+   -33
+  ],
+  [
+   76,
+   -16
+  ],
+  [
+   77,
+   5
+  ],
+  [
+   78,
+   22
+  ],
+  [
+   79,
+   22
+  ],
+  [
+   80,
+   71
+  ],
+  [
+   81,
+   54
+  ],
+  [
+   82,
+   87
+  ],
+  [
+   83,
+   60
+  ],
+  [
+   84,
+   73
+  ],
+  [
+   85,
+   41
+  ],
+  [
+   86,
+   -8
+  ],
+  [
+   87,
+   -22
+  ],
+  [
+   88,
+   49
+  ],
+  [
+   89,
+   100
+  ],
+  [
+   90,
+   100
+  ],
+  [
+   90.5,
+   34
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 36,
+   "center": 28,
+   "right": 36
   },
   "away": {
-   "team": "TSG",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 39,
+   "center": 25,
+   "right": 36
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "TSG",
+   "formation": "4-4-2",
+   "rating": 6.6,
+   "players": [
+    {
+     "id": 178778,
+     "name": "Oliver Baumann",
+     "pos_id": 11,
+     "rating": 6.6,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 307317,
+     "name": "Vladimír Coufal",
+     "pos_id": 32,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 845990,
+     "name": "Ozan Kabak",
+     "pos_id": 34,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 1186015,
+     "name": "Albian Hajdari",
+     "pos_id": 36,
+     "rating": 5.1,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 1445416,
+     "name": "Mats Rots",
+     "pos_id": 38,
+     "rating": 7,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1073498,
+     "name": "Patrick Wimmer",
+     "pos_id": 72,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.613
+    },
+    {
+     "id": 1478148,
+     "name": "Leon Avdullahu",
+     "pos_id": 74,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.613
+    },
+    {
+     "id": 947884,
+     "name": "Wouter Burger",
+     "pos_id": 76,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.613
+    },
+    {
+     "id": 1353000,
+     "name": "Adam Daghim",
+     "pos_id": 78,
+     "rating": 7,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.613
+    },
+    {
+     "id": 969870,
+     "name": "Adam Hložek",
+     "pos_id": 104,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1124825,
+     "name": "Tim Lemperle",
+     "pos_id": 106,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "BVB",
+   "formation": "3-4-2-1",
+   "rating": 7.2,
+   "players": [
+    {
+     "id": 764018,
+     "name": "Gregor Kobel",
+     "pos_id": 11,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1479742,
+     "name": "Joane Gadou",
+     "pos_id": 33,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 664970,
+     "name": "Waldemar Anton",
+     "pos_id": 35,
+     "rating": 8.7,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 1663094,
+     "name": "Filippo Mane",
+     "pos_id": 37,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 659272,
+     "name": "Julian Ryerson",
+     "pos_id": 62,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.485
+    },
+    {
+     "id": 1287373,
+     "name": "Jobe Bellingham",
+     "pos_id": 64,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.485
+    },
+    {
+     "id": 966019,
+     "name": "Felix Nmecha",
+     "pos_id": 66,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.485
+    },
+    {
+     "id": 1209228,
+     "name": "Daniel Svensson",
+     "pos_id": 68,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.485
+    },
+    {
+     "id": 1536436,
+     "name": "Konstantinos Karetsas",
+     "pos_id": 84,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.678
+    },
+    {
+     "id": 1047667,
+     "name": "Maximilian Beier",
+     "pos_id": 86,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.678
+    },
+    {
+     "id": 448540,
+     "name": "Serhou Guirassy",
+     "pos_id": 105,
+     "rating": 8.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 173461,
+   "team": "TSG",
+   "name": "Andrej Kramarić",
+   "keeper": false,
+   "rating": 5.93,
+   "minutes": 17,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 178778,
+   "team": "TSG",
+   "name": "Oliver Baumann",
+   "keeper": true,
+   "rating": 6.64,
+   "minutes": 90,
+   "xa": 0.02,
+   "recoveries": 9,
+   "touches": 52,
+   "duels_lost": 1,
+   "tackles": 0,
+   "final_third_passes": 8,
+   "interceptions": 0
+  },
+  {
+   "id": 215151,
+   "team": "BVB",
+   "name": "Marcel Sabitzer",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 307317,
+   "team": "TSG",
+   "name": "Vladimír Coufal",
+   "keeper": false,
+   "rating": 7.7,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.04,
+   "xa": 0.14,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 91,
+   "touches_box": 2,
+   "dribbles": 2,
+   "final_third_passes": 11,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 8,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 448540,
+   "team": "BVB",
+   "name": "Serhou Guirassy",
+   "keeper": false,
+   "rating": 8.5,
+   "minutes": 87,
+   "goals": 1,
+   "assists": 1,
+   "xg": 1.14,
+   "xa": 0.01,
+   "shots": 5,
+   "key_passes": 1,
+   "touches": 33,
+   "touches_box": 5,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 6,
+   "duels_lost": 6
+  },
+  {
+   "id": 637716,
+   "team": "TSG",
+   "name": "Bernardo",
+   "keeper": false
+  },
+  {
+   "id": 659272,
+   "team": "BVB",
+   "name": "Julian Ryerson",
+   "keeper": false,
+   "rating": 7.61,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 1.33,
+   "key_passes": 4,
+   "touches": 58,
+   "touches_box": 5,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 664970,
+   "team": "BVB",
+   "name": "Waldemar Anton",
+   "keeper": false,
+   "rating": 8.67,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.09,
+   "key_passes": 1,
+   "touches": 82,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 7,
+   "recoveries": 8,
+   "duels_won": 7,
+   "duels_lost": 3
+  },
+  {
+   "id": 743381,
+   "team": "BVB",
+   "name": "Alexander Meyer",
+   "keeper": true
+  },
+  {
+   "id": 764018,
+   "team": "BVB",
+   "name": "Gregor Kobel",
+   "keeper": true,
+   "rating": 6.93,
+   "minutes": 90,
+   "recoveries": 12,
+   "touches": 52,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 5,
+   "interceptions": 0
+  },
+  {
+   "id": 792429,
+   "team": "BVB",
+   "name": "Joey Veerman",
+   "keeper": false,
+   "rating": 6.71,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 29,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 845990,
+   "team": "TSG",
+   "name": "Ozan Kabak",
+   "keeper": false,
+   "rating": 6.24,
+   "minutes": 79,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.48,
+   "xa": 0.14,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 45,
+   "touches_box": 4,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 5
+  },
+  {
+   "id": 947884,
+   "team": "TSG",
+   "name": "Wouter Burger",
+   "keeper": false,
+   "rating": 7.05,
+   "minutes": 79,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 55,
+   "touches_box": 2,
+   "final_third_passes": 7,
+   "tackles": 5,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 8,
+   "duels_lost": 5
+  },
+  {
+   "id": 966019,
+   "team": "BVB",
+   "name": "Felix Nmecha",
+   "keeper": false,
+   "rating": 6.69,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 16,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 969870,
+   "team": "TSG",
+   "name": "Adam Hložek",
+   "keeper": false,
+   "rating": 6.45,
+   "minutes": 73,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.23,
+   "xa": 0.04,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 29,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 7
+  },
+  {
+   "id": 1047667,
+   "team": "BVB",
+   "name": "Maximilian Beier",
+   "keeper": false,
+   "rating": 6.8,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.5,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 31,
+   "touches_box": 3,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 1050158,
+   "team": "BVB",
+   "name": "Fábio Silva",
+   "keeper": false,
+   "rating": 7.01,
+   "minutes": 28,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.23,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1073498,
+   "team": "TSG",
+   "name": "Patrick Wimmer",
+   "keeper": false,
+   "rating": 6.26,
+   "minutes": 73,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.07,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 38,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 2,
+   "duels_lost": 7
+  },
+  {
+   "id": 1077653,
+   "team": "TSG",
+   "name": "Valentin Gendrey",
+   "keeper": false
+  },
+  {
+   "id": 1089685,
+   "team": "BVB",
+   "name": "Carney Chukwuemeka",
+   "keeper": false
+  },
+  {
+   "id": 1124825,
+   "team": "TSG",
+   "name": "Tim Lemperle",
+   "keeper": false,
+   "rating": 7.78,
+   "minutes": 84,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.65,
+   "xa": 0.06,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 41,
+   "touches_box": 5,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1175933,
+   "team": "TSG",
+   "name": "Luca Philipp",
+   "keeper": true
+  },
+  {
+   "id": 1186015,
+   "team": "TSG",
+   "name": "Albian Hajdari",
+   "keeper": false,
+   "rating": 5.06,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 0,
+   "touches": 74,
+   "touches_box": 2,
+   "final_third_passes": 10,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 7,
+   "duels_won": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 1209228,
+   "team": "BVB",
+   "name": "Daniel Svensson",
+   "keeper": false,
+   "rating": 7.91,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 61,
+   "touches_box": 1,
+   "dribbles": 1,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 9,
+   "duels_lost": 4
+  },
+  {
+   "id": 1225995,
+   "team": "TSG",
+   "name": "Robin Hranác",
+   "keeper": false,
+   "rating": 6.22,
+   "minutes": 11,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 14,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 1254234,
+   "team": "BVB",
+   "name": "Ethan Nwaneri",
+   "keeper": false,
+   "rating": 6.24,
+   "minutes": 58,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 1,
+   "touches": 27,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 6
+  },
+  {
+   "id": 1287373,
+   "team": "BVB",
+   "name": "Jobe Bellingham",
+   "keeper": false,
+   "rating": 7.8,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 40,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 1
+  },
+  {
+   "id": 1338957,
+   "team": "TSG",
+   "name": "Bambasé Conté",
+   "keeper": false,
+   "rating": 5.85,
+   "minutes": 17,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 1353000,
+   "team": "TSG",
+   "name": "Adam Daghim",
+   "keeper": false,
+   "rating": 7.04,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.11,
+   "xa": 0.21,
+   "shots": 3,
+   "key_passes": 2,
+   "touches": 55,
+   "touches_box": 7,
+   "dribbles": 0,
+   "final_third_passes": 4,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 8
+  },
+  {
+   "id": 1445416,
+   "team": "TSG",
+   "name": "Mats Rots",
+   "keeper": false,
+   "rating": 6.99,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.31,
+   "shots": 1,
+   "key_passes": 3,
+   "touches": 97,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 17,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 5,
+   "duels_lost": 1
+  },
+  {
+   "id": 1478148,
+   "team": "TSG",
+   "name": "Leon Avdullahu",
+   "keeper": false,
+   "rating": 7.15,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.31,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 83,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 9,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 1479742,
+   "team": "BVB",
+   "name": "Joane Gadou",
+   "keeper": false,
+   "rating": 7.35,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 50,
+   "touches_box": 0,
+   "tackles": 4,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 5
+  },
+  {
+   "id": 1486537,
+   "team": "TSG",
+   "name": "Max Moerstedt",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2
+  },
+  {
+   "id": 1536436,
+   "team": "BVB",
+   "name": "Konstantinos Karetsas",
+   "keeper": false,
+   "rating": 6.51,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 31,
+   "touches_box": 1,
+   "dribbles": 3,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 7,
+   "duels_lost": 7
+  },
+  {
+   "id": 1663094,
+   "team": "BVB",
+   "name": "Filippo Mane",
+   "keeper": false,
+   "rating": 6.52,
+   "minutes": 32,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 38,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1664759,
+   "team": "TSG",
+   "name": "Nathan De Cat",
+   "keeper": false,
+   "rating": 6.44,
+   "minutes": 11,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 2,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1
+  },
+  {
+   "id": 1692797,
+   "team": "BVB",
+   "name": "Mathis Albert",
+   "keeper": false
+  },
+  {
+   "id": 1750565,
+   "team": "BVB",
+   "name": "Kauã Prates",
+   "keeper": false
+  },
+  {
+   "id": 1793498,
+   "team": "TSG",
+   "name": "Cajetan Lenz",
+   "keeper": false
+  },
+  {
+   "id": 1845173,
+   "team": "BVB",
+   "name": "Luca Reggiani",
+   "keeper": false,
+   "rating": 6.35,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 18,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 3
+  }
+ ],
  "oldb_id": 83166,
  "matchday": 2,
  "season": 2026

@@ -1,24 +1,1810 @@
 {
- "fm_id": 5881313,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881152,
+ "stats": {
+  "BallPossesion": [
+   64,
+   36
+  ],
+  "expected_goals": [
+   3.11,
+   0.39
+  ],
+  "total_shots": [
+   21,
+   5
+  ],
+  "ShotsOnTarget": [
+   10,
+   0
+  ],
+  "touches_opp_box": [
+   49,
+   8
+  ],
+  "big_chance": [
+   5,
+   0
+  ],
+  "big_chance_missed_title": [
+   2,
+   0
+  ],
+  "accurate_passes": [
+   {
+    "n": 521,
+    "pct": 90
+   },
+   {
+    "n": 260,
+    "pct": 80
+   }
+  ],
+  "yellow_cards": [
+   2,
+   2
+  ],
+  "corners": [
+   11,
+   1
+  ],
+  "blocked_shots": [
+   6,
+   2
+  ],
+  "shots_inside_box": [
+   16,
+   2
+  ],
+  "expected_goals_open_play": [
+   2.36,
+   0.06
+  ],
+  "expected_goals_set_play": [
+   0.75,
+   0.34
+  ],
+  "expected_goals_on_target": [
+   3.43,
+   0.0
+  ],
+  "passes": [
+   579,
+   324
+  ],
+  "own_half_passes": [
+   243,
+   147
+  ],
+  "opposition_half_passes": [
+   278,
+   113
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 32,
+    "pct": 65
+   },
+   {
+    "n": 9,
+    "pct": 30
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 7,
+    "pct": 27
+   },
+   {
+    "n": 3,
+    "pct": 20
+   }
+  ],
+  "Offsides": [
+   3,
+   3
+  ],
+  "tackles": [
+   10,
+   15
+  ],
+  "interceptions": [
+   5,
+   9
+  ],
+  "shot_blocks": [
+   2,
+   6
+  ],
+  "clearances": [
+   25,
+   26
+  ],
+  "keeper_saves": [
+   0,
+   6
+  ],
+  "duel_won": [
+   37,
+   36
+  ],
+  "ground_duels_won": [
+   {
+    "n": 28,
+    "pct": 51
+   },
+   {
+    "n": 27,
+    "pct": 49
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 9,
+    "pct": 50
+   },
+   {
+    "n": 9,
+    "pct": 50
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 7,
+    "pct": 47
+   },
+   {
+    "n": 2,
+    "pct": 33
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   11,
+   12
+  ]
+ },
+ "shots": [
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 1,
+   "x": 95.54385964789999,
+   "y": 30.22,
+   "xg": 0.09044861048460007,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Equi Fernández",
+   "min": 1,
+   "x": 100.6379310348,
+   "y": 35.525000000000006,
+   "xg": 0.5010002255439758,
+   "xgot": 0.9145711064338684,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 6,
+   "x": 96.8947368413,
+   "y": 47.153630570000004,
+   "xg": 0.03141909837722778,
+   "xgot": 0.19704899191856384,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 9,
+   "x": 97.7631578942,
+   "y": 30.34,
+   "xg": 0.2301822453737259,
+   "xgot": 0.06964148581027985,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Afonso Moreira",
+   "min": 14,
+   "x": 85.4941176464,
+   "y": 22.878216564699997,
+   "xg": 0.051308754831552505,
+   "xgot": 0.055121228098869324,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 28,
+   "x": 102.72413793119999,
+   "y": 29.547619046,
+   "xg": 0.13390381634235382,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Facundo Medina",
+   "min": 28,
+   "x": 99.59482758659999,
+   "y": 33.31375,
+   "xg": 0.2955334782600403,
+   "xgot": 0.4595648944377899,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Afonso Moreira",
+   "min": 34,
+   "x": 92,
+   "y": 20.4259872642,
+   "xg": 0.036325812339782715,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 37,
+   "x": 86.99705882319999,
+   "y": 37.12625,
+   "xg": 0.04471210390329361,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Aleix García",
+   "min": 37,
+   "x": 102.8189655174,
+   "y": 21.547006373000002,
+   "xg": 0.028003666549921036,
+   "xgot": 0.19427244365215302,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Malik Tillman",
+   "min": 38,
+   "x": 90.7,
+   "y": 33.61875,
+   "xg": 0.06347797065973282,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Equi Fernández",
+   "min": 38,
+   "x": 86.5676470584,
+   "y": 32.856249999999996,
+   "xg": 0.09503065794706345,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
    "team": "FCU",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Josip Juranović",
+   "min": 43,
+   "x": 82.37233009760001,
+   "y": 26.2853125,
+   "xg": 0.02558944746851921,
+   "xgot": 0,
+   "situation": "IndividualPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 48,
+   "x": 97.0877192975,
+   "y": 35.75375,
+   "xg": 0.5229867696762085,
+   "xgot": 0.7931880950927734,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Emmanuel Latte Lath",
+   "min": 53,
+   "x": 98.14912280659999,
+   "y": 32.474999999999994,
+   "xg": 0.10479341447353363,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Afonso Moreira",
+   "min": 60,
+   "x": 95.2543859636,
+   "y": 28.286904761,
+   "xg": 0.2701772451400757,
+   "xgot": 0.2657727003097534,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 62,
+   "x": 98.7280701752,
+   "y": 37.78,
+   "xg": 0.1370079070329666,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 66,
+   "x": 86.889705882,
+   "y": 34,
+   "xg": 0.0882033184170723,
+   "xgot": 0.4611821472644806,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Christian Kofane",
+   "min": 68,
+   "x": 98.3421052628,
+   "y": 37.94809524,
+   "xg": 0.16877934336662292,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Janik Haberer",
+   "min": 70,
+   "x": 78.655825244,
+   "y": 41.057857143,
+   "xg": 0.029310207813978195,
+   "xgot": 0,
+   "situation": "IndividualPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Tim Skarke",
+   "min": 74,
+   "x": 86.4602941172,
+   "y": 47.4338853472,
+   "xg": 0.055908601731061935,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 77,
+   "x": 83.2733009712,
+   "y": 39.713095239,
+   "xg": 0.02846710756421089,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Felix Uduokhai",
+   "min": 82,
+   "x": 99.8793103452,
+   "y": 36.8975,
+   "xg": 0.1754797250032425,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Christian Kofane",
+   "min": 83,
+   "x": 96.3157894727,
+   "y": 36.135000000000005,
+   "xg": 0.04801313579082489,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Jarell Quansah",
+   "min": 90,
+   "x": 95.9298245603,
+   "y": 40.217380953,
+   "xg": 0.1831083595752716,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Aleix García",
+   "min": 90,
+   "x": 88.6,
+   "y": 22.387770704599998,
+   "xg": 0.06550263613462448,
+   "xgot": 0.022613443434238434,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   38
+  ],
+  [
+   2,
+   38
+  ],
+  [
+   3,
+   16
+  ],
+  [
+   4,
+   -22
+  ],
+  [
+   5,
+   -16
+  ],
+  [
+   6,
+   33
+  ],
+  [
+   7,
+   33
+  ],
+  [
+   8,
+   22
+  ],
+  [
+   9,
+   43
+  ],
+  [
+   10,
+   43
+  ],
+  [
+   11,
+   33
+  ],
+  [
+   12,
+   -27
+  ],
+  [
+   13,
+   11
+  ],
+  [
+   14,
+   38
+  ],
+  [
+   15,
+   49
+  ],
+  [
+   16,
+   11
+  ],
+  [
+   17,
+   11
+  ],
+  [
+   18,
+   11
+  ],
+  [
+   19,
+   22
+  ],
+  [
+   20,
+   19
+  ],
+  [
+   21,
+   19
+  ],
+  [
+   22,
+   8
+  ],
+  [
+   23,
+   -11
+  ],
+  [
+   24,
+   -11
+  ],
+  [
+   25,
+   -27
+  ],
+  [
+   26,
+   -11
+  ],
+  [
+   27,
+   11
+  ],
+  [
+   28,
+   100
+  ],
+  [
+   29,
+   100
+  ],
+  [
+   30,
+   100
+  ],
+  [
+   31,
+   3
+  ],
+  [
+   32,
+   -16
+  ],
+  [
+   33,
+   -22
+  ],
+  [
+   34,
+   -5
+  ],
+  [
+   35,
+   22
+  ],
+  [
+   36,
+   38
+  ],
+  [
+   37,
+   43
+  ],
+  [
+   38,
+   100
+  ],
+  [
+   39,
+   100
+  ],
+  [
+   40,
+   100
+  ],
+  [
+   41,
+   60
+  ],
+  [
+   42,
+   22
+  ],
+  [
+   43,
+   27
+  ],
+  [
+   44,
+   5
+  ],
+  [
+   45,
+   24
+  ],
+  [
+   45.5,
+   19
+  ],
+  [
+   46,
+   -11
+  ],
+  [
+   47,
+   -5
+  ],
+  [
+   48,
+   24
+  ],
+  [
+   49,
+   27
+  ],
+  [
+   50,
+   22
+  ],
+  [
+   51,
+   -8
+  ],
+  [
+   52,
+   -22
+  ],
+  [
+   53,
+   -65
+  ],
+  [
+   54,
+   -43
+  ],
+  [
+   55,
+   -38
+  ],
+  [
+   56,
+   5
+  ],
+  [
+   57,
+   -5
+  ],
+  [
+   58,
+   33
+  ],
+  [
+   59,
+   43
+  ],
+  [
+   60,
+   100
+  ],
+  [
+   61,
+   100
+  ],
+  [
+   62,
+   100
+  ],
+  [
+   63,
+   100
+  ],
+  [
+   64,
+   79
+  ],
+  [
+   65,
+   5
+  ],
+  [
+   66,
+   16
+  ],
+  [
+   67,
+   16
+  ],
+  [
+   68,
+   100
+  ],
+  [
+   69,
+   100
+  ],
+  [
+   70,
+   100
+  ],
+  [
+   71,
+   -5
+  ],
+  [
+   72,
+   -38
+  ],
+  [
+   73,
+   -65
+  ],
+  [
+   74,
+   -92
+  ],
+  [
+   75,
+   -60
+  ],
+  [
+   76,
+   -41
+  ],
+  [
+   77,
+   3
+  ],
+  [
+   78,
+   8
+  ],
+  [
+   79,
+   43
+  ],
+  [
+   80,
+   22
+  ],
+  [
+   81,
+   -5
+  ],
+  [
+   82,
+   -16
+  ],
+  [
+   83,
+   35
+  ],
+  [
+   84,
+   62
+  ],
+  [
+   85,
+   52
+  ],
+  [
+   86,
+   11
+  ],
+  [
+   87,
+   16
+  ],
+  [
+   88,
+   -43
+  ],
+  [
+   89,
+   -52
+  ],
+  [
+   90,
+   -33
+  ],
+  [
+   90.5,
+   28
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 38,
+   "center": 24,
+   "right": 38
   },
   "away": {
-   "team": "B04",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 45,
+   "center": 20,
+   "right": 35
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "B04",
+   "formation": "4-2-3-1",
+   "rating": 7.5,
+   "players": [
+    {
+     "id": 330643,
+     "name": "Mark Flekken",
+     "pos_id": 11,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1107620,
+     "name": "Jarell Quansah",
+     "pos_id": 32,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 789914,
+     "name": "Edmond Tapsoba",
+     "pos_id": 34,
+     "rating": 7,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 812652,
+     "name": "Facundo Medina",
+     "pos_id": 36,
+     "rating": 8,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 942379,
+     "name": "Miguel Gutiérrez",
+     "pos_id": 38,
+     "rating": 8.8,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 642551,
+     "name": "Aleix García",
+     "pos_id": 64,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 1199959,
+     "name": "Equi Fernández",
+     "pos_id": 66,
+     "rating": 8.3,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 1367047,
+     "name": "Afonso Moreira",
+     "pos_id": 83,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1126058,
+     "name": "Malik Tillman",
+     "pos_id": 85,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1457626,
+     "name": "Ibrahim Maza",
+     "pos_id": 87,
+     "rating": 8.8,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 540097,
+     "name": "Patrik Schick",
+     "pos_id": 115,
+     "rating": 8.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "FCU",
+   "formation": "4-1-2-1-2",
+   "rating": 6,
+   "players": [
+    {
+     "id": 186557,
+     "name": "Frederik Rønnow",
+     "pos_id": 11,
+     "rating": 6.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.09
+    },
+    {
+     "id": 622373,
+     "name": "Josip Juranović",
+     "pos_id": 32,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.28
+    },
+    {
+     "id": 1231677,
+     "name": "Zeno Van Den Bosch",
+     "pos_id": 34,
+     "rating": 5.1,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.28
+    },
+    {
+     "id": 767800,
+     "name": "Felix Uduokhai",
+     "pos_id": 36,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.28
+    },
+    {
+     "id": 1282582,
+     "name": "Tom Rothe",
+     "pos_id": 38,
+     "rating": 5.6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.28
+    },
+    {
+     "id": 1403332,
+     "name": "Aljoscha Kemlein",
+     "pos_id": 55,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.47
+    },
+    {
+     "id": 792756,
+     "name": "Michel Aebischer",
+     "pos_id": 74,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.245,
+     "y": 0.58
+    },
+    {
+     "id": 1520506,
+     "name": "Livan Burcu",
+     "pos_id": 76,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.755,
+     "y": 0.58
+    },
+    {
+     "id": 304348,
+     "name": "Rani Khedira",
+     "pos_id": 95,
+     "rating": 6.4,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.69
+    },
+    {
+     "id": 1242198,
+     "name": "Marin Ljubičić",
+     "pos_id": 114,
+     "rating": 6,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.88
+    },
+    {
+     "id": 783585,
+     "name": "Emmanuel Latte Lath",
+     "pos_id": 116,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.88
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 166733,
+   "team": "FCU",
+   "name": "Christopher Trimmel",
+   "keeper": false,
+   "rating": 6.01,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 186557,
+   "team": "FCU",
+   "name": "Frederik Rønnow",
+   "keeper": true,
+   "rating": 6.12,
+   "minutes": 90,
+   "recoveries": 8,
+   "touches": 42,
+   "tackles": 0,
+   "final_third_passes": 3,
+   "interceptions": 0
+  },
+  {
+   "id": 278814,
+   "team": "B04",
+   "name": "Janis Blaswich",
+   "keeper": true
+  },
+  {
+   "id": 304348,
+   "team": "FCU",
+   "name": "Rani Khedira",
+   "keeper": false,
+   "rating": 6.35,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 40,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 304354,
+   "team": "FCU",
+   "name": "Janik Haberer",
+   "keeper": false,
+   "rating": 6.34,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 18,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 2
+  },
+  {
+   "id": 330643,
+   "team": "B04",
+   "name": "Mark Flekken",
+   "keeper": true,
+   "rating": 6.88,
+   "minutes": 90,
+   "recoveries": 6,
+   "touches": 35,
+   "tackles": 0,
+   "final_third_passes": 5,
+   "interceptions": 0
+  },
+  {
+   "id": 331542,
+   "team": "B04",
+   "name": "Jonas Hofmann",
+   "keeper": false
+  },
+  {
+   "id": 359193,
+   "team": "B04",
+   "name": "Lucas Vázquez",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.09,
+   "key_passes": 1,
+   "touches": 5,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 411851,
+   "team": "B04",
+   "name": "Robert Andrich",
+   "keeper": false,
+   "rating": 6.38,
+   "minutes": 19,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 17,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 447959,
+   "team": "FCU",
+   "name": "Robert Skov",
+   "keeper": false
+  },
+  {
+   "id": 540097,
+   "team": "B04",
+   "name": "Patrik Schick",
+   "keeper": false,
+   "rating": 8.76,
+   "minutes": 67,
+   "goals": 1,
+   "assists": 1,
+   "xg": 1.02,
+   "xa": 0.05,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 26,
+   "touches_box": 8,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 622373,
+   "team": "FCU",
+   "name": "Josip Juranović",
+   "keeper": false,
+   "rating": 5.33,
+   "minutes": 74,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.1,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 47,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 642551,
+   "team": "B04",
+   "name": "Aleix García",
+   "keeper": false,
+   "rating": 8.23,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.3,
+   "shots": 2,
+   "key_passes": 4,
+   "touches": 121,
+   "touches_box": 3,
+   "final_third_passes": 10,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 658440,
+   "team": "FCU",
+   "name": "Tim Skarke",
+   "keeper": false,
+   "rating": 6.23,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 14,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 767800,
+   "team": "FCU",
+   "name": "Felix Uduokhai",
+   "keeper": false,
+   "rating": 5.32,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.18,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 67,
+   "touches_box": 1,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 783585,
+   "team": "FCU",
+   "name": "Emmanuel Latte Lath",
+   "keeper": false,
+   "rating": 5.93,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 789914,
+   "team": "B04",
+   "name": "Edmond Tapsoba",
+   "keeper": false,
+   "rating": 7.04,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 78,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "id": 792756,
+   "team": "FCU",
+   "name": "Michel Aebischer",
+   "keeper": false,
+   "rating": 5.89,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 20,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 812652,
+   "team": "B04",
+   "name": "Facundo Medina",
+   "keeper": false,
+   "rating": 7.98,
+   "minutes": 71,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.3,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 79,
+   "touches_box": 2,
+   "final_third_passes": 7,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 836726,
+   "team": "FCU",
+   "name": "András Schäfer",
+   "keeper": false,
+   "rating": 6.04,
+   "minutes": 11,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 860260,
+   "team": "FCU",
+   "name": "Derrick Köhn",
+   "keeper": false
+  },
+  {
+   "id": 923498,
+   "team": "B04",
+   "name": "Moussa Diaby",
+   "keeper": false,
+   "rating": 6.46,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.16,
+   "key_passes": 1,
+   "touches": 14,
+   "touches_box": 3,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 942379,
+   "team": "B04",
+   "name": "Miguel Gutiérrez",
+   "keeper": false,
+   "rating": 8.84,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 2,
+   "xa": 1.06,
+   "key_passes": 3,
+   "touches": 73,
+   "touches_box": 4,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 949673,
+   "team": "FCU",
+   "name": "Jeong Woo-Yeong",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 13,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 1035208,
+   "team": "B04",
+   "name": "Victor Okoh Boniface",
+   "keeper": false
+  },
+  {
+   "id": 1107620,
+   "team": "B04",
+   "name": "Jarell Quansah",
+   "keeper": false,
+   "rating": 7.59,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.18,
+   "xa": 0.23,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 68,
+   "touches_box": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 2,
+   "duels_lost": 6
+  },
+  {
+   "id": 1119461,
+   "team": "B04",
+   "name": "Loïc Badé",
+   "keeper": false,
+   "rating": 6.46,
+   "minutes": 19,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 19,
+   "touches_box": 0,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 1126058,
+   "team": "B04",
+   "name": "Malik Tillman",
+   "keeper": false,
+   "rating": 6.92,
+   "minutes": 67,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.41,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 41,
+   "touches_box": 4,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 1156148,
+   "team": "FCU",
+   "name": "Matheo Raab",
+   "keeper": true
+  },
+  {
+   "id": 1199947,
+   "team": "FCU",
+   "name": "Leopold Querfeld",
+   "keeper": false
+  },
+  {
+   "id": 1199959,
+   "team": "B04",
+   "name": "Equi Fernández",
+   "keeper": false,
+   "rating": 8.33,
+   "minutes": 71,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.6,
+   "xa": 0.13,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 59,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 1231677,
+   "team": "FCU",
+   "name": "Zeno Van Den Bosch",
+   "keeper": false,
+   "rating": 5.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 47,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 1242198,
+   "team": "FCU",
+   "name": "Marin Ljubičić",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.08,
+   "key_passes": 0,
+   "touches": 26,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1282582,
+   "team": "FCU",
+   "name": "Tom Rothe",
+   "keeper": false,
+   "rating": 5.55,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 56,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 4,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 8,
+   "duels_lost": 5
+  },
+  {
+   "id": 1367047,
+   "team": "B04",
+   "name": "Afonso Moreira",
+   "keeper": false,
+   "rating": 7.05,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.36,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 44,
+   "touches_box": 5,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "id": 1381853,
+   "team": "B04",
+   "name": "Tim Oermann",
+   "keeper": false
+  },
+  {
+   "id": 1403332,
+   "team": "FCU",
+   "name": "Aljoscha Kemlein",
+   "keeper": false,
+   "rating": 6.42,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 38,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 1457626,
+   "team": "B04",
+   "name": "Ibrahim Maza",
+   "keeper": false,
+   "rating": 8.81,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.28,
+   "xa": 0.6,
+   "shots": 5,
+   "key_passes": 3,
+   "touches": 85,
+   "touches_box": 10,
+   "dribbles": 6,
+   "final_third_passes": 8,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 7,
+   "duels_lost": 5
+  },
+  {
+   "id": 1520506,
+   "team": "FCU",
+   "name": "Livan Burcu",
+   "keeper": false,
+   "rating": 6.79,
+   "minutes": 79,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 34,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 1705081,
+   "team": "B04",
+   "name": "Christian Kofane",
+   "keeper": false,
+   "rating": 6.15,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.22,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 1
+  }
+ ],
  "oldb_id": 83167,
  "matchday": 2,
  "season": 2026

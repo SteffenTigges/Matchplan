@@ -1,24 +1,1843 @@
 {
- "fm_id": 5881304,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881148,
+ "stats": {
+  "BallPossesion": [
+   53,
+   47
+  ],
+  "expected_goals": [
+   2.37,
+   0.54
+  ],
+  "total_shots": [
+   19,
+   9
+  ],
+  "ShotsOnTarget": [
+   5,
+   3
+  ],
+  "touches_opp_box": [
+   24,
+   12
+  ],
+  "big_chance": [
+   3,
+   2
+  ],
+  "big_chance_missed_title": [
+   0,
+   1
+  ],
+  "accurate_passes": [
+   {
+    "n": 435,
+    "pct": 89
+   },
+   {
+    "n": 372,
+    "pct": 86
+   }
+  ],
+  "yellow_cards": [
+   1,
+   1
+  ],
+  "corners": [
+   6,
+   5
+  ],
+  "blocked_shots": [
+   7,
+   5
+  ],
+  "shots_inside_box": [
+   8,
+   6
+  ],
+  "expected_goals_open_play": [
+   1.39,
+   0.31
+  ],
+  "expected_goals_set_play": [
+   0.98,
+   0.23
+  ],
+  "expected_goals_on_target": [
+   3.07,
+   0.26
+  ],
+  "passes": [
+   487,
+   432
+  ],
+  "own_half_passes": [
+   221,
+   213
+  ],
+  "opposition_half_passes": [
+   214,
+   159
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 26,
+    "pct": 74
+   },
+   {
+    "n": 25,
+    "pct": 56
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 2,
+    "pct": 13
+   },
+   {
+    "n": 5,
+    "pct": 22
+   }
+  ],
+  "Offsides": [
+   0,
+   1
+  ],
+  "tackles": [
+   8,
+   29
+  ],
+  "interceptions": [
+   7,
+   4
+  ],
+  "shot_blocks": [
+   4,
+   7
+  ],
+  "clearances": [
+   24,
+   31
+  ],
+  "keeper_saves": [
+   2,
+   1
+  ],
+  "duel_won": [
+   44,
+   56
+  ],
+  "ground_duels_won": [
+   {
+    "n": 34,
+    "pct": 43
+   },
+   {
+    "n": 46,
+    "pct": 58
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 10,
+    "pct": 50
+   },
+   {
+    "n": 10,
+    "pct": 50
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 10,
+    "pct": 34
+   },
+   {
+    "n": 5,
+    "pct": 63
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   13,
+   16
+  ]
+ },
+ "shots": [
+  {
+   "team": "SCF",
+   "player": "Jan-Niklas Beste",
+   "min": 4,
+   "x": 73.4752427208,
+   "y": 24.139363062099996,
+   "xg": 0.027338672429323196,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
    "team": "SVW",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Amos Pieper",
+   "min": 9,
+   "x": 77.7548543704,
+   "y": 38.956666668,
+   "xg": 0.022616684436798096,
+   "xgot": 0.03650807961821556,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 9,
+   "x": 93.1,
+   "y": 45.2619108239,
+   "xg": 0.10685057938098907,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 15,
+   "x": 96.79824561320001,
+   "y": 38.452380954,
+   "xg": 0.039994873106479645,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 19,
+   "x": 79.4441747584,
+   "y": 30.22,
+   "xg": 0.024741651490330696,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 21,
+   "x": 92.9,
+   "y": 34.68625,
+   "xg": 0.11613783240318298,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Lukas Kübler",
+   "min": 21,
+   "x": 89.4,
+   "y": 26.516562500000003,
+   "xg": 0.04654427990317345,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Matthias Ginter",
+   "min": 21,
+   "x": 91,
+   "y": 47.714140124400004,
+   "xg": 0.029899585992097855,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Matthias Ginter",
+   "min": 25,
+   "x": 69.08300971199999,
+   "y": 21.3368152901,
+   "xg": 0.015290185809135437,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 27,
+   "x": 84.62475728160001,
+   "y": 18.2540127409,
+   "xg": 0.03171835467219353,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yannik Engelhardt",
+   "min": 29,
+   "x": 90.8,
+   "y": 25.649375000000003,
+   "xg": 0.04613522067666054,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yuito Suzuki",
+   "min": 29,
+   "x": 102.629310345,
+   "y": 35.90625,
+   "xg": 0.625434398651123,
+   "xgot": 0.9880032539367676,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Jan-Niklas Beste",
+   "min": 40,
+   "x": 74.4888349536,
+   "y": 31.178749999999994,
+   "xg": 0.019365273416042328,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Derry Scherhant",
+   "min": 42,
+   "x": 97.6666666661,
+   "y": 55.9965876707,
+   "xg": 0.04490078240633011,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 45,
+   "x": 81.471359224,
+   "y": 23.0183439533,
+   "xg": 0.023024175316095352,
+   "xgot": 0.2300792634487152,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Igor Matanović",
+   "min": 48,
+   "x": 79.55679611760002,
+   "y": 36.2875,
+   "xg": 0.026703588664531708,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yuito Suzuki",
+   "min": 48,
+   "x": 99.01754385950001,
+   "y": 32.474999999999994,
+   "xg": 0.40248164534568787,
+   "xgot": 0.8383111953735352,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Ludovit Reis",
+   "min": 53,
+   "x": 83.94902912639999,
+   "y": 43.5803821607,
+   "xg": 0.02959958277642727,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Yuito Suzuki",
+   "min": 55,
+   "x": 98.8245614033,
+   "y": 35.0675,
+   "xg": 0.7385570406913757,
+   "xgot": 0.9946731925010681,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Niclas Füllkrug",
+   "min": 59,
+   "x": 92,
+   "y": 28.959285713000003,
+   "xg": 0.062249548733234406,
+   "xgot": 0.12306279689073563,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Niclas Füllkrug",
+   "min": 60,
+   "x": 93.3,
+   "y": 48.554904456,
+   "xg": 0.03167276829481125,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Justin Njinmah",
+   "min": 60,
+   "x": 92.7,
+   "y": 24.139363062099996,
+   "xg": 0.030126750469207764,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Derry Scherhant",
+   "min": 70,
+   "x": 82.03446602,
+   "y": 45.4020382125,
+   "xg": 0.03410591557621956,
+   "xgot": 0.021895987913012505,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Dariusz Stalmach",
+   "min": 76,
+   "x": 98.6315789471,
+   "y": 32.551249999999996,
+   "xg": 0.14583633840084076,
+   "xgot": 0.09954483062028885,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Cedric Itten",
+   "min": 78,
+   "x": 96.79824561320001,
+   "y": 26.6321875,
+   "xg": 0.07871842384338379,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 82,
+   "x": 81.80922330160001,
+   "y": 24.955625,
+   "xg": 0.019220735877752304,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Patrice Čović",
+   "min": 86,
+   "x": 83.8364077672,
+   "y": 37.708,
+   "xg": 0.029738450422883034,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Cyriaque Irié",
+   "min": 90,
+   "x": 83.49854368960001,
+   "y": 33.31375,
+   "xg": 0.05595371127128601,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   27
+  ],
+  [
+   2,
+   27
+  ],
+  [
+   3,
+   27
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   5,
+   -19
+  ],
+  [
+   6,
+   -24
+  ],
+  [
+   7,
+   -14
+  ],
+  [
+   8,
+   0
+  ],
+  [
+   9,
+   11
+  ],
+  [
+   10,
+   5
+  ],
+  [
+   11,
+   0
+  ],
+  [
+   12,
+   0
+  ],
+  [
+   13,
+   5
+  ],
+  [
+   14,
+   54
+  ],
+  [
+   15,
+   38
+  ],
+  [
+   16,
+   33
+  ],
+  [
+   17,
+   -22
+  ],
+  [
+   18,
+   0
+  ],
+  [
+   19,
+   0
+  ],
+  [
+   20,
+   27
+  ],
+  [
+   21,
+   98
+  ],
+  [
+   22,
+   100
+  ],
+  [
+   23,
+   100
+  ],
+  [
+   24,
+   71
+  ],
+  [
+   25,
+   46
+  ],
+  [
+   26,
+   30
+  ],
+  [
+   27,
+   22
+  ],
+  [
+   28,
+   16
+  ],
+  [
+   29,
+   65
+  ],
+  [
+   30,
+   60
+  ],
+  [
+   31,
+   49
+  ],
+  [
+   32,
+   -11
+  ],
+  [
+   33,
+   -5
+  ],
+  [
+   34,
+   22
+  ],
+  [
+   35,
+   49
+  ],
+  [
+   36,
+   33
+  ],
+  [
+   37,
+   38
+  ],
+  [
+   38,
+   33
+  ],
+  [
+   39,
+   65
+  ],
+  [
+   40,
+   49
+  ],
+  [
+   41,
+   35
+  ],
+  [
+   42,
+   24
+  ],
+  [
+   43,
+   19
+  ],
+  [
+   44,
+   5
+  ],
+  [
+   45,
+   5
+  ],
+  [
+   45.5,
+   10
+  ],
+  [
+   46,
+   14
+  ],
+  [
+   47,
+   8
+  ],
+  [
+   48,
+   100
+  ],
+  [
+   49,
+   100
+  ],
+  [
+   50,
+   95
+  ],
+  [
+   51,
+   -35
+  ],
+  [
+   52,
+   -30
+  ],
+  [
+   53,
+   -14
+  ],
+  [
+   54,
+   27
+  ],
+  [
+   55,
+   100
+  ],
+  [
+   56,
+   100
+  ],
+  [
+   57,
+   100
+  ],
+  [
+   58,
+   -14
+  ],
+  [
+   59,
+   -16
+  ],
+  [
+   60,
+   -41
+  ],
+  [
+   61,
+   -30
+  ],
+  [
+   62,
+   19
+  ],
+  [
+   63,
+   43
+  ],
+  [
+   64,
+   100
+  ],
+  [
+   65,
+   49
+  ],
+  [
+   66,
+   30
+  ],
+  [
+   67,
+   -27
+  ],
+  [
+   68,
+   -46
+  ],
+  [
+   69,
+   -33
+  ],
+  [
+   70,
+   -27
+  ],
+  [
+   71,
+   -14
+  ],
+  [
+   72,
+   -35
+  ],
+  [
+   73,
+   -49
+  ],
+  [
+   74,
+   -41
+  ],
+  [
+   75,
+   -16
+  ],
+  [
+   76,
+   -87
+  ],
+  [
+   77,
+   -73
+  ],
+  [
+   78,
+   -100
+  ],
+  [
+   79,
+   -14
+  ],
+  [
+   80,
+   -16
+  ],
+  [
+   81,
+   24
+  ],
+  [
+   82,
+   30
+  ],
+  [
+   83,
+   33
+  ],
+  [
+   84,
+   43
+  ],
+  [
+   85,
+   11
+  ],
+  [
+   86,
+   5
+  ],
+  [
+   87,
+   -16
+  ],
+  [
+   88,
+   5
+  ],
+  [
+   89,
+   0
+  ],
+  [
+   90,
+   -22
+  ],
+  [
+   90.5,
+   -3
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 34,
+   "center": 26,
+   "right": 40
   },
   "away": {
-   "team": "SCF",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 38,
+   "center": 19,
+   "right": 43
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "SCF",
+   "formation": "4-2-3-1",
+   "rating": 7.1,
+   "players": [
+    {
+     "id": 1352996,
+     "name": "Mio Backhaus",
+     "pos_id": 11,
+     "rating": 5.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 307209,
+     "name": "Lukas Kübler",
+     "pos_id": 32,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 303912,
+     "name": "Matthias Ginter",
+     "pos_id": 34,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 643724,
+     "name": "Philipp Lienhart",
+     "pos_id": 36,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 1281108,
+     "name": "Jordy Makengo",
+     "pos_id": 38,
+     "rating": 7,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 602523,
+     "name": "Maximilian Eggestein",
+     "pos_id": 64,
+     "rating": 7.2,
+     "captain": true,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 1269497,
+     "name": "Yannik Engelhardt",
+     "pos_id": 66,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 864157,
+     "name": "Jan-Niklas Beste",
+     "pos_id": 83,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1134467,
+     "name": "Yuito Suzuki",
+     "pos_id": 85,
+     "rating": 9.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1302666,
+     "name": "Derry Scherhant",
+     "pos_id": 87,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 1210893,
+     "name": "Igor Matanović",
+     "pos_id": 115,
+     "rating": 8.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "SVW",
+   "formation": "4-3-3",
+   "rating": 6.2,
+   "players": [
+    {
+     "id": 982692,
+     "name": "Karl Hein",
+     "pos_id": 11,
+     "rating": 5.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1714103,
+     "name": "Mick Schmetgens",
+     "pos_id": 32,
+     "rating": 5.2,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 765998,
+     "name": "Amos Pieper",
+     "pos_id": 34,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 767789,
+     "name": "Marco Friedl",
+     "pos_id": 36,
+     "rating": 5.7,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 969856,
+     "name": "Olivier Deman",
+     "pos_id": 38,
+     "rating": 5.4,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1315344,
+     "name": "Chuki",
+     "pos_id": 73,
+     "rating": 5.9,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "id": 919742,
+     "name": "Senne Lynen",
+     "pos_id": 75,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 869326,
+     "name": "Ludovit Reis",
+     "pos_id": 77,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "id": 1137364,
+     "name": "Justin Njinmah",
+     "pos_id": 103,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.87
+    },
+    {
+     "id": 276791,
+     "name": "Niclas Füllkrug",
+     "pos_id": 105,
+     "rating": 5.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    },
+    {
+     "id": 1024292,
+     "name": "Marco Grüll",
+     "pos_id": 107,
+     "rating": 8.2,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 276791,
+   "team": "SVW",
+   "name": "Niclas Füllkrug",
+   "keeper": false,
+   "rating": 5.39,
+   "minutes": 61,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 28,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 6,
+   "duels_lost": 7
+  },
+  {
+   "id": 303912,
+   "team": "SCF",
+   "name": "Matthias Ginter",
+   "keeper": false,
+   "rating": 8.09,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.05,
+   "xa": 0.17,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 84,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "id": 307209,
+   "team": "SCF",
+   "name": "Lukas Kübler",
+   "keeper": false,
+   "rating": 7.45,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 1,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 7,
+   "duels_lost": 3
+  },
+  {
+   "id": 355358,
+   "team": "SCF",
+   "name": "Christian Günter",
+   "keeper": false
+  },
+  {
+   "id": 400625,
+   "team": "SCF",
+   "name": "Vincenzo Grifo",
+   "keeper": false
+  },
+  {
+   "id": 450739,
+   "team": "SVW",
+   "name": "Alexander Schlager",
+   "keeper": true
+  },
+  {
+   "id": 556524,
+   "team": "SCF",
+   "name": "Lucas Höler",
+   "keeper": false,
+   "rating": 6.41,
+   "minutes": 17,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 2,
+   "touches": 14,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 602523,
+   "team": "SCF",
+   "name": "Maximilian Eggestein",
+   "keeper": false,
+   "rating": 7.18,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.05,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 66,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 643724,
+   "team": "SCF",
+   "name": "Philipp Lienhart",
+   "keeper": false,
+   "rating": 7.4,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.12,
+   "key_passes": 2,
+   "touches": 74,
+   "touches_box": 0,
+   "final_third_passes": 12,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 726956,
+   "team": "SVW",
+   "name": "Cedric Itten",
+   "keeper": false,
+   "rating": 6.06,
+   "minutes": 29,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 14,
+   "touches_box": 1,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 737365,
+   "team": "SCF",
+   "name": "Florian Müller",
+   "keeper": true
+  },
+  {
+   "id": 765998,
+   "team": "SVW",
+   "name": "Amos Pieper",
+   "keeper": false,
+   "rating": 5.93,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 80,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 767789,
+   "team": "SVW",
+   "name": "Marco Friedl",
+   "keeper": false,
+   "rating": 5.67,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 84,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "id": 864157,
+   "team": "SCF",
+   "name": "Jan-Niklas Beste",
+   "keeper": false,
+   "rating": 7.16,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.05,
+   "xa": 0.29,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 35,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 5
+  },
+  {
+   "id": 869326,
+   "team": "SVW",
+   "name": "Ludovit Reis",
+   "keeper": false,
+   "rating": 6.68,
+   "minutes": 85,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 53,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 7,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 7,
+   "duels_lost": 5
+  },
+  {
+   "id": 919742,
+   "team": "SVW",
+   "name": "Senne Lynen",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 20,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 969856,
+   "team": "SVW",
+   "name": "Olivier Deman",
+   "keeper": false,
+   "rating": 5.43,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 0,
+   "touches": 68,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 3
+  },
+  {
+   "id": 982692,
+   "team": "SVW",
+   "name": "Karl Hein",
+   "keeper": true,
+   "rating": 5.1,
+   "minutes": 90,
+   "recoveries": 8,
+   "touches": 45,
+   "tackles": 0,
+   "final_third_passes": 8,
+   "interceptions": 0
+  },
+  {
+   "id": 1024292,
+   "team": "SVW",
+   "name": "Marco Grüll",
+   "keeper": false,
+   "rating": 8.19,
+   "minutes": 85,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.11,
+   "xa": 0.13,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 58,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 6,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 13,
+   "duels_lost": 4
+  },
+  {
+   "id": 1134467,
+   "team": "SCF",
+   "name": "Yuito Suzuki",
+   "keeper": false,
+   "rating": 9.65,
+   "minutes": 80,
+   "goals": 3,
+   "assists": 0,
+   "xg": 1.77,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 52,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 9,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 1,
+   "duels_lost": 6
+  },
+  {
+   "id": 1137364,
+   "team": "SVW",
+   "name": "Justin Njinmah",
+   "keeper": false,
+   "rating": 6.53,
+   "minutes": 61,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 23,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 1
+  },
+  {
+   "id": 1146376,
+   "team": "SVW",
+   "name": "Eren Dinkçi",
+   "keeper": false,
+   "minutes": 5,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1201408,
+   "team": "SVW",
+   "name": "Julián Malatini",
+   "keeper": false
+  },
+  {
+   "id": 1210893,
+   "team": "SCF",
+   "name": "Igor Matanović",
+   "keeper": false,
+   "rating": 8.65,
+   "minutes": 73,
+   "goals": 1,
+   "assists": 1,
+   "xg": 0.24,
+   "xa": 0.59,
+   "shots": 5,
+   "key_passes": 2,
+   "touches": 32,
+   "touches_box": 4,
+   "dribbles": 3,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 8,
+   "duels_lost": 4
+  },
+  {
+   "id": 1269497,
+   "team": "SCF",
+   "name": "Yannik Engelhardt",
+   "keeper": false,
+   "rating": 6.58,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 5
+  },
+  {
+   "id": 1276988,
+   "team": "SVW",
+   "name": "Dariusz Stalmach",
+   "keeper": false,
+   "rating": 8.04,
+   "minutes": 45,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.15,
+   "xa": 0.08,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 29,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 4,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 2
+  },
+  {
+   "id": 1281090,
+   "team": "SCF",
+   "name": "Philipp Treu",
+   "keeper": false,
+   "rating": 6.44,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 20,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "id": 1281107,
+   "team": "SCF",
+   "name": "Max Rosenfelder",
+   "keeper": false,
+   "rating": 6.42,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 18,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 2,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1281108,
+   "team": "SCF",
+   "name": "Jordy Makengo",
+   "keeper": false,
+   "rating": 7.01,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 68,
+   "touches_box": 0,
+   "final_third_passes": 9,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 1
+  },
+  {
+   "id": 1302666,
+   "team": "SCF",
+   "name": "Derry Scherhant",
+   "keeper": false,
+   "rating": 7.21,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.07,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 51,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 10
+  },
+  {
+   "id": 1315344,
+   "team": "SVW",
+   "name": "Chuki",
+   "keeper": false,
+   "rating": 5.86,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 1,
+   "touches": 44,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 1352996,
+   "team": "SCF",
+   "name": "Mio Backhaus",
+   "keeper": true,
+   "rating": 5.45,
+   "minutes": 90,
+   "recoveries": 9,
+   "touches": 45,
+   "tackles": 0,
+   "final_third_passes": 3,
+   "interceptions": 0
+  },
+  {
+   "id": 1402900,
+   "team": "SVW",
+   "name": "Samuel Mbangula",
+   "keeper": false
+  },
+  {
+   "id": 1436730,
+   "team": "SCF",
+   "name": "Keisuke Goto",
+   "keeper": false,
+   "rating": 6.03,
+   "minutes": 10,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1526221,
+   "team": "SCF",
+   "name": "Cyriaque Irié",
+   "keeper": false,
+   "rating": 6.57,
+   "minutes": 45,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 27,
+   "touches_box": 1,
+   "dribbles": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 6
+  },
+  {
+   "id": 1580371,
+   "team": "SCF",
+   "name": "Berkay Yılmaz",
+   "keeper": false
+  },
+  {
+   "id": 1646629,
+   "team": "SVW",
+   "name": "Salim Musah",
+   "keeper": false,
+   "rating": 6.14,
+   "minutes": 29,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1646943,
+   "team": "SVW",
+   "name": "Patrice Čović",
+   "keeper": false,
+   "minutes": 5,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 1714103,
+   "team": "SVW",
+   "name": "Mick Schmetgens",
+   "keeper": false,
+   "rating": 5.2,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 0,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 1810868,
+   "team": "SVW",
+   "name": "Paul Erevbenagie",
+   "keeper": false
+  }
+ ],
  "oldb_id": 83159,
  "matchday": 1,
  "season": 2026

@@ -1,24 +1,1875 @@
 {
- "fm_id": 5881312,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881160,
+ "stats": {
+  "BallPossesion": [
+   29,
+   71
+  ],
+  "expected_goals": [
+   0.95,
+   1.5
+  ],
+  "total_shots": [
+   12,
+   19
+  ],
+  "ShotsOnTarget": [
+   7,
+   5
+  ],
+  "touches_opp_box": [
+   13,
+   39
+  ],
+  "big_chance": [
+   1,
+   2
+  ],
+  "big_chance_missed_title": [
+   0,
+   1
+  ],
+  "accurate_passes": [
+   {
+    "n": 208,
+    "pct": 72
+   },
+   {
+    "n": 612,
+    "pct": 89
+   }
+  ],
+  "yellow_cards": [
+   1,
+   0
+  ],
+  "corners": [
+   2,
+   7
+  ],
+  "blocked_shots": [
+   2,
+   7
+  ],
+  "shots_inside_box": [
+   5,
+   14
+  ],
+  "expected_goals_open_play": [
+   0.88,
+   1.06
+  ],
+  "expected_goals_set_play": [
+   0.07,
+   0.44
+  ],
+  "expected_goals_on_target": [
+   1.73,
+   0.74
+  ],
+  "passes": [
+   287,
+   691
+  ],
+  "own_half_passes": [
+   130,
+   180
+  ],
+  "opposition_half_passes": [
+   78,
+   432
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 22,
+    "pct": 44
+   },
+   {
+    "n": 14,
+    "pct": 45
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 1,
+    "pct": 10
+   },
+   {
+    "n": 7,
+    "pct": 20
+   }
+  ],
+  "Offsides": [
+   4,
+   1
+  ],
+  "tackles": [
+   37,
+   8
+  ],
+  "interceptions": [
+   18,
+   6
+  ],
+  "shot_blocks": [
+   8,
+   2
+  ],
+  "clearances": [
+   33,
+   20
+  ],
+  "keeper_saves": [
+   3,
+   4
+  ],
+  "duel_won": [
+   57,
+   45
+  ],
+  "ground_duels_won": [
+   {
+    "n": 49,
+    "pct": 60
+   },
+   {
+    "n": 32,
+    "pct": 40
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 8,
+    "pct": 38
+   },
+   {
+    "n": 13,
+    "pct": 62
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 4,
+    "pct": 50
+   },
+   {
+    "n": 11,
+    "pct": 32
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   13,
+   8
+  ]
+ },
+ "shots": [
+  {
+   "team": "SVW",
+   "player": "Eren Dinkçi",
+   "min": 4,
+   "x": 95.9298245603,
+   "y": 36.8975,
+   "xg": 0.6414898633956909,
+   "xgot": 0.5605946183204651,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
    "team": "RBL",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Christopher Nkunku",
+   "min": 19,
+   "x": 92.6,
+   "y": 32.856249999999996,
+   "xg": 0.09373345971107483,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Johan Bakayoko",
+   "min": 27,
+   "x": 80.68300970960001,
+   "y": 20.706242041399996,
+   "xg": 0.012944680638611317,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Christopher Nkunku",
+   "min": 28,
+   "x": 95.73684210409999,
+   "y": 29.211428570000002,
+   "xg": 0.039090655744075775,
+   "xgot": 0.01787809282541275,
+   "situation": "RegularPlay",
+   "type": "OtherBodyParts",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Neil El Aynaoui",
+   "min": 37,
+   "x": 97.1842105256,
+   "y": 38.116190478,
+   "xg": 0.23405998945236206,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Ridle Baku",
+   "min": 37,
+   "x": 90.8,
+   "y": 24.139363062099996,
+   "xg": 0.08520589768886566,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Olivier Deman",
+   "min": 40,
+   "x": 87.31911764680001,
+   "y": 46.1727388498,
+   "xg": 0.03848119452595711,
+   "xgot": 0.028593864291906357,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Johan Bakayoko",
+   "min": 44,
+   "x": 75.7276699048,
+   "y": 23.438726119099996,
+   "xg": 0.013876894488930702,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Neil El Aynaoui",
+   "min": 45,
+   "x": 95.73684210409999,
+   "y": 32.0175,
+   "xg": 0.06808212399482727,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Christopher Nkunku",
+   "min": 45,
+   "x": 95.9298245603,
+   "y": 37.50750000000001,
+   "xg": 0.0319405235350132,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Youri Regeer",
+   "min": 48,
+   "x": 73.2500000024,
+   "y": 51.4275159223,
+   "xg": 0.011035948060452938,
+   "xgot": 0.03092125803232193,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Amos Pieper",
+   "min": 52,
+   "x": 87.21176470559999,
+   "y": 30.256,
+   "xg": 0.018736420199275017,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 52,
+   "x": 77.4169902928,
+   "y": 43.3001273835,
+   "xg": 0.008044545538723469,
+   "xgot": 0.07484102994203568,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Willi Orbán",
+   "min": 56,
+   "x": 96.4122807008,
+   "y": 33.695,
+   "xg": 0.16800056397914886,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "David Raum",
+   "min": 58,
+   "x": 80.4577669912,
+   "y": 23.158471341899997,
+   "xg": 0.025596169754862785,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Ridle Baku",
+   "min": 62,
+   "x": 81.1334951464,
+   "y": 31.331249999999997,
+   "xg": 0.031406957656145096,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Willi Orbán",
+   "min": 63,
+   "x": 95.2543859636,
+   "y": 36.440000000000005,
+   "xg": 0.03469165042042732,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Niclas Füllkrug",
+   "min": 68,
+   "x": 92.1,
+   "y": 37.768,
+   "xg": 0.016692552715539932,
+   "xgot": 0.13451716303825378,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Christopher Nkunku",
+   "min": 72,
+   "x": 95.2543859636,
+   "y": 30.291999999999998,
+   "xg": 0.036554064601659775,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Antonio Nusa",
+   "min": 72,
+   "x": 94.2894736826,
+   "y": 51.49757961659999,
+   "xg": 0.018290545791387558,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Chuki",
+   "min": 73,
+   "x": 86.6749999996,
+   "y": 34,
+   "xg": 0.07991847395896912,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 74,
+   "x": 79.3315533992,
+   "y": 24.4896815336,
+   "xg": 0.011742127127945423,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 74,
+   "x": 80.68300970960001,
+   "y": 24.6298089222,
+   "xg": 0.013808196410536766,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Antonio Nusa",
+   "min": 78,
+   "x": 80.68300970960001,
+   "y": 24.8978125,
+   "xg": 0.025760482996702194,
+   "xgot": 0.04263031482696533,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Paul Erevbenagie",
+   "min": 80,
+   "x": 97.2807017537,
+   "y": 20.4960509585,
+   "xg": 0.027716120705008507,
+   "xgot": 0.38831257820129395,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 80,
+   "x": 90.3,
+   "y": 35.6775,
+   "xg": 0.061836596578359604,
+   "xgot": 0.5157211422920227,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Marco Grüll",
+   "min": 86,
+   "x": 91.7,
+   "y": 48.7650955389,
+   "xg": 0.01866845041513443,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Tidiam Gomis",
+   "min": 87,
+   "x": 91.6,
+   "y": 27.950714285,
+   "xg": 0.04277917742729187,
+   "xgot": 0.40668371319770813,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Samba Konaté",
+   "min": 90,
+   "x": 92.7,
+   "y": 39.376904763,
+   "xg": 0.1505647897720337,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Tidiam Gomis",
+   "min": 90,
+   "x": 92.1,
+   "y": 20.4960509585,
+   "xg": 0.05134894698858261,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Ridle Baku",
+   "min": 90,
+   "x": 100.3534482762,
+   "y": 30.291999999999998,
+   "xg": 0.33416277170181274,
+   "xgot": 0.2757170796394348,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   2,
+   11
+  ],
+  [
+   3,
+   11
+  ],
+  [
+   4,
+   49
+  ],
+  [
+   5,
+   33
+  ],
+  [
+   6,
+   14
+  ],
+  [
+   7,
+   -46
+  ],
+  [
+   8,
+   -57
+  ],
+  [
+   9,
+   -60
+  ],
+  [
+   10,
+   -49
+  ],
+  [
+   11,
+   -62
+  ],
+  [
+   12,
+   -100
+  ],
+  [
+   13,
+   -100
+  ],
+  [
+   14,
+   -33
+  ],
+  [
+   15,
+   33
+  ],
+  [
+   16,
+   27
+  ],
+  [
+   17,
+   -38
+  ],
+  [
+   18,
+   -49
+  ],
+  [
+   19,
+   -100
+  ],
+  [
+   20,
+   -100
+  ],
+  [
+   21,
+   -100
+  ],
+  [
+   22,
+   -11
+  ],
+  [
+   23,
+   11
+  ],
+  [
+   24,
+   27
+  ],
+  [
+   25,
+   22
+  ],
+  [
+   26,
+   0
+  ],
+  [
+   27,
+   0
+  ],
+  [
+   28,
+   -73
+  ],
+  [
+   29,
+   -68
+  ],
+  [
+   30,
+   -90
+  ],
+  [
+   31,
+   -27
+  ],
+  [
+   32,
+   -60
+  ],
+  [
+   33,
+   -38
+  ],
+  [
+   34,
+   -38
+  ],
+  [
+   35,
+   -33
+  ],
+  [
+   36,
+   -60
+  ],
+  [
+   37,
+   -100
+  ],
+  [
+   38,
+   -100
+  ],
+  [
+   39,
+   -100
+  ],
+  [
+   40,
+   8
+  ],
+  [
+   41,
+   -3
+  ],
+  [
+   42,
+   -27
+  ],
+  [
+   43,
+   -38
+  ],
+  [
+   44,
+   -33
+  ],
+  [
+   45,
+   -16
+  ],
+  [
+   45.5,
+   -30
+  ],
+  [
+   46,
+   -5
+  ],
+  [
+   47,
+   0
+  ],
+  [
+   48,
+   5
+  ],
+  [
+   49,
+   5
+  ],
+  [
+   50,
+   0
+  ],
+  [
+   51,
+   8
+  ],
+  [
+   52,
+   14
+  ],
+  [
+   53,
+   30
+  ],
+  [
+   54,
+   33
+  ],
+  [
+   55,
+   16
+  ],
+  [
+   56,
+   -35
+  ],
+  [
+   57,
+   -79
+  ],
+  [
+   58,
+   -62
+  ],
+  [
+   59,
+   -27
+  ],
+  [
+   60,
+   0
+  ],
+  [
+   61,
+   -11
+  ],
+  [
+   62,
+   -49
+  ],
+  [
+   63,
+   -84
+  ],
+  [
+   64,
+   -84
+  ],
+  [
+   65,
+   -79
+  ],
+  [
+   66,
+   -38
+  ],
+  [
+   67,
+   -22
+  ],
+  [
+   68,
+   30
+  ],
+  [
+   69,
+   14
+  ],
+  [
+   70,
+   -8
+  ],
+  [
+   71,
+   -54
+  ],
+  [
+   72,
+   -46
+  ],
+  [
+   73,
+   -11
+  ],
+  [
+   74,
+   16
+  ],
+  [
+   75,
+   35
+  ],
+  [
+   76,
+   33
+  ],
+  [
+   77,
+   33
+  ],
+  [
+   78,
+   22
+  ],
+  [
+   79,
+   5
+  ],
+  [
+   80,
+   43
+  ],
+  [
+   81,
+   38
+  ],
+  [
+   82,
+   5
+  ],
+  [
+   83,
+   -49
+  ],
+  [
+   84,
+   -49
+  ],
+  [
+   85,
+   -38
+  ],
+  [
+   86,
+   0
+  ],
+  [
+   87,
+   -16
+  ],
+  [
+   88,
+   -27
+  ],
+  [
+   89,
+   -65
+  ],
+  [
+   90,
+   -100
+  ],
+  [
+   90.5,
+   -70
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 37,
+   "center": 32,
+   "right": 31
   },
   "away": {
-   "team": "SVW",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 35,
+   "center": 24,
+   "right": 41
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "SVW",
+   "formation": "4-2-3-1",
+   "rating": 7.4,
+   "players": [
+    {
+     "id": 982692,
+     "name": "Karl Hein",
+     "pos_id": 11,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1353457,
+     "name": "Arthur",
+     "pos_id": 32,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 765998,
+     "name": "Amos Pieper",
+     "pos_id": 34,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 767789,
+     "name": "Marco Friedl",
+     "pos_id": 36,
+     "rating": 6.9,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 969856,
+     "name": "Olivier Deman",
+     "pos_id": 38,
+     "rating": 8.5,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 869326,
+     "name": "Ludovit Reis",
+     "pos_id": 64,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 1111980,
+     "name": "Youri Regeer",
+     "pos_id": 66,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 1146376,
+     "name": "Eren Dinkçi",
+     "pos_id": 83,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1315344,
+     "name": "Chuki",
+     "pos_id": 85,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1024292,
+     "name": "Marco Grüll",
+     "pos_id": 87,
+     "rating": 9.2,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 276791,
+     "name": "Niclas Füllkrug",
+     "pos_id": 115,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "RBL",
+   "formation": "4-3-3",
+   "rating": 6.4,
+   "players": [
+    {
+     "id": 972200,
+     "name": "Maarten Vandevoordt",
+     "pos_id": 11,
+     "rating": 5.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 883087,
+     "name": "Ridle Baku",
+     "pos_id": 32,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 278856,
+     "name": "Willi Orbán",
+     "pos_id": 34,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 1250443,
+     "name": "Maxime Estève",
+     "pos_id": 36,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 806669,
+     "name": "David Raum",
+     "pos_id": 38,
+     "rating": 6.8,
+     "captain": true,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 1274060,
+     "name": "Neil El Aynaoui",
+     "pos_id": 73,
+     "rating": 6.5,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "id": 1024672,
+     "name": "Nicolas Seiwald",
+     "pos_id": 75,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 1310001,
+     "name": "Ezechiel Banzuzi",
+     "pos_id": 77,
+     "rating": 5.8,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "id": 1203194,
+     "name": "Johan Bakayoko",
+     "pos_id": 103,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.87
+    },
+    {
+     "id": 704523,
+     "name": "Christopher Nkunku",
+     "pos_id": 105,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    },
+    {
+     "id": 1248482,
+     "name": "Antonio Nusa",
+     "pos_id": 107,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 73409,
+   "team": "RBL",
+   "name": "Ørjan Håskjold Nyland",
+   "keeper": true
+  },
+  {
+   "id": 276791,
+   "team": "SVW",
+   "name": "Niclas Füllkrug",
+   "keeper": false,
+   "rating": 7.84,
+   "minutes": 74,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 26,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 6
+  },
+  {
+   "id": 278856,
+   "team": "RBL",
+   "name": "Willi Orbán",
+   "keeper": false,
+   "rating": 6.58,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.2,
+   "xa": 0.06,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 140,
+   "touches_box": 2,
+   "final_third_passes": 21,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 3
+  },
+  {
+   "id": 425962,
+   "team": "SVW",
+   "name": "Niklas Stark",
+   "keeper": false
+  },
+  {
+   "id": 450739,
+   "team": "SVW",
+   "name": "Alexander Schlager",
+   "keeper": true
+  },
+  {
+   "id": 526657,
+   "team": "RBL",
+   "name": "Lukas Klostermann",
+   "keeper": false
+  },
+  {
+   "id": 681383,
+   "team": "RBL",
+   "name": "Benjamin Henrichs",
+   "keeper": false
+  },
+  {
+   "id": 704523,
+   "team": "RBL",
+   "name": "Christopher Nkunku",
+   "keeper": false,
+   "rating": 6.81,
+   "minutes": 84,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.2,
+   "xa": 0.03,
+   "shots": 4,
+   "key_passes": 2,
+   "touches": 39,
+   "touches_box": 6,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "id": 726956,
+   "team": "SVW",
+   "name": "Cedric Itten",
+   "keeper": false,
+   "rating": 6.2,
+   "minutes": 16,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 9,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "id": 765998,
+   "team": "SVW",
+   "name": "Amos Pieper",
+   "keeper": false,
+   "rating": 7.63,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 4,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_won": 8
+  },
+  {
+   "id": 767789,
+   "team": "SVW",
+   "name": "Marco Friedl",
+   "keeper": false,
+   "rating": 6.85,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 41,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 806669,
+   "team": "RBL",
+   "name": "David Raum",
+   "keeper": false,
+   "rating": 6.8,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.29,
+   "shots": 1,
+   "key_passes": 5,
+   "touches": 106,
+   "touches_box": 1,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 869326,
+   "team": "SVW",
+   "name": "Ludovit Reis",
+   "keeper": false,
+   "rating": 7.71,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 50,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 4,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 8,
+   "duels_lost": 3
+  },
+  {
+   "id": 883087,
+   "team": "RBL",
+   "name": "Ridle Baku",
+   "keeper": false,
+   "rating": 7.64,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.45,
+   "xa": 0.19,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 137,
+   "touches_box": 3,
+   "dribbles": 2,
+   "final_third_passes": 11,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 5,
+   "duels_lost": 5
+  },
+  {
+   "id": 969856,
+   "team": "SVW",
+   "name": "Olivier Deman",
+   "keeper": false,
+   "rating": 8.49,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 68,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 10,
+   "interceptions": 3,
+   "recoveries": 7,
+   "duels_won": 11,
+   "duels_lost": 5
+  },
+  {
+   "id": 972200,
+   "team": "RBL",
+   "name": "Maarten Vandevoordt",
+   "keeper": true,
+   "rating": 5.45,
+   "minutes": 90,
+   "recoveries": 3,
+   "touches": 33,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 1,
+   "interceptions": 0
+  },
+  {
+   "id": 982692,
+   "team": "SVW",
+   "name": "Karl Hein",
+   "keeper": true,
+   "rating": 7.65,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 7,
+   "key_passes": 1,
+   "touches": 39,
+   "duels_won": 2,
+   "tackles": 1,
+   "final_third_passes": 8,
+   "interceptions": 0
+  },
+  {
+   "id": 1024292,
+   "team": "SVW",
+   "name": "Marco Grüll",
+   "keeper": false,
+   "rating": 9.17,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 1,
+   "xg": 0.11,
+   "xa": 0.07,
+   "shots": 5,
+   "key_passes": 2,
+   "touches": 50,
+   "touches_box": 4,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 6,
+   "interceptions": 4,
+   "recoveries": 8,
+   "duels_won": 8,
+   "duels_lost": 4
+  },
+  {
+   "id": 1024672,
+   "team": "RBL",
+   "name": "Nicolas Seiwald",
+   "keeper": false,
+   "rating": 6.69,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.23,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 1053674,
+   "team": "SVW",
+   "name": "Moussa N'Diaye",
+   "keeper": false
+  },
+  {
+   "id": 1111980,
+   "team": "SVW",
+   "name": "Youri Regeer",
+   "keeper": false,
+   "rating": 7.81,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 46,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 5,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 1146376,
+   "team": "SVW",
+   "name": "Eren Dinkçi",
+   "keeper": false,
+   "rating": 7.5,
+   "minutes": 67,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.64,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 16,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 1203194,
+   "team": "RBL",
+   "name": "Johan Bakayoko",
+   "keeper": false,
+   "rating": 5.29,
+   "minutes": 63,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.17,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 51,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3,
+   "duels_lost": 7
+  },
+  {
+   "id": 1248482,
+   "team": "RBL",
+   "name": "Antonio Nusa",
+   "keeper": false,
+   "rating": 7.2,
+   "minutes": 84,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.08,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 52,
+   "touches_box": 5,
+   "dribbles": 4,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 5,
+   "duels_won": 8,
+   "duels_lost": 7
+  },
+  {
+   "id": 1250443,
+   "team": "RBL",
+   "name": "Maxime Estève",
+   "keeper": false,
+   "rating": 7.2,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.08,
+   "key_passes": 0,
+   "touches": 140,
+   "touches_box": 0,
+   "final_third_passes": 27,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 8,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1274060,
+   "team": "RBL",
+   "name": "Neil El Aynaoui",
+   "keeper": false,
+   "rating": 6.46,
+   "minutes": 75,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.3,
+   "xa": 0.18,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 58,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1276988,
+   "team": "SVW",
+   "name": "Dariusz Stalmach",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 1283403,
+   "team": "SVW",
+   "name": "Oskar Wójcik",
+   "keeper": false
+  },
+  {
+   "id": 1310001,
+   "team": "RBL",
+   "name": "Ezechiel Banzuzi",
+   "keeper": false,
+   "rating": 5.78,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 51,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 8
+  },
+  {
+   "id": 1315344,
+   "team": "SVW",
+   "name": "Chuki",
+   "keeper": false,
+   "rating": 7.47,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.08,
+   "xa": 0.39,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 23,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 1353457,
+   "team": "SVW",
+   "name": "Arthur",
+   "keeper": false,
+   "rating": 7.06,
+   "minutes": 67,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 49,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 4,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 1412137,
+   "team": "RBL",
+   "name": "Marc Guiu",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 15,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.06,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 1482209,
+   "team": "RBL",
+   "name": "Andrija Maksimović",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 1,
+   "xa": 0.48,
+   "key_passes": 2,
+   "touches": 13,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2
+  },
+  {
+   "id": 1482733,
+   "team": "RBL",
+   "name": "Tidiam Gomis",
+   "keeper": false,
+   "rating": 5.87,
+   "minutes": 27,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.03,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 30,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 8
+  },
+  {
+   "id": 1529161,
+   "team": "RBL",
+   "name": "Max Finkgräfe",
+   "keeper": false
+  },
+  {
+   "id": 1643776,
+   "team": "RBL",
+   "name": "Abdoul Koné",
+   "keeper": false
+  },
+  {
+   "id": 1646629,
+   "team": "SVW",
+   "name": "Salim Musah",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 2,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 2
+  },
+  {
+   "id": 1714103,
+   "team": "SVW",
+   "name": "Mick Schmetgens",
+   "keeper": false,
+   "rating": 6.47,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 18,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 1810868,
+   "team": "SVW",
+   "name": "Paul Erevbenagie",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 23,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 1,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "id": 1860819,
+   "team": "RBL",
+   "name": "Samba Konaté",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.15,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 17,
+   "touches_box": 2,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 4
+  }
+ ],
  "oldb_id": 83171,
  "matchday": 2,
  "season": 2026

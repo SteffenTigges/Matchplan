@@ -1,24 +1,1987 @@
 {
- "fm_id": 5881305,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881154,
+ "stats": {
+  "BallPossesion": [
+   60,
+   40
+  ],
+  "expected_goals": [
+   2.22,
+   1.13
+  ],
+  "total_shots": [
+   22,
+   17
+  ],
+  "ShotsOnTarget": [
+   8,
+   7
+  ],
+  "touches_opp_box": [
+   38,
+   18
+  ],
+  "big_chance": [
+   4,
+   1
+  ],
+  "big_chance_missed_title": [
+   3,
+   0
+  ],
+  "accurate_passes": [
+   {
+    "n": 465,
+    "pct": 84
+   },
+   {
+    "n": 280,
+    "pct": 77
+   }
+  ],
+  "yellow_cards": [
+   1,
+   1
+  ],
+  "corners": [
+   9,
+   4
+  ],
+  "blocked_shots": [
+   6,
+   5
+  ],
+  "shots_inside_box": [
+   17,
+   9
+  ],
+  "expected_goals_open_play": [
+   1.85,
+   0.9
+  ],
+  "expected_goals_set_play": [
+   0.37,
+   0.24
+  ],
+  "expected_goals_on_target": [
+   3.34,
+   2.81
+  ],
+  "passes": [
+   553,
+   365
+  ],
+  "own_half_passes": [
+   192,
+   162
+  ],
+  "opposition_half_passes": [
+   273,
+   118
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 26,
+    "pct": 52
+   },
+   {
+    "n": 26,
+    "pct": 46
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 7,
+    "pct": 26
+   },
+   {
+    "n": 5,
+    "pct": 23
+   }
+  ],
+  "Offsides": [
+   3,
+   0
+  ],
+  "tackles": [
+   12,
+   25
+  ],
+  "interceptions": [
+   15,
+   15
+  ],
+  "shot_blocks": [
+   5,
+   6
+  ],
+  "clearances": [
+   26,
+   38
+  ],
+  "keeper_saves": [
+   4,
+   7
+  ],
+  "duel_won": [
+   44,
+   57
+  ],
+  "ground_duels_won": [
+   {
+    "n": 29,
+    "pct": 41
+   },
+   {
+    "n": 41,
+    "pct": 59
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 15,
+    "pct": 48
+   },
+   {
+    "n": 16,
+    "pct": 52
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 5,
+    "pct": 28
+   },
+   {
+    "n": 6,
+    "pct": 46
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   10,
+   13
+  ]
+ },
+ "shots": [
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 6,
+   "x": 98.7280701752,
+   "y": 30.645,
+   "xg": 0.10420092940330505,
+   "xgot": 0.7692429423332214,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Robin Koch",
+   "min": 8,
+   "x": 97.0877192975,
+   "y": 37.05,
+   "xg": 0.052279822528362274,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 11,
+   "x": 95.640350876,
+   "y": 30.95,
+   "xg": 0.3923712968826294,
+   "xgot": 0.6510605812072754,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 12,
+   "x": 95.73684210409999,
+   "y": 31.4075,
+   "xg": 0.16348303854465485,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 22,
+   "x": 97.3771929818,
+   "y": 49.465732481900005,
+   "xg": 0.014190059155225754,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
    "team": "FCA",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Hennes Behrens",
+   "min": 24,
+   "x": 95.640350876,
+   "y": 48.695031844599995,
+   "xg": 0.028292758390307426,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Raphael Onyedika",
+   "min": 28,
+   "x": 81.471359224,
+   "y": 37.66,
+   "xg": 0.040301088243722916,
+   "xgot": 0.033194251358509064,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 28,
+   "x": 95.640350876,
+   "y": 32.551249999999996,
+   "xg": 0.07366626709699631,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Elias Baum",
+   "min": 32,
+   "x": 91.9,
+   "y": 24.2794904507,
+   "xg": 0.03935116529464722,
+   "xgot": 0.21262933313846588,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 39,
+   "x": 89.5,
+   "y": 25.302500000000002,
+   "xg": 0.3975832760334015,
+   "xgot": 0.6570934653282166,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 41,
+   "x": 96.2192982446,
+   "y": 40.217380953,
+   "xg": 0.11730661243200302,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Robin Fellhauer",
+   "min": 44,
+   "x": 84.62475728160001,
+   "y": 46.5931210156,
+   "xg": 0.011604665778577328,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 45,
+   "x": 95.54385964789999,
+   "y": 41.483437499999994,
+   "xg": 0.07474923133850098,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Fabian Rieder",
+   "min": 45,
+   "x": 78.655825244,
+   "y": 33.61875,
+   "xg": 0.06282538920640945,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Elias Baum",
+   "min": 46,
+   "x": 8.780701755399999,
+   "y": 32.39875,
+   "xg": null,
+   "xgot": 0.6697570085525513,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": true
+  },
+  {
+   "team": "FCA",
+   "player": "Arijon Ibrahimović",
+   "min": 46,
+   "x": 95.9298245603,
+   "y": 36.135000000000005,
+   "xg": 0.05723709240555763,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Arijon Ibrahimović",
+   "min": 47,
+   "x": 92,
+   "y": 40.889761905,
+   "xg": 0.16040028631687164,
+   "xgot": 0.34876954555511475,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Robin Fellhauer",
+   "min": 47,
+   "x": 102.8189655174,
+   "y": 30.316,
+   "xg": 0.2674899995326996,
+   "xgot": 0.3621165454387665,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Arijon Ibrahimović",
+   "min": 49,
+   "x": 101.3017241382,
+   "y": 44.35108279800001,
+   "xg": 0.07189740240573883,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 52,
+   "x": 96.50877192889999,
+   "y": 37.696,
+   "xg": 0.33741798996925354,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 52,
+   "x": 100.06896551759999,
+   "y": 20.145732487,
+   "xg": 0.011471835896372795,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Can Uzun",
+   "min": 56,
+   "x": 77.529611652,
+   "y": 37.05,
+   "xg": 0.02744223363697529,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Robin Koch",
+   "min": 57,
+   "x": 95.4473684198,
+   "y": 30.05190476,
+   "xg": 0.02643367275595665,
+   "xgot": 0.039976831525564194,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Michael Gregoritsch",
+   "min": 58,
+   "x": 84.85,
+   "y": 28.959285713000003,
+   "xg": 0.1228935569524765,
+   "xgot": 0.5462363362312317,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Chrislain Matsima",
+   "min": 59,
+   "x": 91.4,
+   "y": 33.5425,
+   "xg": 0.011169896461069584,
+   "xgot": 0.24087774753570557,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Keita Kosugi",
+   "min": 61,
+   "x": 77.4169902928,
+   "y": 29.631666665,
+   "xg": 0.022426282986998558,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 63,
+   "x": 95.9298245603,
+   "y": 31.1025,
+   "xg": 0.08646918833255768,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Alexis Claude-Maurice",
+   "min": 64,
+   "x": 82.597572816,
+   "y": 25.99625,
+   "xg": 0.01607404835522175,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Alexis Claude-Maurice",
+   "min": 65,
+   "x": 90.6,
+   "y": 43.860636937900004,
+   "xg": 0.05125802382826805,
+   "xgot": 0.7106236815452576,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Robin Koch",
+   "min": 68,
+   "x": 96.0263157884,
+   "y": 30.256,
+   "xg": 0.0341239832341671,
+   "xgot": 0.42015203833580017,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Timothy Chandler",
+   "min": 70,
+   "x": 99.59482758659999,
+   "y": 22.107515927399998,
+   "xg": 0.10764419287443161,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Lilian Brassier",
+   "min": 70,
+   "x": 73.2500000024,
+   "y": 37.58375000000001,
+   "xg": 0.015691043809056282,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Ritsu Doan",
+   "min": 76,
+   "x": 82.1470873792,
+   "y": 23.0183439533,
+   "xg": 0.016386499628424644,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Han-Noah Massengo",
+   "min": 77,
+   "x": 97.1842105256,
+   "y": 40.637619048000005,
+   "xg": 0.1213962510228157,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Mert Kömür",
+   "min": 80,
+   "x": 102.155172414,
+   "y": 22.808152870399997,
+   "xg": 0.05600789934396744,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Fabian Rieder",
+   "min": 81,
+   "x": 84.9573529404,
+   "y": 13.2496682542,
+   "xg": 0.004002836067229509,
+   "xgot": 0.011380486190319061,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Ayoube Amaimouni-Echghouyab",
+   "min": 81,
+   "x": 93.2,
+   "y": 41.31,
+   "xg": 0.06279751658439636,
+   "xgot": 0.5538141131401062,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Alexis Claude-Maurice",
+   "min": 88,
+   "x": 79.21893204,
+   "y": 17.8336305751,
+   "xg": 0.014840932562947273,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Mert Kömür",
+   "min": 88,
+   "x": 87.426470588,
+   "y": 33.695,
+   "xg": 0.04589436948299408,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCA",
+   "player": "Fabian Rieder",
+   "min": 89,
+   "x": 80.345145632,
+   "y": 30.95,
+   "xg": 0.07182971388101578,
+   "xgot": 0.5898464918136597,
+   "situation": "FreeKick",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   2,
+   33
+  ],
+  [
+   3,
+   46
+  ],
+  [
+   4,
+   52
+  ],
+  [
+   5,
+   52
+  ],
+  [
+   6,
+   100
+  ],
+  [
+   7,
+   100
+  ],
+  [
+   8,
+   100
+  ],
+  [
+   9,
+   11
+  ],
+  [
+   10,
+   -3
+  ],
+  [
+   11,
+   49
+  ],
+  [
+   12,
+   100
+  ],
+  [
+   13,
+   100
+  ],
+  [
+   14,
+   46
+  ],
+  [
+   15,
+   -5
+  ],
+  [
+   16,
+   -16
+  ],
+  [
+   17,
+   -8
+  ],
+  [
+   18,
+   19
+  ],
+  [
+   19,
+   24
+  ],
+  [
+   20,
+   30
+  ],
+  [
+   21,
+   16
+  ],
+  [
+   22,
+   43
+  ],
+  [
+   23,
+   38
+  ],
+  [
+   24,
+   16
+  ],
+  [
+   25,
+   -16
+  ],
+  [
+   26,
+   -22
+  ],
+  [
+   27,
+   11
+  ],
+  [
+   28,
+   33
+  ],
+  [
+   29,
+   14
+  ],
+  [
+   30,
+   27
+  ],
+  [
+   31,
+   54
+  ],
+  [
+   32,
+   100
+  ],
+  [
+   33,
+   76
+  ],
+  [
+   34,
+   38
+  ],
+  [
+   35,
+   22
+  ],
+  [
+   36,
+   22
+  ],
+  [
+   37,
+   -24
+  ],
+  [
+   38,
+   -46
+  ],
+  [
+   39,
+   3
+  ],
+  [
+   40,
+   38
+  ],
+  [
+   41,
+   100
+  ],
+  [
+   42,
+   43
+  ],
+  [
+   43,
+   27
+  ],
+  [
+   44,
+   -19
+  ],
+  [
+   45,
+   8
+  ],
+  [
+   46,
+   -22
+  ],
+  [
+   47,
+   -52
+  ],
+  [
+   48,
+   -57
+  ],
+  [
+   49,
+   -54
+  ],
+  [
+   50,
+   -24
+  ],
+  [
+   51,
+   -5
+  ],
+  [
+   52,
+   54
+  ],
+  [
+   53,
+   60
+  ],
+  [
+   54,
+   38
+  ],
+  [
+   55,
+   -8
+  ],
+  [
+   56,
+   -22
+  ],
+  [
+   57,
+   -22
+  ],
+  [
+   58,
+   -8
+  ],
+  [
+   59,
+   -22
+  ],
+  [
+   60,
+   35
+  ],
+  [
+   61,
+   27
+  ],
+  [
+   62,
+   71
+  ],
+  [
+   63,
+   41
+  ],
+  [
+   64,
+   30
+  ],
+  [
+   65,
+   -14
+  ],
+  [
+   66,
+   -38
+  ],
+  [
+   67,
+   -30
+  ],
+  [
+   68,
+   14
+  ],
+  [
+   69,
+   19
+  ],
+  [
+   70,
+   43
+  ],
+  [
+   71,
+   22
+  ],
+  [
+   72,
+   -30
+  ],
+  [
+   73,
+   -52
+  ],
+  [
+   74,
+   -52
+  ],
+  [
+   75,
+   11
+  ],
+  [
+   76,
+   11
+  ],
+  [
+   77,
+   -60
+  ],
+  [
+   78,
+   -33
+  ],
+  [
+   79,
+   -22
+  ],
+  [
+   80,
+   22
+  ],
+  [
+   81,
+   -8
+  ],
+  [
+   82,
+   -24
+  ],
+  [
+   83,
+   30
+  ],
+  [
+   84,
+   16
+  ],
+  [
+   85,
+   27
+  ],
+  [
+   86,
+   19
+  ],
+  [
+   87,
+   22
+  ],
+  [
+   88,
+   5
+  ],
+  [
+   89,
+   -14
+  ],
+  [
+   90,
+   5
+  ],
+  [
+   90.5,
+   82
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 38,
+   "center": 27,
+   "right": 35
   },
   "away": {
-   "team": "SGE",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 36,
+   "center": 31,
+   "right": 33
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "SGE",
+   "formation": "4-4-2",
+   "rating": 6.4,
+   "players": [
+    {
+     "id": 1281100,
+     "name": "Noah Atubolu",
+     "pos_id": 11,
+     "rating": 5.5,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1421821,
+     "name": "Elias Baum",
+     "pos_id": 32,
+     "rating": 4.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 628201,
+     "name": "Robin Koch",
+     "pos_id": 34,
+     "rating": 6.5,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 1073941,
+     "name": "Lilian Brassier",
+     "pos_id": 36,
+     "rating": 5.7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 1627706,
+     "name": "Keita Kosugi",
+     "pos_id": 38,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 629805,
+     "name": "Ritsu Doan",
+     "pos_id": 72,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.613
+    },
+    {
+     "id": 177714,
+     "name": "Mario Götze",
+     "pos_id": 74,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.613
+    },
+    {
+     "id": 1126768,
+     "name": "Raphael Onyedika",
+     "pos_id": 76,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.613
+    },
+    {
+     "id": 1367924,
+     "name": "Can Uzun",
+     "pos_id": 78,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.613
+    },
+    {
+     "id": 1447050,
+     "name": "Younes Ebnoutalib",
+     "pos_id": 104,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 947901,
+     "name": "Jonathan Burkardt",
+     "pos_id": 106,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "FCA",
+   "formation": "5-3-2",
+   "rating": 7.5,
+   "players": [
+    {
+     "id": 926445,
+     "name": "Finn Dahmen",
+     "pos_id": 11,
+     "rating": 9.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1641063,
+     "name": "Noahkai Banks",
+     "pos_id": 33,
+     "rating": 8,
+     "captain": false,
+     "x": 0.305,
+     "y": 0.357
+    },
+    {
+     "id": 1178512,
+     "name": "Chrislain Matsima",
+     "pos_id": 35,
+     "rating": 8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.357
+    },
+    {
+     "id": 1300329,
+     "name": "Calvin Brackelmann",
+     "pos_id": 37,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.695,
+     "y": 0.357
+    },
+    {
+     "id": 556029,
+     "name": "Marius Wolf",
+     "pos_id": 51,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.11,
+     "y": 0.371
+    },
+    {
+     "id": 1678681,
+     "name": "Hennes Behrens",
+     "pos_id": 59,
+     "rating": 8,
+     "captain": false,
+     "x": 0.89,
+     "y": 0.371
+    },
+    {
+     "id": 978680,
+     "name": "Han-Noah Massengo",
+     "pos_id": 73,
+     "rating": 8.1,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.613
+    },
+    {
+     "id": 1161211,
+     "name": "Fabian Rieder",
+     "pos_id": 75,
+     "rating": 8.5,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 1185609,
+     "name": "Robin Fellhauer",
+     "pos_id": 77,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.613
+    },
+    {
+     "id": 1327150,
+     "name": "Arijon Ibrahimović",
+     "pos_id": 104,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 198316,
+     "name": "Michael Gregoritsch",
+     "pos_id": 106,
+     "rating": 7,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 158234,
+   "team": "SGE",
+   "name": "Timothy Chandler",
+   "keeper": false,
+   "rating": 6.02,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 20,
+   "touches_box": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 177714,
+   "team": "SGE",
+   "name": "Mario Götze",
+   "keeper": false,
+   "rating": 6.36,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.51,
+   "key_passes": 2,
+   "touches": 71,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 2,
+   "duels_lost": 8
+  },
+  {
+   "id": 198316,
+   "team": "FCA",
+   "name": "Michael Gregoritsch",
+   "keeper": false,
+   "rating": 7.01,
+   "minutes": 72,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.24,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 33,
+   "touches_box": 2,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 4
+  },
+  {
+   "id": 245315,
+   "team": "FCA",
+   "name": "Jeffrey Gouweleeuw",
+   "keeper": false,
+   "minutes": 6,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 556029,
+   "team": "FCA",
+   "name": "Marius Wolf",
+   "keeper": false,
+   "rating": 6.68,
+   "minutes": 72,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.36,
+   "key_passes": 1,
+   "touches": 41,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 6
+  },
+  {
+   "id": 628201,
+   "team": "SGE",
+   "name": "Robin Koch",
+   "keeper": false,
+   "rating": 6.54,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 106,
+   "touches_box": 3,
+   "final_third_passes": 16,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 8,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 629805,
+   "team": "SGE",
+   "name": "Ritsu Doan",
+   "keeper": false,
+   "rating": 6.59,
+   "minutes": 87,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.55,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 62,
+   "touches_box": 3,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 4,
+   "duels_lost": 6
+  },
+  {
+   "id": 689065,
+   "team": "FCA",
+   "name": "Alexis Claude-Maurice",
+   "keeper": false,
+   "rating": 7.9,
+   "minutes": 29,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.24,
+   "shots": 3,
+   "key_passes": 2,
+   "touches": 22,
+   "touches_box": 1,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3
+  },
+  {
+   "id": 844431,
+   "team": "FCA",
+   "name": "Yannik Keitel",
+   "keeper": false
+  },
+  {
+   "id": 926445,
+   "team": "FCA",
+   "name": "Finn Dahmen",
+   "keeper": true,
+   "rating": 9.07,
+   "minutes": 90,
+   "recoveries": 14,
+   "touches": 57,
+   "tackles": 0,
+   "final_third_passes": 7,
+   "interceptions": 0
+  },
+  {
+   "id": 947901,
+   "team": "SGE",
+   "name": "Jonathan Burkardt",
+   "keeper": false,
+   "rating": 7.57,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.53,
+   "xa": 0.02,
+   "shots": 4,
+   "key_passes": 1,
+   "touches": 39,
+   "touches_box": 8,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 6
+  },
+  {
+   "id": 978680,
+   "team": "FCA",
+   "name": "Han-Noah Massengo",
+   "keeper": false,
+   "rating": 8.13,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.12,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 51,
+   "touches_box": 1,
+   "final_third_passes": 8,
+   "tackles": 4,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 1073941,
+   "team": "SGE",
+   "name": "Lilian Brassier",
+   "keeper": false,
+   "rating": 5.66,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 87,
+   "touches_box": 0,
+   "final_third_passes": 12,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 1126768,
+   "team": "SGE",
+   "name": "Raphael Onyedika",
+   "keeper": false,
+   "rating": 7.41,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.09,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 79,
+   "touches_box": 0,
+   "final_third_passes": 10,
+   "tackles": 4,
+   "interceptions": 2,
+   "recoveries": 8,
+   "duels_won": 8,
+   "duels_lost": 5
+  },
+  {
+   "id": 1132818,
+   "team": "FCA",
+   "name": "Seol Young-Woo",
+   "keeper": false,
+   "rating": 6,
+   "minutes": 18,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 9,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 3
+  },
+  {
+   "id": 1161211,
+   "team": "FCA",
+   "name": "Fabian Rieder",
+   "keeper": false,
+   "rating": 8.45,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.14,
+   "xa": 0.03,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 52,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 6,
+   "duels_lost": 1
+  },
+  {
+   "id": 1178512,
+   "team": "FCA",
+   "name": "Chrislain Matsima",
+   "keeper": false,
+   "rating": 7.95,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 59,
+   "touches_box": 1,
+   "dribbles": 1,
+   "tackles": 3,
+   "interceptions": 4,
+   "recoveries": 6,
+   "duels_won": 7,
+   "duels_lost": 3
+  },
+  {
+   "id": 1185609,
+   "team": "FCA",
+   "name": "Robin Fellhauer",
+   "keeper": false,
+   "rating": 7.65,
+   "minutes": 61,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.28,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 30,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1281100,
+   "team": "SGE",
+   "name": "Noah Atubolu",
+   "keeper": true,
+   "rating": 5.47,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 37,
+   "tackles": 0,
+   "final_third_passes": 3,
+   "interceptions": 0
+  },
+  {
+   "id": 1284464,
+   "team": "FCA",
+   "name": "Nediljko Labrović",
+   "keeper": true
+  },
+  {
+   "id": 1300329,
+   "team": "FCA",
+   "name": "Calvin Brackelmann",
+   "keeper": false,
+   "rating": 7.53,
+   "minutes": 84,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 62,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 9,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1327150,
+   "team": "FCA",
+   "name": "Arijon Ibrahimović",
+   "keeper": false,
+   "rating": 7.08,
+   "minutes": 62,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.29,
+   "xa": 0.07,
+   "shots": 3,
+   "key_passes": 2,
+   "touches": 43,
+   "touches_box": 5,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 6,
+   "duels_lost": 6
+  },
+  {
+   "id": 1336529,
+   "team": "SGE",
+   "name": "Oscar Højlund",
+   "keeper": false
+  },
+  {
+   "id": 1343749,
+   "team": "FCA",
+   "name": "Rodrigo Ribeiro",
+   "keeper": false,
+   "rating": 6.03,
+   "minutes": 18,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 7,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1345875,
+   "team": "SGE",
+   "name": "Farès Chaïbi",
+   "keeper": false,
+   "rating": 6.77,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.05,
+   "key_passes": 1,
+   "touches": 31,
+   "touches_box": 1,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 2
+  },
+  {
+   "id": 1367924,
+   "team": "SGE",
+   "name": "Can Uzun",
+   "keeper": false,
+   "rating": 6.58,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.43,
+   "xa": 0.28,
+   "shots": 3,
+   "key_passes": 3,
+   "touches": 64,
+   "touches_box": 5,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 8,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 1418816,
+   "team": "SGE",
+   "name": "Kauã",
+   "keeper": true
+  },
+  {
+   "id": 1421821,
+   "team": "SGE",
+   "name": "Elias Baum",
+   "keeper": false,
+   "rating": 4.61,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.08,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 62,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 6
+  },
+  {
+   "id": 1447050,
+   "team": "SGE",
+   "name": "Younes Ebnoutalib",
+   "keeper": false,
+   "rating": 7.65,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.84,
+   "xa": 0.85,
+   "shots": 5,
+   "key_passes": 3,
+   "touches": 41,
+   "touches_box": 13,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 9
+  },
+  {
+   "id": 1453218,
+   "team": "FCA",
+   "name": "Mert Kömür",
+   "keeper": false,
+   "rating": 6.33,
+   "minutes": 28,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.07,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 11,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1539619,
+   "team": "FCA",
+   "name": "Juma Bah",
+   "keeper": false
+  },
+  {
+   "id": 1596359,
+   "team": "SGE",
+   "name": "Noël Aséko",
+   "keeper": false
+  },
+  {
+   "id": 1627706,
+   "team": "SGE",
+   "name": "Keita Kosugi",
+   "keeper": false,
+   "rating": 6.18,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.08,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 81,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 7,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 9,
+   "duels_lost": 4
+  },
+  {
+   "id": 1641063,
+   "team": "FCA",
+   "name": "Noahkai Banks",
+   "keeper": false,
+   "rating": 7.97,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 2,
+   "touches": 54,
+   "touches_box": 0,
+   "tackles": 2,
+   "interceptions": 3,
+   "recoveries": 6,
+   "duels_won": 6,
+   "duels_lost": 2
+  },
+  {
+   "id": 1671553,
+   "team": "SGE",
+   "name": "Jeremiaha Maluze",
+   "keeper": false
+  },
+  {
+   "id": 1678681,
+   "team": "FCA",
+   "name": "Hennes Behrens",
+   "keeper": false,
+   "rating": 8,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.03,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 1,
+   "dribbles": 2,
+   "final_third_passes": 4,
+   "tackles": 8,
+   "interceptions": 3,
+   "recoveries": 9,
+   "duels_won": 12,
+   "duels_lost": 7
+  },
+  {
+   "id": 1680173,
+   "team": "SGE",
+   "name": "Ayoube Amaimouni-Echghouyab",
+   "keeper": false,
+   "rating": 6.06,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.05,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 1,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1690128,
+   "team": "SGE",
+   "name": "Malik Pimpong",
+   "keeper": false,
+   "minutes": 3,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 0,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1718174,
+   "team": "FCA",
+   "name": "Uchenna Ogundu",
+   "keeper": false
+  },
+  {
+   "id": 1738366,
+   "team": "SGE",
+   "name": "Otávio",
+   "keeper": false
+  }
+ ],
  "oldb_id": 83168,
  "matchday": 2,
  "season": 2026

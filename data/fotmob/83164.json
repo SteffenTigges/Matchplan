@@ -1,24 +1,1893 @@
 {
- "fm_id": 5881296,
- "stats": {},
- "shots": [],
- "momentum": null,
- "zones": null,
- "lineups": {
-  "home": {
+ "v": 3,
+ "fm_id": 5881146,
+ "stats": {
+  "BallPossesion": [
+   33,
+   67
+  ],
+  "expected_goals": [
+   1.27,
+   1.88
+  ],
+  "total_shots": [
+   11,
+   21
+  ],
+  "ShotsOnTarget": [
+   6,
+   4
+  ],
+  "touches_opp_box": [
+   19,
+   40
+  ],
+  "big_chance": [
+   2,
+   6
+  ],
+  "big_chance_missed_title": [
+   1,
+   4
+  ],
+  "accurate_passes": [
+   {
+    "n": 212,
+    "pct": 72
+   },
+   {
+    "n": 511,
+    "pct": 88
+   }
+  ],
+  "yellow_cards": [
+   3,
+   2
+  ],
+  "corners": [
+   4,
+   3
+  ],
+  "blocked_shots": [
+   2,
+   4
+  ],
+  "shots_inside_box": [
+   8,
+   13
+  ],
+  "expected_goals_open_play": [
+   1.2,
+   1.16
+  ],
+  "expected_goals_set_play": [
+   0.07,
+   0.72
+  ],
+  "expected_goals_on_target": [
+   2.18,
+   2.01
+  ],
+  "passes": [
+   293,
+   582
+  ],
+  "own_half_passes": [
+   140,
+   224
+  ],
+  "opposition_half_passes": [
+   72,
+   287
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 15,
+    "pct": 30
+   },
+   {
+    "n": 14,
+    "pct": 36
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 3,
+    "pct": 25
+   },
+   {
+    "n": 11,
+    "pct": 29
+   }
+  ],
+  "Offsides": [
+   1,
+   1
+  ],
+  "tackles": [
+   12,
+   13
+  ],
+  "interceptions": [
+   11,
+   11
+  ],
+  "shot_blocks": [
+   3,
+   2
+  ],
+  "clearances": [
+   32,
+   14
+  ],
+  "keeper_saves": [
+   2,
+   3
+  ],
+  "duel_won": [
+   42,
+   46
+  ],
+  "ground_duels_won": [
+   {
+    "n": 31,
+    "pct": 47
+   },
+   {
+    "n": 35,
+    "pct": 53
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 11,
+    "pct": 50
+   },
+   {
+    "n": 11,
+    "pct": 50
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 5,
+    "pct": 42
+   },
+   {
+    "n": 5,
+    "pct": 45
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   18,
+   15
+  ]
+ },
+ "shots": [
+  {
+   "team": "SVE",
+   "player": "Cole Campbell",
+   "min": 4,
+   "x": 94.38596491070001,
+   "y": 45.4020382125,
+   "xg": 0.1443946808576584,
+   "xgot": 0.27137088775634766,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 8,
+   "x": 86.5676470584,
+   "y": 31.254999999999995,
+   "xg": 0.07002777606248856,
+   "xgot": 0.3105727434158325,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Cole Campbell",
+   "min": 9,
+   "x": 92.7,
+   "y": 44.91159235240001,
+   "xg": 0.08294765651226044,
+   "xgot": 0.2007245123386383,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Francis Onyeka",
+   "min": 14,
+   "x": 93.4,
+   "y": 39.040714287,
+   "xg": 0.2537030875682831,
+   "xgot": 0.22282028198242188,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Felix Keidel",
+   "min": 14,
+   "x": 86.889705882,
+   "y": 32.0175,
+   "xg": 0.1749238520860672,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 14,
+   "x": 94,
+   "y": 19.304968155399997,
+   "xg": 0.038844719529151917,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 15,
+   "x": 96.3157894727,
+   "y": 39.208809525,
+   "xg": 0.022246068343520164,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Maximilian Rohr",
+   "min": 15,
+   "x": 97.95614035039999,
+   "y": 29.715714284,
+   "xg": 0.04614907503128052,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
    "team": "B04",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "player": "Loïc Badé",
+   "min": 21,
+   "x": 96.50877192889999,
+   "y": 30.492499999999996,
+   "xg": 0.11674944311380386,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Equi Fernández",
+   "min": 33,
+   "x": 88.28529411759999,
+   "y": 31.7125,
+   "xg": 0.06910797208547592,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Malik Tillman",
+   "min": 34,
+   "x": 90.3,
+   "y": 45.6122292954,
+   "xg": 0.0406063087284565,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Aleix García",
+   "min": 37,
+   "x": 76.8538834968,
+   "y": 32.17,
+   "xg": 0.039774421602487564,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Afonso Moreira",
+   "min": 37,
+   "x": 97.8596491223,
+   "y": 37.672,
+   "xg": 0.2762306034564972,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Cole Campbell",
+   "min": 42,
+   "x": 92.2,
+   "y": 45.4020382125,
+   "xg": 0.03912534937262535,
+   "xgot": 0.21941152215003967,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 46,
+   "x": 100.44827586240001,
+   "y": 32.0175,
+   "xg": 0.4219333529472351,
+   "xgot": 0.957074761390686,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Aleix García",
+   "min": 53,
+   "x": 78.4305825256,
+   "y": 30.873749999999998,
+   "xg": 0.015706641599535942,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 63,
+   "x": 96.2192982446,
+   "y": 37.05,
+   "xg": 0.12089806795120239,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Afonso Moreira",
+   "min": 65,
+   "x": 86.6749999996,
+   "y": 17.5533757979,
+   "xg": 0.019535312429070473,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 67,
+   "x": 92.1,
+   "y": 34.68625,
+   "xg": 0.02755626291036606,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Maurice Krattenmacher",
+   "min": 69,
+   "x": 81.0208737872,
+   "y": 21.8272611502,
+   "xg": 0.021213851869106293,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 77,
+   "x": 83.2733009712,
+   "y": 26.169687500000002,
+   "xg": 0.02681371569633484,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 77,
+   "x": 97.4736842099,
+   "y": 35.75375,
+   "xg": 0.16336984932422638,
+   "xgot": 0.7004442811012268,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 79,
+   "x": 86.6749999996,
+   "y": 33.00875,
+   "xg": 0.08354455977678299,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 80,
+   "x": 85.17205882280001,
+   "y": 25.8228125,
+   "xg": 0.058639928698539734,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Ibrahim Maza",
+   "min": 86,
+   "x": 95.9298245603,
+   "y": 34.68625,
+   "xg": 0.12811212241649628,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Christian Kofane",
+   "min": 88,
+   "x": 96.8947368413,
+   "y": 33.77125,
+   "xg": 0.08627104759216309,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Patrik Schick",
+   "min": 89,
+   "x": 101.3017241382,
+   "y": 28.286904761,
+   "xg": 0.24986721575260162,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Victor Okoh Boniface",
+   "min": 90,
+   "x": 97.6666666661,
+   "y": 34.22875,
+   "xg": 0.10916544497013092,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "post",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Christian Kofane",
+   "min": 90,
+   "x": 96.8947368413,
+   "y": 31.254999999999995,
+   "xg": 0.13633133471012115,
+   "xgot": 0.7560762763023376,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Jonas Hofmann",
+   "min": 90,
+   "x": 88.1779411764,
+   "y": 48.905222927500006,
+   "xg": 0.02848542295396328,
+   "xgot": 0.1017148569226265,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Victor Okoh Boniface",
+   "min": 90,
+   "x": 95.54385964789999,
+   "y": 37.756,
+   "xg": 0.02443115785717964,
+   "xgot": 0.45455288887023926,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Victor Okoh Boniface",
+   "min": 90,
+   "x": 97.6666666661,
+   "y": 37.708,
+   "xg": 0.0772324651479721,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   38
+  ],
+  [
+   3,
+   16
+  ],
+  [
+   4,
+   33
+  ],
+  [
+   5,
+   -5
+  ],
+  [
+   6,
+   16
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   8,
+   54
+  ],
+  [
+   9,
+   71
+  ],
+  [
+   10,
+   65
+  ],
+  [
+   11,
+   30
+  ],
+  [
+   12,
+   8
+  ],
+  [
+   13,
+   19
+  ],
+  [
+   14,
+   52
+  ],
+  [
+   15,
+   57
+  ],
+  [
+   16,
+   14
+  ],
+  [
+   17,
+   -43
+  ],
+  [
+   18,
+   -65
+  ],
+  [
+   19,
+   -38
+  ],
+  [
+   20,
+   -38
+  ],
+  [
+   21,
+   -14
+  ],
+  [
+   22,
+   -19
+  ],
+  [
+   23,
+   3
+  ],
+  [
+   24,
+   -16
+  ],
+  [
+   25,
+   -8
+  ],
+  [
+   26,
+   -5
+  ],
+  [
+   27,
+   -5
+  ],
+  [
+   28,
+   -3
+  ],
+  [
+   29,
+   -27
+  ],
+  [
+   30,
+   -27
+  ],
+  [
+   31,
+   -27
+  ],
+  [
+   32,
+   11
+  ],
+  [
+   33,
+   -5
+  ],
+  [
+   34,
+   -38
+  ],
+  [
+   35,
+   -98
+  ],
+  [
+   36,
+   -65
+  ],
+  [
+   37,
+   -33
+  ],
+  [
+   38,
+   0
+  ],
+  [
+   39,
+   0
+  ],
+  [
+   40,
+   -5
+  ],
+  [
+   41,
+   -11
+  ],
+  [
+   42,
+   -16
+  ],
+  [
+   43,
+   -16
+  ],
+  [
+   44,
+   -16
+  ],
+  [
+   45,
+   -81
+  ],
+  [
+   45.5,
+   -78
+  ],
+  [
+   46,
+   79
+  ],
+  [
+   47,
+   79
+  ],
+  [
+   48,
+   73
+  ],
+  [
+   49,
+   -27
+  ],
+  [
+   50,
+   -22
+  ],
+  [
+   51,
+   -16
+  ],
+  [
+   52,
+   -16
+  ],
+  [
+   53,
+   -38
+  ],
+  [
+   54,
+   -38
+  ],
+  [
+   55,
+   -27
+  ],
+  [
+   56,
+   -11
+  ],
+  [
+   57,
+   -33
+  ],
+  [
+   58,
+   -27
+  ],
+  [
+   59,
+   -33
+  ],
+  [
+   60,
+   -22
+  ],
+  [
+   61,
+   -22
+  ],
+  [
+   62,
+   -49
+  ],
+  [
+   63,
+   -81
+  ],
+  [
+   64,
+   -98
+  ],
+  [
+   65,
+   -65
+  ],
+  [
+   66,
+   -38
+  ],
+  [
+   67,
+   -49
+  ],
+  [
+   68,
+   -71
+  ],
+  [
+   69,
+   -43
+  ],
+  [
+   70,
+   -11
+  ],
+  [
+   71,
+   11
+  ],
+  [
+   72,
+   -22
+  ],
+  [
+   73,
+   -22
+  ],
+  [
+   74,
+   -27
+  ],
+  [
+   75,
+   -5
+  ],
+  [
+   76,
+   -33
+  ],
+  [
+   77,
+   -54
+  ],
+  [
+   78,
+   -54
+  ],
+  [
+   79,
+   -54
+  ],
+  [
+   80,
+   -43
+  ],
+  [
+   81,
+   -24
+  ],
+  [
+   82,
+   -3
+  ],
+  [
+   83,
+   19
+  ],
+  [
+   84,
+   43
+  ],
+  [
+   85,
+   5
+  ],
+  [
+   86,
+   -30
+  ],
+  [
+   87,
+   -62
+  ],
+  [
+   88,
+   -100
+  ],
+  [
+   89,
+   -100
+  ],
+  [
+   90,
+   -100
+  ],
+  [
+   90.5,
+   -69
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 44,
+   "center": 23,
+   "right": 33
   },
   "away": {
-   "team": "SVE",
-   "formation": null,
-   "rating": null,
-   "players": []
+   "left": 46,
+   "center": 32,
+   "right": 22
   }
  },
- "players": [],
+ "lineups": {
+  "home": {
+   "team": "SVE",
+   "formation": "4-2-3-1",
+   "rating": 7.1,
+   "players": [
+    {
+     "id": 1285926,
+     "name": "Nicolas Kristof",
+     "pos_id": 11,
+     "rating": 7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 458602,
+     "name": "Jan Gyamerah",
+     "pos_id": 32,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 1280560,
+     "name": "Lukas Pinckert",
+     "pos_id": 34,
+     "rating": 7.1,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 1077911,
+     "name": "Maximilian Rohr",
+     "pos_id": 36,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 1245692,
+     "name": "Lasse Günther",
+     "pos_id": 38,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 1366338,
+     "name": "Felix Keidel",
+     "pos_id": 64,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 962113,
+     "name": "Łukasz Poręba",
+     "pos_id": 66,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 1093782,
+     "name": "Lukas Petkov",
+     "pos_id": 83,
+     "rating": 8.6,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1603681,
+     "name": "Francis Onyeka",
+     "pos_id": 85,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1288195,
+     "name": "Cole Campbell",
+     "pos_id": 87,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 1459758,
+     "name": "David Mokwa",
+     "pos_id": 115,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "B04",
+   "formation": "4-2-3-1",
+   "rating": 6.6,
+   "players": [
+    {
+     "id": 330643,
+     "name": "Mark Flekken",
+     "pos_id": 11,
+     "rating": 5.6,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 359193,
+     "name": "Lucas Vázquez",
+     "pos_id": 32,
+     "rating": 5.3,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 1119461,
+     "name": "Loïc Badé",
+     "pos_id": 34,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 789914,
+     "name": "Edmond Tapsoba",
+     "pos_id": 36,
+     "rating": 4.6,
+     "captain": true,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 942379,
+     "name": "Miguel Gutiérrez",
+     "pos_id": 38,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 1199959,
+     "name": "Equi Fernández",
+     "pos_id": 64,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 642551,
+     "name": "Aleix García",
+     "pos_id": 66,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 1457626,
+     "name": "Ibrahim Maza",
+     "pos_id": 83,
+     "rating": 7.6,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1126058,
+     "name": "Malik Tillman",
+     "pos_id": 85,
+     "rating": 6.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1367047,
+     "name": "Afonso Moreira",
+     "pos_id": 87,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 540097,
+     "name": "Patrik Schick",
+     "pos_id": 115,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 278814,
+   "team": "B04",
+   "name": "Janis Blaswich",
+   "keeper": true
+  },
+  {
+   "id": 330643,
+   "team": "B04",
+   "name": "Mark Flekken",
+   "keeper": true,
+   "rating": 5.58,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 33,
+   "tackles": 0,
+   "final_third_passes": 6,
+   "interceptions": 0
+  },
+  {
+   "id": 331542,
+   "team": "B04",
+   "name": "Jonas Hofmann",
+   "keeper": false,
+   "rating": 6.48,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "xa": 0.05,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 22,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 359193,
+   "team": "B04",
+   "name": "Lucas Vázquez",
+   "keeper": false,
+   "rating": 5.32,
+   "minutes": 55,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 36,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 2,
+   "duels_lost": 6
+  },
+  {
+   "id": 411851,
+   "team": "B04",
+   "name": "Robert Andrich",
+   "keeper": false
+  },
+  {
+   "id": 458602,
+   "team": "SVE",
+   "name": "Jan Gyamerah",
+   "keeper": false,
+   "rating": 7.63,
+   "minutes": 75,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 40,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 7,
+   "duels_lost": 2
+  },
+  {
+   "id": 459010,
+   "team": "SVE",
+   "name": "Luca Schnellbacher",
+   "keeper": false,
+   "rating": 6.35,
+   "minutes": 15,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "id": 540097,
+   "team": "B04",
+   "name": "Patrik Schick",
+   "keeper": false,
+   "rating": 7.88,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.65,
+   "xa": 0.12,
+   "shots": 5,
+   "key_passes": 1,
+   "touches": 34,
+   "touches_box": 10,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 594886,
+   "team": "SVE",
+   "name": "Florian Le Joncour",
+   "keeper": false,
+   "minutes": 8,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 633721,
+   "team": "SVE",
+   "name": "Nicholas Mickelson",
+   "keeper": false
+  },
+  {
+   "id": 642551,
+   "team": "B04",
+   "name": "Aleix García",
+   "keeper": false,
+   "rating": 7.18,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.15,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 110,
+   "touches_box": 0,
+   "final_third_passes": 10,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 659051,
+   "team": "SVE",
+   "name": "Tim Boss",
+   "keeper": true
+  },
+  {
+   "id": 763990,
+   "team": "SVE",
+   "name": "Amara Condé",
+   "keeper": false
+  },
+  {
+   "id": 789914,
+   "team": "B04",
+   "name": "Edmond Tapsoba",
+   "keeper": false,
+   "rating": 4.63,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 0,
+   "touches": 88,
+   "touches_box": 1,
+   "final_third_passes": 12,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 9,
+   "duels_won": 5
+  },
+  {
+   "id": 812652,
+   "team": "B04",
+   "name": "Facundo Medina",
+   "keeper": false,
+   "rating": 6.58,
+   "minutes": 35,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 52,
+   "touches_box": 1,
+   "final_third_passes": 7,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 942379,
+   "team": "B04",
+   "name": "Miguel Gutiérrez",
+   "keeper": false,
+   "rating": 7.2,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.57,
+   "key_passes": 4,
+   "touches": 97,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 962113,
+   "team": "SVE",
+   "name": "Łukasz Poręba",
+   "keeper": false,
+   "rating": 7.11,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 36,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1035208,
+   "team": "B04",
+   "name": "Victor Okoh Boniface",
+   "keeper": false,
+   "minutes": 5,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.21,
+   "xa": 0.18,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 6,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1077911,
+   "team": "SVE",
+   "name": "Maximilian Rohr",
+   "keeper": false,
+   "rating": 6.9,
+   "minutes": 82,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 47,
+   "touches_box": 1,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 4
+  },
+  {
+   "id": 1093782,
+   "team": "SVE",
+   "name": "Lukas Petkov",
+   "keeper": false,
+   "rating": 8.63,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 1,
+   "xg": 0.11,
+   "xa": 0.41,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 43,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 10,
+   "duels_won": 4,
+   "duels_lost": 12
+  },
+  {
+   "id": 1097361,
+   "team": "SVE",
+   "name": "Luca Sirch",
+   "keeper": false,
+   "rating": 6.23,
+   "minutes": 15,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 13,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 1107620,
+   "team": "B04",
+   "name": "Jarell Quansah",
+   "keeper": false,
+   "rating": 6.57,
+   "minutes": 35,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.36,
+   "key_passes": 3,
+   "touches": 29,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1119461,
+   "team": "B04",
+   "name": "Loïc Badé",
+   "keeper": false,
+   "rating": 6.32,
+   "minutes": 55,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 56,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 4,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 1
+  },
+  {
+   "id": 1126058,
+   "team": "B04",
+   "name": "Malik Tillman",
+   "keeper": false,
+   "rating": 6.94,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.21,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 48,
+   "touches_box": 3,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 1
+  },
+  {
+   "id": 1138725,
+   "team": "SVE",
+   "name": "Noel Futkeu",
+   "keeper": false
+  },
+  {
+   "id": 1199959,
+   "team": "B04",
+   "name": "Equi Fernández",
+   "keeper": false,
+   "rating": 6.8,
+   "minutes": 55,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.11,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 57,
+   "touches_box": 3,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 1245692,
+   "team": "SVE",
+   "name": "Lasse Günther",
+   "keeper": false,
+   "rating": 7.07,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 46,
+   "touches_box": 2,
+   "dribbles": 1,
+   "final_third_passes": 6,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 5,
+   "duels_lost": 1
+  },
+  {
+   "id": 1280560,
+   "team": "SVE",
+   "name": "Lukas Pinckert",
+   "keeper": false,
+   "rating": 7.08,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 45,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 3,
+   "recoveries": 2,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 1285926,
+   "team": "SVE",
+   "name": "Nicolas Kristof",
+   "keeper": true,
+   "rating": 7.02,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 9,
+   "touches": 61,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 12,
+   "interceptions": 0
+  },
+  {
+   "id": 1288195,
+   "team": "SVE",
+   "name": "Cole Campbell",
+   "keeper": false,
+   "rating": 7.93,
+   "minutes": 65,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.27,
+   "xa": 0.04,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 21,
+   "touches_box": 7,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 3,
+   "duels_lost": 4
+  },
+  {
+   "id": 1329406,
+   "team": "B04",
+   "name": "Jeanuël Belocian",
+   "keeper": false
+  },
+  {
+   "id": 1353457,
+   "team": "B04",
+   "name": "Arthur",
+   "keeper": false
+  },
+  {
+   "id": 1366338,
+   "team": "SVE",
+   "name": "Felix Keidel",
+   "keeper": false,
+   "rating": 6.83,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.17,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 41,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "id": 1367047,
+   "team": "B04",
+   "name": "Afonso Moreira",
+   "keeper": false,
+   "rating": 6.25,
+   "minutes": 85,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.3,
+   "xa": 0.06,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 41,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 6,
+   "duels_lost": 8
+  },
+  {
+   "id": 1412933,
+   "team": "SVE",
+   "name": "Maurice Krattenmacher",
+   "keeper": false,
+   "rating": 6.07,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.02,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 1457626,
+   "team": "B04",
+   "name": "Ibrahim Maza",
+   "keeper": false,
+   "rating": 7.6,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.21,
+   "xa": 0.38,
+   "shots": 3,
+   "key_passes": 4,
+   "touches": 58,
+   "touches_box": 4,
+   "dribbles": 1,
+   "final_third_passes": 8,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 6,
+   "duels_lost": 9
+  },
+  {
+   "id": 1459758,
+   "team": "SVE",
+   "name": "David Mokwa",
+   "keeper": false,
+   "rating": 7.58,
+   "minutes": 75,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.44,
+   "xa": 0.06,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 17,
+   "touches_box": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 3
+  },
+  {
+   "id": 1479921,
+   "team": "SVE",
+   "name": "Noah Darvich",
+   "keeper": false,
+   "rating": 5.93,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 1603681,
+   "team": "SVE",
+   "name": "Francis Onyeka",
+   "keeper": false,
+   "rating": 7.82,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.25,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 24,
+   "touches_box": 2,
+   "dribbles": 2,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1705081,
+   "team": "B04",
+   "name": "Christian Kofane",
+   "keeper": false,
+   "rating": 6.99,
+   "minutes": 35,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.22,
+   "xa": 0.08,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
+  }
+ ],
  "oldb_id": 83164,
  "matchday": 1,
  "season": 2026
