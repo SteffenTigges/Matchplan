@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "matchday": 10,
- "fetched_at": "2026-11-19T23:06:48+00:00",
+ "fetched_at": "2026-11-20T17:45:47+00:00",
  "teams": {
   "FCB": {
    "team": "FC Bayern München",
@@ -123,11 +123,6 @@
      "note": "Manuel Neuer"
     },
     {
-     "name": "Alphonso Davies",
-     "kind": "Verletzung",
-     "note": "Alphonso Davies"
-    },
-    {
      "name": "Ismael Saibari",
      "kind": "Verletzung",
      "note": "Ismael Saibari"
@@ -138,6 +133,11 @@
      "note": "Serge Gnabry"
     },
     {
+     "name": "Alphonso Davies",
+     "kind": "Aufbautraining",
+     "note": "Alphonso Davies"
+    },
+    {
      "name": "Luis Díaz",
      "kind": "Aufbautraining",
      "note": "Luis Díaz"
@@ -146,11 +146,11 @@
    "updated_label": "Gestern | 19.11.2026 19:48",
    "opponent": "1. FC Köln",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "BVB": {
    "team": "Borussia Dortmund",
-   "formation": "3-4-3",
+   "formation": "4-3-3",
    "rows": [
     [
      {
@@ -192,14 +192,22 @@
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/nico-schlotterbeck-dortmund-2627.jpg"
       },
       "alternatives": []
-     }
-    ],
-    [
+     },
      {
       "player": {
        "id": "daniel-svensson_38304",
        "name": "Svensson",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/daniel-svensson-dortmund-2627.jpg"
+      },
+      "alternatives": []
+     }
+    ],
+    [
+     {
+      "player": {
+       "id": "jobe-bellingham_38153",
+       "name": "Jobe",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/jobe-bellingham-dortmund-2627.jpg"
       },
       "alternatives": []
      },
@@ -211,9 +219,9 @@
       },
       "alternatives": [
        {
-        "id": "jobe-bellingham_38153",
-        "name": "Jobe",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/jobe-bellingham-dortmund-2627.jpg"
+        "id": "marcel-sabitzer_2020",
+        "name": "Sabitzer",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/marcel-sabitzer-dortmund-2627.jpg"
        }
       ]
      },
@@ -222,14 +230,6 @@
        "id": "felix-nmecha_25090",
        "name": "F. Nmecha",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/felix-nmecha-dortmund-2627.jpg"
-      },
-      "alternatives": []
-     },
-     {
-      "player": {
-       "id": "maximilian-beier_20804",
-       "name": "Beier",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/maximilian-beier-dortmund-2627.jpg"
       },
       "alternatives": []
      }
@@ -245,23 +245,23 @@
      },
      {
       "player": {
-       "id": "serhou-guirassy_10454",
-       "name": "Guirassy",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/serhou-guirassy-dortmund-2627.jpg"
+       "id": "fabio-silva_22570",
+       "name": "Silva",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/fabio-silva-dortmund-2627.jpg"
       },
       "alternatives": [
        {
-        "id": "fabio-silva_22570",
-        "name": "Silva",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/fabio-silva-dortmund-2627.jpg"
+        "id": "serhou-guirassy_10454",
+        "name": "Guirassy",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/serhou-guirassy-dortmund-2627.jpg"
        }
       ]
      },
      {
       "player": {
-       "id": "marcel-sabitzer_2020",
-       "name": "Sabitzer",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/marcel-sabitzer-dortmund-2627.jpg"
+       "id": "maximilian-beier_20804",
+       "name": "Beier",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/maximilian-beier-dortmund-2627.jpg"
       },
       "alternatives": [
        {
@@ -290,15 +290,20 @@
      "note": "Justin Lerma Muskelverletzung"
     },
     {
+     "name": "Samuele Inácio",
+     "kind": "Verletzung",
+     "note": "Samuele Inácio"
+    },
+    {
      "name": "Mussa Kaba",
      "kind": "Verletzung",
      "note": "Mussa Kaba"
     }
    ],
-   "updated_label": "Gestern | 19.11.2026 14:25",
+   "updated_label": "Heute | 20.11.2026 17:20",
    "opponent": "Borussia Mönchengladbach",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "RBL": {
    "team": "RB Leipzig",
@@ -440,7 +445,7 @@
    "updated_label": "Gestern | 19.11.2026 19:51",
    "opponent": "1. FC Union Berlin",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "VFB": {
    "team": "VfB Stuttgart",
@@ -592,7 +597,7 @@
    "updated_label": "Gestern | 19.11.2026 13:11",
    "opponent": "FC Schalke 04",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "TSG": {
    "team": "TSG Hoffenheim",
@@ -675,15 +680,15 @@
      },
      {
       "player": {
-       "id": "alexander-prass_27057",
-       "name": "Prass",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/alexander-prass-hoffenheim-2627.jpg"
+       "id": "adam-daghim_37622",
+       "name": "Daghim",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/adam-daghim-hoffenheim-2627.jpg"
       },
       "alternatives": [
        {
-        "id": "adam-daghim_37622",
-        "name": "Daghim",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/adam-daghim-hoffenheim-2627.jpg"
+        "id": "alexander-prass_27057",
+        "name": "Prass",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/alexander-prass-hoffenheim-2627.jpg"
        }
       ]
      }
@@ -735,10 +740,10 @@
      "note": "Nathan De Cat Außenmeniskusverletzung"
     }
    ],
-   "updated_label": "Vor 7 Tagen | 13.11.2026 23:01",
+   "updated_label": "Heute | 20.11.2026 11:28",
    "opponent": "Eintracht Frankfurt",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "B04": {
    "team": "Bayer 04 Leverkusen",
@@ -835,15 +840,15 @@
     [
      {
       "player": {
-       "id": "jonas-hofmann_2362",
-       "name": "Hofmann",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/jonas-hofmann-leverkusen-2627.jpg"
+       "id": "moussa-diaby_20616",
+       "name": "Diaby",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/moussa-diaby-leverkusen-2627.jpg"
       },
       "alternatives": [
        {
-        "id": "moussa-diaby_20616",
-        "name": "Diaby",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/moussa-diaby-leverkusen-2627.jpg"
+        "id": "jonas-hofmann_2362",
+        "name": "Hofmann",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/jonas-hofmann-leverkusen-2627.jpg"
        }
       ]
      },
@@ -877,10 +882,10 @@
      "note": "Kennet Eichhorn"
     }
    ],
-   "updated_label": "Vor 2 Tagen | 18.11.2026 11:34",
+   "updated_label": "Heute | 20.11.2026 17:06",
    "opponent": "SC Paderborn 07",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "SCF": {
    "team": "SC Freiburg",
@@ -998,7 +1003,7 @@
    "updated_label": "Vor 2 Tagen | 18.11.2026 15:42",
    "opponent": "SV 07 Elversberg",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "SGE": {
    "team": "Eintracht Frankfurt",
@@ -1164,9 +1169,9 @@
     [
      {
       "player": {
-       "id": "juma-bah_39047",
-       "name": "Bah",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/juma-bah-fc-augsburg-26-27-getty.jpg"
+       "id": "yannik-keitel_22010",
+       "name": "Keitel",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/yannik-keitel-augsburg-2627.jpg"
       },
       "alternatives": []
      },
@@ -1176,24 +1181,42 @@
        "name": "Gouweleeuw",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/jeffrey-gouweleeuw-augsburg-2627.jpg"
       },
-      "alternatives": []
+      "alternatives": [
+       {
+        "id": "arijon-ibrahimovic_27354",
+        "name": "Ibrahimović",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/arijon-ibrahimovic-fc-augsburg-26-27-getty.jpg"
+       },
+       {
+        "id": "tim-schnitzer_38168",
+        "name": "Schnitzer",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/tim-schnitzer-augsburg-2627.jpg"
+       },
+       {
+        "id": "sima-suso_36794",
+        "name": "Suso",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/sima-suso-augsburg-2627.jpg"
+       }
+      ]
      },
      {
       "player": {
-       "id": "calvin-brackelmann_12771",
-       "name": "Brackelmann",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/calvin-brackelmann-augsburg-2627.jpg"
+       "id": "juma-bah_39047",
+       "name": "Bah",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/juma-bah-fc-augsburg-26-27-getty.jpg"
       },
-      "alternatives": [
-       {
-        "id": "yannik-keitel_22010",
-        "name": "Keitel",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/yannik-keitel-augsburg-2627.jpg"
-       }
-      ]
+      "alternatives": []
      }
     ],
     [
+     {
+      "player": {
+       "id": "marius-wolf_5670",
+       "name": "Wolf",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/marius-wolf-augsburg-2627.jpg"
+      },
+      "alternatives": []
+     },
      {
       "player": {
        "id": "robin-fellhauer_24864",
@@ -1201,20 +1224,6 @@
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/robin-fellhauer-augsburg-2627.jpg"
       },
       "alternatives": []
-     },
-     {
-      "player": {
-       "id": "han-noah-massengo_35978",
-       "name": "Massengo",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/han-noah-massengo-augsburg-2627.jpg"
-      },
-      "alternatives": [
-       {
-        "id": "marius-wolf_5670",
-        "name": "Wolf",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/marius-wolf-augsburg-2627.jpg"
-       }
-      ]
      },
      {
       "player": {
@@ -1262,13 +1271,7 @@
        "name": "Claude-Maurice",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/alexis-claude-maurice-augsburg-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "arijon-ibrahimovic_27354",
-        "name": "Ibrahimović",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/arijon-ibrahimovic-fc-augsburg-26-27-getty.jpg"
-       }
-      ]
+      "alternatives": []
      }
     ]
    ],
@@ -1287,12 +1290,22 @@
      "name": "Noahkai Banks",
      "kind": "Aufbautraining",
      "note": "Noahkai Banks"
+    },
+    {
+     "name": "Calvin Brackelmann",
+     "kind": "Schwerer angeschlagen ",
+     "note": "Calvin Brackelmann Krankheit"
+    },
+    {
+     "name": "Han-Noah Massengo",
+     "kind": "Schwerer angeschlagen ",
+     "note": "Han-Noah Massengo"
     }
    ],
-   "updated_label": "Vor 2 Tagen | 18.11.2026 00:55",
+   "updated_label": "Heute | 20.11.2026 17:22",
    "opponent": "1. FSV Mainz 05",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "M05": {
    "team": "1. FSV Mainz 05",
@@ -1412,12 +1425,17 @@
      "name": "Dominik Kohr",
      "kind": "Verletzung",
      "note": "Dominik Kohr"
+    },
+    {
+     "name": "Silas",
+     "kind": "Nicht im Kader",
+     "note": "Silas Trainingsrückstand"
     }
    ],
    "updated_label": "Vor 11 Tagen | 09.11.2026 12:43",
    "opponent": "FC Augsburg",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "FCU": {
    "team": "1. FC Union Berlin",
@@ -1580,7 +1598,7 @@
    "updated_label": "Gestern | 19.11.2026 16:09",
    "opponent": "RB Leipzig",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "BMG": {
    "team": "Borussia Mönchengladbach",
@@ -1589,9 +1607,9 @@
     [
      {
       "player": {
-       "id": "moritz-nicolas_6295",
-       "name": "Nicolas",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/moritz-nicolas-gladbach-2627.jpg"
+       "id": "daniel-batz_499",
+       "name": "Batz",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/daniel-batz-gladbach-2627.jpg"
       },
       "alternatives": []
      }
@@ -1733,10 +1751,10 @@
      "note": "Hugo Bolin"
     }
    ],
-   "updated_label": "Gestern | 19.11.2026 14:15",
+   "updated_label": "Heute | 20.11.2026 10:30",
    "opponent": "Borussia Dortmund",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "HSV": {
    "team": "Hamburger SV",
@@ -1755,17 +1773,11 @@
     [
      {
       "player": {
-       "id": "shafiq-nandja_38678",
-       "name": "Nandja",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/shafiq-nandja-hsv-2627.jpg"
+       "id": "nicolas-capaldo_26628",
+       "name": "Capaldo",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/nicolas-capaldo-hsv-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "kofi-amoako_27549",
-        "name": "Amoako",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/kofi-amoako-hsv-2627.jpg"
-       }
-      ]
+      "alternatives": []
      },
      {
       "player": {
@@ -1803,9 +1815,9 @@
      },
      {
       "player": {
-       "id": "nicolas-capaldo_26628",
-       "name": "Capaldo",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/nicolas-capaldo-hsv-2627.jpg"
+       "id": "albert-groenbaek_35437",
+       "name": "Grønbæk",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/albert-groenbaek-hsv-2627.jpg"
       },
       "alternatives": []
      },
@@ -1815,13 +1827,7 @@
        "name": "Muheim",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/miro-muheim-hsv-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "alexander-roessing-lelesiit_38495",
-        "name": "Røssing-Lelesiit",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/Alexander-Roessing-Lelesiit-hsv-2627.jpg"
-       }
-      ]
+      "alternatives": []
      },
      {
       "player": {
@@ -1839,26 +1845,36 @@
        "name": "Daka",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/patson-daka-hsv-2627.jpg"
       },
+      "alternatives": []
+     },
+     {
+      "player": {
+       "id": "terem-moffi_39019",
+       "name": "Moffi",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/terem-moffi-hsv-2627.jpg"
+      },
       "alternatives": [
        {
-        "id": "terem-moffi_39019",
-        "name": "Moffi",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/terem-moffi-hsv-2627.jpg"
+        "id": "alexander-roessing-lelesiit_38495",
+        "name": "Røssing-Lelesiit",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/Alexander-Roessing-Lelesiit-hsv-2627.jpg"
        },
        {
         "id": "otto-stange_38517",
         "name": "Stange",
         "photo": "https://cdn.ligainsider.de/images/player/team/minor/otto-stange-hsv-2627.jpg"
+       },
+       {
+        "id": "kofi-amoako_27549",
+        "name": "Amoako",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/kofi-amoako-hsv-2627.jpg"
+       },
+       {
+        "id": "shafiq-nandja_38678",
+        "name": "Nandja",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/shafiq-nandja-hsv-2627.jpg"
        }
       ]
-     },
-     {
-      "player": {
-       "id": "albert-groenbaek_35437",
-       "name": "Grønbæk",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/albert-groenbaek-hsv-2627.jpg"
-      },
-      "alternatives": []
      }
     ]
    ],
@@ -1877,12 +1893,17 @@
      "name": "Bilal Nadir",
      "kind": "Verletzung",
      "note": "Bilal Nadir"
+    },
+    {
+     "name": "Jordan Torunarigha",
+     "kind": "Schwerer angeschlagen ",
+     "note": "Jordan Torunarigha"
     }
    ],
-   "updated_label": "Vor 4 Tagen | 16.11.2026 19:16",
+   "updated_label": "Heute | 20.11.2026 17:25",
    "opponent": "SV Werder Bremen",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "KOE": {
    "team": "1. FC Köln",
@@ -1901,9 +1922,9 @@
     [
      {
       "player": {
-       "id": "joel-schmied_38328",
-       "name": "Schmied",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/joel-schmied-koeln-2627.jpg"
+       "id": "sebastian-sebulonsen_38632",
+       "name": "Sebulonsen",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/sebastian-sebulonsen-koeln-2627.jpg"
       },
       "alternatives": []
      },
@@ -1917,9 +1938,9 @@
      },
      {
       "player": {
-       "id": "tom-krauss_20244",
-       "name": "Krauß",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/tom-krauss-koeln-2627.jpg"
+       "id": "joel-schmied_38328",
+       "name": "Schmied",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/joel-schmied-koeln-2627.jpg"
       },
       "alternatives": []
      }
@@ -1927,11 +1948,22 @@
     [
      {
       "player": {
-       "id": "sebastian-sebulonsen_38632",
-       "name": "Sebulonsen",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/sebastian-sebulonsen-koeln-2627.jpg"
+       "id": "alessio-castro-montes_22736",
+       "name": "Castro-Montes",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/alessio-castro-montes-koeln-2627.jpg"
       },
-      "alternatives": []
+      "alternatives": [
+       {
+        "id": "paul-okon-engstler_38936",
+        "name": "Okon-Engstler",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/paul-okon-engstler-koeln-2627.jpg"
+       },
+       {
+        "id": "luka-lochoshvili_23949",
+        "name": "Lochoshvili",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/luka-lochoshvili-koeln-2627.jpg"
+       }
+      ]
      },
      {
       "player": {
@@ -1943,22 +1975,11 @@
      },
      {
       "player": {
-       "id": "paul-okon-engstler_38936",
-       "name": "Okon-Engstler",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/paul-okon-engstler-koeln-2627.jpg"
+       "id": "tom-krauss_20244",
+       "name": "Krauß",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/tom-krauss-koeln-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "alessio-castro-montes_22736",
-        "name": "Castro-Montes",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/alessio-castro-montes-koeln-2627.jpg"
-       },
-       {
-        "id": "luka-lochoshvili_23949",
-        "name": "Lochoshvili",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/luka-lochoshvili-koeln-2627.jpg"
-       }
-      ]
+      "alternatives": []
      },
      {
       "player": {
@@ -2034,10 +2055,10 @@
      "note": "Gideon Mensah Nicht berücksichtigt"
     }
    ],
-   "updated_label": "Gestern | 19.11.2026 17:01",
+   "updated_label": "Heute | 20.11.2026 17:04",
    "opponent": "FC Bayern München",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "SVW": {
    "team": "SV Werder Bremen",
@@ -2102,13 +2123,7 @@
        "name": "Chuki",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/chuki-werder-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "senne-lynen_35359",
-        "name": "Lynen",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/senne-lynen-werder-2627.jpg"
-       }
-      ]
+      "alternatives": []
      },
      {
       "player": {
@@ -2138,15 +2153,15 @@
      },
      {
       "player": {
-       "id": "marco-gruell_26702",
-       "name": "Grüll",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/marco-gruell-werder-2627.jpg"
+       "id": "justin-njinmah_27480",
+       "name": "Njinmah",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/justin-njinmah-werder-2627.jpg"
       },
       "alternatives": [
        {
-        "id": "justin-njinmah_27480",
-        "name": "Njinmah",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/justin-njinmah-werder-2627.jpg"
+        "id": "senne-lynen_35359",
+        "name": "Lynen",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/senne-lynen-werder-2627.jpg"
        }
       ]
      }
@@ -2184,10 +2199,10 @@
      "note": "Moussa Ndiaye"
     }
    ],
-   "updated_label": "Vor 8 Tagen | 12.11.2026 11:38",
+   "updated_label": "Heute | 20.11.2026 17:24",
    "opponent": "Hamburger SV",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "S04": {
    "team": "FC Schalke 04",
@@ -2357,7 +2372,7 @@
    "updated_label": "Gestern | 19.11.2026 16:04",
    "opponent": "VfB Stuttgart",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "SVE": {
    "team": "SV 07 Elversberg",
@@ -2402,7 +2417,13 @@
        "name": "Le Joncour",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/Florian-Le-Joncour-elversberg-2627.jpg"
       },
-      "alternatives": []
+      "alternatives": [
+       {
+        "id": "lukas-pinckert_38539",
+        "name": "Pinckert",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/lukas-pinckert-elversberg-2627.jpg"
+       }
+      ]
      },
      {
       "player": {
@@ -2496,10 +2517,10 @@
      "note": "Luis Seifert"
     }
    ],
-   "updated_label": "Gestern | 19.11.2026 14:13",
+   "updated_label": "Heute | 20.11.2026 12:51",
    "opponent": "SC Freiburg",
    "home": true,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   },
   "SCP": {
    "team": "SC Paderborn 07",
@@ -2558,11 +2579,16 @@
      },
      {
       "player": {
-       "id": "laurin-ulrich_27568",
-       "name": "Ulrich",
-       "photo": "https://cdn.ligainsider.de/images/player/team/minor/laurin-ulrich-paderborn-2627.jpg"
+       "id": "ruben-mueller_37563",
+       "name": "Müller",
+       "photo": "https://cdn.ligainsider.de/images/player/team/minor/ruben-mueller-paderborn-2627.jpg"
       },
       "alternatives": [
+       {
+        "id": "laurin-ulrich_27568",
+        "name": "Ulrich",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/laurin-ulrich-paderborn-2627.jpg"
+       },
        {
         "id": "tom-baack_7463",
         "name": "Baack",
@@ -2607,11 +2633,6 @@
         "id": "steffen-tigges_15810",
         "name": "Tigges",
         "photo": "https://cdn.ligainsider.de/images/player/team/minor/steffen-tigges-paderborn-2627.jpg"
-       },
-       {
-        "id": "ruben-mueller_37563",
-        "name": "Müller",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/ruben-mueller-paderborn-2627.jpg"
        }
       ]
      },
@@ -2632,10 +2653,10 @@
      "note": "Timur Gayret"
     }
    ],
-   "updated_label": "Gestern | 19.11.2026 23:50",
+   "updated_label": "Heute | 20.11.2026 17:07",
    "opponent": "Bayer 04 Leverkusen",
    "home": false,
-   "fetched_at": "2026-11-19T23:06:48+00:00"
+   "fetched_at": "2026-11-20T17:45:47+00:00"
   }
  }
 }
