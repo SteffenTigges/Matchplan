@@ -48,7 +48,7 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.6007,
+      "value": 0.6014,
       "fmt": "pct",
       "rank": 3
      }
@@ -75,7 +75,7 @@
   {
    "key": "xg_per_shot",
    "label": "xG pro Schuss",
-   "value": 0.1534,
+   "value": 0.1531,
    "fmt": "dec2",
    "rank": 1
   },
@@ -184,7 +184,7 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8669,
+    "value": 0.8668,
     "fmt": "pct",
     "rank": 3
    },
@@ -212,7 +212,7 @@
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.6007,
+    "value": 0.6014,
     "fmt": "pct",
     "rank": 3
    }
@@ -227,7 +227,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 23,
-    "xg": 16.51,
+    "xg": 16.46,
     "shots": 113,
     "share": 0.719
    },
@@ -271,7 +271,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 2.869,
+    "value": 2.863,
     "fmt": "dec2",
     "rank": 2
    },
@@ -285,14 +285,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1534,
+    "value": 0.1531,
     "fmt": "dec2",
     "rank": 1
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 3.31,
+    "value": 3.37,
     "fmt": "signed1",
     "rank": 3
    }
@@ -413,7 +413,7 @@
    "minutes": 468,
    "goals": 6,
    "assists": 0,
-   "rating": 7.55,
+   "rating": 7.57,
    "xg90": 0.94,
    "xa90": 0.34,
    "why": [
@@ -429,7 +429,7 @@
    "goals": 5,
    "assists": 3,
    "rating": 7.5,
-   "xg90": 0.59,
+   "xg90": 0.58,
    "xa90": 0.34,
    "why": [
     "Passquote (100. Perzentil)",
@@ -452,6 +452,21 @@
    ]
   },
   {
+   "id": 1430151,
+   "name": "Brajan Gruda",
+   "pos": "RW",
+   "minutes": 523,
+   "goals": 1,
+   "assists": 5,
+   "rating": 7.8,
+   "xg90": 0.22,
+   "xa90": 0.56,
+   "why": [
+    "Erfolgreiche Dribblings (100. Perzentil)",
+    "Zweikämpfe gewonnen (100. Perzentil)"
+   ]
+  },
+  {
    "id": 1248482,
    "name": "Antonio Nusa",
    "pos": "LW",
@@ -464,21 +479,6 @@
    "why": [
     "Penalty goals (100. Perzentil)",
     "Vorlagen (100. Perzentil)"
-   ]
-  },
-  {
-   "id": 1430151,
-   "name": "Brajan Gruda",
-   "pos": "RW",
-   "minutes": 523,
-   "goals": 1,
-   "assists": 5,
-   "rating": 7.8,
-   "xg90": 0.22,
-   "xa90": 0.54,
-   "why": [
-    "Erfolgreiche Dribblings (100. Perzentil)",
-    "Zweikämpfe gewonnen (100. Perzentil)"
    ]
   }
  ],
