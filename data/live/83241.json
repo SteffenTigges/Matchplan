@@ -4,12 +4,12 @@
  "home": "FCU",
  "away": "RBL",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T15:25:22+00:00",
+ "updated_at": "2026-11-21T15:26:24+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "45‎’‎",
+  "minute": "HT",
   "reason": null,
   "score": [
    1,
@@ -17,6 +17,20 @@
   ]
  },
  "events": [
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
   {
    "min": 41,
    "plus": null,
@@ -86,24 +100,24 @@
  ],
  "stats": {
   "BallPossesion": [
-   30,
-   70
+   31,
+   69
   ],
   "expected_goals": [
-   0.34,
-   2.36
+   0.4,
+   2.63
   ],
   "total_shots": [
-   4,
-   12
+   5,
+   13
   ],
   "ShotsOnTarget": [
    3,
    3
   ],
   "touches_opp_box": [
-   7,
-   29
+   10,
+   32
   ],
   "big_chance": [
    0,
@@ -115,12 +129,12 @@
   ],
   "accurate_passes": [
    {
-    "n": 79,
-    "pct": 66
+    "n": 96,
+    "pct": 67
    },
    {
-    "n": 242,
-    "pct": 86
+    "n": 279,
+    "pct": 87
    }
   ],
   "yellow_cards": [
@@ -132,45 +146,45 @@
    3
   ],
   "blocked_shots": [
-   0,
+   1,
    3
   ],
   "shots_inside_box": [
    2,
-   10
+   11
   ],
   "expected_goals_open_play": [
-   0.34,
-   1.35
+   0.4,
+   1.63
   ],
   "expected_goals_set_play": [
    0.0,
    0.22
   ],
   "expected_goals_on_target": [
-   0.12,
+   0.32,
    1.8
   ],
   "passes": [
-   119,
-   282
+   143,
+   322
   ],
   "own_half_passes": [
-   47,
-   133
+   50,
+   153
   ],
   "opposition_half_passes": [
-   32,
-   109
+   46,
+   126
   ],
   "long_balls_accurate": [
    {
-    "n": 9,
-    "pct": 41
+    "n": 10,
+    "pct": 40
    },
    {
-    "n": 10,
-    "pct": 45
+    "n": 12,
+    "pct": 50
    }
   ],
   "accurate_crosses": [
@@ -180,7 +194,7 @@
    },
    {
     "n": 1,
-    "pct": 11
+    "pct": 10
    }
   ],
   "Offsides": [
@@ -189,7 +203,7 @@
   ],
   "tackles": [
    12,
-   7
+   8
   ],
   "interceptions": [
    5,
@@ -200,41 +214,41 @@
    2
   ],
   "clearances": [
-   19,
-   16
+   20,
+   22
   ],
   "keeper_saves": [
    2,
    1
   ],
   "duel_won": [
-   20,
-   32
+   23,
+   34
   ],
   "ground_duels_won": [
    {
-    "n": 18,
+    "n": 19,
     "pct": 44
    },
    {
-    "n": 24,
-    "pct": 62
+    "n": 25,
+    "pct": 61
    }
   ],
   "aerials_won": [
    {
-    "n": 2,
-    "pct": 15
+    "n": 4,
+    "pct": 27
    },
    {
-    "n": 8,
-    "pct": 67
+    "n": 9,
+    "pct": 60
    }
   ],
   "dribbles_succeeded": [
    {
-    "n": 1,
-    "pct": 33
+    "n": 2,
+    "pct": 40
    },
    {
     "n": 10,
@@ -429,11 +443,15 @@
   ],
   [
    44,
-   null
+   -100
   ],
   [
    45,
-   null
+   -100
+  ],
+  [
+   45.5,
+   -38
   ],
   [
    46,
@@ -796,8 +814,8 @@
    "min": 41,
    "x": 91.9,
    "y": 35.525000000000006,
-   "xg": 0.14612290263175964,
-   "xgot": 0.03848636522889137,
+   "xg": 0.1708688735961914,
+   "xgot": 0.23128864169120789,
    "situation": "RegularPlay",
    "type": "LeftFoot",
    "result": "goal",
@@ -809,8 +827,8 @@
    "min": 43,
    "x": 102.72413793119999,
    "y": 41.225952381,
-   "xg": 0.3193,
-   "xgot": null,
+   "xg": 0.13820713758468628,
+   "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
    "result": "miss",
@@ -822,31 +840,57 @@
    "min": 45,
    "x": 81.5839805832,
    "y": 28.034761904000003,
-   "xg": 0.0316,
-   "xgot": null,
+   "xg": 0.0396481417119503,
+   "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
    "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "RBL",
+   "player": "Ridle Baku",
+   "min": 45,
+   "x": 95.640350876,
+   "y": 34.1525,
+   "xg": 0.09675760567188263,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Rani Khedira",
+   "min": 45,
+   "x": 80.4577669912,
+   "y": 31.48375,
+   "xg": 0.030965110287070274,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
    "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 31,
-   "center": 23,
+   "left": 26,
+   "center": 28,
    "right": 46
   },
   "away": {
    "left": 22,
-   "center": 46,
-   "right": 32
+   "center": 45,
+   "right": 33
   }
  },
  "lineups": {
   "home": {
    "team": "FCU",
    "formation": "4-1-3-2",
-   "rating": 6.3,
+   "rating": 6.5,
    "players": [
     {
      "id": 186557,
@@ -861,7 +905,7 @@
      "id": 304354,
      "name": "Janik Haberer",
      "pos_id": 32,
-     "rating": 7,
+     "rating": 7.3,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -870,7 +914,7 @@
      "id": 1231677,
      "name": "Zeno Van Den Bosch",
      "pos_id": 34,
-     "rating": 5.8,
+     "rating": 6.1,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -879,7 +923,7 @@
      "id": 530858,
      "name": "Marvin Friedrich",
      "pos_id": 36,
-     "rating": 6.4,
+     "rating": 6.8,
      "captain": false,
      "x": 0.625,
      "y": 0.292
@@ -888,7 +932,7 @@
      "id": 860260,
      "name": "Derrick Köhn",
      "pos_id": 38,
-     "rating": 6.3,
+     "rating": 6.6,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -897,7 +941,7 @@
      "id": 304348,
      "name": "Rani Khedira",
      "pos_id": 65,
-     "rating": 5.9,
+     "rating": 6,
      "captain": true,
      "x": 0.5,
      "y": 0.485
@@ -906,7 +950,7 @@
      "id": 792756,
      "name": "Michel Aebischer",
      "pos_id": 83,
-     "rating": 7.1,
+     "rating": 7.2,
      "captain": false,
      "x": 0.21,
      "y": 0.678
@@ -915,7 +959,7 @@
      "id": 836726,
      "name": "András Schäfer",
      "pos_id": 85,
-     "rating": 6.3,
+     "rating": 6.7,
      "captain": false,
      "x": 0.5,
      "y": 0.678
@@ -924,7 +968,7 @@
      "id": 852049,
      "name": "Kastriot Imeri",
      "pos_id": 87,
-     "rating": 6.1,
+     "rating": 6.2,
      "captain": false,
      "x": 0.79,
      "y": 0.678
@@ -933,7 +977,7 @@
      "id": 609504,
      "name": "Oliver Burke",
      "pos_id": 104,
-     "rating": 6.3,
+     "rating": 6.4,
      "captain": false,
      "x": 0.3,
      "y": 0.87
@@ -952,13 +996,13 @@
   "away": {
    "team": "RBL",
    "formation": "4-3-3",
-   "rating": 6.7,
+   "rating": 6.9,
    "players": [
     {
      "id": 972200,
      "name": "Maarten Vandevoordt",
      "pos_id": 11,
-     "rating": 5.7,
+     "rating": 5.9,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -967,7 +1011,7 @@
      "id": 883087,
      "name": "Ridle Baku",
      "pos_id": 32,
-     "rating": 6.9,
+     "rating": 7.1,
      "captain": false,
      "x": 0.125,
      "y": 0.357
@@ -976,7 +1020,7 @@
      "id": 278856,
      "name": "Willi Orbán",
      "pos_id": 34,
-     "rating": 7.4,
+     "rating": 7.8,
      "captain": false,
      "x": 0.375,
      "y": 0.357
@@ -985,7 +1029,7 @@
      "id": 1253852,
      "name": "Castello Lukeba",
      "pos_id": 36,
-     "rating": 6.7,
+     "rating": 6.9,
      "captain": false,
      "x": 0.625,
      "y": 0.357
@@ -994,7 +1038,7 @@
      "id": 806669,
      "name": "David Raum",
      "pos_id": 38,
-     "rating": 6.5,
+     "rating": 6.8,
      "captain": true,
      "x": 0.875,
      "y": 0.357
@@ -1003,7 +1047,7 @@
      "id": 1274060,
      "name": "Neil El Aynaoui",
      "pos_id": 73,
-     "rating": 6.5,
+     "rating": 6.6,
      "captain": false,
      "x": 0.21,
      "y": 0.613
@@ -1021,7 +1065,7 @@
      "id": 1310001,
      "name": "Ezechiel Banzuzi",
      "pos_id": 77,
-     "rating": 6.2,
+     "rating": 6.3,
      "captain": false,
      "x": 0.79,
      "y": 0.613
@@ -1030,7 +1074,7 @@
      "id": 1430151,
      "name": "Brajan Gruda",
      "pos_id": 103,
-     "rating": 6.7,
+     "rating": 7,
      "captain": false,
      "x": 0.21,
      "y": 0.87
@@ -1074,9 +1118,9 @@
    "team": "FCU",
    "name": "Frederik Rønnow",
    "keeper": true,
-   "rating": 6.93,
+   "rating": 6.94,
    "recoveries": 2,
-   "touches": 20,
+   "touches": 22,
    "tackles": 0,
    "final_third_passes": 3,
    "interceptions": 0
@@ -1086,30 +1130,33 @@
    "team": "RBL",
    "name": "Willi Orbán",
    "keeper": false,
-   "rating": 7.44,
+   "rating": 7.78,
    "goals": 0,
    "assists": 0,
    "xg": 0.14,
    "shots": 1,
    "key_passes": 0,
-   "touches": 43,
+   "touches": 51,
    "touches_box": 2,
    "final_third_passes": 2,
    "tackles": 3,
    "interceptions": 1,
    "recoveries": 3,
-   "duels_won": 7
+   "duels_won": 8
   },
   {
    "id": 304348,
    "team": "FCU",
    "name": "Rani Khedira",
    "keeper": false,
-   "rating": 5.88,
+   "rating": 6,
    "goals": 0,
    "assists": 0,
+   "xg": 0.03,
+   "xa": 0.01,
+   "shots": 1,
    "key_passes": 0,
-   "touches": 13,
+   "touches": 16,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 2,
@@ -1124,16 +1171,16 @@
    "team": "FCU",
    "name": "Janik Haberer",
    "keeper": false,
-   "rating": 6.95,
+   "rating": 7.29,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 34,
+   "touches": 39,
    "touches_box": 0,
-   "final_third_passes": 5,
+   "final_third_passes": 6,
    "tackles": 4,
    "interceptions": 3,
-   "recoveries": 2,
+   "recoveries": 3,
    "duels_won": 5,
    "duels_lost": 2
   },
@@ -1142,39 +1189,39 @@
    "team": "FCU",
    "name": "Marvin Friedrich",
    "keeper": false,
-   "rating": 6.37,
+   "rating": 6.76,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 18,
+   "touches": 19,
    "touches_box": 1,
    "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 1,
    "recoveries": 2,
-   "duels_won": 2
+   "duels_won": 3
   },
   {
    "id": 609504,
    "team": "FCU",
    "name": "Oliver Burke",
    "keeper": false,
-   "rating": 6.33,
+   "rating": 6.37,
    "goals": 0,
    "assists": 0,
    "xg": 0.16,
    "xa": 0.04,
    "shots": 1,
    "key_passes": 1,
-   "touches": 15,
-   "touches_box": 3,
+   "touches": 22,
+   "touches_box": 5,
    "dribbles": 1,
-   "final_third_passes": 1,
+   "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 1,
-   "duels_lost": 3
+   "duels_won": 2,
+   "duels_lost": 4
   },
   {
    "id": 658440,
@@ -1206,7 +1253,7 @@
    "xa": 0.02,
    "shots": 2,
    "key_passes": 0,
-   "touches": 37,
+   "touches": 39,
    "touches_box": 4,
    "dribbles": 1,
    "final_third_passes": 4,
@@ -1221,13 +1268,14 @@
    "team": "FCU",
    "name": "Michel Aebischer",
    "keeper": false,
-   "rating": 7.12,
+   "rating": 7.24,
    "goals": 1,
    "assists": 0,
-   "xg": 0.15,
+   "xg": 0.17,
+   "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 16,
+   "touches": 19,
    "touches_box": 2,
    "tackles": 0,
    "interceptions": 1,
@@ -1239,18 +1287,18 @@
    "team": "RBL",
    "name": "David Raum",
    "keeper": false,
-   "rating": 6.53,
+   "rating": 6.78,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 52,
+   "touches": 58,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 6,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 5,
+   "recoveries": 7,
    "duels_won": 1,
    "duels_lost": 1
   },
@@ -1259,35 +1307,36 @@
    "team": "FCU",
    "name": "András Schäfer",
    "keeper": false,
-   "rating": 6.26,
+   "rating": 6.65,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 19,
+   "touches": 23,
    "touches_box": 0,
+   "dribbles": 1,
    "final_third_passes": 2,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 4,
-   "duels_won": 4,
-   "duels_lost": 4
+   "recoveries": 6,
+   "duels_won": 5,
+   "duels_lost": 5
   },
   {
    "id": 852049,
    "team": "FCU",
    "name": "Kastriot Imeri",
    "keeper": false,
-   "rating": 6.14,
+   "rating": 6.24,
    "goals": 0,
    "assists": 0,
    "xg": 0.01,
    "xa": 0.02,
    "shots": 1,
    "key_passes": 0,
-   "touches": 20,
+   "touches": 22,
    "touches_box": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 3,
    "interceptions": 0,
    "recoveries": 2,
@@ -1299,7 +1348,7 @@
    "team": "FCU",
    "name": "Derrick Köhn",
    "keeper": false,
-   "rating": 6.33,
+   "rating": 6.63,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1317,21 +1366,22 @@
    "team": "RBL",
    "name": "Ridle Baku",
    "keeper": false,
-   "rating": 6.9,
+   "rating": 7.12,
    "goals": 0,
    "assists": 0,
-   "xg": 0.04,
-   "xa": 0.81,
-   "shots": 1,
+   "xg": 0.14,
+   "xa": 0.82,
+   "shots": 2,
    "key_passes": 2,
-   "touches": 36,
-   "touches_box": 4,
+   "touches": 48,
+   "touches_box": 5,
    "dribbles": 1,
-   "final_third_passes": 2,
+   "final_third_passes": 4,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 0,
-   "duels_won": 4
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 1
   },
   {
    "id": 949673,
@@ -1344,9 +1394,9 @@
    "team": "RBL",
    "name": "Maarten Vandevoordt",
    "keeper": true,
-   "rating": 5.66,
+   "rating": 5.87,
    "recoveries": 5,
-   "touches": 21,
+   "touches": 24,
    "duels_won": 1,
    "duels_lost": 1,
    "tackles": 0,
@@ -1363,20 +1413,21 @@
    "team": "FCU",
    "name": "Andrej Ilić",
    "keeper": false,
-   "rating": 5.7,
+   "rating": 5.73,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
-   "xa": 0.06,
+   "xa": 0.07,
    "shots": 1,
    "key_passes": 1,
-   "touches": 12,
-   "touches_box": 1,
+   "touches": 18,
+   "touches_box": 2,
    "dribbles": 0,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 2,
-   "duels_lost": 9
+   "duels_lost": 8
   },
   {
    "id": 1156148,
@@ -1401,13 +1452,13 @@
    "team": "FCU",
    "name": "Zeno Van Den Bosch",
    "keeper": false,
-   "rating": 5.75,
+   "rating": 6.05,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 27,
+   "touches": 28,
    "touches_box": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1,
@@ -1421,7 +1472,7 @@
    "rating": 7.78,
    "goals": 1,
    "assists": 0,
-   "xg": 0.79,
+   "xg": 0.93,
    "xa": 0.2,
    "shots": 2,
    "key_passes": 2,
@@ -1446,32 +1497,33 @@
    "team": "RBL",
    "name": "Castello Lukeba",
    "keeper": false,
-   "rating": 6.74,
+   "rating": 6.86,
    "goals": 0,
    "assists": 0,
-   "xa": 0.13,
+   "xa": 0.14,
    "key_passes": 0,
-   "touches": 50,
+   "touches": 57,
    "touches_box": 0,
-   "final_third_passes": 1,
-   "tackles": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
    "interceptions": 1,
    "recoveries": 2,
-   "duels_lost": 1
+   "duels_won": 1,
+   "duels_lost": 2
   },
   {
    "id": 1274060,
    "team": "RBL",
    "name": "Neil El Aynaoui",
    "keeper": false,
-   "rating": 6.51,
+   "rating": 6.55,
    "goals": 0,
    "assists": 0,
-   "xg": 0.02,
+   "xg": 0.06,
    "xa": 0.05,
    "shots": 2,
    "key_passes": 0,
-   "touches": 44,
+   "touches": 48,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 2,
@@ -1492,17 +1544,17 @@
    "team": "RBL",
    "name": "Ezechiel Banzuzi",
    "keeper": false,
-   "rating": 6.15,
+   "rating": 6.33,
    "goals": 0,
    "assists": 0,
    "xa": 0.14,
    "key_passes": 0,
-   "touches": 28,
+   "touches": 34,
    "touches_box": 0,
    "final_third_passes": 3,
    "tackles": 2,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 2,
    "duels_won": 6,
    "duels_lost": 2
   },
@@ -1511,19 +1563,19 @@
    "team": "RBL",
    "name": "Rômulo",
    "keeper": false,
-   "rating": 6.57,
+   "rating": 6.56,
    "goals": 0,
    "assists": 0,
    "xg": 0.49,
    "xa": 0.07,
    "shots": 3,
    "key_passes": 1,
-   "touches": 30,
+   "touches": 31,
    "touches_box": 5,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1,
-   "duels_lost": 3
+   "duels_lost": 4
   },
   {
    "id": 1403332,
@@ -1536,15 +1588,15 @@
    "team": "RBL",
    "name": "Brajan Gruda",
    "keeper": false,
-   "rating": 6.65,
+   "rating": 6.96,
    "goals": 0,
    "assists": 0,
    "xg": 0.56,
-   "xa": 0.13,
+   "xa": 0.35,
    "shots": 1,
-   "key_passes": 1,
-   "touches": 33,
-   "touches_box": 8,
+   "key_passes": 3,
+   "touches": 37,
+   "touches_box": 10,
    "dribbles": 5,
    "final_third_passes": 2,
    "tackles": 0,
