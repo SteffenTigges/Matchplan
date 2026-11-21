@@ -61,3 +61,26 @@ def test_nothing_due_does_not_fetch(tmp_path):
     calls = []
     run_live(tmp_path, lambda u: calls.append(u), datetime(2026, 11, 21, 9, 0, tzinfo=timezone.utc))
     assert calls == []
+
+
+def test_window_includes_lead_time(tmp_path):
+    from matchplan_data.live import in_window
+    setup(tmp_path)
+    assert in_window(tmp_path, datetime(2026, 11, 21, 13, 30, tzinfo=timezone.utc))
+    assert not in_window(tmp_path, datetime(2026, 11, 21, 12, 0, tzinfo=timezone.utc))
+    assert in_window(tmp_path, datetime(2026, 11, 21, 19, 0, tzinfo=timezone.utc))  # 17:30-Spiel
+    assert not in_window(tmp_path, datetime(2026, 11, 21, 20, 30, tzinfo=timezone.utc))
+
+
+def test_session_loops_until_window_closes(tmp_path):
+    from datetime import timedelta
+    from matchplan_data.live import session
+    setup(tmp_path)
+    t = [datetime(2026, 11, 21, 19, 50, tzinfo=timezone.utc)]
+
+    def sleep(s):
+        t[0] += timedelta(seconds=s)
+
+    n = session(tmp_path, fetcher({"started": True, "finished": False, "liveTime": {"short": "80'"}}), interval=60,
+                clock=lambda: t[0], sleep=sleep)
+    assert n == 11  # 17:30-Spiel: Fenster endet um 20:00 (einschließlich)
