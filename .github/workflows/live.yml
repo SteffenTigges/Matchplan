@@ -1,7 +1,8 @@
 name: live
 
-# Liveticker: alle 5 Minuten nachsehen, ob gerade Bundesliga läuft (ohne laufendes Spiel endet der Lauf nach Sekunden).
-# Nach dem Abpfiff startet er den großen Datenabruf, damit Statistik, Tabelle und alles Abgeleitete sofort nachziehen.
+# Liveticker: Eine Sitzung holt jede Minute die laufenden Spiele, bis keins mehr läuft oder bald beginnt.
+# Gestartet vom stündlichen Datenabruf (zuverlässig) und zusätzlich per Zeitplan; ohne Spiel endet sie nach Sekunden.
+# Nach jedem Abpfiff startet sie den großen Datenabruf, damit Statistik, Tabelle und alles Abgeleitete sofort nachziehen.
 on:
   schedule:
     - cron: "*/5 11-22 * * *"
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
 
@@ -28,29 +29,14 @@ jobs:
       - name: Install
         run: pip install -e pipeline
 
-      - name: Laufende Spiele holen
-        id: live
-        run: python -m matchplan_data.live --out data
-
-      - name: Liveticker speichern (nur Hauptzweig)
-        if: github.ref == 'refs/heads/main'
+      - name: Live-Sitzung (jede Minute, bis kein Spiel mehr läuft)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -d data/live ]; then git add data/live; fi
-          if git diff --cached --quiet; then
-            echo "Keine Änderung."
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            python -m matchplan_data.live --out data --session --commit
           else
-            git commit -m "live: Aktualisierung"
-            for i in 1 2 3; do
-              git pull --rebase -X theirs origin main && git push origin HEAD:main && break
-              git rebase --abort 2>/dev/null || true
-              sleep 5
-            done
+            python -m matchplan_data.live --out data
           fi
-
-      - name: Nach Abpfiff großen Datenabruf starten
-        if: github.ref == 'refs/heads/main' && steps.live.outputs.finished == '1'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run data.yml --ref main
