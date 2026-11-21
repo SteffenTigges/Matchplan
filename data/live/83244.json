@@ -4,7 +4,7 @@
  "home": "S04",
  "away": "VFB",
  "kickoff": "2026-11-21T17:30:00Z",
- "updated_at": "2026-11-21T18:32:19+00:00",
+ "updated_at": "2026-11-21T18:33:21+00:00",
  "status": {
   "started": true,
   "finished": false,
@@ -60,7 +60,7 @@
     "pct": 83
    },
    {
-    "n": 200,
+    "n": 201,
     "pct": 83
    }
   ],
@@ -94,11 +94,11 @@
   ],
   "passes": [
    224,
-   241
+   242
   ],
   "own_half_passes": [
    94,
-   126
+   127
   ],
   "opposition_half_passes": [
    91,
@@ -107,7 +107,7 @@
   "long_balls_accurate": [
    {
     "n": 11,
-    "pct": 48
+    "pct": 46
    },
    {
     "n": 23,
@@ -130,7 +130,7 @@
   ],
   "tackles": [
    12,
-   6
+   5
   ],
   "interceptions": [
    4,
@@ -150,16 +150,16 @@
   ],
   "duel_won": [
    27,
-   22
+   21
   ],
   "ground_duels_won": [
    {
     "n": 22,
-    "pct": 61
+    "pct": 63
    },
    {
-    "n": 14,
-    "pct": 39
+    "n": 13,
+    "pct": 37
    }
   ],
   "aerials_won": [
@@ -198,15 +198,15 @@
   ],
   [
    1,
-   -22
+   -27
   ],
   [
    2,
-   -54
+   -60
   ],
   [
    3,
-   -65
+   -71
   ],
   [
    4,
@@ -778,8 +778,8 @@
  "zones": {
   "home": {
    "left": 41,
-   "center": 30,
-   "right": 29
+   "center": 29,
+   "right": 30
   },
   "away": {
    "left": 36,
@@ -839,19 +839,19 @@
      "y": 0.292
     },
     {
-     "id": 861668,
-     "name": "Dejan Ljubičić",
+     "id": 1249185,
+     "name": "Soufian El-Faouzi",
      "pos_id": 63,
-     "rating": 6.5,
+     "rating": 7.3,
      "captain": false,
      "x": 0.21,
      "y": 0.485
     },
     {
-     "id": 1249185,
-     "name": "Soufian El-Faouzi",
+     "id": 861668,
+     "name": "Dejan Ljubičić",
      "pos_id": 65,
-     "rating": 7.3,
+     "rating": 6.5,
      "captain": false,
      "x": 0.5,
      "y": 0.485
@@ -878,7 +878,7 @@
      "id": 469763,
      "name": "Kenan Karaman",
      "pos_id": 86,
-     "rating": 6.1,
+     "rating": 6.2,
      "captain": true,
      "x": 0.7,
      "y": 0.678
@@ -975,7 +975,7 @@
      "id": 661519,
      "name": "Deniz Undav",
      "pos_id": 85,
-     "rating": 6.1,
+     "rating": 6,
      "captain": true,
      "x": 0.5,
      "y": 0.678
@@ -1031,7 +1031,7 @@
    "team": "S04",
    "name": "Kenan Karaman",
    "keeper": false,
-   "rating": 6.12,
+   "rating": 6.17,
    "goals": 0,
    "assists": 0,
    "xg": 0.39,
@@ -1043,7 +1043,7 @@
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 2,
+   "duels_won": 3,
    "duels_lost": 2
   },
   {
@@ -1076,14 +1076,14 @@
    "xa": 0.48,
    "shots": 1,
    "key_passes": 2,
-   "touches": 46,
+   "touches": 47,
    "touches_box": 4,
    "dribbles": 2,
    "final_third_passes": 6,
    "tackles": 2,
    "interceptions": 1,
    "recoveries": 1,
-   "duels_won": 5,
+   "duels_won": 6,
    "duels_lost": 2
   },
   {
@@ -1131,7 +1131,7 @@
    "team": "VFB",
    "name": "Deniz Undav",
    "keeper": false,
-   "rating": 6.06,
+   "rating": 6.01,
    "goals": 0,
    "assists": 0,
    "xg": 0.55,
@@ -1143,9 +1143,9 @@
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 0,
    "duels_won": 1,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 684983,
@@ -1176,16 +1176,16 @@
    "team": "S04",
    "name": "Hasan Kuruçay",
    "keeper": false,
-   "rating": 6.62,
+   "rating": 6.56,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 33,
+   "touches": 32,
    "touches_box": 0,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 2,
    "recoveries": 4,
-   "duels_won": 1,
    "duels_lost": 2
   },
   {
@@ -1199,7 +1199,7 @@
    "team": "VFB",
    "name": "Ermedin Demirović",
    "keeper": false,
-   "rating": 5.92,
+   "rating": 5.94,
    "goals": 0,
    "assists": 0,
    "xg": 0.03,
@@ -1214,7 +1214,7 @@
    "interceptions": 0,
    "recoveries": 1,
    "duels_won": 3,
-   "duels_lost": 6
+   "duels_lost": 5
   },
   {
    "id": 860056,
@@ -1234,7 +1234,7 @@
    "xa": 0.03,
    "shots": 1,
    "key_passes": 0,
-   "touches": 33,
+   "touches": 35,
    "touches_box": 0,
    "final_third_passes": 4,
    "tackles": 2,
@@ -1299,13 +1299,13 @@
    "assists": 0,
    "xa": 0.23,
    "key_passes": 3,
-   "touches": 27,
+   "touches": 28,
    "touches_box": 4,
    "dribbles": 0,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 2,
+   "recoveries": 3,
    "duels_lost": 3
   },
   {
@@ -1343,7 +1343,7 @@
    "goals": 0,
    "assists": 0,
    "xg": 0.21,
-   "xa": 0.08,
+   "xa": 0.09,
    "shots": 3,
    "key_passes": 2,
    "touches": 39,
@@ -1352,8 +1352,7 @@
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 4,
-   "duels_won": 2,
-   "duels_lost": 1
+   "duels_won": 2
   },
   {
    "id": 1074968,
@@ -1386,14 +1385,14 @@
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 46,
+   "touches": 45,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 1,
    "tackles": 2,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 5,
+   "duels_won": 4,
    "duels_lost": 1
   },
   {
@@ -1430,7 +1429,7 @@
    "assists": 0,
    "xa": 0.44,
    "key_passes": 2,
-   "touches": 43,
+   "touches": 42,
    "touches_box": 3,
    "dribbles": 1,
    "final_third_passes": 1,
@@ -1524,12 +1523,12 @@
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 22,
+   "touches": 21,
    "touches_box": 0,
-   "tackles": 1,
+   "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 2,
+   "duels_won": 1,
    "duels_lost": 4
   }
  ]
