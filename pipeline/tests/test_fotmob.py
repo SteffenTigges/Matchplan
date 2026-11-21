@@ -139,3 +139,9 @@ def test_parse_status_live():
     from matchplan_data.fotmob import parse_status
     st = parse_status(_ev_page([], {"started": True, "finished": False, "liveTime": {"short": "57'"}, "reason": {}}))
     assert st == {"started": True, "finished": False, "cancelled": False, "minute": "57'", "reason": None, "score": [1, 2]}
+
+
+def test_live_minute_is_cleaned():
+    from matchplan_data.fotmob import parse_status
+    st = parse_status(_ev_page([], {"started": True, "liveTime": {"short": "25‎’‎"}}))
+    assert st["minute"] == "25'"

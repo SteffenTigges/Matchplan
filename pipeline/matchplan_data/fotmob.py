@@ -159,7 +159,7 @@ def parse_status(data: dict) -> dict:
     teams = h.get("teams") or [{}, {}]
     live = st.get("liveTime") or {}
     return {"started": bool(st.get("started")), "finished": bool(st.get("finished")), "cancelled": bool(st.get("cancelled")),
-            "minute": live.get("short") if isinstance(live, dict) else None,
+            "minute": (str(live.get("short") or "").replace("\u200e", "").replace("\u200f", "").replace("’", "'") or None) if isinstance(live, dict) else None,
             "reason": (st.get("reason") or {}).get("short"),
             "score": [_num(teams[0].get("score")), _num(teams[1].get("score"))] if len(teams) == 2 else None}
 
