@@ -4,12 +4,12 @@
  "home": "B04",
  "away": "SCP",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T16:16:55+00:00",
+ "updated_at": "2026-11-21T16:17:57+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "78‎’‎",
+  "minute": "89‎’‎",
   "reason": null,
   "score": [
    4,
@@ -17,6 +17,16 @@
   ]
  },
  "events": [
+  {
+   "min": 78,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Marvin Pieringer",
+   "in_id": 956913,
+   "out": "Stefano Marino",
+   "out_id": 1321553
+  },
   {
    "min": 78,
    "plus": null,
@@ -202,41 +212,41 @@
  ],
  "stats": {
   "BallPossesion": [
-   66,
-   34
+   65,
+   35
   ],
   "expected_goals": [
-   3.93,
-   0.11
+   4.2,
+   0.55
   ],
   "total_shots": [
-   16,
-   3
+   17,
+   6
   ],
   "ShotsOnTarget": [
    10,
    1
   ],
   "touches_opp_box": [
-   32,
-   11
+   34,
+   14
   ],
   "big_chance": [
    10,
-   0
+   1
   ],
   "big_chance_missed_title": [
    6,
-   0
+   1
   ],
   "accurate_passes": [
    {
-    "n": 581,
+    "n": 630,
     "pct": 91
    },
    {
-    "n": 270,
-    "pct": 83
+    "n": 315,
+    "pct": 84
    }
   ],
   "yellow_cards": [
@@ -244,20 +254,20 @@
    0
   ],
   "corners": [
-   7,
+   8,
    2
   ],
   "blocked_shots": [
    0,
-   0
-  ],
-  "shots_inside_box": [
-   15,
    2
   ],
+  "shots_inside_box": [
+   16,
+   3
+  ],
   "expected_goals_open_play": [
-   3.74,
-   0.11
+   4.01,
+   0.55
   ],
   "expected_goals_set_play": [
    0.19,
@@ -268,35 +278,35 @@
    0.05
   ],
   "passes": [
-   636,
-   324
+   690,
+   375
   ],
   "own_half_passes": [
-   370,
-   171
+   403,
+   189
   ],
   "opposition_half_passes": [
-   211,
-   99
+   227,
+   126
   ],
   "long_balls_accurate": [
    {
-    "n": 25,
+    "n": 27,
     "pct": 64
    },
    {
     "n": 14,
-    "pct": 42
+    "pct": 40
    }
   ],
   "accurate_crosses": [
    {
     "n": 8,
-    "pct": 47
+    "pct": 42
    },
    {
-    "n": 2,
-    "pct": 18
+    "n": 3,
+    "pct": 21
    }
   ],
   "Offsides": [
@@ -305,46 +315,46 @@
   ],
   "tackles": [
    9,
-   9
+   10
   ],
   "interceptions": [
-   5,
-   4
+   10,
+   5
   ],
   "shot_blocks": [
-   0,
+   2,
    0
   ],
   "clearances": [
-   23,
-   18
+   27,
+   22
   ],
   "keeper_saves": [
    1,
    7
   ],
   "duel_won": [
-   32,
-   27
+   35,
+   28
   ],
   "ground_duels_won": [
    {
-    "n": 22,
+    "n": 23,
     "pct": 50
    },
    {
-    "n": 22,
+    "n": 23,
     "pct": 50
    }
   ],
   "aerials_won": [
    {
-    "n": 10,
-    "pct": 67
+    "n": 12,
+    "pct": 71
    },
    {
     "n": 5,
-    "pct": 31
+    "pct": 28
    }
   ],
   "dribbles_succeeded": [
@@ -363,7 +373,7 @@
   ],
   "fouls": [
    8,
-   7
+   8
   ]
  },
  "momentum": [
@@ -669,15 +679,15 @@
   ],
   [
    74,
-   -11
+   -16
   ],
   [
    75,
-   -35
+   -41
   ],
   [
    76,
-   35
+   30
   ],
   [
    77,
@@ -685,43 +695,43 @@
   ],
   [
    78,
-   null
+   62
   ],
   [
    79,
-   null
+   46
   ],
   [
    80,
-   null
+   71
   ],
   [
    81,
-   null
+   60
   ],
   [
    82,
-   null
+   16
   ],
   [
    83,
-   null
+   -11
   ],
   [
    84,
-   null
+   -100
   ],
   [
    85,
-   null
+   -100
   ],
   [
    86,
-   null
+   -100
   ],
   [
    87,
-   null
+   11
   ],
   [
    88,
@@ -979,26 +989,91 @@
    "team": "B04",
    "player": "Christian Kofane",
    "min": 76,
-   "x": 100.1637931038,
-   "y": 32.09375,
+   "x": 98.0526315785,
+   "y": 30.316,
    "xg": 0.41126251220703125,
    "xgot": 0.23058757185935974,
    "situation": "RegularPlay",
    "type": "LeftFoot",
    "result": "saved",
    "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Christian Kofane",
+   "min": 79,
+   "x": 96.4122807008,
+   "y": 30.232,
+   "xg": 0.2688312828540802,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Raphael Obermair",
+   "min": 83,
+   "x": 84.9573529404,
+   "y": 43.440254772100005,
+   "xg": 0.03718853369355202,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Mattes Hansen",
+   "min": 84,
+   "x": 79.782038836,
+   "y": 42.235,
+   "xg": 0.03578725829720497,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SCP",
+   "player": "Santiago Castañeda",
+   "min": 84,
+   "x": 99.97413793140001,
+   "y": 35.0675,
+   "xg": 0.3708776831626892,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "B04",
+   "player": "Jarell Quansah",
+   "min": 88,
+   "x": 91.7,
+   "y": 19.725350321199997,
+   "xg": 0.0396,
+   "xgot": null,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 34,
+   "left": 33,
    "center": 29,
-   "right": 37
+   "right": 38
   },
   "away": {
-   "left": 46,
-   "center": 29,
-   "right": 25
+   "left": 44,
+   "center": 28,
+   "right": 28
   }
  },
  "lineups": {
@@ -1011,7 +1086,7 @@
      "id": 330643,
      "name": "Mark Flekken",
      "pos_id": 11,
-     "rating": 6.6,
+     "rating": 6.9,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1029,7 +1104,7 @@
      "id": 1119461,
      "name": "Loïc Badé",
      "pos_id": 34,
-     "rating": 7.5,
+     "rating": 7.7,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -1038,7 +1113,7 @@
      "id": 789914,
      "name": "Edmond Tapsoba",
      "pos_id": 36,
-     "rating": 7.2,
+     "rating": 7.1,
      "captain": true,
      "x": 0.625,
      "y": 0.292
@@ -1047,7 +1122,7 @@
      "id": 942379,
      "name": "Miguel Gutiérrez",
      "pos_id": 38,
-     "rating": 7.5,
+     "rating": 7.7,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -1065,7 +1140,7 @@
      "id": 642551,
      "name": "Aleix García",
      "pos_id": 66,
-     "rating": 7.9,
+     "rating": 8.1,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -1092,7 +1167,7 @@
      "id": 1367047,
      "name": "Afonso Moreira",
      "pos_id": 87,
-     "rating": 9.4,
+     "rating": 9.5,
      "captain": false,
      "x": 0.837,
      "y": 0.678
@@ -1111,13 +1186,13 @@
   "away": {
    "team": "SCP",
    "formation": "3-4-2-1",
-   "rating": 5.8,
+   "rating": 6,
    "players": [
     {
      "id": 1257826,
      "name": "Nahuel Noll",
      "pos_id": 11,
-     "rating": 6.6,
+     "rating": 6.8,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1135,7 +1210,7 @@
      "id": 1415373,
      "name": "Tjark Scheller",
      "pos_id": 35,
-     "rating": 4.9,
+     "rating": 5.2,
      "captain": false,
      "x": 0.5,
      "y": 0.292
@@ -1144,7 +1219,7 @@
      "id": 1515976,
      "name": "Mattes Hansen",
      "pos_id": 37,
-     "rating": 5.3,
+     "rating": 5.6,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -1153,7 +1228,7 @@
      "id": 1426060,
      "name": "Laurin Curda",
      "pos_id": 62,
-     "rating": 6.3,
+     "rating": 6.5,
      "captain": true,
      "x": 0.125,
      "y": 0.485
@@ -1162,7 +1237,7 @@
      "id": 658444,
      "name": "Tom Baack",
      "pos_id": 64,
-     "rating": 4.5,
+     "rating": 4.6,
      "captain": false,
      "x": 0.375,
      "y": 0.485
@@ -1171,7 +1246,7 @@
      "id": 1362492,
      "name": "Santiago Castañeda",
      "pos_id": 66,
-     "rating": 5.6,
+     "rating": 5.8,
      "captain": false,
      "x": 0.625,
      "y": 0.485
@@ -1180,7 +1255,7 @@
      "id": 784225,
      "name": "Raphael Obermair",
      "pos_id": 68,
-     "rating": 6.1,
+     "rating": 6.4,
      "captain": false,
      "x": 0.875,
      "y": 0.485
@@ -1198,7 +1273,7 @@
      "id": 1276453,
      "name": "Gabriel Vidović",
      "pos_id": 86,
-     "rating": 6.4,
+     "rating": 6.5,
      "captain": false,
      "x": 0.7,
      "y": 0.678
@@ -1207,7 +1282,7 @@
      "id": 1321553,
      "name": "Stefano Marino",
      "pos_id": 105,
-     "rating": 6,
+     "rating": 6.1,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -1227,9 +1302,10 @@
    "team": "B04",
    "name": "Mark Flekken",
    "keeper": true,
-   "rating": 6.61,
-   "recoveries": 10,
-   "touches": 32,
+   "rating": 6.9,
+   "recoveries": 11,
+   "touches": 35,
+   "duels_won": 1,
    "tackles": 0,
    "final_third_passes": 1,
    "interceptions": 0
@@ -1239,12 +1315,14 @@
    "team": "B04",
    "name": "Jonas Hofmann",
    "keeper": false,
-   "rating": 6.22,
+   "rating": 6.27,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 8,
+   "touches": 19,
    "touches_box": 0,
+   "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1
@@ -1254,17 +1332,17 @@
    "team": "B04",
    "name": "Robert Andrich",
    "keeper": false,
-   "rating": 6.09,
+   "rating": 6.31,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 19,
+   "touches": 29,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 2,
    "tackles": 2,
-   "interceptions": 0,
+   "interceptions": 2,
    "recoveries": 1,
    "duels_won": 2,
    "duels_lost": 3
@@ -1274,7 +1352,7 @@
    "team": "B04",
    "name": "Patrik Schick",
    "keeper": false,
-   "rating": 7.92,
+   "rating": 7.9,
    "goals": 1,
    "assists": 0,
    "xg": 1.35,
@@ -1294,18 +1372,18 @@
    "team": "B04",
    "name": "Aleix García",
    "keeper": false,
-   "rating": 7.85,
+   "rating": 8.07,
    "goals": 0,
    "assists": 0,
    "xa": 0.9,
    "key_passes": 4,
-   "touches": 109,
+   "touches": 117,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 7,
    "tackles": 0,
    "interceptions": 2,
-   "recoveries": 2,
+   "recoveries": 4,
    "duels_won": 2,
    "duels_lost": 2
   },
@@ -1314,7 +1392,7 @@
    "team": "SCP",
    "name": "Tom Baack",
    "keeper": false,
-   "rating": 4.54,
+   "rating": 4.55,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1343,16 +1421,16 @@
    "team": "SCP",
    "name": "Felix Götze",
    "keeper": false,
-   "rating": 5.33,
+   "rating": 5.44,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 26,
+   "touches": 32,
    "touches_box": 0,
-   "final_third_passes": 1,
+   "final_third_passes": 2,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 4,
+   "recoveries": 5,
    "duels_won": 2
   },
   {
@@ -1360,19 +1438,19 @@
    "team": "SCP",
    "name": "Raphael Obermair",
    "keeper": false,
-   "rating": 6.12,
+   "rating": 6.41,
    "goals": 0,
    "assists": 0,
-   "xg": 0.05,
+   "xg": 0.09,
    "xa": 0.03,
-   "shots": 1,
+   "shots": 2,
    "key_passes": 0,
-   "touches": 39,
+   "touches": 46,
    "touches_box": 2,
-   "final_third_passes": 5,
+   "final_third_passes": 6,
    "tackles": 2,
    "interceptions": 0,
-   "recoveries": 3,
+   "recoveries": 5,
    "duels_won": 3,
    "duels_lost": 1
   },
@@ -1381,7 +1459,7 @@
    "team": "B04",
    "name": "Edmond Tapsoba",
    "keeper": false,
-   "rating": 7.16,
+   "rating": 7.1,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1426,17 +1504,18 @@
    "team": "B04",
    "name": "Moussa Diaby",
    "keeper": false,
-   "rating": 6.46,
+   "rating": 6.71,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 9,
-   "touches_box": 0,
+   "xa": 0.24,
+   "key_passes": 1,
+   "touches": 14,
+   "touches_box": 1,
    "dribbles": 1,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 1,
-   "duels_won": 2,
+   "duels_won": 3,
    "duels_lost": 1
   },
   {
@@ -1444,24 +1523,35 @@
    "team": "B04",
    "name": "Miguel Gutiérrez",
    "keeper": false,
-   "rating": 7.47,
+   "rating": 7.65,
    "goals": 0,
    "assists": 0,
-   "xa": 0.14,
+   "xa": 0.16,
    "key_passes": 1,
-   "touches": 89,
+   "touches": 105,
    "touches_box": 1,
-   "final_third_passes": 6,
+   "final_third_passes": 7,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 2,
+   "recoveries": 4,
    "duels_won": 2
   },
   {
    "id": 956913,
    "team": "SCP",
    "name": "Marvin Pieringer",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.2,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 1079892,
@@ -1474,14 +1564,14 @@
    "team": "B04",
    "name": "Jarell Quansah",
    "keeper": false,
-   "rating": 7.05,
+   "rating": 7.11,
    "goals": 0,
    "assists": 0,
    "xg": 0.06,
-   "xa": 0.03,
+   "xa": 0.04,
    "shots": 1,
    "key_passes": 0,
-   "touches": 96,
+   "touches": 100,
    "touches_box": 1,
    "dribbles": 1,
    "final_third_passes": 10,
@@ -1496,26 +1586,26 @@
    "team": "B04",
    "name": "Loïc Badé",
    "keeper": false,
-   "rating": 7.52,
+   "rating": 7.72,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 102,
+   "touches": 114,
    "touches_box": 0,
    "final_third_passes": 6,
    "tackles": 2,
-   "interceptions": 1,
+   "interceptions": 3,
    "recoveries": 5,
-   "duels_won": 7,
-   "duels_lost": 3
+   "duels_won": 8,
+   "duels_lost": 4
   },
   {
    "id": 1126058,
    "team": "B04",
    "name": "Malik Tillman",
    "keeper": false,
-   "rating": 8.09,
+   "rating": 8.07,
    "goals": 0,
    "assists": 1,
    "xg": 0.14,
@@ -1536,7 +1626,7 @@
    "team": "B04",
    "name": "Equi Fernández",
    "keeper": false,
-   "rating": 8.02,
+   "rating": 8.01,
    "goals": 1,
    "assists": 0,
    "xg": 0.44,
@@ -1556,9 +1646,9 @@
    "team": "SCP",
    "name": "Nahuel Noll",
    "keeper": true,
-   "rating": 6.58,
+   "rating": 6.83,
    "recoveries": 7,
-   "touches": 46,
+   "touches": 50,
    "duels_won": 1,
    "tackles": 0,
    "final_third_passes": 6,
@@ -1569,7 +1659,7 @@
    "team": "SCP",
    "name": "Gabriel Vidović",
    "keeper": false,
-   "rating": 6.44,
+   "rating": 6.45,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
@@ -1589,7 +1679,7 @@
    "team": "SCP",
    "name": "Stefano Marino",
    "keeper": false,
-   "rating": 5.98,
+   "rating": 6.12,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
@@ -1610,34 +1700,36 @@
    "team": "SCP",
    "name": "Santiago Castañeda",
    "keeper": false,
-   "rating": 5.6,
+   "rating": 5.75,
    "goals": 0,
    "assists": 0,
+   "xg": 0.37,
    "xa": 0.03,
+   "shots": 1,
    "key_passes": 1,
-   "touches": 30,
-   "touches_box": 0,
+   "touches": 38,
+   "touches_box": 1,
    "dribbles": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 3,
    "duels_won": 1,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1367047,
    "team": "B04",
    "name": "Afonso Moreira",
    "keeper": false,
-   "rating": 9.44,
+   "rating": 9.47,
    "goals": 2,
    "assists": 1,
    "xg": 1.37,
    "xa": 0.63,
    "shots": 4,
    "key_passes": 3,
-   "touches": 42,
+   "touches": 46,
    "touches_box": 10,
    "dribbles": 2,
    "final_third_passes": 1,
@@ -1652,58 +1744,68 @@
    "team": "SCP",
    "name": "Laurin Ulrich",
    "keeper": false,
-   "rating": 6.19,
+   "rating": 6.25,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 1,
-   "touches": 13,
+   "touches": 15,
    "touches_box": 1,
-   "dribbles": 1,
+   "dribbles": 0,
    "final_third_passes": 1,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 2,
-   "duels_won": 2,
+   "recoveries": 3,
+   "duels_won": 1,
    "duels_lost": 2
   },
   {
    "id": 1381853,
    "team": "B04",
    "name": "Tim Oermann",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0
   },
   {
    "id": 1415373,
    "team": "SCP",
    "name": "Tjark Scheller",
    "keeper": false,
-   "rating": 4.93,
+   "rating": 5.2,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 43,
+   "key_passes": 1,
+   "touches": 51,
    "touches_box": 0,
-   "final_third_passes": 2,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 4,
+   "recoveries": 5,
    "duels_won": 3,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1426060,
    "team": "SCP",
    "name": "Laurin Curda",
    "keeper": false,
-   "rating": 6.25,
+   "rating": 6.49,
    "goals": 0,
    "assists": 0,
-   "xa": 0.08,
-   "key_passes": 1,
-   "touches": 44,
-   "touches_box": 2,
-   "final_third_passes": 5,
+   "xa": 0.49,
+   "key_passes": 2,
+   "touches": 54,
+   "touches_box": 3,
+   "final_third_passes": 6,
    "tackles": 1,
    "interceptions": 1,
    "recoveries": 1,
@@ -1721,14 +1823,16 @@
    "team": "SCP",
    "name": "Mattes Hansen",
    "keeper": false,
-   "rating": 5.28,
+   "rating": 5.55,
    "goals": 0,
    "assists": 0,
+   "xg": 0.04,
    "xa": 0.05,
-   "key_passes": 0,
-   "touches": 59,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 65,
    "touches_box": 0,
-   "final_third_passes": 8,
+   "final_third_passes": 10,
    "tackles": 3,
    "interceptions": 1,
    "recoveries": 1,
@@ -1740,7 +1844,7 @@
    "team": "SCP",
    "name": "Jano ter Horst",
    "keeper": false,
-   "rating": 6.06,
+   "rating": 6.07,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1757,14 +1861,16 @@
    "team": "SCP",
    "name": "Jonah Sticker",
    "keeper": false,
-   "rating": 6,
+   "rating": 6.1,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 3,
+   "touches": 9,
    "touches_box": 0,
+   "final_third_passes": 1,
    "tackles": 0,
-   "interceptions": 0,
+   "interceptions": 1,
    "recoveries": 0
   },
   {
@@ -1772,20 +1878,21 @@
    "team": "SCP",
    "name": "Deniz Zeitler",
    "keeper": false,
-   "rating": 5.94,
+   "rating": 6.21,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
    "xa": 0.02,
    "shots": 1,
    "key_passes": 0,
-   "touches": 9,
+   "touches": 14,
    "touches_box": 1,
-   "dribbles": 0,
+   "dribbles": 1,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 2,
+   "duels_won": 1,
    "duels_lost": 2
   },
   {
@@ -1793,7 +1900,7 @@
    "team": "SCP",
    "name": "Ruben Müller",
    "keeper": false,
-   "rating": 5.79,
+   "rating": 5.8,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1817,14 +1924,14 @@
    "team": "B04",
    "name": "Christian Kofane",
    "keeper": false,
-   "rating": 6.19,
+   "rating": 6.23,
    "goals": 0,
    "assists": 0,
-   "xg": 0.41,
-   "shots": 1,
+   "xg": 0.68,
+   "shots": 2,
    "key_passes": 0,
-   "touches": 3,
-   "touches_box": 1,
+   "touches": 10,
+   "touches_box": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0

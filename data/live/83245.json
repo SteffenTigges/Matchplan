@@ -4,12 +4,12 @@
  "home": "SVE",
  "away": "SCF",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T16:16:55+00:00",
+ "updated_at": "2026-11-21T16:17:57+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "78‎’‎",
+  "minute": "88‎’‎",
   "reason": null,
   "score": [
    0,
@@ -17,6 +17,26 @@
   ]
  },
  "events": [
+  {
+   "min": 81,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Keisuke Goto",
+   "in_id": 1436730,
+   "out": "Igor Matanović",
+   "out_id": 1210893
+  },
+  {
+   "min": 81,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Vincenzo Grifo",
+   "in_id": 400625,
+   "out": "Derry Scherhant",
+   "out_id": 1302666
+  },
   {
    "min": 78,
    "plus": null,
@@ -129,24 +149,24 @@
  ],
  "stats": {
   "BallPossesion": [
-   52,
-   48
+   57,
+   43
   ],
   "expected_goals": [
-   0.92,
-   0.61
+   0.97,
+   0.78
   ],
   "total_shots": [
-   9,
-   8
+   10,
+   9
   ],
   "ShotsOnTarget": [
    2,
    1
   ],
   "touches_opp_box": [
-   17,
-   16
+   19,
+   17
   ],
   "big_chance": [
    2,
@@ -158,11 +178,11 @@
   ],
   "accurate_passes": [
    {
-    "n": 318,
-    "pct": 85
+    "n": 392,
+    "pct": 86
    },
    {
-    "n": 277,
+    "n": 283,
     "pct": 82
    }
   ],
@@ -176,15 +196,15 @@
   ],
   "blocked_shots": [
    3,
-   4
+   5
   ],
   "shots_inside_box": [
-   8,
-   4
+   9,
+   5
   ],
   "expected_goals_open_play": [
-   0.46,
-   0.34
+   0.51,
+   0.52
   ],
   "expected_goals_set_play": [
    0.46,
@@ -195,35 +215,35 @@
    0.21
   ],
   "passes": [
-   373,
-   337
+   454,
+   347
   ],
   "own_half_passes": [
-   167,
+   219,
    173
   ],
   "opposition_half_passes": [
-   151,
-   104
+   173,
+   110
   ],
   "long_balls_accurate": [
    {
     "n": 14,
-    "pct": 40
+    "pct": 38
    },
    {
-    "n": 19,
-    "pct": 49
+    "n": 21,
+    "pct": 50
    }
   ],
   "accurate_crosses": [
    {
-    "n": 3,
-    "pct": 38
+    "n": 4,
+    "pct": 40
    },
    {
-    "n": 2,
-    "pct": 33
+    "n": 3,
+    "pct": 38
    }
   ],
   "Offsides": [
@@ -231,7 +251,7 @@
    2
   ],
   "tackles": [
-   11,
+   12,
    24
   ],
   "interceptions": [
@@ -239,49 +259,49 @@
    3
   ],
   "shot_blocks": [
-   4,
+   5,
    3
   ],
   "clearances": [
-   16,
-   22
+   20,
+   27
   ],
   "keeper_saves": [
    0,
    1
   ],
   "duel_won": [
-   33,
-   51
+   37,
+   54
   ],
   "ground_duels_won": [
    {
-    "n": 25,
-    "pct": 38
+    "n": 28,
+    "pct": 40
    },
    {
-    "n": 41,
-    "pct": 63
+    "n": 42,
+    "pct": 61
    }
   ],
   "aerials_won": [
    {
-    "n": 8,
-    "pct": 44
+    "n": 9,
+    "pct": 43
    },
    {
-    "n": 10,
-    "pct": 56
+    "n": 12,
+    "pct": 57
    }
   ],
   "dribbles_succeeded": [
    {
-    "n": 6,
-    "pct": 32
+    "n": 7,
+    "pct": 35
    },
    {
-    "n": 6,
-    "pct": 55
+    "n": 7,
+    "pct": 58
    }
   ],
   "red_cards": [
@@ -290,7 +310,7 @@
   ],
   "fouls": [
    11,
-   8
+   9
   ]
  },
  "momentum": [
@@ -612,43 +632,43 @@
   ],
   [
    78,
-   null
+   0
   ],
   [
    79,
-   null
+   41
   ],
   [
    80,
-   null
+   46
   ],
   [
    81,
-   null
+   41
   ],
   [
    82,
-   null
+   5
   ],
   [
    83,
-   null
+   16
   ],
   [
    84,
-   null
+   16
   ],
   [
    85,
-   null
+   16
   ],
   [
    86,
-   null
+   -33
   ],
   [
    87,
-   null
+   -33
   ],
   [
    88,
@@ -888,17 +908,43 @@
    "type": "RightFoot",
    "result": "goal",
    "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Felix Keidel",
+   "min": 79,
+   "x": 89.3,
+   "y": 34.38125,
+   "xg": 0.0468718446791172,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SCF",
+   "player": "Maximilian Eggestein",
+   "min": 86,
+   "x": 95.4473684198,
+   "y": 31.865,
+   "xg": 0.17835521697998047,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 33,
+   "left": 35,
    "center": 28,
-   "right": 39
+   "right": 37
   },
   "away": {
-   "left": 44,
-   "center": 29,
+   "left": 45,
+   "center": 28,
    "right": 27
   }
  },
@@ -912,7 +958,7 @@
      "id": 1285926,
      "name": "Nicolas Kristof",
      "pos_id": 11,
-     "rating": 5.5,
+     "rating": 5.6,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -921,7 +967,7 @@
      "id": 458602,
      "name": "Jan Gyamerah",
      "pos_id": 32,
-     "rating": 6.8,
+     "rating": 6.9,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -939,7 +985,7 @@
      "id": 1077911,
      "name": "Maximilian Rohr",
      "pos_id": 36,
-     "rating": 6.8,
+     "rating": 6.9,
      "captain": false,
      "x": 0.625,
      "y": 0.292
@@ -948,7 +994,7 @@
      "id": 1245692,
      "name": "Lasse Günther",
      "pos_id": 38,
-     "rating": 6.2,
+     "rating": 6.5,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -957,7 +1003,7 @@
      "id": 1366338,
      "name": "Felix Keidel",
      "pos_id": 64,
-     "rating": 6.3,
+     "rating": 6.4,
      "captain": false,
      "x": 0.3,
      "y": 0.485
@@ -966,7 +1012,7 @@
      "id": 962113,
      "name": "Łukasz Poręba",
      "pos_id": 66,
-     "rating": 6,
+     "rating": 5.9,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -975,7 +1021,7 @@
      "id": 1093782,
      "name": "Lukas Petkov",
      "pos_id": 83,
-     "rating": 6.5,
+     "rating": 6.7,
      "captain": false,
      "x": 0.162,
      "y": 0.678
@@ -1027,7 +1073,7 @@
      "id": 1281090,
      "name": "Philipp Treu",
      "pos_id": 32,
-     "rating": 7.6,
+     "rating": 7.7,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -1036,7 +1082,7 @@
      "id": 303912,
      "name": "Matthias Ginter",
      "pos_id": 34,
-     "rating": 7.6,
+     "rating": 7.7,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -1054,7 +1100,7 @@
      "id": 1281108,
      "name": "Jordy Makengo",
      "pos_id": 38,
-     "rating": 7.1,
+     "rating": 7,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -1063,7 +1109,7 @@
      "id": 602523,
      "name": "Maximilian Eggestein",
      "pos_id": 64,
-     "rating": 7.3,
+     "rating": 7.4,
      "captain": true,
      "x": 0.3,
      "y": 0.485
@@ -1072,7 +1118,7 @@
      "id": 1269497,
      "name": "Yannik Engelhardt",
      "pos_id": 66,
-     "rating": 6.7,
+     "rating": 6.8,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -1099,7 +1145,7 @@
      "id": 1302666,
      "name": "Derry Scherhant",
      "pos_id": 87,
-     "rating": 7,
+     "rating": 7.1,
      "captain": false,
      "x": 0.837,
      "y": 0.678
@@ -1108,7 +1154,7 @@
      "id": 1210893,
      "name": "Igor Matanović",
      "pos_id": 115,
-     "rating": 7.9,
+     "rating": 8,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -1122,20 +1168,20 @@
    "team": "SCF",
    "name": "Matthias Ginter",
    "keeper": false,
-   "rating": 7.61,
+   "rating": 7.74,
    "goals": 0,
    "assists": 0,
    "xg": 0.03,
    "shots": 1,
    "key_passes": 0,
-   "touches": 60,
+   "touches": 62,
    "touches_box": 1,
    "final_third_passes": 4,
    "tackles": 5,
    "interceptions": 0,
    "recoveries": 3,
-   "duels_won": 6,
-   "duels_lost": 2
+   "duels_won": 7,
+   "duels_lost": 3
   },
   {
    "id": 307209,
@@ -1153,14 +1199,24 @@
    "id": 400625,
    "team": "SCF",
    "name": "Vincenzo Grifo",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1
   },
   {
    "id": 458602,
    "team": "SVE",
    "name": "Jan Gyamerah",
    "keeper": false,
-   "rating": 6.84,
+   "rating": 6.86,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1180,7 +1236,7 @@
    "team": "SCF",
    "name": "Lucas Höler",
    "keeper": false,
-   "rating": 7.59,
+   "rating": 7.58,
    "goals": 0,
    "assists": 0,
    "xg": 0.2,
@@ -1208,17 +1264,19 @@
    "team": "SCF",
    "name": "Maximilian Eggestein",
    "keeper": false,
-   "rating": 7.31,
+   "rating": 7.36,
    "goals": 0,
    "assists": 0,
+   "xg": 0.18,
    "xa": 0.03,
+   "shots": 1,
    "key_passes": 0,
-   "touches": 36,
-   "touches_box": 1,
+   "touches": 39,
+   "touches_box": 2,
    "final_third_passes": 2,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 4,
+   "recoveries": 5,
    "duels_won": 2,
    "duels_lost": 1
   },
@@ -1232,13 +1290,13 @@
    "assists": 0,
    "xa": 0.06,
    "key_passes": 0,
-   "touches": 69,
+   "touches": 72,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 6,
    "tackles": 0,
    "interceptions": 2,
-   "recoveries": 4,
+   "recoveries": 5,
    "duels_won": 2,
    "duels_lost": 3
   },
@@ -1265,7 +1323,7 @@
    "team": "SCF",
    "name": "Jan-Niklas Beste",
    "keeper": false,
-   "rating": 8.24,
+   "rating": 8.23,
    "goals": 0,
    "assists": 1,
    "xg": 0.02,
@@ -1287,11 +1345,11 @@
    "team": "SVE",
    "name": "Tom Zimmerschied",
    "keeper": false,
-   "rating": 6,
+   "rating": 6.01,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 1,
+   "touches": 3,
    "touches_box": 1,
    "tackles": 0,
    "interceptions": 0,
@@ -1302,14 +1360,14 @@
    "team": "SVE",
    "name": "Łukasz Poręba",
    "keeper": false,
-   "rating": 6,
+   "rating": 5.94,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
    "xa": 0.02,
    "shots": 1,
    "key_passes": 1,
-   "touches": 37,
+   "touches": 41,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 3,
@@ -1330,14 +1388,14 @@
    "team": "SVE",
    "name": "Maximilian Rohr",
    "keeper": false,
-   "rating": 6.8,
+   "rating": 6.93,
    "goals": 0,
    "assists": 0,
    "xg": 0.06,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 86,
+   "touches": 104,
    "touches_box": 2,
    "final_third_passes": 6,
    "tackles": 2,
@@ -1351,20 +1409,20 @@
    "team": "SVE",
    "name": "Lukas Petkov",
    "keeper": false,
-   "rating": 6.54,
+   "rating": 6.73,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
-   "xa": 0.25,
+   "xa": 0.26,
    "shots": 1,
    "key_passes": 1,
-   "touches": 54,
+   "touches": 58,
    "touches_box": 3,
    "dribbles": 1,
    "final_third_passes": 4,
    "tackles": 1,
    "interceptions": 1,
-   "recoveries": 6,
+   "recoveries": 7,
    "duels_won": 6,
    "duels_lost": 6
   },
@@ -1373,28 +1431,32 @@
    "team": "SVE",
    "name": "Luca Sirch",
    "keeper": false,
-   "rating": 6.37,
+   "rating": 6.38,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 15,
+   "touches": 29,
    "touches_box": 0,
-   "tackles": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
    "interceptions": 0,
-   "recoveries": 2,
-   "duels_won": 1
+   "recoveries": 3,
+   "duels_won": 2,
+   "duels_lost": 1
   },
   {
    "id": 1134467,
    "team": "SCF",
    "name": "Yuito Suzuki",
    "keeper": false,
-   "rating": 6.1,
+   "rating": 6.2,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 1,
+   "touches": 4,
    "touches_box": 0,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1
@@ -1404,12 +1466,13 @@
    "team": "SVE",
    "name": "Noel Futkeu",
    "keeper": false,
-   "rating": 5.98,
+   "rating": 5.97,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 1,
+   "touches": 5,
    "touches_box": 0,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0
@@ -1419,51 +1482,52 @@
    "team": "SCF",
    "name": "Igor Matanović",
    "keeper": false,
-   "rating": 7.89,
+   "rating": 7.97,
    "goals": 1,
    "assists": 0,
    "xg": 0.32,
    "shots": 4,
    "key_passes": 0,
-   "touches": 50,
+   "touches": 53,
    "touches_box": 3,
-   "dribbles": 2,
+   "dribbles": 3,
    "final_third_passes": 3,
    "tackles": 5,
    "interceptions": 0,
-   "recoveries": 4,
-   "duels_won": 13,
-   "duels_lost": 6
+   "recoveries": 5,
+   "duels_won": 14,
+   "duels_lost": 7
   },
   {
    "id": 1245692,
    "team": "SVE",
    "name": "Lasse Günther",
    "keeper": false,
-   "rating": 6.2,
+   "rating": 6.46,
    "goals": 0,
    "assists": 0,
-   "xa": 0.01,
-   "key_passes": 0,
-   "touches": 41,
+   "xa": 0.04,
+   "key_passes": 1,
+   "touches": 53,
    "touches_box": 1,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 5,
-   "duels_lost": 2
+   "recoveries": 6,
+   "duels_won": 1,
+   "duels_lost": 3
   },
   {
    "id": 1269497,
    "team": "SCF",
    "name": "Yannik Engelhardt",
    "keeper": false,
-   "rating": 6.66,
+   "rating": 6.82,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 43,
+   "touches": 44,
    "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 1,
@@ -1477,33 +1541,33 @@
    "team": "SVE",
    "name": "Lukas Pinckert",
    "keeper": false,
-   "rating": 6.46,
+   "rating": 6.51,
    "goals": 0,
    "assists": 0,
    "xg": 0.15,
    "xa": 0.01,
    "shots": 2,
    "key_passes": 0,
-   "touches": 75,
-   "touches_box": 2,
+   "touches": 92,
+   "touches_box": 3,
    "final_third_passes": 8,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 6,
    "duels_won": 2,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1281090,
    "team": "SCF",
    "name": "Philipp Treu",
    "keeper": false,
-   "rating": 7.64,
+   "rating": 7.73,
    "goals": 0,
    "assists": 0,
    "xa": 0.08,
    "key_passes": 2,
-   "touches": 46,
+   "touches": 49,
    "touches_box": 1,
    "tackles": 3,
    "interceptions": 1,
@@ -1522,14 +1586,14 @@
    "team": "SCF",
    "name": "Jordy Makengo",
    "keeper": false,
-   "rating": 7.1,
+   "rating": 7.03,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
-   "xa": 0.01,
+   "xa": 0.16,
    "shots": 1,
-   "key_passes": 0,
-   "touches": 50,
+   "key_passes": 1,
+   "touches": 53,
    "touches_box": 1,
    "dribbles": 2,
    "final_third_passes": 4,
@@ -1537,7 +1601,7 @@
    "interceptions": 0,
    "recoveries": 2,
    "duels_won": 4,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1281256,
@@ -1550,9 +1614,9 @@
    "team": "SVE",
    "name": "Nicolas Kristof",
    "keeper": true,
-   "rating": 5.54,
-   "recoveries": 8,
-   "touches": 50,
+   "rating": 5.61,
+   "recoveries": 9,
+   "touches": 62,
    "tackles": 0,
    "final_third_passes": 2,
    "interceptions": 0
@@ -1562,7 +1626,7 @@
    "team": "SVE",
    "name": "Cole Campbell",
    "keeper": false,
-   "rating": 6.46,
+   "rating": 6.47,
    "goals": 0,
    "assists": 0,
    "xa": 0.21,
@@ -1581,17 +1645,18 @@
    "team": "SCF",
    "name": "Derry Scherhant",
    "keeper": false,
-   "rating": 6.99,
+   "rating": 7.08,
    "goals": 0,
    "assists": 0,
    "xa": 0.11,
    "key_passes": 2,
-   "touches": 26,
+   "touches": 28,
    "touches_box": 3,
    "dribbles": 0,
+   "final_third_passes": 1,
    "tackles": 2,
    "interceptions": 0,
-   "recoveries": 2,
+   "recoveries": 3,
    "duels_won": 4,
    "duels_lost": 6
   },
@@ -1600,7 +1665,7 @@
    "team": "SCF",
    "name": "Mio Backhaus",
    "keeper": true,
-   "rating": 7.05,
+   "rating": 7.13,
    "recoveries": 8,
    "touches": 42,
    "duels_won": 1,
@@ -1613,13 +1678,15 @@
    "team": "SVE",
    "name": "Felix Keidel",
    "keeper": false,
-   "rating": 6.34,
+   "rating": 6.38,
    "goals": 0,
    "assists": 0,
+   "xg": 0.05,
    "xa": 0.15,
+   "shots": 1,
    "key_passes": 2,
-   "touches": 43,
-   "touches_box": 1,
+   "touches": 47,
+   "touches_box": 2,
    "dribbles": 0,
    "final_third_passes": 2,
    "tackles": 1,
@@ -1633,16 +1700,17 @@
    "team": "SVE",
    "name": "Maurice Krattenmacher",
    "keeper": false,
-   "rating": 6.04,
+   "rating": 6.36,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 5,
+   "touches": 12,
    "touches_box": 0,
+   "dribbles": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 1
+   "duels_won": 3
   },
   {
    "id": 1436730,
@@ -1655,7 +1723,7 @@
    "team": "SVE",
    "name": "David Mokwa",
    "keeper": false,
-   "rating": 6.08,
+   "rating": 6.09,
    "goals": 0,
    "assists": 0,
    "xg": 0.25,
@@ -1675,22 +1743,25 @@
    "team": "SCF",
    "name": "Cyriaque Irié",
    "keeper": false,
-   "rating": 6.01,
+   "rating": 6.03,
    "goals": 0,
    "assists": 0,
+   "xa": 0.02,
    "key_passes": 0,
-   "touches": 2,
+   "touches": 3,
    "touches_box": 0,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 1603681,
    "team": "SVE",
    "name": "Francis Onyeka",
    "keeper": false,
-   "rating": 6.39,
+   "rating": 6.41,
    "goals": 0,
    "assists": 0,
    "xg": 0.41,
