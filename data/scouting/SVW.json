@@ -42,9 +42,9 @@
    0
   ],
   "probs": [
-   0.6919,
-   0.1857,
-   0.1224
+   0.6873,
+   0.1893,
+   0.1235
   ]
  },
  "strengths": [
@@ -54,6 +54,13 @@
    "value": 21.0,
    "fmt": "dec1",
    "rank": 2
+  },
+  {
+   "key": "long_ball_accuracy",
+   "label": "Lange Bälle angekommen",
+   "value": 0.5134,
+   "fmt": "pct",
+   "rank": 3
   },
   {
    "key": "big_chances_against_pg",
@@ -96,6 +103,19 @@
   },
   {
    "key": "strength",
+   "text": "Stark: Lange Bälle angekommen (Platz 3)",
+   "evidence": [
+    {
+     "key": "long_ball_accuracy",
+     "label": "Lange Bälle angekommen",
+     "value": 0.5134,
+     "fmt": "pct",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "strength",
    "text": "Stark: Zugelassene Großchancen pro Spiel (Platz 3)",
    "evidence": [
     {
@@ -103,19 +123,6 @@
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 2.1111,
      "fmt": "dec1",
-     "rank": 3
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Zweikampfquote (Platz 3)",
-   "evidence": [
-    {
-     "key": "duel_rate",
-     "label": "Zweikampfquote",
-     "value": 0.5228,
-     "fmt": "pct",
      "rank": 3
     }
    ]
@@ -149,14 +156,14 @@
     "label": "Lange Bälle angekommen",
     "value": 0.5134,
     "fmt": "pct",
-    "rank": 4
+    "rank": 3
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2335,
     "fmt": "pct",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "field_tilt",
@@ -294,7 +301,7 @@
     "label": "Gegentore pro Spiel",
     "value": 1.6667,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 9
    },
    {
     "key": "xga_pg",

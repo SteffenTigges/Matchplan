@@ -1,7 +1,7 @@
 {
  "team": "S04",
  "matches": 10,
- "fotmob_matches": 9,
+ "fotmob_matches": 10,
  "idea": {
   "formations": [
    {
@@ -9,11 +9,11 @@
     "games": 5
    },
    {
-    "formation": "4-2-3-1",
-    "games": 1
+    "formation": "4-3-2-1",
+    "games": 2
    },
    {
-    "formation": "4-3-2-1",
+    "formation": "4-2-3-1",
     "games": 1
    },
    {
@@ -32,7 +32,7 @@
      {
       "key": "possession",
       "label": "Ballbesitz Ø",
-      "value": 0.41,
+      "value": 0.412,
       "fmt": "pct",
       "rank": 17
      }
@@ -72,58 +72,58 @@
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
-   "value": 21.3333,
+   "value": 21.4,
    "fmt": "dec1",
    "rank": 1
   },
   {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": -7.84,
+   "value": -10.23,
    "fmt": "signed1",
    "rank": 1
   },
   {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.7374,
-   "fmt": "pct",
+   "key": "interceptions_pg",
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.4,
+   "fmt": "dec1",
    "rank": 2
   },
   {
-   "key": "interceptions_pg",
-   "label": "Abgefangene Bälle pro Spiel",
-   "value": 12.4444,
-   "fmt": "dec1",
-   "rank": 2
+   "key": "inside_box_share",
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.725,
+   "fmt": "pct",
+   "rank": 3
   }
  ],
  "weaknesses": [
   {
    "key": "goals_pg",
    "label": "Tore pro Spiel",
-   "value": 0.5556,
+   "value": 0.5,
    "fmt": "dec2",
    "rank": 18
   },
   {
    "key": "pass_accuracy",
    "label": "Passquote",
-   "value": 0.7181,
+   "value": 0.728,
    "fmt": "pct",
    "rank": 18
   },
   {
    "key": "long_ball_accuracy",
    "label": "Lange Bälle angekommen",
-   "value": 0.3403,
+   "value": 0.3412,
    "fmt": "pct",
    "rank": 18
   },
   {
    "key": "big_chances_against_pg",
    "label": "Zugelassene Großchancen pro Spiel",
-   "value": 4.6667,
+   "value": 4.6,
    "fmt": "dec1",
    "rank": 18
   }
@@ -152,7 +152,7 @@
     {
      "key": "big_chances_against_pg",
      "label": "Zugelassene Großchancen pro Spiel",
-     "value": 4.6667,
+     "value": 4.6,
      "fmt": "dec1",
      "rank": 18
     }
@@ -165,7 +165,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4715,
+     "value": 0.4733,
      "fmt": "pct",
      "rank": 14
     }
@@ -177,7 +177,7 @@
    "evidence": [
     {
      "label": "Angriffe der Gegner über links",
-     "value": 0.409,
+     "value": 0.41100000000000003,
      "fmt": "pct"
     }
    ]
@@ -207,7 +207,7 @@
     {
      "key": "big_chances_against_pg",
      "label": "Zugelassene Großchancen pro Spiel",
-     "value": 4.6667,
+     "value": 4.6,
      "fmt": "dec1",
      "rank": 18
     }
@@ -220,7 +220,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4715,
+     "value": 0.4733,
      "fmt": "pct",
      "rank": 14
     }
@@ -232,70 +232,70 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.41,
+    "value": 0.412,
     "fmt": "pct",
     "rank": 17
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.7181,
+    "value": 0.728,
     "fmt": "pct",
     "rank": 18
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3463,
+    "value": 0.3535,
     "fmt": "pct",
-    "rank": 14
+    "rank": 13
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.3403,
+    "value": 0.3412,
     "fmt": "pct",
     "rank": 18
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2714,
+    "value": 0.2521,
     "fmt": "pct",
-    "rank": 4
+    "rank": 9
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.4066,
+    "value": 0.434,
     "fmt": "pct",
     "rank": 15
    }
   ],
   "zones": {
-   "left": 36.9,
-   "center": 29.2,
-   "right": 33.9
+   "left": 36.6,
+   "center": 29.3,
+   "right": 34.1
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 2,
-    "xg": 4.18,
-    "shots": 48,
+    "xg": 5.03,
+    "shots": 60,
     "share": 0.4
    },
    "Konter": {
     "goals": 1,
-    "xg": 2.65,
-    "shots": 16,
+    "xg": 3.36,
+    "shots": 22,
     "share": 0.2
    },
    "Standard": {
     "goals": 2,
-    "xg": 3.76,
-    "shots": 35,
+    "xg": 3.89,
+    "shots": 38,
     "share": 0.4
    },
    "Elfmeter": {
@@ -314,40 +314,40 @@
    2
   ],
   "goals": 5,
-  "inside_box": 0.737,
+  "inside_box": 0.725,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 0.5556,
+    "value": 0.5,
     "fmt": "dec2",
     "rank": 18
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.1433,
+    "value": 1.198,
     "fmt": "dec2",
-    "rank": 16
+    "rank": 15
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 1.8889,
+    "value": 1.8,
     "fmt": "dec1",
     "rank": 17
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1039,
+    "value": 0.0998,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -5.29,
+    "value": -6.98,
     "fmt": "signed1",
     "rank": 18
    }
@@ -357,14 +357,14 @@
   "situations": {
    "Spielaufbau": {
     "goals": 8,
-    "xg": 10.13,
-    "shots": 84,
+    "xg": 12.21,
+    "shots": 98,
     "share": 0.727
    },
    "Konter": {
     "goals": 1,
-    "xg": 4.4,
-    "shots": 15,
+    "xg": 4.71,
+    "shots": 16,
     "share": 0.091
    },
    "Standard": {
@@ -390,45 +390,45 @@
   ],
   "goals": 11,
   "opp_zones": {
-   "left": 40.9,
-   "center": 24.7,
-   "right": 34.4
+   "left": 41.1,
+   "center": 24.3,
+   "right": 34.6
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 1.2222,
+    "value": 1.1,
     "fmt": "dec2",
     "rank": 4
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 2.0933,
+    "value": 2.123,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 15.2222,
+    "value": 15.2,
     "fmt": "dec1",
-    "rank": 9
+    "rank": 8
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 4.6667,
+    "value": 4.6,
     "fmt": "dec1",
     "rank": 18
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
-    "value": 3,
+    "value": 4,
     "fmt": "int",
-    "rank": 4
+    "rank": 3
    }
   ]
  },
@@ -437,43 +437,88 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.3911,
+    "value": 0.365,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 12
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.4267,
+    "value": 0.384,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 8
    },
    {
     "key": "corners_pg",
     "label": "Ecken pro Spiel",
-    "value": 3.3333,
+    "value": 3.4,
     "fmt": "dec1",
     "rank": 17
    }
   ],
   "goals_for": 2,
   "goals_against": 1,
-  "corners_against": 6.33
+  "corners_against": 6.2
  },
  "key_players": [
+  {
+   "id": 882163,
+   "name": "Chukwubuike Adamu",
+   "pos": "ST",
+   "minutes": 478,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.38,
+   "xg90": 0.59,
+   "xa90": 0.12,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
   {
    "id": 1047664,
    "name": "Adil Aouchiche",
    "pos": "LW",
-   "minutes": 681,
+   "minutes": 767,
    "goals": 1,
    "assists": 0,
-   "rating": 7.07,
-   "xg90": 0.23,
-   "xa90": 0.34,
+   "rating": 7.14,
+   "xg90": 0.27,
+   "xa90": 0.32,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Abgefangene Bälle (94. Perzentil)"
+   ]
+  },
+  {
+   "id": 469763,
+   "name": "Kenan Karaman",
+   "pos": "AM",
+   "minutes": 622,
+   "goals": 1,
+   "assists": 0,
+   "rating": 6.92,
+   "xg90": 0.17,
+   "xa90": 0.08,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1249185,
+   "name": "Soufian El-Faouzi",
+   "pos": "DM",
+   "minutes": 763,
+   "goals": 0,
+   "assists": 0,
+   "rating": 6.92,
+   "xg90": 0.05,
+   "xa90": 0.16,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
    ]
   },
   {
@@ -490,71 +535,26 @@
     "Gelbe Karten (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
    ]
-  },
-  {
-   "id": 1249185,
-   "name": "Soufian El-Faouzi",
-   "pos": "DM",
-   "minutes": 673,
-   "goals": 0,
-   "assists": 0,
-   "rating": 6.8,
-   "xg90": 0.06,
-   "xa90": 0.12,
-   "why": [
-    "Gelbe Karten (100. Perzentil)",
-    "Rote Karten (100. Perzentil)"
-   ]
-  },
-  {
-   "id": 469763,
-   "name": "Kenan Karaman",
-   "pos": "AM",
-   "minutes": 536,
-   "goals": 1,
-   "assists": 0,
-   "rating": 7.0,
-   "xg90": 0.09,
-   "xa90": 0.08,
-   "why": [
-    "Gelbe Karten (100. Perzentil)",
-    "Rote Karten (100. Perzentil)"
-   ]
-  },
-  {
-   "id": 725655,
-   "name": "Nikola Katić",
-   "pos": "CB",
-   "minutes": 777,
-   "goals": 0,
-   "assists": 0,
-   "rating": 7.17,
-   "xg90": 0.04,
-   "xa90": 0.03,
-   "why": [
-    "Rote Karten (100. Perzentil)",
-    "Luftzweikämpfe gewonnen (97. Perzentil)"
-   ]
   }
  ],
  "lines": {
   "Abwehr": {
    "id": 794619,
    "name": "Hasan Kuruçay",
-   "rating": 7.28,
-   "minutes": 766
+   "rating": 7.3,
+   "minutes": 856
   },
   "Angriff": {
    "id": 1047664,
    "name": "Adil Aouchiche",
-   "rating": 7.07,
-   "minutes": 681
+   "rating": 7.14,
+   "minutes": 767
   },
   "Mittelfeld": {
-   "id": 469763,
-   "name": "Kenan Karaman",
-   "rating": 7.0,
-   "minutes": 536
+   "id": 1249185,
+   "name": "Soufian El-Faouzi",
+   "rating": 6.92,
+   "minutes": 763
   }
  },
  "load": [
@@ -571,22 +571,22 @@
    "full": true
   },
   {
+   "id": 469763,
+   "name": "Kenan Karaman",
+   "minutes": 266,
+   "full": true
+  },
+  {
    "id": 1047664,
    "name": "Adil Aouchiche",
-   "minutes": 270,
+   "minutes": 266,
    "full": true
   },
   {
    "id": 620026,
    "name": "Hwang Hee-Chan",
-   "minutes": 263,
-   "full": true
-  },
-  {
-   "id": 1155066,
-   "name": "Satoshi Tanaka",
-   "minutes": 250,
-   "full": true
+   "minutes": 239,
+   "full": false
   },
   {
    "id": 287894,
@@ -595,39 +595,39 @@
    "full": false
   },
   {
-   "id": 469763,
-   "name": "Kenan Karaman",
-   "minutes": 180,
-   "full": false
-  },
-  {
    "id": 1659420,
    "name": "Vitalie Becker",
-   "minutes": 176,
+   "minutes": 219,
    "full": false
   },
   {
-   "id": 785739,
-   "name": "Timo Becker",
-   "minutes": 173,
-   "full": false
-  },
-  {
-   "id": 882163,
-   "name": "Chukwubuike Adamu",
-   "minutes": 167,
-   "full": false
-  },
-  {
-   "id": 1755657,
-   "name": "Mertcan Ayhan",
-   "minutes": 138,
+   "id": 861668,
+   "name": "Dejan Ljubičić",
+   "minutes": 199,
    "full": false
   },
   {
    "id": 1249185,
    "name": "Soufian El-Faouzi",
-   "minutes": 133,
+   "minutes": 180,
+   "full": false
+  },
+  {
+   "id": 1155066,
+   "name": "Satoshi Tanaka",
+   "minutes": 164,
+   "full": false
+  },
+  {
+   "id": 882163,
+   "name": "Chukwubuike Adamu",
+   "minutes": 158,
+   "full": false
+  },
+  {
+   "id": 1755657,
+   "name": "Mertcan Ayhan",
+   "minutes": 147,
    "full": false
   },
   {
@@ -637,9 +637,9 @@
    "full": false
   },
   {
-   "id": 861668,
-   "name": "Dejan Ljubičić",
-   "minutes": 109,
+   "id": 785739,
+   "name": "Timo Becker",
+   "minutes": 83,
    "full": false
   }
  ],

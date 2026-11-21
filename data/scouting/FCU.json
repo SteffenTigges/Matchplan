@@ -85,7 +85,7 @@
   {
    "key": "big_chances_pg",
    "label": "Großchancen pro Spiel",
-   "value": 1.2,
+   "value": 1.3,
    "fmt": "dec1",
    "rank": 18
   },
@@ -118,7 +118,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4601,
+     "value": 0.4588,
      "fmt": "pct",
      "rank": 16
     }
@@ -146,7 +146,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4601,
+     "value": 0.4588,
      "fmt": "pct",
      "rank": 16
     }
@@ -165,21 +165,21 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.7414,
+    "value": 0.7415,
     "fmt": "pct",
     "rank": 17
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3246,
+    "value": 0.3251,
     "fmt": "pct",
     "rank": 16
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.3707,
+    "value": 0.3697,
     "fmt": "pct",
     "rank": 16
    },
@@ -188,19 +188,19 @@
     "label": "Flankenquote",
     "value": 0.2627,
     "fmt": "pct",
-    "rank": 7
+    "rank": 6
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.3026,
+    "value": 0.3021,
     "fmt": "pct",
     "rank": 18
    }
   ],
   "zones": {
-   "left": 42.6,
-   "center": 22.5,
+   "left": 42.5,
+   "center": 22.6,
    "right": 34.9
   }
  },
@@ -259,7 +259,7 @@
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 1.2,
+    "value": 1.3,
     "fmt": "dec1",
     "rank": 18
    },
@@ -354,7 +354,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 2,
     "fmt": "int",
-    "rank": 8
+    "rank": 9
    }
   ]
  },
@@ -365,7 +365,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.486,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "xga_setplay_pg",

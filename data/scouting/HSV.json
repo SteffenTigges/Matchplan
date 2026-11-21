@@ -54,9 +54,9 @@
    0
   ],
   "probs": [
-   0.6919,
-   0.1857,
-   0.1224
+   0.6873,
+   0.1893,
+   0.1235
   ]
  },
  "strengths": [
@@ -118,6 +118,19 @@
      "rank": 17
     }
    ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.4733,
+     "fmt": "dec2",
+     "rank": 13
+    }
+   ]
   }
  ],
  "findings": [
@@ -135,6 +148,19 @@
    ]
   },
   {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.4733,
+     "fmt": "dec2",
+     "rank": 13
+    }
+   ]
+  },
+  {
    "key": "strength",
    "text": "Stark: Tacklings pro Spiel (Platz 3)",
    "evidence": [
@@ -143,19 +169,6 @@
      "label": "Tacklings pro Spiel",
      "value": 18.0,
      "fmt": "dec1",
-     "rank": 3
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Punkte minus xPunkte (Platz 3)",
-   "evidence": [
-    {
-     "key": "points_minus_xpoints",
-     "label": "Punkte minus xPunkte",
-     "value": 3.6853,
-     "fmt": "signed1",
      "rank": 3
     }
    ]
@@ -262,7 +275,7 @@
     "label": "xG pro Spiel",
     "value": 1.1467,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 16
    },
    {
     "key": "big_chances_pg",
@@ -355,7 +368,7 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.8889,
     "fmt": "dec1",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "clean_sheets",
@@ -373,14 +386,14 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.3678,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 11
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.4733,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 13
    },
    {
     "key": "corners_pg",

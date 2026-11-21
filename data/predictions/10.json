@@ -1,7 +1,7 @@
 {
  "matchday": 10,
  "season": 2026,
- "updated_at": "2026-11-21T19:25:49+00:00",
+ "updated_at": "2026-11-21T22:10:53+00:00",
  "matches": {
   "83237": {
    "home": "FCB",
@@ -3854,82 +3854,86 @@
       }
      ]
     }
+   },
+   "lineup_hits": {
+    "home": 9,
+    "away": 9
    }
   },
   "83240": {
    "home": "FCA",
    "away": "M05",
    "kickoff": "2026-11-22T14:30:00Z",
-   "made_at": "2026-11-21T19:25:49+00:00",
+   "made_at": "2026-11-21T22:10:53+00:00",
    "xg": [
-    2.24,
-    2.21
+    2.2,
+    2.17
    ],
    "probs": [
-    0.4037,
-    0.2034,
-    0.3929
+    0.4027,
+    0.206,
+    0.3914
    ],
    "tip": [
     2,
     1
    ],
-   "tip_prob": 0.0647,
+   "tip_prob": 0.0666,
    "matrix": [
     [
-     0.0157,
-     0.0217,
-     0.0285,
-     0.021,
-     0.0116,
+     0.017,
+     0.0234,
+     0.0299,
+     0.0216,
+     0.0117,
      0.0051
     ],
     [
-     0.0221,
-     0.0618,
-     0.0638,
-     0.0471,
-     0.026,
-     0.0115
+     0.0238,
+     0.0649,
+     0.0657,
+     0.0474,
+     0.0257,
+     0.0111
     ],
     [
-     0.0292,
-     0.0647,
-     0.0715,
-     0.0527,
-     0.0292,
-     0.0129
+     0.0307,
+     0.0666,
+     0.0721,
+     0.0521,
+     0.0282,
+     0.0122
     ],
     [
-     0.0218,
-     0.0483,
-     0.0534,
-     0.0394,
-     0.0218,
-     0.0096
+     0.0225,
+     0.0488,
+     0.0528,
+     0.0381,
+     0.0207,
+     0.0089
     ],
     [
-     0.0122,
-     0.0271,
-     0.0299,
-     0.0221,
-     0.0122,
-     0.0054
+     0.0124,
+     0.0268,
+     0.029,
+     0.0209,
+     0.0113,
+     0.0049
     ],
     [
-     0.0055,
-     0.0121,
-     0.0134,
-     0.0099,
-     0.0055,
-     0.0024
+     0.0054,
+     0.0118,
+     0.0127,
+     0.0092,
+     0.005,
+     0.0022
     ]
    ],
    "markets": {
-    "over25": 0.8211,
-    "btts": 0.7999,
-    "home_clean_sheet": 0.1095,
-    "away_clean_sheet": 0.1063
+    "over25": 0.8104,
+    "btts": 0.7912,
+    "home_clean_sheet": 0.1146,
+    "away_clean_sheet": 0.1112
    },
    "odds": {
     "home": 0.3538,
@@ -3945,8 +3949,8 @@
       "fm_id": 1310103,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/anton-kade-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.5166,
-      "p": 0.4034
+      "lam": 0.5063,
+      "p": 0.3973
      },
      {
       "name": "Gregoritsch",
@@ -3954,8 +3958,8 @@
       "fm_id": 198316,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/michael-gregoritsch-augsburg-2627.jpg",
       "minutes": 45,
-      "lam": 0.4,
-      "p": 0.3297
+      "lam": 0.3921,
+      "p": 0.3243
      },
      {
       "name": "Fellhauer",
@@ -3963,8 +3967,8 @@
       "fm_id": 1185609,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/robin-fellhauer-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.258,
-      "p": 0.2274
+      "lam": 0.2529,
+      "p": 0.2234
      },
      {
       "name": "Ribeiro",
@@ -3972,8 +3976,8 @@
       "fm_id": 1343749,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/rodrigo-ribeiro-augsburg-2627.jpg",
       "minutes": 35.0,
-      "lam": 0.2122,
-      "p": 0.1912
+      "lam": 0.208,
+      "p": 0.1878
      },
      {
       "name": "Claude-Maurice",
@@ -3981,8 +3985,8 @@
       "fm_id": 689065,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/alexis-claude-maurice-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.1546,
-      "p": 0.1432
+      "lam": 0.1515,
+      "p": 0.1406
      },
      {
       "name": "Rieder",
@@ -3990,8 +3994,8 @@
       "fm_id": 1161211,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/fabian-rieder-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.1478,
-      "p": 0.1374
+      "lam": 0.1448,
+      "p": 0.1348
      },
      {
       "name": "Wolf",
@@ -3999,8 +4003,8 @@
       "fm_id": 556029,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/marius-wolf-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.1201,
-      "p": 0.1132
+      "lam": 0.1177,
+      "p": 0.1111
      },
      {
       "name": "Keitel",
@@ -4008,8 +4012,8 @@
       "fm_id": 844431,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/yannik-keitel-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.058,
-      "p": 0.0563
+      "lam": 0.0568,
+      "p": 0.0552
      },
      {
       "name": "Bah",
@@ -4017,8 +4021,8 @@
       "fm_id": 1539619,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/juma-bah-fc-augsburg-26-27-getty.jpg",
       "minutes": 80,
-      "lam": 0.058,
-      "p": 0.0563
+      "lam": 0.0568,
+      "p": 0.0552
      },
      {
       "name": "Ibrahimović",
@@ -4026,8 +4030,8 @@
       "fm_id": 1327150,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/arijon-ibrahimovic-fc-augsburg-26-27-getty.jpg",
       "minutes": 11.6667,
-      "lam": 0.0489,
-      "p": 0.0477
+      "lam": 0.0479,
+      "p": 0.0468
      },
      {
       "name": "Schnitzer",
@@ -4035,8 +4039,8 @@
       "fm_id": 1875448,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/tim-schnitzer-augsburg-2627.jpg",
       "minutes": 11.6667,
-      "lam": 0.0085,
-      "p": 0.0084
+      "lam": 0.0083,
+      "p": 0.0083
      },
      {
       "name": "Suso",
@@ -4044,8 +4048,8 @@
       "fm_id": null,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/sima-suso-augsburg-2627.jpg",
       "minutes": 11.6667,
-      "lam": 0.0085,
-      "p": 0.0084
+      "lam": 0.0083,
+      "p": 0.0083
      },
      {
       "name": "Behrens",
@@ -4053,8 +4057,8 @@
       "fm_id": 1678681,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/hennes-behrens-augsburg-2627.jpg",
       "minutes": 80,
-      "lam": 0.0081,
-      "p": 0.008
+      "lam": 0.0079,
+      "p": 0.0079
      },
      {
       "name": "Gouweleeuw",
@@ -4082,8 +4086,8 @@
       "fm_id": 686315,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/phillip-tietz-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.5905,
-      "p": 0.446
+      "lam": 0.5783,
+      "p": 0.4391
      },
      {
       "name": "Becker",
@@ -4091,8 +4095,8 @@
       "fm_id": 495222,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/sheraldo-becker-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.3552,
-      "p": 0.2989
+      "lam": 0.3478,
+      "p": 0.2938
      },
      {
       "name": "Amiri",
@@ -4100,8 +4104,8 @@
       "fm_id": 614449,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/nadiem-amiri-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.2061,
-      "p": 0.1863
+      "lam": 0.2019,
+      "p": 0.1828
      },
      {
       "name": "Mwene",
@@ -4109,8 +4113,8 @@
       "fm_id": 423812,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/philipp-mwene-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.2041,
-      "p": 0.1846
+      "lam": 0.1998,
+      "p": 0.1811
      },
      {
       "name": "Caci",
@@ -4118,8 +4122,8 @@
       "fm_id": 771401,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/anthony-caci-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.1971,
-      "p": 0.1789
+      "lam": 0.193,
+      "p": 0.1755
      },
      {
       "name": "Potulski",
@@ -4127,8 +4131,8 @@
       "fm_id": 1800401,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/kacper-potulski-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.1129,
-      "p": 0.1067
+      "lam": 0.1105,
+      "p": 0.1046
      },
      {
       "name": "Nebel",
@@ -4136,8 +4140,8 @@
       "fm_id": 1175939,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/paul-nebel-mainz-2627.jpg",
       "minutes": 45,
-      "lam": 0.0858,
-      "p": 0.0822
+      "lam": 0.084,
+      "p": 0.0806
      },
      {
       "name": "Lee",
@@ -4145,8 +4149,8 @@
       "fm_id": null,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/jaesung-lee-mainz-2627.jpg",
       "minutes": 35.0,
-      "lam": 0.0668,
-      "p": 0.0646
+      "lam": 0.0654,
+      "p": 0.0633
      },
      {
       "name": "da Costa",
@@ -4154,8 +4158,8 @@
       "fm_id": 240537,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/danny-da-costa-mainz-2627.jpg",
       "minutes": 45,
-      "lam": 0.0501,
-      "p": 0.0489
+      "lam": 0.0491,
+      "p": 0.0479
      },
      {
       "name": "Kaishu",
@@ -4163,8 +4167,8 @@
       "fm_id": 1033111,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/kaishu-sano-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.0255,
-      "p": 0.0252
+      "lam": 0.025,
+      "p": 0.0247
      },
      {
       "name": "Posch",
@@ -4172,8 +4176,8 @@
       "fm_id": 557325,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/stefan-posch-mainz-2627.jpg",
       "minutes": 80,
-      "lam": 0.0117,
-      "p": 0.0117
+      "lam": 0.0115,
+      "p": 0.0114
      },
      {
       "name": "Gruber",
@@ -4181,8 +4185,8 @@
       "fm_id": 1362417,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/fabio-gruber-mainz-2627.jpg",
       "minutes": 35.0,
-      "lam": 0.0075,
-      "p": 0.0074
+      "lam": 0.0073,
+      "p": 0.0073
      },
      {
       "name": "Zentner",
@@ -4300,12 +4304,12 @@
    },
    "why": {
     "attack": [
-     1.15,
-     1.046
+     1.138,
+     1.036
     ],
     "defence": [
-     1.335,
-     0.986
+     1.321,
+     0.977
     ],
     "xgf": [
      2.13,
@@ -4392,76 +4396,76 @@
    "home": "SVW",
    "away": "HSV",
    "kickoff": "2026-11-22T16:30:00Z",
-   "made_at": "2026-11-21T19:25:49+00:00",
+   "made_at": "2026-11-21T22:10:53+00:00",
    "xg": [
-    2.38,
-    0.92
+    2.33,
+    0.9
    ],
    "probs": [
-    0.6919,
-    0.1857,
-    0.1224
+    0.6873,
+    0.1893,
+    0.1235
    ],
    "tip": [
     2,
     0
    ],
-   "tip_prob": 0.1047,
+   "tip_prob": 0.1072,
    "matrix": [
     [
-     0.0428,
-     0.0284,
-     0.0156,
+     0.0453,
+     0.0298,
+     0.0161,
      0.0048,
      0.0011,
      0.0002
     ],
     [
-     0.0825,
-     0.0866,
-     0.0371,
-     0.0114,
-     0.0026,
-     0.0005
-    ],
-    [
-     0.1047,
-     0.0961,
-     0.0441,
-     0.0135,
-     0.0031,
-     0.0006
-    ],
-    [
-     0.083,
-     0.0762,
-     0.035,
-     0.0107,
+     0.0862,
+     0.0888,
+     0.0374,
+     0.0112,
      0.0025,
      0.0005
     ],
     [
-     0.0493,
-     0.0453,
-     0.0208,
-     0.0064,
-     0.0015,
-     0.0003
+     0.1072,
+     0.0967,
+     0.0436,
+     0.0131,
+     0.003,
+     0.0005
     ],
     [
-     0.0234,
-     0.0215,
-     0.0099,
-     0.003,
-     0.0007,
+     0.0833,
+     0.0751,
+     0.0338,
+     0.0102,
+     0.0023,
+     0.0004
+    ],
+    [
+     0.0485,
+     0.0437,
+     0.0197,
+     0.0059,
+     0.0013,
+     0.0002
+    ],
+    [
+     0.0226,
+     0.0204,
+     0.0092,
+     0.0028,
+     0.0006,
      0.0001
     ]
    ],
    "markets": {
-    "over25": 0.6394,
-    "btts": 0.5505,
-    "home_clean_sheet": 0.3994,
-    "away_clean_sheet": 0.0929
+    "over25": 0.6266,
+    "btts": 0.5421,
+    "home_clean_sheet": 0.4059,
+    "away_clean_sheet": 0.0973
    },
    "odds": {
     "home": 0.5614,
@@ -4477,8 +4481,8 @@
       "fm_id": 276791,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/niclas-fuellkrug-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.8609,
-      "p": 0.5772
+      "lam": 0.844,
+      "p": 0.57
      },
      {
       "name": "Dinkçi",
@@ -4486,8 +4490,8 @@
       "fm_id": 1146376,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/eren-dinkci-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.3283,
-      "p": 0.2799
+      "lam": 0.3219,
+      "p": 0.2752
      },
      {
       "name": "Njinmah",
@@ -4495,8 +4499,8 @@
       "fm_id": 1137364,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/justin-njinmah-werder-2627.jpg",
       "minutes": 45,
-      "lam": 0.2536,
-      "p": 0.224
+      "lam": 0.2486,
+      "p": 0.2201
      },
      {
       "name": "Reis",
@@ -4504,8 +4508,8 @@
       "fm_id": 869326,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/ludovit-reis-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.1916,
-      "p": 0.1744
+      "lam": 0.1879,
+      "p": 0.1713
      },
      {
       "name": "Chuki",
@@ -4513,8 +4517,8 @@
       "fm_id": 1315344,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/chuki-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.1886,
-      "p": 0.1719
+      "lam": 0.1849,
+      "p": 0.1688
      },
      {
       "name": "Regeer",
@@ -4522,8 +4526,8 @@
       "fm_id": 1111980,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/youri-regeer-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.0975,
-      "p": 0.0929
+      "lam": 0.0956,
+      "p": 0.0911
      },
      {
       "name": "Lynen",
@@ -4531,8 +4535,8 @@
       "fm_id": 919742,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/senne-lynen-werder-2627.jpg",
       "minutes": 35.0,
-      "lam": 0.0717,
-      "p": 0.0692
+      "lam": 0.0703,
+      "p": 0.0679
      },
      {
       "name": "Friedl",
@@ -4540,8 +4544,8 @@
       "fm_id": 767789,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/marco-friedl-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.0383,
-      "p": 0.0376
+      "lam": 0.0376,
+      "p": 0.0369
      },
      {
       "name": "Deman",
@@ -4549,8 +4553,8 @@
       "fm_id": 969856,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/olivier-deman-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.0373,
-      "p": 0.0366
+      "lam": 0.0366,
+      "p": 0.0359
      },
      {
       "name": "Arthur",
@@ -4558,8 +4562,8 @@
       "fm_id": 1353457,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/arthur-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.0281,
-      "p": 0.0277
+      "lam": 0.0276,
+      "p": 0.0272
      },
      {
       "name": "Pieper",
@@ -4567,8 +4571,8 @@
       "fm_id": 765998,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/amos-pieper-werder-2627.jpg",
       "minutes": 80,
-      "lam": 0.0185,
-      "p": 0.0183
+      "lam": 0.0181,
+      "p": 0.0179
      },
      {
       "name": "Hein",
@@ -4587,8 +4591,8 @@
       "fm_id": 644459,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/patson-daka-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.3771,
-      "p": 0.3142
+      "lam": 0.3704,
+      "p": 0.3096
      },
      {
       "name": "Røssing-Lelesiit",
@@ -4596,8 +4600,8 @@
       "fm_id": null,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/Alexander-Roessing-Lelesiit-hsv-2627.jpg",
       "minutes": 45,
-      "lam": 0.0979,
-      "p": 0.0933
+      "lam": 0.0962,
+      "p": 0.0917
      },
      {
       "name": "Capaldo",
@@ -4605,8 +4609,8 @@
       "fm_id": 1018564,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/nicolas-capaldo-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0713,
-      "p": 0.0688
+      "lam": 0.07,
+      "p": 0.0676
      },
      {
       "name": "El Ouahdi",
@@ -4614,8 +4618,8 @@
       "fm_id": 1287871,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/zakaria-el-ouahdi-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0573,
-      "p": 0.0557
+      "lam": 0.0563,
+      "p": 0.0548
      },
      {
       "name": "Møller Wolfe",
@@ -4623,8 +4627,8 @@
       "fm_id": 1049679,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/david-moller-wolfe-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0557,
-      "p": 0.0542
+      "lam": 0.0548,
+      "p": 0.0533
      },
      {
       "name": "Muheim",
@@ -4632,8 +4636,8 @@
       "fm_id": 759817,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/miro-muheim-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0455,
-      "p": 0.0445
+      "lam": 0.0447,
+      "p": 0.0438
      },
      {
       "name": "Grønbæk",
@@ -4641,8 +4645,8 @@
       "fm_id": 1133381,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/albert-groenbaek-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0398,
-      "p": 0.039
+      "lam": 0.0391,
+      "p": 0.0383
      },
      {
       "name": "Moffi",
@@ -4650,8 +4654,8 @@
       "fm_id": 885005,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/terem-moffi-hsv-2627.jpg",
       "minutes": 8.75,
-      "lam": 0.023,
-      "p": 0.0227
+      "lam": 0.0226,
+      "p": 0.0223
      },
      {
       "name": "Stange",
@@ -4659,8 +4663,8 @@
       "fm_id": 1576487,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/otto-stange-hsv-2627.jpg",
       "minutes": 8.75,
-      "lam": 0.019,
-      "p": 0.0189
+      "lam": 0.0187,
+      "p": 0.0185
      },
      {
       "name": "Bornauw",
@@ -4668,8 +4672,8 @@
       "fm_id": 922892,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/sebastiaan-bornauw-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0165,
-      "p": 0.0163
+      "lam": 0.0162,
+      "p": 0.0161
      },
      {
       "name": "Omari",
@@ -4677,8 +4681,8 @@
       "fm_id": 1202595,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/warmed-omari-hsv-2627.jpg",
       "minutes": 80,
-      "lam": 0.0138,
-      "p": 0.0137
+      "lam": 0.0136,
+      "p": 0.0135
      },
      {
       "name": "Nandja",
@@ -4686,8 +4690,8 @@
       "fm_id": 1804634,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/shafiq-nandja-hsv-2627.jpg",
       "minutes": 8.75,
-      "lam": 0.009,
-      "p": 0.0089
+      "lam": 0.0088,
+      "p": 0.0088
      },
      {
       "name": "Amoako",
@@ -4695,8 +4699,8 @@
       "fm_id": 1587901,
       "photo": "https://cdn.ligainsider.de/images/player/team/minor/kofi-amoako-hsv-2627.jpg",
       "minutes": 8.75,
-      "lam": 0.0069,
-      "p": 0.0069
+      "lam": 0.0068,
+      "p": 0.0068
      },
      {
       "name": "Fernandes",
@@ -4823,12 +4827,12 @@
    },
    "why": {
     "attack": [
-     1.014,
-     0.784
+     1.004,
+     0.778
     ],
     "defence": [
-     0.891,
-     1.036
+     0.882,
+     1.025
     ],
     "xgf": [
      1.78,

@@ -48,9 +48,21 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.6014,
+      "value": 0.6021,
       "fmt": "pct",
       "rank": 3
+     }
+    ]
+   },
+   {
+    "text": "Spielt viel in der gegnerischen Hälfte",
+    "evidence": [
+     {
+      "key": "opp_half_share",
+      "label": "Anteil Pässe in der gegn. Hälfte",
+      "value": 0.4261,
+      "fmt": "pct",
+      "rank": 5
      }
     ]
    }
@@ -100,7 +112,7 @@
    "label": "Abgefangene Bälle pro Spiel",
    "value": 8.3,
    "fmt": "dec1",
-   "rank": 16
+   "rank": 17
   }
  ],
  "matchplan": [
@@ -191,9 +203,9 @@
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4259,
+    "value": 0.4261,
     "fmt": "pct",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "long_ball_accuracy",
@@ -207,12 +219,12 @@
     "label": "Flankenquote",
     "value": 0.2681,
     "fmt": "pct",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.6014,
+    "value": 0.6021,
     "fmt": "pct",
     "rank": 3
    }
@@ -280,7 +292,7 @@
     "label": "Großchancen pro Spiel",
     "value": 4.4,
     "fmt": "dec1",
-    "rank": 3
+    "rank": 2
    },
    {
     "key": "xg_per_shot",
@@ -294,7 +306,7 @@
     "label": "Tore minus xG",
     "value": 3.37,
     "fmt": "signed1",
-    "rank": 3
+    "rank": 2
    }
   ]
  },
@@ -335,8 +347,8 @@
   ],
   "goals": 14,
   "opp_zones": {
-   "left": 38.2,
-   "center": 26.9,
+   "left": 38.1,
+   "center": 27.0,
    "right": 34.9
   },
   "metrics": [
@@ -364,9 +376,9 @@
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.8,
+    "value": 2.9,
     "fmt": "dec1",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "clean_sheets",
@@ -458,7 +470,7 @@
    "minutes": 523,
    "goals": 1,
    "assists": 5,
-   "rating": 7.8,
+   "rating": 7.81,
    "xg90": 0.22,
    "xa90": 0.56,
    "why": [
@@ -498,7 +510,7 @@
   "Mittelfeld": {
    "id": 1274060,
    "name": "Neil El Aynaoui",
-   "rating": 7.37,
+   "rating": 7.39,
    "minutes": 743
   }
  },

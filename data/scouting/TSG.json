@@ -60,9 +60,9 @@
      {
       "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
-      "value": 0.43,
+      "value": 0.4302,
       "fmt": "pct",
-      "rank": 5
+      "rank": 4
      }
     ]
    },
@@ -123,13 +123,6 @@
    "value": 0.277,
    "fmt": "dec2",
    "rank": 18
-  },
-  {
-   "key": "goals_minus_xg",
-   "label": "Tore minus xG",
-   "value": -3.61,
-   "fmt": "signed1",
-   "rank": 16
   }
  ],
  "matchplan": [
@@ -187,7 +180,7 @@
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.474,
      "fmt": "dec2",
-     "rank": 13
+     "rank": 14
     }
    ]
   }
@@ -251,28 +244,28 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8047,
+    "value": 0.8049,
     "fmt": "pct",
     "rank": 10
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.43,
+    "value": 0.4302,
     "fmt": "pct",
-    "rank": 5
+    "rank": 4
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4591,
+    "value": 0.46,
     "fmt": "pct",
     "rank": 5
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2461,
+    "value": 0.2441,
     "fmt": "pct",
     "rank": 11
    },
@@ -333,7 +326,7 @@
     "label": "Tore pro Spiel",
     "value": 1.6,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "xg_pg",
@@ -345,9 +338,9 @@
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 3.5,
+    "value": 3.6,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 4
    },
    {
     "key": "xg_per_shot",
@@ -361,7 +354,7 @@
     "label": "Tore minus xG",
     "value": -3.61,
     "fmt": "signed1",
-    "rank": 16
+    "rank": 14
    }
   ]
  },
@@ -431,7 +424,7 @@
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.9,
+    "value": 3.0,
     "fmt": "dec1",
     "rank": 11
    },
@@ -458,7 +451,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.474,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 14
    },
    {
     "key": "corners_pg",

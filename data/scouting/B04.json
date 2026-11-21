@@ -28,7 +28,7 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.6592,
+      "value": 0.6586,
       "fmt": "pct",
       "rank": 2
      }
@@ -55,21 +55,21 @@
   {
    "key": "big_chances_pg",
    "label": "Großchancen pro Spiel",
-   "value": 4.5,
+   "value": 4.4,
    "fmt": "dec1",
    "rank": 2
   },
   {
    "key": "box_touches_pg",
    "label": "Ballaktionen im gegn. Strafraum pro Spiel",
-   "value": 35.4,
+   "value": 35.3,
    "fmt": "dec1",
    "rank": 2
   },
   {
    "key": "field_tilt",
    "label": "Field Tilt",
-   "value": 0.6592,
+   "value": 0.6586,
    "fmt": "pct",
    "rank": 2
   }
@@ -78,14 +78,14 @@
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
-   "value": 14.2,
+   "value": 14.3,
    "fmt": "dec1",
    "rank": 17
   },
   {
    "key": "interceptions_pg",
    "label": "Abgefangene Bälle pro Spiel",
-   "value": 8.3,
+   "value": 8.4,
    "fmt": "dec1",
    "rank": 16
   }
@@ -98,7 +98,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4734,
+     "value": 0.476,
      "fmt": "pct",
      "rank": 13
     }
@@ -126,7 +126,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4734,
+     "value": 0.476,
      "fmt": "pct",
      "rank": 13
     }
@@ -171,43 +171,43 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8726,
+    "value": 0.8725,
     "fmt": "pct",
     "rank": 2
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4223,
+    "value": 0.4222,
     "fmt": "pct",
     "rank": 7
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.5144,
+    "value": 0.5102,
     "fmt": "pct",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2561,
+    "value": 0.2606,
     "fmt": "pct",
-    "rank": 9
+    "rank": 7
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.6592,
+    "value": 0.6586,
     "fmt": "pct",
     "rank": 2
    }
   ],
   "zones": {
    "left": 37.5,
-   "center": 30.3,
-   "right": 32.2
+   "center": 30.4,
+   "right": 32.1
   }
  },
  "scoring": {
@@ -265,7 +265,7 @@
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 4.5,
+    "value": 4.4,
     "fmt": "dec1",
     "rank": 2
    },
@@ -274,7 +274,7 @@
     "label": "xG pro Schuss",
     "value": 0.1182,
     "fmt": "dec2",
-    "rank": 7
+    "rank": 8
    },
    {
     "key": "goals_minus_xg",
@@ -322,9 +322,9 @@
   ],
   "goals": 17,
   "opp_zones": {
-   "left": 38.9,
+   "left": 38.8,
    "center": 27.0,
-   "right": 34.1
+   "right": 34.2
   },
   "metrics": [
    {
@@ -360,7 +360,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
-    "rank": 4
+    "rank": 5
    }
   ]
  },
@@ -371,14 +371,14 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.493,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 4
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.472,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 12
    },
    {
     "key": "corners_pg",
@@ -445,7 +445,7 @@
    "minutes": 893,
    "goals": 1,
    "assists": 4,
-   "rating": 7.4,
+   "rating": 7.41,
    "xg90": 0.06,
    "xa90": 0.33,
    "why": [
@@ -485,7 +485,7 @@
   "Abwehr": {
    "id": 942379,
    "name": "Miguel Gutiérrez",
-   "rating": 7.4,
+   "rating": 7.41,
    "minutes": 893
   }
  },

@@ -45,14 +45,14 @@
   {
    "key": "duel_rate",
    "label": "Zweikampfquote",
-   "value": 0.4538,
+   "value": 0.4549,
    "fmt": "pct",
    "rank": 18
   },
   {
    "key": "aerial_rate",
    "label": "Luftzweikämpfe gewonnen",
-   "value": 0.4485,
+   "value": 0.4488,
    "fmt": "pct",
    "rank": 18
   },
@@ -66,7 +66,7 @@
   {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": 4.81,
+   "value": 4.79,
    "fmt": "signed1",
    "rank": 18
   }
@@ -79,7 +79,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4485,
+     "value": 0.4488,
      "fmt": "pct",
      "rank": 18
     }
@@ -108,7 +108,7 @@
     {
      "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.677,
+     "value": 0.679,
      "fmt": "dec2",
      "rank": 17
     }
@@ -123,7 +123,7 @@
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.7,
      "fmt": "dec1",
-     "rank": 13
+     "rank": 14
     }
    ]
   }
@@ -136,7 +136,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4485,
+     "value": 0.4488,
      "fmt": "pct",
      "rank": 18
     }
@@ -165,7 +165,7 @@
     {
      "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.677,
+     "value": 0.679,
      "fmt": "dec2",
      "rank": 17
     }
@@ -184,14 +184,14 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.778,
+    "value": 0.7779,
     "fmt": "pct",
     "rank": 16
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3105,
+    "value": 0.3103,
     "fmt": "pct",
     "rank": 17
    },
@@ -205,14 +205,14 @@
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2325,
+    "value": 0.2348,
     "fmt": "pct",
-    "rank": 15
+    "rank": 13
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.449,
+    "value": 0.4498,
     "fmt": "pct",
     "rank": 11
    }
@@ -227,19 +227,19 @@
   "situations": {
    "Spielaufbau": {
     "goals": 8,
-    "xg": 9.35,
+    "xg": 9.36,
     "shots": 85,
     "share": 0.667
    },
    "Konter": {
     "goals": 1,
-    "xg": 1.22,
+    "xg": 1.23,
     "shots": 12,
     "share": 0.083
    },
    "Standard": {
     "goals": 2,
-    "xg": 3.52,
+    "xg": 3.53,
     "shots": 48,
     "share": 0.167
    },
@@ -271,7 +271,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.558,
+    "value": 1.561,
     "fmt": "dec2",
     "rank": 12
    },
@@ -285,16 +285,16 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.106,
+    "value": 0.1062,
     "fmt": "dec2",
     "rank": 13
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -3.58,
+    "value": -3.61,
     "fmt": "signed1",
-    "rank": 15
+    "rank": 14
    }
   ]
  },
@@ -302,7 +302,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 16,
-    "xg": 12.69,
+    "xg": 12.7,
     "shots": 99,
     "share": 0.615
    },
@@ -314,7 +314,7 @@
    },
    "Standard": {
     "goals": 6,
-    "xg": 7.47,
+    "xg": 7.49,
     "shots": 54,
     "share": 0.231
    },
@@ -350,9 +350,9 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 2.119,
+    "value": 2.121,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "shots_against_pg",
@@ -366,7 +366,7 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.7,
     "fmt": "dec1",
-    "rank": 13
+    "rank": 14
    },
    {
     "key": "clean_sheets",
@@ -382,14 +382,14 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.356,
+    "value": 0.357,
     "fmt": "dec2",
     "rank": 14
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.677,
+    "value": 0.679,
     "fmt": "dec2",
     "rank": 17
    },
@@ -443,7 +443,7 @@
    "minutes": 625,
    "goals": 2,
    "assists": 1,
-   "rating": 6.65,
+   "rating": 6.66,
    "xg90": 0.33,
    "xa90": 0.09,
    "why": [
@@ -460,7 +460,7 @@
    "assists": 2,
    "rating": 6.72,
    "xg90": 0.22,
-   "xa90": 0.11,
+   "xa90": 0.1,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Tore (97. Perzentil)"
@@ -474,7 +474,7 @@
    "goals": 1,
    "assists": 0,
    "rating": 6.5,
-   "xg90": 0.18,
+   "xg90": 0.19,
    "xa90": 0.12,
    "why": [
     "Rote Karten (100. Perzentil)",

@@ -50,9 +50,9 @@
    1
   ],
   "probs": [
-   0.4037,
-   0.2034,
-   0.3929
+   0.4027,
+   0.206,
+   0.3914
   ]
  },
  "strengths": [
@@ -178,7 +178,7 @@
     "label": "Lange Bälle angekommen",
     "value": 0.4238,
     "fmt": "pct",
-    "rank": 11
+    "rank": 12
    },
    {
     "key": "cross_accuracy",
@@ -251,21 +251,21 @@
     "label": "xG pro Spiel",
     "value": 1.9356,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.5556,
     "fmt": "dec1",
-    "rank": 4
+    "rank": 5
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.121,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "goals_minus_xg",
@@ -351,7 +351,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
-    "rank": 4
+    "rank": 5
    }
   ]
  },

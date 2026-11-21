@@ -50,9 +50,9 @@
    1
   ],
   "probs": [
-   0.4037,
-   0.2034,
-   0.3929
+   0.4027,
+   0.206,
+   0.3914
   ]
  },
  "strengths": [
@@ -85,6 +85,13 @@
    "value": 2.5622,
    "fmt": "dec2",
    "rank": 18
+  },
+  {
+   "key": "big_chances_against_pg",
+   "label": "Zugelassene Großchancen pro Spiel",
+   "value": 3.8889,
+   "fmt": "dec1",
+   "rank": 16
   }
  ],
  "matchplan": [
@@ -105,19 +112,6 @@
    ]
   },
   {
-   "key": "setpieces",
-   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
-   "evidence": [
-    {
-     "key": "xga_setplay_pg",
-     "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.5389,
-     "fmt": "dec2",
-     "rank": 15
-    }
-   ]
-  },
-  {
    "key": "depth",
    "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
@@ -126,6 +120,19 @@
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.8889,
      "fmt": "dec1",
+     "rank": 16
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.5389,
+     "fmt": "dec2",
      "rank": 15
     }
    ]
@@ -149,19 +156,6 @@
    ]
   },
   {
-   "key": "setpieces",
-   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
-   "evidence": [
-    {
-     "key": "xga_setplay_pg",
-     "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.5389,
-     "fmt": "dec2",
-     "rank": 15
-    }
-   ]
-  },
-  {
    "key": "depth",
    "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
@@ -170,6 +164,19 @@
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.8889,
      "fmt": "dec1",
+     "rank": 16
+    }
+   ]
+  },
+  {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.5389,
+     "fmt": "dec2",
      "rank": 15
     }
    ]
@@ -290,7 +297,7 @@
     "label": "xG pro Schuss",
     "value": 0.1218,
     "fmt": "dec2",
-    "rank": 4
+    "rank": 5
    },
    {
     "key": "goals_minus_xg",
@@ -369,7 +376,7 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.8889,
     "fmt": "dec1",
-    "rank": 15
+    "rank": 16
    },
    {
     "key": "clean_sheets",
@@ -387,7 +394,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.3856,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "xga_setplay_pg",
