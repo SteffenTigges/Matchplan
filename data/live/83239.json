@@ -4,7 +4,7 @@
  "home": "SGE",
  "away": "TSG",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T16:45:49+00:00",
+ "updated_at": "2026-11-21T16:46:51+00:00",
  "status": {
   "started": true,
   "finished": true,
@@ -207,12 +207,12 @@
  ],
  "stats": {
   "BallPossesion": [
-   41,
-   59
+   42,
+   58
   ],
   "expected_goals": [
    2.34,
-   2.24
+   2.23
   ],
   "total_shots": [
    21,
@@ -224,7 +224,7 @@
   ],
   "touches_opp_box": [
    31,
-   28
+   27
   ],
   "big_chance": [
    3,
@@ -236,7 +236,7 @@
   ],
   "accurate_passes": [
    {
-    "n": 233,
+    "n": 237,
     "pct": 66
    },
    {
@@ -262,7 +262,7 @@
   ],
   "expected_goals_open_play": [
    0.71,
-   1.23
+   1.22
   ],
   "expected_goals_set_play": [
    0.84,
@@ -273,15 +273,15 @@
    1.49
   ],
   "passes": [
-   354,
-   508
+   357,
+   507
   ],
   "own_half_passes": [
    86,
    209
   ],
   "opposition_half_passes": [
-   147,
+   151,
    186
   ],
   "long_balls_accurate": [
@@ -322,7 +322,7 @@
   ],
   "clearances": [
    38,
-   40
+   41
   ],
   "keeper_saves": [
    5,
@@ -722,15 +722,15 @@
   ],
   [
    86,
-   -52
+   -46
   ],
   [
    87,
-   -30
+   -24
   ],
   [
    88,
-   41
+   46
   ],
   [
    89,
@@ -1092,9 +1092,9 @@
    "team": "TSG",
    "player": "Adam Hložek",
    "min": 62,
-   "x": 90,
-   "y": 32.779999999999994,
-   "xg": 0.05861193686723709,
+   "x": 89.1,
+   "y": 32.39875,
+   "xg": 0.050776369869709015,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
@@ -1235,8 +1235,8 @@
  "zones": {
   "home": {
    "left": 27,
-   "center": 33,
-   "right": 40
+   "center": 34,
+   "right": 39
   },
   "away": {
    "left": 43,
@@ -1290,7 +1290,7 @@
      "id": 1627706,
      "name": "Keita Kosugi",
      "pos_id": 38,
-     "rating": 7.1,
+     "rating": 7.2,
      "captain": false,
      "x": 0.875,
      "y": 0.357
@@ -1496,9 +1496,10 @@
    "minutes": 6,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 6,
-   "touches_box": 0,
+   "touches": 8,
+   "touches_box": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0
@@ -1511,7 +1512,7 @@
    "rating": 8.56,
    "minutes": 90,
    "xa": 0.01,
-   "recoveries": 12,
+   "recoveries": 11,
    "touches": 51,
    "tackles": 0,
    "final_third_passes": 5,
@@ -1606,7 +1607,7 @@
    "team": "TSG",
    "name": "Koki Machida",
    "keeper": false,
-   "rating": 7.57,
+   "rating": 7.61,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
@@ -1698,12 +1699,12 @@
    "minutes": 29,
    "goals": 0,
    "assists": 0,
-   "xg": 0.64,
+   "xg": 0.63,
    "xa": 0.01,
    "shots": 3,
    "key_passes": 0,
    "touches": 21,
-   "touches_box": 5,
+   "touches_box": 4,
    "dribbles": 3,
    "final_third_passes": 2,
    "tackles": 1,
@@ -1939,7 +1940,7 @@
    "goals": 0,
    "assists": 0,
    "xg": 0.23,
-   "xa": 0.42,
+   "xa": 0.37,
    "shots": 4,
    "key_passes": 4,
    "touches": 64,
@@ -2088,12 +2089,12 @@
    "team": "SGE",
    "name": "Keita Kosugi",
    "keeper": false,
-   "rating": 7.14,
+   "rating": 7.15,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
-   "xa": 0.11,
+   "xa": 0.12,
    "shots": 2,
    "key_passes": 0,
    "touches": 55,
@@ -2125,9 +2126,10 @@
    "minutes": 6,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 6,
-   "touches_box": 1,
+   "touches": 7,
+   "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
