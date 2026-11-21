@@ -4,12 +4,12 @@
  "home": "SGE",
  "away": "TSG",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T16:06:37+00:00",
+ "updated_at": "2026-11-21T16:07:39+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "67‎’‎",
+  "minute": "77‎’‎",
   "reason": null,
   "score": [
    1,
@@ -17,6 +17,35 @@
   ]
  },
  "events": [
+  {
+   "min": 72,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mats Rots",
+   "in_id": 1445416,
+   "out": "Bernardo",
+   "out_id": 637716
+  },
+  {
+   "min": 72,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Bambasé Conté",
+   "in_id": 1338957,
+   "out": "Fisnik Asllani",
+   "out_id": 1219540
+  },
+  {
+   "min": 69,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Leon Avdullahu",
+   "player_id": 1478148
+  },
   {
    "min": 64,
    "plus": null,
@@ -79,15 +108,15 @@
  ],
  "stats": {
   "BallPossesion": [
-   43,
-   57
+   40,
+   60
   ],
   "expected_goals": [
-   1.58,
-   1.46
+   1.73,
+   1.45
   ],
   "total_shots": [
-   17,
+   19,
    11
   ],
   "ShotsOnTarget": [
@@ -95,41 +124,41 @@
    2
   ],
   "touches_opp_box": [
-   25,
-   19
+   27,
+   21
   ],
   "big_chance": [
-   1,
+   2,
    2
   ],
   "big_chance_missed_title": [
-   1,
+   2,
    2
   ],
   "accurate_passes": [
    {
-    "n": 191,
+    "n": 200,
     "pct": 68
    },
    {
-    "n": 290,
+    "n": 338,
     "pct": 78
    }
   ],
   "yellow_cards": [
    0,
-   0
+   1
   ],
   "corners": [
-   5,
-   3
+   7,
+   4
   ],
   "blocked_shots": [
    5,
    5
   ],
   "shots_inside_box": [
-   6,
+   8,
    9
   ],
   "expected_goals_open_play": [
@@ -137,7 +166,7 @@
    0.59
   ],
   "expected_goals_set_play": [
-   0.16,
+   0.3,
    0.08
   ],
   "expected_goals_on_target": [
@@ -145,35 +174,35 @@
    0.93
   ],
   "passes": [
-   279,
-   372
+   293,
+   433
   ],
   "own_half_passes": [
-   67,
-   165
+   73,
+   182
   ],
   "opposition_half_passes": [
-   124,
-   125
+   127,
+   156
   ],
   "long_balls_accurate": [
    {
-    "n": 18,
-    "pct": 38
+    "n": 19,
+    "pct": 36
    },
    {
-    "n": 24,
-    "pct": 57
+    "n": 29,
+    "pct": 58
    }
   ],
   "accurate_crosses": [
    {
-    "n": 1,
-    "pct": 9
+    "n": 2,
+    "pct": 15
    },
    {
     "n": 3,
-    "pct": 21
+    "pct": 17
    }
   ],
   "Offsides": [
@@ -181,57 +210,57 @@
    2
   ],
   "tackles": [
-   12,
-   20
+   13,
+   22
   ],
   "interceptions": [
-   12,
+   15,
    8
   ],
   "shot_blocks": [
-   5,
+   6,
    5
   ],
   "clearances": [
-   20,
-   24
+   31,
+   27
   ],
   "keeper_saves": [
    3,
    4
   ],
   "duel_won": [
-   35,
-   42
+   39,
+   49
   ],
   "ground_duels_won": [
    {
-    "n": 23,
-    "pct": 43
+    "n": 25,
+    "pct": 42
    },
    {
-    "n": 30,
-    "pct": 57
+    "n": 35,
+    "pct": 58
    }
   ],
   "aerials_won": [
    {
-    "n": 12,
+    "n": 14,
     "pct": 50
    },
    {
-    "n": 12,
+    "n": 14,
     "pct": 50
    }
   ],
   "dribbles_succeeded": [
    {
     "n": 5,
-    "pct": 36
+    "pct": 33
    },
    {
-    "n": 6,
-    "pct": 55
+    "n": 7,
+    "pct": 58
    }
   ],
   "red_cards": [
@@ -239,8 +268,8 @@
    0
   ],
   "fouls": [
-   5,
-   8
+   7,
+   9
   ]
  },
  "momentum": [
@@ -498,15 +527,15 @@
   ],
   [
    62,
-   -46
+   -52
   ],
   [
    63,
-   -22
+   -27
   ],
   [
    64,
-   57
+   52
   ],
   [
    65,
@@ -514,47 +543,47 @@
   ],
   [
    66,
-   62
+   57
   ],
   [
    67,
-   null
+   -19
   ],
   [
    68,
-   null
+   -19
   ],
   [
    69,
-   null
+   -8
   ],
   [
    70,
-   null
+   -5
   ],
   [
    71,
-   null
+   -35
   ],
   [
    72,
-   null
+   -35
   ],
   [
    73,
-   null
+   -43
   ],
   [
    74,
-   null
+   46
   ],
   [
    75,
-   null
+   35
   ],
   [
    76,
-   null
+   38
   ],
   [
    77,
@@ -919,19 +948,6 @@
   },
   {
    "team": "TSG",
-   "player": "Bernardo",
-   "min": 50,
-   "x": 89.5,
-   "y": 49.605859870500005,
-   "xg": 0.028879674151539803,
-   "xgot": 0,
-   "situation": "RegularPlay",
-   "type": "LeftFoot",
-   "result": "blocked",
-   "own_goal": false
-  },
-  {
-   "team": "TSG",
    "player": "Fisnik Asllani",
    "min": 51,
    "x": 92.6,
@@ -981,25 +997,103 @@
    "type": "RightFoot",
    "result": "blocked",
    "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Fisnik Asllani",
+   "min": 71,
+   "x": 89,
+   "y": 44.5612738809,
+   "xg": 0.025439932942390442,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 74,
+   "x": 98.0526315785,
+   "y": 29.799761903000004,
+   "xg": 0.08511556684970856,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Younes Ebnoutalib",
+   "min": 74,
+   "x": 103.4827586208,
+   "y": 41.7146875,
+   "xg": 0.05702101066708565,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Adam Hložek",
+   "min": 76,
+   "x": 90.4,
+   "y": 30.492499999999996,
+   "xg": 0.4775,
+   "xgot": 0.4435,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Bambasé Conté",
+   "min": 76,
+   "x": 95.0614035074,
+   "y": 23.9291719792,
+   "xg": 0.0566,
+   "xgot": null,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "TSG",
+   "player": "Bambasé Conté",
+   "min": 77,
+   "x": 95.8333333322,
+   "y": 31.78875,
+   "xg": 0.058,
+   "xgot": null,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 26,
-   "center": 31,
+   "left": 25,
+   "center": 32,
    "right": 43
   },
   "away": {
-   "left": 40,
-   "center": 27,
-   "right": 33
+   "left": 41,
+   "center": 30,
+   "right": 29
   }
  },
  "lineups": {
   "home": {
    "team": "SGE",
    "formation": "4-4-2",
-   "rating": 7.3,
+   "rating": 7.4,
    "players": [
     {
      "id": 1281100,
@@ -1014,7 +1108,7 @@
      "id": 1175708,
      "name": "Ansgar Knauff",
      "pos_id": 32,
-     "rating": 8.5,
+     "rating": 8.6,
      "captain": false,
      "x": 0.125,
      "y": 0.357
@@ -1023,7 +1117,7 @@
      "id": 628201,
      "name": "Robin Koch",
      "pos_id": 34,
-     "rating": 7.5,
+     "rating": 7.7,
      "captain": true,
      "x": 0.375,
      "y": 0.357
@@ -1032,7 +1126,7 @@
      "id": 1073941,
      "name": "Lilian Brassier",
      "pos_id": 36,
-     "rating": 6.9,
+     "rating": 7,
      "captain": false,
      "x": 0.625,
      "y": 0.357
@@ -1041,7 +1135,7 @@
      "id": 1627706,
      "name": "Keita Kosugi",
      "pos_id": 38,
-     "rating": 6.8,
+     "rating": 7.1,
      "captain": false,
      "x": 0.875,
      "y": 0.357
@@ -1050,7 +1144,7 @@
      "id": 629805,
      "name": "Ritsu Doan",
      "pos_id": 72,
-     "rating": 7.1,
+     "rating": 7,
      "captain": false,
      "x": 0.125,
      "y": 0.613
@@ -1059,7 +1153,7 @@
      "id": 1126768,
      "name": "Raphael Onyedika",
      "pos_id": 74,
-     "rating": 7.4,
+     "rating": 7.7,
      "captain": false,
      "x": 0.375,
      "y": 0.613
@@ -1077,7 +1171,7 @@
      "id": 1345875,
      "name": "Farès Chaïbi",
      "pos_id": 78,
-     "rating": 7,
+     "rating": 7.2,
      "captain": false,
      "x": 0.875,
      "y": 0.613
@@ -1095,7 +1189,7 @@
      "id": 947901,
      "name": "Jonathan Burkardt",
      "pos_id": 106,
-     "rating": 7.4,
+     "rating": 7.5,
      "captain": false,
      "x": 0.7,
      "y": 0.87
@@ -1105,13 +1199,13 @@
   "away": {
    "team": "TSG",
    "formation": "4-2-3-1",
-   "rating": 6.6,
+   "rating": 6.5,
    "players": [
     {
      "id": 178778,
      "name": "Oliver Baumann",
      "pos_id": 11,
-     "rating": 8.2,
+     "rating": 8.3,
      "captain": true,
      "x": 0.5,
      "y": 0.1
@@ -1120,7 +1214,7 @@
      "id": 307317,
      "name": "Vladimír Coufal",
      "pos_id": 32,
-     "rating": 6.7,
+     "rating": 7,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -1129,7 +1223,7 @@
      "id": 845990,
      "name": "Ozan Kabak",
      "pos_id": 34,
-     "rating": 7.1,
+     "rating": 7,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -1138,7 +1232,7 @@
      "id": 727817,
      "name": "Koki Machida",
      "pos_id": 36,
-     "rating": 6.9,
+     "rating": 7.1,
      "captain": false,
      "x": 0.625,
      "y": 0.292
@@ -1147,7 +1241,7 @@
      "id": 637716,
      "name": "Bernardo",
      "pos_id": 38,
-     "rating": 5.2,
+     "rating": 5.6,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -1156,7 +1250,7 @@
      "id": 1478148,
      "name": "Leon Avdullahu",
      "pos_id": 64,
-     "rating": 6.8,
+     "rating": 7,
      "captain": false,
      "x": 0.3,
      "y": 0.485
@@ -1165,7 +1259,7 @@
      "id": 947884,
      "name": "Wouter Burger",
      "pos_id": 66,
-     "rating": 6.5,
+     "rating": 6.7,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -1174,7 +1268,7 @@
      "id": 173461,
      "name": "Andrej Kramarić",
      "pos_id": 83,
-     "rating": 6,
+     "rating": 5.8,
      "captain": false,
      "x": 0.162,
      "y": 0.678
@@ -1183,7 +1277,7 @@
      "id": 1219540,
      "name": "Fisnik Asllani",
      "pos_id": 85,
-     "rating": 6.4,
+     "rating": 6.5,
      "captain": false,
      "x": 0.5,
      "y": 0.678
@@ -1201,7 +1295,7 @@
      "id": 1124825,
      "name": "Tim Lemperle",
      "pos_id": 115,
-     "rating": 6.5,
+     "rating": 6.6,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -1221,13 +1315,13 @@
    "team": "TSG",
    "name": "Andrej Kramarić",
    "keeper": false,
-   "rating": 5.97,
+   "rating": 5.84,
    "goals": 0,
    "assists": 0,
    "xg": 0.87,
    "xa": 0.03,
    "shots": 3,
-   "key_passes": 1,
+   "key_passes": 0,
    "touches": 38,
    "touches_box": 6,
    "dribbles": 1,
@@ -1249,10 +1343,10 @@
    "team": "TSG",
    "name": "Oliver Baumann",
    "keeper": true,
-   "rating": 8.23,
+   "rating": 8.3,
    "xa": 0.01,
-   "recoveries": 9,
-   "touches": 38,
+   "recoveries": 10,
+   "touches": 44,
    "tackles": 0,
    "final_third_passes": 4,
    "interceptions": 0
@@ -1262,15 +1356,15 @@
    "team": "TSG",
    "name": "Vladimír Coufal",
    "keeper": false,
-   "rating": 6.67,
+   "rating": 7.01,
    "goals": 0,
    "assists": 0,
    "xa": 0.3,
    "key_passes": 1,
-   "touches": 45,
+   "touches": 51,
    "touches_box": 1,
    "dribbles": 2,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 6,
@@ -1282,61 +1376,59 @@
    "team": "SGE",
    "name": "Robin Koch",
    "keeper": false,
-   "rating": 7.49,
+   "rating": 7.72,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 40,
+   "touches": 49,
    "touches_box": 0,
-   "final_third_passes": 5,
+   "final_third_passes": 7,
    "tackles": 0,
    "interceptions": 3,
    "recoveries": 1,
-   "duels_won": 2,
-   "duels_lost": 1
+   "duels_won": 3,
+   "duels_lost": 2
   },
   {
    "id": 629805,
    "team": "SGE",
    "name": "Ritsu Doan",
    "keeper": false,
-   "rating": 7.07,
+   "rating": 6.96,
    "goals": 0,
    "assists": 0,
    "xg": 0.09,
    "xa": 0.06,
    "shots": 1,
    "key_passes": 1,
-   "touches": 57,
+   "touches": 59,
    "touches_box": 6,
    "dribbles": 0,
    "final_third_passes": 11,
    "tackles": 4,
    "interceptions": 0,
-   "recoveries": 2,
+   "recoveries": 3,
    "duels_won": 7,
-   "duels_lost": 7
+   "duels_lost": 9
   },
   {
    "id": 637716,
    "team": "TSG",
    "name": "Bernardo",
    "keeper": false,
-   "rating": 5.24,
+   "rating": 5.56,
    "goals": 0,
    "assists": 0,
-   "xg": 0.03,
    "xa": 0.01,
-   "shots": 1,
    "key_passes": 0,
-   "touches": 70,
+   "touches": 71,
    "touches_box": 2,
    "final_third_passes": 6,
    "tackles": 3,
    "interceptions": 0,
    "recoveries": 2,
-   "duels_won": 4,
+   "duels_won": 5,
    "duels_lost": 4
   },
   {
@@ -1344,16 +1436,18 @@
    "team": "TSG",
    "name": "Koki Machida",
    "keeper": false,
-   "rating": 6.93,
+   "rating": 7.13,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 57,
+   "touches": 68,
    "touches_box": 0,
-   "tackles": 1,
+   "final_third_passes": 3,
+   "tackles": 2,
    "interceptions": 3,
    "recoveries": 2,
-   "duels_won": 3,
+   "duels_won": 4,
    "duels_lost": 2
   },
   {
@@ -1361,99 +1455,102 @@
    "team": "TSG",
    "name": "Ozan Kabak",
    "keeper": false,
-   "rating": 7.08,
+   "rating": 7.02,
    "goals": 0,
    "assists": 0,
    "xg": 0.05,
    "xa": 0.08,
    "shots": 1,
    "key_passes": 1,
-   "touches": 40,
+   "touches": 45,
    "touches_box": 1,
    "tackles": 2,
    "interceptions": 1,
    "recoveries": 4,
    "duels_won": 6,
-   "duels_lost": 1
+   "duels_lost": 3
   },
   {
    "id": 947884,
    "team": "TSG",
    "name": "Wouter Burger",
    "keeper": false,
-   "rating": 6.52,
+   "rating": 6.69,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
    "xa": 0.12,
    "shots": 1,
    "key_passes": 2,
-   "touches": 56,
+   "touches": 64,
    "touches_box": 0,
    "dribbles": 0,
-   "final_third_passes": 8,
-   "tackles": 2,
+   "final_third_passes": 10,
+   "tackles": 3,
    "interceptions": 0,
-   "recoveries": 2,
-   "duels_won": 3,
-   "duels_lost": 4
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 5
   },
   {
    "id": 947901,
    "team": "SGE",
    "name": "Jonathan Burkardt",
    "keeper": false,
-   "rating": 7.44,
+   "rating": 7.47,
    "goals": 1,
    "assists": 0,
-   "xg": 1,
+   "xg": 1.09,
    "xa": 0.01,
-   "shots": 5,
-   "key_passes": 0,
-   "touches": 35,
-   "touches_box": 5,
+   "shots": 6,
+   "key_passes": 1,
+   "touches": 42,
+   "touches_box": 6,
    "dribbles": 1,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 2,
-   "duels_won": 4,
-   "duels_lost": 7
+   "duels_won": 5,
+   "duels_lost": 9
   },
   {
    "id": 969870,
    "team": "TSG",
    "name": "Adam Hložek",
    "keeper": false,
-   "rating": 6,
+   "rating": 6.11,
    "goals": 0,
    "assists": 0,
    "xg": 0.06,
+   "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 2,
-   "touches_box": 1,
+   "touches": 9,
+   "touches_box": 2,
+   "dribbles": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0
+   "recoveries": 0,
+   "duels_won": 2
   },
   {
    "id": 1027194,
    "team": "TSG",
    "name": "Alexander Prass",
    "keeper": false,
-   "rating": 6.62,
+   "rating": 6.63,
    "goals": 0,
    "assists": 0,
-   "xa": 0.11,
+   "xa": 0.24,
    "key_passes": 3,
-   "touches": 38,
+   "touches": 50,
    "touches_box": 1,
    "dribbles": 0,
-   "final_third_passes": 2,
+   "final_third_passes": 6,
    "tackles": 2,
    "interceptions": 0,
-   "recoveries": 5,
+   "recoveries": 6,
    "duels_won": 2,
    "duels_lost": 5
   },
@@ -1468,26 +1565,26 @@
    "team": "SGE",
    "name": "Lilian Brassier",
    "keeper": false,
-   "rating": 6.87,
+   "rating": 7.02,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 38,
+   "touches": 43,
    "touches_box": 0,
    "final_third_passes": 7,
    "tackles": 1,
    "interceptions": 2,
    "recoveries": 5,
-   "duels_won": 2,
-   "duels_lost": 2
+   "duels_won": 3,
+   "duels_lost": 3
   },
   {
    "id": 1124825,
    "team": "TSG",
    "name": "Tim Lemperle",
    "keeper": false,
-   "rating": 6.54,
+   "rating": 6.56,
    "goals": 0,
    "assists": 0,
    "xg": 0.24,
@@ -1509,20 +1606,20 @@
    "team": "SGE",
    "name": "Raphael Onyedika",
    "keeper": false,
-   "rating": 7.41,
+   "rating": 7.66,
    "goals": 0,
    "assists": 0,
    "xg": 0.01,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 1,
-   "touches": 34,
+   "touches": 39,
    "touches_box": 1,
    "final_third_passes": 4,
-   "tackles": 1,
-   "interceptions": 1,
-   "recoveries": 5,
-   "duels_won": 4,
+   "tackles": 2,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 5,
    "duels_lost": 4
   },
   {
@@ -1530,20 +1627,20 @@
    "team": "SGE",
    "name": "Ansgar Knauff",
    "keeper": false,
-   "rating": 8.48,
+   "rating": 8.57,
    "goals": 0,
    "assists": 1,
    "xg": 0.03,
    "xa": 0.06,
    "shots": 2,
    "key_passes": 2,
-   "touches": 64,
+   "touches": 68,
    "touches_box": 3,
    "dribbles": 1,
-   "final_third_passes": 5,
+   "final_third_passes": 6,
    "tackles": 2,
-   "interceptions": 3,
-   "recoveries": 7,
+   "interceptions": 4,
+   "recoveries": 8,
    "duels_won": 5,
    "duels_lost": 5
   },
@@ -1564,15 +1661,15 @@
    "team": "TSG",
    "name": "Fisnik Asllani",
    "keeper": false,
-   "rating": 6.41,
+   "rating": 6.47,
    "goals": 0,
    "assists": 0,
-   "xg": 0.17,
+   "xg": 0.19,
    "xa": 0.01,
-   "shots": 2,
+   "shots": 3,
    "key_passes": 0,
-   "touches": 41,
-   "touches_box": 3,
+   "touches": 44,
+   "touches_box": 4,
    "dribbles": 1,
    "final_third_passes": 9,
    "tackles": 0,
@@ -1586,9 +1683,9 @@
    "team": "SGE",
    "name": "Noah Atubolu",
    "keeper": true,
-   "rating": 8.12,
-   "recoveries": 5,
-   "touches": 25,
+   "rating": 8.14,
+   "recoveries": 6,
+   "touches": 27,
    "duels_won": 1,
    "tackles": 0,
    "final_third_passes": 3,
@@ -1604,39 +1701,53 @@
    "id": 1338957,
    "team": "TSG",
    "name": "Bambasé Conté",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.02,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 1345875,
    "team": "SGE",
    "name": "Farès Chaïbi",
    "keeper": false,
-   "rating": 7.04,
+   "rating": 7.17,
    "goals": 0,
    "assists": 0,
    "xg": 0.16,
-   "xa": 0.21,
+   "xa": 0.32,
    "shots": 3,
-   "key_passes": 2,
-   "touches": 47,
+   "key_passes": 3,
+   "touches": 53,
    "touches_box": 2,
    "dribbles": 1,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 2,
-   "recoveries": 2,
+   "recoveries": 3,
    "duels_won": 2,
-   "duels_lost": 6
+   "duels_lost": 7
   },
   {
    "id": 1353000,
    "team": "TSG",
    "name": "Adam Daghim",
    "keeper": false,
+   "rating": 5.92,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 1,
+   "touches": 8,
    "touches_box": 0,
    "dribbles": 0,
    "tackles": 0,
@@ -1654,7 +1765,17 @@
    "id": 1445416,
    "team": "TSG",
    "name": "Mats Rots",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.01,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 1,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
   },
   {
    "id": 1447050,
@@ -1664,12 +1785,12 @@
    "rating": 7.14,
    "goals": 0,
    "assists": 0,
-   "xg": 0.27,
+   "xg": 0.33,
    "xa": 0.07,
-   "shots": 3,
+   "shots": 4,
    "key_passes": 1,
-   "touches": 31,
-   "touches_box": 5,
+   "touches": 34,
+   "touches_box": 6,
    "dribbles": 2,
    "final_third_passes": 4,
    "tackles": 1,
@@ -1683,13 +1804,14 @@
    "team": "TSG",
    "name": "Leon Avdullahu",
    "keeper": false,
-   "rating": 6.77,
+   "rating": 6.95,
    "goals": 0,
    "assists": 0,
-   "xa": 0.03,
-   "key_passes": 0,
-   "touches": 64,
+   "xa": 0.04,
+   "key_passes": 1,
+   "touches": 70,
    "touches_box": 0,
+   "final_third_passes": 1,
    "tackles": 7,
    "interceptions": 3,
    "recoveries": 0,
@@ -1707,7 +1829,7 @@
    "team": "SGE",
    "name": "Noël Aséko",
    "keeper": false,
-   "rating": 6.52,
+   "rating": 6.5,
    "goals": 0,
    "assists": 0,
    "xa": 0.29,
@@ -1726,19 +1848,19 @@
    "team": "SGE",
    "name": "Keita Kosugi",
    "keeper": false,
-   "rating": 6.8,
+   "rating": 7.11,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
    "xa": 0.05,
    "shots": 2,
    "key_passes": 0,
-   "touches": 40,
+   "touches": 42,
    "touches_box": 2,
    "final_third_passes": 8,
    "tackles": 2,
-   "interceptions": 0,
-   "recoveries": 6,
+   "interceptions": 1,
+   "recoveries": 7,
    "duels_won": 2,
    "duels_lost": 5
   },
