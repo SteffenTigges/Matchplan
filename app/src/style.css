@@ -164,3 +164,17 @@ a.ev .muted { color: var(--accent); font-weight: 600; }
 .stable .cut { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .crest[data-team] { cursor: pointer; }
 a.plink { color: inherit; text-decoration: none; } a.plink:active { opacity: .6; }
+.ticker { display: flex; flex-direction: column; }
+.tick { display: grid; grid-template-columns: 40px 22px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.tick:first-child { border-top: 0; }
+.tick .tmin { color: var(--muted); font-size: 12.5px; text-align: right; }
+.tick .ticon { text-align: center; }
+.tick.sep { display: block; text-align: center; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.card-ico { display: inline-block; width: 10px; height: 14px; border-radius: 2px; background: #f5c400; vertical-align: middle; }
+.card-ico.red { background: #e5484d; } .card-ico.yellowred { background: linear-gradient(135deg, #f5c400 50%, #e5484d 50%); }
+.tick .in a, .tick .in { color: var(--ok); }
+.livebadge { display: inline-flex; gap: 6px; align-items: center; background: #e5484d; color: #fff; font: 800 11px var(--f-data); letter-spacing: .08em; border-radius: 99px; padding: 3px 9px; animation: pulse 2s infinite; }
+@keyframes pulse { 50% { opacity: .6; } }
+.chip.live { background: #e5484d; color: #fff; font-weight: 700; }
+.ptable { display: grid; grid-template-columns: minmax(0, 1fr) repeat(7, auto); gap: 5px 8px; font-size: 12.5px; align-items: center; }
+.ptable .cut { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

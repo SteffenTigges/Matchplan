@@ -91,7 +91,7 @@ def test_incomplete_zones_are_dropped():
 
 def test_match_has_player_ids():
     m = parse_match(load("fotmob_match.json"))
-    assert m["v"] == 4
+    assert m["v"] == 5
     assert m["lineups"]["home"]["players"][0]["id"] == 178778
     assert all(isinstance(p["id"], int) for p in m["players"])
 
@@ -111,3 +111,31 @@ def test_referee_from_info_box():
     assert referee(nd) == {"name": "Martin Petersen", "id": 1001075723, "country": "Germany"}
     assert referee({"props": {"pageProps": {"content": {"matchFacts": {"infoBox": {"Referee": None}}}}}}) is None
     assert referee({}) is None
+
+
+def _ev_page(events, status=None):
+    return {"props": {"pageProps": {"header": {"teams": [{"score": 1}, {"score": 2}], "status": status or {}},
+                                    "content": {"matchFacts": {"events": {"events": events}}}}}}
+
+
+def test_parse_events_goal_card_sub():
+    from matchplan_data.fotmob import parse_events
+    evs = parse_events(_ev_page([
+        {"type": "Goal", "time": 12, "overloadTime": None, "isHome": False, "player": {"id": 1407250, "name": "Mikey Moore"},
+         "assistStr": "assist by Saïd El Mala", "newScore": [0, 1], "ownGoal": None, "shotmapEvent": {"situation": "RegularPlay"}},
+        {"type": "Substitution", "time": 20, "overloadTime": 0, "isHome": True, "swap": [{"name": "Tom Bischof", "id": "1286183"}, {"name": "Harry Kane", "id": "194165"}]},
+        {"type": "Card", "time": 56, "isHome": False, "player": {"id": 1527363, "name": "Paul Okon-Engstler"}, "card": "Yellow"},
+        {"type": "Card", "time": 88, "isHome": True, "player": {"id": 1, "name": "X"}, "card": "YellowRed"},
+        {"type": "Half", "time": 45, "halfStrShort": "HT"},
+        {"type": "Goal", "time": 90, "overloadTime": 3, "isHome": True, "player": {"id": 2, "name": "Y"}, "newScore": [1, 1], "shotmapEvent": {"situation": "Penalty"}}]))
+    assert evs[0] == {"min": 12, "plus": None, "home": False, "type": "goal", "player": "Mikey Moore", "player_id": 1407250,
+                      "assist": "Saïd El Mala", "score": [0, 1], "own_goal": False, "penalty": False}
+    assert evs[1]["in"] == "Tom Bischof" and evs[1]["out_id"] == 194165
+    assert evs[2]["card"] == "yellow" and evs[3]["card"] == "yellowred" and evs[4]["text"] == "HT"
+    assert evs[5]["plus"] == 3 and evs[5]["penalty"] is True
+
+
+def test_parse_status_live():
+    from matchplan_data.fotmob import parse_status
+    st = parse_status(_ev_page([], {"started": True, "finished": False, "liveTime": {"short": "57'"}, "reason": {}}))
+    assert st == {"started": True, "finished": False, "cancelled": False, "minute": "57'", "reason": None, "score": [1, 2]}

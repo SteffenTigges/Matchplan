@@ -55,7 +55,15 @@ export interface FotmobMatch {
   zones: { home: Record<"left" | "center" | "right", number>; away: Record<"left" | "center" | "right", number> } | null;
   lineups: { home: FmLineup; away: FmLineup } | null;
   players: Record<string, unknown>[];
+  events?: MatchEvent[];
 }
+export interface MatchEvent {
+  type: "goal" | "card" | "sub" | "half" | "added" | "var"; min: number | null; plus: number | null; home: boolean | null;
+  player?: string | null; player_id?: number | null; assist?: string | null; score?: [number, number] | null; own_goal?: boolean; penalty?: boolean;
+  card?: "yellow" | "yellowred" | "red"; in?: string | null; in_id?: number | null; out?: string | null; out_id?: number | null; text?: string | null;
+}
+export interface LiveStatus { started: boolean; finished: boolean; cancelled: boolean; minute: string | null; reason: string | null; score: [number, number] | null }
+export interface LiveMatch extends Omit<FotmobMatch, "fm_id"> { id: number; fm_id: number; home: string; away: string; kickoff: string; updated_at: string; status: LiveStatus; events: MatchEvent[] }
 
 // --- Saisonwerte (data/teamstats.json) ---
 export interface MetricDef { key: string; label: string; category: string; higher_is_better: boolean; fmt: string; approx: boolean }

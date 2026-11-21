@@ -1,5 +1,5 @@
 import "./style.css";
-import { loadJson, type PlayerLinks, type Referees, type SimilarFile, type ScoutReport, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
+import { loadJson, type LiveMatch, type Match, type PlayerLinks, type Referees, type SimilarFile, type ScoutReport, type ModelCheck, type Predictions, type PlayerIndex, type PlayerProfile, type FotmobMatch, type History, type Lineups, type Matchday, type Season, type Table, type TeamStats } from "./data";
 import { legendFor } from "./legend";
 import { parseRoute, type Route } from "./router";
 import { esc } from "./ui";
@@ -8,6 +8,9 @@ import { renderStatus, type ProbeReport } from "./views/status";
 import { renderTable, renderTeam } from "./views/teams";
 import { renderMetricRanking, renderTeamStats } from "./views/teamstats";
 import { renderAllResults, renderModelCheck } from "./views/prognose";
+import { fetchLive, fetchOldb, mergeOldb } from "./liveapi";
+import { isLive, renderEvents, renderLiveHead, renderPlayerTable, renderXgTimeline } from "./views/live";
+import { renderAnalysis } from "./views/analysis";
 import { renderReport, renderScoutPicker } from "./views/scouting";
 import { readFav, renderVerein, writeFav } from "./views/verein";
 import { normSearch, renderPlayer, renderPlayerList, renderSquad } from "./views/players";
@@ -99,13 +102,26 @@ async function viewFor(route: Route): Promise<string> {
     const md = route.matchday ?? season.current_matchday;
     header(`${md}. Spieltag`, "1. Bundesliga · Saison 26/27");
     const [day, preds] = await Promise.all([loadJson<Matchday>(`matchdays/${md}.json`), loadJson<Predictions>(`predictions/${md}.json`)]);
-    return renderMatchday(md, day?.matches ?? [], season, preds);
+    let ms = day?.matches ?? [];
+    if (ms.some((m) => isLive(m, new Date()))) {
+      const raw = await fetchOldb(season.season, md);
+      if (raw) ms = mergeOldb(ms, raw);
+      liveOnPage = ms.some((m) => isLive(m, new Date()));
+    }
+    return renderMatchday(md, ms, season, preds);
   }
 
   if (route.view === "spiel" || route.view === "prognose") {
     const mds = await allMatchdays();
     const day = mds.find((d) => d.matches.some((m) => m.id === route.id));
-    const match = day?.matches.find((m) => m.id === route.id);
+    let match: Match | undefined = day?.matches.find((m) => m.id === route.id);
+    let live: LiveMatch | null = null;
+    if (day && match && match.kickoff && !match.finished && Date.now() >= new Date(match.kickoff).getTime()) {
+      const [raw, lv] = await Promise.all([fetchOldb(season.season, day.matchday), fetchLive(match.id)]);
+      if (raw) match = mergeOldb([match], raw)[0]!;
+      live = lv;
+      if (live?.status.finished && match) match = { ...match, finished: true };
+    }
     if (!day || !match) {
       header("Spiel", "Nicht gefunden", "#spiele");
       return NO_DATA;
@@ -122,7 +138,17 @@ async function viewFor(route: Route): Promise<string> {
     const lineups = !match.finished ? await loadJson<Lineups>("lineups/current.json") : null;
     const fitting = lineups && lineups.matchday === day.matchday ? lineups : null;
     const history = fitting ? await loadJson<History>(`lineups/history-${season.season}-${day.matchday}.json`) : null;
-    const fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
+    let fm = match.finished ? await loadJson<FotmobMatch>(`fotmob/${match.id}.json`) : null;
+    if (match.finished && !fm) fm = (live ?? (await fetchLive(match.id))) as unknown as FotmobMatch | null; // bis der große Abruf nach Abpfiff durch ist
+    if (!match.finished && live?.status.started) {
+      liveOnPage = true;
+      const lfm = live as unknown as FotmobMatch;
+      return renderLiveHead(match, live, season, new Date()) + renderEvents(live.events, match, season, true) + renderAnalysis(match, lfm, season) + renderXgTimeline(lfm, match, season) + renderPlayerTable(lfm, match, season);
+    }
+    if (!match.finished && isLive(match, new Date())) {
+      liveOnPage = true;
+      return renderLiveHead(match, null, season, new Date()) + `<section class="card"><h3>Tore</h3>${match.goals.length ? match.goals.map((g) => `<p>${g.minute ?? ""}' <b>${esc(g.scorer)}</b> <span class="muted">${esc(season.teams[g.team]?.short ?? g.team)}</span></p>`).join("") : '<p class="muted">Noch keine Tore.</p>'}</section>`;
+    }
     const [refs, links] = await Promise.all([!match.finished ? loadJson<Referees>("referees.json") : Promise.resolve(null), loadJson<PlayerLinks>("player_links.json")]);
     return renderMatch(match, season, fitting, history, fm, pred, refs, links);
   }
@@ -148,7 +174,12 @@ async function viewFor(route: Route): Promise<string> {
   return renderTeam(route.key, season, table?.rows ?? [], mds.flatMap((d) => d.matches), lineups, (ts ? renderTeamStats(route.key, ts) : "") + (idx ? renderSquad(idx.players, route.key) : ""), model?.elo?.[route.key] ?? null, links);
 }
 
-async function render(): Promise<void> {
+let liveOnPage = false;
+let liveTimer: number | undefined;
+
+async function render(soft = false): Promise<void> {
+  liveOnPage = false;
+  window.clearTimeout(liveTimer);
   const route = parseRoute(location.hash);
   const tab = tabOf(route);
   document.getElementById("tabs")!.innerHTML = TABS.map(
@@ -175,7 +206,9 @@ async function render(): Promise<void> {
   } catch {
     root.innerHTML = `<section class="card"><p class="muted">Diese Seite konnte nicht geladen werden.</p></section>`;
   }
-  if (!(route.view === "scouting" && route.section)) window.scrollTo(0, 0);
+  if (!soft && !(route.view === "scouting" && route.section)) window.scrollTo(0, 0);
+  // Während ein Spiel läuft: jede Minute neu laden, ohne die Scroll-Position zu verlieren.
+  if (liveOnPage) liveTimer = window.setTimeout(() => void render(true), 60_000);
 }
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);

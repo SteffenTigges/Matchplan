@@ -53,3 +53,26 @@ test("renders_goal_markers_for_penalty_and_own_goal", () => {
 test("upcoming_match_without_lineups_says_so", () => {
   expect(renderMatch(soon, season, null, null)).toContain("Noch keine voraussichtliche Aufstellung");
 });
+
+test("finished_match_shows_events_xg_timeline_and_player_table", () => {
+  const fm = {
+    fm_id: 1, stats: {}, momentum: null, zones: null, lineups: null,
+    shots: [{ team: "BVB", player: "X", min: 10, x: 90, y: 30, xg: 0.4, xgot: 0.5, situation: "RegularPlay", type: "RightFoot", result: "goal" as const, own_goal: false }],
+    players: [{ id: 7, team: "BVB", name: "Karim Adeyemi", minutes: 90, rating: 7.8, goals: 1, assists: 0, xg: 0.4, xa: 0.1, shots: 2, duels_won: 4, duels_lost: 3 }],
+    events: [{ type: "goal" as const, min: 10, plus: null, home: true, player: "Karim Adeyemi", player_id: 7, assist: "Julian Brandt", score: [1, 0] as [number, number], own_goal: false, penalty: false },
+             { type: "card" as const, min: 50, plus: null, home: false, player: "Y", player_id: null, card: "yellow" as const }],
+  };
+  const html = renderMatch(done, season, null, null, fm, null);
+  expect(html).toContain("Spielverlauf");
+  expect(html).toContain("Vorlage Julian Brandt");
+  expect(html).toContain("xG-Verlauf");
+  expect(html).toContain("Spielerstatistik");
+  expect(html).toContain('href="#spieler/7"');
+});
+
+test("live_match_in_list_shows_live_chip", () => {
+  const live = { ...soon, kickoff: new Date(Date.now() - 20 * 60000).toISOString(), score: [1, 0] as [number, number] };
+  const html = renderMatchday(10, [live], season);
+  expect(html).toContain("LIVE");
+  expect(html).toContain("1:0");
+});
