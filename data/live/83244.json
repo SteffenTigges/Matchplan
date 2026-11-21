@@ -4,7 +4,7 @@
  "home": "S04",
  "away": "VFB",
  "kickoff": "2026-11-21T17:30:00Z",
- "updated_at": "2026-11-21T17:21:26+00:00",
+ "updated_at": "2026-11-21T17:22:27+00:00",
  "status": {
   "started": false,
   "finished": false,
@@ -20,11 +20,22 @@
  "stats": {},
  "momentum": null,
  "shots": [],
- "zones": null,
+ "zones": {
+  "home": {
+   "left": 0,
+   "center": 0,
+   "right": 0
+  },
+  "away": {
+   "left": 0,
+   "center": 0,
+   "right": 0
+  }
+ },
  "lineups": {
   "home": {
    "team": "S04",
-   "formation": "4-2-3-1",
+   "formation": "3-5-2",
    "rating": null,
    "players": [
     {
@@ -37,93 +48,93 @@
      "y": 0.1
     },
     {
-     "id": 1755657,
-     "name": "Mertcan Ayhan",
-     "pos_id": 32,
-     "rating": null,
-     "captain": false,
-     "x": 0.125,
-     "y": 0.292
-    },
-    {
      "id": 725655,
      "name": "Nikola Katić",
-     "pos_id": 34,
+     "pos_id": 33,
      "rating": null,
      "captain": false,
-     "x": 0.375,
-     "y": 0.292
+     "x": 0.21,
+     "y": 0.357
     },
     {
      "id": 794619,
      "name": "Hasan Kuruçay",
-     "pos_id": 36,
+     "pos_id": 35,
      "rating": null,
      "captain": false,
-     "x": 0.625,
-     "y": 0.292
+     "x": 0.5,
+     "y": 0.357
     },
     {
-     "id": 518346,
-     "name": "Robin Gosens",
-     "pos_id": 38,
+     "id": 1659420,
+     "name": "Vitalie Becker",
+     "pos_id": 37,
      "rating": null,
      "captain": false,
-     "x": 0.875,
-     "y": 0.292
+     "x": 0.79,
+     "y": 0.357
     },
     {
-     "id": 1249185,
-     "name": "Soufian El-Faouzi",
-     "pos_id": 64,
+     "id": 1040889,
+     "name": "Junior Dina Ebimbe",
+     "pos_id": 71,
      "rating": null,
      "captain": false,
-     "x": 0.3,
-     "y": 0.485
-    },
-    {
-     "id": 1155066,
-     "name": "Satoshi Tanaka",
-     "pos_id": 66,
-     "rating": null,
-     "captain": false,
-     "x": 0.7,
-     "y": 0.485
+     "x": 0.11,
+     "y": 0.613
     },
     {
      "id": 861668,
      "name": "Dejan Ljubičić",
-     "pos_id": 83,
+     "pos_id": 73,
      "rating": null,
      "captain": false,
-     "x": 0.162,
-     "y": 0.678
+     "x": 0.305,
+     "y": 0.613
+    },
+    {
+     "id": 1249185,
+     "name": "Soufian El-Faouzi",
+     "pos_id": 75,
+     "rating": null,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
     },
     {
      "id": 469763,
      "name": "Kenan Karaman",
-     "pos_id": 85,
+     "pos_id": 77,
      "rating": null,
-     "captain": true,
-     "x": 0.5,
-     "y": 0.678
+     "captain": false,
+     "x": 0.695,
+     "y": 0.613
     },
     {
      "id": 1047664,
      "name": "Adil Aouchiche",
-     "pos_id": 87,
+     "pos_id": 79,
      "rating": null,
      "captain": false,
-     "x": 0.837,
-     "y": 0.678
+     "x": 0.89,
+     "y": 0.613
     },
     {
      "id": 620026,
      "name": "Hwang Hee-Chan",
-     "pos_id": 115,
+     "pos_id": 104,
      "rating": null,
      "captain": false,
-     "x": 0.5,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 882163,
+     "name": "Chukwubuike Adamu",
+     "pos_id": 106,
+     "rating": null,
+     "captain": false,
+     "x": 0.7,
      "y": 0.87
     }
    ]
@@ -143,8 +154,8 @@
      "y": 0.1
     },
     {
-     "id": 1270002,
-     "name": "Luca Jaquez",
+     "id": 1487877,
+     "name": "Finn Jeltsch",
      "pos_id": 33,
      "rating": null,
      "captain": false,
@@ -206,8 +217,8 @@
      "y": 0.485
     },
     {
-     "id": 1340895,
-     "name": "Bilal El Khannouss",
+     "id": 661519,
+     "name": "Deniz Undav",
      "pos_id": 84,
      "rating": null,
      "captain": false,
@@ -224,11 +235,11 @@
      "y": 0.678
     },
     {
-     "id": 661519,
-     "name": "Deniz Undav",
+     "id": 840241,
+     "name": "Ermedin Demirović",
      "pos_id": 105,
      "rating": null,
-     "captain": true,
+     "captain": false,
      "x": 0.5,
      "y": 0.87
     }
