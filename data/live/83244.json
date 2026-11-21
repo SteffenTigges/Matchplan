@@ -4,7 +4,7 @@
  "home": "S04",
  "away": "VFB",
  "kickoff": "2026-11-21T17:30:00Z",
- "updated_at": "2026-11-21T19:30:52+00:00",
+ "updated_at": "2026-11-21T19:32:07+00:00",
  "status": {
   "started": true,
   "finished": true,
@@ -144,7 +144,7 @@
    57
   ],
   "expected_goals": [
-   1.89,
+   1.69,
    2.39
   ],
   "total_shots": [
@@ -157,7 +157,7 @@
   ],
   "touches_opp_box": [
    44,
-   24
+   25
   ],
   "big_chance": [
    1,
@@ -169,12 +169,12 @@
   ],
   "accurate_passes": [
    {
-    "n": 338,
+    "n": 336,
     "pct": 81
    },
    {
-    "n": 466,
-    "pct": 84
+    "n": 467,
+    "pct": 85
    }
   ],
   "yellow_cards": [
@@ -194,28 +194,28 @@
    11
   ],
   "expected_goals_open_play": [
-   1.88,
+   1.55,
    2.39
   ],
   "expected_goals_set_play": [
-   0.01,
+   0.13,
    0.0
   ],
   "expected_goals_on_target": [
-   1.63,
+   1.6,
    1.12
   ],
   "passes": [
-   419,
-   552
+   417,
+   551
   ],
   "own_half_passes": [
-   166,
+   165,
    282
   ],
   "opposition_half_passes": [
-   172,
-   184
+   171,
+   185
   ],
   "long_balls_accurate": [
    {
@@ -242,11 +242,11 @@
    2
   ],
   "tackles": [
-   22,
+   23,
    13
   ],
   "interceptions": [
-   13,
+   12,
    13
   ],
   "shot_blocks": [
@@ -262,17 +262,17 @@
    7
   ],
   "duel_won": [
-   51,
+   52,
    44
   ],
   "ground_duels_won": [
    {
-    "n": 37,
-    "pct": 54
+    "n": 38,
+    "pct": 55
    },
    {
     "n": 31,
-    "pct": 46
+    "pct": 45
    }
   ],
   "aerials_won": [
@@ -607,15 +607,15 @@
   ],
   [
    74,
-   87
+   81
   ],
   [
    75,
-   73
+   68
   ],
   [
    76,
-   24
+   19
   ],
   [
    77,
@@ -675,7 +675,7 @@
   ],
   [
    90.5,
-   20
+   12
   ],
   [
    90.75,
@@ -1131,7 +1131,7 @@
    "min": 90,
    "x": 89.1,
    "y": 30.316,
-   "xg": 0.17902353405952454,
+   "xg": 0.05392450839281082,
    "xgot": 0,
    "situation": "FromCorner",
    "type": "RightFoot",
@@ -1144,9 +1144,9 @@
    "min": 90,
    "x": 101.4913793106,
    "y": 41.425625,
-   "xg": 0.14953652024269104,
-   "xgot": 0.12970410287380219,
-   "situation": "RegularPlay",
+   "xg": 0.06534082442522049,
+   "xgot": 0.10184504091739655,
+   "situation": "FromCorner",
    "type": "RightFoot",
    "result": "saved",
    "own_goal": false
@@ -1160,8 +1160,8 @@
   },
   "away": {
    "left": 43,
-   "center": 21,
-   "right": 36
+   "center": 20,
+   "right": 37
   }
  },
  "lineups": {
@@ -1210,7 +1210,7 @@
      "id": 1659420,
      "name": "Vitalie Becker",
      "pos_id": 38,
-     "rating": 8,
+     "rating": 7.9,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -1228,7 +1228,7 @@
      "id": 861668,
      "name": "Dejan Ljubičić",
      "pos_id": 65,
-     "rating": 7.8,
+     "rating": 7.9,
      "captain": false,
      "x": 0.5,
      "y": 0.485
@@ -1298,7 +1298,7 @@
      "id": 1125187,
      "name": "Ramon Hendriks",
      "pos_id": 34,
-     "rating": 7.4,
+     "rating": 7.5,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -1562,7 +1562,7 @@
    "minutes": 90,
    "goals": 0,
    "assists": 0,
-   "xg": 0.15,
+   "xg": 0.07,
    "shots": 1,
    "key_passes": 0,
    "touches": 64,
@@ -1579,7 +1579,7 @@
    "team": "S04",
    "name": "Hasan Kuruçay",
    "keeper": false,
-   "rating": 7.52,
+   "rating": 7.51,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
@@ -1649,21 +1649,21 @@
    "team": "S04",
    "name": "Dejan Ljubičić",
    "keeper": false,
-   "rating": 7.75,
+   "rating": 7.86,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.06,
-   "xa": 0.09,
+   "xa": 0.11,
    "shots": 1,
    "key_passes": 2,
    "touches": 68,
    "touches_box": 1,
    "final_third_passes": 7,
-   "tackles": 3,
+   "tackles": 4,
    "interceptions": 1,
    "recoveries": 10,
-   "duels_won": 4,
+   "duels_won": 5,
    "duels_lost": 2
   },
   {
@@ -1671,7 +1671,7 @@
    "team": "VFB",
    "name": "Jeff Chabot",
    "keeper": false,
-   "rating": 7.04,
+   "rating": 7.01,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
@@ -1684,27 +1684,28 @@
    "interceptions": 2,
    "recoveries": 4,
    "duels_won": 2,
-   "duels_lost": 5
+   "duels_lost": 6
   },
   {
    "id": 869298,
    "team": "VFB",
    "name": "Nikolas Nartey",
    "keeper": false,
-   "rating": 6.61,
+   "rating": 6.55,
    "minutes": 19,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
    "key_passes": 0,
-   "touches": 22,
-   "touches_box": 0,
+   "touches": 23,
+   "touches_box": 1,
    "dribbles": 1,
    "final_third_passes": 1,
    "tackles": 1,
    "interceptions": 1,
-   "recoveries": 0,
-   "duels_won": 2
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 1
   },
   {
    "id": 882163,
@@ -1734,12 +1735,12 @@
    "team": "VFB",
    "name": "Chris Führich",
    "keeper": false,
-   "rating": 6.49,
+   "rating": 6.5,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.44,
-   "xa": 0.23,
+   "xa": 0.26,
    "shots": 2,
    "key_passes": 3,
    "touches": 60,
@@ -1844,7 +1845,7 @@
    "team": "VFB",
    "name": "Ramon Hendriks",
    "keeper": false,
-   "rating": 7.41,
+   "rating": 7.48,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
@@ -1857,7 +1858,7 @@
    "interceptions": 0,
    "recoveries": 3,
    "duels_won": 7,
-   "duels_lost": 3
+   "duels_lost": 2
   },
   {
    "id": 1155066,
@@ -1941,13 +1942,13 @@
    "team": "VFB",
    "name": "Bilal El Khannouss",
    "keeper": false,
-   "rating": 6.47,
+   "rating": 6.58,
    "minutes": 30,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 31,
+   "touches": 30,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 5,
@@ -1962,7 +1963,7 @@
    "team": "VFB",
    "name": "Dženan Pejčinović",
    "keeper": false,
-   "rating": 6.2,
+   "rating": 6.09,
    "minutes": 30,
    "goals": 0,
    "assists": 0,
@@ -1975,7 +1976,7 @@
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 0,
    "duels_won": 1,
    "duels_lost": 2
   },
@@ -1984,7 +1985,7 @@
    "team": "VFB",
    "name": "Dennis Seimen",
    "keeper": true,
-   "rating": 8.82,
+   "rating": 8.8,
    "minutes": 90,
    "recoveries": 15,
    "touches": 54,
@@ -2003,7 +2004,7 @@
    "assists": 0,
    "xa": 0.03,
    "key_passes": 1,
-   "touches": 87,
+   "touches": 88,
    "touches_box": 0,
    "dribbles": 0,
    "final_third_passes": 4,
@@ -2018,19 +2019,19 @@
    "team": "S04",
    "name": "Vitalie Becker",
    "keeper": false,
-   "rating": 8.01,
+   "rating": 7.87,
    "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.07,
-   "xa": 0.08,
+   "xa": 0.07,
    "shots": 2,
    "key_passes": 1,
-   "touches": 56,
+   "touches": 55,
    "touches_box": 2,
    "final_third_passes": 4,
    "tackles": 6,
-   "interceptions": 2,
+   "interceptions": 1,
    "recoveries": 4,
    "duels_won": 6,
    "duels_lost": 7
@@ -2043,7 +2044,7 @@
    "minutes": 9,
    "goals": 0,
    "assists": 0,
-   "xg": 0.18,
+   "xg": 0.05,
    "shots": 1,
    "key_passes": 0,
    "touches": 4,
