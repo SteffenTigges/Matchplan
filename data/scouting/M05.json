@@ -50,12 +50,19 @@
    1
   ],
   "probs": [
-   0.4162,
-   0.2009,
-   0.3829
+   0.4036,
+   0.204,
+   0.3924
   ]
  },
  "strengths": [
+  {
+   "key": "inside_box_share",
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.7431,
+   "fmt": "pct",
+   "rank": 1
+  },
   {
    "key": "cross_accuracy",
    "label": "Flankenquote",
@@ -69,13 +76,6 @@
    "value": 0.6544,
    "fmt": "dec2",
    "rank": 1
-  },
-  {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.7431,
-   "fmt": "pct",
-   "rank": 2
   },
   {
    "key": "opp_half_share",
@@ -98,7 +98,7 @@
    "label": "Gegentore minus zugelassene xG",
    "value": 3.87,
    "fmt": "signed1",
-   "rank": 16
+   "rank": 17
   },
   {
    "key": "points_minus_xpoints",
@@ -110,6 +110,19 @@
  ],
  "matchplan": [],
  "findings": [
+  {
+   "key": "strength",
+   "text": "Stark: Anteil Schüsse aus dem Strafraum (Platz 1)",
+   "evidence": [
+    {
+     "key": "inside_box_share",
+     "label": "Anteil Schüsse aus dem Strafraum",
+     "value": 0.7431,
+     "fmt": "pct",
+     "rank": 1
+    }
+   ]
+  },
   {
    "key": "strength",
    "text": "Stark: Flankenquote (Platz 1)",
@@ -135,19 +148,6 @@
      "rank": 1
     }
    ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Anteil Schüsse aus dem Strafraum (Platz 2)",
-   "evidence": [
-    {
-     "key": "inside_box_share",
-     "label": "Anteil Schüsse aus dem Strafraum",
-     "value": 0.7431,
-     "fmt": "pct",
-     "rank": 2
-    }
-   ]
   }
  ],
  "buildup": {
@@ -164,7 +164,7 @@
     "label": "Passquote",
     "value": 0.796,
     "fmt": "pct",
-    "rank": 14
+    "rank": 13
    },
    {
     "key": "opp_half_share",
@@ -251,7 +251,7 @@
     "label": "xG pro Spiel",
     "value": 1.9356,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "big_chances_pg",
@@ -323,7 +323,7 @@
     "label": "Gegentore pro Spiel",
     "value": 2.1111,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 14
    },
    {
     "key": "xga_pg",
@@ -344,14 +344,14 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.5556,
     "fmt": "dec1",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
-    "rank": 3
+    "rank": 4
    }
   ]
  },

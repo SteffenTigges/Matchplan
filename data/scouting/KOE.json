@@ -57,6 +57,13 @@
  "strengths": [],
  "weaknesses": [
   {
+   "key": "won_mid_pg",
+   "label": "Ballgewinne im Mittelfeld pro Spiel",
+   "value": 16.3,
+   "fmt": "dec1",
+   "rank": 17
+  },
+  {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
    "value": -4.94,
@@ -69,13 +76,6 @@
    "value": -4.7512,
    "fmt": "signed1",
    "rank": 17
-  },
-  {
-   "key": "won_mid_pg",
-   "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 16.3,
-   "fmt": "dec1",
-   "rank": 16
   },
   {
    "key": "yellow_pg",
@@ -115,21 +115,21 @@
     "label": "Lange Bälle angekommen",
     "value": 0.4302,
     "fmt": "pct",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2383,
     "fmt": "pct",
-    "rank": 14
+    "rank": 12
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
     "value": 0.4972,
     "fmt": "pct",
-    "rank": 8
+    "rank": 9
    }
   ],
   "zones": {
@@ -188,7 +188,7 @@
     "label": "xG pro Spiel",
     "value": 1.594,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 11
    },
    {
     "key": "big_chances_pg",
@@ -202,7 +202,7 @@
     "label": "xG pro Schuss",
     "value": 0.1115,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 11
    },
    {
     "key": "goals_minus_xg",
@@ -260,14 +260,14 @@
     "label": "Gegentore pro Spiel",
     "value": 1.5,
     "fmt": "dec2",
-    "rank": 7
+    "rank": 6
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.512,
     "fmt": "dec2",
-    "rank": 7
+    "rank": 6
    },
    {
     "key": "shots_against_pg",
@@ -281,14 +281,14 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.5,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 11
+    "rank": 12
    }
   ]
  },
@@ -313,7 +313,7 @@
     "label": "Ecken pro Spiel",
     "value": 5.0,
     "fmt": "dec1",
-    "rank": 9
+    "rank": 10
    }
   ],
   "goals_for": 3,

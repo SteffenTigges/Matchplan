@@ -1,77 +1,55 @@
 {
  "team": "SCF",
- "matches": 9,
- "fotmob_matches": 9,
+ "matches": 10,
+ "fotmob_matches": 10,
  "idea": {
   "formations": [
    {
     "formation": "4-2-3-1",
-    "games": 9
+    "games": 10
    }
   ],
   "tags": []
  },
  "next": {
-  "id": 83245,
-  "home": "SVE",
-  "away": "SCF",
-  "kickoff": "2026-11-21T14:30:00Z",
-  "tip": [
-   1,
-   2
-  ],
-  "probs": [
-   0.3398,
-   0.2628,
-   0.3974
-  ]
+  "id": 83249,
+  "home": "SCF",
+  "away": "RBL",
+  "kickoff": "2026-11-29T14:30:00Z",
+  "tip": null,
+  "probs": null
  },
  "strengths": [
   {
+   "key": "duel_rate",
+   "label": "Zweikampfquote",
+   "value": 0.5392,
+   "fmt": "pct",
+   "rank": 1
+  },
+  {
+   "key": "goals_minus_xg",
+   "label": "Tore minus xG",
+   "value": 3.78,
+   "fmt": "signed1",
+   "rank": 1
+  },
+  {
+   "key": "against_pg",
+   "label": "Gegentore pro Spiel",
+   "value": 1.0,
+   "fmt": "dec2",
+   "rank": 2
+  },
+  {
    "key": "xga_pg",
    "label": "Zugelassene xG pro Spiel",
-   "value": 1.12,
-   "fmt": "dec2",
-   "rank": 2
-  },
-  {
-   "key": "shots_against_pg",
-   "label": "Zugelassene Schüsse pro Spiel",
-   "value": 10.1111,
-   "fmt": "dec1",
-   "rank": 2
-  },
-  {
-   "key": "big_chances_against_pg",
-   "label": "Zugelassene Großchancen pro Spiel",
-   "value": 1.8889,
-   "fmt": "dec1",
-   "rank": 2
-  },
-  {
-   "key": "xga_setplay_pg",
-   "label": "Zugelassene xG nach Standards pro Spiel",
-   "value": 0.2078,
+   "value": 1.105,
    "fmt": "dec2",
    "rank": 2
   }
  ],
- "weaknesses": [
-  {
-   "key": "tackles_pg",
-   "label": "Tacklings pro Spiel",
-   "value": 13.3333,
-   "fmt": "dec1",
-   "rank": 17
-  },
-  {
-   "key": "press_ratio",
-   "label": "PPDA (Pässe des Gegners pro Ballgewinn)",
-   "value": 10.3925,
-   "fmt": "dec1",
-   "rank": 16
-  }
- ],
+ "weaknesses": [],
  "matchplan": [
   {
    "key": "late",
@@ -109,27 +87,27 @@
   },
   {
    "key": "strength",
-   "text": "Stark: Zugelassene xG pro Spiel (Platz 2)",
+   "text": "Stark: Zweikampfquote (Platz 1)",
    "evidence": [
     {
-     "key": "xga_pg",
-     "label": "Zugelassene xG pro Spiel",
-     "value": 1.12,
-     "fmt": "dec2",
-     "rank": 2
+     "key": "duel_rate",
+     "label": "Zweikampfquote",
+     "value": 0.5392,
+     "fmt": "pct",
+     "rank": 1
     }
    ]
   },
   {
    "key": "strength",
-   "text": "Stark: Zugelassene Schüsse pro Spiel (Platz 2)",
+   "text": "Stark: Tore minus xG (Platz 1)",
    "evidence": [
     {
-     "key": "shots_against_pg",
-     "label": "Zugelassene Schüsse pro Spiel",
-     "value": 10.1111,
-     "fmt": "dec1",
-     "rank": 2
+     "key": "goals_minus_xg",
+     "label": "Tore minus xG",
+     "value": 3.78,
+     "fmt": "signed1",
+     "rank": 1
     }
    ]
   }
@@ -139,71 +117,71 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.5178,
+    "value": 0.508,
     "fmt": "pct",
     "rank": 7
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8348,
+    "value": 0.8321,
     "fmt": "pct",
     "rank": 6
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3782,
+    "value": 0.3732,
     "fmt": "pct",
     "rank": 12
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4394,
+    "value": 0.4437,
     "fmt": "pct",
-    "rank": 9
+    "rank": 8
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.264,
+    "value": 0.2695,
     "fmt": "pct",
-    "rank": 7
+    "rank": 5
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.5675,
+    "value": 0.5596,
     "fmt": "pct",
     "rank": 6
    }
   ],
   "zones": {
-   "left": 37.0,
+   "left": 37.7,
    "center": 29.2,
-   "right": 33.8
+   "right": 33.1
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
-    "goals": 14,
-    "xg": 8.73,
-    "shots": 82,
-    "share": 0.778
+    "goals": 15,
+    "xg": 9.25,
+    "shots": 88,
+    "share": 0.789
    },
    "Konter": {
     "goals": 1,
     "xg": 1.69,
     "shots": 11,
-    "share": 0.056
+    "share": 0.053
    },
    "Standard": {
     "goals": 3,
-    "xg": 5.26,
-    "shots": 49,
-    "share": 0.167
+    "xg": 5.53,
+    "shots": 52,
+    "share": 0.158
    },
    "Elfmeter": {
     "goals": 0,
@@ -217,46 +195,46 @@
    4,
    2,
    4,
-   2,
+   3,
    6
   ],
-  "goals": 20,
-  "inside_box": 0.65,
+  "goals": 21,
+  "inside_box": 0.645,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 2.2222,
+    "value": 2.1,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 5
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.8267,
+    "value": 1.722,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 9
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 3.3333,
+    "value": 3.0,
     "fmt": "dec1",
-    "rank": 7
+    "rank": 8
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.115,
+    "value": 0.1133,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 9
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 3.56,
+    "value": 3.78,
     "fmt": "signed1",
-    "rank": 3
+    "rank": 1
    }
   ]
  },
@@ -264,20 +242,20 @@
   "situations": {
    "Spielaufbau": {
     "goals": 6,
-    "xg": 6.81,
-    "shots": 56,
+    "xg": 7.13,
+    "shots": 60,
     "share": 0.6
    },
    "Konter": {
     "goals": 1,
-    "xg": 1.44,
-    "shots": 11,
+    "xg": 1.64,
+    "shots": 12,
     "share": 0.1
    },
    "Standard": {
     "goals": 3,
-    "xg": 1.84,
-    "shots": 24,
+    "xg": 2.28,
+    "shots": 29,
     "share": 0.3
    },
    "Elfmeter": {
@@ -297,43 +275,43 @@
   ],
   "goals": 10,
   "opp_zones": {
-   "left": 39.2,
-   "center": 27.2,
-   "right": 33.6
+   "left": 38.8,
+   "center": 27.3,
+   "right": 33.9
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 1.1111,
+    "value": 1.0,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 2
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.12,
+    "value": 1.105,
     "fmt": "dec2",
     "rank": 2
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 10.1111,
+    "value": 10.1,
     "fmt": "dec1",
     "rank": 2
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 1.8889,
+    "value": 1.9,
     "fmt": "dec1",
     "rank": 2
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
-    "value": 3,
+    "value": 4,
     "fmt": "int",
     "rank": 3
    }
@@ -344,40 +322,40 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.5989,
+    "value": 0.565,
     "fmt": "dec2",
     "rank": 3
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.2078,
+    "value": 0.233,
     "fmt": "dec2",
-    "rank": 2
+    "rank": 3
    },
    {
     "key": "corners_pg",
     "label": "Ecken pro Spiel",
-    "value": 4.7778,
+    "value": 4.6,
     "fmt": "dec1",
     "rank": 12
    }
   ],
   "goals_for": 3,
   "goals_against": 3,
-  "corners_against": 3.22
+  "corners_against": 3.4
  },
  "key_players": [
   {
    "id": 1210893,
    "name": "Igor Matanović",
    "pos": "ST",
-   "minutes": 625,
-   "goals": 4,
+   "minutes": 706,
+   "goals": 5,
    "assists": 1,
-   "rating": 7.34,
-   "xg90": 0.51,
-   "xa90": 0.13,
+   "rating": 7.4,
+   "xg90": 0.49,
+   "xa90": 0.11,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Gegentore während auf dem Platz (94. Perzentil)"
@@ -387,11 +365,11 @@
    "id": 1134467,
    "name": "Yuito Suzuki",
    "pos": "AM",
-   "minutes": 624,
+   "minutes": 643,
    "goals": 5,
    "assists": 0,
-   "rating": 7.41,
-   "xg90": 0.47,
+   "rating": 7.26,
+   "xg90": 0.46,
    "xa90": 0.08,
    "why": [
     "Tore (89. Perzentil)",
@@ -402,12 +380,12 @@
    "id": 864157,
    "name": "Jan-Niklas Beste",
    "pos": "RW",
-   "minutes": 655,
+   "minutes": 726,
    "goals": 0,
-   "assists": 1,
-   "rating": 7.18,
-   "xg90": 0.1,
-   "xa90": 0.33,
+   "assists": 2,
+   "rating": 7.28,
+   "xg90": 0.09,
+   "xa90": 0.31,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Ballverluste im Zweikampf (94. Perzentil)"
@@ -417,12 +395,12 @@
    "id": 1302666,
    "name": "Derry Scherhant",
    "pos": "LW",
-   "minutes": 681,
+   "minutes": 762,
    "goals": 2,
    "assists": 3,
-   "rating": 7.42,
-   "xg90": 0.19,
-   "xa90": 0.21,
+   "rating": 7.38,
+   "xg90": 0.17,
+   "xa90": 0.2,
    "why": [
     "Gelbe Karten (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
@@ -432,12 +410,12 @@
    "id": 1269497,
    "name": "Yannik Engelhardt",
    "pos": "DM",
-   "minutes": 663,
+   "minutes": 753,
    "goals": 2,
    "assists": 1,
-   "rating": 7.29,
-   "xg90": 0.19,
-   "xa90": 0.14,
+   "rating": 7.24,
+   "xg90": 0.17,
+   "xa90": 0.12,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Zugelassene xG während auf dem Platz (93. Perzentil)"
@@ -448,20 +426,20 @@
   "Abwehr": {
    "id": 303912,
    "name": "Matthias Ginter",
-   "rating": 7.64,
-   "minutes": 810
+   "rating": 7.65,
+   "minutes": 900
   },
   "Mittelfeld": {
-   "id": 1134467,
-   "name": "Yuito Suzuki",
-   "rating": 7.41,
-   "minutes": 624
+   "id": 602523,
+   "name": "Maximilian Eggestein",
+   "rating": 7.35,
+   "minutes": 900
   },
   "Angriff": {
-   "id": 1302666,
-   "name": "Derry Scherhant",
-   "rating": 7.42,
-   "minutes": 681
+   "id": 1210893,
+   "name": "Igor Matanović",
+   "rating": 7.4,
+   "minutes": 706
   }
  },
  "load": [
@@ -478,6 +456,12 @@
    "full": true
   },
   {
+   "id": 643724,
+   "name": "Philipp Lienhart",
+   "minutes": 270,
+   "full": true
+  },
+  {
    "id": 1281108,
    "name": "Jordy Makengo",
    "minutes": 270,
@@ -490,27 +474,27 @@
    "full": true
   },
   {
-   "id": 643724,
-   "name": "Philipp Lienhart",
-   "minutes": 257,
+   "id": 1269497,
+   "name": "Yannik Engelhardt",
+   "minutes": 255,
    "full": true
   },
   {
    "id": 864157,
    "name": "Jan-Niklas Beste",
-   "minutes": 237,
-   "full": false
-  },
-  {
-   "id": 1134467,
-   "name": "Yuito Suzuki",
-   "minutes": 237,
+   "minutes": 244,
    "full": false
   },
   {
    "id": 1302666,
    "name": "Derry Scherhant",
-   "minutes": 207,
+   "minutes": 211,
+   "full": false
+  },
+  {
+   "id": 1210893,
+   "name": "Igor Matanović",
+   "minutes": 194,
    "full": false
   },
   {
@@ -520,21 +504,15 @@
    "full": false
   },
   {
-   "id": 1269497,
-   "name": "Yannik Engelhardt",
-   "minutes": 165,
-   "full": false
-  },
-  {
-   "id": 1210893,
-   "name": "Igor Matanović",
-   "minutes": 146,
+   "id": 1134467,
+   "name": "Yuito Suzuki",
+   "minutes": 166,
    "full": false
   },
   {
    "id": 556524,
    "name": "Lucas Höler",
-   "minutes": 107,
+   "minutes": 121,
    "full": false
   },
   {
@@ -544,9 +522,9 @@
    "full": false
   },
   {
-   "id": 1075815,
-   "name": "Patrick Osterhage",
-   "minutes": 73,
+   "id": 400625,
+   "name": "Vincenzo Grifo",
+   "minutes": 59,
    "full": false
   }
  ],
@@ -568,8 +546,8 @@
    "points": 9
   },
   "ht_draw": {
-   "games": 3,
-   "points": 6
+   "games": 4,
+   "points": 9
   },
   "ht_trail": {
    "games": 3,
@@ -579,14 +557,14 @@
   "points_dropped": 3,
   "late_for": 6,
   "late_against": 3,
-  "goals_for": 20,
+  "goals_for": 21,
   "goals_against": 10,
   "for_bands": [
    2,
    4,
    2,
    4,
-   2,
+   3,
    6
   ],
   "against_bands": [

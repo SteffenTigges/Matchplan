@@ -26,7 +26,7 @@
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
       "value": 4.2,
       "fmt": "dec1",
-      "rank": 4
+      "rank": 5
      }
     ]
    }
@@ -42,19 +42,12 @@
    0
   ],
   "probs": [
-   0.7043,
-   0.1788,
-   0.1168
+   0.6905,
+   0.1866,
+   0.1228
   ]
  },
  "strengths": [
-  {
-   "key": "long_ball_accuracy",
-   "label": "Lange Bälle angekommen",
-   "value": 0.5134,
-   "fmt": "pct",
-   "rank": 2
-  },
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
@@ -70,56 +63,24 @@
    "rank": 3
   },
   {
-   "key": "press_ratio",
-   "label": "PPDA (Pässe des Gegners pro Ballgewinn)",
-   "value": 6.9456,
-   "fmt": "dec1",
+   "key": "duel_rate",
+   "label": "Zweikampfquote",
+   "value": 0.5228,
+   "fmt": "pct",
    "rank": 3
   }
  ],
- "weaknesses": [],
- "matchplan": [
+ "weaknesses": [
   {
-   "key": "press",
-   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
-   "evidence": [
-    {
-     "key": "won_att3_pg",
-     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.2,
-     "fmt": "dec1",
-     "rank": 4
-    }
-   ]
+   "key": "xg_setplay_pg",
+   "label": "xG nach Standards pro Spiel",
+   "value": 0.33,
+   "fmt": "dec2",
+   "rank": 16
   }
  ],
+ "matchplan": [],
  "findings": [
-  {
-   "key": "press",
-   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
-   "evidence": [
-    {
-     "key": "won_att3_pg",
-     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.2,
-     "fmt": "dec1",
-     "rank": 4
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Lange Bälle angekommen (Platz 2)",
-   "evidence": [
-    {
-     "key": "long_ball_accuracy",
-     "label": "Lange Bälle angekommen",
-     "value": 0.5134,
-     "fmt": "pct",
-     "rank": 2
-    }
-   ]
-  },
   {
    "key": "strength",
    "text": "Stark: Tacklings pro Spiel (Platz 2)",
@@ -130,6 +91,32 @@
      "value": 21.0,
      "fmt": "dec1",
      "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Zugelassene Großchancen pro Spiel (Platz 3)",
+   "evidence": [
+    {
+     "key": "big_chances_against_pg",
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 2.1111,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Zweikampfquote (Platz 3)",
+   "evidence": [
+    {
+     "key": "duel_rate",
+     "label": "Zweikampfquote",
+     "value": 0.5228,
+     "fmt": "pct",
+     "rank": 3
     }
    ]
   }
@@ -162,14 +149,14 @@
     "label": "Lange Bälle angekommen",
     "value": 0.5134,
     "fmt": "pct",
-    "rank": 2
+    "rank": 4
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2335,
     "fmt": "pct",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "field_tilt",
@@ -256,7 +243,7 @@
     "label": "Tore minus xG",
     "value": 1.71,
     "fmt": "signed1",
-    "rank": 6
+    "rank": 5
    }
   ]
  },
@@ -335,7 +322,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 11
+    "rank": 12
    }
   ]
  },
@@ -346,7 +333,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.33,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 16
    },
    {
     "key": "xga_setplay_pg",
@@ -360,7 +347,7 @@
     "label": "Ecken pro Spiel",
     "value": 4.4444,
     "fmt": "dec1",
-    "rank": 14
+    "rank": 13
    }
   ],
   "goals_for": 5,

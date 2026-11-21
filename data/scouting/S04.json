@@ -34,7 +34,7 @@
       "label": "Ballbesitz Ø",
       "value": 0.41,
       "fmt": "pct",
-      "rank": 18
+      "rank": 17
      }
     ]
    },
@@ -70,9 +70,9 @@
    1
   ],
   "probs": [
-   0.4179,
-   0.2308,
-   0.3513
+   0.4062,
+   0.2346,
+   0.3592
   ]
  },
  "strengths": [
@@ -95,24 +95,17 @@
    "label": "Anteil Schüsse aus dem Strafraum",
    "value": 0.7374,
    "fmt": "pct",
-   "rank": 3
+   "rank": 2
   },
   {
-   "key": "clean_sheets",
-   "label": "Spiele ohne Gegentor",
-   "value": 3,
-   "fmt": "int",
-   "rank": 3
+   "key": "interceptions_pg",
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.4444,
+   "fmt": "dec1",
+   "rank": 2
   }
  ],
  "weaknesses": [
-  {
-   "key": "possession",
-   "label": "Ballbesitz Ø",
-   "value": 0.41,
-   "fmt": "pct",
-   "rank": 18
-  },
   {
    "key": "goals_pg",
    "label": "Tore pro Spiel",
@@ -121,17 +114,24 @@
    "rank": 18
   },
   {
-   "key": "xgot_pg",
-   "label": "xGOT pro Spiel",
-   "value": 0.7589,
-   "fmt": "dec2",
-   "rank": 18
-  },
-  {
    "key": "pass_accuracy",
    "label": "Passquote",
    "value": 0.7181,
    "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "key": "long_ball_accuracy",
+   "label": "Lange Bälle angekommen",
+   "value": 0.3403,
+   "fmt": "pct",
+   "rank": 18
+  },
+  {
+   "key": "big_chances_against_pg",
+   "label": "Zugelassene Großchancen pro Spiel",
+   "value": 4.6667,
+   "fmt": "dec1",
    "rank": 18
   }
  ],
@@ -166,17 +166,6 @@
    ]
   },
   {
-   "key": "side",
-   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
-   "evidence": [
-    {
-     "label": "Angriffe der Gegner über links",
-     "value": 0.409,
-     "fmt": "pct"
-    }
-   ]
-  },
-  {
    "key": "aerial",
    "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
    "evidence": [
@@ -185,7 +174,18 @@
      "label": "Luftzweikämpfe gewonnen",
      "value": 0.4715,
      "fmt": "pct",
-     "rank": 13
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "key": "side",
+   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "evidence": [
+    {
+     "label": "Angriffe der Gegner über links",
+     "value": 0.409,
+     "fmt": "pct"
     }
    ]
   }
@@ -221,13 +221,15 @@
    ]
   },
   {
-   "key": "side",
-   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "key": "aerial",
+   "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
    "evidence": [
     {
-     "label": "Angriffe der Gegner über links",
-     "value": 0.409,
-     "fmt": "pct"
+     "key": "aerial_rate",
+     "label": "Luftzweikämpfe gewonnen",
+     "value": 0.4715,
+     "fmt": "pct",
+     "rank": 14
     }
    ]
   }
@@ -239,7 +241,7 @@
     "label": "Ballbesitz Ø",
     "value": 0.41,
     "fmt": "pct",
-    "rank": 18
+    "rank": 17
    },
    {
     "key": "pass_accuracy",
@@ -267,7 +269,7 @@
     "label": "Flankenquote",
     "value": 0.2714,
     "fmt": "pct",
-    "rank": 6
+    "rank": 4
    },
    {
     "key": "field_tilt",
@@ -333,7 +335,7 @@
     "label": "xG pro Spiel",
     "value": 1.1433,
     "fmt": "dec2",
-    "rank": 17
+    "rank": 16
    },
    {
     "key": "big_chances_pg",
@@ -412,7 +414,7 @@
     "label": "Zugelassene xG pro Spiel",
     "value": 2.0933,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "shots_against_pg",
@@ -433,7 +435,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
-    "rank": 3
+    "rank": 4
    }
   ]
  },
@@ -444,7 +446,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.3911,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "xga_setplay_pg",

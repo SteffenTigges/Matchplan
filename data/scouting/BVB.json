@@ -1,12 +1,12 @@
 {
  "team": "BVB",
- "matches": 9,
- "fotmob_matches": 9,
+ "matches": 10,
+ "fotmob_matches": 10,
  "idea": {
   "formations": [
    {
     "formation": "3-4-2-1",
-    "games": 6
+    "games": 7
    },
    {
     "formation": "4-3-3",
@@ -24,7 +24,7 @@
      {
       "key": "possession",
       "label": "Ballbesitz Ø",
-      "value": 0.5367,
+      "value": 0.54,
       "fmt": "pct",
       "rank": 5
      }
@@ -36,7 +36,7 @@
      {
       "key": "won_att3_pg",
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-      "value": 4.3,
+      "value": 4.7,
       "fmt": "dec1",
       "rank": 3
      }
@@ -48,9 +48,9 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.5881,
+      "value": 0.5927,
       "fmt": "pct",
-      "rank": 3
+      "rank": 4
      }
     ]
    },
@@ -60,7 +60,7 @@
      {
       "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
-      "value": 0.4544,
+      "value": 0.4561,
       "fmt": "pct",
       "rank": 2
      }
@@ -69,46 +69,39 @@
   ]
  },
  "next": {
-  "id": 83242,
-  "home": "BMG",
-  "away": "BVB",
-  "kickoff": "2026-11-21T14:30:00Z",
-  "tip": [
-   2,
-   1
-  ],
-  "probs": [
-   0.3958,
-   0.251,
-   0.3532
-  ]
+  "id": 83246,
+  "home": "BVB",
+  "away": "B04",
+  "kickoff": "2026-11-29T18:30:00Z",
+  "tip": null,
+  "probs": null
  },
  "strengths": [
   {
    "key": "against_pg",
    "label": "Gegentore pro Spiel",
-   "value": 0.7778,
+   "value": 0.7,
    "fmt": "dec2",
    "rank": 1
   },
   {
    "key": "clean_sheets",
    "label": "Spiele ohne Gegentor",
-   "value": 5,
+   "value": 6,
    "fmt": "int",
    "rank": 1
   },
   {
    "key": "points_minus_xpoints",
    "label": "Punkte minus xPunkte",
-   "value": 6.5017,
+   "value": 7.2299,
    "fmt": "signed1",
    "rank": 1
   },
   {
    "key": "opp_half_share",
    "label": "Anteil Pässe in der gegn. Hälfte",
-   "value": 0.4544,
+   "value": 0.4561,
    "fmt": "pct",
    "rank": 2
   }
@@ -117,15 +110,8 @@
   {
    "key": "cross_accuracy",
    "label": "Flankenquote",
-   "value": 0.2222,
+   "value": 0.223,
    "fmt": "pct",
-   "rank": 16
-  },
-  {
-   "key": "xg_setplay_pg",
-   "label": "xG nach Standards pro Spiel",
-   "value": 0.32,
-   "fmt": "dec2",
    "rank": 16
   }
  ],
@@ -153,20 +139,9 @@
     {
      "key": "won_att3_pg",
      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.3,
+     "value": 4.7,
      "fmt": "dec1",
      "rank": 3
-    }
-   ]
-  },
-  {
-   "key": "side",
-   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
-   "evidence": [
-    {
-     "label": "Angriffe der Gegner über links",
-     "value": 0.40399999999999997,
-     "fmt": "pct"
     }
    ]
   }
@@ -195,20 +170,22 @@
     {
      "key": "won_att3_pg",
      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.3,
+     "value": 4.7,
      "fmt": "dec1",
      "rank": 3
     }
    ]
   },
   {
-   "key": "side",
-   "text": "Gegner kommen am häufigsten über links durch: dort angreifen (ihre rechte Abwehrseite).",
+   "key": "strength",
+   "text": "Stark: Gegentore pro Spiel (Platz 1)",
    "evidence": [
     {
-     "label": "Angriffe der Gegner über links",
-     "value": 0.40399999999999997,
-     "fmt": "pct"
+     "key": "against_pg",
+     "label": "Gegentore pro Spiel",
+     "value": 0.7,
+     "fmt": "dec2",
+     "rank": 1
     }
    ]
   }
@@ -218,71 +195,71 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.5367,
+    "value": 0.54,
     "fmt": "pct",
     "rank": 5
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8393,
+    "value": 0.8402,
     "fmt": "pct",
     "rank": 4
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4544,
+    "value": 0.4561,
     "fmt": "pct",
     "rank": 2
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4508,
+    "value": 0.4491,
     "fmt": "pct",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2222,
+    "value": 0.223,
     "fmt": "pct",
     "rank": 16
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.5881,
+    "value": 0.5927,
     "fmt": "pct",
-    "rank": 3
+    "rank": 4
    }
   ],
   "zones": {
-   "left": 35.1,
-   "center": 29.0,
-   "right": 35.9
+   "left": 35.8,
+   "center": 28.5,
+   "right": 35.7
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
-    "goals": 11,
-    "xg": 8.68,
-    "shots": 88,
-    "share": 0.733
+    "goals": 12,
+    "xg": 9.7,
+    "shots": 98,
+    "share": 0.75
    },
    "Konter": {
     "goals": 2,
     "xg": 2.35,
     "shots": 16,
-    "share": 0.133
+    "share": 0.125
    },
    "Standard": {
     "goals": 2,
-    "xg": 2.89,
-    "shots": 34,
-    "share": 0.133
+    "xg": 3.46,
+    "shots": 39,
+    "share": 0.125
    },
    "Elfmeter": {
     "goals": 0,
@@ -297,45 +274,45 @@
    0,
    3,
    4,
-   7
+   8
   ],
-  "goals": 16,
+  "goals": 17,
   "inside_box": 0.667,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 1.7778,
+    "value": 1.7,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 8
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.5367,
+    "value": 1.542,
     "fmt": "dec2",
     "rank": 13
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 2.4444,
+    "value": 2.5,
     "fmt": "dec1",
     "rank": 12
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1002,
+    "value": 0.1008,
     "fmt": "dec2",
     "rank": 15
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 2.17,
+    "value": 1.58,
     "fmt": "signed1",
-    "rank": 4
+    "rank": 6
    }
   ]
  },
@@ -343,20 +320,20 @@
   "situations": {
    "Spielaufbau": {
     "goals": 3,
-    "xg": 7.14,
-    "shots": 73,
+    "xg": 7.53,
+    "shots": 78,
     "share": 0.429
    },
    "Konter": {
     "goals": 1,
-    "xg": 1.5,
-    "shots": 9,
+    "xg": 1.52,
+    "shots": 10,
     "share": 0.143
    },
    "Standard": {
     "goals": 3,
-    "xg": 3.81,
-    "shots": 34,
+    "xg": 3.85,
+    "shots": 37,
     "share": 0.429
    },
    "Elfmeter": {
@@ -376,43 +353,43 @@
   ],
   "goals": 7,
   "opp_zones": {
-   "left": 40.4,
-   "center": 26.8,
-   "right": 32.8
+   "left": 39.1,
+   "center": 27.3,
+   "right": 33.6
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 0.7778,
+    "value": 0.7,
     "fmt": "dec2",
     "rank": 1
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.4411,
+    "value": 1.341,
     "fmt": "dec2",
     "rank": 3
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 13.0,
+    "value": 12.6,
     "fmt": "dec1",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.3333,
+    "value": 2.2,
     "fmt": "dec1",
     "rank": 4
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
-    "value": 5,
+    "value": 6,
     "fmt": "int",
     "rank": 1
    }
@@ -423,28 +400,28 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.32,
+    "value": 0.345,
     "fmt": "dec2",
-    "rank": 16
+    "rank": 15
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.4233,
+    "value": 0.385,
     "fmt": "dec2",
     "rank": 8
    },
    {
     "key": "corners_pg",
     "label": "Ecken pro Spiel",
-    "value": 5.5556,
+    "value": 5.7,
     "fmt": "dec1",
     "rank": 6
    }
   ],
   "goals_for": 2,
   "goals_against": 3,
-  "corners_against": 4.44
+  "corners_against": 4.7
  },
  "key_players": [
   {
@@ -466,12 +443,12 @@
    "id": 1047667,
    "name": "Maximilian Beier",
    "pos": "AM",
-   "minutes": 566,
+   "minutes": 655,
    "goals": 2,
    "assists": 3,
-   "rating": 7.14,
-   "xg90": 0.43,
-   "xa90": 0.17,
+   "rating": 7.12,
+   "xg90": 0.42,
+   "xa90": 0.2,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Klärungen (95. Perzentil)"
@@ -481,12 +458,12 @@
    "id": 659272,
    "name": "Julian Ryerson",
    "pos": "RWB",
-   "minutes": 528,
+   "minutes": 618,
    "goals": 0,
    "assists": 0,
-   "rating": 6.98,
+   "rating": 7.03,
    "xg90": 0.01,
-   "xa90": 0.5,
+   "xa90": 0.48,
    "why": [
     "Rote Karten (100. Perzentil)",
     "xA (97. Perzentil)"
@@ -496,10 +473,10 @@
    "id": 792429,
    "name": "Joey Veerman",
    "pos": "DM",
-   "minutes": 476,
+   "minutes": 506,
    "goals": 0,
    "assists": 1,
-   "rating": 7.11,
+   "rating": 7.05,
    "xg90": 0.05,
    "xa90": 0.21,
    "why": [
@@ -511,12 +488,12 @@
    "id": 966019,
    "name": "Felix Nmecha",
    "pos": "DM",
-   "minutes": 659,
-   "goals": 4,
+   "minutes": 749,
+   "goals": 5,
    "assists": 0,
-   "rating": 7.49,
-   "xg90": 0.13,
-   "xa90": 0.12,
+   "rating": 7.6,
+   "xg90": 0.14,
+   "xa90": 0.11,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Schüsse aufs Tor (96. Perzentil)"
@@ -533,32 +510,20 @@
   "Abwehr": {
    "id": 1002058,
    "name": "Nico Schlotterbeck",
-   "rating": 7.79,
-   "minutes": 617
+   "rating": 7.76,
+   "minutes": 707
   },
   "Mittelfeld": {
    "id": 966019,
    "name": "Felix Nmecha",
-   "rating": 7.49,
-   "minutes": 659
+   "rating": 7.6,
+   "minutes": 749
   }
  },
  "load": [
   {
-   "id": 664970,
-   "name": "Waldemar Anton",
-   "minutes": 270,
-   "full": true
-  },
-  {
    "id": 764018,
    "name": "Gregor Kobel",
-   "minutes": 270,
-   "full": true
-  },
-  {
-   "id": 792429,
-   "name": "Joey Veerman",
    "minutes": 270,
    "full": true
   },
@@ -571,61 +536,73 @@
   {
    "id": 1209228,
    "name": "Daniel Svensson",
-   "minutes": 248,
-   "full": false
+   "minutes": 270,
+   "full": true
   },
   {
    "id": 966019,
    "name": "Felix Nmecha",
-   "minutes": 245,
-   "full": false
+   "minutes": 256,
+   "full": true
   },
   {
    "id": 1287373,
    "name": "Jobe Bellingham",
-   "minutes": 184,
+   "minutes": 233,
    "full": false
   },
   {
-   "id": 448540,
-   "name": "Serhou Guirassy",
-   "minutes": 180,
-   "full": false
-  },
-  {
-   "id": 1050158,
-   "name": "Fábio Silva",
-   "minutes": 168,
-   "full": false
-  },
-  {
-   "id": 1479742,
-   "name": "Joane Gadou",
-   "minutes": 155,
+   "id": 664970,
+   "name": "Waldemar Anton",
+   "minutes": 225,
    "full": false
   },
   {
    "id": 1047667,
    "name": "Maximilian Beier",
-   "minutes": 145,
+   "minutes": 212,
    "full": false
   },
   {
-   "id": 1089685,
-   "name": "Carney Chukwuemeka",
-   "minutes": 123,
+   "id": 792429,
+   "name": "Joey Veerman",
+   "minutes": 210,
+   "full": false
+  },
+  {
+   "id": 1479742,
+   "name": "Joane Gadou",
+   "minutes": 199,
+   "full": false
+  },
+  {
+   "id": 1050158,
+   "name": "Fábio Silva",
+   "minutes": 172,
+   "full": false
+  },
+  {
+   "id": 1536436,
+   "name": "Konstantinos Karetsas",
+   "minutes": 163,
    "full": false
   },
   {
    "id": 659272,
    "name": "Julian Ryerson",
-   "minutes": 115,
+   "minutes": 116,
    "full": false
   },
   {
    "id": 559065,
    "name": "Ramy Bensebaini",
    "minutes": 113,
+   "full": false
+  },
+  {
+   "id": 1089685,
+   "name": "Carney Chukwuemeka",
+   "minutes": 101,
    "full": false
   }
  ],
@@ -662,8 +639,8 @@
    "points": 6
   },
   "ht_draw": {
-   "games": 5,
-   "points": 11
+   "games": 6,
+   "points": 14
   },
   "ht_trail": {
    "games": 2,
@@ -671,9 +648,9 @@
   },
   "points_from_behind": 4,
   "points_dropped": 2,
-  "late_for": 7,
+  "late_for": 8,
   "late_against": 3,
-  "goals_for": 16,
+  "goals_for": 17,
   "goals_against": 7,
   "for_bands": [
    2,
@@ -681,7 +658,7 @@
    0,
    3,
    4,
-   7
+   8
   ],
   "against_bands": [
    0,

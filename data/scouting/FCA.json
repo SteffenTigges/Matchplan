@@ -50,9 +50,9 @@
    1
   ],
   "probs": [
-   0.4162,
-   0.2009,
-   0.3829
+   0.4036,
+   0.204,
+   0.3924
   ]
  },
  "strengths": [
@@ -64,24 +64,17 @@
    "rank": 1
   },
   {
-   "key": "won_mid_pg",
-   "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 21.33,
+   "key": "on_target_pg",
+   "label": "Schüsse aufs Tor pro Spiel",
+   "value": 6.6667,
    "fmt": "dec1",
-   "rank": 2
-  },
-  {
-   "key": "goals_pg",
-   "label": "Tore pro Spiel",
-   "value": 2.2222,
-   "fmt": "dec2",
    "rank": 3
   },
   {
-   "key": "xg_pg",
-   "label": "xG pro Spiel",
-   "value": 2.0567,
-   "fmt": "dec2",
+   "key": "cross_accuracy",
+   "label": "Flankenquote",
+   "value": 0.2905,
+   "fmt": "pct",
    "rank": 3
   }
  ],
@@ -92,29 +85,9 @@
    "value": 2.5622,
    "fmt": "dec2",
    "rank": 18
-  },
-  {
-   "key": "big_chances_against_pg",
-   "label": "Zugelassene Großchancen pro Spiel",
-   "value": 3.8889,
-   "fmt": "dec1",
-   "rank": 17
   }
  ],
  "matchplan": [
-  {
-   "key": "depth",
-   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
-   "evidence": [
-    {
-     "key": "big_chances_against_pg",
-     "label": "Zugelassene Großchancen pro Spiel",
-     "value": 3.8889,
-     "fmt": "dec1",
-     "rank": 17
-    }
-   ]
-  },
   {
    "key": "late",
    "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
@@ -143,9 +116,7 @@
      "rank": 15
     }
    ]
-  }
- ],
- "findings": [
+  },
   {
    "key": "depth",
    "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
@@ -155,10 +126,12 @@
      "label": "Zugelassene Großchancen pro Spiel",
      "value": 3.8889,
      "fmt": "dec1",
-     "rank": 17
+     "rank": 15
     }
    ]
-  },
+  }
+ ],
+ "findings": [
   {
    "key": "late",
    "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
@@ -184,6 +157,19 @@
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.5389,
      "fmt": "dec2",
+     "rank": 15
+    }
+   ]
+  },
+  {
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
+   "evidence": [
+    {
+     "key": "big_chances_against_pg",
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.8889,
+     "fmt": "dec1",
      "rank": 15
     }
    ]
@@ -283,28 +269,28 @@
     "label": "Tore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
     "value": 2.0567,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.1111,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1218,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 4
    },
    {
     "key": "goals_minus_xg",
@@ -362,7 +348,7 @@
     "label": "Gegentore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "xga_pg",
@@ -376,21 +362,21 @@
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 18.3333,
     "fmt": "dec1",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.8889,
     "fmt": "dec1",
-    "rank": 17
+    "rank": 15
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 11
+    "rank": 12
    }
   ]
  },
@@ -401,7 +387,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.3856,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 11
    },
    {
     "key": "xga_setplay_pg",

@@ -1,7 +1,7 @@
 {
  "team": "SCP",
- "matches": 9,
- "fotmob_matches": 9,
+ "matches": 10,
+ "fotmob_matches": 10,
  "idea": {
   "formations": [
    {
@@ -11,6 +11,10 @@
    {
     "formation": "3-5-2",
     "games": 4
+   },
+   {
+    "formation": "3-4-2-1",
+    "games": 1
    },
    {
     "formation": "3-4-3",
@@ -31,137 +35,117 @@
   ]
  },
  "next": {
-  "id": 83238,
-  "home": "B04",
-  "away": "SCP",
-  "kickoff": "2026-11-21T14:30:00Z",
-  "tip": [
-   2,
-   1
-  ],
-  "probs": [
-   0.5838,
-   0.2179,
-   0.1983
-  ]
+  "id": 83254,
+  "home": "SCP",
+  "away": "S04",
+  "kickoff": "2026-11-28T14:30:00Z",
+  "tip": null,
+  "probs": null
  },
  "strengths": [
   {
-   "key": "interceptions_pg",
-   "label": "Abgefangene Bälle pro Spiel",
-   "value": 13.1111,
-   "fmt": "dec1",
-   "rank": 1
-  },
-  {
-   "key": "clean_sheets",
-   "label": "Spiele ohne Gegentor",
-   "value": 3,
-   "fmt": "int",
-   "rank": 3
-  },
-  {
    "key": "won_mid_pg",
    "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 20.7,
+   "value": 22.4,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "key": "interceptions_pg",
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.3,
    "fmt": "dec1",
    "rank": 3
   },
   {
-   "key": "tackles_pg",
-   "label": "Tacklings pro Spiel",
-   "value": 18.1111,
-   "fmt": "dec1",
+   "key": "yellow_pg",
+   "label": "Gelbe Karten pro Spiel",
+   "value": 1.3,
+   "fmt": "dec2",
    "rank": 3
   }
  ],
  "weaknesses": [
   {
+   "key": "on_target_pg",
+   "label": "Schüsse aufs Tor pro Spiel",
+   "value": 3.2,
+   "fmt": "dec1",
+   "rank": 18
+  },
+  {
    "key": "xg_per_shot",
    "label": "xG pro Schuss",
-   "value": 0.085,
+   "value": 0.0843,
    "fmt": "dec2",
    "rank": 18
   },
   {
    "key": "xgot_pg",
    "label": "xGOT pro Spiel",
-   "value": 0.7778,
+   "value": 0.705,
+   "fmt": "dec2",
+   "rank": 18
+  },
+  {
+   "key": "xg_pg",
+   "label": "xG pro Spiel",
+   "value": 1.096,
    "fmt": "dec2",
    "rank": 17
-  },
-  {
-   "key": "goals_pg",
-   "label": "Tore pro Spiel",
-   "value": 0.8889,
-   "fmt": "dec2",
-   "rank": 16
-  },
-  {
-   "key": "on_target_pg",
-   "label": "Schüsse aufs Tor pro Spiel",
-   "value": 3.4444,
-   "fmt": "dec1",
-   "rank": 16
   }
  ],
  "matchplan": [
   {
-   "key": "late",
-   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
     {
-     "label": "Gegentore ab der 76. Minute",
-     "value": 4,
-     "fmt": "int"
-    },
-    {
-     "label": "Anteil an allen Gegentoren",
-     "value": 0.36363636363636365,
-     "fmt": "pct"
+     "key": "big_chances_against_pg",
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.9,
+     "fmt": "dec1",
+     "rank": 16
     }
    ]
   }
  ],
  "findings": [
   {
-   "key": "late",
-   "text": "Kassieren spät: in der Schlussphase Druck machen, Wechsel offensiv denken.",
+   "key": "depth",
+   "text": "Lassen viele Großchancen zu: Läufe in die Tiefe suchen.",
    "evidence": [
     {
-     "label": "Gegentore ab der 76. Minute",
-     "value": 4,
-     "fmt": "int"
-    },
-    {
-     "label": "Anteil an allen Gegentoren",
-     "value": 0.36363636363636365,
-     "fmt": "pct"
+     "key": "big_chances_against_pg",
+     "label": "Zugelassene Großchancen pro Spiel",
+     "value": 3.9,
+     "fmt": "dec1",
+     "rank": 16
     }
    ]
   },
   {
    "key": "strength",
-   "text": "Stark: Abgefangene Bälle pro Spiel (Platz 1)",
+   "text": "Stark: Ballgewinne im Mittelfeld pro Spiel (Platz 2)",
+   "evidence": [
+    {
+     "key": "won_mid_pg",
+     "label": "Ballgewinne im Mittelfeld pro Spiel",
+     "value": 22.4,
+     "fmt": "dec1",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Abgefangene Bälle pro Spiel (Platz 3)",
    "evidence": [
     {
      "key": "interceptions_pg",
      "label": "Abgefangene Bälle pro Spiel",
-     "value": 13.1111,
+     "value": 12.3,
      "fmt": "dec1",
-     "rank": 1
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Spiele ohne Gegentor (Platz 3)",
-   "evidence": [
-    {
-     "key": "clean_sheets",
-     "label": "Spiele ohne Gegentor",
-     "value": 3,
-     "fmt": "int",
      "rank": 3
     }
    ]
@@ -172,58 +156,58 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.4978,
+    "value": 0.484,
     "fmt": "pct",
     "rank": 9
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8112,
+    "value": 0.8148,
     "fmt": "pct",
     "rank": 9
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3489,
+    "value": 0.3503,
     "fmt": "pct",
     "rank": 13
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4486,
+    "value": 0.4475,
     "fmt": "pct",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2624,
+    "value": 0.2562,
     "fmt": "pct",
     "rank": 8
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.4588,
+    "value": 0.44,
     "fmt": "pct",
-    "rank": 11
+    "rank": 13
    }
   ],
   "zones": {
-   "left": 36.7,
-   "center": 27.0,
-   "right": 36.3
+   "left": 37.2,
+   "center": 27.1,
+   "right": 35.7
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 2,
-    "xg": 5.39,
-    "shots": 70,
+    "xg": 5.99,
+    "shots": 78,
     "share": 0.25
    },
    "Konter": {
@@ -254,121 +238,121 @@
    1
   ],
   "goals": 8,
-  "inside_box": 0.623,
+  "inside_box": 0.608,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 0.8889,
+    "value": 0.8,
     "fmt": "dec2",
     "rank": 16
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.1522,
+    "value": 1.096,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 17
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 2.1111,
+    "value": 2.0,
     "fmt": "dec1",
-    "rank": 14
+    "rank": 16
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.085,
+    "value": 0.0843,
     "fmt": "dec2",
     "rank": 18
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -2.37,
+    "value": -2.96,
     "fmt": "signed1",
-    "rank": 15
+    "rank": 14
    }
   ]
  },
  "conceding": {
   "situations": {
    "Spielaufbau": {
-    "goals": 7,
-    "xg": 9.71,
-    "shots": 97,
-    "share": 0.636
+    "goals": 11,
+    "xg": 13.53,
+    "shots": 113,
+    "share": 0.733
    },
    "Konter": {
     "goals": 1,
     "xg": 1.59,
     "shots": 10,
-    "share": 0.091
+    "share": 0.067
    },
    "Standard": {
     "goals": 2,
-    "xg": 2.86,
-    "shots": 38,
-    "share": 0.182
+    "xg": 3.05,
+    "shots": 42,
+    "share": 0.133
    },
    "Elfmeter": {
     "goals": 1,
     "xg": 0.79,
     "shots": 1,
-    "share": 0.091
+    "share": 0.067
    }
   },
   "bands": [
-   1,
+   2,
    3,
    0,
-   2,
+   5,
    1,
    4
   ],
-  "goals": 11,
+  "goals": 15,
   "opp_zones": {
-   "left": 37.0,
-   "center": 30.0,
-   "right": 33.0
+   "left": 36.7,
+   "center": 29.8,
+   "right": 33.5
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 1.2222,
+    "value": 1.5,
     "fmt": "dec2",
-    "rank": 4
+    "rank": 6
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.66,
+    "value": 1.895,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 11
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 16.2222,
+    "value": 16.6,
     "fmt": "dec1",
-    "rank": 11
+    "rank": 12
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 3.2222,
+    "value": 3.9,
     "fmt": "dec1",
-    "rank": 12
+    "rank": 16
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 3,
     "fmt": "int",
-    "rank": 3
+    "rank": 4
    }
   ]
  },
@@ -377,57 +361,57 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.3989,
+    "value": 0.359,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 13
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.3233,
+    "value": 0.31,
     "fmt": "dec2",
     "rank": 4
    },
    {
     "key": "corners_pg",
     "label": "Ecken pro Spiel",
-    "value": 4.5556,
+    "value": 4.4,
     "fmt": "dec1",
-    "rank": 13
+    "rank": 14
    }
   ],
   "goals_for": 4,
   "goals_against": 2,
-  "corners_against": 5.56
+  "corners_against": 5.8
  },
  "key_players": [
-  {
-   "id": 784225,
-   "name": "Raphael Obermair",
-   "pos": "LWB",
-   "minutes": 758,
-   "goals": 1,
-   "assists": 0,
-   "rating": 7.24,
-   "xg90": 0.11,
-   "xa90": 0.29,
-   "why": [
-    "Gelbe Karten (100. Perzentil)",
-    "Rote Karten (100. Perzentil)"
-   ]
-  },
   {
    "id": 1426060,
    "name": "Laurin Curda",
    "pos": "RWB",
-   "minutes": 787,
+   "minutes": 877,
    "goals": 0,
    "assists": 1,
-   "rating": 7.41,
-   "xg90": 0.09,
-   "xa90": 0.3,
+   "rating": 7.34,
+   "xg90": 0.08,
+   "xa90": 0.32,
    "why": [
     "Zweikämpfe gewonnen (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 784225,
+   "name": "Raphael Obermair",
+   "pos": "LWB",
+   "minutes": 848,
+   "goals": 1,
+   "assists": 0,
+   "rating": 7.16,
+   "xg90": 0.11,
+   "xa90": 0.26,
+   "why": [
+    "Gelbe Karten (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
    ]
   },
@@ -435,7 +419,7 @@
    "id": 956913,
    "name": "Marvin Pieringer",
    "pos": "ST",
-   "minutes": 496,
+   "minutes": 508,
    "goals": 1,
    "assists": 0,
    "rating": 6.24,
@@ -450,51 +434,51 @@
    "id": 1321553,
    "name": "Stefano Marino",
    "pos": "ST",
-   "minutes": 589,
+   "minutes": 667,
    "goals": 2,
    "assists": 0,
-   "rating": 6.54,
-   "xg90": 0.16,
-   "xa90": 0.13,
+   "rating": 6.5,
+   "xg90": 0.15,
+   "xa90": 0.12,
    "why": [
     "Quote lange Bälle (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
    ]
   },
   {
-   "id": 1367587,
-   "name": "Laurin Ulrich",
-   "pos": "CM",
-   "minutes": 554,
-   "goals": 0,
+   "id": 1362492,
+   "name": "Santiago Castañeda",
+   "pos": "DM",
+   "minutes": 900,
+   "goals": 1,
    "assists": 0,
-   "rating": 6.58,
-   "xg90": 0.07,
-   "xa90": 0.14,
+   "rating": 7.12,
+   "xg90": 0.15,
+   "xa90": 0.09,
    "why": [
-    "Rote Karten (100. Perzentil)",
-    "Gefoult worden (97. Perzentil)"
+    "Klärungen (100. Perzentil)",
+    "Rote Karten (100. Perzentil)"
    ]
   }
  ],
  "lines": {
   "Abwehr": {
-   "id": 1415373,
-   "name": "Tjark Scheller",
-   "rating": 7.44,
-   "minutes": 805
+   "id": 1426060,
+   "name": "Laurin Curda",
+   "rating": 7.34,
+   "minutes": 877
   },
   "Angriff": {
    "id": 1321553,
    "name": "Stefano Marino",
-   "rating": 6.54,
-   "minutes": 589
+   "rating": 6.5,
+   "minutes": 667
   },
   "Mittelfeld": {
    "id": 1362492,
    "name": "Santiago Castañeda",
-   "rating": 7.27,
-   "minutes": 810
+   "rating": 7.12,
+   "minutes": 900
   }
  },
  "load": [
@@ -537,49 +521,49 @@
   {
    "id": 1321553,
    "name": "Stefano Marino",
-   "minutes": 238,
-   "full": false
-  },
-  {
-   "id": 1520469,
-   "name": "Jano ter Horst",
-   "minutes": 220,
+   "minutes": 237,
    "full": false
   },
   {
    "id": 658444,
    "name": "Tom Baack",
+   "minutes": 231,
+   "full": false
+  },
+  {
+   "id": 1520469,
+   "name": "Jano ter Horst",
    "minutes": 203,
    "full": false
   },
   {
    "id": 1276453,
    "name": "Gabriel Vidović",
-   "minutes": 180,
-   "full": false
-  },
-  {
-   "id": 956913,
-   "name": "Marvin Pieringer",
-   "minutes": 105,
-   "full": false
-  },
-  {
-   "id": 706500,
-   "name": "Steffen Tigges",
-   "minutes": 102,
-   "full": false
-  },
-  {
-   "id": 1367587,
-   "name": "Laurin Ulrich",
-   "minutes": 92,
+   "minutes": 192,
    "full": false
   },
   {
    "id": 1688956,
    "name": "Ruben Müller",
-   "minutes": 65,
+   "minutes": 122,
+   "full": false
+  },
+  {
+   "id": 956913,
+   "name": "Marvin Pieringer",
+   "minutes": 89,
+   "full": false
+  },
+  {
+   "id": 1580112,
+   "name": "Deniz Zeitler",
+   "minutes": 76,
+   "full": false
+  },
+  {
+   "id": 767790,
+   "name": "Felix Götze",
+   "minutes": 67,
    "full": false
   }
  ],
@@ -600,7 +584,7 @@
    "points": 6
   },
   "ht_trail": {
-   "games": 3,
+   "games": 4,
    "points": 0
   },
   "points_from_behind": 1,
@@ -608,7 +592,7 @@
   "late_for": 1,
   "late_against": 4,
   "goals_for": 8,
-  "goals_against": 11,
+  "goals_against": 15,
   "for_bands": [
    0,
    3,
@@ -618,10 +602,10 @@
    1
   ],
   "against_bands": [
-   1,
+   2,
    3,
    0,
-   2,
+   5,
    1,
    4
   ]

@@ -77,13 +77,6 @@
    "rank": 1
   },
   {
-   "key": "goals_pg",
-   "label": "Tore pro Spiel",
-   "value": 3.0,
-   "fmt": "dec2",
-   "rank": 1
-  },
-  {
    "key": "xg_pg",
    "label": "xG pro Spiel",
    "value": 3.214,
@@ -94,6 +87,13 @@
    "key": "big_chances_pg",
    "label": "Großchancen pro Spiel",
    "value": 5.4,
+   "fmt": "dec1",
+   "rank": 1
+  },
+  {
+   "key": "box_touches_pg",
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 48.0,
    "fmt": "dec1",
    "rank": 1
   }
@@ -107,18 +107,18 @@
    "rank": 18
   },
   {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.6157,
-   "fmt": "pct",
-   "rank": 17
-  },
-  {
    "key": "duel_rate",
    "label": "Zweikampfquote",
    "value": 0.4621,
    "fmt": "pct",
    "rank": 17
+  },
+  {
+   "key": "inside_box_share",
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.6157,
+   "fmt": "pct",
+   "rank": 16
   }
  ],
  "matchplan": [
@@ -244,7 +244,7 @@
     "label": "Flankenquote",
     "value": 0.2506,
     "fmt": "pct",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "field_tilt",
@@ -303,7 +303,7 @@
     "label": "Tore pro Spiel",
     "value": 3.0,
     "fmt": "dec2",
-    "rank": 1
+    "rank": 2
    },
    {
     "key": "xg_pg",
@@ -331,7 +331,7 @@
     "label": "Tore minus xG",
     "value": -2.14,
     "fmt": "signed1",
-    "rank": 13
+    "rank": 12
    }
   ]
  },
@@ -410,7 +410,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 2,
     "fmt": "int",
-    "rank": 7
+    "rank": 8
    }
   ]
  },
@@ -428,7 +428,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.217,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 2
    },
    {
     "key": "corners_pg",

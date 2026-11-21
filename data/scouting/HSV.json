@@ -38,7 +38,7 @@
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
       "value": 2.8,
       "fmt": "dec1",
-      "rank": 16
+      "rank": 17
      }
     ]
    }
@@ -54,12 +54,19 @@
    0
   ],
   "probs": [
-   0.7043,
-   0.1788,
-   0.1168
+   0.6905,
+   0.1866,
+   0.1228
   ]
  },
  "strengths": [
+  {
+   "key": "tackles_pg",
+   "label": "Tacklings pro Spiel",
+   "value": 18.0,
+   "fmt": "dec1",
+   "rank": 3
+  },
   {
    "key": "points_minus_xpoints",
    "label": "Punkte minus xPunkte",
@@ -108,7 +115,7 @@
      "label": "Luftzweikämpfe gewonnen",
      "value": 0.4548,
      "fmt": "pct",
-     "rank": 16
+     "rank": 17
     }
    ]
   }
@@ -123,7 +130,20 @@
      "label": "Luftzweikämpfe gewonnen",
      "value": 0.4548,
      "fmt": "pct",
-     "rank": 16
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Tacklings pro Spiel (Platz 3)",
+   "evidence": [
+    {
+     "key": "tackles_pg",
+     "label": "Tacklings pro Spiel",
+     "value": 18.0,
+     "fmt": "dec1",
+     "rank": 3
     }
    ]
   },
@@ -242,7 +262,7 @@
     "label": "xG pro Spiel",
     "value": 1.1467,
     "fmt": "dec2",
-    "rank": 16
+    "rank": 15
    },
    {
     "key": "big_chances_pg",
@@ -314,35 +334,35 @@
     "label": "Gegentore pro Spiel",
     "value": 2.2222,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 1.8744,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 18.3333,
     "fmt": "dec1",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.8889,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 10
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 11
+    "rank": 12
    }
   ]
  },
@@ -353,7 +373,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.3678,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 12
    },
    {
     "key": "xga_setplay_pg",

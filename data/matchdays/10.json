@@ -38,14 +38,41 @@
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "B04",
    "away": "SCP",
-   "finished": false,
-   "score": null,
-   "halftime": null,
+   "finished": true,
+   "score": [
+    4,
+    0
+   ],
+   "halftime": [
+    1,
+    0
+   ],
    "goals": [
     {
      "minute": 14,
      "team": "B04",
      "scorer": "A. Moreira",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 47,
+     "team": "B04",
+     "scorer": "A. Moreira",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 51,
+     "team": "B04",
+     "scorer": "P. Schick",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 59,
+     "team": "B04",
+     "scorer": "E. Fernández",
      "penalty": false,
      "own_goal": false
     }
@@ -56,9 +83,15 @@
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "SGE",
    "away": "TSG",
-   "finished": false,
-   "score": null,
-   "halftime": null,
+   "finished": true,
+   "score": [
+    1,
+    0
+   ],
+   "halftime": [
+    1,
+    0
+   ],
    "goals": [
     {
      "minute": 25,
@@ -74,15 +107,56 @@
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "FCU",
    "away": "RBL",
-   "finished": false,
-   "score": null,
-   "halftime": null,
+   "finished": true,
+   "score": [
+    1,
+    5
+   ],
+   "halftime": [
+    1,
+    1
+   ],
    "goals": [
     {
-     "minute": 17,
+     "minute": 18,
      "team": "RBL",
      "scorer": "A. Nusa",
      "penalty": true,
+     "own_goal": false
+    },
+    {
+     "minute": 41,
+     "team": "FCU",
+     "scorer": "M. Aebischer",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 50,
+     "team": "RBL",
+     "scorer": "Romulo",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 72,
+     "team": "RBL",
+     "scorer": "B. Gruda",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 76,
+     "team": "RBL",
+     "scorer": "R. Reitz",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 89,
+     "team": "RBL",
+     "scorer": "R. Baku",
+     "penalty": false,
      "own_goal": false
     }
    ]
@@ -92,20 +166,48 @@
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "BMG",
    "away": "BVB",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
+   "finished": true,
+   "score": [
+    0,
+    1
+   ],
+   "halftime": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "minute": 80,
+     "team": "BVB",
+     "scorer": "F. Nmecha",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83245,
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "SVE",
    "away": "SCF",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
+   "finished": true,
+   "score": [
+    0,
+    1
+   ],
+   "halftime": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "minute": 68,
+     "team": "SCF",
+     "scorer": "I. Matanovic",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83244,

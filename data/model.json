@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T15:00:32+00:00",
+ "updated_at": "2026-11-21T16:28:55+00:00",
  "calibration": {
   "home": 1.7386,
   "away": 1.4575,
@@ -136,10 +136,10 @@
   "fetched_at": "2026-11-19T07:25:15+00:00"
  },
  "check": {
-  "matches": 82,
-  "tendency_rate": 0.5488,
-  "exact_rate": 0.1098,
-  "brier": 0.5958,
+  "matches": 87,
+  "tendency_rate": 0.5632,
+  "exact_rate": 0.1034,
+  "brier": 0.5905,
   "odds_matches": 81,
   "brier_model_same": 0.5852,
   "brier_odds": 0.5778,
@@ -209,10 +209,10 @@
    },
    {
     "md": 10,
-    "matches": 1,
-    "tendency": 0,
+    "matches": 6,
+    "tendency": 4,
     "exact": 0,
-    "brier": 1.457
+    "brier": 0.662
    }
   ],
   "games": [
@@ -1936,6 +1936,106 @@
     "tendency": false,
     "exact": false,
     "brier": 1.457
+   },
+   {
+    "id": 83238,
+    "md": 10,
+    "probs": [
+     0.5849,
+     0.2169,
+     0.1981
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     4,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2586
+   },
+   {
+    "id": 83239,
+    "md": 10,
+    "probs": [
+     0.4111,
+     0.2428,
+     0.3461
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5255
+   },
+   {
+    "id": 83241,
+    "md": 10,
+    "probs": [
+     0.2592,
+     0.2424,
+     0.4984
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     1,
+     5
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.3776
+   },
+   {
+    "id": 83242,
+    "md": 10,
+    "probs": [
+     0.4817,
+     0.242,
+     0.2763
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8143
+   },
+   {
+    "id": 83245,
+    "md": 10,
+    "probs": [
+     0.3347,
+     0.2634,
+     0.4019
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.5391
    }
   ]
  }

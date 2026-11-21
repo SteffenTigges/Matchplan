@@ -1,8 +1,27 @@
 {
- "updated_at": "2026-11-21T15:00:32+00:00",
+ "updated_at": "2026-11-21T16:28:55+00:00",
  "rows": [
   {
    "rank": 1,
+   "team": "BVB",
+   "played": 10,
+   "won": 7,
+   "draw": 3,
+   "lost": 0,
+   "goals": 17,
+   "against": 7,
+   "diff": 10,
+   "points": 24,
+   "form": [
+    "U",
+    "S",
+    "U",
+    "S",
+    "S"
+   ]
+  },
+  {
+   "rank": 2,
    "team": "FCB",
    "played": 10,
    "won": 6,
@@ -21,37 +40,18 @@
    ]
   },
   {
-   "rank": 2,
-   "team": "BVB",
-   "played": 10,
-   "won": 6,
-   "draw": 4,
-   "lost": 0,
-   "goals": 16,
-   "against": 7,
-   "diff": 9,
-   "points": 22,
-   "form": [
-    "U",
-    "U",
-    "S",
-    "U",
-    "S"
-   ]
-  },
-  {
    "rank": 3,
-   "team": "RBL",
+   "team": "SCF",
    "played": 10,
    "won": 7,
-   "draw": 0,
-   "lost": 3,
-   "goals": 28,
-   "against": 13,
-   "diff": 15,
-   "points": 21,
+   "draw": 1,
+   "lost": 2,
+   "goals": 21,
+   "against": 10,
+   "diff": 11,
+   "points": 22,
    "form": [
-    "S",
+    "N",
     "N",
     "S",
     "S",
@@ -60,19 +60,19 @@
   },
   {
    "rank": 4,
-   "team": "SCF",
+   "team": "RBL",
    "played": 10,
-   "won": 6,
-   "draw": 2,
-   "lost": 2,
-   "goals": 20,
-   "against": 10,
-   "diff": 10,
-   "points": 20,
+   "won": 7,
+   "draw": 0,
+   "lost": 3,
+   "goals": 32,
+   "against": 14,
+   "diff": 18,
+   "points": 21,
    "form": [
+    "N",
     "S",
-    "N",
-    "N",
+    "S",
     "S",
     "S"
    ]
@@ -84,15 +84,15 @@
    "won": 6,
    "draw": 1,
    "lost": 3,
-   "goals": 21,
+   "goals": 24,
    "against": 17,
-   "diff": 4,
+   "diff": 7,
    "points": 19,
    "form": [
     "S",
+    "N",
+    "N",
     "S",
-    "N",
-    "N",
     "S"
    ]
   },
@@ -127,11 +127,11 @@
    "diff": -4,
    "points": 15,
    "form": [
-    "N",
     "S",
     "N",
     "S",
-    "U"
+    "U",
+    "S"
    ]
   },
   {
@@ -139,17 +139,17 @@
    "team": "SVE",
    "played": 10,
    "won": 4,
-   "draw": 2,
-   "lost": 4,
+   "draw": 1,
+   "lost": 5,
    "goals": 17,
-   "against": 18,
-   "diff": -1,
-   "points": 14,
+   "against": 19,
+   "diff": -2,
+   "points": 13,
    "form": [
-    "N",
     "S",
     "N",
     "S",
+    "N",
     "N"
    ]
   },
@@ -184,11 +184,11 @@
    "diff": -2,
    "points": 12,
    "form": [
-    "N",
     "S",
     "S",
     "N",
-    "S"
+    "S",
+    "N"
    ]
   },
   {
@@ -256,15 +256,15 @@
    "draw": 4,
    "lost": 4,
    "goals": 8,
-   "against": 12,
-   "diff": -4,
+   "against": 15,
+   "diff": -7,
    "points": 10,
    "form": [
-    "N",
     "U",
     "S",
     "U",
-    "U"
+    "U",
+    "N"
    ]
   },
   {
@@ -293,15 +293,15 @@
    "won": 1,
    "draw": 4,
    "lost": 5,
-   "goals": 7,
-   "against": 22,
-   "diff": -15,
+   "goals": 8,
+   "against": 26,
+   "diff": -18,
    "points": 7,
    "form": [
-    "S",
     "U",
     "U",
     "U",
+    "N",
     "N"
    ]
   },
@@ -329,17 +329,17 @@
    "team": "BMG",
    "played": 10,
    "won": 1,
-   "draw": 2,
-   "lost": 7,
+   "draw": 1,
+   "lost": 8,
    "goals": 12,
-   "against": 25,
-   "diff": -13,
-   "points": 5,
+   "against": 26,
+   "diff": -14,
+   "points": 4,
    "form": [
-    "N",
     "N",
     "S",
     "U",
+    "N",
     "N"
    ]
   }
