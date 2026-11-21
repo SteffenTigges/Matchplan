@@ -88,9 +88,9 @@
    1
   ],
   "probs": [
-   0.4115,
-   0.2378,
-   0.3507
+   0.4199,
+   0.2369,
+   0.3432
   ]
  },
  "strengths": [
@@ -137,13 +137,6 @@
    "value": 3.96,
    "fmt": "signed1",
    "rank": 17
-  },
-  {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.6266,
-   "fmt": "pct",
-   "rank": 16
   }
  ],
  "matchplan": [
@@ -268,14 +261,14 @@
     "label": "Lange Bälle angekommen",
     "value": 0.4436,
     "fmt": "pct",
-    "rank": 9
+    "rank": 8
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
     "value": 0.2522,
     "fmt": "pct",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "field_tilt",
@@ -355,7 +348,7 @@
     "label": "xG pro Schuss",
     "value": 0.11,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "goals_minus_xg",

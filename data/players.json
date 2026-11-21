@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T17:45:47+00:00",
+ "updated_at": "2026-11-20T23:58:34+00:00",
  "players": [
   {
    "id": 1804634,
@@ -66,6 +66,17 @@
    "minutes": 48,
    "apps": 2,
    "rating": 6.22
+  },
+  {
+   "id": 1740666,
+   "name": "Tim Binder",
+   "team": null,
+   "team_name": "Bayern München U19",
+   "pos": "RW",
+   "age": 19,
+   "minutes": 45,
+   "apps": 1,
+   "rating": 5.99
   },
   {
    "id": 1810868,
@@ -282,6 +293,17 @@
    "team": null,
    "team_name": "Hoffenheim II",
    "pos": "ST",
+   "age": 19,
+   "minutes": 3,
+   "apps": 1,
+   "rating": null
+  },
+  {
+   "id": 1845066,
+   "name": "Noah Codjo-Evora",
+   "team": null,
+   "team_name": "Bayern München U19",
+   "pos": "LW",
    "age": 19,
    "minutes": 3,
    "apps": 1,
@@ -1284,9 +1306,9 @@
    "team_name": "Bayern München",
    "pos": "CB",
    "age": 28,
-   "minutes": 765,
-   "apps": 9,
-   "rating": 7.97
+   "minutes": 835,
+   "apps": 10,
+   "rating": 7.91
   },
   {
    "id": 1029063,
@@ -1295,20 +1317,9 @@
    "team_name": "Bayern München",
    "pos": "RW",
    "age": 24,
-   "minutes": 747,
-   "apps": 9,
-   "rating": 8.44
-  },
-  {
-   "id": 194165,
-   "name": "Harry Kane",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "ST",
-   "age": 33,
-   "minutes": 715,
-   "apps": 9,
-   "rating": 8.09
+   "minutes": 792,
+   "apps": 10,
+   "rating": 8.26
   },
   {
    "id": 460632,
@@ -1317,9 +1328,20 @@
    "team_name": "Bayern München",
    "pos": "DM",
    "age": 31,
-   "minutes": 651,
-   "apps": 8,
-   "rating": 8.03
+   "minutes": 741,
+   "apps": 9,
+   "rating": 8.01
+  },
+  {
+   "id": 194165,
+   "name": "Harry Kane",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "ST",
+   "age": 33,
+   "minutes": 735,
+   "apps": 10,
+   "rating": 7.88
   },
   {
    "id": 1473580,
@@ -1328,9 +1350,9 @@
    "team_name": "Bayern München",
    "pos": "DM",
    "age": 22,
-   "minutes": 637,
-   "apps": 8,
-   "rating": 8.04
+   "minutes": 724,
+   "apps": 9,
+   "rating": 7.98
   },
   {
    "id": 1395447,
@@ -1339,9 +1361,9 @@
    "team_name": "Bayern München",
    "pos": "LB",
    "age": 23,
-   "minutes": 515,
-   "apps": 9,
-   "rating": 7.0
+   "minutes": 605,
+   "apps": 10,
+   "rating": 7.12
   },
   {
    "id": 526827,
@@ -1350,9 +1372,42 @@
    "team_name": "Bayern München",
    "pos": "RB",
    "age": 29,
-   "minutes": 505,
+   "minutes": 575,
+   "apps": 7,
+   "rating": 7.4
+  },
+  {
+   "id": 950824,
+   "name": "Josip Stanišić",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "RB",
+   "age": 26,
+   "minutes": 571,
+   "apps": 9,
+   "rating": 6.9
+  },
+  {
+   "id": 469700,
+   "name": "Jonathan Tah",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "CB",
+   "age": 30,
+   "minutes": 546,
+   "apps": 7,
+   "rating": 7.72
+  },
+  {
+   "id": 1285872,
+   "name": "Jonas Urbig",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "GK",
+   "age": 23,
+   "minutes": 496,
    "apps": 6,
-   "rating": 7.42
+   "rating": 6.9
   },
   {
    "id": 751202,
@@ -1366,28 +1421,6 @@
    "rating": 7.46
   },
   {
-   "id": 950824,
-   "name": "Josip Stanišić",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "RB",
-   "age": 26,
-   "minutes": 481,
-   "apps": 8,
-   "rating": 6.9
-  },
-  {
-   "id": 469700,
-   "name": "Jonathan Tah",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "CB",
-   "age": 30,
-   "minutes": 456,
-   "apps": 6,
-   "rating": 7.61
-  },
-  {
    "id": 860914,
    "name": "Luis Díaz",
    "team": "FCB",
@@ -1399,15 +1432,26 @@
    "rating": 7.7
   },
   {
-   "id": 1285872,
-   "name": "Jonas Urbig",
+   "id": 1737700,
+   "name": "Lennart Karl",
    "team": "FCB",
    "team_name": "Bayern München",
-   "pos": "GK",
-   "age": 23,
+   "pos": "AM",
+   "age": 18,
+   "minutes": 411,
+   "apps": 9,
+   "rating": 7.21
+  },
+  {
+   "id": 828159,
+   "name": "Kim Min-Jae",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "CB",
+   "age": 30,
    "minutes": 406,
-   "apps": 5,
-   "rating": 6.84
+   "apps": 6,
+   "rating": 7.11
   },
   {
    "id": 27299,
@@ -1421,17 +1465,6 @@
    "rating": 6.84
   },
   {
-   "id": 828159,
-   "name": "Kim Min-Jae",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "CB",
-   "age": 30,
-   "minutes": 386,
-   "apps": 5,
-   "rating": 7.27
-  },
-  {
    "id": 1180288,
    "name": "Ismael Saibari",
    "team": "FCB",
@@ -1443,26 +1476,26 @@
    "rating": 7.2
   },
   {
-   "id": 1737700,
-   "name": "Lennart Karl",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "AM",
-   "age": 18,
-   "minutes": 321,
-   "apps": 8,
-   "rating": 7.27
-  },
-  {
    "id": 1286183,
    "name": "Tom Bischof",
    "team": "FCB",
    "team_name": "Bayern München",
    "pos": "DM",
    "age": 21,
-   "minutes": 261,
-   "apps": 8,
-   "rating": 6.81
+   "minutes": 331,
+   "apps": 9,
+   "rating": 6.95
+  },
+  {
+   "id": 1156141,
+   "name": "Jamal Musiala",
+   "team": "FCB",
+   "team_name": "Bayern München",
+   "pos": "AM",
+   "age": 23,
+   "minutes": 168,
+   "apps": 4,
+   "rating": 6.67
   },
   {
    "id": 385437,
@@ -1474,17 +1507,6 @@
    "minutes": 159,
    "apps": 5,
    "rating": 6.67
-  },
-  {
-   "id": 1156141,
-   "name": "Jamal Musiala",
-   "team": "FCB",
-   "team_name": "Bayern München",
-   "pos": "AM",
-   "age": 23,
-   "minutes": 148,
-   "apps": 3,
-   "rating": 6.92
   },
   {
    "id": 1034808,
@@ -2021,9 +2043,9 @@
    "team_name": "1. FC Köln",
    "pos": "GK",
    "age": 31,
-   "minutes": 810,
-   "apps": 9,
-   "rating": 7.29
+   "minutes": 900,
+   "apps": 10,
+   "rating": 7.16
   },
   {
    "id": 1463271,
@@ -2032,9 +2054,9 @@
    "team_name": "1. FC Köln",
    "pos": "CB",
    "age": 21,
-   "minutes": 810,
-   "apps": 9,
-   "rating": 6.96
+   "minutes": 900,
+   "apps": 10,
+   "rating": 7.02
   },
   {
    "id": 992060,
@@ -2043,9 +2065,9 @@
    "team_name": "1. FC Köln",
    "pos": "CM",
    "age": 25,
-   "minutes": 727,
-   "apps": 9,
-   "rating": 7.25
+   "minutes": 817,
+   "apps": 10,
+   "rating": 7.32
   },
   {
    "id": 930035,
@@ -2054,9 +2076,9 @@
    "team_name": "1. FC Köln",
    "pos": "RW",
    "age": 27,
-   "minutes": 639,
-   "apps": 9,
-   "rating": 6.92
+   "minutes": 716,
+   "apps": 10,
+   "rating": 6.87
   },
   {
    "id": 784175,
@@ -2065,9 +2087,9 @@
    "team_name": "1. FC Köln",
    "pos": "CB",
    "age": 28,
-   "minutes": 617,
-   "apps": 7,
-   "rating": 6.84
+   "minutes": 707,
+   "apps": 8,
+   "rating": 6.88
   },
   {
    "id": 1613676,
@@ -2076,31 +2098,9 @@
    "team_name": "1. FC Köln",
    "pos": "LW",
    "age": 20,
-   "minutes": 593,
-   "apps": 8,
-   "rating": 6.96
-  },
-  {
-   "id": 1000428,
-   "name": "Ísak Jóhannesson",
-   "team": "KOE",
-   "team_name": "1. FC Köln",
-   "pos": "CM",
-   "age": 23,
-   "minutes": 553,
+   "minutes": 678,
    "apps": 9,
-   "rating": 6.61
-  },
-  {
-   "id": 626890,
-   "name": "Marius Bülter",
-   "team": "KOE",
-   "team_name": "1. FC Köln",
-   "pos": "ST",
-   "age": 33,
-   "minutes": 550,
-   "apps": 9,
-   "rating": 6.78
+   "rating": 6.99
   },
   {
    "id": 1407250,
@@ -2109,9 +2109,20 @@
    "team_name": "1. FC Köln",
    "pos": "LW",
    "age": 19,
-   "minutes": 497,
-   "apps": 8,
-   "rating": 6.57
+   "minutes": 586,
+   "apps": 9,
+   "rating": 6.71
+  },
+  {
+   "id": 1000428,
+   "name": "Ísak Jóhannesson",
+   "team": "KOE",
+   "team_name": "1. FC Köln",
+   "pos": "CM",
+   "age": 23,
+   "minutes": 566,
+   "apps": 10,
+   "rating": 6.62
   },
   {
    "id": 622091,
@@ -2120,9 +2131,20 @@
    "team_name": "1. FC Köln",
    "pos": "LWB",
    "age": 28,
-   "minutes": 476,
-   "apps": 6,
-   "rating": 7.33
+   "minutes": 566,
+   "apps": 7,
+   "rating": 7.41
+  },
+  {
+   "id": 626890,
+   "name": "Marius Bülter",
+   "team": "KOE",
+   "team_name": "1. FC Köln",
+   "pos": "ST",
+   "age": 33,
+   "minutes": 551,
+   "apps": 10,
+   "rating": 6.78
   },
   {
    "id": 936140,
@@ -2131,9 +2153,20 @@
    "team_name": "1. FC Köln",
    "pos": "CB",
    "age": 26,
-   "minutes": 434,
-   "apps": 6,
-   "rating": 6.79
+   "minutes": 519,
+   "apps": 7,
+   "rating": 6.83
+  },
+  {
+   "id": 1527363,
+   "name": "Paul Okon-Engstler",
+   "team": "KOE",
+   "team_name": "1. FC Köln",
+   "pos": "DM",
+   "age": 21,
+   "minutes": 400,
+   "apps": 8,
+   "rating": 6.78
   },
   {
    "id": 748620,
@@ -2142,9 +2175,20 @@
    "team_name": "1. FC Köln",
    "pos": "RB",
    "age": 29,
-   "minutes": 368,
-   "apps": 7,
+   "minutes": 373,
+   "apps": 8,
    "rating": 6.83
+  },
+  {
+   "id": 1003254,
+   "name": "Joël Schmied",
+   "team": "KOE",
+   "team_name": "1. FC Köln",
+   "pos": "CB",
+   "age": 28,
+   "minutes": 352,
+   "apps": 7,
+   "rating": 6.81
   },
   {
    "id": 771630,
@@ -2158,17 +2202,6 @@
    "rating": 6.57
   },
   {
-   "id": 1527363,
-   "name": "Paul Okon-Engstler",
-   "team": "KOE",
-   "team_name": "1. FC Köln",
-   "pos": "DM",
-   "age": 21,
-   "minutes": 323,
-   "apps": 7,
-   "rating": 6.75
-  },
-  {
    "id": 574642,
    "name": "Ellyes Skhiri",
    "team": "KOE",
@@ -2178,17 +2211,6 @@
    "minutes": 295,
    "apps": 5,
    "rating": 6.97
-  },
-  {
-   "id": 1003254,
-   "name": "Joël Schmied",
-   "team": "KOE",
-   "team_name": "1. FC Köln",
-   "pos": "CB",
-   "age": 28,
-   "minutes": 262,
-   "apps": 6,
-   "rating": 6.85
   },
   {
    "id": 772193,
@@ -2202,6 +2224,17 @@
    "rating": 6.62
   },
   {
+   "id": 1119643,
+   "name": "Jan Thielmann",
+   "team": "KOE",
+   "team_name": "1. FC Köln",
+   "pos": "RM",
+   "age": 24,
+   "minutes": 161,
+   "apps": 5,
+   "rating": 6.51
+  },
+  {
    "id": 885085,
    "name": "Thijs Dallinga",
    "team": "KOE",
@@ -2213,25 +2246,14 @@
    "rating": 7.0
   },
   {
-   "id": 1119643,
-   "name": "Jan Thielmann",
-   "team": "KOE",
-   "team_name": "1. FC Köln",
-   "pos": "RM",
-   "age": 24,
-   "minutes": 148,
-   "apps": 4,
-   "rating": 6.67
-  },
-  {
    "id": 1665352,
    "name": "Reigan Heskey",
    "team": "KOE",
    "team_name": "1. FC Köln",
    "pos": "LW",
    "age": 18,
-   "minutes": 46,
-   "apps": 4,
+   "minutes": 51,
+   "apps": 5,
    "rating": 5.96
   },
   {

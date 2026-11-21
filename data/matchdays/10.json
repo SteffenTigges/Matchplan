@@ -3,14 +3,45 @@
  "season": 2026,
  "matches": [
   {
-   "id": 83237,
-   "kickoff": "2026-11-20T19:30:00Z",
-   "home": "FCB",
-   "away": "KOE",
+   "id": 83245,
+   "kickoff": "2026-11-21T14:30:00Z",
+   "home": "SVE",
+   "away": "SCF",
    "finished": false,
    "score": null,
    "halftime": null,
    "goals": []
+  },
+  {
+   "id": 83237,
+   "kickoff": "2026-11-20T19:30:00Z",
+   "home": "FCB",
+   "away": "KOE",
+   "finished": true,
+   "score": [
+    1,
+    1
+   ],
+   "halftime": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "minute": 12,
+     "team": "KOE",
+     "scorer": "M. Moore",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 37,
+     "team": "FCB",
+     "scorer": "N. Brown",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83238,
@@ -47,16 +78,6 @@
    "kickoff": "2026-11-21T14:30:00Z",
    "home": "BMG",
    "away": "BVB",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
-  },
-  {
-   "id": 83245,
-   "kickoff": "2026-11-21T14:30:00Z",
-   "home": "SVE",
-   "away": "SCF",
    "finished": false,
    "score": null,
    "halftime": null,

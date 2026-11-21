@@ -66,12 +66,26 @@
    2
   ],
   "probs": [
-   0.2518,
-   0.2397,
-   0.5084
+   0.2581,
+   0.2408,
+   0.501
   ]
  },
  "strengths": [
+  {
+   "key": "goals_pg",
+   "label": "Tore pro Spiel",
+   "value": 3.0,
+   "fmt": "dec2",
+   "rank": 1
+  },
+  {
+   "key": "xg_per_shot",
+   "label": "xG pro Schuss",
+   "value": 0.1451,
+   "fmt": "dec2",
+   "rank": 1
+  },
   {
    "key": "clean_sheets",
    "label": "Spiele ohne Gegentor",
@@ -84,20 +98,6 @@
    "label": "Zugelassene xG nach Standards pro Spiel",
    "value": 0.1722,
    "fmt": "dec2",
-   "rank": 1
-  },
-  {
-   "key": "duel_rate",
-   "label": "Zweikampfquote",
-   "value": 0.5362,
-   "fmt": "pct",
-   "rank": 1
-  },
-  {
-   "key": "aerial_rate",
-   "label": "Luftzweikämpfe gewonnen",
-   "value": 0.5695,
-   "fmt": "pct",
    "rank": 1
   }
  ],
@@ -159,13 +159,13 @@
   },
   {
    "key": "strength",
-   "text": "Stark: Spiele ohne Gegentor (Platz 1)",
+   "text": "Stark: Tore pro Spiel (Platz 1)",
    "evidence": [
     {
-     "key": "clean_sheets",
-     "label": "Spiele ohne Gegentor",
-     "value": 5,
-     "fmt": "int",
+     "key": "goals_pg",
+     "label": "Tore pro Spiel",
+     "value": 3.0,
+     "fmt": "dec2",
      "rank": 1
     }
    ]
@@ -265,7 +265,7 @@
     "label": "Tore pro Spiel",
     "value": 3.0,
     "fmt": "dec2",
-    "rank": 2
+    "rank": 1
    },
    {
     "key": "xg_pg",
@@ -286,7 +286,7 @@
     "label": "xG pro Schuss",
     "value": 0.1451,
     "fmt": "dec2",
-    "rank": 2
+    "rank": 1
    },
    {
     "key": "goals_minus_xg",
@@ -397,7 +397,7 @@
     "label": "Ecken pro Spiel",
     "value": 5.1111,
     "fmt": "dec1",
-    "rank": 9
+    "rank": 8
    }
   ],
   "goals_for": 3,

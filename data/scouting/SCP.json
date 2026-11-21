@@ -40,9 +40,9 @@
    1
   ],
   "probs": [
-   0.5753,
-   0.2206,
-   0.2041
+   0.5838,
+   0.2179,
+   0.1983
   ]
  },
  "strengths": [
@@ -84,13 +84,6 @@
    "rank": 18
   },
   {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.623,
-   "fmt": "pct",
-   "rank": 17
-  },
-  {
    "key": "xgot_pg",
    "label": "xGOT pro Spiel",
    "value": 0.7778,
@@ -102,6 +95,13 @@
    "label": "Tore pro Spiel",
    "value": 0.8889,
    "fmt": "dec2",
+   "rank": 16
+  },
+  {
+   "key": "on_target_pg",
+   "label": "Schüsse aufs Tor pro Spiel",
+   "value": 3.4444,
+   "fmt": "dec1",
    "rank": 16
   }
  ],
@@ -174,7 +174,7 @@
     "label": "Ballbesitz Ø",
     "value": 0.4978,
     "fmt": "pct",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "pass_accuracy",

@@ -50,9 +50,9 @@
    1
   ],
   "probs": [
-   0.4068,
-   0.2014,
-   0.3918
+   0.4162,
+   0.2009,
+   0.3829
   ]
  },
  "strengths": [
@@ -94,16 +94,16 @@
    "rank": 17
   },
   {
-   "key": "points_minus_xpoints",
-   "label": "Punkte minus xPunkte",
-   "value": -4.6113,
-   "fmt": "signed1",
-   "rank": 17
-  },
-  {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
    "value": 3.87,
+   "fmt": "signed1",
+   "rank": 16
+  },
+  {
+   "key": "points_minus_xpoints",
+   "label": "Punkte minus xPunkte",
+   "value": -4.6113,
    "fmt": "signed1",
    "rank": 16
   }
@@ -157,7 +157,7 @@
     "label": "Ballbesitz Ø",
     "value": 0.4833,
     "fmt": "pct",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "pass_accuracy",
@@ -344,7 +344,7 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.5556,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "clean_sheets",
@@ -369,7 +369,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.3744,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "corners_pg",
