@@ -4,13 +4,13 @@
  "home": "BMG",
  "away": "BVB",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T16:27:14+00:00",
+ "updated_at": "2026-11-21T16:28:16+00:00",
  "status": {
   "started": true,
-  "finished": false,
+  "finished": true,
   "cancelled": false,
-  "minute": "89‎’‎",
-  "reason": null,
+  "minute": null,
+  "reason": "FT",
   "score": [
    0,
    1
@@ -18,14 +18,118 @@
  },
  "events": [
   {
-   "min": 85,
+   "min": 16,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Joane Gadou",
+   "player_id": 1479742
+  },
+  {
+   "min": 32,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Zento Uno",
+   "player_id": 1337143
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 46,
    "plus": null,
    "home": true,
    "type": "sub",
-   "in": "Nicolas-Gerrit Kühn",
-   "in_id": 888745,
-   "out": "Joseph Scally",
-   "out_id": 959696
+   "in": "Mathieu Nguefack",
+   "in_id": 1975572,
+   "out": "Zento Uno",
+   "out_id": 1337143
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Waldemar Anton",
+   "in_id": 664970,
+   "out": "Joane Gadou",
+   "out_id": 1479742
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Joey Veerman",
+   "in_id": 792429,
+   "out": "Jobe Bellingham",
+   "out_id": 1287373
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Kevin Diks",
+   "player_id": 566158
+  },
+  {
+   "min": 72,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mathis Albert",
+   "in_id": 1692797,
+   "out": "Fábio Silva",
+   "out_id": 1050158
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Marcel Sabitzer",
+   "in_id": 215151,
+   "out": "Konstantinos Karetsas",
+   "out_id": 1536436
+  },
+  {
+   "min": 74,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Isac Lidberg",
+   "in_id": 655095,
+   "out": "Shuto Machino",
+   "out_id": 915111
+  },
+  {
+   "min": 74,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "David Herold",
+   "in_id": 1356589,
+   "out": "Robin Hack",
+   "out_id": 884919
+  },
+  {
+   "min": 74,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Franck Honorat",
+   "in_id": 501543,
+   "out": "Jens Castrop",
+   "out_id": 1185902
   },
   {
    "min": 80,
@@ -43,124 +147,44 @@
    "penalty": false
   },
   {
-   "min": 74,
+   "min": 85,
    "plus": null,
    "home": true,
    "type": "sub",
-   "in": "Franck Honorat",
-   "in_id": 501543,
-   "out": "Jens Castrop",
-   "out_id": 1185902
+   "in": "Nicolas-Gerrit Kühn",
+   "in_id": 888745,
+   "out": "Joseph Scally",
+   "out_id": 959696
   },
   {
-   "min": 74,
+   "min": 90,
    "plus": null,
-   "home": true,
-   "type": "sub",
-   "in": "David Herold",
-   "in_id": 1356589,
-   "out": "Robin Hack",
-   "out_id": 884919
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
   },
   {
-   "min": 74,
-   "plus": null,
-   "home": true,
-   "type": "sub",
-   "in": "Isac Lidberg",
-   "in_id": 655095,
-   "out": "Shuto Machino",
-   "out_id": 915111
-  },
-  {
-   "min": 73,
-   "plus": null,
+   "min": 90,
+   "plus": 2,
    "home": false,
    "type": "sub",
-   "in": "Marcel Sabitzer",
-   "in_id": 215151,
-   "out": "Konstantinos Karetsas",
-   "out_id": 1536436
+   "in": "Ethan Nwaneri",
+   "in_id": 1254234,
+   "out": "Maximilian Beier",
+   "out_id": 1047667
   },
   {
-   "min": 72,
-   "plus": null,
-   "home": false,
-   "type": "sub",
-   "in": "Mathis Albert",
-   "in_id": 1692797,
-   "out": "Fábio Silva",
-   "out_id": 1050158
-  },
-  {
-   "min": 71,
-   "plus": null,
-   "home": true,
-   "type": "card",
-   "card": "yellow",
-   "player": "Kevin Diks",
-   "player_id": 566158
-  },
-  {
-   "min": 60,
-   "plus": null,
-   "home": false,
-   "type": "sub",
-   "in": "Joey Veerman",
-   "in_id": 792429,
-   "out": "Jobe Bellingham",
-   "out_id": 1287373
-  },
-  {
-   "min": 46,
-   "plus": null,
-   "home": false,
-   "type": "sub",
-   "in": "Waldemar Anton",
-   "in_id": 664970,
-   "out": "Joane Gadou",
-   "out_id": 1479742
-  },
-  {
-   "min": 46,
-   "plus": null,
-   "home": true,
-   "type": "sub",
-   "in": "Mathieu Nguefack",
-   "in_id": 1975572,
-   "out": "Zento Uno",
-   "out_id": 1337143
-  },
-  {
-   "min": 45,
+   "min": 90,
    "plus": null,
    "home": null,
    "type": "half",
-   "text": "HT"
-  },
-  {
-   "min": 32,
-   "plus": null,
-   "home": true,
-   "type": "card",
-   "card": "yellow",
-   "player": "Zento Uno",
-   "player_id": 1337143
-  },
-  {
-   "min": 16,
-   "plus": null,
-   "home": false,
-   "type": "card",
-   "card": "yellow",
-   "player": "Joane Gadou",
-   "player_id": 1479742
+   "text": "FT"
   }
  ],
  "stats": {
   "BallPossesion": [
-   40,
-   60
+   42,
+   58
   ],
   "expected_goals": [
    0.44,
@@ -176,7 +200,7 @@
   ],
   "touches_opp_box": [
    17,
-   28
+   30
   ],
   "big_chance": [
    1,
@@ -188,12 +212,12 @@
   ],
   "accurate_passes": [
    {
-    "n": 246,
-    "pct": 77
+    "n": 284,
+    "pct": 76
    },
    {
-    "n": 399,
-    "pct": 86
+    "n": 424,
+    "pct": 85
    }
   ],
   "yellow_cards": [
@@ -225,83 +249,83 @@
    1.41
   ],
   "passes": [
-   318,
-   466
+   374,
+   501
   ],
   "own_half_passes": [
-   186,
-   178
+   207,
+   188
   ],
   "opposition_half_passes": [
-   60,
-   221
+   77,
+   236
   ],
   "long_balls_accurate": [
    {
-    "n": 19,
-    "pct": 36
+    "n": 23,
+    "pct": 37
    },
    {
-    "n": 15,
-    "pct": 47
+    "n": 17,
+    "pct": 43
    }
   ],
   "accurate_crosses": [
    {
     "n": 2,
-    "pct": 17
+    "pct": 15
    },
    {
     "n": 5,
-    "pct": 25
+    "pct": 23
    }
   ],
   "Offsides": [
    0,
-   1
+   2
   ],
   "tackles": [
    17,
-   19
+   20
   ],
   "interceptions": [
-   13,
-   3
+   16,
+   5
   ],
   "shot_blocks": [
    2,
    1
   ],
   "clearances": [
-   25,
-   15
+   27,
+   20
   ],
   "keeper_saves": [
    4,
    2
   ],
   "duel_won": [
-   41,
-   53
+   44,
+   59
   ],
   "ground_duels_won": [
    {
     "n": 31,
-    "pct": 47
+    "pct": 43
    },
    {
-    "n": 36,
-    "pct": 54
+    "n": 41,
+    "pct": 57
    }
   ],
   "aerials_won": [
    {
-    "n": 10,
-    "pct": 37
+    "n": 13,
+    "pct": 42
    },
    {
-    "n": 17,
-    "pct": 63
+    "n": 18,
+    "pct": 58
    }
   ],
   "dribbles_succeeded": [
@@ -310,8 +334,8 @@
     "pct": 41
    },
    {
-    "n": 5,
-    "pct": 42
+    "n": 6,
+    "pct": 46
    }
   ],
   "red_cards": [
@@ -319,7 +343,7 @@
    0
   ],
   "fouls": [
-   12,
+   16,
    7
   ]
  },
@@ -670,31 +694,35 @@
   ],
   [
    85,
-   null
+   -30
   ],
   [
    86,
-   null
+   -35
   ],
   [
    87,
-   null
+   -16
   ],
   [
    88,
-   null
+   5
   ],
   [
    89,
-   null
+   8
   ],
   [
    90,
-   null
+   19
+  ],
+  [
+   90.5,
+   1
   ],
   [
    90.75,
-   null
+   0
   ]
  ],
  "shots": [
@@ -1013,27 +1041,27 @@
  ],
  "zones": {
   "home": {
-   "left": 26,
-   "center": 31,
-   "right": 43
+   "left": 27,
+   "center": 32,
+   "right": 41
   },
   "away": {
    "left": 42,
-   "center": 25,
-   "right": 33
+   "center": 24,
+   "right": 34
   }
  },
  "lineups": {
   "home": {
    "team": "BMG",
    "formation": "3-4-2-1",
-   "rating": 6.3,
+   "rating": 6.4,
    "players": [
     {
      "id": 212873,
      "name": "Daniel Batz",
      "pos_id": 11,
-     "rating": 6.3,
+     "rating": 6.4,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1042,7 +1070,7 @@
      "id": 566158,
      "name": "Kevin Diks",
      "pos_id": 33,
-     "rating": 6.5,
+     "rating": 6.2,
      "captain": true,
      "x": 0.21,
      "y": 0.292
@@ -1051,7 +1079,7 @@
      "id": 951918,
      "name": "Philipp Sander",
      "pos_id": 35,
-     "rating": 6.5,
+     "rating": 6.8,
      "captain": false,
      "x": 0.5,
      "y": 0.292
@@ -1060,7 +1088,7 @@
      "id": 1276331,
      "name": "Fabio Chiarodia",
      "pos_id": 37,
-     "rating": 7,
+     "rating": 7.2,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -1069,7 +1097,7 @@
      "id": 959696,
      "name": "Joseph Scally",
      "pos_id": 62,
-     "rating": 6.7,
+     "rating": 6.6,
      "captain": false,
      "x": 0.125,
      "y": 0.485
@@ -1078,7 +1106,7 @@
      "id": 1337143,
      "name": "Zento Uno",
      "pos_id": 64,
-     "rating": 5.9,
+     "rating": 6,
      "captain": false,
      "x": 0.375,
      "y": 0.485
@@ -1087,7 +1115,7 @@
      "id": 764507,
      "name": "Florian Neuhaus",
      "pos_id": 66,
-     "rating": 7,
+     "rating": 7.2,
      "captain": false,
      "x": 0.625,
      "y": 0.485
@@ -1133,13 +1161,13 @@
   "away": {
    "team": "BVB",
    "formation": "3-4-2-1",
-   "rating": 7,
+   "rating": 7.1,
    "players": [
     {
      "id": 764018,
      "name": "Gregor Kobel",
      "pos_id": 11,
-     "rating": 7.2,
+     "rating": 7.6,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1157,7 +1185,7 @@
      "id": 1002058,
      "name": "Nico Schlotterbeck",
      "pos_id": 35,
-     "rating": 7.5,
+     "rating": 7.6,
      "captain": true,
      "x": 0.5,
      "y": 0.292
@@ -1166,7 +1194,7 @@
      "id": 559065,
      "name": "Ramy Bensebaini",
      "pos_id": 37,
-     "rating": 7.7,
+     "rating": 7.9,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -1175,7 +1203,7 @@
      "id": 659272,
      "name": "Julian Ryerson",
      "pos_id": 62,
-     "rating": 7.3,
+     "rating": 7.4,
      "captain": false,
      "x": 0.125,
      "y": 0.485
@@ -1193,7 +1221,7 @@
      "id": 966019,
      "name": "Felix Nmecha",
      "pos_id": 66,
-     "rating": 8.4,
+     "rating": 8.6,
      "captain": false,
      "x": 0.625,
      "y": 0.485
@@ -1211,7 +1239,7 @@
      "id": 1536436,
      "name": "Konstantinos Karetsas",
      "pos_id": 84,
-     "rating": 7.1,
+     "rating": 7,
      "captain": false,
      "x": 0.3,
      "y": 0.678
@@ -1243,13 +1271,14 @@
    "team": "BMG",
    "name": "Daniel Batz",
    "keeper": true,
-   "rating": 6.25,
+   "rating": 6.36,
+   "minutes": 90,
    "xa": 0.01,
-   "recoveries": 5,
-   "touches": 50,
+   "recoveries": 8,
+   "touches": 59,
    "duels_won": 1,
    "tackles": 0,
-   "final_third_passes": 9,
+   "final_third_passes": 11,
    "interceptions": 0
   },
   {
@@ -1257,18 +1286,20 @@
    "team": "BVB",
    "name": "Marcel Sabitzer",
    "keeper": false,
-   "rating": 6.09,
+   "rating": 6.22,
+   "minutes": 17,
    "goals": 0,
    "assists": 0,
    "xg": 0.07,
    "xa": 0.02,
    "shots": 1,
    "key_passes": 1,
-   "touches": 9,
+   "touches": 14,
    "touches_box": 2,
+   "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0,
+   "recoveries": 1,
    "duels_lost": 1
   },
   {
@@ -1282,95 +1313,103 @@
    "team": "BMG",
    "name": "Franck Honorat",
    "keeper": false,
-   "rating": 5.89,
+   "rating": 5.84,
+   "minutes": 16,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 5,
+   "touches": 10,
    "touches_box": 0,
    "dribbles": 0,
+   "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 559065,
    "team": "BVB",
    "name": "Ramy Bensebaini",
    "keeper": false,
-   "rating": 7.69,
+   "rating": 7.85,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.17,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 91,
+   "touches": 99,
    "touches_box": 1,
    "final_third_passes": 7,
    "tackles": 2,
    "interceptions": 0,
-   "recoveries": 7,
+   "recoveries": 8,
    "duels_won": 7,
-   "duels_lost": 3
+   "duels_lost": 4
   },
   {
    "id": 566158,
    "team": "BMG",
    "name": "Kevin Diks",
    "keeper": false,
-   "rating": 6.46,
+   "rating": 6.21,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 55,
+   "touches": 59,
    "touches_box": 0,
    "final_third_passes": 7,
    "tackles": 1,
    "interceptions": 1,
    "recoveries": 3,
    "duels_won": 3,
-   "duels_lost": 3
+   "duels_lost": 5
   },
   {
    "id": 655095,
    "team": "BMG",
    "name": "Isac Lidberg",
    "keeper": false,
-   "rating": 5.9,
+   "rating": 5.89,
+   "minutes": 16,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 6,
+   "touches": 13,
    "touches_box": 0,
    "dribbles": 0,
-   "final_third_passes": 2,
+   "final_third_passes": 5,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 1,
-   "duels_lost": 2
+   "duels_won": 2,
+   "duels_lost": 3
   },
   {
    "id": 659272,
    "team": "BVB",
    "name": "Julian Ryerson",
    "keeper": false,
-   "rating": 7.34,
+   "rating": 7.41,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xa": 0.34,
    "key_passes": 3,
-   "touches": 52,
+   "touches": 56,
    "touches_box": 1,
    "dribbles": 1,
-   "final_third_passes": 2,
+   "final_third_passes": 3,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 5,
-   "duels_won": 5,
+   "duels_won": 6,
    "duels_lost": 4
   },
   {
@@ -1378,14 +1417,15 @@
    "team": "BVB",
    "name": "Waldemar Anton",
    "keeper": false,
-   "rating": 6.28,
+   "rating": 6.35,
+   "minutes": 45,
    "goals": 0,
    "assists": 0,
    "xa": 0.03,
    "key_passes": 0,
-   "touches": 37,
+   "touches": 43,
    "touches_box": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1,
@@ -1403,9 +1443,10 @@
    "team": "BVB",
    "name": "Gregor Kobel",
    "keeper": true,
-   "rating": 7.21,
-   "recoveries": 9,
-   "touches": 33,
+   "rating": 7.61,
+   "minutes": 90,
+   "recoveries": 10,
+   "touches": 35,
    "duels_won": 1,
    "tackles": 0,
    "interceptions": 0
@@ -1415,20 +1456,21 @@
    "team": "BMG",
    "name": "Florian Neuhaus",
    "keeper": false,
-   "rating": 6.97,
+   "rating": 7.16,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.01,
    "xa": 0.04,
    "shots": 1,
    "key_passes": 1,
-   "touches": 39,
+   "touches": 45,
    "touches_box": 1,
-   "final_third_passes": 1,
+   "final_third_passes": 2,
    "tackles": 1,
    "interceptions": 1,
-   "recoveries": 7,
-   "duels_won": 2,
+   "recoveries": 9,
+   "duels_won": 3,
    "duels_lost": 1
   },
   {
@@ -1442,24 +1484,29 @@
    "team": "BVB",
    "name": "Joey Veerman",
    "keeper": false,
-   "rating": 6.5,
+   "rating": 6.61,
+   "minutes": 30,
    "goals": 0,
    "assists": 0,
    "xa": 0.04,
    "key_passes": 0,
-   "touches": 31,
+   "touches": 38,
    "touches_box": 0,
+   "dribbles": 1,
    "final_third_passes": 5,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 2
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 884919,
    "team": "BMG",
    "name": "Robin Hack",
    "keeper": false,
-   "rating": 6.27,
+   "rating": 6.29,
+   "minutes": 74,
    "goals": 0,
    "assists": 0,
    "xg": 0.35,
@@ -1480,14 +1527,25 @@
    "id": 888745,
    "team": "BMG",
    "name": "Nicolas-Gerrit Kühn",
-   "keeper": false
+   "keeper": false,
+   "minutes": 5,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
   },
   {
    "id": 915111,
    "team": "BMG",
    "name": "Shuto Machino",
    "keeper": false,
-   "rating": 6.71,
+   "rating": 6.73,
+   "minutes": 74,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
@@ -1509,27 +1567,29 @@
    "team": "BMG",
    "name": "Philipp Sander",
    "keeper": false,
-   "rating": 6.46,
+   "rating": 6.77,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 46,
+   "touches": 60,
    "touches_box": 3,
    "tackles": 1,
-   "interceptions": 1,
-   "recoveries": 2,
-   "duels_won": 2,
-   "duels_lost": 3
+   "interceptions": 3,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 4
   },
   {
    "id": 959696,
    "team": "BMG",
    "name": "Joseph Scally",
    "keeper": false,
-   "rating": 6.7,
+   "rating": 6.62,
+   "minutes": 85,
    "goals": 0,
    "assists": 0,
    "xg": 0.03,
@@ -1543,28 +1603,29 @@
    "interceptions": 1,
    "recoveries": 4,
    "duels_won": 4,
-   "duels_lost": 3
+   "duels_lost": 4
   },
   {
    "id": 966019,
    "team": "BVB",
    "name": "Felix Nmecha",
    "keeper": false,
-   "rating": 8.44,
+   "rating": 8.62,
+   "minutes": 90,
    "goals": 1,
    "assists": 0,
    "xg": 0.25,
    "xa": 0.03,
    "shots": 3,
    "key_passes": 1,
-   "touches": 60,
+   "touches": 66,
    "touches_box": 2,
    "dribbles": 1,
    "final_third_passes": 8,
    "tackles": 1,
-   "interceptions": 2,
-   "recoveries": 2,
-   "duels_won": 5,
+   "interceptions": 4,
+   "recoveries": 3,
+   "duels_won": 6,
    "duels_lost": 1
   },
   {
@@ -1572,19 +1633,20 @@
    "team": "BVB",
    "name": "Nico Schlotterbeck",
    "keeper": false,
-   "rating": 7.54,
+   "rating": 7.55,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xg": 0.19,
    "xa": 0.03,
    "shots": 2,
    "key_passes": 0,
-   "touches": 96,
+   "touches": 100,
    "touches_box": 2,
-   "final_third_passes": 11,
+   "final_third_passes": 12,
    "tackles": 3,
    "interceptions": 0,
-   "recoveries": 7,
+   "recoveries": 8,
    "duels_won": 5,
    "duels_lost": 5
   },
@@ -1593,28 +1655,30 @@
    "team": "BVB",
    "name": "Maximilian Beier",
    "keeper": false,
-   "rating": 6.88,
+   "rating": 6.91,
+   "minutes": 89,
    "goals": 0,
    "assists": 0,
    "xg": 0.31,
    "xa": 0.34,
    "shots": 2,
    "key_passes": 2,
-   "touches": 40,
+   "touches": 43,
    "touches_box": 6,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 2,
    "duels_won": 2,
-   "duels_lost": 3
+   "duels_lost": 4
   },
   {
    "id": 1050158,
    "team": "BVB",
    "name": "Fábio Silva",
    "keeper": false,
-   "rating": 6.39,
+   "rating": 6.38,
+   "minutes": 72,
    "goals": 0,
    "assists": 0,
    "xg": 0.35,
@@ -1642,7 +1706,8 @@
    "team": "BMG",
    "name": "Jens Castrop",
    "keeper": false,
-   "rating": 6.96,
+   "rating": 6.98,
+   "minutes": 74,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1662,17 +1727,18 @@
    "team": "BVB",
    "name": "Daniel Svensson",
    "keeper": false,
-   "rating": 7.32,
+   "rating": 7.29,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
-   "xa": 0.07,
+   "xa": 0.08,
    "key_passes": 1,
-   "touches": 57,
+   "touches": 63,
    "touches_box": 0,
    "final_third_passes": 8,
    "tackles": 3,
    "interceptions": 0,
-   "recoveries": 3,
+   "recoveries": 4,
    "duels_won": 6,
    "duels_lost": 3
   },
@@ -1680,24 +1746,35 @@
    "id": 1254234,
    "team": "BVB",
    "name": "Ethan Nwaneri",
-   "keeper": false
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
   },
   {
    "id": 1276331,
    "team": "BMG",
    "name": "Fabio Chiarodia",
    "keeper": false,
-   "rating": 7.03,
+   "rating": 7.15,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xa": 0.22,
    "key_passes": 0,
-   "touches": 59,
+   "touches": 68,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 1,
    "tackles": 4,
-   "interceptions": 2,
+   "interceptions": 3,
    "recoveries": 5,
    "duels_won": 5,
    "duels_lost": 3
@@ -1707,7 +1784,8 @@
    "team": "BVB",
    "name": "Jobe Bellingham",
    "keeper": false,
-   "rating": 7.04,
+   "rating": 7.03,
+   "minutes": 60,
    "goals": 0,
    "assists": 0,
    "xg": 0.08,
@@ -1728,7 +1806,8 @@
    "team": "BMG",
    "name": "Zento Uno",
    "keeper": false,
-   "rating": 5.94,
+   "rating": 5.95,
+   "minutes": 45,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1746,23 +1825,26 @@
    "team": "BMG",
    "name": "David Herold",
    "keeper": false,
-   "rating": 5.99,
+   "rating": 6,
+   "minutes": 16,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 3,
+   "touches": 12,
    "touches_box": 0,
+   "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 1479742,
    "team": "BVB",
    "name": "Joane Gadou",
    "keeper": false,
-   "rating": 7.13,
+   "rating": 7.12,
+   "minutes": 45,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1781,7 +1863,8 @@
    "team": "BVB",
    "name": "Konstantinos Karetsas",
    "keeper": false,
-   "rating": 7.05,
+   "rating": 7.03,
+   "minutes": 73,
    "goals": 0,
    "assists": 0,
    "xg": 0.17,
@@ -1809,15 +1892,18 @@
    "team": "BVB",
    "name": "Mathis Albert",
    "keeper": false,
-   "rating": 6.06,
+   "rating": 6.26,
+   "minutes": 18,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 6,
-   "touches_box": 0,
-   "tackles": 0,
+   "touches": 13,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 1,
    "interceptions": 0,
-   "recoveries": 0
+   "recoveries": 0,
+   "duels_won": 2
   },
   {
    "id": 1729839,
@@ -1836,12 +1922,13 @@
    "team": "BMG",
    "name": "Wael Mohya",
    "keeper": false,
-   "rating": 5.62,
+   "rating": 5.63,
+   "minutes": 90,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 42,
+   "touches": 45,
    "touches_box": 8,
    "dribbles": 1,
    "tackles": 3,
@@ -1861,12 +1948,13 @@
    "team": "BMG",
    "name": "Mathieu Nguefack",
    "keeper": false,
-   "rating": 6,
+   "rating": 5.99,
+   "minutes": 45,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 8,
+   "touches": 13,
    "touches_box": 0,
    "final_third_passes": 3,
    "tackles": 0,
