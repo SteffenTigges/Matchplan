@@ -3,16 +3,6 @@
  "season": 2026,
  "matches": [
   {
-   "id": 83243,
-   "kickoff": "2026-11-22T16:30:00Z",
-   "home": "SVW",
-   "away": "HSV",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
-  },
-  {
    "id": 83237,
    "kickoff": "2026-11-20T19:30:00Z",
    "home": "FCB",
@@ -51,7 +41,15 @@
    "finished": false,
    "score": null,
    "halftime": null,
-   "goals": []
+   "goals": [
+    {
+     "minute": 14,
+     "team": "B04",
+     "scorer": "A. Moreira",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83239,
@@ -61,7 +59,15 @@
    "finished": false,
    "score": null,
    "halftime": null,
-   "goals": []
+   "goals": [
+    {
+     "minute": 25,
+     "team": "SGE",
+     "scorer": "J. Burkardt",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83241,
@@ -71,7 +77,15 @@
    "finished": false,
    "score": null,
    "halftime": null,
-   "goals": []
+   "goals": [
+    {
+     "minute": 17,
+     "team": "RBL",
+     "scorer": "A. Nusa",
+     "penalty": true,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83242,
@@ -108,6 +122,16 @@
    "kickoff": "2026-11-22T14:30:00Z",
    "home": "FCA",
    "away": "M05",
+   "finished": false,
+   "score": null,
+   "halftime": null,
+   "goals": []
+  },
+  {
+   "id": 83243,
+   "kickoff": "2026-11-22T16:30:00Z",
+   "home": "SVW",
+   "away": "HSV",
    "finished": false,
    "score": null,
    "halftime": null,

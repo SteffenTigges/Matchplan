@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T09:38:23+00:00",
+ "updated_at": "2026-11-21T14:55:17+00:00",
  "rows": [
   {
    "rank": 1,
@@ -23,14 +23,14 @@
   {
    "rank": 2,
    "team": "BVB",
-   "played": 9,
+   "played": 10,
    "won": 6,
-   "draw": 3,
+   "draw": 4,
    "lost": 0,
    "goals": 16,
    "against": 7,
    "diff": 9,
-   "points": 21,
+   "points": 22,
    "form": [
     "U",
     "U",
@@ -41,38 +41,38 @@
   },
   {
    "rank": 3,
-   "team": "SCF",
-   "played": 9,
-   "won": 6,
-   "draw": 1,
-   "lost": 2,
-   "goals": 20,
-   "against": 10,
-   "diff": 10,
-   "points": 19,
+   "team": "RBL",
+   "played": 10,
+   "won": 7,
+   "draw": 0,
+   "lost": 3,
+   "goals": 28,
+   "against": 13,
+   "diff": 15,
+   "points": 21,
    "form": [
     "S",
     "N",
-    "N",
+    "S",
     "S",
     "S"
    ]
   },
   {
    "rank": 4,
-   "team": "RBL",
-   "played": 9,
+   "team": "SCF",
+   "played": 10,
    "won": 6,
-   "draw": 0,
-   "lost": 3,
-   "goals": 27,
-   "against": 13,
-   "diff": 14,
-   "points": 18,
+   "draw": 2,
+   "lost": 2,
+   "goals": 20,
+   "against": 10,
+   "diff": 10,
+   "points": 20,
    "form": [
     "S",
     "N",
-    "S",
+    "N",
     "S",
     "S"
    ]
@@ -80,14 +80,14 @@
   {
    "rank": 5,
    "team": "B04",
-   "played": 9,
-   "won": 5,
+   "played": 10,
+   "won": 6,
    "draw": 1,
    "lost": 3,
-   "goals": 20,
+   "goals": 21,
    "against": 17,
-   "diff": 3,
-   "points": 16,
+   "diff": 4,
+   "points": 19,
    "form": [
     "S",
     "S",
@@ -117,15 +117,34 @@
   },
   {
    "rank": 7,
-   "team": "SVE",
-   "played": 9,
+   "team": "SGE",
+   "played": 10,
    "won": 4,
-   "draw": 1,
+   "draw": 3,
+   "lost": 3,
+   "goals": 16,
+   "against": 20,
+   "diff": -4,
+   "points": 15,
+   "form": [
+    "N",
+    "S",
+    "N",
+    "S",
+    "U"
+   ]
+  },
+  {
+   "rank": 8,
+   "team": "SVE",
+   "played": 10,
+   "won": 4,
+   "draw": 2,
    "lost": 4,
    "goals": 17,
    "against": 18,
    "diff": -1,
-   "points": 13,
+   "points": 14,
    "form": [
     "N",
     "S",
@@ -135,7 +154,7 @@
    ]
   },
   {
-   "rank": 8,
+   "rank": 9,
    "team": "VFB",
    "played": 9,
    "won": 4,
@@ -154,15 +173,15 @@
    ]
   },
   {
-   "rank": 9,
+   "rank": 10,
    "team": "TSG",
-   "played": 9,
+   "played": 10,
    "won": 4,
    "draw": 0,
-   "lost": 5,
+   "lost": 6,
    "goals": 16,
-   "against": 17,
-   "diff": -1,
+   "against": 18,
+   "diff": -2,
    "points": 12,
    "form": [
     "N",
@@ -170,25 +189,6 @@
     "S",
     "N",
     "S"
-   ]
-  },
-  {
-   "rank": 10,
-   "team": "SGE",
-   "played": 9,
-   "won": 3,
-   "draw": 3,
-   "lost": 3,
-   "goals": 15,
-   "against": 20,
-   "diff": -5,
-   "points": 12,
-   "form": [
-    "N",
-    "S",
-    "N",
-    "S",
-    "U"
    ]
   },
   {
@@ -231,25 +231,6 @@
   },
   {
    "rank": 13,
-   "team": "SCP",
-   "played": 9,
-   "won": 2,
-   "draw": 4,
-   "lost": 3,
-   "goals": 8,
-   "against": 11,
-   "diff": -3,
-   "points": 10,
-   "form": [
-    "N",
-    "U",
-    "S",
-    "U",
-    "U"
-   ]
-  },
-  {
-   "rank": 14,
    "team": "KOE",
    "played": 10,
    "won": 2,
@@ -264,6 +245,25 @@
     "U",
     "U",
     "N",
+    "U"
+   ]
+  },
+  {
+   "rank": 14,
+   "team": "SCP",
+   "played": 10,
+   "won": 2,
+   "draw": 4,
+   "lost": 4,
+   "goals": 8,
+   "against": 12,
+   "diff": -4,
+   "points": 10,
+   "form": [
+    "N",
+    "U",
+    "S",
+    "U",
     "U"
    ]
   },
@@ -289,13 +289,13 @@
   {
    "rank": 16,
    "team": "FCU",
-   "played": 9,
+   "played": 10,
    "won": 1,
    "draw": 4,
-   "lost": 4,
+   "lost": 5,
    "goals": 7,
-   "against": 21,
-   "diff": -14,
+   "against": 22,
+   "diff": -15,
    "points": 7,
    "form": [
     "S",
@@ -327,14 +327,14 @@
   {
    "rank": 18,
    "team": "BMG",
-   "played": 9,
+   "played": 10,
    "won": 1,
-   "draw": 1,
+   "draw": 2,
    "lost": 7,
    "goals": 12,
    "against": 25,
    "diff": -13,
-   "points": 4,
+   "points": 5,
    "form": [
     "N",
     "N",

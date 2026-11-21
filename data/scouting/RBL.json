@@ -36,9 +36,9 @@
      {
       "key": "won_att3_pg",
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-      "value": 4.2,
+      "value": 3.9,
       "fmt": "dec1",
-      "rank": 4
+      "rank": 5
      }
     ]
    },
@@ -104,19 +104,6 @@
  "weaknesses": [],
  "matchplan": [
   {
-   "key": "press",
-   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
-   "evidence": [
-    {
-     "key": "won_att3_pg",
-     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.2,
-     "fmt": "dec1",
-     "rank": 4
-    }
-   ]
-  },
-  {
    "key": "possession",
    "text": "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.",
    "evidence": [
@@ -131,19 +118,6 @@
   }
  ],
  "findings": [
-  {
-   "key": "press",
-   "text": "Sie pressen früh: lange Bälle hinter die erste Pressinglinie, schnelle Ablagen.",
-   "evidence": [
-    {
-     "key": "won_att3_pg",
-     "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-     "value": 4.2,
-     "fmt": "dec1",
-     "rank": 4
-    }
-   ]
-  },
   {
    "key": "possession",
    "text": "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.",
@@ -165,6 +139,19 @@
      "key": "goals_pg",
      "label": "Tore pro Spiel",
      "value": 3.0,
+     "fmt": "dec2",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: xG pro Schuss (Platz 1)",
+   "evidence": [
+    {
+     "key": "xg_per_shot",
+     "label": "xG pro Schuss",
+     "value": 0.1451,
      "fmt": "dec2",
      "rank": 1
     }
