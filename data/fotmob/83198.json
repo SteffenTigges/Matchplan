@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881187,
  "stats": {
   "BallPossesion": [
@@ -1816,6 +1816,178 @@
   "id": 1001081016,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 7,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Janik Haberer",
+   "player_id": 304354
+  },
+  {
+   "min": 21,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Tim Skarke",
+   "player_id": 658440
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 58,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Livan Burcu",
+   "in_id": 1520506,
+   "out": "Kastriot Imeri",
+   "out_id": 852049
+  },
+  {
+   "min": 59,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Maurice Krattenmacher",
+   "in_id": 1412933,
+   "out": "Tom Zimmerschied",
+   "out_id": 940015
+  },
+  {
+   "min": 70,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "David Mokwa",
+   "in_id": 1459758,
+   "out": "Noah Darvich",
+   "out_id": 1479921
+  },
+  {
+   "min": 70,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Cole Campbell",
+   "in_id": 1288195,
+   "out": "Noel Futkeu",
+   "out_id": 1138725
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Nicholas Mickelson",
+   "in_id": 633721,
+   "out": "Lasse Günther",
+   "out_id": 1245692
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Christopher Trimmel",
+   "in_id": 166733,
+   "out": "Michel Aebischer",
+   "out_id": 792756
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Mekhi Gray",
+   "in_id": 2062767,
+   "out": "Jeong Woo-Yeong",
+   "out_id": 949673
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Oliver Burke",
+   "in_id": 609504,
+   "out": "Tim Skarke",
+   "out_id": 658440
+  },
+  {
+   "min": 81,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Livan Burcu",
+   "player_id": 1520506,
+   "assist": null,
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 86,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Frederik Schmahl",
+   "in_id": 1281256,
+   "out": "Luca Sirch",
+   "out_id": 1097361
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": true,
+   "type": "sub",
+   "in": "Aljoscha Kemlein",
+   "in_id": 1403332,
+   "out": "András Schäfer",
+   "out_id": 836726
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Maurice Krattenmacher",
+   "player_id": 1412933
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83198,
  "matchday": 5,
  "season": 2026

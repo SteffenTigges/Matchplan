@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881188,
  "stats": {
   "BallPossesion": [
@@ -1746,6 +1746,170 @@
   "id": 1001077125,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 14,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Derry Scherhant",
+   "player_id": 1302666,
+   "assist": "Philipp Treu",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 19,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Ibrahim Maza",
+   "player_id": 1457626,
+   "assist": "Patrik Schick",
+   "score": [
+    1,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 39,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Philipp Treu",
+   "player_id": 1281090
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 5 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 59,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Nathan Tella",
+   "in_id": 877700,
+   "out": "Afonso Moreira",
+   "out_id": 1367047
+  },
+  {
+   "min": 64,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Lukas Kübler",
+   "in_id": 307209,
+   "out": "Philipp Treu",
+   "out_id": 1281090
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Lucas Höler",
+   "in_id": 556524,
+   "out": "Keisuke Goto",
+   "out_id": 1436730
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Malik Tillman",
+   "in_id": 1126058,
+   "out": "Moussa Diaby",
+   "out_id": 923498
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Patrik Schick",
+   "player_id": 540097,
+   "assist": "Ibrahim Maza",
+   "score": [
+    2,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Patrick Osterhage",
+   "in_id": 1075815,
+   "out": "Yannik Engelhardt",
+   "out_id": 1269497
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Cyriaque Irié",
+   "in_id": 1526221,
+   "out": "Jan-Niklas Beste",
+   "out_id": 864157
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Jonas Hofmann",
+   "in_id": 331542,
+   "out": "Ibrahim Maza",
+   "out_id": 1457626
+  },
+  {
+   "min": 89,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Vincenzo Grifo",
+   "in_id": 400625,
+   "out": "Derry Scherhant",
+   "out_id": 1302666
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83202,
  "matchday": 6,
  "season": 2026

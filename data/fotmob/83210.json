@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881198,
  "stats": {
   "BallPossesion": [
@@ -1816,6 +1816,162 @@
   "id": 1001080593,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 58,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Nnamdi Collins",
+   "player_id": 1176780
+  },
+  {
+   "min": 63,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Farès Chaïbi",
+   "player_id": 1345875
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Maximilian Beier",
+   "in_id": 1047667,
+   "out": "Daniel Svensson",
+   "out_id": 1209228
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ethan Nwaneri",
+   "in_id": 1254234,
+   "out": "Fábio Silva",
+   "out_id": 1050158
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Carney Chukwuemeka",
+   "in_id": 1089685,
+   "out": "Marcel Sabitzer",
+   "out_id": 215151
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Can Uzun",
+   "in_id": 1367924,
+   "out": "Younes Ebnoutalib",
+   "out_id": 1447050
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Ansgar Knauff",
+   "in_id": 1175708,
+   "out": "Jonathan Burkardt",
+   "out_id": 947901
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Jobe Bellingham",
+   "in_id": 1287373,
+   "out": "Felix Nmecha",
+   "out_id": 966019
+  },
+  {
+   "min": 80,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Maximilian Beier",
+   "player_id": 1047667,
+   "assist": "Jobe Bellingham",
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Love Arrhov",
+   "in_id": 1717491,
+   "out": "Farès Chaïbi",
+   "out_id": 1345875
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mario Götze",
+   "in_id": 177714,
+   "out": "Noël Aséko",
+   "out_id": 1596359
+  },
+  {
+   "min": 87,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Ayoube Amaimouni-Echghouyab",
+   "in_id": 1680173,
+   "out": "Ritsu Doan",
+   "out_id": 629805
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": true,
+   "type": "sub",
+   "in": "Joane Gadou",
+   "in_id": 1479742,
+   "out": "Julian Ryerson",
+   "out_id": 659272
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83210,
  "matchday": 7,
  "season": 2026

@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881191,
  "stats": {
   "BallPossesion": [
@@ -1764,6 +1764,167 @@
   "id": 1001073404,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 24,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Mario Götze",
+   "player_id": 177714
+  },
+  {
+   "min": 39,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Lilian Brassier",
+   "player_id": 1073941
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Ísak Jóhannesson",
+   "player_id": 1000428
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Paul Okon-Engstler",
+   "in_id": 1527363,
+   "out": "Ísak Jóhannesson",
+   "out_id": 1000428
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mikey Moore",
+   "in_id": 1407250,
+   "out": "Linton Maina",
+   "out_id": 930035
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Alessio Castro-Montes",
+   "in_id": 748620,
+   "out": "Joël Schmied",
+   "out_id": 1003254
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Noël Aséko",
+   "in_id": 1596359,
+   "out": "Mario Götze",
+   "out_id": 177714
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ansgar Knauff",
+   "in_id": 1175708,
+   "out": "Nnamdi Collins",
+   "out_id": 1176780
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Younes Ebnoutalib",
+   "player_id": 1447050,
+   "assist": "Noël Aséko",
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 82,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Elias Baum",
+   "in_id": 1421821,
+   "out": "Jonathan Burkardt",
+   "out_id": 947901
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Reigan Heskey",
+   "in_id": 1665352,
+   "out": "Saïd El Mala",
+   "out_id": 1613676
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Gian-Luca Waldschmidt",
+   "in_id": 540073,
+   "out": "Sebastian Sebulonsen",
+   "out_id": 936140
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 4,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Borna Sosa",
+   "player_id": 622091
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83203,
  "matchday": 6,
  "season": 2026

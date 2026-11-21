@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881196,
  "stats": {
   "BallPossesion": [
@@ -1859,6 +1859,204 @@
   "id": 1001080243,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 4,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Stefano Marino",
+   "player_id": 1321553
+  },
+  {
+   "min": 18,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Stefano Marino",
+   "player_id": 1321553,
+   "assist": "Steffen Tigges",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 30,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Steffen Tigges",
+   "player_id": 706500,
+   "assist": null,
+   "score": [
+    0,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 1 minute added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Mitchell Weiser",
+   "in_id": 298823,
+   "out": "Chuki",
+   "out_id": 1315344
+  },
+  {
+   "min": 59,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Niclas Füllkrug",
+   "player_id": 276791,
+   "assist": "Eren Dinkçi",
+   "score": [
+    1,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 63,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Cedric Itten",
+   "in_id": 726956,
+   "out": "Eren Dinkçi",
+   "out_id": 1146376
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Niclas Füllkrug",
+   "player_id": 276791,
+   "assist": null,
+   "score": [
+    2,
+    2
+   ],
+   "own_goal": false,
+   "penalty": true
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Rayan Philippe",
+   "in_id": 1079892,
+   "out": "Stefano Marino",
+   "out_id": 1321553
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Tom Baack",
+   "in_id": 658444,
+   "out": "Laurin Ulrich",
+   "out_id": 1367587
+  },
+  {
+   "min": 75,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Ruben Müller",
+   "in_id": 1688956,
+   "out": "Gabriel Vidović",
+   "out_id": 1276453
+  },
+  {
+   "min": 75,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Marvin Pieringer",
+   "in_id": 956913,
+   "out": "Steffen Tigges",
+   "out_id": 706500
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Dariusz Stalmach",
+   "in_id": 1276988,
+   "out": "Ludovit Reis",
+   "out_id": 869326
+  },
+  {
+   "min": 86,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Youri Regeer",
+   "player_id": 1111980
+  },
+  {
+   "min": 88,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Paul Erevbenagie",
+   "in_id": 1810868,
+   "out": "Youri Regeer",
+   "out_id": 1111980
+  },
+  {
+   "min": 88,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Jonah Sticker",
+   "in_id": 1520593,
+   "out": "Mattes Hansen",
+   "out_id": 1515976
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83207,
  "matchday": 6,
  "season": 2026

@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881209,
  "stats": {
   "BallPossesion": [
@@ -1790,6 +1790,168 @@
   "id": 1001072482,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 29,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Tom Baack",
+   "player_id": 658444
+  },
+  {
+   "min": 35,
+   "plus": null,
+   "home": true,
+   "type": "var",
+   "text": "Joseph Scally"
+  },
+  {
+   "min": 41,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Daiki Hashioka",
+   "player_id": 878296
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 50,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Fabio Chiarodia",
+   "player_id": 1276331
+  },
+  {
+   "min": 52,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Steffen Tigges",
+   "in_id": 706500,
+   "out": "Marvin Pieringer",
+   "out_id": 956913
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Felix Götze",
+   "in_id": 767790,
+   "out": "Jano ter Horst",
+   "out_id": 1520469
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Laurin Ulrich",
+   "in_id": 1367587,
+   "out": "Tom Baack",
+   "out_id": 658444
+  },
+  {
+   "min": 69,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Isac Lidberg",
+   "in_id": 655095,
+   "out": "Shuto Machino",
+   "out_id": 915111
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Nicolas-Gerrit Kühn",
+   "in_id": 888745,
+   "out": "Robin Hack",
+   "out_id": 884919
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ko Itakura",
+   "in_id": 620917,
+   "out": "Florian Neuhaus",
+   "out_id": 764507
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Jens Castrop",
+   "in_id": 1185902,
+   "out": "Wael Mohya",
+   "out_id": 1793874
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Tjark Scheller",
+   "player_id": 1415373
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Rayan Philippe",
+   "in_id": 1079892,
+   "out": "Stefano Marino",
+   "out_id": 1321553
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Laurin Ulrich",
+   "player_id": 1367587
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83224,
  "matchday": 8,
  "season": 2026

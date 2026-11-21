@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881216,
  "stats": {
   "BallPossesion": [
@@ -1785,6 +1785,260 @@
   "id": 1001079160,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 7,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Aleix García",
+   "player_id": 642551,
+   "assist": null,
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 34,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Facundo Medina",
+   "player_id": 812652
+  },
+  {
+   "min": 40,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Tom Krauß",
+   "player_id": 992060
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 1 minute added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Mikey Moore",
+   "player_id": 1407250
+  },
+  {
+   "min": 52,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Linton Maina",
+   "player_id": 930035
+  },
+  {
+   "min": 52,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Afonso Moreira",
+   "player_id": 1367047
+  },
+  {
+   "min": 53,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Edmond Tapsoba",
+   "player_id": 789914
+  },
+  {
+   "min": 57,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Joël Schmied",
+   "player_id": 1003254
+  },
+  {
+   "min": 70,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Borna Sosa",
+   "player_id": 622091
+  },
+  {
+   "min": 74,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ísak Jóhannesson",
+   "in_id": 1000428,
+   "out": "Tom Krauß",
+   "out_id": 992060
+  },
+  {
+   "min": 75,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Malek El Mala",
+   "in_id": 1640790,
+   "out": "Marius Bülter",
+   "out_id": 626890
+  },
+  {
+   "min": 75,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Reigan Heskey",
+   "in_id": 1665352,
+   "out": "Linton Maina",
+   "out_id": 930035
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Jonas Hofmann",
+   "in_id": 331542,
+   "out": "Malik Tillman",
+   "out_id": 1126058
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Gian-Luca Waldschmidt",
+   "in_id": 540073,
+   "out": "Mikey Moore",
+   "out_id": 1407250
+  },
+  {
+   "min": 84,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Alessio Castro-Montes",
+   "in_id": 748620,
+   "out": "Sebastian Sebulonsen",
+   "out_id": 936140
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Patrik Schick",
+   "player_id": 540097,
+   "assist": "Ibrahim Maza",
+   "score": [
+    0,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 88,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Loïc Badé",
+   "in_id": 1119461,
+   "out": "Facundo Medina",
+   "out_id": 812652
+  },
+  {
+   "min": 88,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Robert Andrich",
+   "in_id": 411851,
+   "out": "Ibrahim Maza",
+   "out_id": 1457626
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": true,
+   "type": "goal",
+   "player": "Saïd El Mala",
+   "player_id": 1613676,
+   "assist": "Malek El Mala",
+   "score": [
+    1,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": 5,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Aleix García",
+   "player_id": 642551
+  },
+  {
+   "min": 90,
+   "plus": 5,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Jahmai Simpson-Pusey",
+   "player_id": 1463271
+  },
+  {
+   "min": 90,
+   "plus": 6,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Jonas Hofmann",
+   "player_id": 331542
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83235,
  "matchday": 9,
  "season": 2026

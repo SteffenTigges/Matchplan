@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881222,
  "stats": {
   "BallPossesion": [
@@ -1857,6 +1857,258 @@
   "id": 1001081013,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 1,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Anton Kade",
+   "player_id": 1310103,
+   "assist": null,
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 26,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "David Raum",
+   "player_id": 806669
+  },
+  {
+   "min": 34,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Ezechiel Banzuzi",
+   "player_id": 1310001,
+   "assist": "Brajan Gruda",
+   "score": [
+    1,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 35,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Christopher Nkunku",
+   "player_id": 704523,
+   "assist": "Brajan Gruda",
+   "score": [
+    2,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Jeffrey Gouweleeuw",
+   "player_id": 245315
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": 1,
+   "home": true,
+   "type": "goal",
+   "player": "David Raum",
+   "player_id": 806669,
+   "assist": null,
+   "score": [
+    3,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Alexis Claude-Maurice",
+   "in_id": 689065,
+   "out": "Arijon Ibrahimović",
+   "out_id": 1327150
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Rômulo",
+   "player_id": 1314412,
+   "assist": "Christopher Nkunku",
+   "score": [
+    4,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Christoph Baumgartner",
+   "in_id": 747718,
+   "out": "Rômulo",
+   "out_id": 1314412
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Antonio Nusa",
+   "in_id": 1248482,
+   "out": "Brajan Gruda",
+   "out_id": 1430151
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Benjamin Henrichs",
+   "in_id": 681383,
+   "out": "Ridle Baku",
+   "out_id": 883087
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Christoph Baumgartner",
+   "player_id": 747718,
+   "assist": "Antonio Nusa",
+   "score": [
+    5,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 72,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Robin Fellhauer",
+   "player_id": 1185609
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Uchenna Ogundu",
+   "in_id": 1718174,
+   "out": "Rodrigo Ribeiro",
+   "out_id": 1343749
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Tim Schnitzer",
+   "in_id": 1875448,
+   "out": "Han-Noah Massengo",
+   "out_id": 978680
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Abdoul Koné",
+   "in_id": 1643776,
+   "out": "Willi Orbán",
+   "out_id": 278856
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Maxime Estève",
+   "in_id": 1250443,
+   "out": "Castello Lukeba",
+   "out_id": 1253852
+  },
+  {
+   "min": 87,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mert Kömür",
+   "in_id": 1453218,
+   "out": "Anton Kade",
+   "out_id": 1310103
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": false,
+   "type": "goal",
+   "player": "Uchenna Ogundu",
+   "player_id": 1718174,
+   "assist": "Fabian Rieder",
+   "score": [
+    5,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83229,
  "matchday": 9,
  "season": 2026

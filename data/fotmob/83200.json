@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881185,
  "stats": {
   "BallPossesion": [
@@ -2028,6 +2028,175 @@
   "id": 1001079160,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 25,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Jeff Chabot",
+   "player_id": 867080,
+   "assist": "Angelo Stiller",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Marvin Pieringer",
+   "player_id": 956913
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 1 minute added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 70,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Steffen Tigges",
+   "in_id": 706500,
+   "out": "Stefano Marino",
+   "out_id": 1321553
+  },
+  {
+   "min": 70,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Rayan Philippe",
+   "in_id": 1079892,
+   "out": "Marvin Pieringer",
+   "out_id": 956913
+  },
+  {
+   "min": 72,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Finn Jeltsch",
+   "in_id": 1487877,
+   "out": "Jeff Chabot",
+   "out_id": 867080
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Dženan Pejčinović",
+   "in_id": 1366602,
+   "out": "Ermedin Demirović",
+   "out_id": 840241
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Bilal El Khannouss",
+   "in_id": 1340895,
+   "out": "Jamie Leweling",
+   "out_id": 1074968
+  },
+  {
+   "min": 80,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Oliver Batista Meier",
+   "in_id": 950822,
+   "out": "Laurin Ulrich",
+   "out_id": 1367587
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Chris Führich",
+   "player_id": 892679,
+   "assist": "Angelo Stiller",
+   "score": [
+    0,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Felix Götze",
+   "in_id": 767790,
+   "out": "Mattes Hansen",
+   "out_id": 1515976
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Jonah Sticker",
+   "in_id": 1520593,
+   "out": "Tjark Scheller",
+   "out_id": 1415373
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Grischa Prömel",
+   "in_id": 625175,
+   "out": "Deniz Undav",
+   "out_id": 661519
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Leo Sauer",
+   "in_id": 1425998,
+   "out": "Chris Führich",
+   "out_id": 892679
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83200,
  "matchday": 5,
  "season": 2026

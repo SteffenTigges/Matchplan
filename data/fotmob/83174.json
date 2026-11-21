@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881162,
  "stats": {
   "BallPossesion": [
@@ -1797,6 +1797,213 @@
   "id": 1001075256,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 5,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Fábio Silva",
+   "player_id": 1050158,
+   "assist": "Serhou Guirassy",
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 31,
+   "plus": null,
+   "home": true,
+   "type": "var",
+   "text": "Serhou Guirassy"
+  },
+  {
+   "min": 39,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Laurin Ulrich",
+   "player_id": 1367587
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": 3,
+   "home": true,
+   "type": "var",
+   "text": "Serhou Guirassy"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Felix Nmecha",
+   "in_id": 966019,
+   "out": "Joey Veerman",
+   "out_id": 792429
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Carney Chukwuemeka",
+   "in_id": 1089685,
+   "out": "Fábio Silva",
+   "out_id": 1050158
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Marcel Sabitzer",
+   "in_id": 215151,
+   "out": "Ethan Nwaneri",
+   "out_id": 1254234
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Jobe Bellingham",
+   "player_id": 1287373
+  },
+  {
+   "min": 67,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Clemens Lippmann",
+   "in_id": 1701615,
+   "out": "Laurin Curda",
+   "out_id": 1426060
+  },
+  {
+   "min": 67,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Steffen Tigges",
+   "in_id": 706500,
+   "out": "Stefano Marino",
+   "out_id": 1321553
+  },
+  {
+   "min": 67,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Oliver Batista Meier",
+   "in_id": 950822,
+   "out": "Gabriel Vidović",
+   "out_id": 1276453
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Maximilian Beier",
+   "in_id": 1047667,
+   "out": "Julian Ryerson",
+   "out_id": 659272
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Luka Djuric",
+   "in_id": 1586401,
+   "out": "Laurin Ulrich",
+   "out_id": 1367587
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ramy Bensebaini",
+   "in_id": 559065,
+   "out": "Nico Schlotterbeck",
+   "out_id": 1002058
+  },
+  {
+   "min": 80,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Felix Nmecha",
+   "player_id": 966019,
+   "assist": "Maximilian Beier",
+   "score": [
+    2,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 82,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Rayan Philippe",
+   "in_id": 1079892,
+   "out": "Mattes Hansen",
+   "out_id": 1515976
+  },
+  {
+   "min": 89,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Felix Nmecha",
+   "player_id": 966019,
+   "assist": "Marcel Sabitzer",
+   "score": [
+    3,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83174,
  "matchday": 3,
  "season": 2026

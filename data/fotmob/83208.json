@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881194,
  "stats": {
   "BallPossesion": [
@@ -1715,6 +1715,169 @@
   "id": 1001070259,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 24,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Phillip Tietz",
+   "player_id": 686315,
+   "assist": "Anthony Caci",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 42,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Nadiem Amiri",
+   "player_id": 614449
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Kaishu Sano",
+   "player_id": 1033111
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 1 minute added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Hwang Hee-Chan",
+   "in_id": 620026,
+   "out": "Edin Džeko",
+   "out_id": 15403
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Junior Dina Ebimbe",
+   "in_id": 1040889,
+   "out": "Adrian Gantenbein",
+   "out_id": 1179182
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Maximilian Wöber",
+   "in_id": 701149,
+   "out": "Nikola Katić",
+   "out_id": 725655
+  },
+  {
+   "min": 71,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Chukwubuike Adamu",
+   "in_id": 882163,
+   "out": "Adil Aouchiche",
+   "out_id": 1047664
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Paul Nebel",
+   "in_id": 1175939,
+   "out": "Lee Jae-Sung",
+   "out_id": 523749
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Ransford Königsdörffer",
+   "in_id": 1121170,
+   "out": "Sheraldo Becker",
+   "out_id": 495222
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Vitalie Becker",
+   "in_id": 1659420,
+   "out": "Robin Gosens",
+   "out_id": 518346
+  },
+  {
+   "min": 86,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Eric Martel",
+   "in_id": 1199283,
+   "out": "Nadiem Amiri",
+   "out_id": 614449
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 1,
+   "home": false,
+   "type": "sub",
+   "in": "Lennard Maloney",
+   "in_id": 921197,
+   "out": "Phillip Tietz",
+   "out_id": 686315
+  },
+  {
+   "min": 90,
+   "plus": 1,
+   "home": false,
+   "type": "sub",
+   "in": "Silvan Widmer",
+   "in_id": 275034,
+   "out": "Anthony Caci",
+   "out_id": 771401
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83208,
  "matchday": 6,
  "season": 2026

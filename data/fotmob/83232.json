@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881217,
  "stats": {
   "BallPossesion": [
@@ -1784,6 +1784,195 @@
   "id": 1001080233,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 2,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Igor Matanović",
+   "player_id": 1210893
+  },
+  {
+   "min": 19,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Zeno Van Den Bosch",
+   "player_id": 1231677
+  },
+  {
+   "min": 27,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Yannik Engelhardt",
+   "player_id": 1269497
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Jeong Woo-Yeong",
+   "in_id": 949673,
+   "out": "Kastriot Imeri",
+   "out_id": 852049
+  },
+  {
+   "min": 46,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Oliver Burke",
+   "in_id": 609504,
+   "out": "Tim Skarke",
+   "out_id": 658440
+  },
+  {
+   "min": 55,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Rani Khedira",
+   "player_id": 304348,
+   "assist": null,
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": true,
+   "penalty": false
+  },
+  {
+   "min": 67,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Yuito Suzuki",
+   "player_id": 1134467,
+   "assist": "Derry Scherhant",
+   "score": [
+    2,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Keisuke Goto",
+   "in_id": 1436730,
+   "out": "Igor Matanović",
+   "out_id": 1210893
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Vincenzo Grifo",
+   "in_id": 400625,
+   "out": "Derry Scherhant",
+   "out_id": 1302666
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Andrej Ilić",
+   "in_id": 1047670,
+   "out": "Livan Burcu",
+   "out_id": 1520506
+  },
+  {
+   "min": 75,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Patrick Osterhage",
+   "in_id": 1075815,
+   "out": "Yannik Engelhardt",
+   "out_id": 1269497
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Linus Güther",
+   "in_id": 1958812,
+   "out": "Michel Aebischer",
+   "out_id": 792756
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Lukas Kübler",
+   "in_id": 307209,
+   "out": "Philipp Treu",
+   "out_id": 1281090
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Lucas Höler",
+   "in_id": 556524,
+   "out": "Yuito Suzuki",
+   "out_id": 1134467
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Tom Rothe",
+   "in_id": 1282582,
+   "out": "Derrick Köhn",
+   "out_id": 860260
+  },
+  {
+   "min": 89,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Jeong Woo-Yeong",
+   "player_id": 949673
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 5 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83232,
  "matchday": 9,
  "season": 2026

@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881178,
  "stats": {
   "BallPossesion": [
@@ -1802,6 +1802,246 @@
   "id": 1001073469,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 5,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Han-Noah Massengo",
+   "player_id": 978680
+  },
+  {
+   "min": 18,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Robin Fellhauer",
+   "player_id": 1185609,
+   "assist": "Fabian Rieder",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 27,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Arthur",
+   "player_id": 1353457
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 52,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Yannik Keitel",
+   "in_id": 844431,
+   "out": "Han-Noah Massengo",
+   "out_id": 978680
+  },
+  {
+   "min": 53,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Rodrigo Ribeiro",
+   "in_id": 1343749,
+   "out": "Michael Gregoritsch",
+   "out_id": 198316
+  },
+  {
+   "min": 53,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Alexis Claude-Maurice",
+   "in_id": 689065,
+   "out": "Mert Kömür",
+   "out_id": 1453218
+  },
+  {
+   "min": 58,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Calvin Brackelmann",
+   "player_id": 1300329,
+   "assist": "Alexis Claude-Maurice",
+   "score": [
+    0,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Marco Grüll",
+   "player_id": 1024292
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Marco Grüll",
+   "player_id": 1024292,
+   "assist": "Chuki",
+   "score": [
+    1,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Mitchell Weiser",
+   "in_id": 298823,
+   "out": "Eren Dinkçi",
+   "out_id": 1146376
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Manuel Baum",
+   "player_id": 816800
+  },
+  {
+   "min": 74,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Seol Young-Woo",
+   "in_id": 1132818,
+   "out": "Marius Wolf",
+   "out_id": 556029
+  },
+  {
+   "min": 77,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Hennes Behrens",
+   "player_id": 1678681
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Salim Musah",
+   "in_id": 1646629,
+   "out": "Ludovit Reis",
+   "out_id": 869326
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Oskar Wójcik",
+   "in_id": 1283403,
+   "out": "Amos Pieper",
+   "out_id": 765998
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Jeffrey Gouweleeuw",
+   "in_id": 245315,
+   "out": "Calvin Brackelmann",
+   "out_id": 1300329
+  },
+  {
+   "min": 86,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Niclas Füllkrug",
+   "player_id": 276791,
+   "assist": "Marco Grüll",
+   "score": [
+    2,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 5 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 3,
+   "home": true,
+   "type": "goal",
+   "player": "Mitchell Weiser",
+   "player_id": 298823,
+   "assist": "Marco Grüll",
+   "score": [
+    3,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": 4,
+   "home": true,
+   "type": "sub",
+   "in": "Mick Schmetgens",
+   "in_id": 1714103,
+   "out": "Arthur",
+   "out_id": 1353457
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83189,
  "matchday": 4,
  "season": 2026

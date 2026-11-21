@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "fm_id": 5881212,
  "stats": {
   "BallPossesion": [
@@ -1759,6 +1759,181 @@
   "id": 1001078621,
   "country": "Germany"
  },
+ "events": [
+  {
+   "min": 37,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Antonio Nusa",
+   "player_id": 1248482,
+   "assist": null,
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": true
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": 4,
+   "home": false,
+   "type": "var",
+   "text": "Rômulo"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 51,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Timo Becker",
+   "player_id": 785739
+  },
+  {
+   "min": 57,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Dejan Ljubičić",
+   "in_id": 861668,
+   "out": "Chukwubuike Adamu",
+   "out_id": 882163
+  },
+  {
+   "min": 61,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Christoph Baumgartner",
+   "in_id": 747718,
+   "out": "Rocco Reitz",
+   "out_id": 1174726
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Edin Džeko",
+   "in_id": 15403,
+   "out": "Mertcan Ayhan",
+   "out_id": 1755657
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Tidiam Gomis",
+   "in_id": 1482733,
+   "out": "Brajan Gruda",
+   "out_id": 1430151
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Ridle Baku",
+   "in_id": 883087,
+   "out": "Benjamin Henrichs",
+   "out_id": 681383
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Rômulo",
+   "player_id": 1314412,
+   "assist": "Antonio Nusa",
+   "score": [
+    0,
+    2
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Junior Dina Ebimbe",
+   "in_id": 1040889,
+   "out": "Timo Becker",
+   "out_id": 785739
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Bryan Lasme",
+   "in_id": 815566,
+   "out": "Hwang Hee-Chan",
+   "out_id": 620026
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Johan Bakayoko",
+   "in_id": 1203194,
+   "out": "Rômulo",
+   "out_id": 1314412
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Nicolas Seiwald",
+   "in_id": 1024672,
+   "out": "Ezechiel Banzuzi",
+   "out_id": 1310001
+  },
+  {
+   "min": 86,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Adil Aouchiche",
+   "player_id": 1047664
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
  "oldb_id": 83226,
  "matchday": 8,
  "season": 2026
