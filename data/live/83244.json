@@ -4,12 +4,12 @@
  "home": "S04",
  "away": "VFB",
  "kickoff": "2026-11-21T17:30:00Z",
- "updated_at": "2026-11-21T17:40:57+00:00",
+ "updated_at": "2026-11-21T17:41:58+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "1‎’‎",
+  "minute": "11‎’‎",
   "reason": null,
   "score": [
    0,
@@ -17,124 +17,684 @@
   ]
  },
  "events": [],
- "stats": {},
- "momentum": null,
- "shots": [],
+ "stats": {
+  "BallPossesion": [
+   53,
+   47
+  ],
+  "expected_goals": [
+   0.04,
+   0.35
+  ],
+  "total_shots": [
+   1,
+   2
+  ],
+  "ShotsOnTarget": [
+   0,
+   0
+  ],
+  "touches_opp_box": [
+   6,
+   2
+  ],
+  "big_chance": [
+   0,
+   0
+  ],
+  "big_chance_missed_title": [
+   0,
+   0
+  ],
+  "accurate_passes": [
+   {
+    "n": 39,
+    "pct": 80
+   },
+   {
+    "n": 35,
+    "pct": 81
+   }
+  ],
+  "yellow_cards": [
+   0,
+   0
+  ],
+  "corners": [
+   0,
+   1
+  ],
+  "blocked_shots": [
+   0,
+   2
+  ],
+  "shots_inside_box": [
+   1,
+   1
+  ],
+  "expected_goals_open_play": [
+   0.04,
+   0.35
+  ],
+  "passes": [
+   49,
+   43
+  ],
+  "own_half_passes": [
+   17,
+   24
+  ],
+  "opposition_half_passes": [
+   22,
+   11
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 1,
+    "pct": 17
+   },
+   {
+    "n": 1,
+    "pct": 20
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 1,
+    "pct": 50
+   },
+   {
+    "n": 0,
+    "pct": 0
+   }
+  ],
+  "Offsides": [
+   0,
+   0
+  ],
+  "tackles": [
+   3,
+   3
+  ],
+  "interceptions": [
+   2,
+   0
+  ],
+  "shot_blocks": [
+   2,
+   0
+  ],
+  "clearances": [
+   2,
+   3
+  ],
+  "keeper_saves": [
+   0,
+   0
+  ],
+  "duel_won": [
+   4,
+   6
+  ],
+  "ground_duels_won": [
+   0,
+   0
+  ],
+  "aerials_won": [
+   {
+    "n": 0,
+    "pct": 0
+   },
+   {
+    "n": 2,
+    "pct": 100
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 1,
+    "pct": 33
+   },
+   {
+    "n": 0,
+    "pct": 0
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   1,
+   0
+  ]
+ },
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   -22
+  ],
+  [
+   2,
+   -54
+  ],
+  [
+   3,
+   -65
+  ],
+  [
+   4,
+   84
+  ],
+  [
+   5,
+   100
+  ],
+  [
+   6,
+   100
+  ],
+  [
+   7,
+   22
+  ],
+  [
+   8,
+   11
+  ],
+  [
+   9,
+   -8
+  ],
+  [
+   10,
+   null
+  ],
+  [
+   11,
+   null
+  ],
+  [
+   12,
+   null
+  ],
+  [
+   13,
+   null
+  ],
+  [
+   14,
+   null
+  ],
+  [
+   15,
+   null
+  ],
+  [
+   16,
+   null
+  ],
+  [
+   17,
+   null
+  ],
+  [
+   18,
+   null
+  ],
+  [
+   19,
+   null
+  ],
+  [
+   20,
+   null
+  ],
+  [
+   21,
+   null
+  ],
+  [
+   22,
+   null
+  ],
+  [
+   23,
+   null
+  ],
+  [
+   24,
+   null
+  ],
+  [
+   25,
+   null
+  ],
+  [
+   26,
+   null
+  ],
+  [
+   27,
+   null
+  ],
+  [
+   28,
+   null
+  ],
+  [
+   29,
+   null
+  ],
+  [
+   30,
+   null
+  ],
+  [
+   31,
+   null
+  ],
+  [
+   32,
+   null
+  ],
+  [
+   33,
+   null
+  ],
+  [
+   34,
+   null
+  ],
+  [
+   35,
+   null
+  ],
+  [
+   36,
+   null
+  ],
+  [
+   37,
+   null
+  ],
+  [
+   38,
+   null
+  ],
+  [
+   39,
+   null
+  ],
+  [
+   40,
+   null
+  ],
+  [
+   41,
+   null
+  ],
+  [
+   42,
+   null
+  ],
+  [
+   43,
+   null
+  ],
+  [
+   44,
+   null
+  ],
+  [
+   45,
+   null
+  ],
+  [
+   46,
+   null
+  ],
+  [
+   47,
+   null
+  ],
+  [
+   48,
+   null
+  ],
+  [
+   49,
+   null
+  ],
+  [
+   50,
+   null
+  ],
+  [
+   51,
+   null
+  ],
+  [
+   52,
+   null
+  ],
+  [
+   53,
+   null
+  ],
+  [
+   54,
+   null
+  ],
+  [
+   55,
+   null
+  ],
+  [
+   56,
+   null
+  ],
+  [
+   57,
+   null
+  ],
+  [
+   58,
+   null
+  ],
+  [
+   59,
+   null
+  ],
+  [
+   60,
+   null
+  ],
+  [
+   61,
+   null
+  ],
+  [
+   62,
+   null
+  ],
+  [
+   63,
+   null
+  ],
+  [
+   64,
+   null
+  ],
+  [
+   65,
+   null
+  ],
+  [
+   66,
+   null
+  ],
+  [
+   67,
+   null
+  ],
+  [
+   68,
+   null
+  ],
+  [
+   69,
+   null
+  ],
+  [
+   70,
+   null
+  ],
+  [
+   71,
+   null
+  ],
+  [
+   72,
+   null
+  ],
+  [
+   73,
+   null
+  ],
+  [
+   74,
+   null
+  ],
+  [
+   75,
+   null
+  ],
+  [
+   76,
+   null
+  ],
+  [
+   77,
+   null
+  ],
+  [
+   78,
+   null
+  ],
+  [
+   79,
+   null
+  ],
+  [
+   80,
+   null
+  ],
+  [
+   81,
+   null
+  ],
+  [
+   82,
+   null
+  ],
+  [
+   83,
+   null
+  ],
+  [
+   84,
+   null
+  ],
+  [
+   85,
+   null
+  ],
+  [
+   86,
+   null
+  ],
+  [
+   87,
+   null
+  ],
+  [
+   88,
+   null
+  ],
+  [
+   89,
+   null
+  ],
+  [
+   90,
+   null
+  ],
+  [
+   90.75,
+   null
+  ]
+ ],
+ "shots": [
+  {
+   "team": "VFB",
+   "player": "Deniz Undav",
+   "min": 2,
+   "x": 90.4,
+   "y": 32.551249999999996,
+   "xg": 0.311648428440094,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Ermedin Demirović",
+   "min": 3,
+   "x": 85.4941176464,
+   "y": 38.284285716,
+   "xg": 0.03493839129805565,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "S04",
+   "player": "Adil Aouchiche",
+   "min": 4,
+   "x": 95.35087719170001,
+   "y": 45.6122292954,
+   "xg": 0.04112504795193672,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  }
+ ],
  "zones": {
   "home": {
-   "left": 0,
-   "center": 0,
-   "right": 0
+   "left": 51,
+   "center": 26,
+   "right": 23
   },
   "away": {
-   "left": 0,
-   "center": 0,
-   "right": 0
+   "left": 48,
+   "center": 38,
+   "right": 14
   }
  },
  "lineups": {
   "home": {
    "team": "S04",
-   "formation": "3-5-2",
-   "rating": null,
+   "formation": "4-3-2-1",
+   "rating": 6,
    "players": [
     {
      "id": 287894,
      "name": "Loris Karius",
      "pos_id": 11,
-     "rating": null,
+     "rating": 6,
      "captain": false,
      "x": 0.5,
      "y": 0.1
     },
     {
+     "id": 1040889,
+     "name": "Junior Dina Ebimbe",
+     "pos_id": 32,
+     "rating": 6,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
      "id": 725655,
      "name": "Nikola Katić",
-     "pos_id": 33,
-     "rating": null,
+     "pos_id": 34,
+     "rating": 5.9,
      "captain": false,
-     "x": 0.21,
-     "y": 0.357
+     "x": 0.375,
+     "y": 0.292
     },
     {
      "id": 794619,
      "name": "Hasan Kuruçay",
-     "pos_id": 35,
-     "rating": null,
+     "pos_id": 36,
+     "rating": 6.1,
      "captain": false,
-     "x": 0.5,
-     "y": 0.357
+     "x": 0.625,
+     "y": 0.292
     },
     {
      "id": 1659420,
      "name": "Vitalie Becker",
-     "pos_id": 37,
-     "rating": null,
+     "pos_id": 38,
+     "rating": 6,
      "captain": false,
-     "x": 0.79,
-     "y": 0.357
-    },
-    {
-     "id": 1040889,
-     "name": "Junior Dina Ebimbe",
-     "pos_id": 71,
-     "rating": null,
-     "captain": false,
-     "x": 0.11,
-     "y": 0.613
+     "x": 0.875,
+     "y": 0.292
     },
     {
      "id": 861668,
      "name": "Dejan Ljubičić",
-     "pos_id": 73,
-     "rating": null,
+     "pos_id": 63,
+     "rating": 6.1,
      "captain": false,
-     "x": 0.305,
-     "y": 0.613
+     "x": 0.21,
+     "y": 0.485
     },
     {
      "id": 1249185,
      "name": "Soufian El-Faouzi",
-     "pos_id": 75,
-     "rating": null,
+     "pos_id": 65,
+     "rating": 6.2,
      "captain": false,
      "x": 0.5,
-     "y": 0.613
-    },
-    {
-     "id": 469763,
-     "name": "Kenan Karaman",
-     "pos_id": 77,
-     "rating": null,
-     "captain": true,
-     "x": 0.695,
-     "y": 0.613
+     "y": 0.485
     },
     {
      "id": 1047664,
      "name": "Adil Aouchiche",
-     "pos_id": 79,
-     "rating": null,
+     "pos_id": 67,
+     "rating": 5.8,
      "captain": false,
-     "x": 0.89,
-     "y": 0.613
+     "x": 0.79,
+     "y": 0.485
     },
     {
      "id": 620026,
      "name": "Hwang Hee-Chan",
-     "pos_id": 104,
-     "rating": null,
+     "pos_id": 84,
+     "rating": 6.3,
      "captain": false,
      "x": 0.3,
-     "y": 0.87
+     "y": 0.678
+    },
+    {
+     "id": 469763,
+     "name": "Kenan Karaman",
+     "pos_id": 86,
+     "rating": 5.9,
+     "captain": true,
+     "x": 0.7,
+     "y": 0.678
     },
     {
      "id": 882163,
      "name": "Chukwubuike Adamu",
-     "pos_id": 106,
-     "rating": null,
+     "pos_id": 115,
+     "rating": 5.9,
      "captain": false,
-     "x": 0.7,
+     "x": 0.5,
      "y": 0.87
     }
    ]
@@ -142,13 +702,13 @@
   "away": {
    "team": "VFB",
    "formation": "3-4-2-1",
-   "rating": null,
+   "rating": 5.9,
    "players": [
     {
      "id": 1478098,
      "name": "Dennis Seimen",
      "pos_id": 11,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -157,25 +717,25 @@
      "id": 1487877,
      "name": "Finn Jeltsch",
      "pos_id": 33,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.21,
      "y": 0.292
     },
     {
-     "id": 867080,
-     "name": "Jeff Chabot",
+     "id": 1125187,
+     "name": "Ramon Hendriks",
      "pos_id": 35,
-     "rating": null,
+     "rating": 6.3,
      "captain": false,
      "x": 0.5,
      "y": 0.292
     },
     {
-     "id": 1125187,
-     "name": "Ramon Hendriks",
+     "id": 867080,
+     "name": "Jeff Chabot",
      "pos_id": 37,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -184,7 +744,7 @@
      "id": 1074968,
      "name": "Jamie Leweling",
      "pos_id": 62,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.125,
      "y": 0.485
@@ -193,7 +753,7 @@
      "id": 625175,
      "name": "Grischa Prömel",
      "pos_id": 64,
-     "rating": null,
+     "rating": 5.7,
      "captain": false,
      "x": 0.375,
      "y": 0.485
@@ -202,7 +762,7 @@
      "id": 1793638,
      "name": "Yanik Spalt",
      "pos_id": 66,
-     "rating": null,
+     "rating": 5.8,
      "captain": false,
      "x": 0.625,
      "y": 0.485
@@ -211,7 +771,7 @@
      "id": 614384,
      "name": "Maximilian Mittelstädt",
      "pos_id": 68,
-     "rating": null,
+     "rating": 6.1,
      "captain": false,
      "x": 0.875,
      "y": 0.485
@@ -220,7 +780,7 @@
      "id": 661519,
      "name": "Deniz Undav",
      "pos_id": 84,
-     "rating": null,
+     "rating": 6.1,
      "captain": true,
      "x": 0.3,
      "y": 0.678
@@ -229,7 +789,7 @@
      "id": 892679,
      "name": "Chris Führich",
      "pos_id": 86,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.7,
      "y": 0.678
@@ -238,7 +798,7 @@
      "id": 840241,
      "name": "Ermedin Demirović",
      "pos_id": 105,
-     "rating": null,
+     "rating": 5.9,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -246,5 +806,469 @@
    ]
   }
  },
- "players": []
+ "players": [
+  {
+   "id": 15403,
+   "team": "S04",
+   "name": "Edin Džeko",
+   "keeper": false
+  },
+  {
+   "id": 215159,
+   "team": "S04",
+   "name": "Kevin Müller",
+   "keeper": true
+  },
+  {
+   "id": 287894,
+   "team": "S04",
+   "name": "Loris Karius",
+   "keeper": true,
+   "rating": 6.03,
+   "recoveries": 1,
+   "touches": 4,
+   "tackles": 0,
+   "final_third_passes": 1,
+   "interceptions": 0
+  },
+  {
+   "id": 469763,
+   "team": "S04",
+   "name": "Kenan Karaman",
+   "keeper": false,
+   "rating": 5.88,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 518346,
+   "team": "S04",
+   "name": "Robin Gosens",
+   "keeper": false
+  },
+  {
+   "id": 522236,
+   "team": "VFB",
+   "name": "Fabian Bredlow",
+   "keeper": true
+  },
+  {
+   "id": 560976,
+   "team": "S04",
+   "name": "Janik Bachmann",
+   "keeper": false
+  },
+  {
+   "id": 614384,
+   "team": "VFB",
+   "name": "Maximilian Mittelstädt",
+   "keeper": false,
+   "rating": 6.05,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 620026,
+   "team": "S04",
+   "name": "Hwang Hee-Chan",
+   "keeper": false,
+   "rating": 6.26,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 4,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 625175,
+   "team": "VFB",
+   "name": "Grischa Prömel",
+   "keeper": false,
+   "rating": 5.66,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 661519,
+   "team": "VFB",
+   "name": "Deniz Undav",
+   "keeper": false,
+   "rating": 6.13,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.31,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 4,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1
+  },
+  {
+   "id": 684983,
+   "team": "VFB",
+   "name": "Atakan Karazor",
+   "keeper": false
+  },
+  {
+   "id": 725655,
+   "team": "S04",
+   "name": "Nikola Katić",
+   "keeper": false,
+   "rating": 5.87,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 794619,
+   "team": "S04",
+   "name": "Hasan Kuruçay",
+   "keeper": false,
+   "rating": 6.13,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 2
+  },
+  {
+   "id": 815566,
+   "team": "S04",
+   "name": "Bryan Lasme",
+   "keeper": false
+  },
+  {
+   "id": 840241,
+   "team": "VFB",
+   "name": "Ermedin Demirović",
+   "keeper": false,
+   "rating": 5.86,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.03,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 860056,
+   "team": "S04",
+   "name": "Moussa Sylla",
+   "keeper": false
+  },
+  {
+   "id": 861668,
+   "team": "S04",
+   "name": "Dejan Ljubičić",
+   "keeper": false,
+   "rating": 6.06,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "id": 867080,
+   "team": "VFB",
+   "name": "Jeff Chabot",
+   "keeper": false,
+   "rating": 5.85,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 869298,
+   "team": "VFB",
+   "name": "Nikolas Nartey",
+   "keeper": false
+  },
+  {
+   "id": 882163,
+   "team": "S04",
+   "name": "Chukwubuike Adamu",
+   "keeper": false,
+   "rating": 5.85,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 3
+  },
+  {
+   "id": 892679,
+   "team": "VFB",
+   "name": "Chris Führich",
+   "keeper": false,
+   "rating": 5.93,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.07,
+   "key_passes": 1,
+   "touches": 7,
+   "touches_box": 1,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 928454,
+   "team": "VFB",
+   "name": "Josha Vagnoman",
+   "keeper": false
+  },
+  {
+   "id": 1040889,
+   "team": "S04",
+   "name": "Junior Dina Ebimbe",
+   "keeper": false,
+   "rating": 5.97,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0
+  },
+  {
+   "id": 1047664,
+   "team": "S04",
+   "name": "Adil Aouchiche",
+   "keeper": false,
+   "rating": 5.78,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1074968,
+   "team": "VFB",
+   "name": "Jamie Leweling",
+   "keeper": false,
+   "rating": 5.85,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 1125187,
+   "team": "VFB",
+   "name": "Ramon Hendriks",
+   "keeper": false,
+   "rating": 6.25,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 3
+  },
+  {
+   "id": 1155066,
+   "team": "S04",
+   "name": "Satoshi Tanaka",
+   "keeper": false
+  },
+  {
+   "id": 1164506,
+   "team": "VFB",
+   "name": "Tiago Tomás",
+   "keeper": false
+  },
+  {
+   "id": 1179182,
+   "team": "S04",
+   "name": "Adrian Gantenbein",
+   "keeper": false
+  },
+  {
+   "id": 1192406,
+   "team": "VFB",
+   "name": "Lorenz Assignon",
+   "keeper": false
+  },
+  {
+   "id": 1249185,
+   "team": "S04",
+   "name": "Soufian El-Faouzi",
+   "keeper": false,
+   "rating": 6.19,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 0,
+   "touches": 12,
+   "touches_box": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1
+  },
+  {
+   "id": 1279764,
+   "team": "VFB",
+   "name": "Ameen Al Dakhil",
+   "keeper": false
+  },
+  {
+   "id": 1340895,
+   "team": "VFB",
+   "name": "Bilal El Khannouss",
+   "keeper": false
+  },
+  {
+   "id": 1366602,
+   "team": "VFB",
+   "name": "Dženan Pejčinović",
+   "keeper": false
+  },
+  {
+   "id": 1478098,
+   "team": "VFB",
+   "name": "Dennis Seimen",
+   "keeper": true,
+   "rating": 5.85,
+   "recoveries": 1,
+   "touches": 4,
+   "tackles": 0,
+   "interceptions": 0
+  },
+  {
+   "id": 1487877,
+   "team": "VFB",
+   "name": "Finn Jeltsch",
+   "keeper": false,
+   "rating": 5.93,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 10,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1659420,
+   "team": "S04",
+   "name": "Vitalie Becker",
+   "keeper": false,
+   "rating": 6.04,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 1,
+   "touches": 6,
+   "touches_box": 1,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1755657,
+   "team": "S04",
+   "name": "Mertcan Ayhan",
+   "keeper": false
+  },
+  {
+   "id": 1793638,
+   "team": "VFB",
+   "name": "Yanik Spalt",
+   "keeper": false,
+   "rating": 5.76,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
+  }
+ ]
 }
