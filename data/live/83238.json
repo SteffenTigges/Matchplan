@@ -4,12 +4,12 @@
  "home": "B04",
  "away": "SCP",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T15:35:41+00:00",
+ "updated_at": "2026-11-21T15:36:43+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "HT",
+  "minute": "47‎’‎",
   "reason": null,
   "score": [
    1,
@@ -17,6 +17,16 @@
   ]
  },
  "events": [
+  {
+   "min": 46,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Felix Götze",
+   "in_id": 767790,
+   "out": "Jano ter Horst",
+   "out_id": 1520469
+  },
   {
    "min": 45,
    "plus": null,
@@ -53,7 +63,7 @@
    32
   ],
   "expected_goals": [
-   1.14,
+   1.47,
    0.0
   ],
   "total_shots": [
@@ -78,11 +88,11 @@
   ],
   "accurate_passes": [
    {
-    "n": 384,
+    "n": 387,
     "pct": 93
    },
    {
-    "n": 157,
+    "n": 156,
     "pct": 81
    }
   ],
@@ -103,33 +113,33 @@
    0
   ],
   "expected_goals_open_play": [
-   0.98,
+   1.28,
    0.0
   ],
   "expected_goals_set_play": [
-   0.16,
+   0.19,
    0.0
   ],
   "expected_goals_on_target": [
-   1.39,
+   1.69,
    0.0
   ],
   "passes": [
-   414,
-   194
+   417,
+   193
   ],
   "own_half_passes": [
-   236,
+   239,
    90
   ],
   "opposition_half_passes": [
    148,
-   67
+   66
   ],
   "long_balls_accurate": [
    {
-    "n": 17,
-    "pct": 65
+    "n": 16,
+    "pct": 64
    },
    {
     "n": 10,
@@ -151,7 +161,7 @@
    0
   ],
   "tackles": [
-   4,
+   5,
    5
   ],
   "interceptions": [
@@ -171,23 +181,23 @@
    6
   ],
   "duel_won": [
-   19,
+   21,
    13
   ],
   "ground_duels_won": [
    {
-    "n": 13,
-    "pct": 54
+    "n": 14,
+    "pct": 56
    },
    {
     "n": 11,
-    "pct": 46
+    "pct": 44
    }
   ],
   "aerials_won": [
    {
-    "n": 6,
-    "pct": 67
+    "n": 7,
+    "pct": 78
    },
    {
     "n": 2,
@@ -224,15 +234,15 @@
   ],
   [
    2,
-   65
+   71
   ],
   [
    3,
-   57
+   62
   ],
   [
    4,
-   3
+   8
   ],
   [
    5,
@@ -296,15 +306,15 @@
   ],
   [
    20,
-   -5
+   0
   ],
   [
    21,
-   -5
+   0
   ],
   [
    22,
-   -11
+   -5
   ],
   [
    23,
@@ -594,7 +604,7 @@
    "min": 2,
    "x": 104.1465517242,
    "y": 19.0947770725,
-   "xg": 0.019595567137002945,
+   "xg": 0.10050958395004272,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
@@ -607,8 +617,8 @@
    "min": 2,
    "x": 94.09649122639999,
    "y": 34.68625,
-   "xg": 0.21924562752246857,
-   "xgot": 0.1422799676656723,
+   "xg": 0.37047699093818665,
+   "xgot": 0.3545804023742676,
    "situation": "RegularPlay",
    "type": "LeftFoot",
    "result": "saved",
@@ -659,8 +669,8 @@
    "min": 7,
    "x": 100.1637931038,
    "y": 39.545000001,
-   "xg": 0.08233832567930222,
-   "xgot": 0.162885844707489,
+   "xg": 0.13612890243530273,
+   "xgot": 0.22427959740161896,
    "situation": "RegularPlay",
    "type": "Header",
    "result": "saved",
@@ -670,9 +680,9 @@
    "team": "B04",
    "player": "Jarell Quansah",
    "min": 8,
-   "x": 96.7017543851,
-   "y": 42.00375,
-   "xg": 0.021199341863393784,
+   "x": 98.3421052628,
+   "y": 40.217380953,
+   "xg": 0.062679722905159,
    "xgot": 0,
    "situation": "FromCorner",
    "type": "Header",
@@ -724,7 +734,7 @@
    "min": 36,
    "x": 94.675438595,
    "y": 30.34,
-   "xg": 0.03968869522213936,
+   "xg": 0.02842518500983715,
    "xgot": 0,
    "situation": "SetPiece",
    "type": "Header",
@@ -737,8 +747,8 @@
    "min": 45,
    "x": 87.31911764680001,
    "y": 32.0175,
-   "xg": 0.216878741979599,
-   "xgot": 0.6618019938468933,
+   "xg": 0.23237203061580658,
+   "xgot": 0.6841849684715271,
    "situation": "RegularPlay",
    "type": "RightFoot",
    "result": "saved",
@@ -857,7 +867,7 @@
      "id": 540097,
      "name": "Patrik Schick",
      "pos_id": 115,
-     "rating": 6.5,
+     "rating": 6.6,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -873,7 +883,7 @@
      "id": 1257826,
      "name": "Nahuel Noll",
      "pos_id": 11,
-     "rating": 6.9,
+     "rating": 7.1,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -945,7 +955,7 @@
      "id": 1688956,
      "name": "Ruben Müller",
      "pos_id": 84,
-     "rating": 5.8,
+     "rating": 5.6,
      "captain": false,
      "x": 0.3,
      "y": 0.678
@@ -1007,10 +1017,10 @@
    "team": "B04",
    "name": "Patrik Schick",
    "keeper": false,
-   "rating": 6.45,
+   "rating": 6.55,
    "goals": 0,
    "assists": 0,
-   "xg": 0.41,
+   "xg": 0.56,
    "xa": 0.04,
    "shots": 3,
    "key_passes": 0,
@@ -1019,20 +1029,20 @@
    "tackles": 2,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 2,
-   "duels_lost": 3
+   "duels_won": 3,
+   "duels_lost": 2
   },
   {
    "id": 642551,
    "team": "B04",
    "name": "Aleix García",
    "keeper": false,
-   "rating": 7.51,
+   "rating": 7.52,
    "goals": 0,
    "assists": 0,
-   "xa": 0.54,
+   "xa": 0.58,
    "key_passes": 3,
-   "touches": 68,
+   "touches": 70,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 4,
@@ -1126,7 +1136,7 @@
    "rating": 6.76,
    "goals": 0,
    "assists": 0,
-   "xg": 0.09,
+   "xg": 0.16,
    "xa": 0.01,
    "shots": 3,
    "key_passes": 0,
@@ -1153,7 +1163,7 @@
    "rating": 7.13,
    "goals": 0,
    "assists": 0,
-   "xa": 0.09,
+   "xa": 0.13,
    "key_passes": 1,
    "touches": 56,
    "touches_box": 1,
@@ -1183,11 +1193,11 @@
    "rating": 6.39,
    "goals": 0,
    "assists": 0,
-   "xg": 0.02,
+   "xg": 0.06,
    "xa": 0.03,
    "shots": 1,
    "key_passes": 0,
-   "touches": 63,
+   "touches": 64,
    "touches_box": 1,
    "final_third_passes": 6,
    "tackles": 0,
@@ -1205,7 +1215,7 @@
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 71,
+   "touches": 72,
    "touches_box": 0,
    "final_third_passes": 4,
    "tackles": 1,
@@ -1222,7 +1232,7 @@
    "rating": 7.9,
    "goals": 0,
    "assists": 1,
-   "xg": 0.08,
+   "xg": 0.14,
    "xa": 0.24,
    "shots": 1,
    "key_passes": 4,
@@ -1240,7 +1250,7 @@
    "team": "B04",
    "name": "Equi Fernández",
    "keeper": false,
-   "rating": 7.09,
+   "rating": 7.11,
    "goals": 0,
    "assists": 0,
    "xg": 0.03,
@@ -1249,17 +1259,17 @@
    "key_passes": 1,
    "touches": 59,
    "touches_box": 2,
-   "tackles": 0,
+   "tackles": 1,
    "interceptions": 1,
    "recoveries": 0,
-   "duels_won": 3
+   "duels_won": 4
   },
   {
    "id": 1257826,
    "team": "SCP",
    "name": "Nahuel Noll",
    "keeper": true,
-   "rating": 6.87,
+   "rating": 7.06,
    "recoveries": 4,
    "touches": 31,
    "tackles": 0,
@@ -1332,8 +1342,8 @@
    "rating": 8.22,
    "goals": 1,
    "assists": 0,
-   "xg": 0.51,
-   "xa": 0.37,
+   "xg": 0.52,
+   "xa": 0.4,
    "shots": 3,
    "key_passes": 2,
    "touches": 30,
@@ -1425,7 +1435,7 @@
    "team": "SCP",
    "name": "Jano ter Horst",
    "keeper": false,
-   "rating": 5.98,
+   "rating": 5.99,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1454,7 +1464,7 @@
    "team": "SCP",
    "name": "Ruben Müller",
    "keeper": false,
-   "rating": 5.78,
+   "rating": 5.64,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
@@ -1465,7 +1475,7 @@
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 1701615,

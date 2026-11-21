@@ -4,12 +4,12 @@
  "home": "SGE",
  "away": "TSG",
  "kickoff": "2026-11-21T14:30:00Z",
- "updated_at": "2026-11-21T15:35:41+00:00",
+ "updated_at": "2026-11-21T15:36:43+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "HT",
+  "minute": "46‎’‎",
   "reason": null,
   "score": [
    1,
@@ -53,7 +53,7 @@
    54
   ],
   "expected_goals": [
-   1.55,
+   1.52,
    1.12
   ],
   "total_shots": [
@@ -78,11 +78,11 @@
   ],
   "accurate_passes": [
    {
-    "n": 140,
+    "n": 141,
     "pct": 70
    },
    {
-    "n": 179,
+    "n": 181,
     "pct": 76
    }
   ],
@@ -103,7 +103,7 @@
    4
   ],
   "expected_goals_open_play": [
-   0.67,
+   0.64,
    0.31
   ],
   "expected_goals_set_play": [
@@ -111,29 +111,29 @@
    0.03
   ],
   "expected_goals_on_target": [
-   1.52,
+   1.72,
    0.86
   ],
   "passes": [
-   201,
-   236
+   202,
+   239
   ],
   "own_half_passes": [
-   48,
-   98
+   50,
+   100
   ],
   "opposition_half_passes": [
-   92,
+   91,
    81
   ],
   "long_balls_accurate": [
    {
-    "n": 14,
-    "pct": 47
+    "n": 15,
+    "pct": 48
    },
    {
     "n": 18,
-    "pct": 58
+    "pct": 56
    }
   ],
   "accurate_crosses": [
@@ -152,10 +152,10 @@
   ],
   "tackles": [
    6,
-   17
+   18
   ],
   "interceptions": [
-   8,
+   9,
    6
   ],
   "shot_blocks": [
@@ -172,16 +172,16 @@
   ],
   "duel_won": [
    23,
-   36
+   37
   ],
   "ground_duels_won": [
    {
     "n": 13,
-    "pct": 34
+    "pct": 33
    },
    {
-    "n": 25,
-    "pct": 66
+    "n": 26,
+    "pct": 67
    }
   ],
   "aerials_won": [
@@ -316,15 +316,15 @@
   ],
   [
    25,
-   54
+   22
   ],
   [
    26,
-   43
+   11
   ],
   [
    27,
-   38
+   5
   ],
   [
    28,
@@ -404,7 +404,7 @@
   ],
   [
    46,
-   null
+   0
   ],
   [
    47,
@@ -686,7 +686,7 @@
    "x": 83.160679612,
    "y": 47.2236942643,
    "xg": 0.020665733143687248,
-   "xgot": 0,
+   "xgot": 0.20560210943222046,
    "situation": "RegularPlay",
    "type": "RightFoot",
    "result": "saved",
@@ -724,7 +724,7 @@
    "min": 27,
    "x": 90,
    "y": 34.61,
-   "xg": 0.03118465468287468,
+   "xg": 0.02908763289451599,
    "xgot": 0,
    "situation": "FromCorner",
    "type": "RightFoot",
@@ -789,7 +789,7 @@
    "min": 37,
    "x": 88.9,
    "y": 39.545000001,
-   "xg": 0.08011078089475632,
+   "xg": 0.04064041003584862,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
@@ -815,7 +815,7 @@
    "min": 39,
    "x": 87.31911764680001,
    "y": 30.492499999999996,
-   "xg": 0.07327617704868317,
+   "xg": 0.08935658633708954,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "LeftFoot",
@@ -828,7 +828,7 @@
    "min": 39,
    "x": 87.21176470559999,
    "y": 28.875238094000004,
-   "xg": 0.08475184440612793,
+   "xg": 0.07921701669692993,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
@@ -882,8 +882,8 @@
    "right": 38
   },
   "away": {
-   "left": 42,
-   "center": 25,
+   "left": 41,
+   "center": 26,
    "right": 33
   }
  },
@@ -924,7 +924,7 @@
      "id": 1073941,
      "name": "Lilian Brassier",
      "pos_id": 36,
-     "rating": 6.5,
+     "rating": 6.6,
      "captain": false,
      "x": 0.625,
      "y": 0.357
@@ -933,7 +933,7 @@
      "id": 1627706,
      "name": "Keita Kosugi",
      "pos_id": 38,
-     "rating": 6.6,
+     "rating": 6.4,
      "captain": false,
      "x": 0.875,
      "y": 0.357
@@ -997,7 +997,7 @@
   "away": {
    "team": "TSG",
    "formation": "4-2-3-1",
-   "rating": 6.3,
+   "rating": 6.4,
    "players": [
     {
      "id": 178778,
@@ -1048,7 +1048,7 @@
      "id": 1478148,
      "name": "Leon Avdullahu",
      "pos_id": 64,
-     "rating": 6.4,
+     "rating": 6.5,
      "captain": false,
      "x": 0.3,
      "y": 0.485
@@ -1143,9 +1143,9 @@
    "keeper": true,
    "rating": 7.67,
    "recoveries": 5,
-   "touches": 25,
+   "touches": 26,
    "tackles": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "interceptions": 0
   },
   {
@@ -1195,7 +1195,7 @@
    "rating": 6.63,
    "goals": 0,
    "assists": 0,
-   "xg": 0.07,
+   "xg": 0.09,
    "xa": 0.04,
    "shots": 1,
    "key_passes": 1,
@@ -1236,7 +1236,7 @@
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 38,
+   "touches": 39,
    "touches_box": 0,
    "tackles": 1,
    "interceptions": 2,
@@ -1290,7 +1290,7 @@
    "rating": 7.33,
    "goals": 1,
    "assists": 0,
-   "xg": 1.04,
+   "xg": 1,
    "xa": 0.01,
    "shots": 5,
    "key_passes": 0,
@@ -1341,16 +1341,16 @@
    "team": "SGE",
    "name": "Lilian Brassier",
    "keeper": false,
-   "rating": 6.51,
+   "rating": 6.61,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 26,
+   "touches": 28,
    "touches_box": 0,
    "final_third_passes": 6,
    "tackles": 1,
-   "interceptions": 1,
+   "interceptions": 2,
    "recoveries": 3,
    "duels_won": 2,
    "duels_lost": 2
@@ -1367,7 +1367,7 @@
    "xa": 0.03,
    "shots": 1,
    "key_passes": 0,
-   "touches": 30,
+   "touches": 31,
    "touches_box": 3,
    "dribbles": 2,
    "final_third_passes": 1,
@@ -1407,7 +1407,7 @@
    "goals": 0,
    "assists": 1,
    "xg": 0.03,
-   "xa": 0.06,
+   "xa": 0.05,
    "shots": 2,
    "key_passes": 2,
    "touches": 48,
@@ -1486,7 +1486,7 @@
    "rating": 6.62,
    "goals": 0,
    "assists": 0,
-   "xg": 0.11,
+   "xg": 0.1,
    "xa": 0.11,
    "shots": 2,
    "key_passes": 2,
@@ -1545,17 +1545,17 @@
    "team": "TSG",
    "name": "Leon Avdullahu",
    "keeper": false,
-   "rating": 6.41,
+   "rating": 6.45,
    "goals": 0,
    "assists": 0,
    "xa": 0.03,
    "key_passes": 0,
    "touches": 39,
    "touches_box": 0,
-   "tackles": 5,
+   "tackles": 6,
    "interceptions": 2,
    "recoveries": 0,
-   "duels_won": 5,
+   "duels_won": 6,
    "duels_lost": 3
   },
   {
@@ -1574,7 +1574,7 @@
    "assists": 0,
    "xa": 0.14,
    "key_passes": 1,
-   "touches": 18,
+   "touches": 19,
    "touches_box": 1,
    "final_third_passes": 3,
    "tackles": 0,
@@ -1588,7 +1588,7 @@
    "team": "SGE",
    "name": "Keita Kosugi",
    "keeper": false,
-   "rating": 6.55,
+   "rating": 6.37,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
@@ -1601,7 +1601,7 @@
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 3,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1671553,
