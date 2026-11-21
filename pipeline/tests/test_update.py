@@ -225,7 +225,7 @@ def test_old_format_match_is_refetched(tmp_path):
     base = fake()
     later = datetime(2027, 1, 30, tzinfo=timezone.utc)  # weit nach dem Spiel
     run_update(tmp_path, lambda u: (calls.append(u), base(u))[1], later, sleep=lambda s: None)
-    assert FM_MATCH in calls and read(path)["v"] == 4
+    assert FM_MATCH in calls and read(path)["v"] == 5
 
 
 PLAYER = "https://www.fotmob.com/players/173461/x"

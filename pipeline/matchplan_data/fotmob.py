@@ -9,7 +9,7 @@ from .teams import team_by_fotmob
 
 BASE = "https://www.fotmob.com"
 LEAGUE_URL = f"{BASE}/leagues/54/fixtures/bundesliga"
-FORMAT_VERSION = 4  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
+FORMAT_VERSION = 5  # erhöhen, wenn gespeicherte Spieldateien neu geladen werden müssen
 
 _NEXT = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 _COUNT_PCT = re.compile(r"^\s*(-?\d+(?:\.\d+)?)\s*\((\d+(?:\.\d+)?)%\)\s*$")
@@ -113,6 +113,57 @@ def referee(data: dict) -> dict | None:
     return {"name": r["text"], "id": _num(r.get("id")), "country": r.get("country")}
 
 
+def _ev_min(e: dict) -> tuple[int | None, int | None]:
+    return _num(e.get("time")), (_num(e.get("overloadTime")) or None)
+
+
+def parse_events(data: dict) -> list[dict]:
+    """Spielereignisse (Tore, Karten, Wechsel, Halbzeit, Nachspielzeit) in zeitlicher Reihenfolge."""
+    try:
+        evs = data["props"]["pageProps"]["content"]["matchFacts"]["events"]["events"] or []
+    except (KeyError, TypeError):
+        return []
+    out = []
+    for e in evs:
+        t = e.get("type")
+        minute, plus = _ev_min(e)
+        base = {"min": minute, "plus": plus, "home": e.get("isHome")}
+        pl = e.get("player") or {}
+        if t == "Goal":
+            sm = e.get("shotmapEvent") or {}
+            assist = (e.get("assistStr") or "").replace("assist by ", "") or None
+            out.append({**base, "type": "goal", "player": pl.get("name") or e.get("nameStr"), "player_id": _num(pl.get("id")),
+                        "assist": assist, "score": e.get("newScore"), "own_goal": bool(e.get("ownGoal")),
+                        "penalty": sm.get("situation") == "Penalty" or "penalty" in str(e.get("goalDescription") or "").lower()})
+        elif t == "Card":
+            card = str(e.get("card") or "")
+            out.append({**base, "type": "card", "card": "red" if "Red" in card and "Yellow" not in card else "yellowred" if "Yellow" in card and "Red" in card else "yellow",
+                        "player": pl.get("name") or e.get("nameStr"), "player_id": _num(pl.get("id"))})
+        elif t == "Substitution":
+            sw = e.get("swap") or [{}, {}]
+            on, off = (sw + [{}, {}])[:2]
+            out.append({**base, "type": "sub", "in": on.get("name"), "in_id": _num(on.get("id")), "out": off.get("name"), "out_id": _num(off.get("id"))})
+        elif t == "Half":
+            out.append({**base, "type": "half", "text": e.get("halfStrShort")})
+        elif t == "AddedTime":
+            out.append({**base, "type": "added", "text": e.get("minutesAddedStr")})
+        elif t in ("VAR", "Var"):
+            out.append({**base, "type": "var", "text": e.get("nameStr") or "Videobeweis"})
+    return out
+
+
+def parse_status(data: dict) -> dict:
+    """Spielstand und Spielminute aus dem Kopf der Spielseite."""
+    h = (data.get("props") or {}).get("pageProps", {}).get("header") or {}
+    st = h.get("status") or {}
+    teams = h.get("teams") or [{}, {}]
+    live = st.get("liveTime") or {}
+    return {"started": bool(st.get("started")), "finished": bool(st.get("finished")), "cancelled": bool(st.get("cancelled")),
+            "minute": live.get("short") if isinstance(live, dict) else None,
+            "reason": (st.get("reason") or {}).get("short"),
+            "score": [_num(teams[0].get("score")), _num(teams[1].get("score"))] if len(teams) == 2 else None}
+
+
 def parse_match(data: dict) -> dict:
     pp = data["props"]["pageProps"]
     c = pp.get("content") or {}
@@ -172,7 +223,8 @@ def parse_match(data: dict) -> dict:
         players.append(row)
 
     return {"v": FORMAT_VERSION, "fm_id": int(pp.get("general", {}).get("matchId") or 0), "stats": stats, "shots": shots,
-            "momentum": momentum, "zones": zones, "lineups": lineups, "players": players, "referee": referee(data)}
+            "momentum": momentum, "zones": zones, "lineups": lineups, "players": players, "referee": referee(data),
+            "events": parse_events(data)}
 
 
 # ---------------- Spielerseiten ----------------

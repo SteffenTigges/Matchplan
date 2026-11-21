@@ -1,5 +1,6 @@
 import type { FotmobMatch, History, Lineups, Match, PlayerLinks, Prediction, Predictions, Referees, Season, TeamInfo } from "../data";
 import { renderReferee } from "./referee";
+import { approxMinute, isLive, renderEvents, renderPlayerTable, renderXgTimeline } from "./live";
 import { renderPriorPrediction, renderPrognosis, tipLine } from "./prognose";
 import { renderAnalysis } from "./analysis";
 import { berlin, crest, esc, findPlayer, playerLink } from "../ui";
@@ -7,8 +8,10 @@ import { renderHistory, renderMissing, renderPitch } from "./lineup";
 
 const team = (s: Season, key: string): TeamInfo => s.teams[key] ?? { name: key, short: key, color: "#64748b", crest: "" };
 
-const middle = (m: Match): string =>
-  m.finished && m.score
+const middle = (m: Match, now = new Date()): string =>
+  isLive(m, now)
+    ? `<div class="score">${m.score ? `${m.score[0]}:${m.score[1]}` : "0:0"}</div><span class="chip live">LIVE ${m.kickoff ? approxMinute(m.kickoff, now) : ""}</span>`
+    : m.finished && m.score
     ? `<div class="score">${m.score[0]}:${m.score[1]}</div>`
     : m.kickoff
       ? `<div class="tlab">Anstoß</div><div class="big num">${esc(berlin(m.kickoff).split(", ")[1])}</div>`
@@ -52,7 +55,7 @@ export function renderMatch(m: Match, season: Season, lineups: Lineups | null, h
           })
           .join("")}</ul>`
       : `<p class="muted">Keine Tore</p>`;
-    return `${hero}<section class="card"><h3>Tore</h3>${goals}</section>${pred?.probs ? renderPriorPrediction(m, pred, season) : ""}${renderAnalysis(m, fm, season)}`;
+    return `${hero}<section class="card"><h3>Tore</h3>${goals}</section>${renderEvents(fm?.events, m, season)}${pred?.probs ? renderPriorPrediction(m, pred, season) : ""}${renderAnalysis(m, fm, season)}${fm ? renderXgTimeline(fm, m, season) + renderPlayerTable(fm, m, season) : ""}`;
   }
 
   const prog = (pred?.probs ? renderPrognosis(m, pred, season, links) : "") + `<section class="card"><h2>Schiedsrichter</h2>${renderReferee(m.id, refs, season, [m.home, m.away])}</section>`;

@@ -1,0 +1,56 @@
+name: live
+
+# Liveticker: alle 5 Minuten nachsehen, ob gerade Bundesliga läuft (ohne laufendes Spiel endet der Lauf nach Sekunden).
+# Nach dem Abpfiff startet er den großen Datenabruf, damit Statistik, Tabelle und alles Abgeleitete sofort nachziehen.
+on:
+  schedule:
+    - cron: "*/5 11-22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: live-${{ github.ref }}
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -e pipeline
+
+      - name: Laufende Spiele holen
+        id: live
+        run: python -m matchplan_data.live --out data
+
+      - name: Liveticker speichern (nur Hauptzweig)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "live: Aktualisierung"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && break
+              git rebase --abort 2>/dev/null || true
+              sleep 5
+            done
+          fi
+
+      - name: Nach Abpfiff großen Datenabruf starten
+        if: github.ref == 'refs/heads/main' && steps.live.outputs.finished == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run data.yml --ref main
