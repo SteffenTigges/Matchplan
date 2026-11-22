@@ -4,12 +4,12 @@
  "home": "SVW",
  "away": "HSV",
  "kickoff": "2026-11-22T16:30:00Z",
- "updated_at": "2026-11-22T18:23:44+00:00",
+ "updated_at": "2026-11-22T18:24:46+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "78'",
+  "minute": "88'",
   "reason": null,
   "score": [
    3,
@@ -17,6 +17,35 @@
   ]
  },
  "events": [
+  {
+   "min": 84,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Albert Grønbæk",
+   "player_id": 1133381
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Dariusz Stalmach",
+   "in_id": 1276988,
+   "out": "Chuki",
+   "out_id": 1315344
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Paul Erevbenagie",
+   "in_id": 1810868,
+   "out": "Eren Dinkçi",
+   "out_id": 1146376
+  },
   {
    "min": 74,
    "plus": null,
@@ -164,24 +193,24 @@
  ],
  "stats": {
   "BallPossesion": [
-   56,
-   44
+   54,
+   46
   ],
   "expected_goals": [
-   1.29,
-   0.8
+   1.41,
+   1.09
   ],
   "total_shots": [
-   15,
-   11
+   17,
+   14
   ],
   "ShotsOnTarget": [
    6,
    1
   ],
   "touches_opp_box": [
-   17,
-   20
+   21,
+   28
   ],
   "big_chance": [
    2,
@@ -193,33 +222,33 @@
   ],
   "accurate_passes": [
    {
-    "n": 312,
-    "pct": 80
+    "n": 340,
+    "pct": 81
    },
    {
-    "n": 232,
-    "pct": 76
+    "n": 273,
+    "pct": 78
    }
   ],
   "yellow_cards": [
    3,
-   2
+   3
   ],
   "corners": [
    1,
    7
   ],
   "blocked_shots": [
-   1,
-   6
+   2,
+   8
   ],
   "shots_inside_box": [
-   9,
-   7
+   11,
+   10
   ],
   "expected_goals_open_play": [
-   1.1,
-   0.53
+   1.21,
+   0.82
   ],
   "expected_goals_set_play": [
    0.19,
@@ -230,35 +259,35 @@
    0.02
   ],
   "passes": [
-   390,
-   305
+   421,
+   349
   ],
   "own_half_passes": [
-   204,
-   118
+   226,
+   136
   ],
   "opposition_half_passes": [
-   108,
-   114
+   114,
+   137
   ],
   "long_balls_accurate": [
    {
-    "n": 32,
-    "pct": 62
+    "n": 36,
+    "pct": 63
    },
    {
-    "n": 18,
-    "pct": 39
+    "n": 21,
+    "pct": 42
    }
   ],
   "accurate_crosses": [
    {
-    "n": 5,
-    "pct": 45
+    "n": 6,
+    "pct": 50
    },
    {
     "n": 3,
-    "pct": 21
+    "pct": 19
    }
   ],
   "Offsides": [
@@ -266,57 +295,57 @@
    1
   ],
   "tackles": [
-   11,
-   10
+   13,
+   13
   ],
   "interceptions": [
    7,
-   13
+   14
   ],
   "shot_blocks": [
-   5,
-   1
+   7,
+   2
   ],
   "clearances": [
-   12,
-   17
+   15,
+   18
   ],
   "keeper_saves": [
    1,
    3
   ],
   "duel_won": [
-   31,
-   37
+   36,
+   44
   ],
   "ground_duels_won": [
    {
-    "n": 20,
-    "pct": 48
+    "n": 24,
+    "pct": 44
    },
    {
-    "n": 23,
-    "pct": 53
+    "n": 30,
+    "pct": 56
    }
   ],
   "aerials_won": [
    {
-    "n": 11,
+    "n": 12,
     "pct": 44
    },
    {
     "n": 14,
-    "pct": 54
+    "pct": 52
    }
   ],
   "dribbles_succeeded": [
    {
     "n": 2,
-    "pct": 25
+    "pct": 20
    },
    {
-    "n": 4,
-    "pct": 33
+    "n": 5,
+    "pct": 36
    }
   ],
   "red_cards": [
@@ -324,8 +353,8 @@
    0
   ],
   "fouls": [
-   8,
-   9
+   12,
+   11
   ]
  },
  "momentum": [
@@ -643,43 +672,43 @@
   ],
   [
    77,
-   null
+   0
   ],
   [
    78,
-   null
+   -5
   ],
   [
    79,
-   null
+   -49
   ],
   [
    80,
-   null
+   -38
   ],
   [
    81,
-   null
+   71
   ],
   [
    82,
-   null
+   92
   ],
   [
    83,
-   null
+   65
   ],
   [
    84,
-   null
+   -43
   ],
   [
    85,
-   null
+   -22
   ],
   [
    86,
-   null
+   -5
   ],
   [
    87,
@@ -1040,31 +1069,96 @@
    "type": "LeftFoot",
    "result": "miss",
    "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Fábio Vieira",
+   "min": 79,
+   "x": 92.7,
+   "y": 41.225952381,
+   "xg": 0.1424151510000229,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Zakaria El Ouahdi",
+   "min": 79,
+   "x": 94.1929824545,
+   "y": 32.39875,
+   "xg": 0.10353583842515945,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Niclas Füllkrug",
+   "min": 81,
+   "x": 102.4396551726,
+   "y": 41.5990625,
+   "xg": 0.09020812064409256,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Youri Regeer",
+   "min": 81,
+   "x": 90.8,
+   "y": 42.6975,
+   "xg": 0.02477377839386463,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "HSV",
+   "player": "Otto Stange",
+   "min": 82,
+   "x": 102.9137931036,
+   "y": 46.2428025441,
+   "xg": 0.045169729739427567,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 44,
+   "left": 42,
    "center": 24,
-   "right": 32
+   "right": 34
   },
   "away": {
-   "left": 37,
-   "center": 23,
-   "right": 40
+   "left": 36,
+   "center": 26,
+   "right": 38
   }
  },
  "lineups": {
   "home": {
    "team": "SVW",
    "formation": "4-2-3-1",
-   "rating": 7.5,
+   "rating": 7.3,
    "players": [
     {
      "id": 982692,
      "name": "Karl Hein",
      "pos_id": 11,
-     "rating": 6.6,
+     "rating": 6.7,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1073,7 +1167,7 @@
      "id": 1353457,
      "name": "Arthur",
      "pos_id": 32,
-     "rating": 6.8,
+     "rating": 7,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -1100,7 +1194,7 @@
      "id": 969856,
      "name": "Olivier Deman",
      "pos_id": 38,
-     "rating": 7.3,
+     "rating": 7.4,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -1109,7 +1203,7 @@
      "id": 1111980,
      "name": "Youri Regeer",
      "pos_id": 64,
-     "rating": 7.2,
+     "rating": 7.4,
      "captain": false,
      "x": 0.3,
      "y": 0.485
@@ -1164,13 +1258,13 @@
   "away": {
    "team": "HSV",
    "formation": "3-5-2",
-   "rating": 5.9,
+   "rating": 6,
    "players": [
     {
      "id": 406501,
      "name": "Daniel Heuer Fernandes",
      "pos_id": 11,
-     "rating": 5,
+     "rating": 5.1,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1179,7 +1273,7 @@
      "id": 1018564,
      "name": "Nicolás Capaldo",
      "pos_id": 33,
-     "rating": 5.2,
+     "rating": 5.9,
      "captain": true,
      "x": 0.21,
      "y": 0.357
@@ -1188,7 +1282,7 @@
      "id": 922892,
      "name": "Sebastiaan Bornauw",
      "pos_id": 35,
-     "rating": 5.6,
+     "rating": 5.7,
      "captain": false,
      "x": 0.5,
      "y": 0.357
@@ -1197,7 +1291,7 @@
      "id": 1202595,
      "name": "Warmed Omari",
      "pos_id": 37,
-     "rating": 5.3,
+     "rating": 5.5,
      "captain": false,
      "x": 0.79,
      "y": 0.357
@@ -1206,7 +1300,7 @@
      "id": 1287871,
      "name": "Zakaria El Ouahdi",
      "pos_id": 71,
-     "rating": 5.9,
+     "rating": 6,
      "captain": false,
      "x": 0.11,
      "y": 0.613
@@ -1224,7 +1318,7 @@
      "id": 1324082,
      "name": "Martin Adeline",
      "pos_id": 75,
-     "rating": 6.8,
+     "rating": 6.9,
      "captain": false,
      "x": 0.5,
      "y": 0.613
@@ -1251,7 +1345,7 @@
      "id": 644459,
      "name": "Patson Daka",
      "pos_id": 104,
-     "rating": 5.9,
+     "rating": 6,
      "captain": false,
      "x": 0.3,
      "y": 0.87
@@ -1274,20 +1368,20 @@
    "team": "SVW",
    "name": "Niclas Füllkrug",
    "keeper": false,
-   "rating": 8.16,
+   "rating": 8.23,
    "goals": 0,
    "assists": 1,
-   "xg": 0.41,
+   "xg": 0.5,
    "xa": 0.17,
-   "shots": 3,
+   "shots": 4,
    "key_passes": 3,
-   "touches": 36,
-   "touches_box": 5,
+   "touches": 40,
+   "touches_box": 6,
    "dribbles": 1,
    "final_third_passes": 1,
    "tackles": 1,
    "interceptions": 1,
-   "recoveries": 3,
+   "recoveries": 4,
    "duels_won": 4,
    "duels_lost": 5
   },
@@ -1296,11 +1390,11 @@
    "team": "HSV",
    "name": "Daniel Heuer Fernandes",
    "keeper": true,
-   "rating": 4.98,
+   "rating": 5.05,
    "recoveries": 6,
-   "touches": 42,
+   "touches": 47,
    "tackles": 0,
-   "final_third_passes": 11,
+   "final_third_passes": 12,
    "interceptions": 0
   },
   {
@@ -1320,7 +1414,7 @@
    "team": "HSV",
    "name": "Patson Daka",
    "keeper": false,
-   "rating": 5.94,
+   "rating": 5.96,
    "goals": 0,
    "assists": 0,
    "xg": 0.1,
@@ -1346,7 +1440,7 @@
    "team": "HSV",
    "name": "Miro Muheim",
    "keeper": false,
-   "rating": 5.82,
+   "rating": 5.83,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1367,66 +1461,66 @@
    "team": "SVW",
    "name": "Amos Pieper",
    "keeper": false,
-   "rating": 6.58,
+   "rating": 6.59,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 57,
+   "touches": 64,
    "touches_box": 0,
-   "final_third_passes": 4,
+   "final_third_passes": 5,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
    "duels_won": 2,
-   "duels_lost": 3
+   "duels_lost": 5
   },
   {
    "id": 767789,
    "team": "SVW",
    "name": "Marco Friedl",
    "keeper": false,
-   "rating": 8.21,
+   "rating": 8.17,
    "goals": 1,
    "assists": 0,
    "xg": 0.19,
    "xa": 0.01,
    "shots": 2,
    "key_passes": 1,
-   "touches": 59,
+   "touches": 65,
    "touches_box": 2,
    "final_third_passes": 4,
    "tackles": 1,
    "interceptions": 1,
-   "recoveries": 3,
+   "recoveries": 4,
    "duels_won": 2,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 869326,
    "team": "SVW",
    "name": "Ludovit Reis",
    "keeper": false,
-   "rating": 8,
+   "rating": 7.98,
    "goals": 0,
    "assists": 1,
    "xa": 0.06,
    "key_passes": 2,
-   "touches": 67,
-   "touches_box": 0,
+   "touches": 73,
+   "touches_box": 1,
    "dribbles": 0,
    "final_third_passes": 6,
    "tackles": 3,
    "interceptions": 3,
-   "recoveries": 4,
-   "duels_won": 3,
-   "duels_lost": 6
+   "recoveries": 5,
+   "duels_won": 4,
+   "duels_lost": 9
   },
   {
    "id": 885005,
    "team": "HSV",
    "name": "Terem Moffi",
    "keeper": false,
-   "rating": 5.84,
+   "rating": 5.82,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
@@ -1444,16 +1538,16 @@
    "team": "HSV",
    "name": "Sebastiaan Bornauw",
    "keeper": false,
-   "rating": 5.59,
+   "rating": 5.74,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 39,
+   "touches": 40,
    "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 1,
-   "recoveries": 0,
+   "recoveries": 1,
    "duels_won": 3,
    "duels_lost": 2
   },
@@ -1462,19 +1556,19 @@
    "team": "SVW",
    "name": "Olivier Deman",
    "keeper": false,
-   "rating": 7.28,
+   "rating": 7.37,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
    "xa": 0.05,
    "shots": 2,
    "key_passes": 3,
-   "touches": 54,
+   "touches": 61,
    "touches_box": 0,
    "final_third_passes": 6,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 3,
+   "recoveries": 4,
    "duels_won": 2,
    "duels_lost": 3
   },
@@ -1483,12 +1577,12 @@
    "team": "SVW",
    "name": "Karl Hein",
    "keeper": true,
-   "rating": 6.62,
+   "rating": 6.7,
    "recoveries": 8,
-   "touches": 32,
+   "touches": 35,
    "duels_won": 2,
    "tackles": 0,
-   "final_third_passes": 2,
+   "final_third_passes": 4,
    "interceptions": 0
   },
   {
@@ -1496,28 +1590,41 @@
    "team": "HSV",
    "name": "Nicolás Capaldo",
    "keeper": false,
-   "rating": 5.24,
+   "rating": 5.89,
    "goals": 0,
    "assists": 0,
    "xg": 0.17,
-   "xa": 0.14,
+   "xa": 0.15,
    "shots": 1,
    "key_passes": 1,
-   "touches": 52,
-   "touches_box": 1,
+   "touches": 66,
+   "touches_box": 2,
    "dribbles": 2,
-   "final_third_passes": 6,
-   "tackles": 3,
-   "interceptions": 2,
-   "recoveries": 2,
-   "duels_won": 9,
-   "duels_lost": 9
+   "final_third_passes": 7,
+   "tackles": 6,
+   "interceptions": 3,
+   "recoveries": 4,
+   "duels_won": 13,
+   "duels_lost": 10
   },
   {
    "id": 1025462,
    "team": "HSV",
    "name": "Fábio Vieira",
-   "keeper": false
+   "keeper": false,
+   "rating": 5.81,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.14,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 2
   },
   {
    "id": 1049679,
@@ -1529,14 +1636,14 @@
    "assists": 0,
    "xa": 0.23,
    "key_passes": 2,
-   "touches": 40,
+   "touches": 46,
    "touches_box": 3,
    "final_third_passes": 6,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 4,
    "duels_won": 4,
-   "duels_lost": 2
+   "duels_lost": 3
   },
   {
    "id": 1066260,
@@ -1549,18 +1656,20 @@
    "team": "SVW",
    "name": "Youri Regeer",
    "keeper": false,
-   "rating": 7.19,
+   "rating": 7.42,
    "goals": 0,
    "assists": 0,
+   "xg": 0.02,
+   "shots": 1,
    "key_passes": 0,
-   "touches": 54,
-   "touches_box": 0,
+   "touches": 59,
+   "touches_box": 1,
    "dribbles": 0,
    "final_third_passes": 2,
-   "tackles": 2,
+   "tackles": 3,
    "interceptions": 2,
    "recoveries": 5,
-   "duels_won": 3,
+   "duels_won": 4,
    "duels_lost": 3
   },
   {
@@ -1572,40 +1681,40 @@
    "goals": 0,
    "assists": 0,
    "xg": 0.23,
-   "xa": 0.1,
+   "xa": 0.11,
    "shots": 3,
    "key_passes": 1,
-   "touches": 45,
+   "touches": 55,
    "touches_box": 4,
    "dribbles": 2,
-   "final_third_passes": 4,
+   "final_third_passes": 5,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 5,
    "duels_won": 3,
-   "duels_lost": 3
+   "duels_lost": 4
   },
   {
    "id": 1137364,
    "team": "SVW",
    "name": "Justin Njinmah",
    "keeper": false,
-   "rating": 9.17,
+   "rating": 9.22,
    "goals": 2,
    "assists": 0,
    "xg": 0.38,
    "xa": 0.13,
    "shots": 5,
    "key_passes": 1,
-   "touches": 44,
+   "touches": 49,
    "touches_box": 5,
    "dribbles": 1,
    "final_third_passes": 4,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 5,
-   "duels_won": 5,
-   "duels_lost": 3
+   "duels_won": 6,
+   "duels_lost": 4
   },
   {
    "id": 1145714,
@@ -1618,7 +1727,7 @@
    "team": "SVW",
    "name": "Eren Dinkçi",
    "keeper": false,
-   "rating": 6.78,
+   "rating": 6.81,
    "goals": 0,
    "assists": 0,
    "xg": 0.19,
@@ -1640,17 +1749,17 @@
    "team": "HSV",
    "name": "Warmed Omari",
    "keeper": false,
-   "rating": 5.3,
+   "rating": 5.49,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 61,
+   "touches": 69,
    "touches_box": 0,
    "final_third_passes": 4,
    "tackles": 1,
    "interceptions": 3,
-   "recoveries": 5,
+   "recoveries": 6,
    "duels_won": 3,
    "duels_lost": 1
   },
@@ -1658,7 +1767,19 @@
    "id": 1276988,
    "team": "SVW",
    "name": "Dariusz Stalmach",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.11,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 2,
+   "touches_box": 0,
+   "dribbles": 0,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 1283403,
@@ -1671,13 +1792,15 @@
    "team": "HSV",
    "name": "Zakaria El Ouahdi",
    "keeper": false,
-   "rating": 5.92,
+   "rating": 5.98,
    "goals": 0,
    "assists": 0,
+   "xg": 0.1,
    "xa": 0.09,
+   "shots": 1,
    "key_passes": 1,
-   "touches": 47,
-   "touches_box": 2,
+   "touches": 51,
+   "touches_box": 3,
    "dribbles": 0,
    "final_third_passes": 1,
    "tackles": 2,
@@ -1691,7 +1814,7 @@
    "team": "SVW",
    "name": "Chuki",
    "keeper": false,
-   "rating": 7.42,
+   "rating": 7.44,
    "goals": 0,
    "assists": 0,
    "xg": 0.07,
@@ -1713,16 +1836,16 @@
    "team": "HSV",
    "name": "Martin Adeline",
    "keeper": false,
-   "rating": 6.75,
+   "rating": 6.86,
    "goals": 0,
    "assists": 0,
    "xg": 0.14,
    "xa": 0.02,
    "shots": 3,
    "key_passes": 0,
-   "touches": 45,
+   "touches": 53,
    "touches_box": 4,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 4,
    "recoveries": 6,
@@ -1734,12 +1857,12 @@
    "team": "SVW",
    "name": "Arthur",
    "keeper": false,
-   "rating": 6.75,
+   "rating": 6.96,
    "goals": 0,
    "assists": 0,
-   "xa": 0.24,
-   "key_passes": 1,
-   "touches": 55,
+   "xa": 0.3,
+   "key_passes": 2,
+   "touches": 59,
    "touches_box": 1,
    "dribbles": 0,
    "final_third_passes": 3,
@@ -1753,23 +1876,27 @@
    "team": "HSV",
    "name": "Otto Stange",
    "keeper": false,
-   "rating": 6.1,
+   "rating": 6.49,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 1,
-   "touches_box": 0,
+   "xg": 0.05,
+   "xa": 0.16,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 6,
+   "touches_box": 3,
+   "dribbles": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 1
+   "duels_won": 3
   },
   {
    "id": 1587901,
    "team": "HSV",
    "name": "Kofi Amoako",
    "keeper": false,
-   "rating": 6.5,
+   "rating": 6.52,
    "goals": 0,
    "assists": 0,
    "xg": 0.12,
@@ -1789,7 +1916,7 @@
    "team": "HSV",
    "name": "Alexander Røssing",
    "keeper": false,
-   "rating": 6.15,
+   "rating": 6.17,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
@@ -1815,7 +1942,20 @@
    "id": 1810868,
    "team": "SVW",
    "name": "Paul Erevbenagie",
-   "keeper": false
+   "keeper": false,
+   "rating": 6.12,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.07,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 1,
+   "dribbles": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
   },
   {
    "id": 1869761,
