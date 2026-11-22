@@ -4,7 +4,7 @@
  "home": "SVW",
  "away": "HSV",
  "kickoff": "2026-11-22T16:30:00Z",
- "updated_at": "2026-11-22T18:41:13+00:00",
+ "updated_at": "2026-11-22T18:42:35+00:00",
  "status": {
   "started": true,
   "finished": true,
@@ -281,7 +281,7 @@
   ],
   "accurate_passes": [
    {
-    "n": 354,
+    "n": 356,
     "pct": 79
    },
    {
@@ -318,11 +318,11 @@
    0.02
   ],
   "passes": [
-   447,
-   388
+   450,
+   387
   ],
   "own_half_passes": [
-   236,
+   238,
    148
   ],
   "opposition_half_passes": [
@@ -332,7 +332,7 @@
   "long_balls_accurate": [
    {
     "n": 37,
-    "pct": 59
+    "pct": 58
    },
    {
     "n": 23,
@@ -354,7 +354,7 @@
    1
   ],
   "tackles": [
-   17,
+   18,
    13
   ],
   "interceptions": [
@@ -374,17 +374,17 @@
    3
   ],
   "duel_won": [
-   41,
+   42,
    45
   ],
   "ground_duels_won": [
    {
-    "n": 28,
-    "pct": 47
+    "n": 29,
+    "pct": 48
    },
    {
     "n": 31,
-    "pct": 53
+    "pct": 52
    }
   ],
   "aerials_won": [
@@ -404,7 +404,7 @@
    },
    {
     "n": 6,
-    "pct": 33
+    "pct": 32
    }
   ],
   "red_cards": [
@@ -1085,8 +1085,8 @@
    "team": "HSV",
    "player": "Martin Adeline",
    "min": 65,
-   "x": 94.1929824545,
-   "y": 42.7553125,
+   "x": 95.73684210409999,
+   "y": 41.3678125,
    "xg": 0.06380807608366013,
    "xgot": 0,
    "situation": "RegularPlay",
@@ -1215,8 +1215,8 @@
    "team": "HSV",
    "player": "Fábio Vieira",
    "min": 90,
-   "x": 96.605263157,
-   "y": 22.247643316,
+   "x": 94.1929824545,
+   "y": 21.2667515958,
    "xg": 0.07917197048664093,
    "xgot": 0,
    "situation": "RegularPlay",
@@ -1254,8 +1254,8 @@
  "zones": {
   "home": {
    "left": 41,
-   "center": 24,
-   "right": 35
+   "center": 23,
+   "right": 36
   },
   "away": {
    "left": 37,
@@ -1597,10 +1597,10 @@
    "touches": 68,
    "touches_box": 0,
    "final_third_passes": 5,
-   "tackles": 0,
+   "tackles": 1,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 2,
+   "duels_won": 3,
    "duels_lost": 5
   },
   {
@@ -1715,7 +1715,7 @@
    "rating": 7.54,
    "minutes": 90,
    "recoveries": 8,
-   "touches": 39,
+   "touches": 40,
    "duels_won": 3,
    "tackles": 1,
    "final_third_passes": 4,
@@ -1807,7 +1807,7 @@
    "xg": 0.02,
    "shots": 1,
    "key_passes": 0,
-   "touches": 64,
+   "touches": 63,
    "touches_box": 1,
    "dribbles": 0,
    "final_third_passes": 4,
@@ -1838,7 +1838,7 @@
    "interceptions": 0,
    "recoveries": 6,
    "duels_won": 3,
-   "duels_lost": 4
+   "duels_lost": 5
   },
   {
    "id": 1137364,
@@ -1917,12 +1917,12 @@
    "team": "SVW",
    "name": "Dariusz Stalmach",
    "keeper": false,
-   "rating": 6.32,
+   "rating": 6.33,
    "minutes": 12,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 6,
+   "touches": 8,
    "touches_box": 0,
    "dribbles": 0,
    "tackles": 2,
@@ -2025,10 +2025,10 @@
    "assists": 0,
    "xa": 0.3,
    "key_passes": 2,
-   "touches": 64,
+   "touches": 65,
    "touches_box": 1,
    "dribbles": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 5,
@@ -2128,7 +2128,6 @@
    "touches": 7,
    "touches_box": 1,
    "dribbles": 0,
-   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 2,
