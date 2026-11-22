@@ -4,12 +4,12 @@
  "home": "SVW",
  "away": "HSV",
  "kickoff": "2026-11-22T16:30:00Z",
- "updated_at": "2026-11-22T17:42:41+00:00",
+ "updated_at": "2026-11-22T17:43:42+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "HT",
+  "minute": "47'",
   "reason": null,
   "score": [
    0,
@@ -75,7 +75,7 @@
    41
   ],
   "expected_goals": [
-   0.96,
+   0.86,
    0.41
   ],
   "total_shots": [
@@ -100,7 +100,7 @@
   ],
   "accurate_passes": [
    {
-    "n": 232,
+    "n": 233,
     "pct": 83
    },
    {
@@ -125,7 +125,7 @@
    3
   ],
   "expected_goals_open_play": [
-   0.96,
+   0.86,
    0.33
   ],
   "expected_goals_set_play": [
@@ -133,11 +133,11 @@
    0.09
   ],
   "expected_goals_on_target": [
-   0.38,
+   0.2,
    0.0
   ],
   "passes": [
-   280,
+   281,
    192
   ],
   "own_half_passes": [
@@ -145,7 +145,7 @@
    70
   ],
   "opposition_half_passes": [
-   80,
+   81,
    79
   ],
   "long_balls_accurate": [
@@ -181,7 +181,7 @@
    11
   ],
   "shot_blocks": [
-   3,
+   2,
    1
   ],
   "clearances": [
@@ -193,13 +193,13 @@
    2
   ],
   "duel_won": [
-   19,
+   18,
    22
   ],
   "ground_duels_won": [
    {
-    "n": 13,
-    "pct": 45
+    "n": 12,
+    "pct": 43
    },
    {
     "n": 16,
@@ -218,8 +218,8 @@
   ],
   "dribbles_succeeded": [
    {
-    "n": 2,
-    "pct": 29
+    "n": 1,
+    "pct": 17
    },
    {
     "n": 3,
@@ -681,8 +681,8 @@
    "min": 21,
    "x": 91.9,
    "y": 28.202857142,
-   "xg": 0.20553232729434967,
-   "xgot": 0.2511104941368103,
+   "xg": 0.13010582327842712,
+   "xgot": 0.07597485929727554,
    "situation": "FastBreak",
    "type": "LeftFoot",
    "result": "saved",
@@ -694,7 +694,7 @@
    "min": 22,
    "x": 77.4169902928,
    "y": 49.535796176199995,
-   "xg": 0.01361918356269598,
+   "xg": 0.009405274875462055,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "RightFoot",
@@ -733,7 +733,7 @@
    "min": 31,
    "x": 93.3,
    "y": 50.586751590700004,
-   "xg": 0.052692633122205734,
+   "xg": 0.03366900980472565,
    "xgot": 0,
    "situation": "RegularPlay",
    "type": "LeftFoot",
@@ -828,7 +828,7 @@
      "id": 982692,
      "name": "Karl Hein",
      "pos_id": 11,
-     "rating": 6.1,
+     "rating": 6,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -882,7 +882,7 @@
      "id": 869326,
      "name": "Ludovit Reis",
      "pos_id": 66,
-     "rating": 6.9,
+     "rating": 6.7,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -918,7 +918,7 @@
      "id": 276791,
      "name": "Niclas Füllkrug",
      "pos_id": 115,
-     "rating": 6.6,
+     "rating": 6.8,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -934,7 +934,7 @@
      "id": 406501,
      "name": "Daniel Heuer Fernandes",
      "pos_id": 11,
-     "rating": 6.6,
+     "rating": 6.5,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -1038,14 +1038,14 @@
    "team": "SVW",
    "name": "Niclas Füllkrug",
    "keeper": false,
-   "rating": 6.61,
+   "rating": 6.77,
    "goals": 0,
    "assists": 0,
-   "xg": 0.42,
+   "xg": 0.41,
    "xa": 0.16,
    "shots": 3,
    "key_passes": 2,
-   "touches": 29,
+   "touches": 30,
    "touches_box": 4,
    "dribbles": 1,
    "tackles": 0,
@@ -1059,7 +1059,7 @@
    "team": "HSV",
    "name": "Daniel Heuer Fernandes",
    "keeper": true,
-   "rating": 6.56,
+   "rating": 6.45,
    "recoveries": 5,
    "touches": 24,
    "tackles": 0,
@@ -1107,11 +1107,11 @@
    "team": "HSV",
    "name": "Miro Muheim",
    "keeper": false,
-   "rating": 5.89,
+   "rating": 5.87,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 6,
+   "touches": 4,
    "touches_box": 0,
    "tackles": 0,
    "interceptions": 0,
@@ -1132,7 +1132,7 @@
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 45,
+   "touches": 44,
    "touches_box": 0,
    "final_third_passes": 3,
    "tackles": 0,
@@ -1164,19 +1164,19 @@
    "team": "SVW",
    "name": "Ludovit Reis",
    "keeper": false,
-   "rating": 6.88,
+   "rating": 6.67,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
    "key_passes": 0,
-   "touches": 42,
+   "touches": 41,
    "touches_box": 0,
-   "dribbles": 1,
+   "dribbles": 0,
    "final_third_passes": 4,
    "tackles": 3,
    "interceptions": 0,
    "recoveries": 3,
-   "duels_won": 4,
+   "duels_won": 3,
    "duels_lost": 2
   },
   {
@@ -1214,7 +1214,7 @@
    "xa": 0.05,
    "shots": 1,
    "key_passes": 2,
-   "touches": 40,
+   "touches": 39,
    "touches_box": 0,
    "final_third_passes": 4,
    "tackles": 1,
@@ -1228,9 +1228,9 @@
    "team": "SVW",
    "name": "Karl Hein",
    "keeper": true,
-   "rating": 6.05,
+   "rating": 5.97,
    "recoveries": 5,
-   "touches": 20,
+   "touches": 19,
    "duels_won": 1,
    "tackles": 0,
    "interceptions": 0
@@ -1297,7 +1297,7 @@
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 33,
+   "touches": 34,
    "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 2,
@@ -1311,14 +1311,14 @@
    "team": "HSV",
    "name": "Albert Grønbæk",
    "keeper": false,
-   "rating": 6.39,
+   "rating": 6.41,
    "goals": 0,
    "assists": 0,
    "xg": 0.05,
    "xa": 0.02,
    "shots": 1,
    "key_passes": 1,
-   "touches": 28,
+   "touches": 30,
    "touches_box": 2,
    "dribbles": 1,
    "final_third_passes": 3,
@@ -1336,7 +1336,7 @@
    "rating": 6.43,
    "goals": 0,
    "assists": 0,
-   "xg": 0.25,
+   "xg": 0.17,
    "xa": 0.13,
    "shots": 2,
    "key_passes": 1,
@@ -1368,7 +1368,7 @@
    "xa": 0.04,
    "shots": 1,
    "key_passes": 1,
-   "touches": 28,
+   "touches": 29,
    "touches_box": 2,
    "dribbles": 0,
    "tackles": 1,
@@ -1434,7 +1434,7 @@
    "rating": 6.53,
    "goals": 0,
    "assists": 0,
-   "xg": 0.09,
+   "xg": 0.07,
    "xa": 0.01,
    "shots": 2,
    "key_passes": 0,
