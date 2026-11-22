@@ -20,7 +20,7 @@
      {
       "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
-      "value": 0.4413,
+      "value": 0.441,
       "fmt": "pct",
       "rank": 3
      }
@@ -38,9 +38,9 @@
    0
   ],
   "probs": [
-   0.7178,
-   0.1729,
-   0.1092
+   0.714,
+   0.1735,
+   0.1125
   ]
  },
  "strengths": [
@@ -54,33 +54,26 @@
   {
    "key": "cross_accuracy",
    "label": "Flankenquote",
-   "value": 0.3531,
+   "value": 0.3564,
    "fmt": "pct",
    "rank": 1
   },
   {
    "key": "xg_setplay_pg",
    "label": "xG nach Standards pro Spiel",
-   "value": 0.598,
+   "value": 0.6,
    "fmt": "dec2",
    "rank": 2
   },
   {
    "key": "opp_half_share",
    "label": "Anteil Pässe in der gegn. Hälfte",
-   "value": 0.4413,
+   "value": 0.441,
    "fmt": "pct",
    "rank": 3
   }
  ],
  "weaknesses": [
-  {
-   "key": "dribbles_pg",
-   "label": "Erfolgreiche Dribblings pro Spiel",
-   "value": 5.5,
-   "fmt": "dec1",
-   "rank": 17
-  },
   {
    "key": "fouls_pg",
    "label": "Fouls pro Spiel",
@@ -89,18 +82,25 @@
    "rank": 17
   },
   {
+   "key": "xga_setplay_pg",
+   "label": "Zugelassene xG nach Standards pro Spiel",
+   "value": 0.621,
+   "fmt": "dec2",
+   "rank": 16
+  },
+  {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": 3.36,
+   "value": 2.83,
    "fmt": "signed1",
-   "rank": 17
+   "rank": 16
   },
   {
    "key": "points_minus_xpoints",
    "label": "Punkte minus xPunkte",
-   "value": -4.7871,
+   "value": -4.6817,
    "fmt": "signed1",
-   "rank": 17
+   "rank": 16
   }
  ],
  "matchplan": [
@@ -111,7 +111,7 @@
     {
      "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.595,
+     "value": 0.621,
      "fmt": "dec2",
      "rank": 16
     }
@@ -126,7 +126,7 @@
     {
      "key": "xga_setplay_pg",
      "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.595,
+     "value": 0.621,
      "fmt": "dec2",
      "rank": 16
     }
@@ -152,7 +152,7 @@
     {
      "key": "cross_accuracy",
      "label": "Flankenquote",
-     "value": 0.3531,
+     "value": 0.3564,
      "fmt": "pct",
      "rank": 1
     }
@@ -164,57 +164,57 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.485,
+    "value": 0.486,
     "fmt": "pct",
     "rank": 9
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.7983,
+    "value": 0.7978,
     "fmt": "pct",
     "rank": 12
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4413,
+    "value": 0.441,
     "fmt": "pct",
     "rank": 3
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4265,
+    "value": 0.4266,
     "fmt": "pct",
     "rank": 12
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.3531,
+    "value": 0.3564,
     "fmt": "pct",
     "rank": 1
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.5154,
+    "value": 0.5163,
     "fmt": "pct",
     "rank": 7
    }
   ],
   "zones": {
    "left": 32.6,
-   "center": 28.9,
-   "right": 38.5
+   "center": 28.8,
+   "right": 38.6
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 12,
-    "xg": 9.25,
+    "xg": 9.21,
     "shots": 86,
     "share": 0.632
    },
@@ -226,7 +226,7 @@
    },
    "Standard": {
     "goals": 6,
-    "xg": 6.42,
+    "xg": 6.43,
     "shots": 52,
     "share": 0.316
    },
@@ -253,12 +253,12 @@
     "label": "Tore pro Spiel",
     "value": 1.9,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.858,
+    "value": 1.862,
     "fmt": "dec2",
     "rank": 7
    },
@@ -272,14 +272,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.123,
+    "value": 0.1233,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 4
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 0.42,
+    "value": 0.38,
     "fmt": "signed1",
     "rank": 8
    }
@@ -289,19 +289,19 @@
   "situations": {
    "Spielaufbau": {
     "goals": 12,
-    "xg": 6.95,
+    "xg": 7.16,
     "shots": 72,
     "share": 0.545
    },
    "Konter": {
     "goals": 1,
-    "xg": 2.66,
+    "xg": 2.71,
     "shots": 22,
     "share": 0.045
    },
    "Standard": {
     "goals": 6,
-    "xg": 6.18,
+    "xg": 6.58,
     "shots": 55,
     "share": 0.273
    },
@@ -337,9 +337,9 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.864,
+    "value": 1.917,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "shots_against_pg",
@@ -369,14 +369,14 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.598,
+    "value": 0.6,
     "fmt": "dec2",
     "rank": 2
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.595,
+    "value": 0.621,
     "fmt": "dec2",
     "rank": 16
    },
@@ -400,7 +400,7 @@
    "minutes": 750,
    "goals": 2,
    "assists": 4,
-   "rating": 7.27,
+   "rating": 7.26,
    "xg90": 0.32,
    "xa90": 0.49,
    "why": [
@@ -416,7 +416,7 @@
    "goals": 6,
    "assists": 0,
    "rating": 7.29,
-   "xg90": 0.61,
+   "xg90": 0.6,
    "xa90": 0.12,
    "why": [
     "Rote Karten (100. Perzentil)",
@@ -445,7 +445,7 @@
    "minutes": 755,
    "goals": 3,
    "assists": 3,
-   "rating": 7.49,
+   "rating": 7.5,
    "xg90": 0.18,
    "xa90": 0.29,
    "why": [
@@ -473,13 +473,13 @@
   "Abwehr": {
    "id": 240537,
    "name": "Danny da Costa",
-   "rating": 6.78,
+   "rating": 6.77,
    "minutes": 608
   },
   "Mittelfeld": {
    "id": 771401,
    "name": "Anthony Caci",
-   "rating": 7.49,
+   "rating": 7.5,
    "minutes": 755
   },
   "Angriff": {

@@ -46,9 +46,9 @@
    1
   ],
   "probs": [
-   0.4728,
-   0.2493,
-   0.2779
+   0.473,
+   0.2491,
+   0.278
   ]
  },
  "strengths": [
@@ -99,6 +99,19 @@
  ],
  "matchplan": [
   {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.472,
+     "fmt": "dec2",
+     "rank": 13
+    }
+   ]
+  },
+  {
    "key": "aerial",
    "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
    "evidence": [
@@ -127,6 +140,19 @@
  ],
  "findings": [
   {
+   "key": "setpieces",
+   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
+   "evidence": [
+    {
+     "key": "xga_setplay_pg",
+     "label": "Zugelassene xG nach Standards pro Spiel",
+     "value": 0.472,
+     "fmt": "dec2",
+     "rank": 13
+    }
+   ]
+  },
+  {
    "key": "aerial",
    "text": "Schwach in der Luft: Flanken und hohe Bälle in den Strafraum.",
    "evidence": [
@@ -142,19 +168,6 @@
   {
    "key": "possession",
    "text": "Wollen den Ball: Passwege ins Zentrum zustellen, Ballgewinne für Umschaltmomente nutzen.",
-   "evidence": [
-    {
-     "key": "possession",
-     "label": "Ballbesitz Ø",
-     "value": 0.594,
-     "fmt": "pct",
-     "rank": 2
-    }
-   ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Ballbesitz Ø (Platz 2)",
    "evidence": [
     {
      "key": "possession",
@@ -267,7 +280,7 @@
     "label": "xG pro Spiel",
     "value": 2.223,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "big_chances_pg",
@@ -288,7 +301,7 @@
     "label": "Tore minus xG",
     "value": 1.77,
     "fmt": "signed1",
-    "rank": 4
+    "rank": 5
    }
   ]
  },
@@ -385,7 +398,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.472,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 13
    },
    {
     "key": "corners_pg",

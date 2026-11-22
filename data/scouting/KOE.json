@@ -56,8 +56,8 @@
    0
   ],
   "probs": [
-   0.6086,
-   0.2234,
+   0.609,
+   0.2231,
    0.1679
   ]
  },
@@ -78,17 +78,17 @@
    "rank": 17
   },
   {
-   "key": "yellow_pg",
-   "label": "Gelbe Karten pro Spiel",
-   "value": 2.4,
-   "fmt": "dec2",
-   "rank": 16
-  },
-  {
    "key": "points_minus_xpoints",
    "label": "Punkte minus xPunkte",
    "value": -4.7512,
    "fmt": "signed1",
+   "rank": 17
+  },
+  {
+   "key": "yellow_pg",
+   "label": "Gelbe Karten pro Spiel",
+   "value": 2.4,
+   "fmt": "dec2",
    "rank": 16
   }
  ],
@@ -101,7 +101,7 @@
     "label": "Ballbesitz Ø",
     "value": 0.481,
     "fmt": "pct",
-    "rank": 11
+    "rank": 12
    },
    {
     "key": "pass_accuracy",
@@ -129,7 +129,7 @@
     "label": "Flankenquote",
     "value": 0.2383,
     "fmt": "pct",
-    "rank": 12
+    "rank": 13
    },
    {
     "key": "field_tilt",
@@ -188,7 +188,7 @@
     "label": "Tore pro Spiel",
     "value": 1.1,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "xg_pg",
@@ -202,7 +202,7 @@
     "label": "Großchancen pro Spiel",
     "value": 2.7,
     "fmt": "dec1",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "xg_per_shot",
@@ -295,7 +295,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 12
+    "rank": 13
    }
   ]
  },

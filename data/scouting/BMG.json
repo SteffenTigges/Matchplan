@@ -39,12 +39,12 @@
   "kickoff": "2026-11-27T19:30:00Z",
   "tip": [
    2,
-   0
+   1
   ],
   "probs": [
-   0.7132,
-   0.1736,
-   0.1132
+   0.6398,
+   0.2041,
+   0.156
   ]
  },
  "strengths": [],
@@ -71,9 +71,9 @@
    "rank": 18
   },
   {
-   "key": "against_minus_xga",
-   "label": "Gegentore minus zugelassene xG",
-   "value": 4.79,
+   "key": "points_minus_xpoints",
+   "label": "Punkte minus xPunkte",
+   "value": -6.4866,
    "fmt": "signed1",
    "rank": 18
   }
@@ -214,7 +214,7 @@
     "label": "Flankenquote",
     "value": 0.2348,
     "fmt": "pct",
-    "rank": 13
+    "rank": 14
    },
    {
     "key": "field_tilt",
@@ -294,7 +294,7 @@
     "label": "xG pro Schuss",
     "value": 0.1062,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 12
    },
    {
     "key": "goals_minus_xg",
@@ -380,7 +380,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 12
+    "rank": 13
    }
   ]
  },

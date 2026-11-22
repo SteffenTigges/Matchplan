@@ -21,9 +21,9 @@
    1
   ],
   "probs": [
-   0.4181,
-   0.2484,
-   0.3335
+   0.4182,
+   0.2481,
+   0.3336
   ]
  },
  "strengths": [
@@ -32,13 +32,6 @@
    "label": "Zweikampfquote",
    "value": 0.5391,
    "fmt": "pct",
-   "rank": 1
-  },
-  {
-   "key": "goals_minus_xg",
-   "label": "Tore minus xG",
-   "value": 3.69,
-   "fmt": "signed1",
    "rank": 1
   },
   {
@@ -53,6 +46,13 @@
    "label": "Zugelassene xG pro Spiel",
    "value": 1.123,
    "fmt": "dec2",
+   "rank": 2
+  },
+  {
+   "key": "shots_against_pg",
+   "label": "Zugelassene Schüsse pro Spiel",
+   "value": 10.1,
+   "fmt": "dec1",
    "rank": 2
   }
  ],
@@ -107,14 +107,14 @@
   },
   {
    "key": "strength",
-   "text": "Stark: Tore minus xG (Platz 1)",
+   "text": "Stark: Gegentore pro Spiel (Platz 2)",
    "evidence": [
     {
-     "key": "goals_minus_xg",
-     "label": "Tore minus xG",
-     "value": 3.69,
-     "fmt": "signed1",
-     "rank": 1
+     "key": "against_pg",
+     "label": "Gegentore pro Spiel",
+     "value": 1.0,
+     "fmt": "dec2",
+     "rank": 2
     }
    ]
   }
@@ -140,7 +140,7 @@
     "label": "Anteil Pässe in der gegn. Hälfte",
     "value": 0.373,
     "fmt": "pct",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "long_ball_accuracy",
@@ -241,7 +241,7 @@
     "label": "Tore minus xG",
     "value": 3.69,
     "fmt": "signed1",
-    "rank": 1
+    "rank": 2
    }
   ]
  },

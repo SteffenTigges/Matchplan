@@ -1,7 +1,7 @@
 {
  "team": "HSV",
  "matches": 10,
- "fotmob_matches": 9,
+ "fotmob_matches": 10,
  "idea": {
   "formations": [
    {
@@ -10,7 +10,7 @@
    },
    {
     "formation": "3-5-2",
-    "games": 3
+    "games": 4
    },
    {
     "formation": "3-5-1-1",
@@ -24,7 +24,7 @@
      {
       "key": "possession",
       "label": "Ballbesitz Ø",
-      "value": 0.4278,
+      "value": 0.432,
       "fmt": "pct",
       "rank": 16
      }
@@ -50,28 +50,21 @@
   "away": "FCB",
   "kickoff": "2026-11-28T14:30:00Z",
   "tip": [
-   0,
+   1,
    2
   ],
   "probs": [
-   0.1381,
-   0.1917,
-   0.6702
+   0.1877,
+   0.2195,
+   0.5929
   ]
  },
  "strengths": [
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
-   "value": 18.0,
+   "value": 17.6,
    "fmt": "dec1",
-   "rank": 3
-  },
-  {
-   "key": "points_minus_xpoints",
-   "label": "Punkte minus xPunkte",
-   "value": 3.6853,
-   "fmt": "signed1",
    "rank": 3
   }
  ],
@@ -79,29 +72,29 @@
   {
    "key": "inside_box_share",
    "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.5714,
+   "value": 0.5984,
    "fmt": "pct",
    "rank": 18
   },
   {
-   "key": "box_touches_pg",
-   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
-   "value": 19.2222,
-   "fmt": "dec1",
-   "rank": 17
-  },
-  {
-   "key": "field_tilt",
-   "label": "Field Tilt",
-   "value": 0.3604,
-   "fmt": "pct",
-   "rank": 17
+   "key": "against_minus_xga",
+   "label": "Gegentore minus zugelassene xG",
+   "value": 5.61,
+   "fmt": "signed1",
+   "rank": 18
   },
   {
    "key": "cross_accuracy",
    "label": "Flankenquote",
-   "value": 0.2139,
+   "value": 0.2146,
    "fmt": "pct",
+   "rank": 17
+  },
+  {
+   "key": "won_att3_pg",
+   "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+   "value": 2.7,
+   "fmt": "dec1",
    "rank": 17
   }
  ],
@@ -113,22 +106,9 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4548,
+     "value": 0.4583,
      "fmt": "pct",
      "rank": 17
-    }
-   ]
-  },
-  {
-   "key": "setpieces",
-   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
-   "evidence": [
-    {
-     "key": "xga_setplay_pg",
-     "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.4733,
-     "fmt": "dec2",
-     "rank": 13
     }
    ]
   }
@@ -141,22 +121,9 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4548,
+     "value": 0.4583,
      "fmt": "pct",
      "rank": 17
-    }
-   ]
-  },
-  {
-   "key": "setpieces",
-   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
-   "evidence": [
-    {
-     "key": "xga_setplay_pg",
-     "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.4733,
-     "fmt": "dec2",
-     "rank": 13
     }
    ]
   },
@@ -167,7 +134,7 @@
     {
      "key": "tackles_pg",
      "label": "Tacklings pro Spiel",
-     "value": 18.0,
+     "value": 17.6,
      "fmt": "dec1",
      "rank": 3
     }
@@ -179,70 +146,70 @@
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.4278,
+    "value": 0.432,
     "fmt": "pct",
     "rank": 16
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.7805,
+    "value": 0.7815,
     "fmt": "pct",
     "rank": 15
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3415,
+    "value": 0.3489,
     "fmt": "pct",
     "rank": 15
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4209,
+    "value": 0.4229,
     "fmt": "pct",
     "rank": 13
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2139,
+    "value": 0.2146,
     "fmt": "pct",
     "rank": 17
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.3604,
+    "value": 0.3843,
     "fmt": "pct",
-    "rank": 17
+    "rank": 16
    }
   ],
   "zones": {
-   "left": 35.1,
-   "center": 24.3,
-   "right": 40.6
+   "left": 35.3,
+   "center": 24.7,
+   "right": 40.0
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 6,
-    "xg": 5.7,
-    "shots": 54,
+    "xg": 6.6,
+    "shots": 64,
     "share": 0.6
    },
    "Konter": {
     "goals": 1,
-    "xg": 1.43,
-    "shots": 11,
+    "xg": 1.66,
+    "shots": 13,
     "share": 0.1
    },
    "Standard": {
     "goals": 3,
-    "xg": 3.26,
-    "shots": 40,
+    "xg": 3.66,
+    "shots": 45,
     "share": 0.3
    },
    "Elfmeter": {
@@ -261,64 +228,64 @@
    3
   ],
   "goals": 10,
-  "inside_box": 0.581,
+  "inside_box": 0.607,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 1.1111,
+    "value": 1.0,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.1467,
+    "value": 1.186,
     "fmt": "dec2",
     "rank": 16
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 2.1111,
+    "value": 2.1,
     "fmt": "dec1",
     "rank": 14
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.0983,
+    "value": 0.0972,
     "fmt": "dec2",
     "rank": 16
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -0.32,
+    "value": -1.86,
     "fmt": "signed1",
-    "rank": 9
+    "rank": 10
    }
   ]
  },
  "conceding": {
   "situations": {
    "Spielaufbau": {
-    "goals": 13,
-    "xg": 10.76,
-    "shots": 103,
-    "share": 0.722
+    "goals": 16,
+    "xg": 11.51,
+    "shots": 117,
+    "share": 0.727
    },
    "Konter": {
     "goals": 2,
-    "xg": 1.92,
-    "shots": 11,
-    "share": 0.111
+    "xg": 2.5,
+    "shots": 14,
+    "share": 0.091
    },
    "Standard": {
-    "goals": 3,
-    "xg": 4.24,
-    "shots": 51,
-    "share": 0.167
+    "goals": 4,
+    "xg": 4.45,
+    "shots": 53,
+    "share": 0.182
    },
    "Elfmeter": {
     "goals": 0,
@@ -337,36 +304,36 @@
   ],
   "goals": 24,
   "opp_zones": {
-   "left": 38.2,
-   "center": 28.3,
-   "right": 33.4
+   "left": 38.6,
+   "center": 27.8,
+   "right": 33.6
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 2.2222,
+    "value": 2.4,
     "fmt": "dec2",
     "rank": 16
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.8744,
+    "value": 1.839,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 18.3333,
+    "value": 18.4,
     "fmt": "dec1",
     "rank": 15
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.8889,
+    "value": 3.0,
     "fmt": "dec1",
     "rank": 9
    },
@@ -375,7 +342,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 12
+    "rank": 13
    }
   ]
  },
@@ -384,40 +351,40 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.3678,
+    "value": 0.37,
     "fmt": "dec2",
     "rank": 11
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.4733,
+    "value": 0.445,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 9
    },
    {
     "key": "corners_pg",
     "label": "Ecken pro Spiel",
-    "value": 4.1111,
+    "value": 4.5,
     "fmt": "dec1",
-    "rank": 16
+    "rank": 13
    }
   ],
   "goals_for": 3,
-  "goals_against": 3,
-  "corners_against": 5.67
+  "goals_against": 4,
+  "corners_against": 5.2
  },
  "key_players": [
   {
    "id": 1133381,
    "name": "Albert Grønbæk",
    "pos": "AM",
-   "minutes": 536,
+   "minutes": 626,
    "goals": 1,
    "assists": 4,
-   "rating": 7.16,
-   "xg90": 0.06,
-   "xa90": 0.38,
+   "rating": 7.07,
+   "xg90": 0.1,
+   "xa90": 0.36,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Vorlagen (92. Perzentil)"
@@ -427,12 +394,12 @@
    "id": 1287871,
    "name": "Zakaria El Ouahdi",
    "pos": "RB",
-   "minutes": 475,
+   "minutes": 565,
    "goals": 0,
    "assists": 1,
-   "rating": 6.84,
+   "rating": 6.72,
    "xg90": 0.09,
-   "xa90": 0.11,
+   "xa90": 0.1,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Erfolgreiche Dribblings (90. Perzentil)"
@@ -442,12 +409,12 @@
    "id": 1018564,
    "name": "Nicolás Capaldo",
    "pos": "CB",
-   "minutes": 540,
+   "minutes": 630,
    "goals": 1,
    "assists": 0,
-   "rating": 6.59,
-   "xg90": 0.11,
-   "xa90": 0.05,
+   "rating": 6.46,
+   "xg90": 0.12,
+   "xa90": 0.06,
    "why": [
     "Gefoult worden (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
@@ -457,12 +424,12 @@
    "id": 1049679,
    "name": "David Møller Wolfe",
    "pos": "LB",
-   "minutes": 701,
+   "minutes": 791,
    "goals": 0,
    "assists": 0,
-   "rating": 6.47,
-   "xg90": 0.08,
-   "xa90": 0.07,
+   "rating": 6.45,
+   "xg90": 0.09,
+   "xa90": 0.09,
    "why": [
     "Linien brechende Pässe (100. Perzentil)",
     "Ballverluste im Zweikampf (100. Perzentil)"
@@ -472,12 +439,12 @@
    "id": 1324082,
    "name": "Martin Adeline",
    "pos": "AM",
-   "minutes": 500,
+   "minutes": 590,
    "goals": 0,
    "assists": 0,
-   "rating": 6.93,
-   "xg90": 0.0,
-   "xa90": 0.09,
+   "rating": 6.91,
+   "xg90": 0.02,
+   "xa90": 0.08,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Defensivaktionen (97. Perzentil)"
@@ -488,14 +455,14 @@
   "Mittelfeld": {
    "id": 1133381,
    "name": "Albert Grønbæk",
-   "rating": 7.16,
-   "minutes": 536
+   "rating": 7.07,
+   "minutes": 626
   },
   "Abwehr": {
    "id": 1287871,
    "name": "Zakaria El Ouahdi",
-   "rating": 6.84,
-   "minutes": 475
+   "rating": 6.72,
+   "minutes": 565
   }
  },
  "load": [
@@ -518,16 +485,10 @@
    "full": true
   },
   {
-   "id": 759817,
-   "name": "Miro Muheim",
-   "minutes": 251,
+   "id": 1133381,
+   "name": "Albert Grønbæk",
+   "minutes": 258,
    "full": true
-  },
-  {
-   "id": 1804634,
-   "name": "Shafiq Nandja",
-   "minutes": 243,
-   "full": false
   },
   {
    "id": 1324082,
@@ -542,15 +503,15 @@
    "full": false
   },
   {
-   "id": 1133381,
-   "name": "Albert Grønbæk",
-   "minutes": 187,
+   "id": 759817,
+   "name": "Miro Muheim",
+   "minutes": 199,
    "full": false
   },
   {
-   "id": 901495,
-   "name": "Albert Sambi Lokonga",
-   "minutes": 179,
+   "id": 644459,
+   "name": "Patson Daka",
+   "minutes": 189,
    "full": false
   },
   {
@@ -560,27 +521,33 @@
    "full": false
   },
   {
-   "id": 885005,
-   "name": "Terem Moffi",
-   "minutes": 135,
+   "id": 901495,
+   "name": "Albert Sambi Lokonga",
+   "minutes": 160,
    "full": false
   },
   {
-   "id": 644459,
-   "name": "Patson Daka",
-   "minutes": 117,
+   "id": 1804634,
+   "name": "Shafiq Nandja",
+   "minutes": 153,
+   "full": false
+  },
+  {
+   "id": 1644278,
+   "name": "Alexander Røssing",
+   "minutes": 109,
+   "full": false
+  },
+  {
+   "id": 885005,
+   "name": "Terem Moffi",
+   "minutes": 108,
    "full": false
   },
   {
    "id": 700074,
    "name": "Jordan Torunarigha",
    "minutes": 90,
-   "full": false
-  },
-  {
-   "id": 1576487,
-   "name": "Otto Stange",
-   "minutes": 78,
    "full": false
   }
  ],

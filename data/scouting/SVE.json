@@ -44,20 +44,12 @@
    0
   ],
   "probs": [
-   0.6086,
-   0.2234,
+   0.609,
+   0.2231,
    0.1679
   ]
  },
- "strengths": [
-  {
-   "key": "goals_minus_xg",
-   "label": "Tore minus xG",
-   "value": 3.34,
-   "fmt": "signed1",
-   "rank": 3
-  }
- ],
+ "strengths": [],
  "weaknesses": [
   {
    "key": "opp_half_share",
@@ -81,9 +73,9 @@
    "rank": 18
   },
   {
-   "key": "shots_pg",
-   "label": "Schüsse pro Spiel",
-   "value": 11.1,
+   "key": "box_touches_pg",
+   "label": "Ballaktionen im gegn. Strafraum pro Spiel",
+   "value": 20.1,
    "fmt": "dec1",
    "rank": 17
   }
@@ -218,7 +210,7 @@
     "label": "Field Tilt",
     "value": 0.3778,
     "fmt": "pct",
-    "rank": 16
+    "rank": 17
    }
   ],
   "zones": {
@@ -284,21 +276,21 @@
     "label": "Großchancen pro Spiel",
     "value": 2.1,
     "fmt": "dec1",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1231,
     "fmt": "dec2",
-    "rank": 4
+    "rank": 5
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 3.34,
     "fmt": "signed1",
-    "rank": 3
+    "rank": 4
    }
   ]
  },
@@ -377,7 +369,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 12
+    "rank": 13
    }
   ]
  },
