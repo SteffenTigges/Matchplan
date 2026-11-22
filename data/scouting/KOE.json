@@ -51,24 +51,31 @@
   "home": "KOE",
   "away": "SVE",
   "kickoff": "2026-11-28T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   0
+  ],
+  "probs": [
+   0.6086,
+   0.2234,
+   0.1679
+  ]
  },
  "strengths": [],
  "weaknesses": [
+  {
+   "key": "won_mid_pg",
+   "label": "Ballgewinne im Mittelfeld pro Spiel",
+   "value": 16.3,
+   "fmt": "dec1",
+   "rank": 17
+  },
   {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
    "value": -4.94,
    "fmt": "signed1",
    "rank": 17
-  },
-  {
-   "key": "won_mid_pg",
-   "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 16.3,
-   "fmt": "dec1",
-   "rank": 16
   },
   {
    "key": "yellow_pg",
@@ -503,38 +510,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Timo Hübers",
-   "kind": "Verletzung",
-   "note": "Timo Hübers Knieverletzung"
-  },
-  {
-   "name": "Ellyes Skhiri",
-   "kind": "Verletzung",
-   "note": "Ellyes Skhiri"
-  },
-  {
-   "name": "Imad Rondić",
-   "kind": "Verletzung",
-   "note": "Imad Rondić Muskelverletzung Oberschenkel"
-  },
-  {
-   "name": "Thijs Dallinga",
-   "kind": "Verletzung",
-   "note": "Thijs Dallinga"
-  },
-  {
-   "name": "Rav van den Berg",
-   "kind": "Verletzung",
-   "note": "Rav van den Berg Muskelverletzung"
-  },
-  {
-   "name": "Gideon Mensah",
-   "kind": "Nicht im Kader",
-   "note": "Gideon Mensah Nicht berücksichtigt"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 1,

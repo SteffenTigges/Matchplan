@@ -24,8 +24,15 @@
   "home": "VFB",
   "away": "SGE",
   "kickoff": "2026-11-28T17:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.5441,
+   0.2097,
+   0.2462
+  ]
  },
  "strengths": [
   {
@@ -536,18 +543,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Elias Baum",
-   "kind": "Gelb-Rote Karte",
-   "note": "Elias Baum Sperre"
-  },
-  {
-   "name": "Jessic Ngankam",
-   "kind": "Aufbautraining",
-   "note": "Jessic Ngankam Adduktorenzerrung"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 5,

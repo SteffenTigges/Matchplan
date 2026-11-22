@@ -20,8 +20,15 @@
   "home": "VFB",
   "away": "SGE",
   "kickoff": "2026-11-28T17:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.5441,
+   0.2097,
+   0.2462
+  ]
  },
  "strengths": [
   {
@@ -554,23 +561,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Luca Jaquez",
-   "kind": "Aufbautraining",
-   "note": "Luca Jaquez"
-  },
-  {
-   "name": "Angelo Stiller",
-   "kind": "Schwerer angeschlagen ",
-   "note": "Angelo Stiller"
-  },
-  {
-   "name": "Justin Diehl",
-   "kind": "Nicht im Kader",
-   "note": "Justin Diehl Nicht berücksichtigt"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 4,

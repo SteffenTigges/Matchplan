@@ -16,8 +16,15 @@
   "home": "SCF",
   "away": "RBL",
   "kickoff": "2026-11-29T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4181,
+   0.2484,
+   0.3335
+  ]
  },
  "strengths": [
   {
@@ -528,18 +535,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Berkay Yilmaz",
-   "kind": "Rote Karte",
-   "note": "Berkay Yilmaz Sperre"
-  },
-  {
-   "name": "Florent Muslija",
-   "kind": "Verletzung",
-   "note": "Florent Muslija Kreuzbandriss"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 3,

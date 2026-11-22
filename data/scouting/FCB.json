@@ -65,8 +65,15 @@
   "home": "HSV",
   "away": "FCB",
   "kickoff": "2026-11-28T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   0,
+   2
+  ],
+  "probs": [
+   0.1381,
+   0.1917,
+   0.6702
+  ]
  },
  "strengths": [
   {
@@ -625,33 +632,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Manuel Neuer",
-   "kind": "Verletzung",
-   "note": "Manuel Neuer"
-  },
-  {
-   "name": "Ismael Saibari",
-   "kind": "Verletzung",
-   "note": "Ismael Saibari"
-  },
-  {
-   "name": "Serge Gnabry",
-   "kind": "Aufbautraining",
-   "note": "Serge Gnabry"
-  },
-  {
-   "name": "Alphonso Davies",
-   "kind": "Aufbautraining",
-   "note": "Alphonso Davies"
-  },
-  {
-   "name": "Luis Díaz",
-   "kind": "Aufbautraining",
-   "note": "Luis Díaz"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 7,

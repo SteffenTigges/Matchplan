@@ -33,8 +33,15 @@
   "home": "M05",
   "away": "FCU",
   "kickoff": "2026-11-28T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   0
+  ],
+  "probs": [
+   0.7178,
+   0.1729,
+   0.1092
+  ]
  },
  "strengths": [
   {
@@ -568,18 +575,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Dominik Kohr",
-   "kind": "Verletzung",
-   "note": "Dominik Kohr"
-  },
-  {
-   "name": "Silas",
-   "kind": "Nicht im Kader",
-   "note": "Silas Trainingsrückstand"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 3,

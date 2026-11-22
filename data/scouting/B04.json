@@ -41,8 +41,15 @@
   "home": "BVB",
   "away": "B04",
   "kickoff": "2026-11-29T18:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4728,
+   0.2493,
+   0.2779
+  ]
  },
  "strengths": [
   {
@@ -575,18 +582,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Martin Terrier",
-   "kind": "Verletzung",
-   "note": "Martin Terrier"
-  },
-  {
-   "name": "Kennet Eichhorn",
-   "kind": "Aufbautraining",
-   "note": "Kennet Eichhorn"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 5,

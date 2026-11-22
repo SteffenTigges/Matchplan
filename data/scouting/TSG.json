@@ -83,8 +83,15 @@
   "home": "TSG",
   "away": "FCA",
   "kickoff": "2026-11-29T16:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.641,
+   0.1797,
+   0.1793
+  ]
  },
  "strengths": [
   {
@@ -635,28 +642,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Valentin Gendrey",
-   "kind": "Verletzung",
-   "note": "Valentin Gendrey"
-  },
-  {
-   "name": "Albian Hajdari",
-   "kind": "Verletzung",
-   "note": "Albian Hajdari"
-  },
-  {
-   "name": "Robin Hranáč",
-   "kind": "Verletzung",
-   "note": "Robin Hranáč"
-  },
-  {
-   "name": "Nathan De Cat",
-   "kind": "Verletzung",
-   "note": "Nathan De Cat Außenmeniskusverletzung"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 5,

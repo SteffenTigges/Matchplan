@@ -1,6 +1,6 @@
 {
  "team": "SVW",
- "matches": 9,
+ "matches": 10,
  "fotmob_matches": 9,
  "idea": {
   "formations": [
@@ -24,7 +24,7 @@
      {
       "key": "won_att3_pg",
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-      "value": 4.1,
+      "value": 4.2,
       "fmt": "dec1",
       "rank": 5
      }
@@ -33,18 +33,18 @@
   ]
  },
  "next": {
-  "id": 83243,
+  "id": 83253,
   "home": "SVW",
-  "away": "HSV",
-  "kickoff": "2026-11-22T16:30:00Z",
+  "away": "BMG",
+  "kickoff": "2026-11-27T19:30:00Z",
   "tip": [
    2,
    0
   ],
   "probs": [
-   0.6873,
-   0.1893,
-   0.1235
+   0.7132,
+   0.1736,
+   0.1132
   ]
  },
  "strengths": [
@@ -70,10 +70,10 @@
    "rank": 3
   },
   {
-   "key": "duel_rate",
-   "label": "Zweikampfquote",
-   "value": 0.5228,
-   "fmt": "pct",
+   "key": "press_ratio",
+   "label": "PPDA (Pässe des Gegners pro Ballgewinn)",
+   "value": 6.8636,
+   "fmt": "dec1",
    "rank": 3
   }
  ],
@@ -210,11 +210,11 @@
    2,
    1,
    0,
-   2,
-   5,
-   7
+   3,
+   7,
+   8
   ],
-  "goals": 17,
+  "goals": 21,
   "inside_box": 0.667,
   "metrics": [
    {
@@ -544,46 +544,15 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Skelly Alvero",
-   "kind": "Verletzung",
-   "note": "Skelly Alvero"
-  },
-  {
-   "name": "Salim Musah",
-   "kind": "Verletzung",
-   "note": "Salim Musah"
-  },
-  {
-   "name": "Felix Agu",
-   "kind": "Aufbautraining",
-   "note": "Felix Agu"
-  },
-  {
-   "name": "Jens Stage",
-   "kind": "Aufbautraining",
-   "note": "Jens Stage"
-  },
-  {
-   "name": "Keke Topp",
-   "kind": "Aufbautraining",
-   "note": "Keke Topp"
-  },
-  {
-   "name": "Moussa Ndiaye",
-   "kind": "Aufbautraining",
-   "note": "Moussa Ndiaye"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 2,
    "points": 6
   },
   "ht_draw": {
-   "games": 2,
-   "points": 4
+   "games": 3,
+   "points": 7
   },
   "ht_trail": {
    "games": 5,
@@ -591,17 +560,17 @@
   },
   "points_from_behind": 6,
   "points_dropped": 0,
-  "late_for": 7,
+  "late_for": 8,
   "late_against": 3,
-  "goals_for": 17,
+  "goals_for": 21,
   "goals_against": 15,
   "for_bands": [
    2,
    1,
    0,
-   2,
-   5,
-   7
+   3,
+   7,
+   8
   ],
   "against_bands": [
    2,

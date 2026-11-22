@@ -39,8 +39,15 @@
   "home": "SCP",
   "away": "S04",
   "kickoff": "2026-11-28T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.5215,
+   0.2487,
+   0.2298
+  ]
  },
  "strengths": [
   {
@@ -560,13 +567,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Timur Gayret",
-   "kind": "Aufbautraining",
-   "note": "Timur Gayret"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 2,

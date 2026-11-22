@@ -18,7 +18,7 @@
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
       "value": 2.6,
       "fmt": "dec1",
-      "rank": 17
+      "rank": 18
      }
     ]
    },
@@ -39,8 +39,15 @@
   "home": "KOE",
   "away": "SVE",
   "kickoff": "2026-11-28T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   0
+  ],
+  "probs": [
+   0.6086,
+   0.2234,
+   0.1679
+  ]
  },
  "strengths": [
   {
@@ -67,16 +74,16 @@
    "rank": 18
   },
   {
+   "key": "won_att3_pg",
+   "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+   "value": 2.6,
+   "fmt": "dec1",
+   "rank": 18
+  },
+  {
    "key": "shots_pg",
    "label": "Schüsse pro Spiel",
    "value": 11.1,
-   "fmt": "dec1",
-   "rank": 17
-  },
-  {
-   "key": "shots_against_pg",
-   "label": "Zugelassene Schüsse pro Spiel",
-   "value": 18.6,
    "fmt": "dec1",
    "rank": 17
   }
@@ -585,18 +592,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Nicholas Mickelson",
-   "kind": "Verletzung",
-   "note": "Nicholas Mickelson Innenbandverletzung"
-  },
-  {
-   "name": "Luis Seifert",
-   "kind": "Aufbautraining",
-   "note": "Luis Seifert"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 3,

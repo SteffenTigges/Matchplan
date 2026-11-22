@@ -3,6 +3,22 @@
  "season": 2026,
  "matches": [
   {
+   "id": 83244,
+   "kickoff": "2026-11-21T17:30:00Z",
+   "home": "S04",
+   "away": "VFB",
+   "finished": true,
+   "score": [
+    0,
+    0
+   ],
+   "halftime": [
+    0,
+    0
+   ],
+   "goals": []
+  },
+  {
    "id": 83237,
    "kickoff": "2026-11-20T19:30:00Z",
    "home": "FCB",
@@ -210,22 +226,6 @@
    ]
   },
   {
-   "id": 83244,
-   "kickoff": "2026-11-21T17:30:00Z",
-   "home": "S04",
-   "away": "VFB",
-   "finished": true,
-   "score": [
-    0,
-    0
-   ],
-   "halftime": [
-    0,
-    0
-   ],
-   "goals": []
-  },
-  {
    "id": 83240,
    "kickoff": "2026-11-22T14:30:00Z",
    "home": "FCA",
@@ -275,10 +275,45 @@
    "kickoff": "2026-11-22T16:30:00Z",
    "home": "SVW",
    "away": "HSV",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
+   "finished": true,
+   "score": [
+    4,
+    0
+   ],
+   "halftime": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "minute": 55,
+     "team": "SVW",
+     "scorer": "M. Friedl",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 66,
+     "team": "SVW",
+     "scorer": "J. Njinmah",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 70,
+     "team": "SVW",
+     "scorer": "J. Njinmah",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 92,
+     "team": "SVW",
+     "scorer": "N. Füllkrug",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   }
  ]
 }

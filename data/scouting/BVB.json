@@ -73,8 +73,15 @@
   "home": "BVB",
   "away": "B04",
   "kickoff": "2026-11-29T18:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4728,
+   0.2493,
+   0.2779
+  ]
  },
  "strengths": [
   {
@@ -606,33 +613,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Emre Can",
-   "kind": "Verletzung",
-   "note": "Emre Can Kreuzbandriss"
-  },
-  {
-   "name": "Giannis Konstantelias",
-   "kind": "Verletzung",
-   "note": "Giannis Konstantelias"
-  },
-  {
-   "name": "Justin Lerma",
-   "kind": "Verletzung",
-   "note": "Justin Lerma Muskelverletzung"
-  },
-  {
-   "name": "Samuele Inácio",
-   "kind": "Verletzung",
-   "note": "Samuele Inácio"
-  },
-  {
-   "name": "Mussa Kaba",
-   "kind": "Verletzung",
-   "note": "Mussa Kaba"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 2,

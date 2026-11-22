@@ -73,8 +73,15 @@
   "home": "SCF",
   "away": "RBL",
   "kickoff": "2026-11-29T14:30:00Z",
-  "tip": null,
-  "probs": null
+  "tip": [
+   2,
+   1
+  ],
+  "probs": [
+   0.4181,
+   0.2484,
+   0.3335
+  ]
  },
  "strengths": [
   {
@@ -600,18 +607,7 @@
    "full": false
   }
  ],
- "absences": [
-  {
-   "name": "Assan Ouédraogo",
-   "kind": "Aufbautraining",
-   "note": "Assan Ouédraogo"
-  },
-  {
-   "name": "Marc Guiu",
-   "kind": "Aufbautraining",
-   "note": "Marc Guiu"
-  }
- ],
+ "absences": [],
  "reaction": {
   "ht_lead": {
    "games": 4,
