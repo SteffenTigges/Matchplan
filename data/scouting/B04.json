@@ -53,13 +53,6 @@
    "rank": 2
   },
   {
-   "key": "big_chances_pg",
-   "label": "Großchancen pro Spiel",
-   "value": 4.4,
-   "fmt": "dec1",
-   "rank": 2
-  },
-  {
    "key": "box_touches_pg",
    "label": "Ballaktionen im gegn. Strafraum pro Spiel",
    "value": 35.3,
@@ -71,6 +64,13 @@
    "label": "Field Tilt",
    "value": 0.6586,
    "fmt": "pct",
+   "rank": 2
+  },
+  {
+   "key": "passes_pg",
+   "label": "Pässe pro Spiel",
+   "value": 564.9,
+   "fmt": "int",
    "rank": 2
   }
  ],
@@ -85,7 +85,7 @@
   {
    "key": "interceptions_pg",
    "label": "Abgefangene Bälle pro Spiel",
-   "value": 8.4,
+   "value": 8.3,
    "fmt": "dec1",
    "rank": 16
   }
@@ -171,28 +171,28 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8725,
+    "value": 0.8722,
     "fmt": "pct",
     "rank": 2
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4222,
+    "value": 0.422,
     "fmt": "pct",
     "rank": 7
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.5102,
+    "value": 0.5087,
     "fmt": "pct",
     "rank": 4
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2606,
+    "value": 0.2616,
     "fmt": "pct",
     "rank": 7
    },
@@ -214,7 +214,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 19,
-    "xg": 15.43,
+    "xg": 15.54,
     "shots": 121,
     "share": 0.792
    },
@@ -226,7 +226,7 @@
    },
    "Standard": {
     "goals": 4,
-    "xg": 4.89,
+    "xg": 5.14,
     "shots": 51,
     "share": 0.167
    },
@@ -246,7 +246,7 @@
    6
   ],
   "goals": 24,
-  "inside_box": 0.714,
+  "inside_box": 0.708,
   "metrics": [
    {
     "key": "goals_pg",
@@ -258,7 +258,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 2.187,
+    "value": 2.223,
     "fmt": "dec2",
     "rank": 3
    },
@@ -267,19 +267,19 @@
     "label": "Großchancen pro Spiel",
     "value": 4.4,
     "fmt": "dec1",
-    "rank": 2
+    "rank": 3
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1182,
+    "value": 0.1202,
     "fmt": "dec2",
     "rank": 8
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 2.13,
+    "value": 1.77,
     "fmt": "signed1",
     "rank": 4
    }
@@ -289,7 +289,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 9,
-    "xg": 8.31,
+    "xg": 8.22,
     "shots": 79,
     "share": 0.529
    },
@@ -337,7 +337,7 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.635,
+    "value": 1.626,
     "fmt": "dec2",
     "rank": 8
    },
@@ -369,9 +369,9 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.493,
+    "value": 0.518,
     "fmt": "dec2",
-    "rank": 4
+    "rank": 5
    },
    {
     "key": "xga_setplay_pg",
@@ -401,7 +401,7 @@
    "goals": 9,
    "assists": 2,
    "rating": 7.81,
-   "xg90": 0.81,
+   "xg90": 0.82,
    "xa90": 0.13,
    "why": [
     "Quote lange Bälle (100. Perzentil)",
@@ -447,7 +447,7 @@
    "assists": 4,
    "rating": 7.41,
    "xg90": 0.06,
-   "xa90": 0.33,
+   "xa90": 0.34,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Großchancen vorbereitet (97. Perzentil)"

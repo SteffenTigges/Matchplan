@@ -48,7 +48,7 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.5674,
+      "value": 0.5664,
       "fmt": "pct",
       "rank": 5
      }
@@ -60,7 +60,7 @@
      {
       "key": "opp_half_share",
       "label": "Anteil Pässe in der gegn. Hälfte",
-      "value": 0.4302,
+      "value": 0.4303,
       "fmt": "pct",
       "rank": 4
      }
@@ -170,19 +170,6 @@
      "fmt": "int"
     }
    ]
-  },
-  {
-   "key": "setpieces",
-   "text": "Standards suchen: Bei ruhenden Bällen lassen sie viel zu.",
-   "evidence": [
-    {
-     "key": "xga_setplay_pg",
-     "label": "Zugelassene xG nach Standards pro Spiel",
-     "value": 0.474,
-     "fmt": "dec2",
-     "rank": 14
-    }
-   ]
   }
  ],
  "findings": [
@@ -244,14 +231,14 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8049,
+    "value": 0.805,
     "fmt": "pct",
     "rank": 10
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4302,
+    "value": 0.4303,
     "fmt": "pct",
     "rank": 4
    },
@@ -272,7 +259,7 @@
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.5674,
+    "value": 0.5664,
     "fmt": "pct",
     "rank": 5
    }
@@ -287,7 +274,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 6,
-    "xg": 9.81,
+    "xg": 9.76,
     "shots": 113,
     "share": 0.4
    },
@@ -331,9 +318,9 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.961,
+    "value": 1.956,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "big_chances_pg",
@@ -345,14 +332,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1127,
+    "value": 0.1124,
     "fmt": "dec2",
     "rank": 10
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -3.61,
+    "value": -3.56,
     "fmt": "signed1",
     "rank": 14
    }
@@ -362,7 +349,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 12,
-    "xg": 7.85,
+    "xg": 7.91,
     "shots": 86,
     "share": 0.706
    },
@@ -374,7 +361,7 @@
    },
    "Standard": {
     "goals": 5,
-    "xg": 4.76,
+    "xg": 4.68,
     "shots": 50,
     "share": 0.294
    },
@@ -410,7 +397,7 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.538,
+    "value": 1.536,
     "fmt": "dec2",
     "rank": 7
    },
@@ -419,14 +406,14 @@
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 15.2,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.0,
     "fmt": "dec1",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "clean_sheets",
@@ -449,9 +436,9 @@
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.474,
+    "value": 0.467,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 10
    },
    {
     "key": "corners_pg",
@@ -504,7 +491,7 @@
    "goals": 2,
    "assists": 0,
    "rating": 6.85,
-   "xg90": 0.38,
+   "xg90": 0.36,
    "xa90": 0.14,
    "why": [
     "Quote lange Bälle (100. Perzentil)",

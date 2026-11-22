@@ -230,10 +230,45 @@
    "kickoff": "2026-11-22T14:30:00Z",
    "home": "FCA",
    "away": "M05",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
+   "finished": true,
+   "score": [
+    3,
+    1
+   ],
+   "halftime": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "minute": 19,
+     "team": "FCA",
+     "scorer": "M. Gregoritsch",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 35,
+     "team": "FCA",
+     "scorer": "J. Bah",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 48,
+     "team": "FCA",
+     "scorer": "M. Gregoritsch",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 51,
+     "team": "M05",
+     "scorer": "R. Königsdörffer",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83243,

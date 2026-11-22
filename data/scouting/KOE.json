@@ -57,13 +57,6 @@
  "strengths": [],
  "weaknesses": [
   {
-   "key": "won_mid_pg",
-   "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 16.3,
-   "fmt": "dec1",
-   "rank": 17
-  },
-  {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
    "value": -4.94,
@@ -71,17 +64,24 @@
    "rank": 17
   },
   {
-   "key": "points_minus_xpoints",
-   "label": "Punkte minus xPunkte",
-   "value": -4.7512,
-   "fmt": "signed1",
-   "rank": 17
+   "key": "won_mid_pg",
+   "label": "Ballgewinne im Mittelfeld pro Spiel",
+   "value": 16.3,
+   "fmt": "dec1",
+   "rank": 16
   },
   {
    "key": "yellow_pg",
    "label": "Gelbe Karten pro Spiel",
    "value": 2.4,
    "fmt": "dec2",
+   "rank": 16
+  },
+  {
+   "key": "points_minus_xpoints",
+   "label": "Punkte minus xPunkte",
+   "value": -4.7512,
+   "fmt": "signed1",
    "rank": 16
   }
  ],
@@ -299,7 +299,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.406,
     "fmt": "dec2",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "xga_setplay_pg",

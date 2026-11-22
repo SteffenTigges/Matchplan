@@ -41,7 +41,7 @@
   {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": -7.36,
+   "value": -7.5,
    "fmt": "signed1",
    "rank": 2
   }
@@ -64,14 +64,14 @@
   {
    "key": "xga_pg",
    "label": "Zugelassene xG pro Spiel",
-   "value": 2.236,
+   "value": 2.25,
    "fmt": "dec2",
    "rank": 16
   },
   {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
-   "value": -4.56,
+   "value": -4.63,
    "fmt": "signed1",
    "rank": 16
   }
@@ -150,23 +150,23 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8266,
+    "value": 0.8265,
     "fmt": "pct",
     "rank": 8
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.4228,
+    "value": 0.4227,
     "fmt": "pct",
     "rank": 6
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4521,
+    "value": 0.447,
     "fmt": "pct",
-    "rank": 6
+    "rank": 8
    },
    {
     "key": "cross_accuracy",
@@ -180,20 +180,20 @@
     "label": "Field Tilt",
     "value": 0.4393,
     "fmt": "pct",
-    "rank": 13
+    "rank": 14
    }
   ],
   "zones": {
-   "left": 41.7,
+   "left": 41.6,
    "center": 30.9,
-   "right": 27.4
+   "right": 27.5
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 11,
-    "xg": 13.75,
+    "xg": 13.82,
     "shots": 108,
     "share": 0.733
    },
@@ -237,28 +237,28 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.956,
+    "value": 1.963,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
     "value": 3.5,
     "fmt": "dec1",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1215,
+    "value": 0.1219,
     "fmt": "dec2",
     "rank": 6
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -4.56,
+    "value": -4.63,
     "fmt": "signed1",
     "rank": 16
    }
@@ -268,14 +268,14 @@
   "situations": {
    "Spielaufbau": {
     "goals": 8,
-    "xg": 13.17,
-    "shots": 121,
+    "xg": 13.34,
+    "shots": 122,
     "share": 0.615
    },
    "Konter": {
     "goals": 3,
-    "xg": 4.61,
-    "shots": 22,
+    "xg": 4.58,
+    "shots": 21,
     "share": 0.231
    },
    "Standard": {
@@ -301,8 +301,8 @@
   ],
   "goals": 15,
   "opp_zones": {
-   "left": 35.2,
-   "center": 31.3,
+   "left": 35.1,
+   "center": 31.4,
    "right": 33.5
   },
   "metrics": [
@@ -316,7 +316,7 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 2.236,
+    "value": 2.25,
     "fmt": "dec2",
     "rank": 16
    },
@@ -350,7 +350,7 @@
     "label": "xG nach Standards pro Spiel",
     "value": 0.452,
     "fmt": "dec2",
-    "rank": 7
+    "rank": 8
    },
    {
     "key": "xga_setplay_pg",
@@ -364,7 +364,7 @@
     "label": "Ecken pro Spiel",
     "value": 5.8,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 4
    }
   ],
   "goals_for": 3,
@@ -440,7 +440,7 @@
    "goals": 1,
    "assists": 1,
    "rating": 7.38,
-   "xg90": 0.12,
+   "xg90": 0.11,
    "xa90": 0.36,
    "why": [
     "Ballgewinne im Angriffsdrittel (100. Perzentil)",
@@ -452,7 +452,7 @@
   "Abwehr": {
    "id": 614384,
    "name": "Maximilian Mittelstädt",
-   "rating": 7.98,
+   "rating": 7.97,
    "minutes": 733
   },
   "Mittelfeld": {

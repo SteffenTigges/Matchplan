@@ -18,7 +18,7 @@
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
       "value": 2.6,
       "fmt": "dec1",
-      "rank": 18
+      "rank": 17
      }
     ]
    },
@@ -44,13 +44,6 @@
  },
  "strengths": [
   {
-   "key": "xg_per_shot",
-   "label": "xG pro Schuss",
-   "value": 0.1231,
-   "fmt": "dec2",
-   "rank": 3
-  },
-  {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
    "value": 3.34,
@@ -74,16 +67,16 @@
    "rank": 18
   },
   {
-   "key": "won_att3_pg",
-   "label": "Ballgewinne im Angriffsdrittel pro Spiel",
-   "value": 2.6,
-   "fmt": "dec1",
-   "rank": 18
-  },
-  {
    "key": "shots_pg",
    "label": "Schüsse pro Spiel",
    "value": 11.1,
+   "fmt": "dec1",
+   "rank": 17
+  },
+  {
+   "key": "shots_against_pg",
+   "label": "Zugelassene Schüsse pro Spiel",
+   "value": 18.6,
    "fmt": "dec1",
    "rank": 17
   }
@@ -114,7 +107,7 @@
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.551,
      "fmt": "dec2",
-     "rank": 16
+     "rank": 15
     }
    ]
   },
@@ -158,7 +151,7 @@
      "label": "Zugelassene xG nach Standards pro Spiel",
      "value": 0.551,
      "fmt": "dec2",
-     "rank": 16
+     "rank": 15
     }
    ]
   },
@@ -190,7 +183,7 @@
     "label": "Passquote",
     "value": 0.8049,
     "fmt": "pct",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "opp_half_share",
@@ -291,7 +284,7 @@
     "label": "xG pro Schuss",
     "value": 0.1231,
     "fmt": "dec2",
-    "rank": 3
+    "rank": 4
    },
    {
     "key": "goals_minus_xg",
@@ -370,7 +363,7 @@
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 2.6,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "clean_sheets",
@@ -395,7 +388,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.551,
     "fmt": "dec2",
-    "rank": 16
+    "rank": 15
    },
    {
     "key": "corners_pg",

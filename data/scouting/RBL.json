@@ -48,7 +48,7 @@
      {
       "key": "field_tilt",
       "label": "Field Tilt",
-      "value": 0.6021,
+      "value": 0.601,
       "fmt": "pct",
       "rank": 3
      }
@@ -87,21 +87,21 @@
   {
    "key": "xg_per_shot",
    "label": "xG pro Schuss",
-   "value": 0.1531,
+   "value": 0.152,
    "fmt": "dec2",
    "rank": 1
   },
   {
    "key": "xgot_pg",
    "label": "xGOT pro Spiel",
-   "value": 2.951,
+   "value": 2.936,
    "fmt": "dec2",
    "rank": 1
   },
   {
    "key": "xga_setplay_pg",
    "label": "Zugelassene xG nach Standards pro Spiel",
-   "value": 0.175,
+   "value": 0.172,
    "fmt": "dec2",
    "rank": 1
   }
@@ -112,7 +112,7 @@
    "label": "Abgefangene Bälle pro Spiel",
    "value": 8.3,
    "fmt": "dec1",
-   "rank": 17
+   "rank": 16
   }
  ],
  "matchplan": [
@@ -196,7 +196,7 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8668,
+    "value": 0.867,
     "fmt": "pct",
     "rank": 3
    },
@@ -224,34 +224,34 @@
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.6021,
+    "value": 0.601,
     "fmt": "pct",
     "rank": 3
    }
   ],
   "zones": {
    "left": 35.1,
-   "center": 27.7,
-   "right": 37.2
+   "center": 27.8,
+   "right": 37.1
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
     "goals": 23,
-    "xg": 16.46,
+    "xg": 16.42,
     "shots": 113,
     "share": 0.719
    },
    "Konter": {
     "goals": 3,
-    "xg": 4.98,
+    "xg": 4.82,
     "shots": 19,
     "share": 0.094
    },
    "Standard": {
     "goals": 4,
-    "xg": 6.49,
+    "xg": 6.55,
     "shots": 53,
     "share": 0.125
    },
@@ -283,28 +283,28 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 2.863,
+    "value": 2.843,
     "fmt": "dec2",
     "rank": 2
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 4.4,
+    "value": 4.5,
     "fmt": "dec1",
     "rank": 2
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1531,
+    "value": 0.152,
     "fmt": "dec2",
     "rank": 1
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 3.37,
+    "value": 3.57,
     "fmt": "signed1",
     "rank": 2
    }
@@ -314,7 +314,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 9,
-    "xg": 11.25,
+    "xg": 11.16,
     "shots": 96,
     "share": 0.643
    },
@@ -326,8 +326,8 @@
    },
    "Standard": {
     "goals": 2,
-    "xg": 1.94,
-    "shots": 33,
+    "xg": 1.91,
+    "shots": 34,
     "share": 0.143
    },
    "Elfmeter": {
@@ -362,21 +362,21 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.457,
+    "value": 1.445,
     "fmt": "dec2",
     "rank": 4
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 13.9,
+    "value": 14.0,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.9,
+    "value": 3.0,
     "fmt": "dec1",
     "rank": 10
    },
@@ -394,14 +394,14 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.578,
+    "value": 0.585,
     "fmt": "dec2",
-    "rank": 2
+    "rank": 3
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.175,
+    "value": 0.172,
     "fmt": "dec2",
     "rank": 1
    },
@@ -410,7 +410,7 @@
     "label": "Ecken pro Spiel",
     "value": 5.4,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    }
   ],
   "goals_for": 4,
@@ -426,7 +426,7 @@
    "goals": 6,
    "assists": 0,
    "rating": 7.57,
-   "xg90": 0.94,
+   "xg90": 0.98,
    "xa90": 0.34,
    "why": [
     "Quote lange Bälle (100. Perzentil)",
@@ -441,7 +441,7 @@
    "goals": 5,
    "assists": 3,
    "rating": 7.5,
-   "xg90": 0.58,
+   "xg90": 0.57,
    "xa90": 0.34,
    "why": [
     "Passquote (100. Perzentil)",
@@ -456,26 +456,11 @@
    "goals": 3,
    "assists": 3,
    "rating": 7.14,
-   "xg90": 0.63,
+   "xg90": 0.64,
    "xa90": 0.22,
    "why": [
     "Erfolgreiche Dribblings (100. Perzentil)",
     "Gelbe Karten (100. Perzentil)"
-   ]
-  },
-  {
-   "id": 1430151,
-   "name": "Brajan Gruda",
-   "pos": "RW",
-   "minutes": 523,
-   "goals": 1,
-   "assists": 5,
-   "rating": 7.81,
-   "xg90": 0.22,
-   "xa90": 0.56,
-   "why": [
-    "Erfolgreiche Dribblings (100. Perzentil)",
-    "Zweikämpfe gewonnen (100. Perzentil)"
    ]
   },
   {
@@ -486,11 +471,26 @@
    "goals": 5,
    "assists": 7,
    "rating": 8.03,
-   "xg90": 0.37,
-   "xa90": 0.39,
+   "xg90": 0.36,
+   "xa90": 0.4,
    "why": [
     "Penalty goals (100. Perzentil)",
     "Vorlagen (100. Perzentil)"
+   ]
+  },
+  {
+   "id": 1430151,
+   "name": "Brajan Gruda",
+   "pos": "RW",
+   "minutes": 523,
+   "goals": 1,
+   "assists": 5,
+   "rating": 7.82,
+   "xg90": 0.2,
+   "xa90": 0.56,
+   "why": [
+    "Erfolgreiche Dribblings (100. Perzentil)",
+    "Zweikämpfe gewonnen (100. Perzentil)"
    ]
   }
  ],

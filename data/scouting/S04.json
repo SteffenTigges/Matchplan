@@ -39,6 +39,18 @@
     ]
    },
    {
+    "text": "Abwartend gegen den Ball",
+    "evidence": [
+     {
+      "key": "won_att3_pg",
+      "label": "Ballgewinne im Angriffsdrittel pro Spiel",
+      "value": 3.4,
+      "fmt": "dec1",
+      "rank": 14
+     }
+    ]
+   },
+   {
     "text": "Gefährlich im Konter",
     "evidence": [
      {
@@ -72,29 +84,29 @@
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
-   "value": 21.4,
+   "value": 21.2,
+   "fmt": "dec1",
+   "rank": 1
+  },
+  {
+   "key": "interceptions_pg",
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.6,
    "fmt": "dec1",
    "rank": 1
   },
   {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": -10.23,
+   "value": -10.3,
    "fmt": "signed1",
    "rank": 1
   },
   {
-   "key": "interceptions_pg",
-   "label": "Abgefangene Bälle pro Spiel",
-   "value": 12.4,
-   "fmt": "dec1",
-   "rank": 2
-  },
-  {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.725,
-   "fmt": "pct",
+   "key": "clean_sheets",
+   "label": "Spiele ohne Gegentor",
+   "value": 4,
+   "fmt": "int",
    "rank": 3
   }
  ],
@@ -109,14 +121,14 @@
   {
    "key": "pass_accuracy",
    "label": "Passquote",
-   "value": 0.728,
+   "value": 0.7278,
    "fmt": "pct",
    "rank": 18
   },
   {
    "key": "long_ball_accuracy",
    "label": "Lange Bälle angekommen",
-   "value": 0.3412,
+   "value": 0.3403,
    "fmt": "pct",
    "rank": 18
   },
@@ -165,7 +177,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4733,
+     "value": 0.4757,
      "fmt": "pct",
      "rank": 14
     }
@@ -177,7 +189,7 @@
    "evidence": [
     {
      "label": "Angriffe der Gegner über links",
-     "value": 0.41100000000000003,
+     "value": 0.41,
      "fmt": "pct"
     }
    ]
@@ -220,7 +232,7 @@
     {
      "key": "aerial_rate",
      "label": "Luftzweikämpfe gewonnen",
-     "value": 0.4733,
+     "value": 0.4757,
      "fmt": "pct",
      "rank": 14
     }
@@ -239,21 +251,21 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.728,
+    "value": 0.7278,
     "fmt": "pct",
     "rank": 18
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3535,
+    "value": 0.3534,
     "fmt": "pct",
     "rank": 13
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.3412,
+    "value": 0.3403,
     "fmt": "pct",
     "rank": 18
    },
@@ -273,8 +285,8 @@
    }
   ],
   "zones": {
-   "left": 36.6,
-   "center": 29.3,
+   "left": 36.5,
+   "center": 29.4,
    "right": 34.1
   }
  },
@@ -282,14 +294,14 @@
   "situations": {
    "Spielaufbau": {
     "goals": 2,
-    "xg": 5.03,
-    "shots": 60,
+    "xg": 5.21,
+    "shots": 61,
     "share": 0.4
    },
    "Konter": {
     "goals": 1,
-    "xg": 3.36,
-    "shots": 22,
+    "xg": 3.32,
+    "shots": 21,
     "share": 0.2
    },
    "Standard": {
@@ -326,7 +338,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.198,
+    "value": 1.212,
     "fmt": "dec2",
     "rank": 15
    },
@@ -340,14 +352,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.0998,
+    "value": 0.101,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 14
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -6.98,
+    "value": -7.12,
     "fmt": "signed1",
     "rank": 18
    }
@@ -357,7 +369,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 8,
-    "xg": 12.21,
+    "xg": 12.28,
     "shots": 98,
     "share": 0.727
    },
@@ -390,9 +402,9 @@
   ],
   "goals": 11,
   "opp_zones": {
-   "left": 41.1,
+   "left": 41.0,
    "center": 24.3,
-   "right": 34.6
+   "right": 34.7
   },
   "metrics": [
    {
@@ -405,7 +417,7 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 2.123,
+    "value": 2.13,
     "fmt": "dec2",
     "rank": 15
    },
@@ -414,7 +426,7 @@
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 15.2,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "big_chances_against_pg",
@@ -446,7 +458,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.384,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "corners_pg",
@@ -469,7 +481,7 @@
    "goals": 1,
    "assists": 1,
    "rating": 6.38,
-   "xg90": 0.59,
+   "xg90": 0.61,
    "xa90": 0.12,
    "why": [
     "Gelbe Karten (100. Perzentil)",
@@ -484,8 +496,8 @@
    "goals": 1,
    "assists": 0,
    "rating": 7.14,
-   "xg90": 0.27,
-   "xa90": 0.32,
+   "xg90": 0.28,
+   "xa90": 0.33,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Abgefangene Bälle (94. Perzentil)"
@@ -513,7 +525,7 @@
    "minutes": 763,
    "goals": 0,
    "assists": 0,
-   "rating": 6.92,
+   "rating": 6.91,
    "xg90": 0.05,
    "xa90": 0.16,
    "why": [
@@ -551,10 +563,10 @@
    "minutes": 767
   },
   "Mittelfeld": {
-   "id": 1249185,
-   "name": "Soufian El-Faouzi",
+   "id": 469763,
+   "name": "Kenan Karaman",
    "rating": 6.92,
-   "minutes": 763
+   "minutes": 622
   }
  },
  "load": [

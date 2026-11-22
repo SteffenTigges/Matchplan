@@ -160,7 +160,7 @@
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.4982,
+    "value": 0.4991,
     "fmt": "pct",
     "rank": 8
    }
@@ -175,7 +175,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 8,
-    "xg": 10.5,
+    "xg": 10.55,
     "shots": 89,
     "share": 0.533
    },
@@ -187,7 +187,7 @@
    },
    "Standard": {
     "goals": 5,
-    "xg": 4.55,
+    "xg": 4.48,
     "shots": 47,
     "share": 0.333
    },
@@ -219,7 +219,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.806,
+    "value": 1.804,
     "fmt": "dec2",
     "rank": 8
    },
@@ -233,14 +233,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.122,
+    "value": 0.1219,
     "fmt": "dec2",
-    "rank": 4
+    "rank": 6
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -2.06,
+    "value": -2.04,
     "fmt": "signed1",
     "rank": 11
    }
@@ -250,7 +250,7 @@
   "situations": {
    "Spielaufbau": {
     "goals": 10,
-    "xg": 8.78,
+    "xg": 8.73,
     "shots": 83,
     "share": 0.526
    },
@@ -298,7 +298,7 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 2.011,
+    "value": 2.006,
     "fmt": "dec2",
     "rank": 13
    },
@@ -330,9 +330,9 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.47,
+    "value": 0.463,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "xga_setplay_pg",
@@ -346,7 +346,7 @@
     "label": "Ecken pro Spiel",
     "value": 5.4,
     "fmt": "dec1",
-    "rank": 8
+    "rank": 7
    }
   ],
   "goals_for": 5,
@@ -406,9 +406,9 @@
    "minutes": 572,
    "goals": 0,
    "assists": 1,
-   "rating": 7.11,
+   "rating": 7.13,
    "xg90": 0.23,
-   "xa90": 0.33,
+   "xa90": 0.32,
    "why": [
     "Lange Bälle angekommen (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
@@ -423,7 +423,7 @@
    "assists": 1,
    "rating": 6.89,
    "xg90": 0.09,
-   "xa90": 0.26,
+   "xa90": 0.27,
    "why": [
     "Gelbe Karten (100. Perzentil)",
     "Rote Karten (100. Perzentil)"
