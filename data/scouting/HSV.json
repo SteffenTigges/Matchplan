@@ -54,16 +54,16 @@
    2
   ],
   "probs": [
-   0.1877,
-   0.2195,
-   0.5929
+   0.2417,
+   0.2383,
+   0.52
   ]
  },
  "strengths": [
   {
    "key": "tackles_pg",
    "label": "Tacklings pro Spiel",
-   "value": 17.6,
+   "value": 17.7,
    "fmt": "dec1",
    "rank": 3
   }
@@ -79,7 +79,7 @@
   {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
-   "value": 5.61,
+   "value": 5.62,
    "fmt": "signed1",
    "rank": 18
   },
@@ -134,7 +134,7 @@
     {
      "key": "tackles_pg",
      "label": "Tacklings pro Spiel",
-     "value": 17.6,
+     "value": 17.7,
      "fmt": "dec1",
      "rank": 3
     }
@@ -271,8 +271,8 @@
   "situations": {
    "Spielaufbau": {
     "goals": 16,
-    "xg": 11.51,
-    "shots": 117,
+    "xg": 11.5,
+    "shots": 116,
     "share": 0.727
    },
    "Konter": {
@@ -319,14 +319,14 @@
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.839,
+    "value": 1.838,
     "fmt": "dec2",
     "rank": 9
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 18.4,
+    "value": 18.3,
     "fmt": "dec1",
     "rank": 15
    },
@@ -412,7 +412,7 @@
    "minutes": 630,
    "goals": 1,
    "assists": 0,
-   "rating": 6.46,
+   "rating": 6.6,
    "xg90": 0.12,
    "xa90": 0.06,
    "why": [
@@ -551,7 +551,33 @@
    "full": false
   }
  ],
- "absences": [],
+ "absences": [
+  {
+   "name": "Miro Muheim",
+   "kind": "Verletzung",
+   "note": "Miro Muheim"
+  },
+  {
+   "name": "Nicolai Remberg",
+   "kind": "Verletzung",
+   "note": "Nicolai Remberg"
+  },
+  {
+   "name": "Albert Sambi Lokonga",
+   "kind": "Aufbautraining",
+   "note": "Albert Sambi Lokonga"
+  },
+  {
+   "name": "Bilal Nadir",
+   "kind": "Aufbautraining",
+   "note": "Bilal Nadir"
+  },
+  {
+   "name": "Jordan Torunarigha",
+   "kind": "Schwerer angeschlagen ",
+   "note": "Jordan Torunarigha"
+  }
+ ],
  "reaction": {
   "ht_lead": {
    "games": 1,

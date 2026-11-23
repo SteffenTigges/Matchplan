@@ -50,9 +50,9 @@
    1
   ],
   "probs": [
-   0.6356,
-   0.1801,
-   0.1843
+   0.6235,
+   0.179,
+   0.1975
   ]
  },
  "strengths": [
@@ -276,9 +276,9 @@
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 3.3,
+    "value": 3.4,
     "fmt": "dec1",
-    "rank": 7
+    "rank": 6
    },
    {
     "key": "xg_per_shot",
@@ -586,7 +586,18 @@
    "full": false
   }
  ],
- "absences": [],
+ "absences": [
+  {
+   "name": "Chrislain Matsima",
+   "kind": "Verletzung",
+   "note": "Chrislain Matsima"
+  },
+  {
+   "name": "Steve Mounié",
+   "kind": "Aufbautraining",
+   "note": "Steve Mounié"
+  }
+ ],
  "reaction": {
   "ht_lead": {
    "games": 5,

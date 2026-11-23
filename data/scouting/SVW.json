@@ -39,19 +39,19 @@
   "kickoff": "2026-11-27T19:30:00Z",
   "tip": [
    2,
-   1
+   0
   ],
   "probs": [
-   0.6398,
-   0.2041,
-   0.156
+   0.712,
+   0.1747,
+   0.1133
   ]
  },
  "strengths": [
   {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
-   "value": 4.19,
+   "value": 4.2,
    "fmt": "signed1",
    "rank": 1
   },
@@ -65,7 +65,7 @@
   {
    "key": "long_ball_accuracy",
    "label": "Lange Bälle angekommen",
-   "value": 0.5153,
+   "value": 0.5164,
    "fmt": "pct",
    "rank": 3
   },
@@ -102,7 +102,7 @@
     {
      "key": "goals_minus_xg",
      "label": "Tore minus xG",
-     "value": 4.19,
+     "value": 4.2,
      "fmt": "signed1",
      "rank": 1
     }
@@ -128,7 +128,7 @@
     {
      "key": "long_ball_accuracy",
      "label": "Lange Bälle angekommen",
-     "value": 0.5153,
+     "value": 0.5164,
      "fmt": "pct",
      "rank": 3
     }
@@ -147,21 +147,21 @@
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8276,
+    "value": 0.8277,
     "fmt": "pct",
     "rank": 7
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3688,
+    "value": 0.369,
     "fmt": "pct",
     "rank": 11
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.5153,
+    "value": 0.5164,
     "fmt": "pct",
     "rank": 3
    },
@@ -190,8 +190,8 @@
   "situations": {
    "Spielaufbau": {
     "goals": 12,
-    "xg": 9.0,
-    "shots": 99,
+    "xg": 8.99,
+    "shots": 98,
     "share": 0.571
    },
    "Konter": {
@@ -222,7 +222,7 @@
    8
   ],
   "goals": 21,
-  "inside_box": 0.656,
+  "inside_box": 0.66,
   "metrics": [
    {
     "key": "goals_pg",
@@ -234,7 +234,7 @@
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.681,
+    "value": 1.68,
     "fmt": "dec2",
     "rank": 10
    },
@@ -248,14 +248,14 @@
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1051,
+    "value": 0.1057,
     "fmt": "dec2",
     "rank": 13
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": 4.19,
+    "value": 4.2,
     "fmt": "signed1",
     "rank": 1
    }
@@ -551,7 +551,33 @@
    "full": false
   }
  ],
- "absences": [],
+ "absences": [
+  {
+   "name": "Salim Musah",
+   "kind": "Verletzung",
+   "note": "Salim Musah"
+  },
+  {
+   "name": "Felix Agu",
+   "kind": "Aufbautraining",
+   "note": "Felix Agu"
+  },
+  {
+   "name": "Jens Stage",
+   "kind": "Aufbautraining",
+   "note": "Jens Stage"
+  },
+  {
+   "name": "Keke Topp",
+   "kind": "Aufbautraining",
+   "note": "Keke Topp"
+  },
+  {
+   "name": "Moussa Ndiaye",
+   "kind": "Aufbautraining",
+   "note": "Moussa Ndiaye"
+  }
+ ],
  "reaction": {
   "ht_lead": {
    "games": 2,
