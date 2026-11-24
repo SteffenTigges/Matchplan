@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T16:07:01+00:00",
+ "updated_at": "2026-11-24T02:56:49+00:00",
  "calibration": {
   "home": 1.7386,
   "away": 1.4575,
@@ -10,75 +10,75 @@
  },
  "elo": {
   "FCU": {
-   "elo": 1470,
+   "elo": 1459,
    "rank": 14
   },
   "VFB": {
-   "elo": 1670,
+   "elo": 1665,
    "rank": 5
   },
   "FCB": {
-   "elo": 1913,
+   "elo": 1903,
    "rank": 1
   },
   "SVW": {
-   "elo": 1526,
-   "rank": 10
+   "elo": 1540,
+   "rank": 9
   },
   "FCA": {
-   "elo": 1521,
-   "rank": 11
+   "elo": 1534,
+   "rank": 10
   },
   "BVB": {
-   "elo": 1777,
+   "elo": 1780,
    "rank": 2
   },
   "M05": {
-   "elo": 1538,
-   "rank": 9
+   "elo": 1525,
+   "rank": 11
   },
   "SGE": {
-   "elo": 1566,
-   "rank": 8
+   "elo": 1575,
+   "rank": 7
   },
   "S04": {
-   "elo": 1427,
+   "elo": 1432,
    "rank": 18
   },
   "KOE": {
-   "elo": 1443,
+   "elo": 1452,
    "rank": 17
   },
   "HSV": {
-   "elo": 1493,
+   "elo": 1480,
    "rank": 12
   },
   "BMG": {
-   "elo": 1462,
-   "rank": 16
+   "elo": 1458,
+   "rank": 15
   },
   "B04": {
-   "elo": 1688,
+   "elo": 1694,
    "rank": 3
   },
   "SCF": {
-   "elo": 1612,
+   "elo": 1620,
    "rank": 6
   },
   "TSG": {
-   "elo": 1580,
-   "rank": 7
+   "elo": 1571,
+   "rank": 8
   },
   "RBL": {
-   "elo": 1681,
+   "elo": 1693,
    "rank": 4
   },
   "SCP": {
-   "elo": 1464,
-   "rank": 15
+   "elo": 1458,
+   "rank": 16
   },
   "SVE": {
-   "elo": 1485,
+   "elo": 1477,
    "rank": 13
   }
  },
@@ -140,9 +140,9 @@
   "tendency_rate": 0.5667,
   "exact_rate": 0.1,
   "brier": 0.5871,
-  "odds_matches": 81,
-  "brier_model_same": 0.5852,
-  "brier_odds": 0.5778,
+  "odds_matches": 90,
+  "brier_model_same": 0.5871,
+  "brier_odds": 0.576,
   "by_matchday": [
    {
     "md": 1,
@@ -1918,6 +1918,27 @@
     "brier_odds": 0.5372
    },
    {
+    "id": 83244,
+    "md": 10,
+    "probs": [
+     0.4104,
+     0.2386,
+     0.351
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.8713,
+    "brier_odds": 0.8803
+   },
+   {
     "id": 83237,
     "md": 10,
     "probs": [
@@ -1935,7 +1956,8 @@
     ],
     "tendency": false,
     "exact": false,
-    "brier": 1.457
+    "brier": 1.457,
+    "brier_odds": 1.5963
    },
    {
     "id": 83238,
@@ -1955,7 +1977,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.2586
+    "brier": 0.2586,
+    "brier_odds": 0.1058
    },
    {
     "id": 83239,
@@ -1975,7 +1998,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.5255
+    "brier": 0.5255,
+    "brier_odds": 0.584
    },
    {
     "id": 83241,
@@ -1995,7 +2019,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.3776
+    "brier": 0.3776,
+    "brier_odds": 0.1885
    },
    {
     "id": 83242,
@@ -2015,7 +2040,8 @@
     ],
     "tendency": false,
     "exact": false,
-    "brier": 0.8143
+    "brier": 0.8143,
+    "brier_odds": 0.3048
    },
    {
     "id": 83245,
@@ -2035,27 +2061,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.5391
-   },
-   {
-    "id": 83244,
-    "md": 10,
-    "probs": [
-     0.4104,
-     0.2386,
-     0.351
-    ],
-    "tip": [
-     2,
-     1
-    ],
-    "score": [
-     0,
-     0
-    ],
-    "tendency": false,
-    "exact": false,
-    "brier": 0.8713
+    "brier": 0.5391,
+    "brier_odds": 0.4321
    },
    {
     "id": 83240,
@@ -2075,7 +2082,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.409
+    "brier": 0.409,
+    "brier_odds": 0.699
    },
    {
     "id": 83243,
@@ -2095,7 +2103,8 @@
     ],
     "tendency": true,
     "exact": false,
-    "brier": 0.1889
+    "brier": 0.1889,
+    "brier_odds": 0.252
    }
   ]
  }
