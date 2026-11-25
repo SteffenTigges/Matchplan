@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "matchday": 11,
- "fetched_at": "2026-11-25T00:50:58+00:00",
+ "fetched_at": "2026-11-25T15:44:16+00:00",
  "teams": {
   "FCB": {
    "team": "FC Bayern München",
@@ -169,7 +169,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 19:17",
    "opponent": "Hamburger SV",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "BVB": {
    "team": "Borussia Dortmund",
@@ -320,7 +320,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 16:10",
    "opponent": "Bayer 04 Leverkusen",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "RBL": {
    "team": "RB Leipzig",
@@ -429,13 +429,7 @@
        "name": "Rômulo",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/romulo-leipzig-2627.jpg"
       },
-      "alternatives": [
-       {
-        "id": "tidiam-gomis_36962",
-        "name": "Gomis",
-        "photo": "https://cdn.ligainsider.de/images/player/team/minor/tidiam-gomis-leipzig-2627.jpg"
-       }
-      ]
+      "alternatives": []
      },
      {
       "player": {
@@ -443,7 +437,13 @@
        "name": "Nusa",
        "photo": "https://cdn.ligainsider.de/images/player/team/minor/antonio-nusa-leipzig-2627.jpg"
       },
-      "alternatives": []
+      "alternatives": [
+       {
+        "id": "tidiam-gomis_36962",
+        "name": "Gomis",
+        "photo": "https://cdn.ligainsider.de/images/player/team/minor/tidiam-gomis-leipzig-2627.jpg"
+       }
+      ]
      }
     ]
    ],
@@ -459,10 +459,10 @@
      "note": "Marc Guiu"
     }
    ],
-   "updated_label": "Gestern | 24.11.2026 23:28",
+   "updated_label": "Heute | 25.11.2026 14:42",
    "opponent": "SC Freiburg",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "VFB": {
    "team": "VfB Stuttgart",
@@ -611,7 +611,7 @@
    "updated_label": "Gestern | 24.11.2026 15:18",
    "opponent": "Eintracht Frankfurt",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "TSG": {
    "team": "TSG Hoffenheim",
@@ -768,7 +768,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 16:19",
    "opponent": "FC Augsburg",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "B04": {
    "team": "Bayer 04 Leverkusen",
@@ -897,7 +897,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 15:19",
    "opponent": "Borussia Dortmund",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "SCF": {
    "team": "SC Freiburg",
@@ -1016,7 +1016,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 14:16",
    "opponent": "RB Leipzig",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "SGE": {
    "team": "Eintracht Frankfurt",
@@ -1283,7 +1283,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 15:22",
    "opponent": "TSG Hoffenheim",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "M05": {
    "team": "1. FSV Mainz 05",
@@ -1419,7 +1419,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 22:38",
    "opponent": "1. FC Union Berlin",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "FCU": {
    "team": "1. FC Union Berlin",
@@ -1562,6 +1562,11 @@
      "note": "Felix Uduokhai Sperre"
     },
     {
+     "name": "Stanley Nsoki",
+     "kind": "Verletzung",
+     "note": "Stanley Nsoki"
+    },
+    {
      "name": "Andrik Markgraf",
      "kind": "Verletzung",
      "note": "Andrik Markgraf Kreuzbandriss"
@@ -1570,17 +1575,12 @@
      "name": "Robert Skov",
      "kind": "Aufbautraining",
      "note": "Robert Skov"
-    },
-    {
-     "name": "Stanley Nsoki",
-     "kind": "Aufbautraining",
-     "note": "Stanley Nsoki"
     }
    ],
    "updated_label": "Gestern | 24.11.2026 19:05",
    "opponent": "1. FSV Mainz 05",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "BMG": {
    "team": "Borussia Mönchengladbach",
@@ -1736,7 +1736,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 12:59",
    "opponent": "SV Werder Bremen",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "HSV": {
    "team": "Hamburger SV",
@@ -1888,7 +1888,7 @@
    "updated_label": "Gestern | 24.11.2026 20:12",
    "opponent": "FC Bayern München",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "KOE": {
    "team": "1. FC Köln",
@@ -2048,7 +2048,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 15:27",
    "opponent": "SV 07 Elversberg",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "SVW": {
    "team": "SV Werder Bremen",
@@ -2151,37 +2151,11 @@
      }
     ]
    ],
-   "missing": [
-    {
-     "name": "Salim Musah",
-     "kind": "Verletzung",
-     "note": "Salim Musah"
-    },
-    {
-     "name": "Felix Agu",
-     "kind": "Aufbautraining",
-     "note": "Felix Agu"
-    },
-    {
-     "name": "Jens Stage",
-     "kind": "Aufbautraining",
-     "note": "Jens Stage"
-    },
-    {
-     "name": "Keke Topp",
-     "kind": "Aufbautraining",
-     "note": "Keke Topp"
-    },
-    {
-     "name": "Moussa Ndiaye",
-     "kind": "Aufbautraining",
-     "note": "Moussa Ndiaye"
-    }
-   ],
+   "missing": [],
    "updated_label": "Gestern | 24.11.2026 16:42",
    "opponent": "Borussia Mönchengladbach",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "S04": {
    "team": "FC Schalke 04",
@@ -2327,32 +2301,12 @@
      "name": "Johannes Siebeking",
      "kind": "Verletzung",
      "note": "Johannes Siebeking Bauchmuskelverletzung"
-    },
-    {
-     "name": "Ron Schallenberg",
-     "kind": "Aufbautraining",
-     "note": "Ron Schallenberg"
-    },
-    {
-     "name": "Luca Vozar",
-     "kind": "Aufbautraining",
-     "note": "Luca Vozar"
-    },
-    {
-     "name": "Anton Donkor",
-     "kind": "Nicht im Kader",
-     "note": "Anton Donkor Nicht berücksichtigt"
-    },
-    {
-     "name": "Max Grüger",
-     "kind": "Nicht im Kader",
-     "note": "Max Grüger Nicht berücksichtigt"
     }
    ],
    "updated_label": "Vor 2 Tagen | 23.11.2026 13:09",
    "opponent": "SC Paderborn 07",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "SVE": {
    "team": "SV 07 Elversberg",
@@ -2487,7 +2441,7 @@
    "updated_label": "Vor 2 Tagen | 23.11.2026 15:38",
    "opponent": "1. FC Köln",
    "home": false,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   },
   "SCP": {
    "team": "SC Paderborn 07",
@@ -2613,12 +2567,17 @@
      "name": "Timur Gayret",
      "kind": "Aufbautraining",
      "note": "Timur Gayret"
+    },
+    {
+     "name": "Nyamekye Awortwie-Grant",
+     "kind": "Nicht im Kader",
+     "note": "Nyamekye Awortwie-Grant Trainingsrückstand"
     }
    ],
    "updated_label": "Vor 2 Tagen | 23.11.2026 15:49",
    "opponent": "FC Schalke 04",
    "home": true,
-   "fetched_at": "2026-11-25T00:50:58+00:00"
+   "fetched_at": "2026-11-25T15:44:16+00:00"
   }
  }
 }
