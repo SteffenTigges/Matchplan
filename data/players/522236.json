@@ -10,7 +10,7 @@
  "country": "Germany",
  "shirt": 1,
  "market_value": 628521,
- "contract_end": "2027-06-30",
+ "contract_end": "2028-06-30",
  "positions": [
   {
    "label": "Keeper",
@@ -43,7 +43,7 @@
    "title": "Gegentore",
    "value": 9,
    "per90": 2.25,
-   "pct": 8.333333333333332,
+   "pct": 20.833333333333336,
    "fmt": "number"
   },
   {
@@ -79,7 +79,7 @@
    "title": "Acted as sweeper",
    "value": 7,
    "per90": 1.75,
-   "pct": 91.66666666666666,
+   "pct": 100,
    "fmt": "number"
   },
   {
@@ -88,7 +88,7 @@
    "title": "High claims",
    "value": 2,
    "per90": 0.5,
-   "pct": 16.666666666666664,
+   "pct": 20.833333333333336,
    "fmt": "number"
   },
   {
@@ -106,7 +106,7 @@
    "title": "Passquote",
    "value": 68.2,
    "per90": 68.15286624203821,
-   "pct": 45.83333333333333,
+   "pct": 50,
    "fmt": "percent"
   },
   {
@@ -115,7 +115,7 @@
    "title": "Lange Bälle angekommen",
    "value": 28,
    "per90": 7,
-   "pct": 50,
+   "pct": 58.333333333333336,
    "fmt": "number"
   },
   {
@@ -133,7 +133,7 @@
    "title": "xA",
    "value": 0.01,
    "per90": 0.0024135924999999997,
-   "pct": 41.66666666666667,
+   "pct": 37.5,
    "fmt": "fraction"
   },
   {
@@ -161,32 +161,32 @@
    {
     "key": "keeper_sweeper_actions",
     "title": "Sweeper actions",
-    "value": 0.96
+    "value": 0.95
    },
    {
     "key": "goals_conceded",
     "title": "Goals conceded",
-    "value": 0.51
+    "value": 0.58
    },
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.8
+    "value": 0.78
    },
    {
     "key": "keeper_high_claim",
     "title": "High claims",
-    "value": 0.06
+    "value": 0.05
    },
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.84
+    "value": 0.86
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.68
+    "value": 0.62
    }
   ]
  },
@@ -637,5 +637,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T07:25:15+00:00"
+ "fetched_at": "2026-11-26T15:25:22+00:00"
 }

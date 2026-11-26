@@ -34,7 +34,7 @@
    "title": "xG",
    "value": 0.01,
    "per90": 0.0156375,
-   "pct": 23.18840579710145,
+   "pct": 22.857142857142858,
    "fmt": "fraction"
   },
   {
@@ -43,7 +43,7 @@
    "title": "xGOT",
    "value": 0.39,
    "per90": 0.4402125,
-   "pct": 97.10144927536231,
+   "pct": 100,
    "fmt": "fraction"
   },
   {
@@ -52,7 +52,7 @@
    "title": "xG ohne Elfmeter",
    "value": 0.01,
    "per90": 0.0156375,
-   "pct": 23.18840579710145,
+   "pct": 22.857142857142858,
    "fmt": "fraction"
   },
   {
@@ -61,7 +61,7 @@
    "title": "Schüsse",
    "value": 1,
    "per90": 1.125,
-   "pct": 81.15942028985508,
+   "pct": 82.85714285714286,
    "fmt": "number"
   },
   {
@@ -88,7 +88,7 @@
    "title": "xA",
    "value": 0.07,
    "per90": 0.0839244375,
-   "pct": 81.15942028985508,
+   "pct": 82.85714285714286,
    "fmt": "fraction"
   },
   {
@@ -97,7 +97,7 @@
    "title": "Angekommene Pässe",
    "value": 44,
    "per90": 49.50000000000001,
-   "pct": 50.72463768115942,
+   "pct": 48.57142857142857,
    "fmt": "number"
   },
   {
@@ -106,7 +106,7 @@
    "title": "Passquote",
    "value": 89.8,
    "per90": 89.79591836734694,
-   "pct": 68.11594202898551,
+   "pct": 65.71428571428571,
    "fmt": "percent"
   },
   {
@@ -124,8 +124,17 @@
    "title": "Quote lange Bälle",
    "value": 55.6,
    "per90": 55.55555555555556,
-   "pct": 81.15942028985508,
+   "pct": 77.14285714285715,
    "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 9,
+   "per90": 10.125,
+   "pct": 70,
+   "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
@@ -133,7 +142,7 @@
    "title": "Zweikämpfe gewonnen",
    "value": 5,
    "per90": 5.625,
-   "pct": 65.21739130434783,
+   "pct": 65.71428571428571,
    "fmt": "number"
   },
   {
@@ -142,7 +151,7 @@
    "title": "Zweikampfquote",
    "value": 62.5,
    "per90": 62.5,
-   "pct": 60.86956521739131,
+   "pct": 65.71428571428571,
    "fmt": "percent"
   },
   {
@@ -151,7 +160,7 @@
    "title": "Luftzweikämpfe gewonnen",
    "value": 1,
    "per90": 1.125,
-   "pct": 7.246376811594203,
+   "pct": 8.571428571428571,
    "fmt": "number"
   },
   {
@@ -160,7 +169,7 @@
    "title": "Luftzweikampfquote",
    "value": 50.0,
    "per90": 50,
-   "pct": 13.043478260869565,
+   "pct": 15.714285714285714,
    "fmt": "percent"
   },
   {
@@ -169,7 +178,7 @@
    "title": "Ballkontakte",
    "value": 63,
    "per90": 70.875,
-   "pct": 39.130434782608695,
+   "pct": 41.42857142857143,
    "fmt": "number"
   },
   {
@@ -178,7 +187,7 @@
    "title": "Ballaktionen im gegn. Strafraum",
    "value": 1,
    "per90": 1.125,
-   "pct": 50.72463768115942,
+   "pct": 50,
    "fmt": "number"
   },
   {
@@ -196,7 +205,7 @@
    "title": "Defensivaktionen",
    "value": 8,
    "per90": 9,
-   "pct": 34.78260869565217,
+   "pct": 34.285714285714285,
    "fmt": "number"
   },
   {
@@ -205,7 +214,7 @@
    "title": "Tacklings",
    "value": 4,
    "per90": 4.5,
-   "pct": 100,
+   "pct": 97.14285714285714,
    "fmt": "number"
   },
   {
@@ -214,7 +223,7 @@
    "title": "Fouls",
    "value": 1,
    "per90": 1.125,
-   "pct": 46.3768115942029,
+   "pct": 44.285714285714285,
    "fmt": "number"
   },
   {
@@ -232,7 +241,7 @@
    "title": "Klärungen",
    "value": 4,
    "per90": 4.5,
-   "pct": 23.18840579710145,
+   "pct": 25.71428571428571,
    "fmt": "number"
   },
   {
@@ -259,7 +268,7 @@
    "title": "Zugelassene xG während auf dem Platz",
    "value": 0.66,
    "per90": 0.7473375,
-   "pct": 95.65217391304348,
+   "pct": 97.14285714285714,
    "fmt": "fraction"
   },
   {
@@ -287,12 +296,12 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.55
+    "value": 0.46
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.05
+    "value": 0.06
    },
    {
     "key": "defensive_actions",
@@ -302,17 +311,17 @@
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.5
+    "value": 0.52
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.64
+    "value": 0.65
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.28
+    "value": 0.29
    }
   ]
  },
@@ -943,5 +952,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T07:25:15+00:00"
+ "fetched_at": "2026-11-26T15:25:22+00:00"
 }

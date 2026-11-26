@@ -23,8 +23,8 @@
    "group": "Torwartspiel",
    "key": "saves",
    "title": "Paraden",
-   "value": 10,
-   "per90": 5,
+   "value": 14,
+   "per90": 4.666666666666667,
    "pct": 83.33333333333334,
    "fmt": "number"
   },
@@ -32,26 +32,26 @@
    "group": "Torwartspiel",
    "key": "save_percentage",
    "title": "Paradenquote",
-   "value": 76.9,
-   "per90": 76.92307692307692,
-   "pct": 83.33333333333334,
+   "value": 77.8,
+   "per90": 77.77777777777777,
+   "pct": 75,
    "fmt": "percent"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_conceded",
    "title": "Gegentore",
-   "value": 3,
-   "per90": 1.5,
-   "pct": 62.5,
+   "value": 4,
+   "per90": 1.3333333333333335,
+   "pct": 66.66666666666666,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_prevented",
    "title": "Verhinderte Tore",
-   "value": 0.63,
-   "per90": 0.3147,
+   "value": 1.03,
+   "per90": 0.34426666666666667,
    "pct": 70.83333333333334,
    "fmt": "fraction"
   },
@@ -60,26 +60,26 @@
    "key": "clean_sheet_team_title",
    "title": "Spiele ohne Gegentor",
    "value": 1,
-   "per90": 0.5,
-   "pct": 83.33333333333334,
+   "per90": 0.33333333333333337,
+   "pct": 62.5,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "error_led_to_goal",
    "title": "Error led to goal",
-   "value": 0,
-   "per90": 0,
-   "pct": 100,
+   "value": 1,
+   "per90": 0.33333333333333337,
+   "pct": 0,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "keeper_sweeper",
    "title": "Acted as sweeper",
-   "value": 1,
-   "per90": 0.5,
-   "pct": 45.83333333333333,
+   "value": 2,
+   "per90": 0.6666666666666667,
+   "pct": 54.166666666666664,
    "fmt": "number"
   },
   {
@@ -87,43 +87,43 @@
    "key": "keeper_high_claim",
    "title": "High claims",
    "value": 3,
-   "per90": 1.5,
-   "pct": 83.33333333333334,
+   "per90": 1,
+   "pct": 54.166666666666664,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "successful_passes",
    "title": "Angekommene Pässe",
-   "value": 47,
-   "per90": 23.5,
-   "pct": 41.66666666666667,
+   "value": 77,
+   "per90": 25.666666666666668,
+   "pct": 54.166666666666664,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "successful_passes_accuracy",
    "title": "Passquote",
-   "value": 63.5,
-   "per90": 63.513513513513516,
-   "pct": 16.666666666666664,
+   "value": 62.1,
+   "per90": 62.096774193548384,
+   "pct": 12.5,
    "fmt": "percent"
   },
   {
    "group": "Distribution",
    "key": "long_balls_accurate",
    "title": "Lange Bälle angekommen",
-   "value": 16,
-   "per90": 8,
-   "pct": 70.83333333333334,
+   "value": 28,
+   "per90": 9.333333333333334,
+   "pct": 83.33333333333334,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "long_ball_succeeeded_accuracy",
    "title": "Quote lange Bälle",
-   "value": 38.1,
-   "per90": 38.095238095238095,
+   "value": 38.4,
+   "per90": 38.35616438356164,
    "pct": 45.83333333333333,
    "fmt": "percent"
   },
@@ -131,9 +131,9 @@
    "group": "Distribution",
    "key": "expected_assists",
    "title": "xA",
-   "value": 0.0,
-   "per90": 0.0011959800000000001,
-   "pct": 16.666666666666664,
+   "value": 0.01,
+   "per90": 0.0028367433333333337,
+   "pct": 50,
    "fmt": "fraction"
   },
   {
@@ -161,50 +161,50 @@
    {
     "key": "keeper_sweeper_actions",
     "title": "Sweeper actions",
-    "value": 0.64
+    "value": 0.65
    },
    {
     "key": "goals_conceded",
     "title": "Goals conceded",
-    "value": 0.7
+    "value": 0.72
    },
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.93
+    "value": 0.92
    },
    {
     "key": "keeper_high_claim",
     "title": "High claims",
-    "value": 0.87
+    "value": 0.82
    },
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.71
+    "value": 0.69
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.58
+    "value": 0.59
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 3,
+   "apps": 4,
    "goals": 0,
    "assists": 0,
-   "rating": 7.75,
+   "rating": 7.4,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 2,
+     "apps": 3,
      "goals": 0,
      "assists": 0,
-     "rating": 7.72
+     "rating": 7.27
     },
     {
      "league": "DFB Pokal",
@@ -562,7 +562,7 @@
     "team": "Borussia Mönchengladbach",
     "start": "2026-07-01",
     "end": null,
-    "apps": 3,
+    "apps": 4,
     "goals": 0,
     "kind": null
    },
@@ -661,5 +661,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T07:25:15+00:00"
+ "fetched_at": "2026-11-26T15:25:22+00:00"
 }
