@@ -4,12 +4,12 @@
  "home": "SVW",
  "away": "BMG",
  "kickoff": "2026-11-27T19:30:00Z",
- "updated_at": "2026-11-27T20:22:40+00:00",
+ "updated_at": "2026-11-27T20:23:42+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "42'",
+  "minute": "HT",
   "reason": null,
   "score": [
    1,
@@ -17,6 +17,38 @@
   ]
  },
  "events": [
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 4 minutes added"
+  },
+  {
+   "min": 44,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Philipp Sander",
+   "player_id": 951918
+  },
+  {
+   "min": 44,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Niclas Füllkrug",
+   "player_id": 276791
+  },
   {
    "min": 38,
    "plus": null,
@@ -59,50 +91,50 @@
  ],
  "stats": {
   "BallPossesion": [
-   57,
-   43
+   54,
+   46
   ],
   "expected_goals": [
-   0.17,
-   1.62
+   0.21,
+   1.82
   ],
   "total_shots": [
-   4,
-   10
+   5,
+   11
   ],
   "ShotsOnTarget": [
    2,
-   2
+   3
   ],
   "touches_opp_box": [
-   5,
-   14
+   6,
+   16
   ],
   "big_chance": [
    0,
-   2
+   3
   ],
   "big_chance_missed_title": [
    0,
-   1
+   2
   ],
   "accurate_passes": [
    {
-    "n": 210,
-    "pct": 86
+    "n": 225,
+    "pct": 84
    },
    {
-    "n": 146,
+    "n": 177,
     "pct": 82
    }
   ],
   "yellow_cards": [
-   0,
-   1
+   1,
+   2
   ],
   "corners": [
    1,
-   2
+   3
   ],
   "blocked_shots": [
    2,
@@ -110,40 +142,40 @@
   ],
   "shots_inside_box": [
    2,
-   7
+   8
   ],
   "expected_goals_open_play": [
    0.17,
-   0.7
+   0.9
   ],
   "expected_goals_set_play": [
-   0.0,
+   0.04,
    0.13
   ],
   "expected_goals_on_target": [
    0.66,
-   0.87
+   1.07
   ],
   "passes": [
-   244,
-   179
+   267,
+   216
   ],
   "own_half_passes": [
-   145,
-   71
+   159,
+   82
   ],
   "opposition_half_passes": [
-   65,
-   75
+   66,
+   95
   ],
   "long_balls_accurate": [
    {
     "n": 16,
-    "pct": 70
+    "pct": 67
    },
    {
-    "n": 4,
-    "pct": 24
+    "n": 7,
+    "pct": 30
    }
   ],
   "accurate_crosses": [
@@ -152,20 +184,20 @@
     "pct": 0
    },
    {
-    "n": 0,
-    "pct": 0
+    "n": 1,
+    "pct": 13
    }
   ],
   "Offsides": [
-   1,
+   2,
    2
   ],
   "tackles": [
    8,
-   5
+   7
   ],
   "interceptions": [
-   4,
+   5,
    3
   ],
   "shot_blocks": [
@@ -173,41 +205,41 @@
    2
   ],
   "clearances": [
-   12,
-   10
+   17,
+   11
   ],
   "keeper_saves": [
-   1,
+   2,
    1
   ],
   "duel_won": [
-   21,
-   16
+   25,
+   20
   ],
   "ground_duels_won": [
    {
-    "n": 14,
-    "pct": 54
+    "n": 15,
+    "pct": 52
    },
    {
-    "n": 13,
-    "pct": 48
+    "n": 15,
+    "pct": 50
    }
   ],
   "aerials_won": [
    {
-    "n": 7,
-    "pct": 70
+    "n": 10,
+    "pct": 67
    },
    {
-    "n": 3,
-    "pct": 30
+    "n": 5,
+    "pct": 33
    }
   ],
   "dribbles_succeeded": [
    {
     "n": 1,
-    "pct": 50
+    "pct": 25
    },
    {
     "n": 5,
@@ -220,7 +252,7 @@
   ],
   "fouls": [
    4,
-   6
+   7
   ]
  },
  "momentum": [
@@ -382,31 +414,35 @@
   ],
   [
    39,
-   null
+   22
   ],
   [
    40,
-   null
+   -11
   ],
   [
    41,
-   null
+   -27
   ],
   [
    42,
-   null
+   -65
   ],
   [
    43,
-   null
+   -38
   ],
   [
    44,
-   null
+   -33
   ],
   [
    45,
-   null
+   5
+  ],
+  [
+   45.5,
+   2
   ],
   [
    46,
@@ -775,31 +811,57 @@
    "type": "RightFoot",
    "result": "goal",
    "own_goal": false
+  },
+  {
+   "team": "BMG",
+   "player": "Zento Uno",
+   "min": 42,
+   "x": 99.3070175438,
+   "y": 23.859108284899996,
+   "xg": 0.19377700984477997,
+   "xgot": 0.20396815240383148,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVW",
+   "player": "Niclas Füllkrug",
+   "min": 45,
+   "x": 76.8538834968,
+   "y": 35.29625000000001,
+   "xg": 0.039774421602487564,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 41,
-   "center": 25,
-   "right": 34
+   "left": 40,
+   "center": 24,
+   "right": 36
   },
   "away": {
-   "left": 35,
-   "center": 28,
-   "right": 37
+   "left": 32,
+   "center": 25,
+   "right": 43
   }
  },
  "lineups": {
   "home": {
    "team": "SVW",
    "formation": "4-2-3-1",
-   "rating": 6.3,
+   "rating": 6.5,
    "players": [
     {
      "id": 982692,
      "name": "Karl Hein",
      "pos_id": 11,
-     "rating": 6,
+     "rating": 6.3,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -808,7 +870,7 @@
      "id": 1353457,
      "name": "Arthur",
      "pos_id": 32,
-     "rating": 6.2,
+     "rating": 6.4,
      "captain": false,
      "x": 0.125,
      "y": 0.292
@@ -817,7 +879,7 @@
      "id": 765998,
      "name": "Amos Pieper",
      "pos_id": 34,
-     "rating": 6.4,
+     "rating": 6.8,
      "captain": false,
      "x": 0.375,
      "y": 0.292
@@ -826,7 +888,7 @@
      "id": 767789,
      "name": "Marco Friedl",
      "pos_id": 36,
-     "rating": 6.4,
+     "rating": 6.8,
      "captain": true,
      "x": 0.625,
      "y": 0.292
@@ -835,7 +897,7 @@
      "id": 969856,
      "name": "Olivier Deman",
      "pos_id": 38,
-     "rating": 6.4,
+     "rating": 6.7,
      "captain": false,
      "x": 0.875,
      "y": 0.292
@@ -844,7 +906,7 @@
      "id": 869326,
      "name": "Ludovit Reis",
      "pos_id": 64,
-     "rating": 6.5,
+     "rating": 6.6,
      "captain": false,
      "x": 0.3,
      "y": 0.485
@@ -853,7 +915,7 @@
      "id": 1111980,
      "name": "Youri Regeer",
      "pos_id": 66,
-     "rating": 5.9,
+     "rating": 6.1,
      "captain": false,
      "x": 0.7,
      "y": 0.485
@@ -862,7 +924,7 @@
      "id": 1146376,
      "name": "Eren Dinkçi",
      "pos_id": 83,
-     "rating": 7.3,
+     "rating": 7.4,
      "captain": false,
      "x": 0.162,
      "y": 0.678
@@ -871,7 +933,7 @@
      "id": 1315344,
      "name": "Chuki",
      "pos_id": 85,
-     "rating": 6.2,
+     "rating": 6.3,
      "captain": false,
      "x": 0.5,
      "y": 0.678
@@ -880,7 +942,7 @@
      "id": 1810868,
      "name": "Paul Erevbenagie",
      "pos_id": 87,
-     "rating": 6.1,
+     "rating": 6.2,
      "captain": false,
      "x": 0.837,
      "y": 0.678
@@ -899,13 +961,13 @@
   "away": {
    "team": "BMG",
    "formation": "3-4-2-1",
-   "rating": 6.4,
+   "rating": 6.5,
    "players": [
     {
      "id": 212873,
      "name": "Daniel Batz",
      "pos_id": 11,
-     "rating": 5.6,
+     "rating": 5.9,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -914,7 +976,7 @@
      "id": 566158,
      "name": "Kevin Diks",
      "pos_id": 33,
-     "rating": 7.3,
+     "rating": 7.5,
      "captain": true,
      "x": 0.21,
      "y": 0.292
@@ -923,7 +985,7 @@
      "id": 951918,
      "name": "Philipp Sander",
      "pos_id": 35,
-     "rating": 6.1,
+     "rating": 6.4,
      "captain": false,
      "x": 0.5,
      "y": 0.292
@@ -932,7 +994,7 @@
      "id": 1276331,
      "name": "Fabio Chiarodia",
      "pos_id": 37,
-     "rating": 6.5,
+     "rating": 6.8,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -941,7 +1003,7 @@
      "id": 959696,
      "name": "Joseph Scally",
      "pos_id": 62,
-     "rating": 6.4,
+     "rating": 6.5,
      "captain": false,
      "x": 0.125,
      "y": 0.485
@@ -950,7 +1012,7 @@
      "id": 1337143,
      "name": "Zento Uno",
      "pos_id": 64,
-     "rating": 5.8,
+     "rating": 5.9,
      "captain": false,
      "x": 0.375,
      "y": 0.485
@@ -959,7 +1021,7 @@
      "id": 764507,
      "name": "Florian Neuhaus",
      "pos_id": 66,
-     "rating": 6.9,
+     "rating": 7,
      "captain": false,
      "x": 0.625,
      "y": 0.485
@@ -977,7 +1039,7 @@
      "id": 501543,
      "name": "Franck Honorat",
      "pos_id": 84,
-     "rating": 6.6,
+     "rating": 6.8,
      "captain": false,
      "x": 0.3,
      "y": 0.678
@@ -995,7 +1057,7 @@
      "id": 915111,
      "name": "Shuto Machino",
      "pos_id": 105,
-     "rating": 6.3,
+     "rating": 6.2,
      "captain": false,
      "x": 0.5,
      "y": 0.87
@@ -1009,9 +1071,9 @@
    "team": "BMG",
    "name": "Daniel Batz",
    "keeper": true,
-   "rating": 5.57,
-   "recoveries": 3,
-   "touches": 18,
+   "rating": 5.9,
+   "recoveries": 4,
+   "touches": 22,
    "tackles": 0,
    "final_third_passes": 2,
    "interceptions": 0
@@ -1027,14 +1089,16 @@
    "team": "SVW",
    "name": "Niclas Füllkrug",
    "keeper": false,
-   "rating": 6.31,
+   "rating": 6.32,
    "goals": 0,
    "assists": 0,
+   "xg": 0.04,
    "xa": 0.01,
+   "shots": 1,
    "key_passes": 1,
-   "touches": 15,
+   "touches": 19,
    "touches_box": 1,
-   "final_third_passes": 2,
+   "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
@@ -1070,39 +1134,40 @@
    "team": "BMG",
    "name": "Franck Honorat",
    "keeper": false,
-   "rating": 6.59,
+   "rating": 6.83,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
-   "xa": 0.02,
+   "xa": 0.1,
    "shots": 2,
-   "key_passes": 1,
-   "touches": 22,
+   "key_passes": 2,
+   "touches": 28,
    "touches_box": 3,
    "dribbles": 1,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 1,
-   "duels_won": 2,
-   "duels_lost": 2
+   "recoveries": 2,
+   "duels_won": 3,
+   "duels_lost": 3
   },
   {
    "id": 566158,
    "team": "BMG",
    "name": "Kevin Diks",
    "keeper": false,
-   "rating": 7.26,
+   "rating": 7.45,
    "goals": 1,
    "assists": 0,
    "xg": 0.79,
+   "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 33,
+   "touches": 44,
    "touches_box": 1,
-   "final_third_passes": 1,
+   "final_third_passes": 5,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 5,
+   "recoveries": 6,
    "duels_won": 1,
    "duels_lost": 3
   },
@@ -1129,37 +1194,38 @@
    "team": "BMG",
    "name": "Florian Neuhaus",
    "keeper": false,
-   "rating": 6.88,
+   "rating": 6.99,
    "goals": 0,
    "assists": 0,
    "xg": 0.12,
-   "xa": 0.42,
+   "xa": 0.43,
    "shots": 2,
    "key_passes": 3,
-   "touches": 27,
+   "touches": 30,
    "touches_box": 1,
-   "final_third_passes": 6,
-   "tackles": 2,
+   "final_third_passes": 7,
+   "tackles": 3,
    "interceptions": 0,
    "recoveries": 2,
-   "duels_won": 3
+   "duels_won": 4,
+   "duels_lost": 1
   },
   {
    "id": 765998,
    "team": "SVW",
    "name": "Amos Pieper",
    "keeper": false,
-   "rating": 6.41,
+   "rating": 6.81,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 55,
+   "touches": 61,
    "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 1,
    "interceptions": 1,
    "recoveries": 2,
-   "duels_won": 2,
+   "duels_won": 3,
    "duels_lost": 1
   },
   {
@@ -1167,17 +1233,17 @@
    "team": "SVW",
    "name": "Marco Friedl",
    "keeper": false,
-   "rating": 6.36,
+   "rating": 6.8,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 48,
+   "touches": 53,
    "touches_box": 0,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 2,
-   "duels_won": 1,
+   "duels_won": 2,
    "duels_lost": 1
   },
   {
@@ -1191,7 +1257,7 @@
    "team": "SVW",
    "name": "Ludovit Reis",
    "keeper": false,
-   "rating": 6.52,
+   "rating": 6.62,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
@@ -1217,7 +1283,7 @@
    "team": "BMG",
    "name": "Shuto Machino",
    "keeper": false,
-   "rating": 6.25,
+   "rating": 6.23,
    "goals": 0,
    "assists": 0,
    "xg": 0.07,
@@ -1230,7 +1296,7 @@
    "tackles": 0,
    "interceptions": 1,
    "recoveries": 4,
-   "duels_lost": 2
+   "duels_lost": 3
   },
   {
    "id": 919742,
@@ -1243,16 +1309,16 @@
    "team": "BMG",
    "name": "Philipp Sander",
    "keeper": false,
-   "rating": 6.14,
+   "rating": 6.43,
    "goals": 0,
    "assists": 0,
    "xg": 0.05,
-   "xa": 0.01,
+   "xa": 0.02,
    "shots": 1,
    "key_passes": 0,
-   "touches": 30,
-   "touches_box": 1,
-   "final_third_passes": 3,
+   "touches": 38,
+   "touches_box": 2,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
@@ -1263,18 +1329,18 @@
    "team": "BMG",
    "name": "Joseph Scally",
    "keeper": false,
-   "rating": 6.37,
+   "rating": 6.46,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 24,
+   "touches": 30,
    "touches_box": 1,
    "dribbles": 2,
-   "final_third_passes": 2,
+   "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 1,
    "recoveries": 2,
-   "duels_won": 2,
+   "duels_won": 3,
    "duels_lost": 4
   },
   {
@@ -1282,12 +1348,12 @@
    "team": "SVW",
    "name": "Olivier Deman",
    "keeper": false,
-   "rating": 6.36,
+   "rating": 6.74,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 27,
+   "touches": 32,
    "touches_box": 0,
    "tackles": 1,
    "interceptions": 0,
@@ -1300,9 +1366,9 @@
    "team": "SVW",
    "name": "Karl Hein",
    "keeper": true,
-   "rating": 5.97,
-   "recoveries": 2,
-   "touches": 24,
+   "rating": 6.28,
+   "recoveries": 3,
+   "touches": 26,
    "tackles": 0,
    "final_third_passes": 4,
    "interceptions": 0
@@ -1312,37 +1378,37 @@
    "team": "SVW",
    "name": "Youri Regeer",
    "keeper": false,
-   "rating": 5.94,
+   "rating": 6.08,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 28,
+   "touches": 29,
    "touches_box": 0,
    "final_third_passes": 1,
    "tackles": 2,
-   "interceptions": 0,
+   "interceptions": 1,
    "recoveries": 2,
    "duels_won": 3,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 1146376,
    "team": "SVW",
    "name": "Eren Dinkçi",
    "keeper": false,
-   "rating": 7.32,
+   "rating": 7.41,
    "goals": 1,
    "assists": 0,
    "xg": 0.14,
    "xa": 0.01,
    "shots": 2,
    "key_passes": 0,
-   "touches": 11,
+   "touches": 15,
    "touches_box": 3,
    "tackles": 1,
    "interceptions": 0,
-   "recoveries": 1,
+   "recoveries": 3,
    "duels_won": 1
   },
   {
@@ -1350,14 +1416,14 @@
    "team": "BMG",
    "name": "Jens Castrop",
    "keeper": false,
-   "rating": 6.11,
+   "rating": 6.05,
    "goals": 0,
    "assists": 0,
    "xg": 0.04,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 26,
+   "touches": 29,
    "touches_box": 1,
    "dribbles": 1,
    "final_third_passes": 1,
@@ -1365,25 +1431,25 @@
    "interceptions": 1,
    "recoveries": 1,
    "duels_won": 1,
-   "duels_lost": 5
+   "duels_lost": 6
   },
   {
    "id": 1276331,
    "team": "BMG",
    "name": "Fabio Chiarodia",
    "keeper": false,
-   "rating": 6.5,
+   "rating": 6.75,
    "goals": 0,
    "assists": 0,
    "xa": 0.01,
    "key_passes": 0,
-   "touches": 32,
+   "touches": 37,
    "touches_box": 0,
    "final_third_passes": 1,
-   "tackles": 1,
+   "tackles": 2,
    "interceptions": 0,
    "recoveries": 4,
-   "duels_won": 3,
+   "duels_won": 4,
    "duels_lost": 1
   },
   {
@@ -1403,36 +1469,36 @@
    "team": "SVW",
    "name": "Chuki",
    "keeper": false,
-   "rating": 6.17,
+   "rating": 6.27,
    "goals": 0,
    "assists": 0,
    "xg": 0.02,
    "xa": 0.01,
    "shots": 1,
    "key_passes": 0,
-   "touches": 16,
-   "touches_box": 0,
+   "touches": 21,
+   "touches_box": 1,
    "final_third_passes": 3,
    "tackles": 0,
    "interceptions": 1,
-   "recoveries": 1,
-   "duels_won": 2,
-   "duels_lost": 2
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 3
   },
   {
    "id": 1337143,
    "team": "BMG",
    "name": "Zento Uno",
    "keeper": false,
-   "rating": 5.75,
+   "rating": 5.86,
    "goals": 0,
    "assists": 0,
-   "xg": 0.46,
+   "xg": 0.66,
    "xa": 0.01,
-   "shots": 1,
+   "shots": 2,
    "key_passes": 0,
-   "touches": 15,
-   "touches_box": 1,
+   "touches": 17,
+   "touches_box": 2,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
@@ -1444,19 +1510,19 @@
    "team": "SVW",
    "name": "Arthur",
    "keeper": false,
-   "rating": 6.24,
+   "rating": 6.44,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 42,
+   "touches": 50,
    "touches_box": 0,
    "dribbles": 1,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 2,
    "recoveries": 0,
-   "duels_won": 2,
-   "duels_lost": 2
+   "duels_won": 3,
+   "duels_lost": 4
   },
   {
    "id": 1356589,
@@ -1475,14 +1541,14 @@
    "team": "BMG",
    "name": "Wael Mohya",
    "keeper": false,
-   "rating": 6.82,
+   "rating": 6.84,
    "goals": 0,
    "assists": 0,
    "xg": 0.08,
    "xa": 0.07,
    "shots": 1,
    "key_passes": 2,
-   "touches": 15,
+   "touches": 18,
    "touches_box": 4,
    "dribbles": 1,
    "tackles": 1,
@@ -1496,14 +1562,14 @@
    "team": "SVW",
    "name": "Paul Erevbenagie",
    "keeper": false,
-   "rating": 6.07,
+   "rating": 6.15,
    "goals": 0,
    "assists": 0,
    "xg": 0.01,
    "xa": 0.04,
    "shots": 1,
    "key_passes": 1,
-   "touches": 17,
+   "touches": 19,
    "touches_box": 1,
    "final_third_passes": 2,
    "tackles": 0,
