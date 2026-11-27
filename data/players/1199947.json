@@ -25,7 +25,7 @@
    "title": "Tore",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 95.65217391304348,
+   "pct": 94.28571428571428,
    "fmt": "number"
   },
   {
@@ -34,7 +34,7 @@
    "title": "xG",
    "value": 0.17,
    "per90": 0.046262686567164174,
-   "pct": 52.17391304347826,
+   "pct": 50,
    "fmt": "fraction"
   },
   {
@@ -43,7 +43,7 @@
    "title": "xGOT",
    "value": 0.66,
    "per90": 0.17830746268656714,
-   "pct": 89.85507246376811,
+   "pct": 90,
    "fmt": "fraction"
   },
   {
@@ -52,7 +52,7 @@
    "title": "xG ohne Elfmeter",
    "value": 0.17,
    "per90": 0.046262686567164174,
-   "pct": 53.62318840579711,
+   "pct": 51.42857142857142,
    "fmt": "fraction"
   },
   {
@@ -61,7 +61,7 @@
    "title": "Schüsse",
    "value": 3,
    "per90": 0.8059701492537313,
-   "pct": 62.31884057971014,
+   "pct": 62.857142857142854,
    "fmt": "number"
   },
   {
@@ -70,7 +70,7 @@
    "title": "Schüsse aufs Tor",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 75.36231884057972,
+   "pct": 77.14285714285715,
    "fmt": "number"
   },
   {
@@ -79,7 +79,7 @@
    "title": "Kopfballschüsse",
    "value": 2,
    "per90": 0.5373134328358209,
-   "pct": 66.66666666666666,
+   "pct": 67.14285714285714,
    "fmt": "number"
   },
   {
@@ -88,7 +88,7 @@
    "title": "Vorlagen",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 94.20289855072464,
+   "pct": 94.28571428571428,
    "fmt": "number"
   },
   {
@@ -97,7 +97,7 @@
    "title": "xA",
    "value": 0.16,
    "per90": 0.04409944925373134,
-   "pct": 52.17391304347826,
+   "pct": 54.285714285714285,
    "fmt": "fraction"
   },
   {
@@ -106,7 +106,7 @@
    "title": "Angekommene Pässe",
    "value": 154,
    "per90": 41.373134328358205,
-   "pct": 30.434782608695656,
+   "pct": 31.428571428571427,
    "fmt": "number"
   },
   {
@@ -115,7 +115,7 @@
    "title": "Passquote",
    "value": 81.1,
    "per90": 81.05263157894737,
-   "pct": 20.28985507246377,
+   "pct": 20,
    "fmt": "percent"
   },
   {
@@ -124,7 +124,7 @@
    "title": "Lange Bälle angekommen",
    "value": 19,
    "per90": 5.104477611940299,
-   "pct": 97.10144927536231,
+   "pct": 97.14285714285714,
    "fmt": "number"
   },
   {
@@ -133,8 +133,17 @@
    "title": "Quote lange Bälle",
    "value": 51.4,
    "per90": 51.351351351351354,
-   "pct": 72.46376811594203,
+   "pct": 70,
    "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 33,
+   "per90": 8.865671641791046,
+   "pct": 51.42857142857142,
+   "fmt": "number"
   },
   {
    "group": "Passspiel",
@@ -142,7 +151,7 @@
    "title": "Torchancen vorbereitet",
    "value": 4,
    "per90": 1.0746268656716418,
-   "pct": 94.20289855072464,
+   "pct": 94.28571428571428,
    "fmt": "number"
   },
   {
@@ -151,7 +160,7 @@
    "title": "Großchancen vorbereitet",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 92.7536231884058,
+   "pct": 92.85714285714286,
    "fmt": "number"
   },
   {
@@ -160,7 +169,7 @@
    "title": "Zweikämpfe gewonnen",
    "value": 26,
    "per90": 6.985074626865671,
-   "pct": 85.5072463768116,
+   "pct": 84.28571428571429,
    "fmt": "number"
   },
   {
@@ -169,7 +178,7 @@
    "title": "Zweikampfquote",
    "value": 54.2,
    "per90": 54.166666666666664,
-   "pct": 26.08695652173913,
+   "pct": 25.71428571428571,
    "fmt": "percent"
   },
   {
@@ -178,7 +187,7 @@
    "title": "Luftzweikämpfe gewonnen",
    "value": 18,
    "per90": 4.835820895522388,
-   "pct": 89.85507246376811,
+   "pct": 91.42857142857143,
    "fmt": "number"
   },
   {
@@ -187,7 +196,7 @@
    "title": "Luftzweikampfquote",
    "value": 56.2,
    "per90": 56.25,
-   "pct": 31.88405797101449,
+   "pct": 38.57142857142858,
    "fmt": "percent"
   },
   {
@@ -196,7 +205,7 @@
    "title": "Ballkontakte",
    "value": 269,
    "per90": 72.26865671641791,
-   "pct": 46.3768115942029,
+   "pct": 47.14285714285714,
    "fmt": "number"
   },
   {
@@ -214,7 +223,7 @@
    "title": "Ballverluste im Zweikampf",
    "value": 2,
    "per90": 0.5373134328358209,
-   "pct": 7.246376811594203,
+   "pct": 10,
    "fmt": "number"
   },
   {
@@ -223,7 +232,7 @@
    "title": "Gefoult worden",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 24.637681159420293,
+   "pct": 24.285714285714285,
    "fmt": "number"
   },
   {
@@ -232,7 +241,7 @@
    "title": "Defensivaktionen",
    "value": 56,
    "per90": 15.044776119402986,
-   "pct": 92.7536231884058,
+   "pct": 94.28571428571428,
    "fmt": "number"
   },
   {
@@ -241,7 +250,7 @@
    "title": "Tacklings",
    "value": 7,
    "per90": 1.8805970149253732,
-   "pct": 56.52173913043478,
+   "pct": 55.714285714285715,
    "fmt": "number"
   },
   {
@@ -250,7 +259,7 @@
    "title": "Abgefangene Bälle",
    "value": 5,
    "per90": 1.3432835820895521,
-   "pct": 40.57971014492754,
+   "pct": 40,
    "fmt": "number"
   },
   {
@@ -259,7 +268,7 @@
    "title": "Geblockte Abschlüsse",
    "value": 6,
    "per90": 1.6119402985074627,
-   "pct": 88.40579710144928,
+   "pct": 90,
    "fmt": "number"
   },
   {
@@ -268,7 +277,7 @@
    "title": "Fouls",
    "value": 3,
    "per90": 0.8059701492537313,
-   "pct": 62.31884057971014,
+   "pct": 65.71428571428571,
    "fmt": "number"
   },
   {
@@ -277,7 +286,7 @@
    "title": "Ballgewinne",
    "value": 13,
    "per90": 3.4925373134328357,
-   "pct": 37.68115942028986,
+   "pct": 34.285714285714285,
    "fmt": "number"
   },
   {
@@ -286,7 +295,7 @@
    "title": "Ausgedribbelt worden",
    "value": 3,
    "per90": 0.8059701492537313,
-   "pct": 20.28985507246377,
+   "pct": 22.857142857142858,
    "fmt": "number"
   },
   {
@@ -295,7 +304,7 @@
    "title": "Klärungen",
    "value": 38,
    "per90": 10.208955223880597,
-   "pct": 94.20289855072464,
+   "pct": 92.85714285714286,
    "fmt": "number"
   },
   {
@@ -313,7 +322,7 @@
    "title": "Gegentore während auf dem Platz",
    "value": 14,
    "per90": 3.7611940298507465,
-   "pct": 5.797101449275362,
+   "pct": 2.857142857142857,
    "fmt": "number"
   },
   {
@@ -322,7 +331,7 @@
    "title": "Zugelassene xG während auf dem Platz",
    "value": 9.23,
    "per90": 2.4802119402985077,
-   "pct": 10.144927536231885,
+   "pct": 7.142857142857142,
    "fmt": "fraction"
   },
   {
@@ -331,7 +340,7 @@
    "title": "Gelbe Karten",
    "value": 1,
    "per90": 0.26865671641791045,
-   "pct": 26.08695652173913,
+   "pct": 25.71428571428571,
    "fmt": "number"
   },
   {
@@ -350,17 +359,17 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.93
+    "value": 0.94
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.99
+    "value": 1
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.98
+    "value": 0.99
    },
    {
     "key": "goals",
@@ -370,12 +379,12 @@
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.98
+    "value": 0.97
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.26
+    "value": 0.24
    }
   ]
  },
@@ -682,5 +691,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T09:08:02+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }

@@ -28,13 +28,8 @@
    "main": false
   },
   {
-   "label": "Zentrales Mittelfeld",
-   "short": "CM",
-   "main": false
-  },
-  {
-   "label": "Linkes Mittelfeld",
-   "short": "LM",
+   "label": "Rechtsaußen",
+   "short": "RW",
    "main": false
   },
   {
@@ -43,57 +38,292 @@
    "main": false
   }
  ],
- "stats": [],
+ "stats": [
+  {
+   "group": "Abschluss",
+   "key": "goals",
+   "title": "Tore",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Abschluss",
+   "key": "shots",
+   "title": "Schüsse",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "assists",
+   "title": "Vorlagen",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "expected_assists",
+   "title": "xA",
+   "value": 0.02,
+   "per90": 0.01710043125,
+   "pct": 8.19672131147541,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes",
+   "title": "Angekommene Pässe",
+   "value": 24,
+   "per90": 22.5,
+   "pct": 18.0327868852459,
+   "fmt": "number"
+  },
+  {
+   "group": "Passspiel",
+   "key": "successful_passes_accuracy",
+   "title": "Passquote",
+   "value": 77.4,
+   "per90": 77.41935483870968,
+   "pct": 39.34426229508197,
+   "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 2,
+   "per90": 1.875,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dribbles_succeeded",
+   "title": "Erfolgreiche Dribblings",
+   "value": 4,
+   "per90": 3.75,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "won_contest_subtitle",
+   "title": "Dribbling-Quote",
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 88.52459016393442,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won",
+   "title": "Zweikämpfe gewonnen",
+   "value": 9,
+   "per90": 8.4375,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "duel_won_percent",
+   "title": "Zweikampfquote",
+   "value": 50.0,
+   "per90": 50,
+   "pct": 39.34426229508197,
+   "fmt": "percent"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches",
+   "title": "Ballkontakte",
+   "value": 64,
+   "per90": 60,
+   "pct": 36.0655737704918,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "touches_opp_box",
+   "title": "Ballaktionen im gegn. Strafraum",
+   "value": 1,
+   "per90": 0.9375,
+   "pct": 19.672131147540984,
+   "fmt": "number"
+  },
+  {
+   "group": "Ballbesitz & Dribbling",
+   "key": "dispossessed",
+   "title": "Ballverluste im Zweikampf",
+   "value": 2,
+   "per90": 1.875,
+   "pct": 3.278688524590164,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "defensive_actions",
+   "title": "Defensivaktionen",
+   "value": 13,
+   "per90": 12.1875,
+   "pct": 96.72131147540983,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "matchstats.headers.tackles",
+   "title": "Tacklings",
+   "value": 5,
+   "per90": 4.6875,
+   "pct": 95.08196721311475,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "interceptions",
+   "title": "Abgefangene Bälle",
+   "value": 3,
+   "per90": 2.8125,
+   "pct": 96.72131147540983,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "fouls",
+   "title": "Fouls",
+   "value": 3,
+   "per90": 2.8125,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "recoveries",
+   "title": "Ballgewinne",
+   "value": 3,
+   "per90": 2.8125,
+   "pct": 8.19672131147541,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "dribbled_past",
+   "title": "Ausgedribbelt worden",
+   "value": 1,
+   "per90": 0.9375,
+   "pct": 42.62295081967213,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clearances",
+   "title": "Klärungen",
+   "value": 5,
+   "per90": 4.6875,
+   "pct": 90.1639344262295,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "clean_sheet_team_title",
+   "title": "Spiele ohne Gegentor",
+   "value": 0,
+   "per90": 0,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "goals_conceded_while_on_pitch",
+   "title": "Gegentore während auf dem Platz",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  },
+  {
+   "group": "Defensive",
+   "key": "expected_goals_against_while_on_pitch",
+   "title": "Zugelassene xG während auf dem Platz",
+   "value": 1.93,
+   "per90": 1.8132187499999999,
+   "pct": 54.09836065573771,
+   "fmt": "fraction"
+  },
+  {
+   "group": "Disziplin",
+   "key": "yellow_cards",
+   "title": "Gelbe Karten",
+   "value": 1,
+   "per90": 0.9375,
+   "pct": 0,
+   "fmt": "number"
+  },
+  {
+   "group": "Disziplin",
+   "key": "red_cards",
+   "title": "Rote Karten",
+   "value": 0,
+   "per90": 0,
+   "pct": 100,
+   "fmt": "number"
+  }
+ ],
  "traits": {
   "title": "Stats compared to other fullbacks",
   "items": [
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.47
+    "value": 0.44
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.57
+    "value": 0.59
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.61
+    "value": 0.69
    },
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.86
+    "value": 0.88
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.97
+    "value": 0.98
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.08
+    "value": 0.09
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 2,
+   "apps": 4,
    "goals": 0,
    "assists": 0,
-   "rating": 6.26,
+   "rating": 6.62,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 2,
+     "apps": 4,
      "goals": 0,
      "assists": 0,
-     "rating": 6.26
+     "rating": 6.62
     }
    ]
   },
@@ -272,7 +502,7 @@
     "team": "Borussia Mönchengladbach",
     "start": "2025-06-01",
     "end": null,
-    "apps": 30,
+    "apps": 32,
     "goals": 3,
     "kind": null
    },
@@ -397,5 +627,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T09:08:02+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }

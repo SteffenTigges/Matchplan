@@ -13,18 +13,18 @@
  "contract_end": null,
  "positions": [
   {
+   "label": "Linksaußen",
+   "short": "LW",
+   "main": true
+  },
+  {
    "label": "Zentrales Mittelfeld",
    "short": "CM",
-   "main": true
+   "main": false
   },
   {
    "label": "Offensives Mittelfeld",
    "short": "AM",
-   "main": false
-  },
-  {
-   "label": "Linksaußen",
-   "short": "LW",
    "main": false
   },
   {
@@ -40,50 +40,50 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.4
+    "value": 0.36
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.18
+    "value": 0.25
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.29
+    "value": 0.31
    },
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.67
+    "value": 0.64
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.3
+    "value": 0.31
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.5
+    "value": 0.47
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 10,
+   "apps": 11,
    "goals": 1,
    "assists": 0,
-   "rating": 6.78,
+   "rating": 6.75,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 9,
+     "apps": 10,
      "goals": 0,
      "assists": 0,
-     "rating": 6.64
+     "rating": 6.62
     },
     {
      "league": "DFB Pokal",
@@ -320,7 +320,7 @@
     "team": "Paderborn",
     "start": "2026-08-18",
     "end": null,
-    "apps": 10,
+    "apps": 11,
     "goals": 1,
     "kind": null
    },
@@ -473,5 +473,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T09:08:02+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }

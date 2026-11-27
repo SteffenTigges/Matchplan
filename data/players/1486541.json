@@ -39,7 +39,7 @@
    "title": "xG",
    "value": 0.02,
    "per90": 0.053742857142857134,
-   "pct": 33.33333333333333,
+   "pct": 37.142857142857146,
    "fmt": "fraction"
   },
   {
@@ -48,7 +48,7 @@
    "title": "xG ohne Elfmeter",
    "value": 0.02,
    "per90": 0.053742857142857134,
-   "pct": 33.33333333333333,
+   "pct": 37.142857142857146,
    "fmt": "fraction"
   },
   {
@@ -57,7 +57,7 @@
    "title": "Schüsse",
    "value": 1,
    "per90": 2.571428571428571,
-   "pct": 93.05555555555556,
+   "pct": 92.85714285714286,
    "fmt": "number"
   },
   {
@@ -75,7 +75,7 @@
    "title": "xA",
    "value": 0.04,
    "per90": 0.0927444857142857,
-   "pct": 40.27777777777778,
+   "pct": 42.857142857142854,
    "fmt": "fraction"
   },
   {
@@ -84,7 +84,7 @@
    "title": "Angekommene Pässe",
    "value": 8,
    "per90": 20.57142857142857,
-   "pct": 8.333333333333332,
+   "pct": 4.285714285714286,
    "fmt": "number"
   },
   {
@@ -93,8 +93,17 @@
    "title": "Passquote",
    "value": 72.7,
    "per90": 72.72727272727273,
-   "pct": 9.722222222222223,
+   "pct": 7.142857142857142,
    "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 2,
+   "per90": 5.142857142857142,
+   "pct": 28.57142857142857,
+   "fmt": "number"
   },
   {
    "group": "Passspiel",
@@ -111,7 +120,7 @@
    "title": "Flanken angekommen",
    "value": 1,
    "per90": 2.571428571428571,
-   "pct": 100,
+   "pct": 97.14285714285714,
    "fmt": "number"
   },
   {
@@ -129,7 +138,7 @@
    "title": "Zweikämpfe gewonnen",
    "value": 1,
    "per90": 2.571428571428571,
-   "pct": 6.944444444444445,
+   "pct": 5.714285714285714,
    "fmt": "number"
   },
   {
@@ -147,7 +156,7 @@
    "title": "Ballkontakte",
    "value": 18,
    "per90": 46.28571428571428,
-   "pct": 6.944444444444445,
+   "pct": 4.285714285714286,
    "fmt": "number"
   },
   {
@@ -165,7 +174,7 @@
    "title": "Gefoult worden",
    "value": 1,
    "per90": 2.571428571428571,
-   "pct": 95.83333333333334,
+   "pct": 95.71428571428572,
    "fmt": "number"
   },
   {
@@ -174,7 +183,7 @@
    "title": "Ballgewinne",
    "value": 2,
    "per90": 5.142857142857142,
-   "pct": 59.72222222222222,
+   "pct": 58.57142857142858,
    "fmt": "number"
   },
   {
@@ -201,7 +210,7 @@
    "title": "Zugelassene xG während auf dem Platz",
    "value": 0.12,
    "per90": 0.29597142857142855,
-   "pct": 98.61111111111111,
+   "pct": 98.57142857142858,
    "fmt": "fraction"
   },
   {
@@ -229,12 +238,12 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.83
+    "value": 0.85
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.6
+    "value": 0.74
    },
    {
     "key": "defensive_actions",
@@ -244,17 +253,17 @@
    {
     "key": "goals",
     "title": "Goals",
-    "value": 0.97
+    "value": 0.86
    },
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.97
+    "value": 0.92
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.07
+    "value": 0.04
    }
   ]
  },
@@ -477,5 +486,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T14:29:58+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }

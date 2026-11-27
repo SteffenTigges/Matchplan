@@ -23,8 +23,8 @@
    "group": "Torwartspiel",
    "key": "saves",
    "title": "Paraden",
-   "value": 11,
-   "per90": 2.438423645320197,
+   "value": 14,
+   "per90": 2.540322580645161,
    "pct": 20.833333333333336,
    "fmt": "number"
   },
@@ -32,27 +32,27 @@
    "group": "Torwartspiel",
    "key": "save_percentage",
    "title": "Paradenquote",
-   "value": 64.7,
-   "per90": 64.70588235294117,
-   "pct": 41.66666666666667,
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 45.83333333333333,
    "fmt": "percent"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_conceded",
    "title": "Gegentore",
-   "value": 6,
-   "per90": 1.3300492610837438,
-   "pct": 66.66666666666666,
+   "value": 7,
+   "per90": 1.2701612903225805,
+   "pct": 70.83333333333334,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_prevented",
    "title": "Verhinderte Tore",
-   "value": -0.47,
-   "per90": -0.10414285714285715,
-   "pct": 37.5,
+   "value": 0.16,
+   "per90": 0.02979435483870966,
+   "pct": 41.66666666666667,
    "fmt": "fraction"
   },
   {
@@ -77,9 +77,9 @@
    "group": "Torwartspiel",
    "key": "keeper_sweeper",
    "title": "Acted as sweeper",
-   "value": 8,
-   "per90": 1.7733990147783252,
-   "pct": 100,
+   "value": 9,
+   "per90": 1.6330645161290325,
+   "pct": 91.66666666666666,
    "fmt": "number"
   },
   {
@@ -87,25 +87,25 @@
    "key": "keeper_high_claim",
    "title": "High claims",
    "value": 5,
-   "per90": 1.1083743842364533,
-   "pct": 62.5,
+   "per90": 0.907258064516129,
+   "pct": 50,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "successful_passes",
    "title": "Angekommene Pässe",
-   "value": 148,
-   "per90": 32.80788177339902,
-   "pct": 87.5,
+   "value": 171,
+   "per90": 31.028225806451616,
+   "pct": 83.33333333333334,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "successful_passes_accuracy",
    "title": "Passquote",
-   "value": 77.1,
-   "per90": 77.08333333333333,
+   "value": 78.1,
+   "per90": 78.08219178082192,
    "pct": 83.33333333333334,
    "fmt": "percent"
   },
@@ -113,18 +113,18 @@
    "group": "Distribution",
    "key": "long_balls_accurate",
    "title": "Lange Bälle angekommen",
-   "value": 35,
-   "per90": 7.758620689655173,
-   "pct": 66.66666666666666,
+   "value": 38,
+   "per90": 6.895161290322581,
+   "pct": 50,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "long_ball_succeeeded_accuracy",
    "title": "Quote lange Bälle",
-   "value": 44.9,
-   "per90": 44.87179487179487,
-   "pct": 75,
+   "value": 44.7,
+   "per90": 44.705882352941174,
+   "pct": 83.33333333333334,
    "fmt": "percent"
   },
   {
@@ -132,8 +132,8 @@
    "key": "expected_assists",
    "title": "xA",
    "value": 0.01,
-   "per90": 0.0023943302955665028,
-   "pct": 37.5,
+   "per90": 0.0019664383064516133,
+   "pct": 29.166666666666668,
    "fmt": "fraction"
   },
   {
@@ -161,7 +161,7 @@
    {
     "key": "keeper_sweeper_actions",
     "title": "Sweeper actions",
-    "value": 0.98
+    "value": 0.96
    },
    {
     "key": "goals_conceded",
@@ -171,40 +171,40 @@
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.55
+    "value": 0.53
    },
    {
     "key": "keeper_high_claim",
     "title": "High claims",
-    "value": 0.21
+    "value": 0.19
    },
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.48
+    "value": 0.38
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.94
+    "value": 0.91
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 8,
+   "apps": 10,
    "goals": 0,
    "assists": 0,
-   "rating": 6.64,
+   "rating": 6.73,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 5,
+     "apps": 6,
      "goals": 0,
      "assists": 0,
-     "rating": 6.84
+     "rating": 6.9
     },
     {
      "league": "DFB Pokal",
@@ -217,10 +217,10 @@
     {
      "league": "Champions League",
      "league_id": 42,
-     "apps": 1,
+     "apps": 2,
      "goals": 0,
      "assists": 0,
-     "rating": 6.13
+     "rating": 6.56
     }
    ]
   },
@@ -390,7 +390,7 @@
     "team": "Bayern München",
     "start": "2025-01-27",
     "end": null,
-    "apps": 40,
+    "apps": 42,
     "goals": 0,
     "kind": null
    },
@@ -538,5 +538,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T09:08:02+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }

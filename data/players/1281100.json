@@ -23,18 +23,18 @@
    "group": "Torwartspiel",
    "key": "saves",
    "title": "Paraden",
-   "value": 36,
-   "per90": 4,
-   "pct": 70.83333333333334,
+   "value": 41,
+   "per90": 4.1000000000000005,
+   "pct": 66.66666666666666,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "save_percentage",
    "title": "Paradenquote",
-   "value": 64.3,
-   "per90": 64.28571428571429,
-   "pct": 37.5,
+   "value": 67.2,
+   "per90": 67.21311475409836,
+   "pct": 50,
    "fmt": "percent"
   },
   {
@@ -42,35 +42,35 @@
    "key": "goals_conceded",
    "title": "Gegentore",
    "value": 20,
-   "per90": 2.2222222222222223,
-   "pct": 20.833333333333336,
+   "per90": 2,
+   "pct": 29.166666666666668,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_prevented",
    "title": "Verhinderte Tore",
-   "value": 0.04,
-   "per90": 0.004233333333333361,
-   "pct": 45.83333333333333,
+   "value": 1.66,
+   "per90": 0.16622000000000003,
+   "pct": 54.166666666666664,
    "fmt": "fraction"
   },
   {
    "group": "Torwartspiel",
    "key": "clean_sheet_team_title",
    "title": "Spiele ohne Gegentor",
-   "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 16.666666666666664,
+   "value": 2,
+   "per90": 0.2,
+   "pct": 37.5,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "penalty_saves",
    "title": "Penalty saves",
-   "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 79.16666666666666,
+   "value": 2,
+   "per90": 0.2,
+   "pct": 100,
    "fmt": "number"
   },
   {
@@ -78,7 +78,7 @@
    "key": "penalty_goals_conceded",
    "title": "Penalties conceded",
    "value": 1,
-   "per90": 0.1111111111111111,
+   "per90": 0.1,
    "pct": 16.666666666666664,
    "fmt": "number"
   },
@@ -86,9 +86,9 @@
    "group": "Torwartspiel",
    "key": "penalty_save_percent",
    "title": "Penalty saves %",
-   "value": 50.0,
-   "per90": 50,
-   "pct": 79.16666666666666,
+   "value": 66.7,
+   "per90": 66.66666666666667,
+   "pct": 83.33333333333334,
    "fmt": "percent"
   },
   {
@@ -96,17 +96,17 @@
    "key": "error_led_to_goal",
    "title": "Error led to goal",
    "value": 2,
-   "per90": 0.2222222222222222,
-   "pct": 8.333333333333332,
+   "per90": 0.2,
+   "pct": 12.5,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "keeper_sweeper",
    "title": "Acted as sweeper",
-   "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 12.5,
+   "value": 2,
+   "per90": 0.2,
+   "pct": 16.666666666666664,
    "fmt": "number"
   },
   {
@@ -114,7 +114,7 @@
    "key": "keeper_high_claim",
    "title": "High claims",
    "value": 7,
-   "per90": 0.7777777777777777,
+   "per90": 0.7,
    "pct": 33.33333333333333,
    "fmt": "number"
   },
@@ -122,36 +122,36 @@
    "group": "Distribution",
    "key": "successful_passes",
    "title": "Angekommene Pässe",
-   "value": 205,
-   "per90": 22.77777777777778,
-   "pct": 37.5,
+   "value": 217,
+   "per90": 21.7,
+   "pct": 25,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "successful_passes_accuracy",
    "title": "Passquote",
-   "value": 70.2,
-   "per90": 70.20547945205479,
-   "pct": 54.166666666666664,
+   "value": 66.8,
+   "per90": 66.76923076923077,
+   "pct": 37.5,
    "fmt": "percent"
   },
   {
    "group": "Distribution",
    "key": "long_balls_accurate",
    "title": "Lange Bälle angekommen",
-   "value": 55,
-   "per90": 6.111111111111111,
-   "pct": 33.33333333333333,
+   "value": 60,
+   "per90": 6,
+   "pct": 25,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "long_ball_succeeeded_accuracy",
    "title": "Quote lange Bälle",
-   "value": 39.0,
-   "per90": 39.00709219858156,
-   "pct": 50,
+   "value": 35.9,
+   "per90": 35.92814371257485,
+   "pct": 33.33333333333333,
    "fmt": "percent"
   },
   {
@@ -159,7 +159,7 @@
    "key": "assists",
    "title": "Vorlagen",
    "value": 1,
-   "per90": 0.1111111111111111,
+   "per90": 0.1,
    "pct": 100,
    "fmt": "number"
   },
@@ -168,8 +168,8 @@
    "key": "chances_created",
    "title": "Torchancen vorbereitet",
    "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 62.5,
+   "per90": 0.1,
+   "pct": 58.333333333333336,
    "fmt": "number"
   },
   {
@@ -177,17 +177,17 @@
    "key": "expected_assists",
    "title": "xA",
    "value": 0.01,
-   "per90": 0.0014631700000000002,
-   "pct": 20.833333333333336,
+   "per90": 0.0013171970000000002,
+   "pct": 16.666666666666664,
    "fmt": "fraction"
   },
   {
    "group": "Disziplin",
    "key": "yellow_cards",
    "title": "Gelbe Karten",
-   "value": 0,
-   "per90": 0,
-   "pct": 100,
+   "value": 1,
+   "per90": 0.1,
+   "pct": 12.5,
    "fmt": "number"
   },
   {
@@ -206,50 +206,50 @@
    {
     "key": "keeper_sweeper_actions",
     "title": "Sweeper actions",
-    "value": 0.16
+    "value": 0.11
    },
    {
     "key": "goals_conceded",
     "title": "Goals conceded",
-    "value": 0.14
+    "value": 0.26
    },
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.35
+    "value": 0.57
    },
    {
     "key": "keeper_high_claim",
     "title": "High claims",
-    "value": 0.67
+    "value": 0.65
    },
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.18
+    "value": 0.24
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.6
+    "value": 0.5
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 10,
+   "apps": 11,
    "goals": 0,
    "assists": 1,
-   "rating": 6.84,
+   "rating": 7.04,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 9,
+     "apps": 10,
      "goals": 0,
      "assists": 1,
-     "rating": 6.82
+     "rating": 7.04
     },
     {
      "league": "DFB Pokal",
@@ -443,7 +443,7 @@
     "team": "Eintracht Frankfurt",
     "start": "2026-08-28",
     "end": "2027-06-30",
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "kind": "Leihe"
    },
@@ -521,5 +521,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T09:08:02+00:00"
+ "fetched_at": "2026-11-27T18:56:30+00:00"
 }
