@@ -54,9 +54,9 @@
    2
   ],
   "probs": [
-   0.2461,
-   0.2499,
-   0.504
+   0.244,
+   0.2484,
+   0.5076
   ]
  },
  "strengths": [
@@ -77,13 +77,6 @@
    "rank": 18
   },
   {
-   "key": "against_minus_xga",
-   "label": "Gegentore minus zugelassene xG",
-   "value": 5.62,
-   "fmt": "signed1",
-   "rank": 18
-  },
-  {
    "key": "cross_accuracy",
    "label": "Flankenquote",
    "value": 0.2146,
@@ -95,6 +88,13 @@
    "label": "Ballgewinne im Angriffsdrittel pro Spiel",
    "value": 2.7,
    "fmt": "dec1",
+   "rank": 17
+  },
+  {
+   "key": "aerial_rate",
+   "label": "Luftzweikämpfe gewonnen",
+   "value": 0.4583,
+   "fmt": "pct",
    "rank": 17
   }
  ],

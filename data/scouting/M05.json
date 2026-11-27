@@ -38,9 +38,9 @@
    0
   ],
   "probs": [
-   0.7734,
-   0.1426,
-   0.084
+   0.7719,
+   0.143,
+   0.0851
   ]
  },
  "strengths": [
@@ -89,16 +89,16 @@
    "rank": 16
   },
   {
-   "key": "against_minus_xga",
-   "label": "Gegentore minus zugelassene xG",
-   "value": 2.83,
-   "fmt": "signed1",
+   "key": "dribbles_pg",
+   "label": "Erfolgreiche Dribblings pro Spiel",
+   "value": 5.6,
+   "fmt": "dec1",
    "rank": 16
   },
   {
-   "key": "points_minus_xpoints",
-   "label": "Punkte minus xPunkte",
-   "value": -4.6817,
+   "key": "against_minus_xga",
+   "label": "Gegentore minus zugelassene xG",
+   "value": 2.83,
    "fmt": "signed1",
    "rank": 16
   }
@@ -166,7 +166,7 @@
     "label": "Ballbesitz Ø",
     "value": 0.486,
     "fmt": "pct",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "pass_accuracy",

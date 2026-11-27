@@ -52,7 +52,7 @@
    "title": "xA",
    "value": 0.0,
    "per90": 0.006549525,
-   "pct": 2.898550724637681,
+   "pct": 2.857142857142857,
    "fmt": "fraction"
   },
   {
@@ -61,7 +61,7 @@
    "title": "Angekommene Pässe",
    "value": 29,
    "per90": 54.375,
-   "pct": 65.21739130434783,
+   "pct": 64.28571428571429,
    "fmt": "number"
   },
   {
@@ -70,8 +70,17 @@
    "title": "Passquote",
    "value": 90.6,
    "per90": 90.625,
-   "pct": 79.71014492753623,
+   "pct": 75.71428571428571,
    "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 6,
+   "per90": 11.25,
+   "pct": 80,
+   "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
@@ -79,7 +88,7 @@
    "title": "Zweikämpfe gewonnen",
    "value": 2,
    "per90": 3.75,
-   "pct": 13.043478260869565,
+   "pct": 12.857142857142856,
    "fmt": "number"
   },
   {
@@ -88,7 +97,7 @@
    "title": "Zweikampfquote",
    "value": 40.0,
    "per90": 40,
-   "pct": 1.4492753623188406,
+   "pct": 0,
    "fmt": "percent"
   },
   {
@@ -97,7 +106,7 @@
    "title": "Ballkontakte",
    "value": 42,
    "per90": 78.75,
-   "pct": 59.42028985507246,
+   "pct": 60,
    "fmt": "number"
   },
   {
@@ -115,7 +124,7 @@
    "title": "Gefoult worden",
    "value": 1,
    "per90": 1.875,
-   "pct": 97.10144927536231,
+   "pct": 97.14285714285714,
    "fmt": "number"
   },
   {
@@ -124,7 +133,7 @@
    "title": "Defensivaktionen",
    "value": 5,
    "per90": 9.375,
-   "pct": 42.028985507246375,
+   "pct": 40,
    "fmt": "number"
   },
   {
@@ -133,7 +142,7 @@
    "title": "Tacklings",
    "value": 1,
    "per90": 1.875,
-   "pct": 55.072463768115945,
+   "pct": 52.85714285714286,
    "fmt": "number"
   },
   {
@@ -142,7 +151,7 @@
    "title": "Abgefangene Bälle",
    "value": 2,
    "per90": 3.75,
-   "pct": 97.10144927536231,
+   "pct": 100,
    "fmt": "number"
   },
   {
@@ -160,7 +169,7 @@
    "title": "Ballgewinne",
    "value": 3,
    "per90": 5.625,
-   "pct": 85.5072463768116,
+   "pct": 85.71428571428571,
    "fmt": "number"
   },
   {
@@ -169,7 +178,7 @@
    "title": "Klärungen",
    "value": 2,
    "per90": 3.75,
-   "pct": 11.594202898550725,
+   "pct": 12.857142857142856,
    "fmt": "number"
   },
   {
@@ -196,7 +205,7 @@
    "title": "Zugelassene xG während auf dem Platz",
    "value": 0.35,
    "per90": 0.6601875,
-   "pct": 98.55072463768117,
+   "pct": 98.57142857142858,
    "fmt": "fraction"
   },
   {
@@ -256,7 +265,7 @@
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 3,
+   "apps": 4,
    "goals": 0,
    "assists": 0,
    "rating": 6.85,
@@ -276,6 +285,14 @@
      "goals": 0,
      "assists": 0,
      "rating": 8.11
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": null
     }
    ]
   },
@@ -370,7 +387,7 @@
     "team": "Borussia Dortmund",
     "start": "2024-08-09",
     "end": null,
-    "apps": 9,
+    "apps": 10,
     "goals": 0,
     "kind": null
    },
@@ -456,5 +473,5 @@
  },
  "transfers": [],
  "v": 2,
- "fetched_at": "2026-11-19T14:29:58+00:00"
+ "fetched_at": "2026-11-27T21:37:25+00:00"
 }

@@ -39,17 +39,17 @@
    "key": "goals",
    "title": "Tore",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 55.55555555555556,
+   "per90": 0.23622047244094488,
+   "pct": 48.529411764705884,
    "fmt": "number"
   },
   {
    "group": "Abschluss",
    "key": "expected_goals",
    "title": "xG",
-   "value": 1.14,
-   "per90": 0.32280757097791796,
-   "pct": 68.25396825396825,
+   "value": 1.6,
+   "per90": 0.3773858267716535,
+   "pct": 72.05882352941177,
    "fmt": "fraction"
   },
   {
@@ -57,35 +57,35 @@
    "key": "expected_goals_on_target",
    "title": "xGOT",
    "value": 1.01,
-   "per90": 0.2880283911671924,
-   "pct": 57.14285714285714,
+   "per90": 0.23964566929133854,
+   "pct": 41.17647058823529,
    "fmt": "fraction"
   },
   {
    "group": "Abschluss",
    "key": "non_penalty_xg",
    "title": "xG ohne Elfmeter",
-   "value": 1.14,
-   "per90": 0.32280757097791796,
-   "pct": 68.25396825396825,
+   "value": 1.6,
+   "per90": 0.3773858267716535,
+   "pct": 73.52941176470588,
    "fmt": "fraction"
   },
   {
    "group": "Abschluss",
    "key": "shots",
    "title": "Schüsse",
-   "value": 8,
-   "per90": 2.271293375394322,
-   "pct": 38.095238095238095,
+   "value": 10,
+   "per90": 2.3622047244094486,
+   "pct": 39.705882352941174,
    "fmt": "number"
   },
   {
    "group": "Abschluss",
    "key": "ShotsOnTarget",
    "title": "Schüsse aufs Tor",
-   "value": 4,
-   "per90": 1.135646687697161,
-   "pct": 68.25396825396825,
+   "value": 5,
+   "per90": 1.1811023622047243,
+   "pct": 67.64705882352942,
    "fmt": "number"
   },
   {
@@ -93,8 +93,8 @@
    "key": "headed_shots",
    "title": "Kopfballschüsse",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 80.95238095238095,
+   "per90": 0.23622047244094488,
+   "pct": 75,
    "fmt": "number"
   },
   {
@@ -102,25 +102,25 @@
    "key": "assists",
    "title": "Vorlagen",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 66.66666666666666,
+   "per90": 0.23622047244094488,
+   "pct": 54.41176470588235,
    "fmt": "number"
   },
   {
    "group": "Passspiel",
    "key": "expected_assists",
    "title": "xA",
-   "value": 0.09,
-   "per90": 0.024962263722397477,
-   "pct": 1.5873015873015872,
+   "value": 0.1,
+   "per90": 0.02246267952755905,
+   "pct": 1.4705882352941175,
    "fmt": "fraction"
   },
   {
    "group": "Passspiel",
    "key": "successful_passes",
    "title": "Angekommene Pässe",
-   "value": 31,
-   "per90": 8.801261829652997,
+   "value": 38,
+   "per90": 8.976377952755906,
    "pct": 0,
    "fmt": "number"
   },
@@ -128,8 +128,8 @@
    "group": "Passspiel",
    "key": "successful_passes_accuracy",
    "title": "Passquote",
-   "value": 59.6,
-   "per90": 59.61538461538461,
+   "value": 59.4,
+   "per90": 59.375,
    "pct": 0,
    "fmt": "percent"
   },
@@ -138,35 +138,44 @@
    "key": "long_balls_accurate",
    "title": "Lange Bälle angekommen",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 19.047619047619047,
+   "per90": 0.23622047244094488,
+   "pct": 13.23529411764706,
    "fmt": "number"
   },
   {
    "group": "Passspiel",
    "key": "long_ball_succeeeded_accuracy",
    "title": "Quote lange Bälle",
-   "value": 100.0,
-   "per90": 100,
-   "pct": 100,
+   "value": 33.3,
+   "per90": 33.333333333333336,
+   "pct": 25,
    "fmt": "percent"
+  },
+  {
+   "group": "Passspiel",
+   "key": "line_breaking_passes",
+   "title": "Linien brechende Pässe",
+   "value": 7,
+   "per90": 1.6535433070866141,
+   "pct": 4.411764705882353,
+   "fmt": "number"
   },
   {
    "group": "Passspiel",
    "key": "chances_created",
    "title": "Torchancen vorbereitet",
-   "value": 3,
-   "per90": 0.8517350157728707,
-   "pct": 12.698412698412698,
+   "value": 4,
+   "per90": 0.9448818897637795,
+   "pct": 8.823529411764707,
    "fmt": "number"
   },
   {
    "group": "Passspiel",
    "key": "big_chance_created_team_title",
    "title": "Großchancen vorbereitet",
-   "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 49.2063492063492,
+   "value": 2,
+   "per90": 0.47244094488188976,
+   "pct": 70.58823529411765,
    "fmt": "number"
   },
   {
@@ -174,8 +183,8 @@
    "key": "crosses_succeeeded",
    "title": "Flanken angekommen",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 46.03174603174603,
+   "per90": 0.23622047244094488,
+   "pct": 39.705882352941174,
    "fmt": "number"
   },
   {
@@ -184,43 +193,43 @@
    "title": "Flankenquote",
    "value": 33.3,
    "per90": 33.333333333333336,
-   "pct": 73.01587301587301,
+   "pct": 75,
    "fmt": "percent"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "dribbles_succeeded",
    "title": "Erfolgreiche Dribblings",
-   "value": 4,
-   "per90": 1.135646687697161,
-   "pct": 49.2063492063492,
+   "value": 7,
+   "per90": 1.6535433070866141,
+   "pct": 67.64705882352942,
    "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "won_contest_subtitle",
    "title": "Dribbling-Quote",
-   "value": 80.0,
-   "per90": 80,
-   "pct": 93.65079365079364,
+   "value": 63.6,
+   "per90": 63.63636363636363,
+   "pct": 83.82352941176471,
    "fmt": "percent"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "duel_won",
    "title": "Zweikämpfe gewonnen",
-   "value": 16,
-   "per90": 4.542586750788644,
-   "pct": 57.14285714285714,
+   "value": 21,
+   "per90": 4.960629921259843,
+   "pct": 57.35294117647059,
    "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "duel_won_percent",
    "title": "Zweikampfquote",
-   "value": 42.1,
-   "per90": 42.10526315789474,
-   "pct": 42.857142857142854,
+   "value": 41.2,
+   "per90": 41.1764705882353,
+   "pct": 33.82352941176471,
    "fmt": "percent"
   },
   {
@@ -228,44 +237,44 @@
    "key": "aerials_won",
    "title": "Luftzweikämpfe gewonnen",
    "value": 3,
-   "per90": 0.8517350157728707,
-   "pct": 63.49206349206349,
+   "per90": 0.7086614173228346,
+   "pct": 54.41176470588235,
    "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "aerials_won_percent",
    "title": "Luftzweikampfquote",
-   "value": 37.5,
-   "per90": 37.5,
-   "pct": 50.79365079365079,
+   "value": 27.3,
+   "per90": 27.272727272727273,
+   "pct": 33.82352941176471,
    "fmt": "percent"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "touches",
    "title": "Ballkontakte",
-   "value": 112,
-   "per90": 31.798107255520506,
-   "pct": 1.5873015873015872,
+   "value": 142,
+   "per90": 33.54330708661418,
+   "pct": 2.941176470588235,
    "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "touches_opp_box",
    "title": "Ballaktionen im gegn. Strafraum",
-   "value": 11,
-   "per90": 3.1230283911671926,
-   "pct": 28.57142857142857,
+   "value": 15,
+   "per90": 3.543307086614173,
+   "pct": 33.82352941176471,
    "fmt": "number"
   },
   {
    "group": "Ballbesitz & Dribbling",
    "key": "dispossessed",
    "title": "Ballverluste im Zweikampf",
-   "value": 8,
-   "per90": 2.271293375394322,
-   "pct": 17.46031746031746,
+   "value": 10,
+   "per90": 2.3622047244094486,
+   "pct": 17.647058823529413,
    "fmt": "number"
   },
   {
@@ -273,35 +282,35 @@
    "key": "fouls_won",
    "title": "Gefoult worden",
    "value": 5,
-   "per90": 1.419558359621451,
-   "pct": 50.79365079365079,
+   "per90": 1.1811023622047243,
+   "pct": 45.588235294117645,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "defensive_actions",
    "title": "Defensivaktionen",
-   "value": 9,
-   "per90": 2.555205047318612,
-   "pct": 53.96825396825397,
+   "value": 13,
+   "per90": 3.0708661417322833,
+   "pct": 63.23529411764706,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "matchstats.headers.tackles",
    "title": "Tacklings",
-   "value": 4,
-   "per90": 1.135646687697161,
-   "pct": 53.96825396825397,
+   "value": 6,
+   "per90": 1.4173228346456692,
+   "pct": 66.17647058823529,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "interceptions",
    "title": "Abgefangene Bälle",
-   "value": 2,
-   "per90": 0.5678233438485805,
-   "pct": 65.07936507936508,
+   "value": 3,
+   "per90": 0.7086614173228346,
+   "pct": 75,
    "fmt": "number"
   },
   {
@@ -309,8 +318,8 @@
    "key": "blocked_shots",
    "title": "Geblockte Abschlüsse",
    "value": 2,
-   "per90": 0.5678233438485805,
-   "pct": 100,
+   "per90": 0.47244094488188976,
+   "pct": 97.05882352941177,
    "fmt": "number"
   },
   {
@@ -318,17 +327,17 @@
    "key": "fouls",
    "title": "Fouls",
    "value": 6,
-   "per90": 1.7034700315457414,
-   "pct": 12.698412698412698,
+   "per90": 1.4173228346456692,
+   "pct": 20.588235294117645,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "recoveries",
    "title": "Ballgewinne",
-   "value": 9,
-   "per90": 2.555205047318612,
-   "pct": 17.46031746031746,
+   "value": 10,
+   "per90": 2.3622047244094486,
+   "pct": 11.76470588235294,
    "fmt": "number"
   },
   {
@@ -336,8 +345,8 @@
    "key": "poss_won_att_3rd_team_title",
    "title": "Ballgewinne im Angriffsdrittel",
    "value": 3,
-   "per90": 0.8517350157728707,
-   "pct": 82.53968253968253,
+   "per90": 0.7086614173228346,
+   "pct": 66.17647058823529,
    "fmt": "number"
   },
   {
@@ -345,17 +354,17 @@
    "key": "dribbled_past",
    "title": "Ausgedribbelt worden",
    "value": 3,
-   "per90": 0.8517350157728707,
-   "pct": 39.682539682539684,
+   "per90": 0.7086614173228346,
+   "pct": 47.05882352941176,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "clearances",
    "title": "Klärungen",
-   "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 20.634920634920633,
+   "value": 2,
+   "per90": 0.47244094488188976,
+   "pct": 29.411764705882355,
    "fmt": "number"
   },
   {
@@ -372,17 +381,17 @@
    "key": "goals_conceded_while_on_pitch",
    "title": "Gegentore während auf dem Platz",
    "value": 6,
-   "per90": 1.7034700315457414,
-   "pct": 39.682539682539684,
+   "per90": 1.4173228346456692,
+   "pct": 50,
    "fmt": "number"
   },
   {
    "group": "Defensive",
    "key": "expected_goals_against_while_on_pitch",
    "title": "Zugelassene xG während auf dem Platz",
-   "value": 6.07,
-   "per90": 1.72297476340694,
-   "pct": 39.682539682539684,
+   "value": 6.32,
+   "per90": 1.4938346456692913,
+   "pct": 58.82352941176471,
    "fmt": "fraction"
   },
   {
@@ -390,8 +399,8 @@
    "key": "yellow_cards",
    "title": "Gelbe Karten",
    "value": 1,
-   "per90": 0.28391167192429023,
-   "pct": 9.523809523809524,
+   "per90": 0.23622047244094488,
+   "pct": 22.058823529411764,
    "fmt": "number"
   },
   {
@@ -410,17 +419,17 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.15
+    "value": 0.12
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.67
+    "value": 0.68
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.36
+    "value": 0.45
    },
    {
     "key": "goals",
@@ -430,30 +439,30 @@
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.53
+    "value": 0.54
    },
    {
     "key": "touches",
     "title": "Touches",
-    "value": 0.01
+    "value": 0.02
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 9,
+   "apps": 10,
    "goals": 3,
    "assists": 1,
-   "rating": 7.2,
+   "rating": 7.12,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 7,
+     "apps": 8,
      "goals": 1,
      "assists": 1,
-     "rating": 6.8
+     "rating": 6.75
     },
     {
      "league": "DFB Pokal",
@@ -530,7 +539,7 @@
     "team": "Elversberg",
     "start": "2026-07-01",
     "end": "2027-06-30",
-    "apps": 9,
+    "apps": 10,
     "goals": 3,
     "kind": "Leihe"
    },
@@ -630,5 +639,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T14:29:58+00:00"
+ "fetched_at": "2026-11-27T21:37:25+00:00"
 }

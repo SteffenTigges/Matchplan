@@ -3,24 +3,63 @@
  "season": 2026,
  "matches": [
   {
-   "id": 83254,
-   "kickoff": "2026-11-28T14:30:00Z",
-   "home": "SCP",
-   "away": "S04",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
-  },
-  {
    "id": 83253,
    "kickoff": "2026-11-27T19:30:00Z",
    "home": "SVW",
    "away": "BMG",
-   "finished": false,
-   "score": null,
-   "halftime": null,
-   "goals": []
+   "finished": true,
+   "score": [
+    3,
+    3
+   ],
+   "halftime": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "minute": 27,
+     "team": "BMG",
+     "scorer": "K. Diks",
+     "penalty": true,
+     "own_goal": false
+    },
+    {
+     "minute": 38,
+     "team": "SVW",
+     "scorer": "E. Dinkçi",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 46,
+     "team": "BMG",
+     "scorer": "F. Honorat",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 78,
+     "team": "BMG",
+     "scorer": "F. Honorat",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 85,
+     "team": "SVW",
+     "scorer": "E. Dinkçi",
+     "penalty": false,
+     "own_goal": false
+    },
+    {
+     "minute": 92,
+     "team": "SVW",
+     "scorer": "N. Füllkrug",
+     "penalty": false,
+     "own_goal": false
+    }
+   ]
   },
   {
    "id": 83250,
@@ -47,6 +86,16 @@
    "kickoff": "2026-11-28T14:30:00Z",
    "home": "KOE",
    "away": "SVE",
+   "finished": false,
+   "score": null,
+   "halftime": null,
+   "goals": []
+  },
+  {
+   "id": 83254,
+   "kickoff": "2026-11-28T14:30:00Z",
+   "home": "SCP",
+   "away": "S04",
    "finished": false,
    "score": null,
    "halftime": null,
