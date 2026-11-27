@@ -18,13 +18,13 @@
    "main": true
   },
   {
-   "label": "Linker Schienenspieler",
-   "short": "LWB",
+   "label": "Rechter Schienenspieler",
+   "short": "RWB",
    "main": false
   },
   {
-   "label": "Rechter Schienenspieler",
-   "short": "RWB",
+   "label": "Linker Schienenspieler",
+   "short": "LWB",
    "main": false
   },
   {
@@ -72,7 +72,7 @@
    "title": "xA",
    "value": 0.12,
    "per90": 0.12559842857142856,
-   "pct": 76.23762376237624,
+   "pct": 77.22772277227723,
    "fmt": "fraction"
   },
   {
@@ -90,7 +90,7 @@
    "title": "Passquote",
    "value": 88.4,
    "per90": 88.37209302325581,
-   "pct": 94.05940594059405,
+   "pct": 93.06930693069307,
    "fmt": "percent"
   },
   {
@@ -108,7 +108,7 @@
    "title": "Torchancen vorbereitet",
    "value": 1,
    "per90": 1.0714285714285714,
-   "pct": 67.32673267326733,
+   "pct": 65.34653465346535,
    "fmt": "number"
   },
   {
@@ -117,7 +117,7 @@
    "title": "Zweikämpfe gewonnen",
    "value": 4,
    "per90": 4.285714285714286,
-   "pct": 40.5940594059406,
+   "pct": 36.633663366336634,
    "fmt": "number"
   },
   {
@@ -126,7 +126,7 @@
    "title": "Zweikampfquote",
    "value": 50.0,
    "per90": 50,
-   "pct": 26.732673267326735,
+   "pct": 24.752475247524753,
    "fmt": "percent"
   },
   {
@@ -135,7 +135,7 @@
    "title": "Luftzweikämpfe gewonnen",
    "value": 2,
    "per90": 2.142857142857143,
-   "pct": 82.17821782178217,
+   "pct": 84.15841584158416,
    "fmt": "number"
   },
   {
@@ -153,7 +153,7 @@
    "title": "Ballkontakte",
    "value": 59,
    "per90": 63.21428571428571,
-   "pct": 46.53465346534654,
+   "pct": 45.54455445544555,
    "fmt": "number"
   },
   {
@@ -162,7 +162,7 @@
    "title": "Ballaktionen im gegn. Strafraum",
    "value": 1,
    "per90": 1.0714285714285714,
-   "pct": 39.603960396039604,
+   "pct": 38.613861386138616,
    "fmt": "number"
   },
   {
@@ -180,7 +180,7 @@
    "title": "Defensivaktionen",
    "value": 5,
    "per90": 5.357142857142857,
-   "pct": 20.792079207920793,
+   "pct": 22.772277227722775,
    "fmt": "number"
   },
   {
@@ -189,7 +189,7 @@
    "title": "Tacklings",
    "value": 2,
    "per90": 2.142857142857143,
-   "pct": 60.396039603960396,
+   "pct": 58.415841584158414,
    "fmt": "number"
   },
   {
@@ -207,7 +207,7 @@
    "title": "Ballgewinne",
    "value": 4,
    "per90": 4.285714285714286,
-   "pct": 58.415841584158414,
+   "pct": 56.43564356435643,
    "fmt": "number"
   },
   {
@@ -216,7 +216,7 @@
    "title": "Ausgedribbelt worden",
    "value": 1,
    "per90": 1.0714285714285714,
-   "pct": 13.861386138613863,
+   "pct": 17.82178217821782,
    "fmt": "number"
   },
   {
@@ -225,7 +225,7 @@
    "title": "Klärungen",
    "value": 2,
    "per90": 2.142857142857143,
-   "pct": 24.752475247524753,
+   "pct": 25.742574257425744,
    "fmt": "number"
   },
   {
@@ -243,7 +243,7 @@
    "title": "Gegentore während auf dem Platz",
    "value": 3,
    "per90": 3.214285714285714,
-   "pct": 2.9702970297029703,
+   "pct": 3.9603960396039604,
    "fmt": "number"
   },
   {
@@ -252,7 +252,7 @@
    "title": "Zugelassene xG während auf dem Platz",
    "value": 0.69,
    "per90": 0.7423928571428571,
-   "pct": 96.03960396039604,
+   "pct": 95.04950495049505,
    "fmt": "fraction"
   },
   {
@@ -280,17 +280,17 @@
    {
     "key": "chances_created",
     "title": "Chances created",
-    "value": 0.2
+    "value": 0.22
    },
    {
     "key": "aerials_won",
     "title": "Aerial duels",
-    "value": 0.71
+    "value": 0.74
    },
    {
     "key": "defensive_actions",
     "title": "Defensive actions",
-    "value": 0.28
+    "value": 0.27
    },
    {
     "key": "goals",
@@ -300,7 +300,7 @@
    {
     "key": "shot_attempts",
     "title": "Shot attempts",
-    "value": 0.2
+    "value": 0.22
    },
    {
     "key": "touches",
@@ -312,18 +312,18 @@
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 9,
+   "apps": 10,
    "goals": 0,
    "assists": 0,
-   "rating": 6.48,
+   "rating": 6.46,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 8,
+     "apps": 9,
      "goals": 0,
      "assists": 0,
-     "rating": 6.47
+     "rating": 6.45
     },
     {
      "league": "DFB Pokal",
@@ -574,7 +574,7 @@
     "team": "Hamburger SV",
     "start": "2026-09-01",
     "end": "2027-06-30",
-    "apps": 9,
+    "apps": 10,
     "goals": 0,
     "kind": "Leihe"
    },
@@ -680,5 +680,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T08:24:45+00:00"
+ "fetched_at": "2026-11-27T00:40:11+00:00"
 }

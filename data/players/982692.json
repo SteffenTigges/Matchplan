@@ -23,17 +23,17 @@
    "group": "Torwartspiel",
    "key": "saves",
    "title": "Paraden",
-   "value": 32,
-   "per90": 3.5555555555555554,
-   "pct": 45.83333333333333,
+   "value": 33,
+   "per90": 3.3,
+   "pct": 41.66666666666667,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "save_percentage",
    "title": "Paradenquote",
-   "value": 68.1,
-   "per90": 68.08510638297872,
+   "value": 68.8,
+   "per90": 68.75,
    "pct": 58.333333333333336,
    "fmt": "percent"
   },
@@ -42,16 +42,16 @@
    "key": "goals_conceded",
    "title": "Gegentore",
    "value": 15,
-   "per90": 1.6666666666666665,
-   "pct": 50,
+   "per90": 1.5,
+   "pct": 54.166666666666664,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "goals_prevented",
    "title": "Verhinderte Tore",
-   "value": -1.06,
-   "per90": -0.11726666666666666,
+   "value": -1.03,
+   "per90": -0.10274999999999998,
    "pct": 33.33333333333333,
    "fmt": "fraction"
   },
@@ -59,9 +59,9 @@
    "group": "Torwartspiel",
    "key": "clean_sheet_team_title",
    "title": "Spiele ohne Gegentor",
-   "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 16.666666666666664,
+   "value": 2,
+   "per90": 0.2,
+   "pct": 37.5,
    "fmt": "number"
   },
   {
@@ -69,8 +69,8 @@
    "key": "penalty_saves",
    "title": "Penalty saves",
    "value": 1,
-   "per90": 0.1111111111111111,
-   "pct": 79.16666666666666,
+   "per90": 0.1,
+   "pct": 75,
    "fmt": "number"
   },
   {
@@ -105,16 +105,16 @@
    "key": "keeper_sweeper",
    "title": "Acted as sweeper",
    "value": 2,
-   "per90": 0.2222222222222222,
-   "pct": 20.833333333333336,
+   "per90": 0.2,
+   "pct": 16.666666666666664,
    "fmt": "number"
   },
   {
    "group": "Torwartspiel",
    "key": "keeper_high_claim",
    "title": "High claims",
-   "value": 16,
-   "per90": 1.7777777777777777,
+   "value": 17,
+   "per90": 1.7,
    "pct": 91.66666666666666,
    "fmt": "number"
   },
@@ -122,7 +122,7 @@
    "group": "Distribution",
    "key": "successful_passes",
    "title": "Angekommene Pässe",
-   "value": 234,
+   "value": 260,
    "per90": 25.999999999999996,
    "pct": 58.333333333333336,
    "fmt": "number"
@@ -131,8 +131,8 @@
    "group": "Distribution",
    "key": "successful_passes_accuracy",
    "title": "Passquote",
-   "value": 74.8,
-   "per90": 74.76038338658147,
+   "value": 75.1,
+   "per90": 75.14450867052022,
    "pct": 70.83333333333334,
    "fmt": "percent"
   },
@@ -140,17 +140,17 @@
    "group": "Distribution",
    "key": "long_balls_accurate",
    "title": "Lange Bälle angekommen",
-   "value": 76,
-   "per90": 8.444444444444445,
-   "pct": 83.33333333333334,
+   "value": 86,
+   "per90": 8.6,
+   "pct": 79.16666666666666,
    "fmt": "number"
   },
   {
    "group": "Distribution",
    "key": "long_ball_succeeeded_accuracy",
    "title": "Quote lange Bälle",
-   "value": 49.7,
-   "per90": 49.673202614379086,
+   "value": 50.9,
+   "per90": 50.887573964497044,
    "pct": 91.66666666666666,
    "fmt": "percent"
   },
@@ -159,7 +159,7 @@
    "key": "assists",
    "title": "Vorlagen",
    "value": 1,
-   "per90": 0.1111111111111111,
+   "per90": 0.1,
    "pct": 100,
    "fmt": "number"
   },
@@ -168,7 +168,7 @@
    "key": "chances_created",
    "title": "Torchancen vorbereitet",
    "value": 3,
-   "per90": 0.33333333333333337,
+   "per90": 0.30000000000000004,
    "pct": 91.66666666666666,
    "fmt": "number"
   },
@@ -177,8 +177,8 @@
    "key": "expected_assists",
    "title": "xA",
    "value": 0.13,
-   "per90": 0.014379425555555554,
-   "pct": 87.5,
+   "per90": 0.013098864999999998,
+   "pct": 83.33333333333334,
    "fmt": "fraction"
   },
   {
@@ -206,50 +206,50 @@
    {
     "key": "keeper_sweeper_actions",
     "title": "Sweeper actions",
-    "value": 0.05
+    "value": 0.03
    },
    {
     "key": "goals_conceded",
     "title": "Goals conceded",
-    "value": 0.36
+    "value": 0.44
    },
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.49
+    "value": 0.51
    },
    {
     "key": "keeper_high_claim",
     "title": "High claims",
-    "value": 0.99
+    "value": 0.98
    },
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.3
+    "value": 0.44
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.91
+    "value": 0.93
    }
   ]
  },
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 10,
+   "apps": 11,
    "goals": 0,
    "assists": 1,
-   "rating": 6.97,
+   "rating": 7.02,
    "competitions": [
     {
      "league": "Bundesliga",
      "league_id": 54,
-     "apps": 9,
+     "apps": 10,
      "goals": 0,
      "assists": 1,
-     "rating": 7.2
+     "rating": 7.23
     },
     {
      "league": "DFB Pokal",
@@ -344,7 +344,7 @@
     "team": "Werder Bremen",
     "start": "2026-07-01",
     "end": null,
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "kind": null
    },
@@ -499,5 +499,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T08:24:45+00:00"
+ "fetched_at": "2026-11-27T00:40:11+00:00"
 }

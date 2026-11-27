@@ -25,7 +25,7 @@
    "title": "Paraden",
    "value": 36,
    "per90": 5.142857142857142,
-   "pct": 87.5,
+   "pct": 91.66666666666666,
    "fmt": "number"
   },
   {
@@ -52,7 +52,7 @@
    "title": "Verhinderte Tore",
    "value": -1.58,
    "per90": -0.22539999999999993,
-   "pct": 20.833333333333336,
+   "pct": 12.5,
    "fmt": "fraction"
   },
   {
@@ -70,7 +70,7 @@
    "title": "Error led to goal",
    "value": 2,
    "per90": 0.2857142857142857,
-   "pct": 0,
+   "pct": 4.166666666666666,
    "fmt": "number"
   },
   {
@@ -88,7 +88,7 @@
    "title": "High claims",
    "value": 7,
    "per90": 1,
-   "pct": 50,
+   "pct": 54.166666666666664,
    "fmt": "number"
   },
   {
@@ -106,7 +106,7 @@
    "title": "Passquote",
    "value": 64.2,
    "per90": 64.16666666666667,
-   "pct": 25,
+   "pct": 20.833333333333336,
    "fmt": "percent"
   },
   {
@@ -115,7 +115,7 @@
    "title": "Lange Bälle angekommen",
    "value": 49,
    "per90": 7,
-   "pct": 50,
+   "pct": 58.333333333333336,
    "fmt": "number"
   },
   {
@@ -124,7 +124,7 @@
    "title": "Quote lange Bälle",
    "value": 36.8,
    "per90": 36.8421052631579,
-   "pct": 33.33333333333333,
+   "pct": 37.5,
    "fmt": "percent"
   },
   {
@@ -133,7 +133,7 @@
    "title": "xA",
    "value": 0.03,
    "per90": 0.004363402857142857,
-   "pct": 62.5,
+   "pct": 66.66666666666666,
    "fmt": "fraction"
   },
   {
@@ -166,12 +166,12 @@
    {
     "key": "goals_conceded",
     "title": "Goals conceded",
-    "value": 0.08
+    "value": 0.07
    },
    {
     "key": "save_percentage",
     "title": "Save percentage",
-    "value": 0.71
+    "value": 0.72
    },
    {
     "key": "keeper_high_claim",
@@ -181,12 +181,12 @@
    {
     "key": "clean_sheet",
     "title": "Clean sheets",
-    "value": 0.71
+    "value": 0.63
    },
    {
     "key": "long_ball_succeeeded_accuracy",
     "title": "Long ball percentage",
-    "value": 0.63
+    "value": 0.53
    }
   ]
  },
@@ -613,5 +613,5 @@
   }
  ],
  "v": 2,
- "fetched_at": "2026-11-19T08:24:45+00:00"
+ "fetched_at": "2026-11-27T00:40:11+00:00"
 }
