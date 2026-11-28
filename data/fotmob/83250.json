@@ -1,0 +1,2029 @@
+{
+ "v": 5,
+ "fm_id": 5881238,
+ "stats": {
+  "BallPossesion": [
+   52,
+   48
+  ],
+  "expected_goals": [
+   1.55,
+   0.62
+  ],
+  "total_shots": [
+   17,
+   10
+  ],
+  "ShotsOnTarget": [
+   6,
+   4
+  ],
+  "touches_opp_box": [
+   31,
+   20
+  ],
+  "big_chance": [
+   4,
+   1
+  ],
+  "big_chance_missed_title": [
+   2,
+   1
+  ],
+  "accurate_passes": [
+   {
+    "n": 355,
+    "pct": 76
+   },
+   {
+    "n": 329,
+    "pct": 74
+   }
+  ],
+  "yellow_cards": [
+   2,
+   1
+  ],
+  "corners": [
+   6,
+   4
+  ],
+  "blocked_shots": [
+   5,
+   2
+  ],
+  "shots_inside_box": [
+   12,
+   5
+  ],
+  "expected_goals_open_play": [
+   0.89,
+   0.31
+  ],
+  "expected_goals_set_play": [
+   0.65,
+   0.32
+  ],
+  "expected_goals_on_target": [
+   1.38,
+   0.92
+  ],
+  "passes": [
+   465,
+   442
+  ],
+  "own_half_passes": [
+   152,
+   169
+  ],
+  "opposition_half_passes": [
+   203,
+   160
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 26,
+    "pct": 35
+   },
+   {
+    "n": 17,
+    "pct": 27
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 3,
+    "pct": 14
+   },
+   {
+    "n": 5,
+    "pct": 36
+   }
+  ],
+  "Offsides": [
+   1,
+   2
+  ],
+  "tackles": [
+   13,
+   12
+  ],
+  "interceptions": [
+   12,
+   4
+  ],
+  "shot_blocks": [
+   2,
+   5
+  ],
+  "clearances": [
+   27,
+   39
+  ],
+  "keeper_saves": [
+   3,
+   4
+  ],
+  "duel_won": [
+   53,
+   53
+  ],
+  "ground_duels_won": [
+   {
+    "n": 27,
+    "pct": 53
+   },
+   {
+    "n": 24,
+    "pct": 47
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 26,
+    "pct": 47
+   },
+   {
+    "n": 29,
+    "pct": 53
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 2,
+    "pct": 17
+   },
+   {
+    "n": 4,
+    "pct": 50
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   10,
+   12
+  ]
+ },
+ "shots": [
+  {
+   "team": "M05",
+   "player": "Fabio Gruber",
+   "min": 5,
+   "x": 98.535087719,
+   "y": 25.8228125,
+   "xg": 0.028344638645648956,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Derrick Köhn",
+   "min": 6,
+   "x": 77.9800970888,
+   "y": 51.4275159223,
+   "xg": 0.010763050988316536,
+   "xgot": 0.051999591290950775,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Leopold Querfeld",
+   "min": 15,
+   "x": 98.8245614033,
+   "y": 22.5278980932,
+   "xg": 0.03867612034082413,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 17,
+   "x": 74.82669903120001,
+   "y": 42.6975,
+   "xg": 0.040310513228178024,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Silvan Widmer",
+   "min": 19,
+   "x": 77.0791262152,
+   "y": 49.3956687876,
+   "xg": 0.010810873471200466,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 35,
+   "x": 82.4849514568,
+   "y": 35.6775,
+   "xg": 0.04028318449854851,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Kastriot Imeri",
+   "min": 36,
+   "x": 88.39264705880001,
+   "y": 35.3725,
+   "xg": 0.14496999979019165,
+   "xgot": 0.3960716724395752,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Janik Haberer",
+   "min": 37,
+   "x": 100.6379310348,
+   "y": 41.3678125,
+   "xg": 0.04566720500588417,
+   "xgot": 0.4124632477760315,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "András Schäfer",
+   "min": 40,
+   "x": 75.9529126232,
+   "y": 46.2428025441,
+   "xg": 0.031324952840805054,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Derrick Köhn",
+   "min": 42,
+   "x": 86.4602941172,
+   "y": 41.7146875,
+   "xg": 0.027895396575331688,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Leopold Querfeld",
+   "min": 43,
+   "x": 97.1842105256,
+   "y": 35.143750000000004,
+   "xg": 0.13420048356056213,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Ransford Königsdörffer",
+   "min": 45,
+   "x": 98.4385964909,
+   "y": 48.2746496788,
+   "xg": 0.027445504441857338,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Leopold Querfeld",
+   "min": 45,
+   "x": 97.7631578942,
+   "y": 37.684,
+   "xg": 0.06602736562490463,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Ransford Königsdörffer",
+   "min": 46,
+   "x": 94.675438595,
+   "y": 30.72125,
+   "xg": 0.0683944821357727,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "Jeong Woo-Yeong",
+   "min": 50,
+   "x": 91.2,
+   "y": 40.553571429,
+   "xg": 0.0989379733800888,
+   "xgot": 0.05959966406226158,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "FCU",
+   "player": "András Schäfer",
+   "min": 59,
+   "x": 84.7373786408,
+   "y": 43.9307006322,
+   "xg": 0.028854988515377045,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Benedict Hollerbach",
+   "min": 68,
+   "x": 90.3,
+   "y": 30.22,
+   "xg": 0.06491176038980484,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Silvan Widmer",
+   "min": 68,
+   "x": 81.92184466079999,
+   "y": 34.99125,
+   "xg": 0.06365545839071274,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Nadiem Amiri",
+   "min": 70,
+   "x": 93.3,
+   "y": 22.247643316,
+   "xg": 0.04097466170787811,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Stefan Posch",
+   "min": 75,
+   "x": 95.73684210409999,
+   "y": 35.448750000000004,
+   "xg": 0.07230594009160995,
+   "xgot": 0.24576321244239807,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Fabio Gruber",
+   "min": 77,
+   "x": 90.6,
+   "y": 25.7071875,
+   "xg": 0.04896173253655434,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Benedict Hollerbach",
+   "min": 77,
+   "x": 97.6666666661,
+   "y": 30.568749999999998,
+   "xg": 0.12673763930797577,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Benedict Hollerbach",
+   "min": 78,
+   "x": 91.1,
+   "y": 31.7125,
+   "xg": 0.07564716786146164,
+   "xgot": 0.07813993841409683,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 80,
+   "x": 76.40339806,
+   "y": 26.0540625,
+   "xg": 0.00935154315084219,
+   "xgot": 0.008725523948669434,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Phillip Tietz",
+   "min": 85,
+   "x": 101.3965517244,
+   "y": 31.865,
+   "xg": 0.46191874146461487,
+   "xgot": 0.6095920205116272,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Paul Nebel",
+   "min": 88,
+   "x": 97.3771929818,
+   "y": 25.4759375,
+   "xg": 0.14907172322273254,
+   "xgot": 0.2583543658256531,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "M05",
+   "player": "Anthony Caci",
+   "min": 90,
+   "x": 97.0877192975,
+   "y": 30.797499999999996,
+   "xg": 0.21688717603683472,
+   "xgot": 0.18415728211402893,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   -11
+  ],
+  [
+   3,
+   -16
+  ],
+  [
+   4,
+   -5
+  ],
+  [
+   5,
+   68
+  ],
+  [
+   6,
+   60
+  ],
+  [
+   7,
+   49
+  ],
+  [
+   8,
+   -14
+  ],
+  [
+   9,
+   33
+  ],
+  [
+   10,
+   38
+  ],
+  [
+   11,
+   54
+  ],
+  [
+   12,
+   43
+  ],
+  [
+   13,
+   98
+  ],
+  [
+   14,
+   92
+  ],
+  [
+   15,
+   54
+  ],
+  [
+   16,
+   0
+  ],
+  [
+   17,
+   -3
+  ],
+  [
+   18,
+   16
+  ],
+  [
+   19,
+   5
+  ],
+  [
+   20,
+   -14
+  ],
+  [
+   21,
+   -22
+  ],
+  [
+   22,
+   -22
+  ],
+  [
+   23,
+   -33
+  ],
+  [
+   24,
+   -27
+  ],
+  [
+   25,
+   -27
+  ],
+  [
+   26,
+   -5
+  ],
+  [
+   27,
+   -5
+  ],
+  [
+   28,
+   -5
+  ],
+  [
+   29,
+   0
+  ],
+  [
+   30,
+   0
+  ],
+  [
+   31,
+   -8
+  ],
+  [
+   32,
+   -8
+  ],
+  [
+   33,
+   -8
+  ],
+  [
+   34,
+   0
+  ],
+  [
+   35,
+   16
+  ],
+  [
+   36,
+   0
+  ],
+  [
+   37,
+   -54
+  ],
+  [
+   38,
+   -76
+  ],
+  [
+   39,
+   -43
+  ],
+  [
+   40,
+   16
+  ],
+  [
+   41,
+   38
+  ],
+  [
+   42,
+   16
+  ],
+  [
+   43,
+   -43
+  ],
+  [
+   44,
+   -65
+  ],
+  [
+   45,
+   -38
+  ],
+  [
+   45.5,
+   -24
+  ],
+  [
+   46,
+   24
+  ],
+  [
+   47,
+   14
+  ],
+  [
+   48,
+   19
+  ],
+  [
+   49,
+   -22
+  ],
+  [
+   50,
+   -87
+  ],
+  [
+   51,
+   -100
+  ],
+  [
+   52,
+   -76
+  ],
+  [
+   53,
+   3
+  ],
+  [
+   54,
+   35
+  ],
+  [
+   55,
+   -11
+  ],
+  [
+   56,
+   -11
+  ],
+  [
+   57,
+   0
+  ],
+  [
+   58,
+   35
+  ],
+  [
+   59,
+   14
+  ],
+  [
+   60,
+   -19
+  ],
+  [
+   61,
+   -41
+  ],
+  [
+   62,
+   -5
+  ],
+  [
+   63,
+   -3
+  ],
+  [
+   64,
+   3
+  ],
+  [
+   65,
+   -14
+  ],
+  [
+   66,
+   -16
+  ],
+  [
+   67,
+   -3
+  ],
+  [
+   68,
+   19
+  ],
+  [
+   69,
+   52
+  ],
+  [
+   70,
+   54
+  ],
+  [
+   71,
+   43
+  ],
+  [
+   72,
+   11
+  ],
+  [
+   73,
+   -68
+  ],
+  [
+   74,
+   -79
+  ],
+  [
+   75,
+   -43
+  ],
+  [
+   76,
+   41
+  ],
+  [
+   77,
+   100
+  ],
+  [
+   78,
+   100
+  ],
+  [
+   79,
+   100
+  ],
+  [
+   80,
+   35
+  ],
+  [
+   81,
+   -49
+  ],
+  [
+   82,
+   -49
+  ],
+  [
+   83,
+   -43
+  ],
+  [
+   84,
+   38
+  ],
+  [
+   85,
+   100
+  ],
+  [
+   86,
+   87
+  ],
+  [
+   87,
+   57
+  ],
+  [
+   88,
+   100
+  ],
+  [
+   89,
+   100
+  ],
+  [
+   90,
+   100
+  ],
+  [
+   90.5,
+   41
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 26,
+   "center": 33,
+   "right": 41
+  },
+  "away": {
+   "left": 47,
+   "center": 26,
+   "right": 27
+  }
+ },
+ "lineups": {
+  "home": {
+   "team": "M05",
+   "formation": "3-5-2",
+   "rating": 7.1,
+   "players": [
+    {
+     "id": 556505,
+     "name": "Robin Zentner",
+     "pos_id": 11,
+     "rating": 7.1,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 557325,
+     "name": "Stefan Posch",
+     "pos_id": 33,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.357
+    },
+    {
+     "id": 1362417,
+     "name": "Fabio Gruber",
+     "pos_id": 35,
+     "rating": 7.8,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.357
+    },
+    {
+     "id": 1800401,
+     "name": "Kacper Potulski",
+     "pos_id": 37,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.357
+    },
+    {
+     "id": 771401,
+     "name": "Anthony Caci",
+     "pos_id": 71,
+     "rating": 8.5,
+     "captain": false,
+     "x": 0.11,
+     "y": 0.613
+    },
+    {
+     "id": 1033111,
+     "name": "Kaishu Sano",
+     "pos_id": 73,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.305,
+     "y": 0.613
+    },
+    {
+     "id": 1199283,
+     "name": "Eric Martel",
+     "pos_id": 75,
+     "rating": 7.3,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.613
+    },
+    {
+     "id": 614449,
+     "name": "Nadiem Amiri",
+     "pos_id": 77,
+     "rating": 8.9,
+     "captain": false,
+     "x": 0.695,
+     "y": 0.613
+    },
+    {
+     "id": 275034,
+     "name": "Silvan Widmer",
+     "pos_id": 79,
+     "rating": 6.4,
+     "captain": true,
+     "x": 0.89,
+     "y": 0.613
+    },
+    {
+     "id": 495222,
+     "name": "Sheraldo Becker",
+     "pos_id": 104,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1121170,
+     "name": "Ransford Königsdörffer",
+     "pos_id": 106,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "FCU",
+   "formation": "4-4-2",
+   "rating": 6.6,
+   "players": [
+    {
+     "id": 186557,
+     "name": "Frederik Rønnow",
+     "pos_id": 11,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 304354,
+     "name": "Janik Haberer",
+     "pos_id": 32,
+     "rating": 7.3,
+     "captain": true,
+     "x": 0.125,
+     "y": 0.357
+    },
+    {
+     "id": 1199947,
+     "name": "Leopold Querfeld",
+     "pos_id": 34,
+     "rating": 6.3,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.357
+    },
+    {
+     "id": 530858,
+     "name": "Marvin Friedrich",
+     "pos_id": 36,
+     "rating": 7,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.357
+    },
+    {
+     "id": 860260,
+     "name": "Derrick Köhn",
+     "pos_id": 38,
+     "rating": 6.6,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.357
+    },
+    {
+     "id": 852049,
+     "name": "Kastriot Imeri",
+     "pos_id": 72,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.613
+    },
+    {
+     "id": 792756,
+     "name": "Michel Aebischer",
+     "pos_id": 74,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.613
+    },
+    {
+     "id": 836726,
+     "name": "András Schäfer",
+     "pos_id": 76,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.613
+    },
+    {
+     "id": 949673,
+     "name": "Jeong Woo-Yeong",
+     "pos_id": 78,
+     "rating": 6.1,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.613
+    },
+    {
+     "id": 609504,
+     "name": "Oliver Burke",
+     "pos_id": 104,
+     "rating": 6.8,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1047670,
+     "name": "Andrej Ilić",
+     "pos_id": 106,
+     "rating": 6.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 166733,
+   "team": "FCU",
+   "name": "Christopher Trimmel",
+   "keeper": false,
+   "rating": 6.22,
+   "minutes": 14,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 8,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1
+  },
+  {
+   "id": 186557,
+   "team": "FCU",
+   "name": "Frederik Rønnow",
+   "keeper": true,
+   "rating": 6.4,
+   "minutes": 90,
+   "recoveries": 12,
+   "touches": 49,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 10,
+   "interceptions": 0
+  },
+  {
+   "id": 240537,
+   "team": "M05",
+   "name": "Danny da Costa",
+   "keeper": false,
+   "rating": 6.92,
+   "minutes": 46,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.06,
+   "key_passes": 0,
+   "touches": 39,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 248437,
+   "team": "M05",
+   "name": "Alexander Schwolow",
+   "keeper": true
+  },
+  {
+   "id": 275034,
+   "team": "M05",
+   "name": "Silvan Widmer",
+   "keeper": false,
+   "rating": 6.35,
+   "minutes": 79,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 25,
+   "touches_box": 1,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 1,
+   "duels_lost": 4
+  },
+  {
+   "id": 304354,
+   "team": "FCU",
+   "name": "Janik Haberer",
+   "keeper": false,
+   "rating": 7.26,
+   "minutes": 89,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.05,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 54,
+   "touches_box": 1,
+   "final_third_passes": 6,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 495222,
+   "team": "M05",
+   "name": "Sheraldo Becker",
+   "keeper": false,
+   "rating": 6.41,
+   "minutes": 66,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 31,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 2,
+   "duels_lost": 11
+  },
+  {
+   "id": 523749,
+   "team": "M05",
+   "name": "Lee Jae-Sung",
+   "keeper": false,
+   "rating": 6.03,
+   "minutes": 11,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 3,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 530858,
+   "team": "FCU",
+   "name": "Marvin Friedrich",
+   "keeper": false,
+   "rating": 7.01,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 67,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 15,
+   "duels_lost": 5
+  },
+  {
+   "id": 556505,
+   "team": "M05",
+   "name": "Robin Zentner",
+   "keeper": true,
+   "rating": 7.05,
+   "minutes": 90,
+   "xa": 0.01,
+   "recoveries": 12,
+   "touches": 51,
+   "duels_won": 1,
+   "tackles": 0,
+   "final_third_passes": 10,
+   "interceptions": 0
+  },
+  {
+   "id": 557325,
+   "team": "M05",
+   "name": "Stefan Posch",
+   "keeper": false,
+   "rating": 7.69,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.09,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 10,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 609504,
+   "team": "FCU",
+   "name": "Oliver Burke",
+   "keeper": false,
+   "rating": 6.78,
+   "minutes": 76,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 26,
+   "touches_box": 6,
+   "dribbles": 2,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 614449,
+   "team": "M05",
+   "name": "Nadiem Amiri",
+   "keeper": false,
+   "rating": 8.86,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 2,
+   "xg": 0.12,
+   "xa": 1.14,
+   "shots": 3,
+   "key_passes": 5,
+   "touches": 69,
+   "touches_box": 2,
+   "final_third_passes": 9,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 3,
+   "duels_lost": 2
+  },
+  {
+   "id": 658440,
+   "team": "FCU",
+   "name": "Tim Skarke",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1
+  },
+  {
+   "id": 686315,
+   "team": "M05",
+   "name": "Phillip Tietz",
+   "keeper": false,
+   "rating": 7.53,
+   "minutes": 24,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.47,
+   "xa": 0.06,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 11,
+   "touches_box": 3,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 3
+  },
+  {
+   "id": 771401,
+   "team": "M05",
+   "name": "Anthony Caci",
+   "keeper": false,
+   "rating": 8.46,
+   "minutes": 90,
+   "goals": 1,
+   "assists": 0,
+   "xg": 0.22,
+   "xa": 0.32,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 84,
+   "touches_box": 3,
+   "final_third_passes": 12,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 7,
+   "duels_won": 5,
+   "duels_lost": 2
+  },
+  {
+   "id": 783585,
+   "team": "FCU",
+   "name": "Emmanuel Latte Lath",
+   "keeper": false
+  },
+  {
+   "id": 792756,
+   "team": "FCU",
+   "name": "Michel Aebischer",
+   "keeper": false,
+   "rating": 6.74,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 65,
+   "touches_box": 0,
+   "final_third_passes": 4,
+   "tackles": 1,
+   "interceptions": 1,
+   "recoveries": 6,
+   "duels_won": 4
+  },
+  {
+   "id": 836726,
+   "team": "FCU",
+   "name": "András Schäfer",
+   "keeper": false,
+   "rating": 7.15,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.06,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 76,
+   "touches_box": 0,
+   "dribbles": 1,
+   "final_third_passes": 7,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 9,
+   "duels_lost": 6
+  },
+  {
+   "id": 852049,
+   "team": "FCU",
+   "name": "Kastriot Imeri",
+   "keeper": false,
+   "rating": 7.48,
+   "minutes": 76,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.14,
+   "xa": 0.52,
+   "shots": 1,
+   "key_passes": 4,
+   "touches": 54,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 4,
+   "duels_lost": 7
+  },
+  {
+   "id": 860260,
+   "team": "FCU",
+   "name": "Derrick Köhn",
+   "keeper": false,
+   "rating": 6.57,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 81,
+   "touches_box": 0,
+   "final_third_passes": 7,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 11,
+   "duels_won": 3,
+   "duels_lost": 5
+  },
+  {
+   "id": 921197,
+   "team": "M05",
+   "name": "Lennard Maloney",
+   "keeper": false
+  },
+  {
+   "id": 949673,
+   "team": "FCU",
+   "name": "Jeong Woo-Yeong",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.15,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 60,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 1,
+   "duels_lost": 7
+  },
+  {
+   "id": 1033111,
+   "team": "M05",
+   "name": "Kaishu Sano",
+   "keeper": false,
+   "rating": 7.4,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 64,
+   "touches_box": 3,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 2,
+   "interceptions": 5,
+   "recoveries": 2,
+   "duels_won": 6,
+   "duels_lost": 7
+  },
+  {
+   "id": 1047670,
+   "team": "FCU",
+   "name": "Andrej Ilić",
+   "keeper": false,
+   "rating": 6.24,
+   "minutes": 83,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 28,
+   "touches_box": 5,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 4,
+   "duels_lost": 11
+  },
+  {
+   "id": 1121170,
+   "team": "M05",
+   "name": "Ransford Königsdörffer",
+   "keeper": false,
+   "rating": 6.27,
+   "minutes": 79,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.1,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 38,
+   "touches_box": 8,
+   "dribbles": 0,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 4,
+   "duels_lost": 12
+  },
+  {
+   "id": 1134759,
+   "team": "M05",
+   "name": "Sota Kawasaki",
+   "keeper": false
+  },
+  {
+   "id": 1156148,
+   "team": "FCU",
+   "name": "Matheo Raab",
+   "keeper": true
+  },
+  {
+   "id": 1175939,
+   "team": "M05",
+   "name": "Paul Nebel",
+   "keeper": false,
+   "rating": 6.14,
+   "minutes": 11,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.15,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1185568,
+   "team": "M05",
+   "name": "Benedict Hollerbach",
+   "keeper": false,
+   "rating": 6.67,
+   "minutes": 24,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.27,
+   "xa": 0.02,
+   "shots": 3,
+   "key_passes": 1,
+   "touches": 18,
+   "touches_box": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2
+  },
+  {
+   "id": 1199283,
+   "team": "M05",
+   "name": "Eric Martel",
+   "keeper": false,
+   "rating": 7.27,
+   "minutes": 66,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.02,
+   "key_passes": 1,
+   "touches": 48,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 4
+  },
+  {
+   "id": 1199947,
+   "team": "FCU",
+   "name": "Leopold Querfeld",
+   "keeper": false,
+   "rating": 6.29,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.24,
+   "xa": 0.01,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 60,
+   "touches_box": 3,
+   "final_third_passes": 9,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 3
+  },
+  {
+   "id": 1242198,
+   "team": "FCU",
+   "name": "Marin Ljubičić",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 0,
+   "touches_box": 0,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0
+  },
+  {
+   "id": 1282582,
+   "team": "FCU",
+   "name": "Tom Rothe",
+   "keeper": false
+  },
+  {
+   "id": 1362417,
+   "team": "M05",
+   "name": "Fabio Gruber",
+   "keeper": false,
+   "rating": 7.84,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.08,
+   "xa": 0.01,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 87,
+   "touches_box": 2,
+   "final_third_passes": 7,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 7,
+   "duels_won": 13,
+   "duels_lost": 3
+  },
+  {
+   "id": 1403332,
+   "team": "FCU",
+   "name": "Aljoscha Kemlein",
+   "keeper": false,
+   "rating": 5.98,
+   "minutes": 14,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 1800401,
+   "team": "M05",
+   "name": "Kacper Potulski",
+   "keeper": false,
+   "rating": 6.78,
+   "minutes": 44,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 29,
+   "touches_box": 1,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 3,
+   "recoveries": 2,
+   "duels_won": 2
+  },
+  {
+   "id": 1958812,
+   "team": "FCU",
+   "name": "Linus Güther",
+   "keeper": false
+  },
+  {
+   "id": 2062767,
+   "team": "FCU",
+   "name": "Mekhi Gray",
+   "keeper": false,
+   "minutes": 7,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 4,
+   "touches_box": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 2
+  },
+  {
+   "id": 2140397,
+   "team": "M05",
+   "name": "Rael Nakuzola",
+   "keeper": false
+  }
+ ],
+ "referee": {
+  "name": "Timo Gerach",
+  "id": 1001072482,
+  "country": "Germany"
+ },
+ "events": [
+  {
+   "min": 37,
+   "plus": null,
+   "home": false,
+   "type": "goal",
+   "player": "Janik Haberer",
+   "player_id": 304354,
+   "assist": "Kastriot Imeri",
+   "score": [
+    0,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 39,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Anthony Caci",
+   "player_id": 771401
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Ransford Königsdörffer",
+   "player_id": 1121170
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 1 minute added"
+  },
+  {
+   "min": 45,
+   "plus": 2,
+   "home": true,
+   "type": "sub",
+   "in": "Danny da Costa",
+   "in_id": 240537,
+   "out": "Kacper Potulski",
+   "out_id": 1800401
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Frederik Rønnow",
+   "player_id": 186557
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Phillip Tietz",
+   "in_id": 686315,
+   "out": "Eric Martel",
+   "out_id": 1199283
+  },
+  {
+   "min": 66,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Benedict Hollerbach",
+   "in_id": 1185568,
+   "out": "Sheraldo Becker",
+   "out_id": 495222
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Christopher Trimmel",
+   "in_id": 166733,
+   "out": "Oliver Burke",
+   "out_id": 609504
+  },
+  {
+   "min": 76,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Aljoscha Kemlein",
+   "in_id": 1403332,
+   "out": "Kastriot Imeri",
+   "out_id": 852049
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Lee Jae-Sung",
+   "in_id": 523749,
+   "out": "Ransford Königsdörffer",
+   "out_id": 1121170
+  },
+  {
+   "min": 79,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Paul Nebel",
+   "in_id": 1175939,
+   "out": "Silvan Widmer",
+   "out_id": 275034
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Tim Skarke",
+   "in_id": 658440,
+   "out": "Jeong Woo-Yeong",
+   "out_id": 949673
+  },
+  {
+   "min": 83,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Mekhi Gray",
+   "in_id": 2062767,
+   "out": "Andrej Ilić",
+   "out_id": 1047670
+  },
+  {
+   "min": 85,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Phillip Tietz",
+   "player_id": 686315,
+   "assist": "Nadiem Amiri",
+   "score": [
+    1,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 3 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": 2,
+   "home": true,
+   "type": "goal",
+   "player": "Anthony Caci",
+   "player_id": 771401,
+   "assist": "Nadiem Amiri",
+   "score": [
+    2,
+    1
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 90,
+   "plus": 3,
+   "home": false,
+   "type": "sub",
+   "in": "Marin Ljubičić",
+   "in_id": 1242198,
+   "out": "Janik Haberer",
+   "out_id": 304354
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
+ "oldb_id": 83250,
+ "matchday": 11,
+ "season": 2026
+}

@@ -34,15 +34,7 @@
    0.249
   ]
  },
- "strengths": [
-  {
-   "key": "won_mid_pg",
-   "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 21.9,
-   "fmt": "dec1",
-   "rank": 3
-  }
- ],
+ "strengths": [],
  "weaknesses": [
   {
    "key": "xga_setplay_pg",
@@ -112,19 +104,6 @@
      "fmt": "pct"
     }
    ]
-  },
-  {
-   "key": "strength",
-   "text": "Stark: Ballgewinne im Mittelfeld pro Spiel (Platz 3)",
-   "evidence": [
-    {
-     "key": "won_mid_pg",
-     "label": "Ballgewinne im Mittelfeld pro Spiel",
-     "value": 21.9,
-     "fmt": "dec1",
-     "rank": 3
-    }
-   ]
   }
  ],
  "buildup": {
@@ -155,7 +134,7 @@
     "label": "Lange Bälle angekommen",
     "value": 0.4314,
     "fmt": "pct",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "cross_accuracy",
@@ -169,7 +148,7 @@
     "label": "Field Tilt",
     "value": 0.4991,
     "fmt": "pct",
-    "rank": 8
+    "rank": 9
    }
   ],
   "zones": {
@@ -221,7 +200,7 @@
     "label": "Tore pro Spiel",
     "value": 1.6,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "xg_pg",
@@ -242,7 +221,7 @@
     "label": "xG pro Schuss",
     "value": 0.1219,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 4
    },
    {
     "key": "goals_minus_xg",
@@ -300,7 +279,7 @@
     "label": "Gegentore pro Spiel",
     "value": 2.0,
     "fmt": "dec2",
-    "rank": 13
+    "rank": 12
    },
    {
     "key": "xga_pg",
@@ -314,7 +293,7 @@
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 16.2,
     "fmt": "dec1",
-    "rank": 11
+    "rank": 12
    },
    {
     "key": "big_chances_against_pg",
@@ -328,7 +307,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 2,
     "fmt": "int",
-    "rank": 9
+    "rank": 10
    }
   ]
  },

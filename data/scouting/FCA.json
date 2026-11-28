@@ -34,7 +34,7 @@
       "label": "Ballgewinne im Angriffsdrittel pro Spiel",
       "value": 2.9,
       "fmt": "dec1",
-      "rank": 16
+      "rank": 17
      }
     ]
    }
@@ -46,13 +46,13 @@
   "away": "FCA",
   "kickoff": "2026-11-29T16:30:00Z",
   "tip": [
-   2,
+   3,
    1
   ],
   "probs": [
-   0.6419,
-   0.1688,
-   0.1893
+   0.6662,
+   0.1615,
+   0.1724
   ]
  },
  "strengths": [
@@ -71,17 +71,17 @@
    "rank": 1
   },
   {
-   "key": "inside_box_share",
-   "label": "Anteil Schüsse aus dem Strafraum",
-   "value": 0.7299,
-   "fmt": "pct",
-   "rank": 2
-  },
-  {
    "key": "xg_pg",
    "label": "xG pro Spiel",
    "value": 2.255,
    "fmt": "dec2",
+   "rank": 3
+  },
+  {
+   "key": "on_target_pg",
+   "label": "Schüsse aufs Tor pro Spiel",
+   "value": 6.9,
+   "fmt": "dec1",
    "rank": 3
   }
  ],
@@ -97,6 +97,13 @@
    "key": "won_att3_pg",
    "label": "Ballgewinne im Angriffsdrittel pro Spiel",
    "value": 2.9,
+   "fmt": "dec1",
+   "rank": 17
+  },
+  {
+   "key": "dribbles_pg",
+   "label": "Erfolgreiche Dribblings pro Spiel",
+   "value": 5.9,
    "fmt": "dec1",
    "rank": 16
   }
@@ -184,7 +191,7 @@
     "label": "Passquote",
     "value": 0.7953,
     "fmt": "pct",
-    "rank": 13
+    "rank": 12
    },
    {
     "key": "opp_half_share",
@@ -198,7 +205,7 @@
     "label": "Lange Bälle angekommen",
     "value": 0.417,
     "fmt": "pct",
-    "rank": 14
+    "rank": 15
    },
    {
     "key": "cross_accuracy",
@@ -212,7 +219,7 @@
     "label": "Field Tilt",
     "value": 0.4592,
     "fmt": "pct",
-    "rank": 11
+    "rank": 12
    }
   ],
   "zones": {
@@ -278,7 +285,7 @@
     "label": "Großchancen pro Spiel",
     "value": 3.4,
     "fmt": "dec1",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "xg_per_shot",
@@ -292,7 +299,7 @@
     "label": "Tore minus xG",
     "value": 0.45,
     "fmt": "signed1",
-    "rank": 7
+    "rank": 8
    }
   ]
  },
@@ -371,7 +378,7 @@
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 13
+    "rank": 15
    }
   ]
  },

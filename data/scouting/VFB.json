@@ -39,13 +39,6 @@
    "rank": 2
   },
   {
-   "key": "fouls_pg",
-   "label": "Fouls pro Spiel",
-   "value": 9.8,
-   "fmt": "dec1",
-   "rank": 2
-  },
-  {
    "key": "against_minus_xga",
    "label": "Gegentore minus zugelassene xG",
    "value": -7.5,
@@ -69,18 +62,11 @@
    "rank": 18
   },
   {
-   "key": "xga_pg",
-   "label": "Zugelassene xG pro Spiel",
-   "value": 2.25,
-   "fmt": "dec2",
-   "rank": 16
-  },
-  {
    "key": "goals_minus_xg",
    "label": "Tore minus xG",
    "value": -4.63,
    "fmt": "signed1",
-   "rank": 16
+   "rank": 17
   }
  ],
  "matchplan": [
@@ -133,13 +119,13 @@
   },
   {
    "key": "strength",
-   "text": "Stark: Fouls pro Spiel (Platz 2)",
+   "text": "Stark: Gegentore minus zugelassene xG (Platz 2)",
    "evidence": [
     {
-     "key": "fouls_pg",
-     "label": "Fouls pro Spiel",
-     "value": 9.8,
-     "fmt": "dec1",
+     "key": "against_minus_xga",
+     "label": "Gegentore minus zugelassene xG",
+     "value": -7.5,
+     "fmt": "signed1",
      "rank": 2
     }
    ]
@@ -260,14 +246,14 @@
     "label": "xG pro Schuss",
     "value": 0.1219,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 4
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": -4.63,
     "fmt": "signed1",
-    "rank": 16
+    "rank": 17
    }
   ]
  },
@@ -318,14 +304,14 @@
     "label": "Gegentore pro Spiel",
     "value": 1.5,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 7
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
     "value": 2.25,
     "fmt": "dec2",
-    "rank": 16
+    "rank": 15
    },
    {
     "key": "shots_against_pg",
@@ -364,7 +350,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.471,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 11
    },
    {
     "key": "corners_pg",

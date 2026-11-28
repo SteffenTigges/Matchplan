@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-28T01:57:48+00:00",
+ "updated_at": "2026-11-28T17:30:55+00:00",
  "calibration": {
   "home": 1.7386,
   "away": 1.4575,
@@ -136,10 +136,10 @@
   "fetched_at": "2026-11-26T15:25:22+00:00"
  },
  "check": {
-  "matches": 91,
-  "tendency_rate": 0.5604,
-  "exact_rate": 0.0989,
-  "brier": 0.5924,
+  "matches": 95,
+  "tendency_rate": 0.5684,
+  "exact_rate": 0.0947,
+  "brier": 0.5853,
   "odds_matches": 90,
   "brier_model_same": 0.5871,
   "brier_odds": 0.576,
@@ -216,10 +216,10 @@
    },
    {
     "md": 11,
-    "matches": 1,
-    "tendency": 0,
+    "matches": 5,
+    "tendency": 3,
     "exact": 0,
-    "brier": 1.0668
+    "brier": 0.5522
    }
   ],
   "games": [
@@ -2132,6 +2132,86 @@
     "tendency": false,
     "exact": false,
     "brier": 1.0668
+   },
+   {
+    "id": 83250,
+    "md": 11,
+    "probs": [
+     0.714,
+     0.1735,
+     0.1125
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.1246
+   },
+   {
+    "id": 83251,
+    "md": 11,
+    "probs": [
+     0.1878,
+     0.2195,
+     0.5927
+    ],
+    "tip": [
+     1,
+     2
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "tendency": false,
+    "exact": false,
+    "brier": 0.9956
+   },
+   {
+    "id": 83252,
+    "md": 11,
+    "probs": [
+     0.609,
+     0.2231,
+     0.1679
+    ],
+    "tip": [
+     2,
+     0
+    ],
+    "score": [
+     5,
+     0
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.2309
+   },
+   {
+    "id": 83254,
+    "md": 11,
+    "probs": [
+     0.5217,
+     0.2485,
+     0.2298
+    ],
+    "tip": [
+     2,
+     1
+    ],
+    "score": [
+     8,
+     1
+    ],
+    "tendency": true,
+    "exact": false,
+    "brier": 0.3433
    }
   ]
  }

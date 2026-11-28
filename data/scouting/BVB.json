@@ -78,9 +78,9 @@
    1
   ],
   "probs": [
-   0.4703,
-   0.25,
-   0.2797
+   0.4918,
+   0.2459,
+   0.2623
   ]
  },
  "strengths": [
@@ -114,6 +114,13 @@
   }
  ],
  "weaknesses": [
+  {
+   "key": "xg_per_shot",
+   "label": "xG pro Schuss",
+   "value": 0.1009,
+   "fmt": "dec2",
+   "rank": 16
+  },
   {
    "key": "cross_accuracy",
    "label": "Flankenquote",
@@ -305,21 +312,21 @@
     "label": "Großchancen pro Spiel",
     "value": 2.5,
     "fmt": "dec1",
-    "rank": 12
+    "rank": 13
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
     "value": 0.1009,
     "fmt": "dec2",
-    "rank": 15
+    "rank": 16
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": 1.56,
     "fmt": "signed1",
-    "rank": 6
+    "rank": 5
    }
   ]
  },
@@ -416,7 +423,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.386,
     "fmt": "dec2",
-    "rank": 8
+    "rank": 7
    },
    {
     "key": "corners_pg",

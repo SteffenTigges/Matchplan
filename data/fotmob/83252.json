@@ -1,0 +1,2282 @@
+{
+ "v": 5,
+ "fm_id": 5881234,
+ "stats": {
+  "BallPossesion": [
+   47,
+   53
+  ],
+  "expected_goals": [
+   2.38,
+   2.13
+  ],
+  "total_shots": [
+   19,
+   24
+  ],
+  "ShotsOnTarget": [
+   6,
+   6
+  ],
+  "touches_opp_box": [
+   46,
+   37
+  ],
+  "big_chance": [
+   4,
+   2
+  ],
+  "big_chance_missed_title": [
+   1,
+   2
+  ],
+  "accurate_passes": [
+   {
+    "n": 351,
+    "pct": 83
+   },
+   {
+    "n": 398,
+    "pct": 84
+   }
+  ],
+  "yellow_cards": [
+   1,
+   1
+  ],
+  "corners": [
+   5,
+   10
+  ],
+  "blocked_shots": [
+   6,
+   10
+  ],
+  "shots_inside_box": [
+   17,
+   15
+  ],
+  "expected_goals_open_play": [
+   2.26,
+   1.54
+  ],
+  "expected_goals_set_play": [
+   0.13,
+   0.59
+  ],
+  "expected_goals_on_target": [
+   4.21,
+   1.03
+  ],
+  "passes": [
+   422,
+   474
+  ],
+  "own_half_passes": [
+   230,
+   195
+  ],
+  "opposition_half_passes": [
+   121,
+   203
+  ],
+  "long_balls_accurate": [
+   {
+    "n": 29,
+    "pct": 54
+   },
+   {
+    "n": 17,
+    "pct": 59
+   }
+  ],
+  "accurate_crosses": [
+   {
+    "n": 4,
+    "pct": 44
+   },
+   {
+    "n": 7,
+    "pct": 30
+   }
+  ],
+  "Offsides": [
+   2,
+   0
+  ],
+  "tackles": [
+   27,
+   26
+  ],
+  "interceptions": [
+   13,
+   5
+  ],
+  "shot_blocks": [
+   8,
+   6
+  ],
+  "clearances": [
+   33,
+   22
+  ],
+  "keeper_saves": [
+   6,
+   1
+  ],
+  "duel_won": [
+   56,
+   54
+  ],
+  "ground_duels_won": [
+   {
+    "n": 47,
+    "pct": 53
+   },
+   {
+    "n": 41,
+    "pct": 47
+   }
+  ],
+  "aerials_won": [
+   {
+    "n": 9,
+    "pct": 41
+   },
+   {
+    "n": 13,
+    "pct": 59
+   }
+  ],
+  "dribbles_succeeded": [
+   {
+    "n": 11,
+    "pct": 42
+   },
+   {
+    "n": 10,
+    "pct": 43
+   }
+  ],
+  "red_cards": [
+   0,
+   0
+  ],
+  "fouls": [
+   5,
+   10
+  ]
+ },
+ "shots": [
+  {
+   "team": "SVE",
+   "player": "Maurice Krattenmacher",
+   "min": 2,
+   "x": 84.9573529404,
+   "y": 44.4912101866,
+   "xg": 0.04772511124610901,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 3,
+   "x": 97.570175438,
+   "y": 32.856249999999996,
+   "xg": 0.08515603095293045,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Mikey Moore",
+   "min": 7,
+   "x": 90.8,
+   "y": 37.684,
+   "xg": 0.05534514784812927,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Marius Bülter",
+   "min": 8,
+   "x": 99.6896551728,
+   "y": 37.431250000000006,
+   "xg": 0.44678518176078796,
+   "xgot": 0.8854924440383911,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Mikey Moore",
+   "min": 10,
+   "x": 90.2,
+   "y": 48.06445859590001,
+   "xg": 0.03136732056736946,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Maurice Krattenmacher",
+   "min": 11,
+   "x": 91.9,
+   "y": 44.6313375752,
+   "xg": 0.07369374483823776,
+   "xgot": 0.1711399406194687,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 16,
+   "x": 95.54385964789999,
+   "y": 40.889761905,
+   "xg": 0.27442148327827454,
+   "xgot": 0.9807105660438538,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 19,
+   "x": 91.3,
+   "y": 46.0326114612,
+   "xg": 0.03387698903679848,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Jahmai Simpson-Pusey",
+   "min": 20,
+   "x": 96.1228070165,
+   "y": 36.36375,
+   "xg": 0.05065726488828659,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 24,
+   "x": 89.9,
+   "y": 32.856249999999996,
+   "xg": 0.08575766533613205,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 27,
+   "x": 90.5,
+   "y": 38.032142859000004,
+   "xg": 0.08527950197458267,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Sebastian Sebulonsen",
+   "min": 31,
+   "x": 90.2,
+   "y": 31.865,
+   "xg": 0.10884959250688553,
+   "xgot": 0.4925365149974823,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 31,
+   "x": 100.06896551759999,
+   "y": 44.7014012695,
+   "xg": 0.043792542070150375,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Francis Onyeka",
+   "min": 34,
+   "x": 90.7,
+   "y": 42.350624999999994,
+   "xg": 0.07278665900230408,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 37,
+   "x": 96.79824561320001,
+   "y": 32.3225,
+   "xg": 0.05776848644018173,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Łukasz Poręba",
+   "min": 37,
+   "x": 86.24558823480001,
+   "y": 32.0175,
+   "xg": 0.02094299905002117,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Marius Bülter",
+   "min": 39,
+   "x": 94,
+   "y": 36.8975,
+   "xg": 0.031025297939777374,
+   "xgot": 0.3458380699157715,
+   "situation": "RegularPlay",
+   "type": "Header",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lasse Günther",
+   "min": 41,
+   "x": 95.8333333322,
+   "y": 47.6440764301,
+   "xg": 0.06703878939151764,
+   "xgot": 0.11937370151281357,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 41,
+   "x": 91.5,
+   "y": 36.2875,
+   "xg": 0.11616011708974838,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Mikey Moore",
+   "min": 44,
+   "x": 91,
+   "y": 47.50394904150001,
+   "xg": 0.032629162073135376,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Joël Schmied",
+   "min": 45,
+   "x": 96.8947368413,
+   "y": 29.463571426999998,
+   "xg": 0.040228404104709625,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Felix Keidel",
+   "min": 45,
+   "x": 82.2597087384,
+   "y": 32.17,
+   "xg": 0.07178369164466858,
+   "xgot": 0.15374965965747833,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Linton Maina",
+   "min": 50,
+   "x": 100.8275862072,
+   "y": 46.6631847099,
+   "xg": 0.049245014786720276,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Francis Onyeka",
+   "min": 51,
+   "x": 91.5,
+   "y": 31.48375,
+   "xg": 0.5204810500144958,
+   "xgot": 0.20500296354293823,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Łukasz Poręba",
+   "min": 51,
+   "x": 83.49854368960001,
+   "y": 39.460952381999995,
+   "xg": 0.026645679026842117,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Felix Keidel",
+   "min": 55,
+   "x": 77.3043689336,
+   "y": 29.967857141,
+   "xg": 0.04599647596478462,
+   "xgot": 0,
+   "situation": "FreeKick",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Maximilian Rohr",
+   "min": 57,
+   "x": 100.1637931038,
+   "y": 26.6321875,
+   "xg": 0.09484129399061203,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 58,
+   "x": 97.2807017537,
+   "y": 24.84,
+   "xg": 0.06092463806271553,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 59,
+   "x": 100.1637931038,
+   "y": 30.232,
+   "xg": 0.11741228401660919,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Jan Gyamerah",
+   "min": 59,
+   "x": 85.17205882280001,
+   "y": 20.0756687927,
+   "xg": 0.0054521700367331505,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 61,
+   "x": 81.92184466079999,
+   "y": 46.8033120985,
+   "xg": 0.03000088781118393,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Linton Maina",
+   "min": 62,
+   "x": 92.9,
+   "y": 25.8228125,
+   "xg": 0.0717373788356781,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Marius Bülter",
+   "min": 63,
+   "x": 73.13737864320001,
+   "y": 36.5925,
+   "xg": 0.07779739797115326,
+   "xgot": 0.9016813039779663,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 66,
+   "x": 90.5,
+   "y": 34,
+   "xg": 0.19894306361675262,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Cole Campbell",
+   "min": 66,
+   "x": 98.24561403470001,
+   "y": 44.7714649638,
+   "xg": 0.0531780831515789,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 67,
+   "x": 87.53382352919999,
+   "y": 37.696,
+   "xg": 0.04589436948299408,
+   "xgot": 0.32665398716926575,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Saïd El Mala",
+   "min": 68,
+   "x": 94.7719298231,
+   "y": 36.5925,
+   "xg": 0.684558629989624,
+   "xgot": 0.6032475829124451,
+   "situation": "FastBreak",
+   "type": "RightFoot",
+   "result": "goal",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Cole Campbell",
+   "min": 71,
+   "x": 80.908252428,
+   "y": 37.732,
+   "xg": 0.05075247958302498,
+   "xgot": 0.04958413168787956,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "David Mokwa",
+   "min": 71,
+   "x": 95.640350876,
+   "y": 25.938437500000003,
+   "xg": 0.3124484121799469,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Łukasz Poręba",
+   "min": 75,
+   "x": 80.5703883504,
+   "y": 31.7125,
+   "xg": 0.04505666717886925,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 78,
+   "x": 95.2543859636,
+   "y": 34.1525,
+   "xg": 0.04527287557721138,
+   "xgot": 0,
+   "situation": "SetPiece",
+   "type": "Header",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "KOE",
+   "player": "Paul Okon-Engstler",
+   "min": 83,
+   "x": 92.5,
+   "y": 22.808152870399997,
+   "xg": 0.037595443427562714,
+   "xgot": 0,
+   "situation": "FromCorner",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SVE",
+   "player": "Lukas Petkov",
+   "min": 88,
+   "x": 91.1,
+   "y": 17.9737579637,
+   "xg": 0.02721366100013256,
+   "xgot": 0,
+   "situation": "ThrowInSetPiece",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
+  }
+ ],
+ "momentum": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   -5
+  ],
+  [
+   2,
+   -38
+  ],
+  [
+   3,
+   -84
+  ],
+  [
+   4,
+   -95
+  ],
+  [
+   5,
+   -62
+  ],
+  [
+   6,
+   -8
+  ],
+  [
+   7,
+   46
+  ],
+  [
+   8,
+   100
+  ],
+  [
+   9,
+   100
+  ],
+  [
+   10,
+   92
+  ],
+  [
+   11,
+   -3
+  ],
+  [
+   12,
+   -3
+  ],
+  [
+   13,
+   11
+  ],
+  [
+   14,
+   27
+  ],
+  [
+   15,
+   27
+  ],
+  [
+   16,
+   38
+  ],
+  [
+   17,
+   33
+  ],
+  [
+   18,
+   33
+  ],
+  [
+   19,
+   8
+  ],
+  [
+   20,
+   11
+  ],
+  [
+   21,
+   65
+  ],
+  [
+   22,
+   46
+  ],
+  [
+   23,
+   38
+  ],
+  [
+   24,
+   -71
+  ],
+  [
+   25,
+   -57
+  ],
+  [
+   26,
+   -41
+  ],
+  [
+   27,
+   65
+  ],
+  [
+   28,
+   52
+  ],
+  [
+   29,
+   46
+  ],
+  [
+   30,
+   -5
+  ],
+  [
+   31,
+   43
+  ],
+  [
+   32,
+   38
+  ],
+  [
+   33,
+   22
+  ],
+  [
+   34,
+   -100
+  ],
+  [
+   35,
+   -100
+  ],
+  [
+   36,
+   -100
+  ],
+  [
+   37,
+   -62
+  ],
+  [
+   38,
+   -30
+  ],
+  [
+   39,
+   11
+  ],
+  [
+   40,
+   35
+  ],
+  [
+   41,
+   14
+  ],
+  [
+   42,
+   -38
+  ],
+  [
+   43,
+   -49
+  ],
+  [
+   44,
+   -11
+  ],
+  [
+   45,
+   24
+  ],
+  [
+   45.5,
+   20
+  ],
+  [
+   46,
+   5
+  ],
+  [
+   47,
+   -5
+  ],
+  [
+   48,
+   -5
+  ],
+  [
+   49,
+   -5
+  ],
+  [
+   50,
+   5
+  ],
+  [
+   51,
+   0
+  ],
+  [
+   52,
+   -11
+  ],
+  [
+   53,
+   -5
+  ],
+  [
+   54,
+   -22
+  ],
+  [
+   55,
+   -16
+  ],
+  [
+   56,
+   -27
+  ],
+  [
+   57,
+   -46
+  ],
+  [
+   58,
+   -73
+  ],
+  [
+   59,
+   -100
+  ],
+  [
+   60,
+   -100
+  ],
+  [
+   61,
+   -92
+  ],
+  [
+   62,
+   0
+  ],
+  [
+   63,
+   11
+  ],
+  [
+   64,
+   27
+  ],
+  [
+   65,
+   -5
+  ],
+  [
+   66,
+   19
+  ],
+  [
+   67,
+   -14
+  ],
+  [
+   68,
+   35
+  ],
+  [
+   69,
+   16
+  ],
+  [
+   70,
+   33
+  ],
+  [
+   71,
+   -27
+  ],
+  [
+   72,
+   -33
+  ],
+  [
+   73,
+   -11
+  ],
+  [
+   74,
+   38
+  ],
+  [
+   75,
+   22
+  ],
+  [
+   76,
+   27
+  ],
+  [
+   77,
+   8
+  ],
+  [
+   78,
+   -3
+  ],
+  [
+   79,
+   -8
+  ],
+  [
+   80,
+   -22
+  ],
+  [
+   81,
+   11
+  ],
+  [
+   82,
+   0
+  ],
+  [
+   83,
+   14
+  ],
+  [
+   84,
+   -3
+  ],
+  [
+   85,
+   3
+  ],
+  [
+   86,
+   -5
+  ],
+  [
+   87,
+   16
+  ],
+  [
+   88,
+   -5
+  ],
+  [
+   89,
+   -16
+  ],
+  [
+   90,
+   0
+  ],
+  [
+   90.5,
+   -3
+  ],
+  [
+   90.75,
+   0
+  ]
+ ],
+ "zones": {
+  "home": {
+   "left": 42,
+   "center": 30,
+   "right": 28
+  },
+  "away": {
+   "left": 35,
+   "center": 33,
+   "right": 32
+  }
+ },
+ "lineups": {
+  "home": {
+   "team": "KOE",
+   "formation": "3-1-4-2",
+   "rating": 7.6,
+   "players": [
+    {
+     "id": 573465,
+     "name": "Marvin Schwäbe",
+     "pos_id": 11,
+     "rating": 8.6,
+     "captain": true,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 1003254,
+     "name": "Joël Schmied",
+     "pos_id": 33,
+     "rating": 8.4,
+     "captain": false,
+     "x": 0.21,
+     "y": 0.292
+    },
+    {
+     "id": 1463271,
+     "name": "Jahmai Simpson-Pusey",
+     "pos_id": 35,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.292
+    },
+    {
+     "id": 992060,
+     "name": "Tom Krauß",
+     "pos_id": 37,
+     "rating": 7.7,
+     "captain": false,
+     "x": 0.79,
+     "y": 0.292
+    },
+    {
+     "id": 1527363,
+     "name": "Paul Okon-Engstler",
+     "pos_id": 65,
+     "rating": 7.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.485
+    },
+    {
+     "id": 936140,
+     "name": "Sebastian Sebulonsen",
+     "pos_id": 72,
+     "rating": 7.4,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.678
+    },
+    {
+     "id": 930035,
+     "name": "Linton Maina",
+     "pos_id": 74,
+     "rating": 8,
+     "captain": false,
+     "x": 0.375,
+     "y": 0.678
+    },
+    {
+     "id": 1407250,
+     "name": "Mikey Moore",
+     "pos_id": 76,
+     "rating": 7.5,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.678
+    },
+    {
+     "id": 622091,
+     "name": "Borna Sosa",
+     "pos_id": 78,
+     "rating": 9,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.678
+    },
+    {
+     "id": 626890,
+     "name": "Marius Bülter",
+     "pos_id": 104,
+     "rating": 9.7,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.87
+    },
+    {
+     "id": 1613676,
+     "name": "Saïd El Mala",
+     "pos_id": 106,
+     "rating": 9,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.87
+    }
+   ]
+  },
+  "away": {
+   "team": "SVE",
+   "formation": "4-2-3-1",
+   "rating": 5.9,
+   "players": [
+    {
+     "id": 1285926,
+     "name": "Nicolas Kristof",
+     "pos_id": 11,
+     "rating": 3.9,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "id": 458602,
+     "name": "Jan Gyamerah",
+     "pos_id": 32,
+     "rating": 4.3,
+     "captain": false,
+     "x": 0.125,
+     "y": 0.292
+    },
+    {
+     "id": 1280560,
+     "name": "Lukas Pinckert",
+     "pos_id": 34,
+     "rating": 5.2,
+     "captain": true,
+     "x": 0.375,
+     "y": 0.292
+    },
+    {
+     "id": 1077911,
+     "name": "Maximilian Rohr",
+     "pos_id": 36,
+     "rating": 4.1,
+     "captain": false,
+     "x": 0.625,
+     "y": 0.292
+    },
+    {
+     "id": 1245692,
+     "name": "Lasse Günther",
+     "pos_id": 38,
+     "rating": 5.8,
+     "captain": false,
+     "x": 0.875,
+     "y": 0.292
+    },
+    {
+     "id": 1366338,
+     "name": "Felix Keidel",
+     "pos_id": 64,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.3,
+     "y": 0.485
+    },
+    {
+     "id": 962113,
+     "name": "Łukasz Poręba",
+     "pos_id": 66,
+     "rating": 7.2,
+     "captain": false,
+     "x": 0.7,
+     "y": 0.485
+    },
+    {
+     "id": 1093782,
+     "name": "Lukas Petkov",
+     "pos_id": 83,
+     "rating": 7,
+     "captain": false,
+     "x": 0.162,
+     "y": 0.678
+    },
+    {
+     "id": 1603681,
+     "name": "Francis Onyeka",
+     "pos_id": 85,
+     "rating": 6.4,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.678
+    },
+    {
+     "id": 1412933,
+     "name": "Maurice Krattenmacher",
+     "pos_id": 87,
+     "rating": 6.1,
+     "captain": false,
+     "x": 0.837,
+     "y": 0.678
+    },
+    {
+     "id": 1459758,
+     "name": "David Mokwa",
+     "pos_id": 115,
+     "rating": 6.7,
+     "captain": false,
+     "x": 0.5,
+     "y": 0.87
+    }
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": 41087,
+   "team": "KOE",
+   "name": "Ron-Robert Zieler",
+   "keeper": true
+  },
+  {
+   "id": 458602,
+   "team": "SVE",
+   "name": "Jan Gyamerah",
+   "keeper": false,
+   "rating": 4.33,
+   "minutes": 60,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.01,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 55,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 5,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 6,
+   "duels_lost": 2
+  },
+  {
+   "id": 540073,
+   "team": "KOE",
+   "name": "Gian-Luca Waldschmidt",
+   "keeper": false
+  },
+  {
+   "id": 573465,
+   "team": "KOE",
+   "name": "Marvin Schwäbe",
+   "keeper": true,
+   "rating": 8.6,
+   "minutes": 90,
+   "recoveries": 6,
+   "touches": 59,
+   "tackles": 0,
+   "final_third_passes": 5,
+   "interceptions": 0
+  },
+  {
+   "id": 594886,
+   "team": "SVE",
+   "name": "Florian Le Joncour",
+   "keeper": false
+  },
+  {
+   "id": 622091,
+   "team": "KOE",
+   "name": "Borna Sosa",
+   "keeper": false,
+   "rating": 8.98,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 2,
+   "xa": 0.49,
+   "key_passes": 4,
+   "touches": 77,
+   "touches_box": 1,
+   "dribbles": 0,
+   "final_third_passes": 8,
+   "tackles": 5,
+   "interceptions": 1,
+   "recoveries": 4,
+   "duels_won": 6,
+   "duels_lost": 5
+  },
+  {
+   "id": 626890,
+   "team": "KOE",
+   "name": "Marius Bülter",
+   "keeper": false,
+   "rating": 9.73,
+   "minutes": 73,
+   "goals": 3,
+   "assists": 0,
+   "xg": 0.56,
+   "xa": 0.25,
+   "shots": 3,
+   "key_passes": 4,
+   "touches": 30,
+   "touches_box": 7,
+   "dribbles": 1,
+   "final_third_passes": 2,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 5,
+   "duels_lost": 5
+  },
+  {
+   "id": 659051,
+   "team": "SVE",
+   "name": "Tim Boss",
+   "keeper": true
+  },
+  {
+   "id": 763990,
+   "team": "SVE",
+   "name": "Amara Condé",
+   "keeper": false,
+   "rating": 6.4,
+   "minutes": 30,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.07,
+   "key_passes": 1,
+   "touches": 22,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 2
+  },
+  {
+   "id": 771630,
+   "team": "KOE",
+   "name": "Gideon Mensah",
+   "keeper": false
+  },
+  {
+   "id": 772193,
+   "team": "KOE",
+   "name": "Ragnar Ache",
+   "keeper": false,
+   "rating": 6.04,
+   "minutes": 17,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 9,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_won": 2,
+   "duels_lost": 2
+  },
+  {
+   "id": 784175,
+   "team": "KOE",
+   "name": "Luka Lochoshvili",
+   "keeper": false,
+   "rating": 6.12,
+   "minutes": 12,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 0,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  },
+  {
+   "id": 930035,
+   "team": "KOE",
+   "name": "Linton Maina",
+   "keeper": false,
+   "rating": 8.01,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.05,
+   "shots": 2,
+   "key_passes": 2,
+   "touches": 54,
+   "touches_box": 7,
+   "dribbles": 3,
+   "final_third_passes": 2,
+   "tackles": 5,
+   "interceptions": 2,
+   "recoveries": 7,
+   "duels_won": 9,
+   "duels_lost": 8
+  },
+  {
+   "id": 936140,
+   "team": "KOE",
+   "name": "Sebastian Sebulonsen",
+   "keeper": false,
+   "rating": 7.4,
+   "minutes": 73,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.11,
+   "xa": 0.02,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 40,
+   "touches_box": 1,
+   "dribbles": 1,
+   "final_third_passes": 3,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 940015,
+   "team": "SVE",
+   "name": "Tom Zimmerschied",
+   "keeper": false
+  },
+  {
+   "id": 962113,
+   "team": "SVE",
+   "name": "Łukasz Poręba",
+   "keeper": false,
+   "rating": 7.19,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.16,
+   "shots": 3,
+   "key_passes": 0,
+   "touches": 83,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 8,
+   "tackles": 4,
+   "interceptions": 0,
+   "recoveries": 13,
+   "duels_won": 10,
+   "duels_lost": 5
+  },
+  {
+   "id": 992060,
+   "team": "KOE",
+   "name": "Tom Krauß",
+   "keeper": false,
+   "rating": 7.72,
+   "minutes": 78,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 79,
+   "touches_box": 0,
+   "final_third_passes": 6,
+   "tackles": 2,
+   "interceptions": 4,
+   "recoveries": 6,
+   "duels_won": 4,
+   "duels_lost": 2
+  },
+  {
+   "id": 1000428,
+   "team": "KOE",
+   "name": "Ísak Jóhannesson",
+   "keeper": false,
+   "rating": 6.07,
+   "minutes": 25,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.04,
+   "key_passes": 0,
+   "touches": 18,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 0,
+   "duels_lost": 2
+  },
+  {
+   "id": 1003254,
+   "team": "KOE",
+   "name": "Joël Schmied",
+   "keeper": false,
+   "rating": 8.41,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.04,
+   "xa": 0.11,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 53,
+   "touches_box": 2,
+   "final_third_passes": 6,
+   "tackles": 7,
+   "interceptions": 1,
+   "recoveries": 2,
+   "duels_won": 7,
+   "duels_lost": 1
+  },
+  {
+   "id": 1077911,
+   "team": "SVE",
+   "name": "Maximilian Rohr",
+   "keeper": false,
+   "rating": 4.08,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.09,
+   "xa": 0.06,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 78,
+   "touches_box": 1,
+   "final_third_passes": 9,
+   "tackles": 1,
+   "interceptions": 2,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 1093782,
+   "team": "SVE",
+   "name": "Lukas Petkov",
+   "keeper": false,
+   "rating": 6.98,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.35,
+   "xa": 0.1,
+   "shots": 5,
+   "key_passes": 1,
+   "touches": 68,
+   "touches_box": 8,
+   "dribbles": 2,
+   "final_third_passes": 2,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 9,
+   "duels_lost": 7
+  },
+  {
+   "id": 1097361,
+   "team": "SVE",
+   "name": "Luca Sirch",
+   "keeper": false,
+   "rating": 6.65,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 1,
+   "touches": 29,
+   "touches_box": 0,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 1,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 1119643,
+   "team": "KOE",
+   "name": "Jan Thielmann",
+   "keeper": false,
+   "rating": 6.23,
+   "minutes": 17,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.01,
+   "key_passes": 0,
+   "touches": 15,
+   "touches_box": 0,
+   "final_third_passes": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2
+  },
+  {
+   "id": 1138725,
+   "team": "SVE",
+   "name": "Noel Futkeu",
+   "keeper": false
+  },
+  {
+   "id": 1245692,
+   "team": "SVE",
+   "name": "Lasse Günther",
+   "keeper": false,
+   "rating": 5.81,
+   "minutes": 89,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.07,
+   "xa": 0.24,
+   "shots": 1,
+   "key_passes": 3,
+   "touches": 77,
+   "touches_box": 4,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 6,
+   "duels_won": 6,
+   "duels_lost": 3
+  },
+  {
+   "id": 1280560,
+   "team": "SVE",
+   "name": "Lukas Pinckert",
+   "keeper": false,
+   "rating": 5.23,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 54,
+   "touches_box": 0,
+   "final_third_passes": 1,
+   "tackles": 4,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 4,
+   "duels_lost": 3
+  },
+  {
+   "id": 1281256,
+   "team": "SVE",
+   "name": "Frederik Schmahl",
+   "keeper": false,
+   "rating": 5.85,
+   "minutes": 21,
+   "goals": 0,
+   "assists": 0,
+   "xa": 0.03,
+   "key_passes": 0,
+   "touches": 11,
+   "touches_box": 2,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 2
+  },
+  {
+   "id": 1285926,
+   "team": "SVE",
+   "name": "Nicolas Kristof",
+   "keeper": true,
+   "rating": 3.91,
+   "minutes": 90,
+   "recoveries": 4,
+   "touches": 37,
+   "duels_won": 1,
+   "tackles": 1,
+   "final_third_passes": 1,
+   "interceptions": 0
+  },
+  {
+   "id": 1288195,
+   "team": "SVE",
+   "name": "Cole Campbell",
+   "keeper": false,
+   "rating": 5.89,
+   "minutes": 30,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.1,
+   "xa": 0.02,
+   "shots": 2,
+   "key_passes": 0,
+   "touches": 20,
+   "touches_box": 2,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 0,
+   "duels_lost": 1
+  },
+  {
+   "id": 1366338,
+   "team": "SVE",
+   "name": "Felix Keidel",
+   "keeper": false,
+   "rating": 6.36,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.39,
+   "shots": 2,
+   "key_passes": 5,
+   "touches": 65,
+   "touches_box": 0,
+   "dribbles": 2,
+   "final_third_passes": 2,
+   "tackles": 2,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 9
+  },
+  {
+   "id": 1407250,
+   "team": "KOE",
+   "name": "Mikey Moore",
+   "keeper": false,
+   "rating": 7.54,
+   "minutes": 65,
+   "goals": 0,
+   "assists": 1,
+   "xg": 0.12,
+   "xa": 0.19,
+   "shots": 3,
+   "key_passes": 3,
+   "touches": 32,
+   "touches_box": 5,
+   "dribbles": 0,
+   "final_third_passes": 5,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 1,
+   "duels_lost": 5
+  },
+  {
+   "id": 1412933,
+   "team": "SVE",
+   "name": "Maurice Krattenmacher",
+   "keeper": false,
+   "rating": 6.11,
+   "minutes": 60,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.12,
+   "xa": 0.03,
+   "shots": 2,
+   "key_passes": 1,
+   "touches": 32,
+   "touches_box": 6,
+   "dribbles": 0,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 2,
+   "duels_won": 2,
+   "duels_lost": 7
+  },
+  {
+   "id": 1459758,
+   "team": "SVE",
+   "name": "David Mokwa",
+   "keeper": false,
+   "rating": 6.7,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.6,
+   "xa": 0.03,
+   "shots": 5,
+   "key_passes": 1,
+   "touches": 45,
+   "touches_box": 8,
+   "dribbles": 3,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 3,
+   "duels_won": 5,
+   "duels_lost": 5
+  },
+  {
+   "id": 1463271,
+   "team": "KOE",
+   "name": "Jahmai Simpson-Pusey",
+   "keeper": false,
+   "rating": 7.38,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.05,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 63,
+   "touches_box": 1,
+   "final_third_passes": 1,
+   "tackles": 0,
+   "interceptions": 1,
+   "recoveries": 5,
+   "duels_won": 2,
+   "duels_lost": 1
+  },
+  {
+   "id": 1527363,
+   "team": "KOE",
+   "name": "Paul Okon-Engstler",
+   "keeper": false,
+   "rating": 7.86,
+   "minutes": 90,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.04,
+   "xa": 0.01,
+   "shots": 1,
+   "key_passes": 0,
+   "touches": 70,
+   "touches_box": 1,
+   "dribbles": 2,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 1,
+   "recoveries": 10,
+   "duels_won": 6,
+   "duels_lost": 4
+  },
+  {
+   "id": 1603681,
+   "team": "SVE",
+   "name": "Francis Onyeka",
+   "keeper": false,
+   "rating": 6.37,
+   "minutes": 69,
+   "goals": 0,
+   "assists": 0,
+   "xg": 0.59,
+   "xa": 0.1,
+   "shots": 2,
+   "key_passes": 3,
+   "touches": 30,
+   "touches_box": 4,
+   "final_third_passes": 4,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_lost": 5
+  },
+  {
+   "id": 1613676,
+   "team": "KOE",
+   "name": "Saïd El Mala",
+   "keeper": false,
+   "rating": 8.99,
+   "minutes": 78,
+   "goals": 2,
+   "assists": 0,
+   "xg": 1.35,
+   "xa": 0.01,
+   "shots": 7,
+   "key_passes": 2,
+   "touches": 43,
+   "touches_box": 20,
+   "dribbles": 3,
+   "final_third_passes": 3,
+   "tackles": 3,
+   "interceptions": 0,
+   "recoveries": 4,
+   "duels_won": 7,
+   "duels_lost": 10
+  },
+  {
+   "id": 1640790,
+   "team": "KOE",
+   "name": "Malek El Mala",
+   "keeper": false
+  },
+  {
+   "id": 1665352,
+   "team": "KOE",
+   "name": "Reigan Heskey",
+   "keeper": false,
+   "rating": 6.07,
+   "minutes": 12,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 5,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 1,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 2,
+   "duels_lost": 3
+  },
+  {
+   "id": 1730149,
+   "team": "SVE",
+   "name": "Raif Adam",
+   "keeper": false,
+   "minutes": 1,
+   "goals": 0,
+   "assists": 0,
+   "key_passes": 0,
+   "touches": 6,
+   "touches_box": 0,
+   "dribbles": 1,
+   "tackles": 0,
+   "interceptions": 0,
+   "recoveries": 1,
+   "duels_won": 1,
+   "duels_lost": 1
+  }
+ ],
+ "referee": {
+  "name": "Sören Storks",
+  "id": 1001076851,
+  "country": "Germany"
+ },
+ "events": [
+  {
+   "min": 8,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Marius Bülter",
+   "player_id": 626890,
+   "assist": "Borna Sosa",
+   "score": [
+    1,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 16,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Saïd El Mala",
+   "player_id": 1613676,
+   "assist": "Mikey Moore",
+   "score": [
+    2,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 39,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Marius Bülter",
+   "player_id": 626890,
+   "assist": "Borna Sosa",
+   "score": [
+    3,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 45,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "HT"
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Amara Condé",
+   "in_id": 763990,
+   "out": "Jan Gyamerah",
+   "out_id": 458602
+  },
+  {
+   "min": 60,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Cole Campbell",
+   "in_id": 1288195,
+   "out": "Maurice Krattenmacher",
+   "out_id": 1412933
+  },
+  {
+   "min": 63,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Marius Bülter",
+   "player_id": 626890,
+   "assist": null,
+   "score": [
+    4,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 64,
+   "plus": null,
+   "home": true,
+   "type": "card",
+   "card": "yellow",
+   "player": "Linton Maina",
+   "player_id": 930035
+  },
+  {
+   "min": 65,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ísak Jóhannesson",
+   "in_id": 1000428,
+   "out": "Mikey Moore",
+   "out_id": 1407250
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": true,
+   "type": "goal",
+   "player": "Saïd El Mala",
+   "player_id": 1613676,
+   "assist": "Joël Schmied",
+   "score": [
+    5,
+    0
+   ],
+   "own_goal": false,
+   "penalty": false
+  },
+  {
+   "min": 68,
+   "plus": null,
+   "home": false,
+   "type": "card",
+   "card": "yellow",
+   "player": "Maximilian Rohr",
+   "player_id": 1077911
+  },
+  {
+   "min": 69,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Frederik Schmahl",
+   "in_id": 1281256,
+   "out": "Francis Onyeka",
+   "out_id": 1603681
+  },
+  {
+   "min": 69,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Luca Sirch",
+   "in_id": 1097361,
+   "out": "Felix Keidel",
+   "out_id": 1366338
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Jan Thielmann",
+   "in_id": 1119643,
+   "out": "Sebastian Sebulonsen",
+   "out_id": 936140
+  },
+  {
+   "min": 73,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Ragnar Ache",
+   "in_id": 772193,
+   "out": "Marius Bülter",
+   "out_id": 626890
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Reigan Heskey",
+   "in_id": 1665352,
+   "out": "Saïd El Mala",
+   "out_id": 1613676
+  },
+  {
+   "min": 78,
+   "plus": null,
+   "home": true,
+   "type": "sub",
+   "in": "Luka Lochoshvili",
+   "in_id": 784175,
+   "out": "Tom Krauß",
+   "out_id": 992060
+  },
+  {
+   "min": 89,
+   "plus": null,
+   "home": false,
+   "type": "sub",
+   "in": "Raif Adam",
+   "in_id": 1730149,
+   "out": "Lasse Günther",
+   "out_id": 1245692
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "added",
+   "text": "+ 2 minutes added"
+  },
+  {
+   "min": 90,
+   "plus": null,
+   "home": null,
+   "type": "half",
+   "text": "FT"
+  }
+ ],
+ "oldb_id": 83252,
+ "matchday": 11,
+ "season": 2026
+}

@@ -1,23 +1,23 @@
 {
- "updated_at": "2026-11-28T01:57:48+00:00",
+ "updated_at": "2026-11-28T17:30:55+00:00",
  "league": {
-  "yellow_pg": 3.57,
-  "fouls_pg": 22.2,
+  "yellow_pg": 3.53,
+  "fouls_pg": 22.0,
   "penalties_pg": 0.24
  },
  "referees": {
   "Sören Storks": {
    "name": "Sören Storks",
    "id": 1001076851,
-   "games": 4,
-   "yellow_pg": 4.0,
+   "games": 5,
+   "yellow_pg": 3.6,
    "red": 0,
-   "fouls_pg": 22.5,
+   "fouls_pg": 21.0,
    "penalties": 0,
    "penalties_pg": 0.0,
-   "home_win": 0.5,
-   "draw": 0.25,
-   "away_win": 0.25,
+   "home_win": 0.6,
+   "draw": 0.2,
+   "away_win": 0.2,
    "teams": {
     "FCB": {
      "games": 1,
@@ -44,6 +44,14 @@
      "points": 3
     },
     "SVW": {
+     "games": 1,
+     "points": 0
+    },
+    "KOE": {
+     "games": 1,
+     "points": 3
+    },
+    "SVE": {
      "games": 1,
      "points": 0
     }
@@ -299,14 +307,14 @@
   "Bastian Dankert": {
    "name": "Bastian Dankert",
    "id": 1001073469,
-   "games": 4,
-   "yellow_pg": 3.5,
-   "red": 1,
-   "fouls_pg": 24.2,
+   "games": 5,
+   "yellow_pg": 3.4,
+   "red": 2,
+   "fouls_pg": 24.0,
    "penalties": 1,
-   "penalties_pg": 0.25,
-   "home_win": 0.5,
-   "draw": 0.5,
+   "penalties_pg": 0.2,
+   "home_win": 0.4,
+   "draw": 0.6,
    "away_win": 0.0,
    "teams": {
     "FCU": {
@@ -334,6 +342,14 @@
      "points": 0
     },
     "SCP": {
+     "games": 1,
+     "points": 1
+    },
+    "HSV": {
+     "games": 1,
+     "points": 1
+    },
+    "FCB": {
      "games": 1,
      "points": 1
     }
@@ -929,18 +945,18 @@
   "Timo Gerach": {
    "name": "Timo Gerach",
    "id": 1001072482,
-   "games": 2,
-   "yellow_pg": 4.5,
+   "games": 3,
+   "yellow_pg": 4.0,
    "red": 0,
-   "fouls_pg": 20.0,
+   "fouls_pg": 20.7,
    "penalties": 0,
    "penalties_pg": 0.0,
-   "home_win": 0.0,
-   "draw": 0.5,
-   "away_win": 0.5,
+   "home_win": 0.333,
+   "draw": 0.333,
+   "away_win": 0.333,
    "teams": {
     "FCU": {
-     "games": 1,
+     "games": 2,
      "points": 0
     },
     "S04": {
@@ -954,20 +970,24 @@
     "SCP": {
      "games": 1,
      "points": 1
+    },
+    "M05": {
+     "games": 1,
+     "points": 3
     }
    }
   },
   "Florian Exner": {
    "name": "Florian Exner",
    "id": 1001071096,
-   "games": 3,
-   "yellow_pg": 5.33,
+   "games": 4,
+   "yellow_pg": 4.5,
    "red": 0,
-   "fouls_pg": 24.3,
-   "penalties": 5,
-   "penalties_pg": 1.67,
-   "home_win": 0.667,
-   "draw": 0.333,
+   "fouls_pg": 22.0,
+   "penalties": 6,
+   "penalties_pg": 1.5,
+   "home_win": 0.75,
+   "draw": 0.25,
    "away_win": 0.0,
    "teams": {
     "KOE": {
@@ -993,36 +1013,19 @@
     "HSV": {
      "games": 1,
      "points": 0
+    },
+    "SCP": {
+     "games": 1,
+     "points": 3
+    },
+    "S04": {
+     "games": 1,
+     "points": 0
     }
    }
   }
  },
  "upcoming": {
-  "83252": {
-   "name": "Sören Storks",
-   "id": 1001076851,
-   "country": "Germany"
-  },
-  "83251": {
-   "name": "Bastian Dankert",
-   "id": 1001073469,
-   "country": "Germany"
-  },
-  "83250": {
-   "name": "Timo Gerach",
-   "id": 1001072482,
-   "country": "Germany"
-  },
-  "83254": {
-   "name": "Florian Exner",
-   "id": 1001071096,
-   "country": "Germany"
-  },
-  "83247": {
-   "name": "Sascha Stegemann",
-   "id": 1001080233,
-   "country": "Germany"
-  },
   "83249": {
    "name": "Benjamin Brand",
    "id": 1001073404,

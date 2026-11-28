@@ -21,9 +21,9 @@
    1
   ],
   "probs": [
-   0.4336,
-   0.243,
-   0.3235
+   0.4556,
+   0.2402,
+   0.3042
   ]
  },
  "strengths": [
@@ -33,13 +33,6 @@
    "value": 0.5391,
    "fmt": "pct",
    "rank": 1
-  },
-  {
-   "key": "against_pg",
-   "label": "Gegentore pro Spiel",
-   "value": 1.0,
-   "fmt": "dec2",
-   "rank": 2
   },
   {
    "key": "xga_pg",
@@ -54,9 +47,31 @@
    "value": 10.1,
    "fmt": "dec1",
    "rank": 2
+  },
+  {
+   "key": "big_chances_against_pg",
+   "label": "Zugelassene Großchancen pro Spiel",
+   "value": 1.9,
+   "fmt": "dec1",
+   "rank": 2
   }
  ],
- "weaknesses": [],
+ "weaknesses": [
+  {
+   "key": "inside_box_share",
+   "label": "Anteil Schüsse aus dem Strafraum",
+   "value": 0.6316,
+   "fmt": "pct",
+   "rank": 16
+  },
+  {
+   "key": "tackles_pg",
+   "label": "Tacklings pro Spiel",
+   "value": 14.6,
+   "fmt": "dec1",
+   "rank": 16
+  }
+ ],
  "matchplan": [
   {
    "key": "late",
@@ -107,12 +122,12 @@
   },
   {
    "key": "strength",
-   "text": "Stark: Gegentore pro Spiel (Platz 2)",
+   "text": "Stark: Zugelassene xG pro Spiel (Platz 2)",
    "evidence": [
     {
-     "key": "against_pg",
-     "label": "Gegentore pro Spiel",
-     "value": 1.0,
+     "key": "xga_pg",
+     "label": "Zugelassene xG pro Spiel",
+     "value": 1.123,
      "fmt": "dec2",
      "rank": 2
     }
@@ -154,7 +169,7 @@
     "label": "Flankenquote",
     "value": 0.2695,
     "fmt": "pct",
-    "rank": 4
+    "rank": 5
    },
    {
     "key": "field_tilt",
@@ -292,7 +307,7 @@
     "label": "Gegentore pro Spiel",
     "value": 1.0,
     "fmt": "dec2",
-    "rank": 2
+    "rank": 3
    },
    {
     "key": "xga_pg",
@@ -345,7 +360,7 @@
     "label": "Ecken pro Spiel",
     "value": 4.6,
     "fmt": "dec1",
-    "rank": 12
+    "rank": 13
    }
   ],
   "goals_for": 3,

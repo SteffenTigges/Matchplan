@@ -1,7 +1,7 @@
 {
  "team": "KOE",
- "matches": 10,
- "fotmob_matches": 10,
+ "matches": 11,
+ "fotmob_matches": 11,
  "idea": {
   "formations": [
    {
@@ -11,6 +11,10 @@
    {
     "formation": "4-3-3",
     "games": 2
+   },
+   {
+    "formation": "3-1-4-2",
+    "games": 1
    },
    {
     "formation": "3-5-1-1",
@@ -39,7 +43,7 @@
     "evidence": [
      {
       "label": "Anteil Tore nach Kontern",
-      "value": 0.2,
+      "value": 0.267,
       "fmt": "pct"
      }
     ]
@@ -47,123 +51,170 @@
   ]
  },
  "next": {
-  "id": 83252,
-  "home": "KOE",
-  "away": "SVE",
-  "kickoff": "2026-11-28T14:30:00Z",
-  "tip": [
-   2,
-   1
-  ],
-  "probs": [
-   0.546,
-   0.2416,
-   0.2125
-  ]
+  "id": 83260,
+  "home": "FCA",
+  "away": "KOE",
+  "kickoff": "2026-12-05T14:30:00Z",
+  "tip": null,
+  "probs": null
  },
- "strengths": [],
+ "strengths": [
+  {
+   "key": "fouls_pg",
+   "label": "Fouls pro Spiel",
+   "value": 9.5455,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "key": "tackles_pg",
+   "label": "Tacklings pro Spiel",
+   "value": 18.3636,
+   "fmt": "dec1",
+   "rank": 3
+  }
+ ],
  "weaknesses": [
   {
    "key": "won_mid_pg",
    "label": "Ballgewinne im Mittelfeld pro Spiel",
-   "value": 16.3,
+   "value": 16.55,
    "fmt": "dec1",
    "rank": 17
-  },
-  {
-   "key": "goals_minus_xg",
-   "label": "Tore minus xG",
-   "value": -4.94,
-   "fmt": "signed1",
-   "rank": 17
-  },
-  {
-   "key": "points_minus_xpoints",
-   "label": "Punkte minus xPunkte",
-   "value": -4.7512,
-   "fmt": "signed1",
-   "rank": 17
-  },
-  {
-   "key": "yellow_pg",
-   "label": "Gelbe Karten pro Spiel",
-   "value": 2.4,
-   "fmt": "dec2",
-   "rank": 16
   }
  ],
- "matchplan": [],
- "findings": [],
+ "matchplan": [
+  {
+   "key": "counter",
+   "text": "Gefährlich im Konter: Restverteidigung sichern, Ballverluste im Zentrum vermeiden.",
+   "evidence": [
+    {
+     "label": "Anteil Tore nach Kontern",
+     "value": 0.267,
+     "fmt": "pct"
+    },
+    {
+     "label": "Tore nach Kontern",
+     "value": 4,
+     "fmt": "int"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "key": "counter",
+   "text": "Gefährlich im Konter: Restverteidigung sichern, Ballverluste im Zentrum vermeiden.",
+   "evidence": [
+    {
+     "label": "Anteil Tore nach Kontern",
+     "value": 0.267,
+     "fmt": "pct"
+    },
+    {
+     "label": "Tore nach Kontern",
+     "value": 4,
+     "fmt": "int"
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Fouls pro Spiel (Platz 2)",
+   "evidence": [
+    {
+     "key": "fouls_pg",
+     "label": "Fouls pro Spiel",
+     "value": 9.5455,
+     "fmt": "dec1",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "strength",
+   "text": "Stark: Tacklings pro Spiel (Platz 3)",
+   "evidence": [
+    {
+     "key": "tackles_pg",
+     "label": "Tacklings pro Spiel",
+     "value": 18.3636,
+     "fmt": "dec1",
+     "rank": 3
+    }
+   ]
+  }
+ ],
  "buildup": {
   "metrics": [
    {
     "key": "possession",
     "label": "Ballbesitz Ø",
-    "value": 0.481,
+    "value": 0.48,
     "fmt": "pct",
     "rank": 12
    },
    {
     "key": "pass_accuracy",
     "label": "Passquote",
-    "value": 0.8386,
+    "value": 0.838,
     "fmt": "pct",
     "rank": 5
    },
    {
     "key": "opp_half_share",
     "label": "Anteil Pässe in der gegn. Hälfte",
-    "value": 0.3967,
+    "value": 0.3871,
     "fmt": "pct",
     "rank": 8
    },
    {
     "key": "long_ball_accuracy",
     "label": "Lange Bälle angekommen",
-    "value": 0.4302,
+    "value": 0.4414,
     "fmt": "pct",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "cross_accuracy",
     "label": "Flankenquote",
-    "value": 0.2383,
+    "value": 0.2484,
     "fmt": "pct",
-    "rank": 13
+    "rank": 10
    },
    {
     "key": "field_tilt",
     "label": "Field Tilt",
-    "value": 0.4972,
+    "value": 0.5049,
     "fmt": "pct",
-    "rank": 9
+    "rank": 8
    }
   ],
   "zones": {
-   "left": 43.7,
-   "center": 25.2,
-   "right": 31.1
+   "left": 43.5,
+   "center": 25.6,
+   "right": 30.8
   }
  },
  "scoring": {
   "situations": {
    "Spielaufbau": {
-    "goals": 5,
-    "xg": 7.55,
-    "shots": 81,
-    "share": 0.5
+    "goals": 8,
+    "xg": 8.75,
+    "shots": 91,
+    "share": 0.533
    },
    "Konter": {
-    "goals": 2,
-    "xg": 3.71,
-    "shots": 15,
-    "share": 0.2
+    "goals": 4,
+    "xg": 4.77,
+    "shots": 21,
+    "share": 0.267
    },
    "Standard": {
     "goals": 3,
-    "xg": 4.07,
-    "shots": 46,
-    "share": 0.3
+    "xg": 4.2,
+    "shots": 49,
+    "share": 0.2
    },
    "Elfmeter": {
     "goals": 0,
@@ -173,50 +224,50 @@
    }
   },
   "bands": [
+   3,
    2,
    1,
-   0,
    1,
-   2,
+   4,
    5
   ],
-  "goals": 11,
-  "inside_box": 0.685,
+  "goals": 16,
+  "inside_box": 0.71,
   "metrics": [
    {
     "key": "goals_pg",
     "label": "Tore pro Spiel",
-    "value": 1.1,
+    "value": 1.4545,
     "fmt": "dec2",
-    "rank": 14
+    "rank": 13
    },
    {
     "key": "xg_pg",
     "label": "xG pro Spiel",
-    "value": 1.594,
+    "value": 1.6655,
     "fmt": "dec2",
-    "rank": 12
+    "rank": 10
    },
    {
     "key": "big_chances_pg",
     "label": "Großchancen pro Spiel",
-    "value": 2.7,
+    "value": 2.8182,
     "fmt": "dec1",
     "rank": 11
    },
    {
     "key": "xg_per_shot",
     "label": "xG pro Schuss",
-    "value": 0.1115,
+    "value": 0.1131,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
-    "value": -4.94,
+    "value": -2.32,
     "fmt": "signed1",
-    "rank": 17
+    "rank": 12
    }
   ]
  },
@@ -224,20 +275,20 @@
   "situations": {
    "Spielaufbau": {
     "goals": 9,
-    "xg": 9.71,
-    "shots": 87,
+    "xg": 11.23,
+    "shots": 100,
     "share": 0.6
    },
    "Konter": {
     "goals": 0,
-    "xg": 1.33,
-    "shots": 8,
+    "xg": 1.37,
+    "shots": 9,
     "share": 0.0
    },
    "Standard": {
     "goals": 6,
-    "xg": 3.38,
-    "shots": 43,
+    "xg": 3.97,
+    "shots": 53,
     "share": 0.4
    },
    "Elfmeter": {
@@ -257,45 +308,45 @@
   ],
   "goals": 15,
   "opp_zones": {
-   "left": 36.3,
-   "center": 26.4,
-   "right": 37.3
+   "left": 36.2,
+   "center": 27.0,
+   "right": 36.8
   },
   "metrics": [
    {
     "key": "against_pg",
     "label": "Gegentore pro Spiel",
-    "value": 1.5,
+    "value": 1.3636,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 4
    },
    {
     "key": "xga_pg",
     "label": "Zugelassene xG pro Spiel",
-    "value": 1.512,
+    "value": 1.5682,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
-    "value": 13.9,
+    "value": 14.8182,
     "fmt": "dec1",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
-    "value": 2.5,
+    "value": 2.4545,
     "fmt": "dec1",
     "rank": 6
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
-    "value": 1,
+    "value": 2,
     "fmt": "int",
-    "rank": 13
+    "rank": 10
    }
   ]
  },
@@ -304,16 +355,16 @@
    {
     "key": "xg_setplay_pg",
     "label": "xG nach Standards pro Spiel",
-    "value": 0.406,
+    "value": 0.3809,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "xga_setplay_pg",
     "label": "Zugelassene xG nach Standards pro Spiel",
-    "value": 0.35,
+    "value": 0.3718,
     "fmt": "dec2",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "corners_pg",
@@ -325,64 +376,64 @@
   ],
   "goals_for": 3,
   "goals_against": 6,
-  "corners_against": 5.6
+  "corners_against": 6.0
  },
  "key_players": [
   {
    "id": 1613676,
    "name": "Saïd El Mala",
    "pos": "LW",
-   "minutes": 678,
-   "goals": 3,
+   "minutes": 756,
+   "goals": 5,
    "assists": 1,
-   "rating": 6.99,
-   "xg90": 0.45,
-   "xa90": 0.12,
+   "rating": 7.19,
+   "xg90": 0.57,
+   "xa90": 0.11,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Ballaktionen im gegn. Strafraum (94. Perzentil)"
    ]
   },
   {
-   "id": 1407250,
-   "name": "Mikey Moore",
-   "pos": "LW",
-   "minutes": 586,
-   "goals": 1,
-   "assists": 0,
-   "rating": 6.71,
-   "xg90": 0.39,
-   "xa90": 0.14,
-   "why": [
-    "Ballverluste im Zweikampf (100. Perzentil)",
-    "Gelbe Karten (100. Perzentil)"
-   ]
-  },
-  {
    "id": 626890,
    "name": "Marius Bülter",
    "pos": "ST",
-   "minutes": 551,
-   "goals": 0,
+   "minutes": 624,
+   "goals": 3,
    "assists": 0,
-   "rating": 6.78,
-   "xg90": 0.39,
-   "xa90": 0.08,
+   "rating": 7.15,
+   "xg90": 0.43,
+   "xa90": 0.11,
    "why": [
     "Gefoult worden (100. Perzentil)",
     "Klärungen (100. Perzentil)"
    ]
   },
   {
+   "id": 1407250,
+   "name": "Mikey Moore",
+   "pos": "LW",
+   "minutes": 651,
+   "goals": 1,
+   "assists": 1,
+   "rating": 6.8,
+   "xg90": 0.37,
+   "xa90": 0.15,
+   "why": [
+    "Ballverluste im Zweikampf (100. Perzentil)",
+    "Gelbe Karten (100. Perzentil)"
+   ]
+  },
+  {
    "id": 930035,
    "name": "Linton Maina",
    "pos": "AM",
-   "minutes": 716,
+   "minutes": 806,
    "goals": 1,
    "assists": 2,
-   "rating": 6.87,
+   "rating": 6.98,
    "xg90": 0.11,
-   "xa90": 0.15,
+   "xa90": 0.14,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Fouls (93. Perzentil)"
@@ -392,12 +443,12 @@
    "id": 622091,
    "name": "Borna Sosa",
    "pos": "LWB",
-   "minutes": 566,
+   "minutes": 656,
    "goals": 0,
-   "assists": 0,
-   "rating": 7.41,
+   "assists": 2,
+   "rating": 7.6,
    "xg90": 0.02,
-   "xa90": 0.15,
+   "xa90": 0.2,
    "why": [
     "Rote Karten (100. Perzentil)",
     "Zweikampfquote (95. Perzentil)"
@@ -408,20 +459,20 @@
   "Angriff": {
    "id": 1613676,
    "name": "Saïd El Mala",
-   "rating": 6.99,
-   "minutes": 678
+   "rating": 7.19,
+   "minutes": 756
   },
   "Abwehr": {
    "id": 622091,
    "name": "Borna Sosa",
-   "rating": 7.41,
-   "minutes": 566
+   "rating": 7.6,
+   "minutes": 656
   },
   "Mittelfeld": {
    "id": 992060,
    "name": "Tom Krauß",
-   "rating": 7.32,
-   "minutes": 817
+   "rating": 7.35,
+   "minutes": 895
   }
  },
  "load": [
@@ -450,63 +501,63 @@
    "full": true
   },
   {
-   "id": 1613676,
-   "name": "Saïd El Mala",
-   "minutes": 265,
-   "full": true
-  },
-  {
    "id": 1527363,
    "name": "Paul Okon-Engstler",
    "minutes": 257,
    "full": true
   },
   {
-   "id": 992060,
-   "name": "Tom Krauß",
-   "minutes": 254,
+   "id": 1613676,
+   "name": "Saïd El Mala",
+   "minutes": 253,
    "full": true
-  },
-  {
-   "id": 936140,
-   "name": "Sebastian Sebulonsen",
-   "minutes": 230,
-   "full": false
   },
   {
    "id": 930035,
    "name": "Linton Maina",
-   "minutes": 224,
+   "minutes": 242,
+   "full": false
+  },
+  {
+   "id": 936140,
+   "name": "Sebastian Sebulonsen",
+   "minutes": 242,
+   "full": false
+  },
+  {
+   "id": 992060,
+   "name": "Tom Krauß",
+   "minutes": 242,
    "full": false
   },
   {
    "id": 1407250,
    "name": "Mikey Moore",
-   "minutes": 202,
+   "minutes": 238,
    "full": false
   },
   {
    "id": 626890,
    "name": "Marius Bülter",
-   "minutes": 166,
-   "full": false
-  },
-  {
-   "id": 1000428,
-   "name": "Ísak Jóhannesson",
-   "minutes": 90,
+   "minutes": 149,
    "full": false
   },
   {
    "id": 784175,
    "name": "Luka Lochoshvili",
-   "minutes": 90,
+   "minutes": 102,
    "full": false
   },
   {
-   "id": 748620,
-   "name": "Alessio Castro-Montes",
-   "minutes": 40,
+   "id": 1000428,
+   "name": "Ísak Jóhannesson",
+   "minutes": 54,
+   "full": false
+  },
+  {
+   "id": 1665352,
+   "name": "Reigan Heskey",
+   "minutes": 32,
    "full": false
   }
  ],
@@ -549,8 +600,8 @@
  ],
  "reaction": {
   "ht_lead": {
-   "games": 1,
-   "points": 1
+   "games": 2,
+   "points": 4
   },
   "ht_draw": {
    "games": 4,
@@ -564,14 +615,14 @@
   "points_dropped": 4,
   "late_for": 5,
   "late_against": 4,
-  "goals_for": 11,
+  "goals_for": 16,
   "goals_against": 15,
   "for_bands": [
+   3,
    2,
    1,
-   0,
    1,
-   2,
+   4,
    5
   ],
   "against_bands": [

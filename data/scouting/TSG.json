@@ -84,23 +84,16 @@
   "away": "FCA",
   "kickoff": "2026-11-29T16:30:00Z",
   "tip": [
-   2,
+   3,
    1
   ],
   "probs": [
-   0.6419,
-   0.1688,
-   0.1893
+   0.6662,
+   0.1615,
+   0.1724
   ]
  },
  "strengths": [
-  {
-   "key": "interceptions_pg",
-   "label": "Abgefangene Bälle pro Spiel",
-   "value": 12.6,
-   "fmt": "dec1",
-   "rank": 1
-  },
   {
    "key": "press_ratio",
    "label": "PPDA (Pässe des Gegners pro Ballgewinn)",
@@ -116,9 +109,16 @@
    "rank": 2
   },
   {
-   "key": "corners_pg",
-   "label": "Ecken pro Spiel",
-   "value": 6.0,
+   "key": "interceptions_pg",
+   "label": "Abgefangene Bälle pro Spiel",
+   "value": 12.6,
+   "fmt": "dec1",
+   "rank": 2
+  },
+  {
+   "key": "won_mid_pg",
+   "label": "Ballgewinne im Mittelfeld pro Spiel",
+   "value": 21.4,
    "fmt": "dec1",
    "rank": 3
   }
@@ -130,6 +130,20 @@
    "value": 0.277,
    "fmt": "dec2",
    "rank": 18
+  },
+  {
+   "key": "points_minus_xpoints",
+   "label": "Punkte minus xPunkte",
+   "value": -4.2852,
+   "fmt": "signed1",
+   "rank": 17
+  },
+  {
+   "key": "goals_minus_xg",
+   "label": "Tore minus xG",
+   "value": -3.56,
+   "fmt": "signed1",
+   "rank": 16
   }
  ],
  "matchplan": [
@@ -240,7 +254,7 @@
     "label": "Passquote",
     "value": 0.805,
     "fmt": "pct",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "opp_half_share",
@@ -254,7 +268,7 @@
     "label": "Lange Bälle angekommen",
     "value": 0.46,
     "fmt": "pct",
-    "rank": 5
+    "rank": 6
    },
    {
     "key": "cross_accuracy",
@@ -320,7 +334,7 @@
     "label": "Tore pro Spiel",
     "value": 1.6,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 9
    },
    {
     "key": "xg_pg",
@@ -341,14 +355,14 @@
     "label": "xG pro Schuss",
     "value": 0.1124,
     "fmt": "dec2",
-    "rank": 10
+    "rank": 11
    },
    {
     "key": "goals_minus_xg",
     "label": "Tore minus xG",
     "value": -3.56,
     "fmt": "signed1",
-    "rank": 15
+    "rank": 16
    }
   ]
  },
@@ -406,28 +420,28 @@
     "label": "Zugelassene xG pro Spiel",
     "value": 1.536,
     "fmt": "dec2",
-    "rank": 6
+    "rank": 5
    },
    {
     "key": "shots_against_pg",
     "label": "Zugelassene Schüsse pro Spiel",
     "value": 15.2,
     "fmt": "dec1",
-    "rank": 7
+    "rank": 8
    },
    {
     "key": "big_chances_against_pg",
     "label": "Zugelassene Großchancen pro Spiel",
     "value": 3.0,
     "fmt": "dec1",
-    "rank": 9
+    "rank": 10
    },
    {
     "key": "clean_sheets",
     "label": "Spiele ohne Gegentor",
     "value": 1,
     "fmt": "int",
-    "rank": 13
+    "rank": 15
    }
   ]
  },
@@ -445,7 +459,7 @@
     "label": "Zugelassene xG nach Standards pro Spiel",
     "value": 0.467,
     "fmt": "dec2",
-    "rank": 11
+    "rank": 10
    },
    {
     "key": "corners_pg",
