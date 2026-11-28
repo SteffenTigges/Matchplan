@@ -23,11 +23,19 @@
  "seasons": [
   {
    "season": "2026/2027",
-   "apps": 1,
+   "apps": 3,
    "goals": 0,
    "assists": 0,
-   "rating": 5.9,
+   "rating": 5.91,
    "competitions": [
+    {
+     "league": "Bundesliga",
+     "league_id": 54,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.99
+    },
     {
      "league": "DFB Pokal",
      "league_id": 209,
@@ -35,6 +43,14 @@
      "goals": 0,
      "assists": 0,
      "rating": 5.9
+    },
+    {
+     "league": "Champions League",
+     "league_id": 42,
+     "apps": 1,
+     "goals": 0,
+     "assists": 0,
+     "rating": 5.85
     }
    ]
   },
@@ -96,7 +112,7 @@
     "team": "Bayern München",
     "start": "2026-07-24",
     "end": null,
-    "apps": 1,
+    "apps": 3,
     "goals": 0,
     "kind": null
    },
@@ -149,5 +165,5 @@
  },
  "transfers": [],
  "v": 2,
- "fetched_at": "2026-11-20T23:58:34+00:00"
+ "fetched_at": "2026-11-28T01:57:48+00:00"
 }
