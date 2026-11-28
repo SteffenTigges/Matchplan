@@ -4,12 +4,12 @@
  "home": "VFB",
  "away": "SGE",
  "kickoff": "2026-11-28T17:30:00Z",
- "updated_at": "2026-11-28T18:04:20+00:00",
+ "updated_at": "2026-11-28T18:05:22+00:00",
  "status": {
   "started": true,
   "finished": false,
   "cancelled": false,
-  "minute": "24'",
+  "minute": "35'",
   "reason": null,
   "score": [
    0,
@@ -27,24 +27,24 @@
  ],
  "stats": {
   "BallPossesion": [
-   50,
-   50
+   54,
+   46
   ],
   "expected_goals": [
-   0.02,
-   0.2
+   0.2,
+   0.3
   ],
   "total_shots": [
-   1,
-   3
+   5,
+   5
   ],
   "ShotsOnTarget": [
-   0,
-   1
+   1,
+   2
   ],
   "touches_opp_box": [
-   2,
-   5
+   5,
+   8
   ],
   "big_chance": [
    0,
@@ -56,12 +56,12 @@
   ],
   "accurate_passes": [
    {
-    "n": 82,
-    "pct": 80
+    "n": 145,
+    "pct": 83
    },
    {
-    "n": 78,
-    "pct": 76
+    "n": 114,
+    "pct": 78
    }
   ],
   "yellow_cards": [
@@ -70,54 +70,54 @@
   ],
   "corners": [
    0,
-   2
+   3
   ],
   "blocked_shots": [
-   1,
+   4,
    2
   ],
   "shots_inside_box": [
-   0,
-   3
+   2,
+   5
   ],
   "expected_goals_open_play": [
-   0.02,
-   0.06
+   0.2,
+   0.15
   ],
   "expected_goals_set_play": [
    0.0,
    0.15
   ],
   "expected_goals_on_target": [
-   0.0,
-   0.04
+   0.11,
+   0.17
   ],
   "passes": [
-   103,
-   103
+   175,
+   147
   ],
   "own_half_passes": [
-   45,
-   43
+   77,
+   58
   ],
   "opposition_half_passes": [
-   37,
-   35
+   68,
+   56
   ],
   "long_balls_accurate": [
    {
-    "n": 6,
-    "pct": 46
+    "n": 11,
+    "pct": 58
    },
    {
-    "n": 5,
-    "pct": 38
+    "n": 9,
+    "pct": 43
    }
   ],
   "accurate_crosses": [
    {
-    "n": 0,
-    "pct": 0
+    "n": 1,
+    "pct": 17
    },
    {
     "n": 0,
@@ -125,51 +125,51 @@
    }
   ],
   "Offsides": [
-   0,
-   0
+   1,
+   1
   ],
   "tackles": [
-   6,
+   9,
    1
   ],
   "interceptions": [
-   2,
-   4
+   3,
+   5
   ],
   "shot_blocks": [
-   2,
-   0
+   3,
+   3
   ],
   "clearances": [
-   12,
-   4
+   14,
+   7
   ],
   "keeper_saves": [
-   1,
-   0
+   2,
+   1
   ],
   "duel_won": [
-   13,
-   7
+   20,
+   8
   ],
   "ground_duels_won": [
    {
-    "n": 10,
-    "pct": 83
+    "n": 14,
+    "pct": 82
    },
    {
-    "n": 2,
+    "n": 3,
     "pct": 17
    }
   ],
   "aerials_won": [
    {
-    "n": 3,
-    "pct": 38
+    "n": 6,
+    "pct": 55
    },
    {
     "n": 5,
-    "pct": 63
+    "pct": 45
    }
   ],
   "dribbles_succeeded": [
@@ -187,8 +187,8 @@
    0
   ],
   "fouls": [
-   2,
-   2
+   3,
+   3
   ]
  },
  "momentum": [
@@ -274,63 +274,63 @@
   ],
   [
    20,
-   null
+   -5
   ],
   [
    21,
-   null
+   5
   ],
   [
    22,
-   null
+   0
   ],
   [
    23,
-   null
+   -16
   ],
   [
    24,
-   null
+   -22
   ],
   [
    25,
-   null
+   -33
   ],
   [
    26,
-   null
+   -33
   ],
   [
    27,
-   null
+   -27
   ],
   [
    28,
-   null
+   -22
   ],
   [
    29,
-   null
+   -11
   ],
   [
    30,
-   null
+   87
   ],
   [
    31,
-   null
+   87
   ],
   [
    32,
-   null
+   100
   ],
   [
    33,
-   null
+   41
   ],
   [
    34,
-   null
+   24
   ],
   [
    35,
@@ -613,31 +613,109 @@
    "type": "RightFoot",
    "result": "blocked",
    "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Farès Chaïbi",
+   "min": 26,
+   "x": 94.1929824545,
+   "y": 47.2236942643,
+   "xg": 0.06047386676073074,
+   "xgot": 0,
+   "situation": "FastBreak",
+   "type": "LeftFoot",
+   "result": "miss",
+   "own_goal": false
+  },
+  {
+   "team": "SGE",
+   "player": "Jonathan Burkardt",
+   "min": 29,
+   "x": 90.1,
+   "y": 46.382929932699994,
+   "xg": 0.036817517131567,
+   "xgot": 0.132383793592453,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Deniz Undav",
+   "min": 30,
+   "x": 74.82669903120001,
+   "y": 32.3225,
+   "xg": 0.01656462997198105,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Jamie Leweling",
+   "min": 30,
+   "x": 95.35087719170001,
+   "y": 23.158471341899997,
+   "xg": 0.03894320875406265,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "RightFoot",
+   "result": "blocked",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Maximilian Mittelstädt",
+   "min": 30,
+   "x": 83.49854368960001,
+   "y": 37.05,
+   "xg": 0.04686334729194641,
+   "xgot": 0.10768043249845505,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "saved",
+   "own_goal": false
+  },
+  {
+   "team": "VFB",
+   "player": "Grischa Prömel",
+   "min": 32,
+   "x": 95.35087719170001,
+   "y": 32.551249999999996,
+   "xg": 0.0751214399933815,
+   "xgot": 0,
+   "situation": "RegularPlay",
+   "type": "LeftFoot",
+   "result": "blocked",
+   "own_goal": false
   }
  ],
  "zones": {
   "home": {
-   "left": 33,
-   "center": 25,
-   "right": 42
+   "left": 28,
+   "center": 40,
+   "right": 32
   },
   "away": {
-   "left": 14,
-   "center": 35,
-   "right": 51
+   "left": 22,
+   "center": 32,
+   "right": 46
   }
  },
  "lineups": {
   "home": {
    "team": "VFB",
    "formation": "3-4-1-2",
-   "rating": 6.2,
+   "rating": 6.4,
    "players": [
     {
      "id": 1478098,
      "name": "Dennis Seimen",
      "pos_id": 11,
-     "rating": 6.1,
+     "rating": 6.4,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -646,7 +724,7 @@
      "id": 1270002,
      "name": "Luca Jaquez",
      "pos_id": 33,
-     "rating": 6.3,
+     "rating": 6.4,
      "captain": false,
      "x": 0.21,
      "y": 0.292
@@ -655,7 +733,7 @@
      "id": 867080,
      "name": "Jeff Chabot",
      "pos_id": 35,
-     "rating": 6.2,
+     "rating": 6.3,
      "captain": false,
      "x": 0.5,
      "y": 0.292
@@ -664,7 +742,7 @@
      "id": 1125187,
      "name": "Ramon Hendriks",
      "pos_id": 37,
-     "rating": 6.2,
+     "rating": 6.4,
      "captain": false,
      "x": 0.79,
      "y": 0.292
@@ -682,7 +760,7 @@
      "id": 684983,
      "name": "Atakan Karazor",
      "pos_id": 64,
-     "rating": 5.9,
+     "rating": 6.2,
      "captain": false,
      "x": 0.375,
      "y": 0.485
@@ -700,7 +778,7 @@
      "id": 614384,
      "name": "Maximilian Mittelstädt",
      "pos_id": 68,
-     "rating": 6.5,
+     "rating": 6.8,
      "captain": false,
      "x": 0.875,
      "y": 0.485
@@ -709,7 +787,7 @@
      "id": 625175,
      "name": "Grischa Prömel",
      "pos_id": 85,
-     "rating": 5.9,
+     "rating": 6.1,
      "captain": false,
      "x": 0.5,
      "y": 0.678
@@ -718,7 +796,7 @@
      "id": 840241,
      "name": "Ermedin Demirović",
      "pos_id": 104,
-     "rating": 5.8,
+     "rating": 6,
      "captain": false,
      "x": 0.3,
      "y": 0.87
@@ -727,7 +805,7 @@
      "id": 661519,
      "name": "Deniz Undav",
      "pos_id": 106,
-     "rating": 6.1,
+     "rating": 6.5,
      "captain": true,
      "x": 0.7,
      "y": 0.87
@@ -737,13 +815,13 @@
   "away": {
    "team": "SGE",
    "formation": "4-4-2",
-   "rating": 6,
+   "rating": 6.1,
    "players": [
     {
      "id": 1281100,
      "name": "Noah Atubolu",
      "pos_id": 11,
-     "rating": 5.9,
+     "rating": 6.2,
      "captain": false,
      "x": 0.5,
      "y": 0.1
@@ -761,7 +839,7 @@
      "id": 628201,
      "name": "Robin Koch",
      "pos_id": 34,
-     "rating": 6.1,
+     "rating": 6.2,
      "captain": true,
      "x": 0.375,
      "y": 0.357
@@ -770,7 +848,7 @@
      "id": 1073941,
      "name": "Lilian Brassier",
      "pos_id": 36,
-     "rating": 6.2,
+     "rating": 6.3,
      "captain": false,
      "x": 0.625,
      "y": 0.357
@@ -788,7 +866,7 @@
      "id": 629805,
      "name": "Ritsu Doan",
      "pos_id": 72,
-     "rating": 6.1,
+     "rating": 6.2,
      "captain": false,
      "x": 0.125,
      "y": 0.613
@@ -797,7 +875,7 @@
      "id": 177714,
      "name": "Mario Götze",
      "pos_id": 74,
-     "rating": 6.2,
+     "rating": 6.1,
      "captain": false,
      "x": 0.375,
      "y": 0.613
@@ -806,7 +884,7 @@
      "id": 1126768,
      "name": "Raphael Onyedika",
      "pos_id": 76,
-     "rating": 5.8,
+     "rating": 6,
      "captain": false,
      "x": 0.625,
      "y": 0.613
@@ -824,7 +902,7 @@
      "id": 1447050,
      "name": "Younes Ebnoutalib",
      "pos_id": 104,
-     "rating": 5.8,
+     "rating": 5.7,
      "captain": false,
      "x": 0.3,
      "y": 0.87
@@ -833,7 +911,7 @@
      "id": 947901,
      "name": "Jonathan Burkardt",
      "pos_id": 106,
-     "rating": 5.9,
+     "rating": 6.2,
      "captain": false,
      "x": 0.7,
      "y": 0.87
@@ -847,19 +925,19 @@
    "team": "SGE",
    "name": "Mario Götze",
    "keeper": false,
-   "rating": 6.15,
+   "rating": 6.07,
    "goals": 0,
    "assists": 0,
    "xa": 0.03,
    "key_passes": 1,
-   "touches": 15,
+   "touches": 22,
    "touches_box": 0,
-   "final_third_passes": 3,
+   "final_third_passes": 4,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0,
+   "recoveries": 1,
    "duels_won": 2,
-   "duels_lost": 1
+   "duels_lost": 2
   },
   {
    "id": 522236,
@@ -872,35 +950,39 @@
    "team": "VFB",
    "name": "Maximilian Mittelstädt",
    "keeper": false,
-   "rating": 6.45,
+   "rating": 6.82,
    "goals": 0,
    "assists": 0,
-   "xa": 0.02,
+   "xg": 0.05,
+   "xa": 0.15,
+   "shots": 1,
    "key_passes": 0,
-   "touches": 19,
+   "touches": 33,
    "touches_box": 0,
    "dribbles": 1,
-   "tackles": 1,
+   "tackles": 2,
    "interceptions": 0,
-   "recoveries": 2,
-   "duels_won": 2
+   "recoveries": 3,
+   "duels_won": 3
   },
   {
    "id": 625175,
    "team": "VFB",
    "name": "Grischa Prömel",
    "keeper": false,
-   "rating": 5.86,
+   "rating": 6.07,
    "goals": 0,
    "assists": 0,
+   "xg": 0.08,
    "xa": 0.01,
-   "key_passes": 0,
-   "touches": 13,
-   "touches_box": 0,
+   "shots": 1,
+   "key_passes": 1,
+   "touches": 18,
+   "touches_box": 1,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_won": 1,
+   "duels_won": 2,
    "duels_lost": 2
   },
   {
@@ -908,69 +990,74 @@
    "team": "SGE",
    "name": "Robin Koch",
    "keeper": false,
-   "rating": 6.05,
+   "rating": 6.22,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 24,
+   "touches": 32,
    "touches_box": 0,
-   "final_third_passes": 2,
+   "final_third_passes": 3,
    "tackles": 0,
-   "interceptions": 1,
-   "recoveries": 0,
-   "duels_lost": 1
+   "interceptions": 2,
+   "recoveries": 1,
+   "duels_lost": 3
   },
   {
    "id": 629805,
    "team": "SGE",
    "name": "Ritsu Doan",
    "keeper": false,
-   "rating": 6.09,
+   "rating": 6.21,
    "goals": 0,
    "assists": 0,
    "xa": 0.02,
    "key_passes": 0,
-   "touches": 15,
+   "touches": 21,
    "touches_box": 0,
+   "dribbles": 0,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 1,
    "recoveries": 2,
    "duels_won": 1,
-   "duels_lost": 2
+   "duels_lost": 3
   },
   {
    "id": 661519,
    "team": "VFB",
    "name": "Deniz Undav",
    "keeper": false,
-   "rating": 6.14,
+   "rating": 6.48,
    "goals": 0,
    "assists": 0,
-   "xa": 0.01,
-   "key_passes": 1,
-   "touches": 9,
+   "xg": 0.02,
+   "xa": 0.03,
+   "shots": 1,
+   "key_passes": 2,
+   "touches": 19,
    "touches_box": 0,
    "final_third_passes": 2,
-   "tackles": 0,
+   "tackles": 1,
    "interceptions": 1,
-   "recoveries": 0
+   "recoveries": 2,
+   "duels_won": 1
   },
   {
    "id": 684983,
    "team": "VFB",
    "name": "Atakan Karazor",
    "keeper": false,
-   "rating": 5.87,
+   "rating": 6.15,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 12,
+   "touches": 22,
    "touches_box": 0,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0,
+   "recoveries": 1,
+   "duels_won": 1,
    "duels_lost": 1
   },
   {
@@ -978,31 +1065,33 @@
    "team": "VFB",
    "name": "Ermedin Demirović",
    "keeper": false,
-   "rating": 5.8,
+   "rating": 6.03,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 4,
-   "touches_box": 0,
+   "xa": 0.07,
+   "key_passes": 1,
+   "touches": 8,
+   "touches_box": 1,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 0,
-   "duels_lost": 1
+   "duels_won": 2,
+   "duels_lost": 2
   },
   {
    "id": 867080,
    "team": "VFB",
    "name": "Jeff Chabot",
    "keeper": false,
-   "rating": 6.23,
+   "rating": 6.34,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 17,
+   "touches": 28,
    "touches_box": 0,
    "final_third_passes": 1,
    "tackles": 0,
-   "interceptions": 0,
+   "interceptions": 1,
    "recoveries": 1,
    "duels_won": 1
   },
@@ -1011,18 +1100,18 @@
    "team": "VFB",
    "name": "Nikolas Nartey",
    "keeper": false,
-   "rating": 6.47,
+   "rating": 6.49,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 15,
+   "touches": 28,
    "touches_box": 0,
    "dribbles": 1,
-   "final_third_passes": 1,
-   "tackles": 0,
+   "final_third_passes": 3,
+   "tackles": 1,
    "interceptions": 1,
-   "recoveries": 2,
-   "duels_won": 2,
+   "recoveries": 3,
+   "duels_won": 3,
    "duels_lost": 1
   },
   {
@@ -1042,17 +1131,19 @@
    "team": "SGE",
    "name": "Jonathan Burkardt",
    "keeper": false,
-   "rating": 5.86,
+   "rating": 6.15,
    "goals": 0,
    "assists": 0,
-   "xg": 0.05,
-   "shots": 1,
+   "xg": 0.09,
+   "xa": 0.01,
+   "shots": 2,
    "key_passes": 0,
-   "touches": 6,
-   "touches_box": 1,
+   "touches": 13,
+   "touches_box": 2,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 0,
+   "recoveries": 2,
    "duels_won": 1,
    "duels_lost": 1
   },
@@ -1067,34 +1158,34 @@
    "team": "SGE",
    "name": "Lilian Brassier",
    "keeper": false,
-   "rating": 6.19,
+   "rating": 6.31,
    "goals": 0,
    "assists": 0,
    "xg": 0.09,
    "shots": 1,
    "key_passes": 0,
-   "touches": 18,
+   "touches": 24,
    "touches_box": 1,
    "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 1,
    "recoveries": 0,
-   "duels_won": 1
+   "duels_won": 2
   },
   {
    "id": 1074968,
    "team": "VFB",
    "name": "Jamie Leweling",
    "keeper": false,
-   "rating": 6.38,
+   "rating": 6.39,
    "goals": 0,
    "assists": 0,
-   "xg": 0.02,
+   "xg": 0.06,
    "xa": 0.02,
-   "shots": 1,
+   "shots": 2,
    "key_passes": 0,
-   "touches": 22,
-   "touches_box": 2,
+   "touches": 29,
+   "touches_box": 3,
    "final_third_passes": 2,
    "tackles": 2,
    "interceptions": 0,
@@ -1107,13 +1198,14 @@
    "team": "VFB",
    "name": "Ramon Hendriks",
    "keeper": false,
-   "rating": 6.22,
+   "rating": 6.39,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 21,
+   "xa": 0.11,
+   "key_passes": 1,
+   "touches": 29,
    "touches_box": 0,
-   "final_third_passes": 4,
+   "final_third_passes": 5,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 0,
@@ -1125,12 +1217,14 @@
    "team": "SGE",
    "name": "Raphael Onyedika",
    "keeper": false,
-   "rating": 5.84,
+   "rating": 6.03,
    "goals": 0,
    "assists": 0,
-   "key_passes": 0,
-   "touches": 12,
+   "xa": 0.15,
+   "key_passes": 1,
+   "touches": 19,
    "touches_box": 0,
+   "final_third_passes": 2,
    "tackles": 0,
    "interceptions": 0,
    "recoveries": 1,
@@ -1147,18 +1241,18 @@
    "team": "SGE",
    "name": "Ansgar Knauff",
    "keeper": false,
-   "rating": 6.08,
+   "rating": 6.05,
    "goals": 0,
    "assists": 0,
    "key_passes": 0,
-   "touches": 16,
+   "touches": 25,
    "touches_box": 1,
    "dribbles": 0,
    "tackles": 0,
    "interceptions": 1,
-   "recoveries": 1,
+   "recoveries": 3,
    "duels_won": 1,
-   "duels_lost": 1
+   "duels_lost": 3
   },
   {
    "id": 1176780,
@@ -1171,11 +1265,12 @@
    "team": "VFB",
    "name": "Luca Jaquez",
    "keeper": false,
-   "rating": 6.32,
+   "rating": 6.36,
    "goals": 0,
    "assists": 0,
+   "xa": 0.01,
    "key_passes": 0,
-   "touches": 17,
+   "touches": 23,
    "touches_box": 0,
    "tackles": 1,
    "interceptions": 0,
@@ -1193,9 +1288,9 @@
    "team": "SGE",
    "name": "Noah Atubolu",
    "keeper": true,
-   "rating": 5.93,
-   "recoveries": 2,
-   "touches": 11,
+   "rating": 6.18,
+   "recoveries": 4,
+   "touches": 15,
    "tackles": 0,
    "final_third_passes": 1,
    "interceptions": 0
@@ -1211,12 +1306,14 @@
    "team": "SGE",
    "name": "Farès Chaïbi",
    "keeper": false,
-   "rating": 5.96,
+   "rating": 5.98,
    "goals": 0,
    "assists": 0,
+   "xg": 0.06,
+   "shots": 1,
    "key_passes": 0,
-   "touches": 8,
-   "touches_box": 1,
+   "touches": 13,
+   "touches_box": 2,
    "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
@@ -1244,9 +1341,10 @@
    "assists": 0,
    "xa": 0.08,
    "key_passes": 1,
-   "touches": 9,
-   "touches_box": 0,
+   "touches": 14,
+   "touches_box": 1,
    "dribbles": 0,
+   "final_third_passes": 1,
    "tackles": 1,
    "interceptions": 0,
    "recoveries": 0,
@@ -1258,28 +1356,29 @@
    "team": "SGE",
    "name": "Younes Ebnoutalib",
    "keeper": false,
-   "rating": 5.77,
+   "rating": 5.65,
    "goals": 0,
    "assists": 0,
    "xg": 0.06,
    "shots": 1,
    "key_passes": 0,
-   "touches": 9,
+   "touches": 14,
    "touches_box": 1,
    "dribbles": 0,
+   "final_third_passes": 1,
    "tackles": 0,
    "interceptions": 0,
-   "recoveries": 3,
-   "duels_lost": 3
+   "recoveries": 4,
+   "duels_lost": 5
   },
   {
    "id": 1478098,
    "team": "VFB",
    "name": "Dennis Seimen",
    "keeper": true,
-   "rating": 6.11,
-   "recoveries": 3,
-   "touches": 6,
+   "rating": 6.41,
+   "recoveries": 5,
+   "touches": 16,
    "tackles": 0,
    "interceptions": 0
   },
